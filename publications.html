@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Publications - The Boyle Lab</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<link rel='stylesheet' type='text/css' href='main_style.css' />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,400italic,700italic' rel='stylesheet' type='text/css' />
+
+<style type='text/css'>
+a{color:#000;}
+.button_pubmed {
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
+	background:-moz-linear-gradient( center top, #3d94f6 5%, #1e62d0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0');
+	background-color:#3d94f6;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #337fed;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:10px;
+	font-weight:bold;
+	padding:0px 9px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #1570cd;
+}.button_pubmed:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6) );
+	background:-moz-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6');
+	background-color:#1e62d0;
+}.button_pubmed:active {
+	position:relative;
+	top:1px;
+}
+.button_bibtex {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fed897;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fed897;
+	box-shadow:inset 0px 1px 0px 0px #fed897;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f6b33d), color-stop(1, #d29105) );
+	background:-moz-linear-gradient( center top, #f6b33d 5%, #d29105 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6b33d', endColorstr='#d29105');
+	background-color:#f6b33d;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #eda933;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:10px;
+	font-weight:bold;
+	padding:0px 9px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #cd8a15;
+}.button_bibtex:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d29105), color-stop(1, #f6b33d) );
+	background:-moz-linear-gradient( center top, #d29105 5%, #f6b33d 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d29105', endColorstr='#f6b33d');
+	background-color:#d29105;
+}.button_bibtex:active {
+	position:relative;
+	top:1px;
+}
+.button_doi {
+	-moz-box-shadow:inset 0px 1px 0px 0px #a4e271;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #a4e271;
+	box-shadow:inset 0px 1px 0px 0px #a4e271;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #89c403), color-stop(1, #77a809) );
+	background:-moz-linear-gradient( center top, #89c403 5%, #77a809 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#89c403', endColorstr='#77a809');
+	background-color:#89c403;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #74b807;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:10px;
+	font-weight:bold;
+	padding:0px 9px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #528009;
+}.button_doi:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77a809), color-stop(1, #89c403) );
+	background:-moz-linear-gradient( center top, #77a809 5%, #89c403 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77a809', endColorstr='#89c403');
+	background-color:#77a809;
+}.button_doi:active {
+	position:relative;
+	top:1px;
+}
+.button_pdf {
+	-moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100) );
+	background:-moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100');
+	background-color:#fe1a00;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #d83526;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:10px;
+	font-weight:bold;
+	padding:0px 9px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #b23e35;
+}.button_pdf:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00) );
+	background:-moz-linear-gradient( center top, #ce0100 5%, #fe1a00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00');
+	background-color:#ce0100;
+}.button_pdf:active {
+	position:relative;
+	top:1px;
+}
+.button_f1000 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f) );
+	background:-moz-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f');
+	background-color:#f24537;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #d02718;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:10px;
+	font-weight:bold;
+	padding:0px 9px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #810e05;
+}.button_f1000:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537) );
+	background:-moz-linear-gradient( center top, #c62d1f 5%, #f24537 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537');
+	background-color:#c62d1f;
+}.button_f1000:active {
+	position:relative;
+	top:1px;
+}
+.button_web {
+	-moz-box-shadow:inset 0px 1px 0px 0px #e184f3;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #e184f3;
+	box-shadow:inset 0px 1px 0px 0px #e184f3;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c123de), color-stop(1, #a20dbd) );
+	background:-moz-linear-gradient( center top, #c123de 5%, #a20dbd 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c123de', endColorstr='#a20dbd');
+	background-color:#c123de;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #a511c0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:10px;
+	font-weight:bold;
+	padding:0px 9px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #9b14b3;
+}.button_web:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a20dbd), color-stop(1, #c123de) );
+	background:-moz-linear-gradient( center top, #a20dbd 5%, #c123de 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a20dbd', endColorstr='#c123de');
+	background-color:#a20dbd;
+}.button_web:active {
+	position:relative;
+	top:1px;
+}
+
+/* This imageless css button was generated by CSSButtonGenerator.com */
+</style>
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33218724-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body class='short-header-page'>
+<div id="header-wrap">
+	<div class="container">
+		<table id="header">
+			<tr>
+				<td id="header-right">
+					<table>
+						<tr>
+							<td class="phone-number"><img src="images/U-M_2color-HorizontalReversed.30px.png" height=30></td>
+							<td>
+								<div style="text-align:left;">
+									<span class="wsite-social">
+									<a class='wsite-social-item wsite-social-flickr' href='http://scholar.google.com/citations?user=yAqEpxMAAAAJ' target='_blank'></a><a class='wsite-social-item wsite-social-plus' href='ABoyle_CV.pdf' target='_blank' onclick="var that=this;_gaq.push(['_trackEvent','Download','PDF',this.href]);setTimeout(function(){location.href=that.href;},500);return false;"></a><a class='wsite-social-item wsite-social-twitter' href='http://twitter.com/ap_boyle' target='_blank'></a><a class='wsite-social-item wsite-social-linkedin' href='http://www.linkedin.com/profile/view?id=38624939' target='_blank'></a><a class='wsite-social-item wsite-social-mail' href='mailto:apboyle@umich.edu' target='_blank'></a>
+									</span>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</div><!-- end container -->
+</div><!-- end header-wrap -->  		
+		
+<div id="nav-wrap">
+	<div class="container">
+		<table>
+			<tr>
+				<td><span id="wsite-title">The Boyle Lab</span></td>
+				<td id="nav">
+					<div id="navigation">
+						<ul class='wsite-menu-default'>
+							<li><a href='index.html'>Home</a></li>
+							<li><a href='research.html'>Research</a></li>
+							<li><a href='software.html'>Software</a></li>
+							<li id='active'><a href='publications.html'>Publications</a></li>
+							<li><a href='jobs.html'>Jobs</a></li>
+						</ul>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div><!-- end container -->
+</div><!-- end nav-wrap -->
+	
+<div id="banner-wrap">
+	<div class="container">
+		<div id="banner">
+			<div class="wsite-header"></div>
+			<div style="clear:both;"></div>
+		</div><!-- end banner -->
+	</div><!-- end container -->
+</div><!-- end banner-wrap -->
+	
+<div id="main-wrap">
+	<div class="container">
+		<div class="wsite-content" id=APB>
+
+<a href="http://scholar.google.com/citations?user=yAqEpxMAAAAJ" style="border-bottom:1px dashed black;">Google Scholar</a><br><br>
+<b>*</b> Indicates co-first authors<br><br>
+
+
+<!-- This document was automatically generated with bibtex2html 1.96
+     (see http://www.lri.fr/~filliatr/bibtex2html/),
+     with the following command:
+     bibtex2html-1.96/bibtex2html -q -u -nodoc --no-footer -noabstract -nokeywords --style bmc_article_apb apb_merge.bib  -->
+
+
+<table>
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="cheng_mouse_2013">1</a>]
+</td>
+<td class="bibtexitem">
+<b>Principles of regulatory information  revealed by comparing mouse and human transcription factor binding  profiles.</b>
+<br>*Cheng Y, *Ma Z, Kim BH, Cayting P, <b id="me">Boyle AP</b>, Wu W, Sundaram V, Xing X, Li J,  Euskirchen G, Kawli T, The mouse ENCODE Consortium, Pennacchino L, Wang  T, Weng Z, Hardison RC, Snyder MP. <b><em>Nature, in revision</em></b>.
+<br><a href="pub_bib.html#cheng_mouse_2013" class="button_bibtex">BibTeX</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="encode_mouse_2013">2</a>]
+</td>
+<td class="bibtexitem">
+<b>An integrated and comparative encyclopedia  of DNA elements in the mouse genome.</b>
+<br>The mouse ENCODE Consortium. <b><em>Nature, in revision</em></b>.
+<br><a href="pub_bib.html#encode_mouse_2013" class="button_bibtex">BibTeX</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="Boyle:2014bq">3</a>]
+</td>
+<td class="bibtexitem">
+<b>Comparative analysis of regulatory information and  circuits across distant species.</b>
+<br><b id="me">Boyle AP</b>, Araya CL, Brdlik C, Cayting P, Cheng C, Cheng Y, Gardner K, Hillier  LW, Janette J, Jiang L, Kasper D, Kawli T, Kheradpour P, Kundaje A, Li JJ, Ma  L, Niu W, Rehm EJ, Rozowsky J, Slattery M, Spokony R, Terrell R, Vafeados D,  Wang D, Weisdepp P, Wu YC, Xie D, Yan KK, Feingold EA, Good PJ, Pazin MJ,  Huang H, Bickel PJ, Brenner SE, Reinke V, Waterston RH, Gerstein M, White KP,  Kellis M, Snyder M. <b><em>Nature</em></b> 2014,  512(7515):453-456. PMID: 25164757.
+<br><a href="pub_bib.html#Boyle:2014bq" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://dx.doi.org/10.1038/nature13668" class="button_doi">DOI</a>&nbsp; 
+<a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&id=25164757&retmode=ref&cmd=prlinks" class="button_web">Web</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="Araya:2014cs">4</a>]
+</td>
+<td class="bibtexitem">
+<b>Regulatory analysis of the C. elegans genome with  spatiotemporal resolution.</b>
+<br>Araya CL, Kawli T, Kundaje A, Jiang L, Wu B, Vafeados D, Terrell R, Weissdepp  P, Gevirtzman L, Mace D, Niu W, <b id="me">Boyle AP</b>, Xie D, Ma L, Murray JI, Reinke V,  Waterston RH, Snyder M. <b><em>Nature</em></b> 2014,  512(7515):400-405. PMID: 25164749.
+<br><a href="pub_bib.html#Araya:2014cs" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://dx.doi.org/10.1038/nature13497" class="button_doi">DOI</a>&nbsp; 
+<a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&id=25164749&retmode=ref&cmd=prlinks" class="button_web">Web</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="Phanstiel:2014gaa">5</a>]
+</td>
+<td class="bibtexitem">
+<b>Sushi.R: flexible, quantitative  and integrative genomic visualizations for publication-quality multi-panel  figures.</b>
+<br>Phanstiel DH, <b id="me">Boyle AP</b>, Araya CL, Snyder MP. <b><em>Bioinformatics</em></b> 2014. PMID: 24903420.
+<br><a href="pub_bib.html#Phanstiel:2014gaa" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://dx.doi.org/10.1093/bioinformatics/btu379" class="button_doi">DOI</a>&nbsp; 
+<a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&id=24903420&retmode=ref&cmd=prlinks" class="button_web">Web</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="xie_dynamic_2013">6</a>]
+</td>
+<td class="bibtexitem">
+<b>Dynamic trans-acting  factor colocalization in human cells.</b>
+<br>*Xie D, <b id="me">*Boyle AP</b>, *Wu L, Kawli T, Zhai J, Snyder M. <b><em>Cell</em></b> 2013,  155(3):713-724. PMID: 24243024.
+<br><a href="pub_bib.html#xie_dynamic_2013" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://dx.doi.org/10.1016/j.cell.2013.09.043" class="button_doi">DOI</a>&nbsp; 
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/24243024" class="button_pubmed">PubMed</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="kasowski_extensive_2013">7</a>]
+</td>
+<td class="bibtexitem">
+<b>Extensive variation in  chromatin states across humans.</b>
+<br>*Kasowski M, *Kyriazopoulou-Panagiotopoulou S, *Grubert F, *Zaugg JB, *Kundaje  A, Liu Y, <b id="me">Boyle AP</b>, Zhang QC, Zakharia F, Spacek DV, Li J, Xie D, Steinmetz  LM, Hogenesch JB, Kellis M, Batzoglou S, Snyder M. <b><em>Science</em></b> 2013,  342(6159):750-752. PMID: 24136358.
+<br><a href="pub_bib.html#kasowski_extensive_2013" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://dx.doi.org/10.1126/science.1242510" class="button_doi">DOI</a>&nbsp; 
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/24136358" class="button_pubmed">PubMed</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="boyle_annotation_2012">8</a>]
+</td>
+<td class="bibtexitem">
+<b>Annotation of functional  variation in personal genomes using RegulomeDB.</b>
+<br><b id="me">Boyle AP</b>, Hong EL, Hariharan M, Cheng Y, Schaub MA, Kasowski M, Karczewski KJ,  Park J, Hitz BC, Weng S, Cherry JM, Snyder M. <b><em>Genome  Research</em></b> 2012, 22(9):1790-1797. PMID: 22955989.
+<br><a href="pub_bib.html#boyle_annotation_2012" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://dx.doi.org/10.1101/gr.137323.112" class="button_doi">DOI</a>&nbsp; 
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/22955989" class="button_pubmed">PubMed</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="schaub_linking_2012">9</a>]
+</td>
+<td class="bibtexitem">
+<b>Linking disease  associations with regulatory information in the human genome.</b>
+<br>Schaub MA, <b id="me">Boyle AP</b>, Kundaje A, Batzoglou S, Snyder M.  <b><em>Genome Research</em></b> 2012, 22(9):1748-1759. PMID: 22955986.
+<br><a href="pub_bib.html#schaub_linking_2012" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://dx.doi.org/10.1101/gr.136127.111" class="button_doi">DOI</a>&nbsp; 
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/22955986" class="button_pubmed">PubMed</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="encode_integrated_2012">10</a>]
+</td>
+<td class="bibtexitem">
+<b>An integrated encyclopedia of DNA  elements in the human genome.</b>
+<br>The ENCODE Project Consortium. <b><em>Nature</em></b> 2012,  489(7414):57-74. PMID: 22955616.
+<br><a href="pub_bib.html#encode_integrated_2012" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://dx.doi.org/10.1038/nature11247" class="button_doi">DOI</a>&nbsp; 
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/22955616" class="button_pubmed">PubMed</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="gerstein_architecture_2012">11</a>]
+</td>
+<td class="bibtexitem">
+<b>Architecture of the human regulatory network derived from ENCODE data.</b>
+<br>*Gerstein MB, *Kundaje A, *Hariharan M, *Landt SG, *Yan KK, *Cheng C, *Mu XJ,  *Khurana E, *Rozowsky J, *Alexander R, *Min R, *Alves P, Abyzov A, Addleman  N, Bhardwaj N, <b id="me">Boyle AP</b>, Cayting P, Charos A, Chen DZ, Cheng Y, Clarke D,  Eastman C, Euskirchen G, Frietze S, Fu Y, Gertz J, Grubert F, Harmanci A,  Jain P, Kasowski M, Lacroute P, Leng J, Lian J, Monahan H, O'Geen H, Ouyang  Z, Partridge EC, Patacsil D, Pauli F, Raha D, Ramirez L, Reddy TE, Reed B,  Shi M, Slifer T, Wang J, Wu L, Yang X, Yip KY, Zilberman-Schapira G,  Batzoglou S, Sidow A, Farnham PJ, Myers RM, Weissman SM, Snyder M.   <b><em>Nature</em></b> 2012, 489(7414):91-100. PMID: 22955619.
+<br><a href="pub_bib.html#gerstein_architecture_2012" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://dx.doi.org/10.1038/nature11245" class="button_doi">DOI</a>&nbsp; 
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/22955619" class="button_pubmed">PubMed</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="chen_personal_2012">12</a>]
+</td>
+<td class="bibtexitem">
+<b>Personal omics profiling reveals dynamic  molecular and medical phenotypes.</b>
+<br>*Chen R, *Mias GI, *Li-Pook-Than J, *Jiang L, Lam HYK, Chen R, Miriami E,  Karczewski KJ, Hariharan M, Dewey FE, Cheng Y, Clark MJ, Im H, Habegger L,  Balasubramanian S, O'Huallachain M, Dudley JT, Hillenmeyer S, Haraksingh R,  Sharon D, Euskirchen G, Lacroute P, Bettinger K, <b id="me">Boyle AP</b>, Kasowski M,  Grubert F, Seki S, Garcia M, Whirl-Carrillo M, Gallardo M, Blasco MA,  Greenberg PL, Snyder P, Klein TE, Altman RB, Butte AJ, Ashley EA, Gerstein M,  Nadeau KC, Tang H, Snyder M. <b><em>Cell</em></b> 2012,  148(6):1293-1307. PMID: 22424236.
+<br><a href="pub_bib.html#chen_personal_2012" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://dx.doi.org/10.1016/j.cell.2012.02.009" class="button_doi">DOI</a>&nbsp; 
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/22424236" class="button_pubmed">PubMed</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="song_open_2011">13</a>]
+</td>
+<td class="bibtexitem">
+<b>Open chromatin defined by DNaseI and  FAIRE identifies regulatory elements that shape cell-type identity.</b>
+<br>*Song L, *Zhang Z, *Grasfeder LL, <b id="me">*Boyle AP</b>, *Giresi PG, *Lee B, *Sheffield NC,  Graff S, Huss M, Keefe D, Liu Z, London D, McDaniell RM, Shibata Y, Showers  KA, Simon JM, Vales T, Wang T, Winter D, Zhang Z, Clarke ND, Birney E, Iyer  VR, Crawford GE, Lieb JD, Furey TS.  <b><em>Genome Research</em></b> 2011, 21(10):1757-1767. PMID: 21750106.
+<br><a href="pub_bib.html#song_open_2011" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://dx.doi.org/10.1101/gr.121541.111" class="button_doi">DOI</a>&nbsp; 
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/21750106" class="button_pubmed">PubMed</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="the_encode_project_consortium_users_2011">14</a>]
+</td>
+<td class="bibtexitem">
+<b>A user's guide to the encyclopedia of  DNA elements (ENCODE).</b>
+<br>The ENCODE Project Consortium. <b><em>PLoS Biology</em></b> 2011,  9(4):e1001046. PMID: 21526222.
+<br><a href="pub_bib.html#the_encode_project_consortium_users_2011" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://dx.doi.org/10.1371/journal.pbio.1001046" class="button_doi">DOI</a>&nbsp; 
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/21526222" class="button_pubmed">PubMed</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="boyle_high-resolution_2011">15</a>]
+</td>
+<td class="bibtexitem">
+<b>High-resolution genome-wide in vivo footprinting of diverse  transcription factors in human cells.</b>
+<br><b id="me">Boyle AP</b>, Song L, Lee B, London D, Keefe D, Birney E, Iyer VR, Crawford GE,  Furey TS. <b><em>Genome Research</em></b> 2011,  21:456-464. PMID: 21106903.
+<br><a href="pub_bib.html#boyle_high-resolution_2011" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://dx.doi.org/10.1101/gr.112656.110" class="button_doi">DOI</a>&nbsp; 
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/21106903" class="button_pubmed">PubMed</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="stitzel_global_2010">16</a>]
+</td>
+<td class="bibtexitem">
+<b>Global epigenomic analysis of primary human pancreatic  islets provides insights into type 2 diabetes susceptibility loci.</b>
+<br>*Stitzel ML, *Sethupathy P, Pearson DS, Chines PS, Song L, Erdos MR, Welch R,  Parker SCJ, <b id="me">Boyle AP</b>, Scott LJ, Margulies EH, Boehnke M, Furey TS, Crawford  GE, Collins FS.  <b><em>Cell Metabolism</em></b> 2010, 12(5):443-455. PMID: 21035756.
+<br><a href="pub_bib.html#stitzel_global_2010" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://dx.doi.org/10.1016/j.cmet.2010.09.012" class="button_doi">DOI</a>&nbsp; 
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/21035756" class="button_pubmed">PubMed</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="mcdaniell_heritable_2010">17</a>]
+</td>
+<td class="bibtexitem">
+<b>Heritable individual-specific and  allele-specific chromatin signatures in humans.</b>
+<br>McDaniell R, Lee B, Song L, Liu Z, <b id="me">Boyle AP</b>, Erdos MR, Scott LJ, Morken MA,  Kucera KS, Battenhouse A, Keefe D, Collins FS, Willard HF, Lieb JD, Furey TS,  Crawford GE, Iyer VR, Birney E. <b><em>Science</em></b>  2010, 328(5975):235-239. PMID: 20299549.
+<br><a href="pub_bib.html#mcdaniell_heritable_2010" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://dx.doi.org/10.1126/science.1184655" class="button_doi">DOI</a>&nbsp; 
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/20299549" class="button_pubmed">PubMed</a>&nbsp; 
+<a href="http://f1000.com/3410956" class="button_f1000">Faculty Of 1000</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="georgiev_evidence-ranked_2010">18</a>]
+</td>
+<td class="bibtexitem">
+<b>Evidence-ranked  motif identification.</b>
+<br>Georgiev S, <b id="me">Boyle AP</b>, Jayasurya K, Mukherjee S, Ohler U. <b><em>Genome Biology</em></b> 2010, 11(2):R19.  PMID: 20156354.
+<br><a href="pub_bib.html#georgiev_evidence-ranked_2010" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://dx.doi.org/10.1186/gb-2010-11-2-r19" class="button_doi">DOI</a>&nbsp; 
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/20156354" class="button_pubmed">PubMed</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="babbitt_both_2010">19</a>]
+</td>
+<td class="bibtexitem">
+<b>Both noncoding and protein-coding RNAs contribute to gene expression  evolution in the primate brain.</b>
+<br>Babbitt CC, Fedrigo O, Pfefferle AD, <b id="me">Boyle AP</b>, Horvath JE, Furey TS, Wray GA.  <b><em>Genome Biology and  Evolution</em></b> 2010, 2:67-79. PMID: 20333225.
+<br><a href="pub_bib.html#babbitt_both_2010" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://dx.doi.org/10.1093/gbe/evq002" class="button_doi">DOI</a>&nbsp; 
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/20333225" class="button_pubmed">PubMed</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="xu_dnasei_2009">20</a>]
+</td>
+<td class="bibtexitem">
+<b>DNaseI hypersensitivity at gene-poor, FSH dystrophy-linked  4q35.2.</b>
+<br>Xu X, Tsumagari K, Sowden J, Tawil R, <b id="me">Boyle AP</b>, Song L, Furey TS, Crawford GE,  Ehrlich M. <b><em>Nucleic Acids Research</em></b> 2009, 37(22):7381-7393.  PMID: 19820107.
+<br><a href="pub_bib.html#xu_dnasei_2009" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://dx.doi.org/10.1093/nar/gkp833" class="button_doi">DOI</a>&nbsp; 
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/19820107" class="button_pubmed">PubMed</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="boyle_high-resolution_2009">21</a>]
+</td>
+<td class="bibtexitem">
+<b>High-resolution mapping studies of chromatin and gene  regulatory elements.</b>
+<br><b id="me">Boyle AP</b>, Furey TS. <b><em>Epigenomics</em></b> 2009, 1(2):319-329.  PMID: 20514362.
+<br><a href="pub_bib.html#boyle_high-resolution_2009" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://dx.doi.org/10.2217/epi.09.29" class="button_doi">DOI</a>&nbsp; 
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/20514362" class="button_pubmed">PubMed</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="boyle_f-seq:_2008">22</a>]
+</td>
+<td class="bibtexitem">
+<b>F-Seq: a feature density  estimator for high-throughput sequence tags.</b>
+<br><b id="me">Boyle AP</b>, Guinney J, Crawford GE, Furey TS. <b><em>Bioinformatics</em></b>  2008, 24(21):2537-2538. PMID: 18784119.
+<br><a href="pub_bib.html#boyle_f-seq:_2008" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://dx.doi.org/10.1093/bioinformatics/btn480" class="button_doi">DOI</a>&nbsp; 
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/18784119" class="button_pubmed">PubMed</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="boyle_high-resolution_2008">23</a>]
+</td>
+<td class="bibtexitem">
+<b>High-resolution mapping and characterization of open chromatin  across the genome.</b>
+<br><b id="me">Boyle AP</b>, Davis S, Shulha HP, Meltzer P, Margulies EH, Weng Z, Furey TS,  Crawford GE. <b><em>Cell</em></b> 2008, 132(2):311-322. PMID:  18243105.
+<br><a href="pub_bib.html#boyle_high-resolution_2008" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://dx.doi.org/10.1016/j.cell.2007.12.014" class="button_doi">DOI</a>&nbsp; 
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/18243105" class="button_pubmed">PubMed</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="boyle_globaln_2003">24</a>]
+</td>
+<td class="bibtexitem">
+<b>Global analysis of microbial translation initiation  regions.</b>
+<br><b id="me">Boyle AP</b>, Boyle JA. In <b><em>Journal of the Mississippi Academy of Sciences</em></b>,  <em>Volume&nbsp;48</em> 2003:138-150.
+<br><a href="pub_bib.html#boyle_globaln_2003" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://www.thefreelibrary.com/Global+analysis+of+microbial+translation+initiation+regions-a0105160258" class="button_web">Web</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="boyle_visualization_2003">25</a>]
+</td>
+<td class="bibtexitem">
+<b>Visualization of aligned genomic open reading frame  data.</b>
+<br><b id="me">Boyle AP</b>, Boyle JA. <b><em>Biochemistry and Molecular Biology Education</em></b> 2003,  31:64-68.
+<br><a href="pub_bib.html#boyle_visualization_2003" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://onlinelibrary.wiley.com/doi/10.1002/bmb.2003.494031010144/full" class="button_web">Web</a>
+<br><br>
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="wan_interactive_2002">26</a>]
+</td>
+<td class="bibtexitem">
+<b>Interactive clustering for exploration  of genomic data.</b>
+<br>Wan X, Boyle JA, Bridges SM, <b id="me">Boyle AP</b>. In <b><em>Proceedings of the Artificial Neural  Networks in Engineering Conference</em></b>, <em>Volume&nbsp;12</em>, St. Louis, MO  2002:753-758.
+<br><a href="pub_bib.html#wan_interactive_2002" class="button_bibtex">BibTeX</a>&nbsp; 
+<a href="http://www.cse.msstate.edu/~bridges/papers/annie2002.pdf" class="button_pdf">PDF</a>
+<br><br>
+</td>
+</tr>
+</table>
+		</div>
+	</div><!-- end container -->
+</div><!-- end main-wrap -->
+
+<div id="footer-wrap">
+	<div class="container">
+		<p>Alan P Boyle, PhD | <a href="mailto:apboyle@umich.edu">apboyle@umich.edu</a> | <a href="ABoyle_CV.pdf" onclick="var that=this;_gaq.push(['_trackEvent','Download','PDF',this.href]);setTimeout(function(){location.href=that.href;},500);return false;">CV</a> | Ann Arbor, MI</p>
+	</div><!-- end container -->
+</div><!-- end footer-wrap -->
+	
+
+</body>
+</html>
