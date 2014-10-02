@@ -1,0 +1,40 @@
+---
+title: Home
+layout: default
+---
+
+<table width=100%>
+<tr>
+<td>
+<p>
+</p>
+<br>
+<p>
+I am an Associate Professor in the Department of Computational Medicine & Bioinformatics in the University of Michigian Medical School. Previously I was a postdoctoral scholar in the Department of Genetics in the Stanford University School of Medicine working under <a href="http://snyderlab.stanford.edu/">Dr. Michael Snyder</a>. 
+I obtained my Ph.D. in Computational Biology & Bioinformatics from the Duke University Institute for Genome Sciences and Policy in December of 2009. There I was co-advised by <a href="http://fureylab.web.unc.edu/">Dr. Terry Furey</a> and <a href="http://www.genome.duke.edu/labs/crawford/">Dr. Greg Crawford</a>.
+</p>
+<br>
+<p>
+In the modern era of genomics, high-throughput experiments provide molecular biology data that has completely changed how we are able to explore biological systems. 
+We can apply computational tools to help answer biological problems that were previously intractable. 
+We aim to combine computational approaches with high-throughput biological assays to better understand the whole human transcriptional regulatory system. 
+</p>
+<br>
+<p>
+Understanding gene regulation at the transcriptional level is critical to understanding complex biological systems and human disease. In virtually all organisms gene regulation is mediated by a “regulatory code” in which distinct combinations of specific transcription factors collaborate to regulate the expression of individual genes. 
+This code is complex and not readily obvious from sequences alone. 
+It likely involves many cis-regulatory modules that exist both upstream and within genes. 
+In addition, mounting evidence suggests that major differences between individuals and species lie at the level of gene regulation and that changes in cis-regulatory sequences are responsible for these effects. 
+</p>
+<br>
+<p> 
+My research aims to explore this regulatory code by examining the non-coding regulatory elements in the human genome. 
+I have actively participated in the ENCODE project since 2007 as a member of the analysis working group (AWG) and as a member of both the Snyder and the Furey/Crawford labs. I have more recently been involved in the modENCODE and mouse ENCODE projects. I have had the opportunity to lead a collaborative effort by the modENCODE consortium to perform a final round of regulatory analysis and publish the concluding findings of the project.
+</p>
+</td>
+<td width=200px>
+<a href="DNA_Cloud.png"><img src="images/DNA_Cloud_small.png" style="margin:0px 10px 0px 10px"></a>
+</td>
+</tr>
+</table>
+
