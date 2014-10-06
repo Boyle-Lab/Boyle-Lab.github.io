@@ -16,6 +16,22 @@
 
 {% include tracking.html %}
 
+<script>
+window.onload = function() {
+  var a = document.getElementsByTagName('a');
+  for (i = 0; i < a.length; i++) {
+    if (a[i].hostname === location.hostname) {
+      if (a[i].href.match(/^https?://.+.(zip|dmg|txt|cfg|gz|pl|pdf)$/i)) {
+        a[i].setAttribute('target', '_blank');
+        a[i].onclick = function() {
+          ga('send', 'event', 'Downloads', 'Click', this.getAttribute('href'));
+        };
+      }
+    }
+  }
+}
+</script>
+
 </head>
 <body class='short-header-page'>
 <div id="header-wrap">
@@ -29,7 +45,7 @@
 							<td>
 								<div style="text-align:left;">
 									<span class="wsite-social">
-									<a class='wsite-social-item wsite-social-flickr' href='http://scholar.google.com/citations?user=yAqEpxMAAAAJ' target='_blank'></a><a class='wsite-social-item wsite-social-plus' href='ABoyle_CV.pdf' target='_blank' onclick="var that=this;_gaq.push(['_trackEvent','Download','PDF',this.href]);setTimeout(function(){location.href=that.href;},500);return false;"></a><a class='wsite-social-item wsite-social-twitter' href='http://twitter.com/ap_boyle' target='_blank'></a><a class='wsite-social-item wsite-social-linkedin' href='http://www.linkedin.com/profile/view?id=38624939' target='_blank'></a><a class='wsite-social-item wsite-social-mail' href='mailto:apboyle@umich.edu' target='_blank'></a>
+									<a class='wsite-social-item wsite-social-flickr' href='http://scholar.google.com/citations?user=yAqEpxMAAAAJ' target='_blank'></a><a class='wsite-social-item wsite-social-plus' href='ABoyle_CV.pdf' target='_blank'></a><a class='wsite-social-item wsite-social-twitter' href='http://twitter.com/ap_boyle' target='_blank'></a><a class='wsite-social-item wsite-social-linkedin' href='http://www.linkedin.com/profile/view?id=38624939' target='_blank'></a><a class='wsite-social-item wsite-social-mail' href='mailto:apboyle@umich.edu' target='_blank'></a>
 									</span>
 								</div>
 							</td>
