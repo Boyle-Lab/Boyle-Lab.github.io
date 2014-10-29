@@ -1,10 +1,11 @@
+{% assign count = '0' %}
 {% for subtype in site.people %}
-{% if subtype.path contains include.category %}
-{% assign page_member = true %}
-{% endif %}
+ {% if subtype.path contains include.category %}
+  {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+ {% endif %}
 {% endfor %}
 
-{% if page_member == true %}
+{% if count > 1 %}
 <div class="Nheader">{{ include.title }}</div>
 <table>
 
