@@ -1,5 +1,4 @@
 ---
-publish: true
 title: Postdoctoral Associate in Computational Genomics
 pdf: PD_computational.pdf
 ---
