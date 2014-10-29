@@ -1,0 +1,43 @@
+<div class="Nheader">{{ include.title }}</div>
+<table>
+
+{% for person in site.people %}
+{% if person.path contains include.category %}
+  <tr>
+    <td>
+      {% if person.picture %}
+      <img src="assets/people/{{ person.picture }}" height="150px">
+      {% else %}
+      <img src="assets/people/placeholder.png" height="150px">
+      {% endif %}
+    </td>
+    <td>
+    <p>
+      <b> {{ person.name }} </b> <br />
+      {{ person.title }} <br />
+
+      <span class="wsite-social">
+      {% if person.google-scholar %}
+        <a class='wsite-social-item wsite-social-flickr' href='http://scholar.google.com/citations?user={{ person.google-scholar }}' target='_blank'></a>
+      {% endif %}
+      {% if person.cv %}
+        <a class='wsite-social-item wsite-social-plus' href='{{ person.cv }}' target='_blank'></a>
+      {% endif %}
+      {% if person.twitter %}
+        <a class='wsite-social-item wsite-social-twitter' href='http://twitter.com/{{ person.twitter }}' target='_blank'></a>
+      {% endif %}
+      {% if person.linked-in %}
+        <a class='wsite-social-item wsite-social-linkedin' href='http://www.linkedin.com/{{ person.linked-in }}' target='_blank'></a>
+      {% endif %}
+      {% if person.email %}
+        <a class='wsite-social-item wsite-social-mail' href='mailto:{{ person.email }}' target='_blank'></a>
+      {% endif %}
+      </span>
+    </p>
+    </td>
+  </tr>
+{% endif %}
+{% endfor %}
+
+</table>
+
