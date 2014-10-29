@@ -1,3 +1,10 @@
+{% for subtype in site.people %}
+{% if person.path contains include.category %}
+{% assign page_member = true %}
+{% endif %}
+{% endfor %}
+
+{% if page_member %}
 <div class="Nheader">{{ include.title }}</div>
 <table>
 
@@ -20,8 +27,8 @@
       {% if person.google-scholar %}
         <a class='wsite-social-item wsite-social-flickr' href='http://scholar.google.com/citations?user={{ person.google-scholar }}' target='_blank'></a>
       {% endif %}
-      {% if person.cv %}
-        <a class='wsite-social-item wsite-social-plus' href='{{ person.cv }}' target='_blank'></a>
+      {% if person.CV %}
+        <a class='wsite-social-item wsite-social-plus' href='{{ person.CV }}' target='_blank'></a>
       {% endif %}
       {% if person.twitter %}
         <a class='wsite-social-item wsite-social-twitter' href='http://twitter.com/{{ person.twitter }}' target='_blank'></a>
@@ -41,3 +48,4 @@
 
 </table>
 
+{% endif %}
