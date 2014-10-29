@@ -1,5 +1,5 @@
 {% for subtype in site.people %}
-{% if person.path contains include.category %}
+{% if subtype.path contains include.category %}
 {% assign page_member = true %}
 {% endif %}
 {% endfor %}
