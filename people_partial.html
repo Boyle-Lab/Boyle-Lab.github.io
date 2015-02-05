@@ -7,19 +7,19 @@
 
 {% if count != '0' %}
 <div class="Nheader2">{{ include.title }}</div>
-<table>
+<table width=80%>
 
 {% for person in site.people %}
 {% if person.path contains include.category %}
   <tr>
-    <td>
+    <td id="peoplepic">
       {% if person.picture %}
       <img src="assets/people/{{ person.picture }}" height="150px">
       {% else %}
       <img src="assets/people/placeholder.png" height="150px">
       {% endif %}
     </td>
-    <td>
+    <td id="peopledesc">
     <p>
       <b> {{ person.name }} </b> <br />
       {{ person.title }} <br />

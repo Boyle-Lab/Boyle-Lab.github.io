@@ -55,6 +55,8 @@
  #wsite-title {font-size:30px !important;font-weight:400 !important;}
  #wsite-title:hover { color:#0052ad; }
  td#nav { float:right; }
+ td#peoplepic { float:right; }
+ td#peopledesc { float:left; }
  #navigation { line-height: 1; float: right; }
  #navigation ul { display: inline; list-style: none; float: right; max-width:700px; margin-bottom:-1px; }
  #navigation li { display: inline; position: relative; list-style: none; margin-left:6px; float: left; }
