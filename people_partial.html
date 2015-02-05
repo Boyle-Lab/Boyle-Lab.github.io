@@ -6,8 +6,9 @@
 {% endfor %}
 
 {% if count != '0' %}
-<div class="Nheader">{{ include.title }}</div>
-<table>
+<div class="Nheader2">{{ include.title }}</div>
+<center>
+<table width=80%>
 
 {% for person in site.people %}
 {% if person.path contains include.category %}
@@ -48,5 +49,6 @@
 {% endfor %}
 
 </table>
+</center>
 
 {% endif %}
