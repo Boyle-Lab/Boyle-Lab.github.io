@@ -6,7 +6,7 @@
 {% endfor %}
 
 {% if count != '0' %}
-<div class="Nheader2">{{ include.title }}</div>
+<div class="Nheader">{{ include.title }}</div>
 <table width=80%>
 
 {% for person in site.people %}
@@ -21,7 +21,7 @@
     </td>
     <td id="peopledesc">
     <p>
-      <b> <h2> {{ person.name }} </h2> </b> <br />
+      <b> <span style="font-size:1.5em;"> {{ person.name }} </span> </b> <br />
       {{ person.title }} <br />
 
 	<br />
