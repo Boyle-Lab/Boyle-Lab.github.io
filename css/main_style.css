@@ -88,12 +88,3 @@
 
  blockquote { font-style:italic; border-left:4px solid #0370EA; margin:10px 0 10px 0; padding-left:20px; line-height:1.5; font-size:13px; color:#999; }
 
-div.vertical-line{
-  width: 1px; /* Line width */
-  background-color: black; /* Line color */
-  height: 100%; /* Override in-line if you want specific height. */
-  position:absolute; /* Causes the line to float to left of content. 
-    You can instead use position:absolute or display:inline-block
-    if this fits better with your design */
-}
-
