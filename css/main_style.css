@@ -55,7 +55,7 @@
  #wsite-title {font-size:30px !important;font-weight:400 !important;}
  #wsite-title:hover { color:#0052ad; }
  td#nav { float:right; }
- td#peoplepic { text-align:right; width:200px; padding-right:30px; }
+ td#peoplepic { text-align:center; width:200px; padding-right:30px; }
  td#peopledesc { text-align:left; }
  #navigation { line-height: 1; float: right; }
  #navigation ul { display: inline; list-style: none; float: right; max-width:700px; margin-bottom:-1px; }
