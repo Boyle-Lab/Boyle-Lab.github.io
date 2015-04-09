@@ -124,13 +124,14 @@
 .people .item p {
 	font-size: .925em;
 	color: #666;
-	line-height: 1;
+	line-height: 1.1;
 }
 
 .people .item li {
 	list-style: none;
 	font-size: .875em;
-	margin: 0px 0px 0px;
+	line-height: 1;
+	margin: 0px 0px 5px;
 }
 
 .people .list img {
