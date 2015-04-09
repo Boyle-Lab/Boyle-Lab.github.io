@@ -9,8 +9,8 @@
 #header-right table { float:right; width:1px; }
 #header-right td { padding: 0 0 0 0; }
 #header-wrap .container { 
-	margin-top:25px;
-	padding:30px 20px 38px; 
+	margin-top:0px;
+	padding:5px 20px 5px; 
 	text-align:right; 
 	width:920px;
 }
