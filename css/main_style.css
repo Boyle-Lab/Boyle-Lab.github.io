@@ -121,7 +121,7 @@
 	padding: 0;
 }
 
-.people .item i {
+.people .item p {
 	font-size: .925em;
 	color: #666;
 }
@@ -139,7 +139,7 @@
 .people .list h3 {
 	font-size: 1.4em;
 	margin-bottom: 0px;
-	border-bottom: 1px;
+	border-bottom: 1px solid #000;
 }
 
 .people .list ul {
