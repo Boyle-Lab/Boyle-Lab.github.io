@@ -4,10 +4,10 @@
 .container { margin: 0 auto; width: 960px; background: #fff; }
 #header-wrap .container { 
 	margin-top:0px;
-	margin-right:0px;
 	padding:10px 20px 0px; 
 	text-align:right; 
 	width:920px;
+	border-spacing: 0;
 }
  #nav-wrap .container { clear: both; overflow: hidden; position: relative; border-bottom:1px solid #E8E8E8; margin-bottom:0px; }
  #nav-wrap .container table, #nav-wrap .container table tr, #nav-wrap .container table tr td, #nav-wrap .container table tbody { vertical-align:bottom; }
