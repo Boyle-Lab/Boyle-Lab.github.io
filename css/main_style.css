@@ -11,7 +11,7 @@
  #nav-wrap .container { clear: both; overflow: hidden; position: relative; border-bottom:1px solid #E8E8E8; margin-bottom:0px; }
  #nav-wrap .container table, #nav-wrap .container table tr, #nav-wrap .container table tr td, #nav-wrap .container table tbody { vertical-align:bottom; }
  #nav-wrap .container, #nav-wrap .container table { border-collapse: collapse; border-spacing: 0; width:960px; }
- #wsite-title { font-family: 'Open Sans', sans-serif; color:#555; line-height:30px; float:left; padding-left:10px; }
+ #wsite-title { font-family: 'Open Sans', sans-serif; color:#555; line-height:38px; float:left; padding-left:10px; }
  #wsite-title {font-size:30px !important;font-weight:400 !important;}
  #wsite-title:hover { color:#0052ad; }
  td#nav { float:right; }
@@ -20,9 +20,9 @@
  #navigation { line-height: 1; float: right; }
  #navigation ul { display: inline; list-style: none; float: right; max-width:700px; margin-bottom:-1px; }
  #navigation li { display: inline; position: relative; list-style: none; margin-left:6px; float: left; }
- #navigation ul li a { display: block; color: #333; text-decoration: none; padding: 18px 7px 8px; margin:0 0px 1px; border: 0; outline: 0; list-style-type: none; box-sizing:border-box; float: left; font:13px 'Open Sans',arial,sans-serif; text-transform:uppercase; }
- #navigation ul li#active a{ padding: 18px 7px 4px; border-bottom:4px solid #0D57AA; color:#000; }
- #navigation ul li a:hover { padding: 18px 7px 4px; border-bottom:4px solid #0D57AA; color: #666; }
+ #navigation ul li a { display: block; color: #333; text-decoration: none; padding: 10px 7px 8px; margin:0 0px 1px; border: 0; outline: 0; list-style-type: none; box-sizing:border-box; float: left; font:13px 'Open Sans',arial,sans-serif; text-transform:uppercase; }
+ #navigation ul li#active a{ padding: 10px 7px 4px; border-bottom:4px solid #0D57AA; color:#000; }
+ #navigation ul li a:hover { padding: 10px 7px 4px; border-bottom:4px solid #0D57AA; color: #666; }
  .wsite-menu-default a {}
  #banner { padding-bottom:10px; }
  .wsite-header { width: 100%; height: 300px; background: url(../assets/images/banner-landing.jpg) no-repeat; }
