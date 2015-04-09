@@ -17,7 +17,7 @@ positions:
 {% for position in page.positions %}
  {% for person in site.people %}
   {% if person.path contains position[0] %}
-   {% if count % 4 == 0 %}
+   {% if count.modulo(4).zero %}
      </ul>
      <ul class = "list">
    {% endif %}
