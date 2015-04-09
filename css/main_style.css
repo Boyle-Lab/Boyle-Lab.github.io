@@ -139,6 +139,7 @@
 .people .list h3 {
 	font-size: 1.4em;
 	margin-bottom: 0px;
+	border-bottom: 1px;
 }
 
 .people .list ul {
