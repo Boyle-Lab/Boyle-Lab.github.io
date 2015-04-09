@@ -7,7 +7,7 @@ line1: B.A., The College of Saint Rose
 line2: Ph.D., Michigan State University
 google-scholar: 
 CV:
-linked-in: in/switzjess
+linked-in:
 twitter:
-email: jswitzen@umich.edu
+email:
 ---
