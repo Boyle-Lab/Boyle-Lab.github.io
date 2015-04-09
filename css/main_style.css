@@ -74,7 +74,7 @@
 .imgright {float:right; margin:2px 10px 2px 10px;}
 
  ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, div.paragraph, blockquote, fieldset, input { margin: 0; padding: 0; }
- ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input { margin: 0; padding: 0; }
+ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input, b, i { margin: 0; padding: 0; }
  a img { border: 0; }
  a { text-decoration: none; }
  body { font-family: 'Open Sans', sans-serif; font-size: 14px; background: url(../assets/images/white_matrix.jpg); color: #000; line-height:24px; }
@@ -129,7 +129,7 @@
 .people .item li {
 	list-style: none;
 	font-size: .875em;
-	margin: 0 0 10px;
+	margin: 0px 0px 5px;
 }
 
 .people .list img {
@@ -142,7 +142,7 @@
 }
 
 .people .list ul {
-	padding: 0 5px 20px;
+	padding: 0px 5px 20px;
 }
 
 .people .list a {
