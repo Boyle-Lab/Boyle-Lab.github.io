@@ -1,13 +1,63 @@
 ---
 title: People
 layout: default
+positions:
+  pi: Principal Investigator
+  postdoc: Postdoctoral Fellow
+  phd: Doctoral Student
+  ms: Masters Student
+  bs: Undergraduate
+  staff: Staff
+  alumni: Alumni
 ---
+{% assign counter = 0 %}
 
-{% include_relative people_partial.html title="Principal Investigator" category="pi" %}
-{% include_relative people_partial.html title="Postdoctoral Fellows" category="postdoc" %}
-{% include_relative people_partial.html title="Doctoral Students" category="phd" %}
-{% include_relative people_partial.html title="Masters Students" category="ms" %}
-{% include_relative people_partial.html title="Undergraduates" category="bs" %}
-{% include_relative people_partial.html title="Staff" category="staff" %}
-{% include_relative people_partial.html title="Alumni" category="alumni" %}
+<div class = "people">
+<ul class = "list">
+{% for position in page.positions %}
+ {% for person in site.people %}
+  {% if person.path contains position[0] %}
+   {% assign counter = counter | plus: 1 %}
+    <li class="item">
+      <center>
+      {% if person.picture %}
+      <img src="assets/people/{{ person.picture }}" height="240px">
+      {% else %}
+      <img src="assets/people/placeholder.png" height="240px" width="190px">
+      {% endif %}
+      <h3> {{ person.name }} </h3>
+      <b><i> {{ position[1] }} </i></b>
+	<br />
+        <span class="wsite-social">
+        {% if person.google-scholar %}
+          <a class='wsite-social-item wsite-social-flickr' href='http://scholar.google.com/citations?user={{ person.google-scholar }}' target='_blank'></a>
+        {% endif %}
+        {% if person.CV %}
+          <a class='wsite-social-item wsite-social-plus' href='assets/{{ person.CV }}' target='_blank'></a>
+        {% endif %}
+        {% if person.twitter %}
+          <a class='wsite-social-item wsite-social-twitter' href='http://twitter.com/{{ person.twitter }}' target='_blank'></a>
+        {% endif %}
+        {% if person.linked-in %}
+          <a class='wsite-social-item wsite-social-linkedin' href='http://www.linkedin.com/{{ person.linked-in }}' target='_blank'></a>
+        {% endif %}
+        {% if person.email %}
+          <a class='wsite-social-item wsite-social-mail' href='mailto:{{ person.email }}' target='_blank'></a>
+        {% endif %}
+        </span>
 
+	<ul>
+	  <li>{{ person.title }} </li>
+	  <li>{{ person.line1 }} </li>
+	  <li>{{ person.line2 }} </li>
+	</ul>
+    </li>
+
+    {% cycle 'close rows': nil, nil, nil, '</ul><ul class = "list">' %}
+
+  {% endif %}
+ {% endfor %}
+
+{% endfor %}
+</ul>
+</div>
