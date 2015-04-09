@@ -1,7 +1,7 @@
 ---
 publish: true
 name: Sierra Nishizaki
-title: Ph.D. Pre-candidate
+title: Human Genetics Pre-candidate
 picture: Sierra_pic.jpg
 line1: B.S., San Francisco State University
 line2:
