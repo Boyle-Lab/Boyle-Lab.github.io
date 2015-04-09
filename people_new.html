@@ -12,26 +12,26 @@ positions:
 ---
 {% assign count = '0' %}
 
+<div class = "people">
+<ul class = "list">
 {% for position in page.positions %}
  {% for person in site.people %}
   {% if person.path contains position[0] %}
    {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-    <div class="labmember">
+    <li class="item">
       <center>
       {% if person.picture %}
       <img src="assets/people/{{ person.picture }}" height="200px">
       {% else %}
       <img src="assets/people/placeholder.png" height="200px">
       {% endif %}
-      <p>
-        <b> <span style="font-size:1em;"> {{ person.name }} </span> </b> <br />
-        <i> {{ position[1] }} </i> <br />
-	{{ person.title }} <br />
-
-	{{ person.line1 }} <br />
-	{{ person.line2 }} <br />
-	<br />
-
+      <h3> {{ person.name }} </h3>
+      <p><b><i> {{ position[1] }} </i></b></p>
+	<ul>
+	  <li>{{ person.title }} </li>
+	  <li>{{ person.line1 }} </li>
+	  <li>{{ person.line2 }} </li>
+	</ul>
         <span class="wsite-social">
         {% if person.google-scholar %}
           <a class='wsite-social-item wsite-social-flickr' href='http://scholar.google.com/citations?user={{ person.google-scholar }}' target='_blank'></a>
@@ -49,10 +49,10 @@ positions:
           <a class='wsite-social-item wsite-social-mail' href='mailto:{{ person.email }}' target='_blank'></a>
         {% endif %}
         </span>
-      </p>
-    </div>
+    </li>
   {% endif %}
  {% endfor %}
 
 {% endfor %}
-
+</ul>
+</div>

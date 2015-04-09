@@ -90,4 +90,56 @@
 
 #contact { outline: 0px solid; float: left; }
 
-.labmember { float: left; outline: 1px solid; width: 192px;}
+/* people */
+
+.people h2 {
+	margin-bottom: 60px;
+}
+
+.people .list {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	clear: both;
+}
+
+.people .list:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.people .item {
+	list-style: none;
+	margin: 0;
+	width: 25%;
+	float: left;
+}
+
+.people .item ul {
+	margin: 0;
+	padding: 0;
+}
+
+.people .item p {
+	font-size: .875em;
+	color: #666;
+}
+
+.people .item li {
+	list-style: none;
+	font-size: .875em;
+	margin: 0 0 10px;
+}
+
+.people .list img {
+	border: 1px solid #ccc;
+}
+
+.people .list h3 {
+	margin-bottom: 15px;
+}
+
+.people .list ul {
+	padding: 0 5px 20px;
+}
