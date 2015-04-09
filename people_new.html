@@ -10,18 +10,18 @@ positions:
   staff: Staff
   alumni: Alumni
 ---
-{% assign count = '0' %}
+{% assign counter = 0 %}
 
 <div class = "people">
 <ul class = "list">
 {% for position in page.positions %}
  {% for person in site.people %}
   {% if person.path contains position[0] %}
-   {% if count.modulo(4).zero %}
+   {% if counter.modulo(4).zero %}
      </ul>
      <ul class = "list">
    {% endif %}
-   {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+   {% assign counter = counter | plus: 1 %}
     <li class="item">
       <center>
       {% if person.picture %}
