@@ -2,8 +2,8 @@
 publish: true
 name: Alan P. Boyle, Ph.D.
 title: Assistant Professor, Computational Biology & Bioinformatics
-line1: Ph.D., Duke University
-line2: PostDoc, Stanford University
+line1: PostDoc, Stanford University
+line2: Ph.D., Duke University
 picture: aboyle.jpg
 google-scholar: yAqEpxMAAAAJ
 CV: ABoyle_CV.pdf
