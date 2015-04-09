@@ -144,3 +144,8 @@
 .people .list ul {
 	padding: 0 5px 20px;
 }
+
+.people .list a {
+	border-bottom: 1px dashed #ccc;
+	color: #ccc;
+}

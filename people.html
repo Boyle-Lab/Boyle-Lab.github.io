@@ -10,14 +10,12 @@ positions:
   staff: Staff
   alumni: Alumni
 ---
-{% assign counter = 0 %}
 
 <div class = "people">
 <ul class = "list">
 {% for position in page.positions %}
  {% for person in site.people %}
   {% if person.path contains position[0] %}
-   {% assign counter = counter | plus: 1 %}
     <li class="item">
       <center>
       {% if person.picture %}
@@ -28,25 +26,11 @@ positions:
       <h3> {{ person.name }} </h3>
       <b><i> {{ position[1] }} </i></b>
 	<br />
-        <span class="wsite-social">
-        {% if person.google-scholar %}
-          <a class='wsite-social-item wsite-social-flickr' href='http://scholar.google.com/citations?user={{ person.google-scholar }}' target='_blank'></a>
-        {% endif %}
-        {% if person.CV %}
-          <a class='wsite-social-item wsite-social-plus' href='assets/{{ person.CV }}' target='_blank'></a>
-        {% endif %}
-        {% if person.twitter %}
-          <a class='wsite-social-item wsite-social-twitter' href='http://twitter.com/{{ person.twitter }}' target='_blank'></a>
-        {% endif %}
-        {% if person.linked-in %}
-          <a class='wsite-social-item wsite-social-linkedin' href='http://www.linkedin.com/{{ person.linked-in }}' target='_blank'></a>
-        {% endif %}
-        {% if person.email %}
-          <a class='wsite-social-item wsite-social-mail' href='mailto:{{ person.email }}' target='_blank'></a>
-        {% endif %}
-        </span>
-
 	<ul>
+        {% if position == 'pi' %}
+          <li><a href='assets/{{ person.CV }}' target='_blank'>CV</a>
+              <a href='http://scholar.google.com/citations?user={{ person.google-scholar }}' target='_blank'>Google Scholar</a></li>
+        {% endif %}
 	  <li>{{ person.title }} </li>
 	  <li>{{ person.line1 }} </li>
 	  <li>{{ person.line2 }} </li>
