@@ -9,13 +9,10 @@
 #header-right table { float:right; width:1px; }
 #header-right td { padding: 0 0 0 0; }
 #header-wrap .container { 
-	float: right;
-	font-weight: 300; 
-	font-size:13px; 
-	white-space: nowrap; 
-	line-height: 31px; 
-	text-align: right;
-	padding-top: 20px;
+	margin-top:25px;
+	padding:30px 20px 38px; 
+	text-align:right; 
+	width:920px;
 }
 #header-right .phone-number .wsite-text a {}
 #header-right .phone-number .wsite-text a:hover {}
