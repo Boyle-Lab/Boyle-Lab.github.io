@@ -8,7 +8,16 @@
 #header-right { border-spacing:0; padding:0; padding-top:20px; }
 #header-right table { float:right; width:1px; }
 #header-right td { padding: 0 0 0 0; }
-#header-right .phone-number .wsite-text { font-weight: 300; font-size:13px; display: block; white-space: nowrap; line-height: 31px; margin: 0 0 8px 10px; text-align: right;}
+#header-wrap .container { 
+	font-weight: 300; 
+	font-size:13px; 
+	display: block; 
+	white-space: nowrap; 
+	line-height: 31px; 
+	margin: 0 0 8px 10px; 
+	text-align: right;
+	padding-top: 20px;
+}
 #header-right .phone-number .wsite-text a {}
 #header-right .phone-number .wsite-text a:hover {}
 #header-right .wsite-social { vertical-align: bottom; margin-left:15px; }
