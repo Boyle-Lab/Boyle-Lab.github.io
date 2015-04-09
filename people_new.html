@@ -16,7 +16,7 @@ positions:
 
 {% for position in positions %}
  {% for person in site.people %}
-  {% if person.path contains positions[0] %}
+  {% if person.path contains position[0] %}
    {% capture count %}{{ count | plus: '1' }}{% endcapture %}
     <tr>
     <td id="peoplepic">
@@ -30,7 +30,7 @@ positions:
     <p>
       <b> <span style="font-size:1.5em;"> {{ person.name }} </span> </b> <br />
       {{ person.title }} <br />
-	{{ positions[1] }} <br />
+	{{ position[1] }} <br />
 
 	<br />
 	{{ person.line1 }} <br />
