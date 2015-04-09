@@ -2,19 +2,20 @@
 title: People
 layout: default
 positions:
-	pi: Principal Investigator
-	postdoc: Postdoctoral Fellow
-	phd: Doctoral Student
-	ms: Masters Student
-	bs: Undergraduate
-	staff: Staff
-	alumni: Alumni
+  pi: Principal Investigator
+  postdoc: Postdoctoral Fellow
+  phd: Doctoral Student
+  ms: Masters Student
+  bs: Undergraduate
+  staff: Staff
+  alumni: Alumni
 ---
 {% assign count = '0' %}
 
 <table width=80%>
 
 {% for position in page.positions %}
+  {{ position[0] }} 
  {% for person in site.people %}
   {% if person.path contains position[0] %}
    {% capture count %}{{ count | plus: '1' }}{% endcapture %}
