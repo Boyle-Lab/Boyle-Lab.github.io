@@ -19,7 +19,7 @@ positions:
  {% for person in site.people %}
   {% if person.path contains position[0] %}
    {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-    <td id="peoplepic">
+    <td id="peoplepic" width="192px" valign="top">
       <center>
       {% if person.picture %}
       <img src="assets/people/{{ person.picture }}" height="200px">
