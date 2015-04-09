@@ -26,12 +26,7 @@ positions:
       <img src="assets/people/placeholder.png" height="200px">
       {% endif %}
       <h3> {{ person.name }} </h3>
-      <p><b><i> {{ position[1] }} </i></b></p>
-	<ul>
-	  <li>{{ person.title }} </li>
-	  <li>{{ person.line1 }} </li>
-	  <li>{{ person.line2 }} </li>
-	</ul>
+      <b><i> {{ position[1] }} </i></b>
         <span class="wsite-social">
         {% if person.google-scholar %}
           <a class='wsite-social-item wsite-social-flickr' href='http://scholar.google.com/citations?user={{ person.google-scholar }}' target='_blank'></a>
@@ -49,6 +44,12 @@ positions:
           <a class='wsite-social-item wsite-social-mail' href='mailto:{{ person.email }}' target='_blank'></a>
         {% endif %}
         </span>
+
+	<ul>
+	  <li>{{ person.title }} </li>
+	  <li>{{ person.line1 }} </li>
+	  <li>{{ person.line2 }} </li>
+	</ul>
     </li>
   {% endif %}
  {% endfor %}
