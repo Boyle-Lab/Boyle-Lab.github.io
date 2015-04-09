@@ -14,7 +14,7 @@ positions:
 
 <table width=80%>
 
-{% for position in positions %}
+{% for position in site.positions %}
  {% for person in site.people %}
   {% if person.path contains position[0] %}
    {% capture count %}{{ count | plus: '1' }}{% endcapture %}
