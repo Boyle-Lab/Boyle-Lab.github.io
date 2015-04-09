@@ -9,5 +9,5 @@ google-scholar:
 CV:
 linked-in:
 twitter:
-email:adadiehl@umich.edu
+email: adadiehl@umich.edu
 ---
