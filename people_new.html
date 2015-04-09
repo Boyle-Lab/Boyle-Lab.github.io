@@ -21,12 +21,13 @@ positions:
     <li class="item">
       <center>
       {% if person.picture %}
-      <img src="assets/people/{{ person.picture }}" height="200px">
+      <img src="assets/people/{{ person.picture }}" height="240px">
       {% else %}
-      <img src="assets/people/placeholder.png" height="200px">
+      <img src="assets/people/placeholder.png" height="240px">
       {% endif %}
       <h3> {{ person.name }} </h3>
       <b><i> {{ position[1] }} </i></b>
+	<\ br>
         <span class="wsite-social">
         {% if person.google-scholar %}
           <a class='wsite-social-item wsite-social-flickr' href='http://scholar.google.com/citations?user={{ person.google-scholar }}' target='_blank'></a>
