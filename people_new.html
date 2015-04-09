@@ -17,6 +17,10 @@ positions:
 {% for position in page.positions %}
  {% for person in site.people %}
   {% if person.path contains position[0] %}
+   {% if count % 4 == 0 %}
+     </ul>
+     <ul class = "list">
+   {% endif %}
    {% capture count %}{{ count | plus: '1' }}{% endcapture %}
     <li class="item">
       <center>
