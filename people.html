@@ -25,12 +25,12 @@ positions:
       {% endif %}
       <h3> {{ person.name }} </h3>
       <b><i> {{ position[1] }} </i></b>
+        {% if position[0] == 'pi' %}
+          <i><a href='assets/{{ person.CV }}' target='_blank'>CV</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+          <a href='http://scholar.google.com/citations?user={{ person.google-scholar }}' target='_blank'>Google Scholar</a></i>
+        {% endif %}
 	<br />
 	<ul>
-        {% if position[0] == 'pi' %}
-          <li><a href='assets/{{ person.CV }}' target='_blank'>CV</a>
-              <a href='http://scholar.google.com/citations?user={{ person.google-scholar }}' target='_blank'>Google Scholar</a></li>
-        {% endif %}
 	  <li>{{ person.title }} </li>
 	  <li>{{ person.line1 }} </li>
 	  <li>{{ person.line2 }} </li>
