@@ -12,14 +12,11 @@ positions:
 ---
 {% assign count = '0' %}
 
-<table width=80%>
-    <tr>
-
 {% for position in page.positions %}
  {% for person in site.people %}
   {% if person.path contains position[0] %}
    {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-    <td id="peoplepic" width="192px" valign="top">
+    <div id="labmember" width="192px" valign="top">
       <center>
       {% if person.picture %}
       <img src="assets/people/{{ person.picture }}" height="200px">
@@ -53,11 +50,9 @@ positions:
         {% endif %}
         </span>
       </p>
-    </td>
+    </div>
   {% endif %}
  {% endfor %}
 
 {% endfor %}
-   </tr>
-</table>
 
