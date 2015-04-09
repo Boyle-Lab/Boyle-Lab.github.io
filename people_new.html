@@ -17,10 +17,6 @@ positions:
 {% for position in page.positions %}
  {% for person in site.people %}
   {% if person.path contains position[0] %}
-   {% if counter.modulo(4).zero %}
-     </ul>
-     <ul class = "list">
-   {% endif %}
    {% assign counter = counter | plus: 1 %}
     <li class="item">
       <center>
@@ -56,6 +52,9 @@ positions:
 	  <li>{{ person.line2 }} </li>
 	</ul>
     </li>
+
+    {% cycle 'close rows': nil, nil, nil, '</ul><ul class = "list">' %}
+
   {% endif %}
  {% endfor %}
 
