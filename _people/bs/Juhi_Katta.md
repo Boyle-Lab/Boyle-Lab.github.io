@@ -9,5 +9,6 @@ google-scholar:
 CV:
 linked-in: 
 twitter:
-email:
+email: jkatta@umich.edu
+start-date: 2015-09-08
 ---

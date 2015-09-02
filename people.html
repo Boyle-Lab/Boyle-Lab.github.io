@@ -3,13 +3,15 @@ title: People
 layout: default
 positions:
   pi: Principal Investigator
+  staff: Staff
   postdoc: Postdoctoral Fellow
   phd: Doctoral Student
   ms: Masters Student
   bs: Undergraduate
-  staff: Staff
   alumni: Alumni
 ---
+
+{{site.people | sort: 'start-date'}}
 
 <div class = "people">
 <ul class = "list">
