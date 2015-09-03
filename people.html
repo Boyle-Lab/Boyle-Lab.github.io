@@ -17,6 +17,7 @@ positions:
 <ul class = "list">
 {% for position in page.positions %}
  {% for person in sorted_people %}
+  {% if person.publish == 'true' %}
   {% if person.path contains position[0] %}
     <li class="item">
       <center>
@@ -41,6 +42,7 @@ positions:
 
     {% cycle 'close rows': nil, nil, nil, '</ul><ul class = "list">' %}
 
+    {% endif %}
   {% endif %}
  {% endfor %}
 
