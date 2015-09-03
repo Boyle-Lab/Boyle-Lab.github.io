@@ -17,7 +17,7 @@ positions:
 <ul class = "list">
 {% for position in page.positions %}
  {% for person in sorted_people %}
-  {% if person.publish == "true" %}
+  {% if person.publish %}
   {% if person.path contains position[0] %}
     <li class="item">
       <center>
