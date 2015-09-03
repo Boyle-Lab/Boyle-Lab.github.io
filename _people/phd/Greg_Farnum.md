@@ -1,5 +1,5 @@
 ---
-publish: true
+publish: false
 name: Greg Farnum
 title: PIBS Rotation Student
 picture: Greg_Farnum_pic.jpg
