@@ -126,6 +126,6 @@ border-left: 5px dotted #ccc;
 vertical-align: middle;
 line-height: 250px;
 }
-.column-left{ float: left; width: 33%;}
-.column-right{ float: right; width: 33%; border-right: 5px dotted #ccc;}
-.column-center{ display: inline-block; width: 34%;}
+.column-left{ float: left; width: 32%;}
+.column-right{ float: right; width: 32%; border-right: 5px dotted #ccc;}
+.column-center{ display: inline-block; width: 33%;}
