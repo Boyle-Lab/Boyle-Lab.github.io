@@ -39,12 +39,14 @@
  a { text-decoration: none; }
  body { font-family: 'Open Sans', sans-serif; font-size: 14px; background: url(../assets/images/white_matrix.jpg); color: #000; line-height:24px; }
  h3 { font-size: 22px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:20px; }
- h4 { font-size: 18px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:5px; border-bottom:4px solid #FFCB05; }
+ h4 { font-size: 18px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:5px; }
+ h4 span { border-bottom:4px solid #FFCB05; }
 
  a { color: #0D57AA; }
  a:hover { color: #00274c; }
  hr {background:#ddd !important;}
  h2 { font-size: 22px; padding: .8em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:20px; }
+
  div.paragraph { color:#000; font: 13px/22px 'Open Sans',arial,sans-serif; font-weight: 400; }
  p { color:#000; font: 13px/22px 'Open Sans',arial,sans-serif; font-weight: 400; }
 
