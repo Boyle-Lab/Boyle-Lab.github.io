@@ -114,7 +114,7 @@
 
 .row{
 height:250px;
-border:5px dotted #F00;
+border:2px dotted #F00;
 border-left:none;
 border-right:none;
 text-align:center;
@@ -122,10 +122,10 @@ text-align:center;
 
 .row div{
 display: inline-block;
-border-left: 5px dotted #ccc;
+border-left: 2px dotted #ccc;
 vertical-align: middle;
 line-height: 250px;
 }
 .column-left{ float: left; width: 32%;}
-.column-right{ float: right; width: 32%; border-right: 5px dotted #ccc;}
+.column-right{ float: right; width: 32%; border-right: 2px dotted #ccc;}
 .column-center{ display: inline-block; width: 33%;}
