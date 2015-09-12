@@ -112,6 +112,14 @@
 	color: #666;
 }
 
+.row {
+    position: relative;
+    width: 920px;
+}
+.row div {
+    height: 300px;
+}
+
 .column-left {
     width: 33%;
     left: 0;
