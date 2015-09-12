@@ -128,6 +128,6 @@ border-left: 2px dotted #ccc;
 vertical-align: middle;
 line-height: 250px;
 }
-.column-left{ float: left; width: 32%;}
-.column-right{ float: right; width: 32%; border-right: 2px dotted #ccc;}
-.column-center{ display: inline-block; width: 33%;}
+.column-left{ float: left; width: 30%;}
+.column-right{ float: right; width: 30%; border-right: 2px dotted #ccc;}
+.column-center{ display: inline-block; width: 31%;}
