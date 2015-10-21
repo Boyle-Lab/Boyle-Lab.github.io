@@ -8,4 +8,4 @@ categories:
 
 Jessica Switzenberg joins our lab to run the wet lab projects. She has a B.A. from the College of Saint Rose and a Ph.D. from Michigan State University. She also did a postdoc at Michigan State before joining us. Welcome!
 
-<img src="/assets/people/Jess_pic.jpg">
+<img src="/assets/people/Jess_pic.jpg" height="240px">
