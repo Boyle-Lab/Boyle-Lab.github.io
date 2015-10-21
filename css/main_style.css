@@ -1,7 +1,7 @@
 .short-header-page #banner-image-wrap { width: 100%; height: 200px; }
 .short-header-page .wsite-header { width: 100%; height: 200px; background: url(../assets/images/banner-short-apb.png) no-repeat; }
 #header-wrap, #banner-wrap, #nav-wrap, #main-wrap, #footer-wrap { width:100%; }
-.container { margin: 0 auto; width: 960px; background: #fff; }
+.container { margin: 0 auto; width: 960px; background: #FFFFFF; }
 #header-wrap .container {
 	margin-top:0px;
 	padding:10px 20px 0px;
@@ -50,7 +50,7 @@
 
  div.paragraph { color:#000; font: 13px/22px 'Open Sans',arial,sans-serif; font-weight: 400; }
  p { color:#000; font: 13px/22px 'Open Sans',arial,sans-serif; font-weight: 400; }
- .footer {font-size:12px; }
+ .footer {font-size:12px; background: #FFFFFF; }
 
  blockquote { font-style:italic; border-left:4px solid #0370EA; margin:10px 0 10px 0; padding-left:20px; line-height:1.5; font-size:13px; color:#999; }
 
@@ -119,7 +119,7 @@
 }
 
 .row{
-border:2px dotted #F00;
+/* border:2px dotted #F00; */
 border-left:none;
 border-right:none;
 text-align:center;
@@ -128,11 +128,11 @@ padding-bottom:20px;
 }
 
 .row.genomics { background: url(../assets/images/background-top.png) no-repeat; }
-.row.PI { background: #F8F8F8; }
+.row.PI { background: #FAFAFA; }
 
 .row div{
 display: inline-block;
-border-left: 2px dotted #ccc;
+/* border-left: 2px dotted #ccc; */
 vertical-align: middle;
 line-height: 250px;
 }
