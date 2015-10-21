@@ -42,7 +42,7 @@
  body { font-family: 'Open Sans', sans-serif; font-size: 14px; background: url(../assets/images/white_matrix.jpg); color: #000; line-height:24px; }
  h3 { font-size: 22px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:20px; }
  h4 { font-size: 18px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:5px; }
- h4 span { border-bottom:4px solid #FFCB05; width:50px;}
+ h4 span:before { content: ""; position: absolute; left: 0; bottom: 0; height: 4px; width:20px; border-bottom:4px solid #FFCB05; }
 
  a { color: #0D57AA; }
  a:hover { color: #00274c; }
