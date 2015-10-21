@@ -3,4 +3,4 @@ collections:
 - people
 
 paginate: 2
-paginate_path: "/news.html/newspage:num"
+paginate_path: "/news:num"
