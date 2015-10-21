@@ -3,8 +3,7 @@ title: News
 layout: default
 ---
 
-test4
-
+<br>
 {% for post in paginator.posts %}
 <div class="Nheader">{{ post.title }}</div>
 <h2 class="date">{{ post.date | date: "%B %d, %Y" }}</h2>
@@ -12,6 +11,8 @@ test4
 {{ post.content }}
 </div>
 {% endfor %}
+
+<br><br><br>
 
 {% if paginator.total_pages > 1 %}
   <div class="pagination">
