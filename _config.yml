@@ -2,5 +2,5 @@ collections:
 - jobs
 - people
 
-paginate: 10
+paginate: 6
 paginate_path: "/news/page:num"
