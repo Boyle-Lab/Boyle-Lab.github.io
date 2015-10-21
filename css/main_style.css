@@ -9,7 +9,7 @@
 	width:920px;
 }
 
-#nav-wrap { margin-top: 8px; }
+#nav-wrap { padding-top: 8px; }
 
  #wsite-university { margin-top:0px; padding:10px 20px 0px; text-align:right; }
  #nav-wrap .container { clear: both; overflow: hidden; position: relative; border-bottom:1px solid #E8E8E8; margin-bottom:0px; }
