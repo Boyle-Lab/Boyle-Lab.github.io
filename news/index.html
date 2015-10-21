@@ -1,0 +1,38 @@
+---
+title: News
+layout: default
+---
+
+{% for post in paginator.posts %}
+<div class="Nheader">{{ post.title }}</div>
+<h3 class="date">{{ post.date | date: "%B %d, %Y" }}</h3>
+<div class="entry-content">
+{{ post.content }}
+</div>
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+  <div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+  {% else %}
+    <a style="color:black">&laquo; Prev</a>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <a style="color:black"><em>{{ page }}</em></a>
+    {% elsif page == 1 %}
+      <a href="/news">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: "/" | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+  {% else %}
+    <a style="color:black">Next &raquo;</a>
+  {% endif %}
+  </div>
+{% endif %}
