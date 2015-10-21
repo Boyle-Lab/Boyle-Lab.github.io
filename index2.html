@@ -42,8 +42,11 @@ layout: default
 	<div class="column-left">
 		<a href="news.html"><h4><i>News</i></h4></a>
 		<center><p class="yellow-bar"></p><center>
-        	<p class="align-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        	<p class="align-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		{% for post in site.posts limit:2 %}
+        	<p class="align-left">
+		<i>{{ post.date | date: "%B %d, %Y" }}</i> {{ post.title }}
+		</p>
+		{% endfor %}
 	</div>
 	<div class="column-right">
         	<a href="contact.html"><h4><i>Find Us</i></h4></a>
