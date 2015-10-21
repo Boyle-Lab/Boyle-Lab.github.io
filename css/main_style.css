@@ -149,7 +149,7 @@ line-height: 250px;
 .gray-bar { float:center; width:30px; border-bottom:1px solid #A0A0A0; margin-bottom:5px; }
 .right-link{ float:right; }
 
-h2.date { font-size: 0.875em; color:#999; margin-bottom:0px; padding: 0px; }
+h2.date { font-size: 0.875em; color:#999; margin-bottom:0px; margin-left: 10px; padding: 0px; }
 .entry-content { margin-bottom: 20px; margin-top: 1px; }
 
 .pagination a { float: left; padding: 0px 14px; border-style: solid; border-color: #DDD; text-decoration: none; border-width: 1px; }
