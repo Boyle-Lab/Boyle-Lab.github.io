@@ -136,6 +136,6 @@ line-height: 250px;
 .column-center{ display: inline-block; width: 33%;}
 .column-narrow{ float:center; width:66%;}
 .align-left{ text-align: left;}
-.yellow-bar { align:center; width:50px; border-bottom:4px solid #FFCB05; }
-.gray-bar { float:center; width:30px; border-bottom:1px solid #A0A0A0; }
+.yellow-bar { align:center; width:50px; border-bottom:4px solid #FFCB05; margin-bottom:5px; }
+.gray-bar { float:center; width:30px; border-bottom:1px solid #A0A0A0; margin-bottom:5px; }
 .right-link{ float:right; }
