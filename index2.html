@@ -42,9 +42,9 @@ layout: default
 	<div class="column-left">
 		<a href="news.html"><h4><i>News</i></h4></a>
 		<center><p class="yellow-bar"></p><center>
-		{% for post in site.posts limit:2 %}
+		{% for post in site.posts limit:3 %}
         	<p class="align-left">
-		<i>{{ post.date | date: "%B %d, %Y" }}</i> {{ post.title }}
+		<i><font color="#F0F0F0">{{ post.date | date: "%B %d, %Y" }} - </font></i> {{ post.title }}
 		</p>
 		{% endfor %}
 	</div>
