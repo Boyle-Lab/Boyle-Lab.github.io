@@ -133,6 +133,10 @@ border-left: 2px dotted #ccc;
 vertical-align: middle;
 line-height: 250px;
 }
+
+.row .genomics { background: url(../assets/images/banner-short-apb.png) no-repeat cover; }
+.row .PI { background: #F0F0F0; }
+
 .column-left{ float: left; width: 32%;}
 .column-right{ float: right; width: 32%; border-right: 2px dotted #ccc;}
 .column-center{ display: inline-block; width: 33%;}
