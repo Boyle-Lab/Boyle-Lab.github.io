@@ -127,7 +127,7 @@ padding-top:20px;
 padding-bottom:20px;
 }
 
-.row.genomics { width:100%; height:110px; background: url(../assets/images/reg.jpg) repeat; }
+.row.genomics { width:100%; height:110px; background: url(../assets/images/background-top.png) no-repeat; }
 .row.PI { background: #F8F8F8; }
 
 .row div{
