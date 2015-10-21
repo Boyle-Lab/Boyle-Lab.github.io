@@ -26,7 +26,7 @@
  #navigation ul li#active a{ padding: 5px 7px 4px; border-bottom:4px solid #0D57AA; color:#000; }
  #navigation ul li a:hover { padding: 5px 7px 4px; border-bottom:4px solid #0D57AA; color: #666; }
  .wsite-menu-default a {}
- #banner { padding-bottom:10px; }
+ #banner { padding-bottom:0px; }
  .wsite-header { width: 100%; height: 300px; background: url(../assets/images/banner-landing.jpg) no-repeat; }
  #main-wrap .container {min-height:450px;}
  .wsite-content { padding-left:10px; padding-right:10px; padding-bottom:10px; }
@@ -123,6 +123,8 @@ border:2px dotted #F00;
 border-left:none;
 border-right:none;
 text-align:center;
+margin-top:20px;
+margin-bottom:20px;
 }
 
 .row div{
