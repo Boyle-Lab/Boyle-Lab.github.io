@@ -3,9 +3,11 @@ title: News
 layout: default
 ---
 
+test4
+
 {% for post in paginator.posts %}
 <div class="Nheader">{{ post.title }}</div>
-<h3 class="date">{{ post.date | date: "%B %d, %Y" }}</h3>
+<h2 class="date">{{ post.date | date: "%B %d, %Y" }}</h2>
 <div class="entry-content">
 {{ post.content }}
 </div>
