@@ -123,8 +123,8 @@ border:2px dotted #F00;
 border-left:none;
 border-right:none;
 text-align:center;
-margin-top:20px;
-margin-bottom:20px;
+padding-top:20px;
+padding-bottom:20px;
 }
 
 .row div{
