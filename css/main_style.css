@@ -145,3 +145,5 @@ line-height: 250px;
 .yellow-bar { align:center; width:50px; border-bottom:4px solid #FFCB05; margin-bottom:5px; }
 .gray-bar { float:center; width:30px; border-bottom:1px solid #A0A0A0; margin-bottom:5px; }
 .right-link{ float:right; }
+
+h2.date { font-size: 0.875em; color:#999}
