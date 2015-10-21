@@ -27,7 +27,7 @@
  #navigation ul li a:hover { padding: 5px 7px 4px; border-bottom:4px solid #0D57AA; color: #666; }
  .wsite-menu-default a {}
  #banner { padding-bottom:0px; }
- .wsite-header { width: 100%; height: 300px; background: url(../assets/images/banner-landing.jpg) no-repeat; }
+ .wsite-header { width: 100%; height: 300px; background: url('/assets/images/banner-landing.jpg') no-repeat; }
  #main-wrap .container {min-height:450px;}
  .wsite-content { padding-left:10px; padding-right:10px; padding-bottom:10px; }
  #footer-wrap .container { border-top:1px solid #eee; margin-top:10px; background:#FFFFFF; }
@@ -39,7 +39,7 @@
  ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input { margin: 0; padding: 0; }
  a img { border: 0; }
  a { text-decoration: none; }
- body { font-family: 'Open Sans', sans-serif; font-size: 14px; background: url(../assets/images/white_matrix.jpg); color: #000; line-height:24px; }
+ body { font-family: 'Open Sans', sans-serif; font-size: 14px; background: url('/assets/images/white_matrix.jpg'); color: #000; line-height:24px; }
  h3 { font-size: 22px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:20px; }
  h4 { font-size: 18px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:5px; }
 
@@ -127,7 +127,7 @@ padding-top:20px;
 padding-bottom:20px;
 }
 
-.row.genomics { background: url(../assets/images/background-top.png) no-repeat; }
+.row.genomics { background: url('/assets/images/background-top.png') no-repeat; }
 .row.PI { background: #FAFAFA; }
 
 .row div{
