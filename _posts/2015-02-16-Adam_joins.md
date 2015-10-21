@@ -1,7 +1,7 @@
 ---
 status: publish
 title: Adam Diehl joins the lab as a bioinformatician
-date: '2014-02-16'
+date: '2015-02-16'
 categories:
 - Staff
 ---
