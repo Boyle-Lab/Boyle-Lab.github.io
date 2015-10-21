@@ -127,15 +127,15 @@ padding-top:20px;
 padding-bottom:20px;
 }
 
+.row .genomics { background-image: url(../assets/images/reg.jpg) no-repeat cover; }
+.row .PI { background-color: #F0F0F0; }
+
 .row div{
 display: inline-block;
 border-left: 2px dotted #ccc;
 vertical-align: middle;
 line-height: 250px;
 }
-
-.row .genomics { background: url(../assets/images/reg.jpg) no-repeat cover; }
-.row .PI { background: #F0F0F0; }
 
 .column-left{ float: left; width: 32%;}
 .column-right{ float: right; width: 32%; border-right: 2px dotted #ccc;}
