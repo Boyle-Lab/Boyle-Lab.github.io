@@ -141,7 +141,7 @@ line-height: 250px;
 }
 
 .column-left{ float: left; width: 32%;}
-.column-right{ float: right; width: 32%; border-right: 2px dotted #ccc;}
+.column-right{ float: right; width: 32%; }
 .column-center{ display: inline-block; width: 33%;}
 .column-narrow{ float:center; width:66%;}
 .align-left{ text-align: left;}
