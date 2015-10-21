@@ -3,33 +3,55 @@ title: Home
 layout: default
 ---
 
-<table width=100%>
-<tr>
-<td>
-<p>
-The Boyle Lab at the <a href="https://www.umich.edu/" target='_blank'>University of Michigan</a> is part of the Departments of <a href="http://www.ccmb.med.umich.edu/" target='_blank'>Computational Medicine & Bioinformatics</a> and <a href="http://www.hg.med.umich.edu/" target='_blank'>Human Genetics</a>, and the <a href="http://hg.med.umich.edu/gtg/">Predoctoral Genetics Training Program</a>.
-</p>
-<br>
-<p>
-We use moden genomics techniques and high-throughput experiments to explore biological systems.
-We can leverage computational tools to help answer biological problems that were previously intractable.
-We aim to combine computational approaches with high-throughput biological assays to better understand the whole human transcriptional regulatory system.
-</p>
-<br>
-<p>
-Understanding gene regulation at the transcriptional level is critical to understanding complex biological systems and human disease. In virtually all organisms gene regulation is mediated by a “regulatory code” in which distinct combinations of specific transcription factors collaborate to regulate the expression of individual genes.
-This code is complex and not readily obvious from sequences alone.
-It likely involves many cis-regulatory modules that exist both upstream and within genes.
-In addition, mounting evidence suggests that major differences between individuals and species lie at the level of gene regulation and that changes in cis-regulatory sequences are responsible for these effects.
-</p>
-<br>
-<p>
-Our research aims to explore this regulatory code by examining the cis-regulatory elements in the human genome.
-</p>
-</td>
-<td width=200px>
-<a href="assets/images/DNA_Cloud.png"><img src="assets/images/DNA_Cloud_small.png" style="margin:0px 10px 0px 10px"></a>
-</td>
-</tr>
-</table>
+<div class="row genomics">
+	<div class="column-narrow">
+	       	<h4><i>EXPLORING THE GENOME</i></h4>
+		<center><p class="yellow-bar"></p><center>
+		<p><i>
+		We use moden genomics techniques and high-throughput experiments to explore biological systems.
+		We can leverage computational tools to help answer biological problems that were previously intractable.
+		We aim to combine computational approaches with high-throughput biological assays to better understand the whole human transcriptional regulatory system.
+		</i></p>
+	</div>
+</div>
 
+<div class="row PI">
+	<div class="column-narrow">
+	       	<h4><i>From Principal Investigator, Alan P. Boyle, Ph.D.</i></h4>
+		<center><p class="gray-bar"></p></center>
+		<p class="align-left">
+		Understanding gene regulation at the transcriptional level is critical to understanding complex biological systems and human disease. In virtually all organisms gene regulation is mediated by a “regulatory code” in which distinct combinations of specific transcription factors collaborate to regulate the expression of individual genes.
+		This code is complex and not readily obvious from sequences alone.
+		It likely involves many cis-regulatory modules that exist both upstream and within genes.
+		In addition, mounting evidence suggests that major differences between individuals and species lie at the level of gene regulation and that changes in cis-regulatory sequences are responsible for these effects.
+		<br><br>
+		Our research aims to explore this regulatory code by examining the cis-regulatory elements in the human genome.
+		</p>
+		<p class="right-link">
+		<font color="#FFCB05">|</font> <a href="research.html"><i><b>Learn More</b></i></a>
+		</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="column-center">
+        	<a href="publications.html"><h4><i>Our Work</i></h4></a>
+		<center><p class="yellow-bar"></p><center>
+        	<p><img src="assets/images/Fseq.gif" width="200px"></p>
+    	</div>
+	<div class="column-left">
+		<a href="news/"><h4><i>News</i></h4></a>
+		<center><p class="yellow-bar"></p><center>
+		{% for post in site.posts limit:3 %}
+        	<p class="align-left">
+		<i><font color="#888">{{ post.date | date: "%B %d, %Y" }} - </font></i> {{ post.title }}
+		</p>
+		{% endfor %}
+	</div>
+	<div class="column-right">
+        	<a href="contact.html"><h4><i>Find Us</i></h4></a>
+		<center><p class="yellow-bar"></p><center>
+		<p class="align-left">Our offices are located in the Palmer Commons Building on the edge of central campus. The lab is located onthe 4th floor of the Medical Science Research Building I.</p>
+		<p><i><a href="contact.html">View Map</a><br><a href="http://palmercommons.umich.edu/article/driving-directions">Parking Information</a></i></p>
+	</div>
+</div><!-- end row -->
