@@ -147,3 +147,5 @@ line-height: 250px;
 .right-link{ float:right; }
 
 h2.date { font-size: 0.875em; color:#999}
+
+.pagination a { float: left; padding: 0px 14px; border-style: solid; border-color: #DDD; text-decoration: none; border-width: 1px; }
