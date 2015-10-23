@@ -1,5 +1,5 @@
 ---
-publish: false
+publish: true
 name: Torrin McDonald
 title: PIBS Rotation Student
 picture: Torrin_McDonald_pic.jpg
