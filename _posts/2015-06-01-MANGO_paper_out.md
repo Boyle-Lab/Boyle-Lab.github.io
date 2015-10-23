@@ -1,0 +1,9 @@
+---
+status: publish
+title: Mango: a bias-correcting ChIA-PET analysis pipeline published
+date: '2015-06-01'
+categories:
+- Papers
+---
+
+Today we publish Mango, an R package for complete analysis of ChIA-PET data. These data measure the 3D structure of the genome at high resolution.
