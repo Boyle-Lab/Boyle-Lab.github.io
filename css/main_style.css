@@ -147,8 +147,8 @@ line-height: 250px;
 .gray-bar { float:center; width:30px; border-bottom:1px solid #A0A0A0; margin-bottom:5px; }
 .right-link{ float:right; }
 
-h2.date { font-size: 0.875em; color:#999; margin-bottom:0px; margin-left: 10px; padding: 0px; }
-h2.categories { font-size: 0.875em; color:#999; margin-bottom:0px; margin-left: 10px; padding: 0px; float:right; }
+h2.date { font-size: 0.875em; color:#999; margin-bottom:0px; margin-left: 10px; padding: 0px; display: inline; }
+h2.categories { font-size: 0.875em; color:#999; margin-bottom:0px; margin-right: 5px; padding: 0px; float:right; display: inline; }
 .entry-content { margin-bottom: 20px; margin-top: 1px; }
 
 .pagination { height: 16px; }
