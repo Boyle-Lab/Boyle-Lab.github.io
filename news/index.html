@@ -7,6 +7,12 @@ layout: default
 {% for post in paginator.posts %}
 <div class="Nheader">{{ post.title }}</div>
 <h2 class="date">{{ post.date | date: "%B %d, %Y" }}</h2>
+<h2 class="categories">
+  {% for cat in post.categories %}
+    {{cat}}&nbsp;
+  {% endfor %}
+</h2>
+
 <div class="entry-content">
 {{ post.content }}
 </div>
