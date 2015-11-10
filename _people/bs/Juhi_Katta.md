@@ -1,5 +1,5 @@
 ---
-publish: true
+publish: false
 name: Juhi Katta
 title: LSA Honors Biology
 picture: 
