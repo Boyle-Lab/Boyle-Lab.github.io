@@ -5,6 +5,7 @@ layout: default
 
 <br>
 {% for post in paginator.posts %}
+{% if post.title != nil %}
 <div class="Nheader">{{ post.title }}</div>
 <h2 class="date">{{ post.date | date: "%B %d, %Y" }}</h2>
 <h2 class="categories">
@@ -16,6 +17,7 @@ layout: default
 <div class="entry-content">
 {{ post.content }}
 </div>
+{% endif %}
 {% endfor %}
 
 <br>
