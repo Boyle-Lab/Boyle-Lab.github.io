@@ -3,8 +3,8 @@ publish: true
 name: Sierra Nishizaki
 title: Human Genetics Pre-candidate
 picture: Sierra_pic.jpg
-line1: B.S., San Francisco State University
-line2:
+line1: Genome Science Training Program, Rackham Merit Fellow
+line2: B.S., San Francisco State University
 google-scholar: 
 CV:
 linked-in: 
