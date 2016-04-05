@@ -3,7 +3,7 @@ status: publish
 title: Sierra Nishizaki officially joins the Boyle Lab as the first PhD student!
 date: '2015-04-08'
 categories:
-- Rotation
+- Students
 ---
 
 Sierra Nishizaki from the PIBS (Human Genetics) graduate program joins us as the first Ph.D. student in the lab. Sierra has a B.S. from San Francisco State University.
