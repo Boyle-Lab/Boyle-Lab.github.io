@@ -1,7 +1,7 @@
 ---
 publish: true
 name: Christopher Castro
-title: Bioinformatics Rotation Student
+title: Bioinformatics Pre-candidate
 picture: Christopher_Castro_pic.jpg
 line1: Bioinformatics Training Program, Rackham Merit Fellow
 line2: B.S., Northeastern Illinois University

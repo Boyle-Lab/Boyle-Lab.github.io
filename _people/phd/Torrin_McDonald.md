@@ -1,7 +1,7 @@
 ---
 publish: true
 name: Torrin McDonald
-title: PIBS Rotation Student
+title: Human Genetics Pre-candidate
 picture: Torrin_McDonald_pic.jpg
 line1: B.S., Michigan State University
 line2: 
