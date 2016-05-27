@@ -2,7 +2,7 @@
 publish: true
 name: Courtney Asman
 title: Neuroscience
-picture: 
+picture: Courtney_pic.jpg
 line1: University of Michigan
 line2:
 google-scholar: 
