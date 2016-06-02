@@ -1,7 +1,7 @@
 ---
 publish: true
 name: Shengcheng Dong
-title: PIBS Rotation Student
+title: Bioinformatics Pre-candidate
 picture: Shengcheng_Dong_pic.jpg
 line1: B.S., Tsinghua University
 line2:
