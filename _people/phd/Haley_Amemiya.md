@@ -2,7 +2,7 @@
 publish: true
 name: Haley Amemiya
 title: PIBS Rotation Student
-picture: 
+picture: Haley_pic.png
 line1: B.S., University of Washington
 line2:
 google-scholar: 
