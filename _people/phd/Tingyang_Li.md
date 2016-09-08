@@ -2,7 +2,7 @@
 publish: true
 name: Tingyang Li
 title: PIBS Rotation Student
-picture: 
+picture: Tingyang_pic.jpg
 line1: B.S., Fudan University
 line2:
 google-scholar: 
