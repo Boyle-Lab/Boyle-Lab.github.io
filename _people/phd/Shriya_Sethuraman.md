@@ -2,7 +2,7 @@
 publish: true
 name: Shriya Sethuraman
 title: Bioinformatics Candidate (co-mentor)
-picture:
+picture: Shriya_pic.jpg
 line1: B.Tech., SRM University
 line2: 
 google-scholar: 
