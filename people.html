@@ -19,7 +19,8 @@ positions:
 {% for position in page.positions %}
  {% for person in sorted_people %}
   {% if person.publish %}
-  {% if person.path contains (position[0] | append:"/") %}
+  {% assign path_match = position[0] | append:"/" %}
+  {% if person.path contains path_match %}
     <li class="item">
       <center>
       {% if person.picture %}
