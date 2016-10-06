@@ -19,7 +19,7 @@ positions:
 {% for position in page.positions %}
  {% for person in sorted_people %}
   {% if person.publish %}
-  {% if person.path contains "/{{position[0]}}/" %}
+  {% if person.path contains (position[0] | append:"/") %}
     <li class="item">
       <center>
       {% if person.picture %}
