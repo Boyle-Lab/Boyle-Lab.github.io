@@ -2,7 +2,7 @@
 publish: true
 name: Colten Williams
 title: UROP Computer Science
-picture: 
+picture: Colten_pic.jpg
 line1: University of Michigan
 line2:
 google-scholar: 
