@@ -1,7 +1,7 @@
 ---
 publish: true
 name: Shengcheng Dong
-title: Bioinformatics Pre-candidate
+title: Bioinformatics Candidate
 picture: Shengcheng_Dong_pic.jpg
 line1: B.S., Tsinghua University
 line2:
