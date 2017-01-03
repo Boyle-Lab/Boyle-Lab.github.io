@@ -1,10 +1,10 @@
 ---
 publish: true
 name: Ningxin Ouyang
-title: DCM&B Master's Student
+title: Bioinformatics Pre-candidate
 picture: Ningxin_pic.jpg
-line1: B.S., Purdue University
-line2:
+line1: M.S., University of Michigan
+line2: B.S., Purdue University
 google-scholar: 
 CV:
 linked-in: 
