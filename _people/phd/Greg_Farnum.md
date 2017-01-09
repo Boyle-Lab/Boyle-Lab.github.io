@@ -1,7 +1,7 @@
 ---
 publish: true
 name: Greg Farnum
-title: Bioinformatics Pre-candidate
+title: Cellular & Molecular Biology Pre-candidate
 picture: Greg_Farnum_pic.jpg
 line1: M.S., Michigan State University
 line2: B.S., Michigan State University
