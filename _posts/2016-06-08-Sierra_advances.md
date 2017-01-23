@@ -6,5 +6,5 @@ categories:
 - Students
 ---
 
-Sierra sucessfully completed her Human Genetics preliminary examinations and is now a Ph.D. candidate!
+Sierra successfully completed her Human Genetics preliminary examinations and is now a Ph.D. candidate!
 
