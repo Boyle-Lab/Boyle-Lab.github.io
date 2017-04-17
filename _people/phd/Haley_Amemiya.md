@@ -1,7 +1,7 @@
 ---
 publish: true
 name: Haley Amemiya
-title: PIBS Rotation Student
+title: Cellular & Molecular Biology Pre-candidate
 picture: Haley_pic.png
 line1: B.S., University of Washington
 line2:
