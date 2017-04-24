@@ -11,5 +11,5 @@ categories:
 
 The Boyle Lab takes on the Parker Lab for a bit of fun Whirleyball competition. The Boyle lab takes the day with a 5-0-1 record and lots of fun was had!
 
-<img src="/assets/news_graphics/2016-08-04-Whirleyball1.JPG">
-<img src="/assets/news_graphics/2016-08-04-Whirleyball2.JPG">
+<img src="{{ site.url }}/assets/news_graphics/2016-08-04-Whirleyball1.JPG">
+<img src="{{ site.url }}/assets/news_graphics/2016-08-04-Whirleyball2.JPG">
