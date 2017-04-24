@@ -1,4 +1,5 @@
 ---
+layout: post
 status: publish
 title: Lab receives grant to support RegulomeDB!
 date: '2017-02-01'
