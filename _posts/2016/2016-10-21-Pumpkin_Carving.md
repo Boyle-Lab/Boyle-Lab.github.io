@@ -4,7 +4,7 @@ status: publish
 title: Pumpkin carving!
 date: '2016-10-21'
 external-url:
-teaser: 
+teaser: 2016/Pumpkin_Carving.jpg
 categories:
 - Events
 ---

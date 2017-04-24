@@ -4,7 +4,7 @@ status: publish
 title: Whirleyball competition with the Parker Lab!
 date: '2016-08-04'
 external-url:
-teaser: 
+teaser: 2016/Parker_Whirly.jpg
 categories:
 - Events
 ---

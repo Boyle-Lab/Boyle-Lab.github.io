@@ -4,7 +4,7 @@ status: publish
 title: The Boyle Lab takes on the Mills Lab for Whirley Ball
 date: '2016-11-03'
 external-url:
-teaser: 
+teaser: 2016/Mills_Whirly.png
 categories:
 - Events
 ---

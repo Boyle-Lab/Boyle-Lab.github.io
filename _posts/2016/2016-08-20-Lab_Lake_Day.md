@@ -4,7 +4,7 @@ status: publish
 title: The Boyle Lab takes a break at the lake!
 date: '2016-08-20'
 external-url:
-teaser: 
+teaser: 2016/LakeDay.jpg
 categories:
 - Events
 ---
