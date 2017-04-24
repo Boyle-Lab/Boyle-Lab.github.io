@@ -5,7 +5,7 @@ layout: default
 
 <br>
 
-<div class = "people">
+<div class = "news">
 <ul class = "list">
 {% for post in paginator.posts %}
 {% if post.title != nil %}
@@ -19,11 +19,6 @@ layout: default
 
   <h2 class="date">{{ post.date | date: "%B %d, %Y" }}</h2>
   <h2 class="title">{{ post.title }}</h2>
-<h2 class="categories">
-  {% for cat in post.categories %}
-    {{cat}}&nbsp;
-  {% endfor %}
-</h2>
 
 <div class="entry-content">
 {{ post.excerpt }}
