@@ -112,6 +112,7 @@ body { font-family: 'Open Sans', sans-serif; font-size: 14px; background: url('/
 
 .news .list a {
 	border-bottom: 0px;
+	color: #000000;
 }
 
 .news .entry-content {
