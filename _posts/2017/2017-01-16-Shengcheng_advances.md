@@ -1,7 +1,10 @@
 ---
+layout: post
 status: publish
 title: Shengcheng advances to Ph.D. candidacy. Congratulations!
 date: '2017-01-16'
+external-url:
+teaser: congratulations.jpg
 categories:
 - Students
 ---
