@@ -1,7 +1,10 @@
 ---
+layout: post
 status: publish
 title: The Boyle Lab takes on the Mills Lab for Whirley Ball
 date: '2016-11-03'
+external-url:
+teaser: 
 categories:
 - Events
 ---
@@ -10,4 +13,3 @@ The lab has our second challenge at WhirleyBall against the Mills lab. The labs 
 
 <img src="/assets/news_graphics/2016-11-03-WhirleyBall1.jpg">
 <img src="/assets/news_graphics/2016-11-03-WhirleyBall2.jpg">
-

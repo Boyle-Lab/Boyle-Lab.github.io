@@ -1,7 +1,10 @@
 ---
+layout: post
 status: publish
 title: Haley Amemiya and Tingyang Li join for a fall rotation!
 date: '2016-09-06'
+external-url:
+teaser: welcome.jpg
 categories:
 - Rotation
 - Students

@@ -1,7 +1,10 @@
 ---
+layout: post
 status: publish
 title: Christopher, Greg, and Torrin officially join the lab. Welcome!
 date: '2016-04-20'
+external-url:
+teaser: welcome.jpg
 categories:
 - Students
 ---

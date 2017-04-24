@@ -1,7 +1,10 @@
 ---
+layout: post
 status: publish
 title: Pumpkin carving!
 date: '2016-10-21'
+external-url:
+teaser: 
 categories:
 - Events
 ---

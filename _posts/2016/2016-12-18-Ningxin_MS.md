@@ -1,7 +1,10 @@
 ---
+layout: post
 status: publish
 title: Ningxin completes her Master's degree!
 date: '2016-12-18'
+external-url:
+teaser: congratulations.jpg
 categories:
 - Students
 ---

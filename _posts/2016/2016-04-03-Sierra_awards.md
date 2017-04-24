@@ -1,7 +1,10 @@
 ---
+layout: post
 status: publish
 title: Sierra awarded GSTP and Rackham Summer Award!
 date: '2016-04-03'
+external-url:
+teaser: congratulations.jpg
 categories:
 - Awards
 - Students

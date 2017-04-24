@@ -1,7 +1,10 @@
 ---
+layout: post
 status: publish
 title: Christopher Castro joins us for a winter rotation project.
 date: '2016-01-05'
+external-url:
+teaser: welcome.jpg
 categories:
 - Rotation
 - Students

@@ -1,7 +1,10 @@
 ---
+layout: post
 status: publish
 title: Boyle Lab Summer BBQ!
 date: '2016-07-17'
+external-url:
+teaser: 
 categories:
 - Events
 ---
