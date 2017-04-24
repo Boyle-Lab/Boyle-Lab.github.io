@@ -15,10 +15,19 @@
 	<div class="container">
 		<div class="wsite-content">
 
-TESTING
+<h3>{{ post.title }}</h3>
+<h2 class="date">{{ post.date | date: "%B %d, %Y" }}</h2>
+<h2 class="categories">
+  {% for cat in post.categories %}
+    {{cat}}&nbsp;
+  {% endfor %}
+</h2>
+
+<div class="entry-content">
+{{ post.content }}
+</div>
 
 
-			{{content}}
 		</div>
 	</div><!-- end container -->
 </div><!-- end main-wrap -->
