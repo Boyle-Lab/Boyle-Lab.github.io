@@ -4,21 +4,10 @@ layout: default
 ---
 
 <br>
-
-<div class = "news">
-<ul class = "list">
 {% for post in paginator.posts %}
 {% if post.title != nil %}
-<li class = "item">
-  <center>
-  {% if post.teaser %}
-    <img src="assets/news/{{ post.teaser }}" heigth="158px" width="253px">
-  {% else %}
-    <img src="assets/news_graphics/default_teaser.png" heigth="158px" width="253px">
-  {% endif %}
-
-  <h2 class="date">{{ post.date | date: "%B %d, %Y" }}</h2>
-  <h2 class="title">{{ post.title }}</h2>
+<div class="Nheader">{{ post.title }}</div>
+<h2 class="date">{{ post.date | date: "%B %d, %Y" }}</h2>
 <h2 class="categories">
   {% for cat in post.categories %}
     {{cat}}&nbsp;
@@ -26,15 +15,11 @@ layout: default
 </h2>
 
 <div class="entry-content">
-{{ post.excerpt }}
+{{ post.content }}
 </div>
-</li>
-{% cycle 'close rows': nil, nil, nil, '</ul><ul class = "list">' %}
-
 {% endif %}
 {% endfor %}
 
-</div>
 <br>
 
 {% if paginator.total_pages > 1 %}
