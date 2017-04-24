@@ -101,12 +101,9 @@ body { font-family: 'Open Sans', sans-serif; font-size: 14px; background: url('/
 	border: 1px solid #ccc;
 }
 
-.news .image:hover > .overlay {
-    width:100%;
-    height:100%;
-    position:absolute;
-    background-color:#000;
-    opacity:0.5;
+.news .list a:hover .image {
+    background-color:#ccc;
+    opacity:0.8;
 }
 
 .news .list h3 {
