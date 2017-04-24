@@ -3,7 +3,7 @@ status: publish
 title: Lab receives grant to support RegulomeDB!
 date: '2017-02-01'
 external-url:
-teaser: 2017/RegulomeDB.gif
+teaser: 2017/RegulomeDB.png
 categories:
 - Grants
 ---
