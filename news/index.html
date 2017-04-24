@@ -12,9 +12,9 @@ layout: default
 <li class = "item">
   <center>
   {% if post.teaser %}
-    <img src="assets/news/{{ post.teaser }}" heigth="158px" width="253px">
+    <img src="../assets/news/{{ post.teaser }}" heigth="158px" width="253px">
   {% else %}
-    <img src="assets/news_graphics/default_teaser.png" heigth="158px" width="253px">
+    <img src="../assets/news_graphics/default_teaser.png" heigth="158px" width="253px">
   {% endif %}
 
   <h2 class="date">{{ post.date | date: "%B %d, %Y" }}</h2>
