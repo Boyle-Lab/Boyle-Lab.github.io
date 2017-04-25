@@ -1,7 +1,10 @@
 ---
+layout: post
 status: publish
 title: Torrin McDonald joins us for a summer rotation project.
 date: '2015-07-06'
+external-url:
+teaser: welcome.jpg
 categories:
 - Rotation
 - Students

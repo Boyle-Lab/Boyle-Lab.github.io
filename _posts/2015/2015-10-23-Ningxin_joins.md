@@ -1,7 +1,10 @@
 ---
+layout: post
 status: publish
 title: Ningxin Ouyang joins the lab as a Master's student.
 date: '2015-10-23'
+external-url:
+teaser: welcome.jpg
 categories:
 - Masters
 - Students

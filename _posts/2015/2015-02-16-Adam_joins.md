@@ -1,7 +1,10 @@
 ---
+layout: post
 status: publish
 title: Adam Diehl joins the lab as a bioinformatician
 date: '2015-02-16'
+external-url:
+teaser: welcome.jpg
 categories:
 - Staff
 ---

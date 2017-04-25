@@ -1,7 +1,10 @@
 ---
+layout: post
 status: publish
 title: Boyle Lab attends first annual DCM&B retreat
 date: '2015-06-24'
+external-url:
+teaser: 2015/Retreat.jpg
 categories:
 - Events
 ---

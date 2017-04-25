@@ -1,7 +1,10 @@
 ---
+layout: post
 status: publish
 title: Sierra Nishizaki officially joins the Boyle Lab as the first PhD student!
 date: '2015-04-08'
+external-url:
+teaser: welcome.jpg
 categories:
 - Students
 ---

@@ -1,7 +1,10 @@
 ---
+layout: post
 status: publish
 title: Dr. Boyle named Alfred P. Sloan Fellow
 date: '2015-02-23'
+external-url:
+teaser: 2015/Sloan.jpg
 categories:
 - Awards
 - Grants
