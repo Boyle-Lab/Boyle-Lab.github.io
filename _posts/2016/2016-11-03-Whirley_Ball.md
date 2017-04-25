@@ -11,5 +11,10 @@ categories:
 
 The lab has our second challenge at WhirleyBall against the Mills lab. The labs tied 2-2 with the last game in contention due to extra balls on the court. A rematch will be required to maintain our honor.
 
-<img src="{{ site.url }}/assets/news_graphics/2016/2016-11-03-WhirleyBall1.jpg">
-<img src="{{ site.url }}/assets/news_graphics/2016/2016-11-03-WhirleyBall2.jpg">
+<div>
+{% for image in site.static_files %}
+    {% if image.path contains '2016-11-03-Whirley_Ball' %}
+        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+    {% endif %}
+{% endfor %}
+</div>
