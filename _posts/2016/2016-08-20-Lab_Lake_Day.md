@@ -11,5 +11,10 @@ categories:
 
 The lab takes a break from work to enjoy a relaxing day at a lake near Greg's house. Thanks for hosting a great event, Greg!
 
-<img src="{{ site.url }}/assets/news_graphics/2016/2016-08-20-LakeDay1.JPG">
-<img src="{{ site.url }}/assets/news_graphics/2016/2016-08-20-LakeDay2.JPG">
+<div>
+{% for image in site.static_files %}
+    {% if image.path contains '2016-08-20-Lab_Lake_Day' %}
+        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+    {% endif %}
+{% endfor %}
+</div>
