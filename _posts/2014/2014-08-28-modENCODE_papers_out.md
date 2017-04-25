@@ -1,7 +1,10 @@
 ---
+layout: post
 status: publish
 title: The modENCODE consortium papers are released including our paper on regulatory conservation in Nature!
 date: '2014-08-28'
+external-url:
+teaser: 2014/modENCODE.jpg
 categories:
 - Papers
 ---
