@@ -3,8 +3,8 @@ publish: true
 name: Haley Amemiya
 title: Cellular & Molecular Biology Pre-candidate
 picture: Haley_pic.png
-line1: B.S., University of Washington
-line2:
+line1: Cellular and Molecular Biology Training yProgram
+line2: B.S., University of Washington
 google-scholar: 
 CV:
 linked-in: 
