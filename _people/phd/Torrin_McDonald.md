@@ -1,7 +1,7 @@
 ---
 publish: true
 name: Torrin McDonald
-title: Human Genetics Pre-candidate
+title: Human Genetics Candidate
 picture: Torrin_McDonald_pic.jpg
 line1: B.S., Michigan State University
 line2: 
