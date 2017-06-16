@@ -10,4 +10,4 @@ categories:
 ---
 
 
-<img src="{{ site.url }}/assets/news_graphics/2017/Haley_Service_Award.jpg" height="240px">
+<img src="{{ site.url }}/assets/news_graphics/2017/Haley_Service_Award.jpg">
