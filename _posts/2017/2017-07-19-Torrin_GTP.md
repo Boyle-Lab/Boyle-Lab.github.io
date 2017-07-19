@@ -2,7 +2,7 @@
 layout: post
 status: publish
 title: Torrin a Congratulations!
-date: '2017-06-16'
+date: '2017-07-19'
 external-url:
 teaser: congratulations.jpg
 categories:
