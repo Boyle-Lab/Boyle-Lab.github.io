@@ -1,7 +1,7 @@
 ---
 layout: post
 status: publish
-title: Torrin a Congratulations!
+title: Torrin receives GTP position! Congratulations!
 date: '2017-07-19'
 external-url:
 teaser: congratulations.jpg
