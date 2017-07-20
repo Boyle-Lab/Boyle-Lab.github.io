@@ -3,8 +3,9 @@ publish: true
 name: Stephen Carney
 title: PIBS Rotation Student
 picture: Stephen_Carney_pic.jpg
-line1: B.S., Michigan State University
+line1: Now: Cancer Biology with Castro/Lowenstein Lab
 line2:
+line3: B.S., Michigan State University
 google-scholar: 
 CV:
 linked-in: 

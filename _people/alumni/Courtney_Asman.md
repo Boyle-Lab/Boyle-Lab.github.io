@@ -1,10 +1,11 @@
 ---
 publish: true
 name: Courtney Asman
-title: Neuroscience
+title: Undergraduate Researcher
 picture: Courtney_pic.jpg
-line1: University of Michigan
+line1: Now: Genetic Counceling M.S. at Indiana State University
 line2:
+line3: University of Michigan
 google-scholar: 
 CV:
 linked-in: 
