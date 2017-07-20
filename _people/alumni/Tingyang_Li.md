@@ -3,7 +3,7 @@ publish: true
 name: Tingyang Li
 title: PIBS Rotation Student
 picture: Tingyang_pic.jpg
-line1: Now: Bioinformatics student with Yuanfang Guan
+line1: Bioinformatics student with Yuanfang Guan
 line2:
 line3: B.S., Fudan University
 google-scholar: 
