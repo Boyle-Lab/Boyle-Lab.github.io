@@ -2,7 +2,7 @@
 layout: post
 status: publish
 title: Haley awarded Rackham Graduate Student Research Grant!
-date: '2017-08-10'
+date: '2017-07-31'
 external-url:
 teaser: congratulations.jpg
 categories:
