@@ -95,6 +95,7 @@ body { font-family: 'Open Sans', sans-serif; font-size: 14px; background: url('/
 	font-size: .875em;
 	line-height: 1;
 	margin: 0px 0px 7.5px;
+	background: #ffe5e5;
 }
 
 .news .list img {
