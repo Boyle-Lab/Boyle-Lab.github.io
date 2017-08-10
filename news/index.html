@@ -41,7 +41,7 @@ layout: default
 {{ post.excerpt | strip_html | truncate: 160 }}
 </div>
 </li>
-{% cycle 'close rows': nil, nil, nil, '</ul><ul class = "list">' %}
+{% cycle 'close rows': '', '', '', '</ul><ul class = "list">' %}
 
 {% endif %}
 {% endfor %}
