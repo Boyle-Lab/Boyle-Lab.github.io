@@ -3,7 +3,7 @@ publish: true
 name: Torrin McDonald
 title: Human Genetics Candidate
 picture: Torrin_McDonald_pic.jpg
-line1: Human Genetics Training Program
+line1: Human Genetics Training Program, Rackham Graduate Student Research Grant (pre-candidate)
 line2: B.S., Michigan State University
 google-scholar: 
 CV:

@@ -3,7 +3,7 @@ publish: true
 name: Haley Amemiya
 title: Cellular & Molecular Biology Pre-candidate
 picture: Haley_pic.png
-line1: Cellular and Molecular Biology Training Program
+line1: Cellular and Molecular Biology Training Program, Rackham Graduate Student Research Grant (pre-candidate)
 line2: B.S., University of Washington
 google-scholar: 
 CV:
