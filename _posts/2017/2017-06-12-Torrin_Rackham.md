@@ -1,7 +1,7 @@
 ---
 layout: post
 status: publish
-title: Torrin awarded Rackham Graduate Student Reserach Grant!
+title: Torrin awarded Rackham Graduate Student Research Grant!
 date: '2017-06-12'
 external-url:
 teaser: congratulations.jpg
