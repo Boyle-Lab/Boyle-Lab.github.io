@@ -1,7 +1,7 @@
 ---
 publish: true
 name: Ningxin Ouyang
-title: Bioinformatics Pre-candidate
+title: Bioinformatics Candidate
 picture: Ningxin_pic.jpg
 line1: M.S., University of Michigan
 line2: B.S., Purdue University

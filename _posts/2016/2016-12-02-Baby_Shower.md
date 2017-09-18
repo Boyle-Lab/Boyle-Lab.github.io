@@ -9,7 +9,7 @@ categories:
 - Fun
 ---
 
-The Boyle and Parker labs win the annual DCM&B door decorating contest for the 'Most Creative Door'!
+The Boyle lab celebrates Jessica's first little girl on her way in December!
 
 <div>
 {% for image in site.static_files %}
