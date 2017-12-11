@@ -1,7 +1,6 @@
 ---
-layout: member
 publish: true
-name: Alan P6. Boyle, Ph.D.
+name: Alan P. Boyle, Ph.D.
 title: Assistant Professor, Computational Biology & Bioinformatics and Human Genetics
 line1: PostDoc, Stanford University
 line2: Ph.D., Duke University
