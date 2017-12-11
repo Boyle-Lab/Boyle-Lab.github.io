@@ -9,4 +9,4 @@ categories:
 - Students
 ---
 
-Melissa joins the lab as a PhD sutdent from Human Genetics. Welcome!
+Melissa joins the lab as a PhD student from Human Genetics. Welcome!
