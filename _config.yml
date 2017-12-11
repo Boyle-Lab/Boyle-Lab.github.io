@@ -1,9 +1,16 @@
 collections:
   jobs:
   people:
-    layout: "member"
     output: true
     permalink: /:path
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "people"
+    values:
+      layout: "member"
 
 paginate: 8
 paginate_path: "/news/page:num"
