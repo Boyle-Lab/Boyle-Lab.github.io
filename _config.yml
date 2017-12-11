@@ -1,6 +1,6 @@
 collections:
-- jobs
-- people:
+  jobs:
+  people:
     output: true
     permalink: /:path
 
