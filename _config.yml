@@ -4,3 +4,5 @@ collections:
 
 paginate: 8
 paginate_path: "/news/page:num"
+
+include: ['_people']
