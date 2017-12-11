@@ -28,7 +28,7 @@ positions:
       {% else %}
       <img src="assets/people/placeholder.png" height="240px" width="190px">
       {% endif %}
-      <h3><u> {{ person.name }} .<a href="{% post_url person.path %}">.</a></u></h3>
+      <h3><u> {{ person.name }} .<a href="{% post_link person.path %}">.</a></u></h3>
       <p><b><i> {{ position[1] }} </i></b>	  <br />
         {% if position[0] == 'pi' %}
           <i><a href='assets/{{ person.CV }}' target='_blank'>CV</a>&nbsp;&nbsp;|&nbsp;&nbsp;
