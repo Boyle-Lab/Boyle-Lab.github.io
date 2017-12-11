@@ -1,0 +1,28 @@
+{% include header.html %}
+
+{% include nav.html %}
+	
+<div id="banner-wrap">
+	<div class="container">
+		<div id="banner">
+			<div class="wsite-header"></div>
+			<div style="clear:both;"></div>
+		</div><!-- end banner -->
+	</div><!-- end container -->
+</div><!-- end banner-wrap -->
+	
+<div id="main-wrap">
+	<div class="container">
+		<div class="wsite-content">
+
+<h3 class="title">{{ page.name }}</h3>
+<div class="entry-content">
+{{ content }}
+</div>
+
+
+		</div>
+	</div><!-- end container -->
+</div><!-- end main-wrap -->
+
+{% include footer.html %}
