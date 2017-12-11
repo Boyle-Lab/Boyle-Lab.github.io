@@ -1,6 +1,7 @@
 collections:
   jobs:
   people:
+    layout: member
     output: true
     permalink: /:path
 
