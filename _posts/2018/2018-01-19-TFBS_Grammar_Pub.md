@@ -9,3 +9,4 @@ categories:
 - Papers
 ---
 
+Our paper studying the conservation of how transcription factors work in a coordinated fashion to regulate gene expression is published in Nucleic Acids Research. You can also see it on our <a href="http://boylelab.org/publications.html">publications page</a>.

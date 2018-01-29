@@ -4,7 +4,7 @@ status: publish
 title: Boyle Lab Holiday Party!
 date: '2017-12-17'
 external-url:
-teaser: 2017/Holiday_party.png
+teaser: 2017/Holiday_party.jpg
 categories:
 - Events
 ---
