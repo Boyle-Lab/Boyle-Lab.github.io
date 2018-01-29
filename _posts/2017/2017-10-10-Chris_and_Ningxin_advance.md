@@ -1,7 +1,7 @@
 ---
 layout: post
 status: publish
-title: Chris and Ningxin advanc to Ph.D. candidacy. Congratulations!
+title: Chris and Ningxin advance to Ph.D. candidacy. Congratulations!
 date: '2017-10-10'
 external-url:
 teaser: congratulations.jpg
