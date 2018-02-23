@@ -1,7 +1,7 @@
 ---
 publish: true
 name: Samuel Zhao
-title: Bioinformatics Master's Student
+title: Bioinformatics Ph.D & Master's Student
 picture: Samuel_Zhao_pic.jpg
 line1: B.S., University of Waterloo
 line2:
