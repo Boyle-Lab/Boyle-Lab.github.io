@@ -2,7 +2,7 @@
 publish: true
 name: Matthew Pun
 title: MSTP Rotation Student
-picture: 
+picture: Matthew_pic.jpg
 line1: B.S., Duke University
 line2: 
 line3: 
