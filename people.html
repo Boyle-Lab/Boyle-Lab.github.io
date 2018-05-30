@@ -12,6 +12,7 @@ positions:
 ---
 
 {% assign sorted_people = (site.people | sort: 'start-date') %}
+{% assign sorted_alumni = (site.people | sort: 'start-end') %}
 <br>
 
 <div class = "people">
@@ -58,7 +59,7 @@ positions:
 <div class = "people">
 <ul class = "list">
 {% for position in page.positions %}
- {% for person in sorted_people %}
+ {% for person in sorted_alumni %}
   {% if person.publish and position[0] == 'alumni'%}
   {% assign path_match = position[0] | append:"/" %}
   {% if person.path contains path_match %}
