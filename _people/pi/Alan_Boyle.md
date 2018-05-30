@@ -11,7 +11,9 @@ linked-in: pub/alan-boyle/
 twitter: ap_boyle
 email: apboyle@umich.edu
 start-date: 2014-09-01
+end-date: 
 ---
 
 testing page content
 change to rebuild page
+...
