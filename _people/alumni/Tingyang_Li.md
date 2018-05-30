@@ -12,4 +12,5 @@ linked-in:
 twitter:
 email:
 start-date: 2016-09-06
+end-date: 2016-12-01
 ---

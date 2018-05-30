@@ -12,4 +12,5 @@ linked-in:
 twitter:
 email: casman@umich.edu
 start-date: 2016-05-27
+end-date: 2017-05-01
 ---
