@@ -2,7 +2,7 @@
 publish: true
 name: Steve Ho
 title: PIBS Rotation Student (co-mentor)
-picture: Steve_pic.jpg
+picture: 
 line1: B.S., University of California Davis
 line2: 
 line3: 
