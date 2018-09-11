@@ -3,8 +3,8 @@ publish: true
 name: Cody Morterud
 title: UROP Computer Science
 picture: Cody_pic.jpg
-line1: University of Michigan
-line2: 
+line1: Honors Capstone
+line2: University of Michigan
 google-scholar: 
 CV:
 linked-in: 
