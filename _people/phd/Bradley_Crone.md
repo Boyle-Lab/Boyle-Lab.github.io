@@ -1,7 +1,7 @@
 ---
 publish: true
 name: Bradley Crone
-title: Bioinformatics Rotation Student (co-mentor)
+title: Bioinf. Rotation Student (co-mentor)
 picture: Brad_pic.png
 line1: B.S., University of Iowa
 line2: 
