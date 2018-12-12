@@ -7,7 +7,6 @@ external-url:
 teaser:news.jpg
 categories:
 - Events
-- 
 ---
 
 The lab took first place in the departmental gingerbread making contest with our mid-century mod house, as well as funniest holiday door!
