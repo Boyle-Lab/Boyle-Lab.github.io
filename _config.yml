@@ -5,7 +5,7 @@ collections:
     permalink: /:path
   newpeople:
     output: true
-    permalink: /:path
+    permalink: /people/:path
 
 defaults:
   -
