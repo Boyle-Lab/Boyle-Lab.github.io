@@ -6,7 +6,6 @@ collections:
   newpeople:
     output: true
     permalink: /people/:path
-
 defaults:
   -
     scope:
@@ -14,7 +13,6 @@ defaults:
       type: "people"
     values:
       layout: "member"
-
 paginate: 8
 paginate_path: "/news/page:num"
-
+permalink: pretty
