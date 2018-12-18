@@ -9,8 +9,7 @@ layout: default
 
 <div class = "people">
 <ul class = "list">
-{% for position in page.positions %}
- {% for person in sorted_people %}
+{% for person in sorted_people %}
   {% if person.publish and person.status == 'current'%}
     <li class="item">
       <center>
@@ -26,8 +25,6 @@ layout: default
     {% cycle 'close rows': '', '', '', '</ul><ul class = "list">' %}
 
   {% endif %}
- {% endfor %}
-
 {% endfor %}
 </ul>
 </div>
