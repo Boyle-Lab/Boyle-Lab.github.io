@@ -1,4 +1,5 @@
 ---
+layout: member
 publish: true
 status: current
 name: Sierra Nishizaki
