@@ -1,4 +1,5 @@
 ---
+layout: people
 publish: true
 status: current
 name: Alan P. Boyle, Ph.D.
