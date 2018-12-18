@@ -3,8 +3,8 @@ title: People
 layout: default
 ---
 
-{% assign sorted_people = (site.people | sort: 'start-date') %}
-{% assign sorted_alumni = (site.people | sort: 'end-date' | reverse ) %}
+{% assign sorted_people = (site.newpeople | sort: 'start-date') %}
+{% assign sorted_alumni = (site.newpeople | sort: 'end-date' | reverse ) %}
 <br>
 
 <div class = "people">
@@ -25,7 +25,6 @@ layout: default
 
     {% cycle 'close rows': '', '', '', '</ul><ul class = "list">' %}
 
-    {% endif %}
   {% endif %}
  {% endfor %}
 
