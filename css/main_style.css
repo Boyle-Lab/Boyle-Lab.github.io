@@ -99,6 +99,9 @@ body { font-family: 'Open Sans', sans-serif; font-size: 14px; background: url('/
 
 .news .list img {
 	border: 1px solid #ccc;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;  
 }
 
 .news .list a:hover .image {
