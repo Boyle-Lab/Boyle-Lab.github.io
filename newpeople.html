@@ -14,9 +14,9 @@ layout: default
     <li class="item">
       <center>
       {% if person.picture %}
-      <img src="assets/people/{{ person.picture }}" height="240px">
+      <img src="/assets/people/{{ person.picture }}" height="240px">
       {% else %}
-      <img src="assets/people/placeholder.png" height="240px" width="190px">
+      <img src="/assets/people/placeholder.png" height="240px" width="190px">
       {% endif %}
       <a href="{{person.url}}"><h3><u> {{ person.name }} </u></h3></a>
       <p><b><i> {{ person.position }} </i></b>	  <br /></p>
