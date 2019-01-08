@@ -16,7 +16,38 @@
 		<div class="wsite-content">
 
 <h3 class="title">{{ page.name }}</h3>
+<p style="float: right; margin: 10px 0px 10px 20px; width: 350px;">
+{% if person.picture %}
+      <img src="/assets/people/{{ person.picture }}" height="240px">
+{% else %}
+      <img src="/assets/people/placeholder.png" height="240px" width="190px">
+{% endif %}
+
+<p>
+{% if page.status == current %}
+{{ page.position }} since {{ page.dates.start }}
+{% else %}
+{{ page.position }} from {{ page.dates.start }} to {{ page.dates.end }}
+{% endif %}
+</p>
+
+<h3>Research areas</h3>
+<ul>
+{% for theme in page.theme_areas %}
+<!--- Need to create links to these theme pages --->
+<li>{{ theme }}</li>
+{% endfor %}
+</ul>
+
+<h3>Education</h3>
+<ul>
+{% for step in page.previous_training %}
+<li>{{ step[0] }}: {{ step[1] }}</li>
+{% endfor %}
+</ul>
+	
 <div class="entry-content">
+<h3>Background</h3>
 {{ content }}
 </div>
 
