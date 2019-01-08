@@ -61,6 +61,7 @@
 {% for paper in site.papers reversed %}
 hi
   {% if paper.members contains member %}
+in
     {% assign member_papers = member_papers | push: paper %}
   {% endif %}
 {% endfor %}
