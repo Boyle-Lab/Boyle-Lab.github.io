@@ -2,7 +2,7 @@
 publish: true
 name: Margarita Brovkina
 title: PIBS Rotation Student
-picture: 
+picture: Margarita_Brovkina.jpg
 line1: B.S., University of Maryland, BC
 line2: 
 line3: 
