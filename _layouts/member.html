@@ -56,6 +56,31 @@
 </div>
 
 
+{% assign member = "nishizaki" %}
+{% assign member_papers = site.array %}
+{% for paper in site.papers reversed %}
+  {% if paper.members contains member %}
+    {% assign member_papers = member_papers | push: paper %}
+  {% endif %}
+{% endfor %}
+
+{% assign paper_count = member_papers | size %}
+{% if paper_count > 0 %}
+  {% assign sorted_papers = member_papers | sort: 'year' %}
+  <h3 class="title">Boyle lab papers</h3>
+  <div class="papers">
+  <ol>
+  {% for paper in sorted_papers %}
+    {% if paper.layout == "chapter" %}
+      <li>{% include reference_chapter.html ref=paper %}</li>
+    {% else %}
+      <li>{% include reference_paper.html ref=paper %}</li>
+    {% endif %}
+  {% endfor %}
+  </ol>
+</div>
+{% endif %}
+
 		</div>
 	</div><!-- end container -->
 </div><!-- end main-wrap -->

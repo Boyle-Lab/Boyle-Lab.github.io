@@ -1,0 +1,16 @@
+---
+authors: Nishizaki SS and Boyle AP
+title: Mining the Unknown: Assigning Function to Noncoding Single Nucleotide Polymorphisms.
+journal: Trends in Genetics
+year: 2017
+volume: 33
+number: 1
+pages: 34-45
+month: jan
+doi: 10.1016/j.tig.2016.10.008
+abstract: One of the formative goals of genetics research is to understand how genetic variation leads to phenotypic differences and human disease. Genome-wide association studies (GWASs) bring us closer to this goal by linking variation with disease faster than ever before. Despite this, GWASs alone are unable to pinpoint disease-causing single nucleotide polymorphisms (SNPs). Noncoding SNPs, which represent the majority of GWAS SNPs, present a particular challenge. To address this challenge, an array of computational tools designed to prioritize and predict the function of noncoding GWAS SNPs have been developed. However, fewer than 40% of GWAS publications from 2015 utilized these tools. We discuss several leading methods for annotating noncoding variants and how they can be integrated into research pipelines in hopes that they will be broadly applied in future GWAS analyses.
+url: http://www.ncbi.nlm.nih.gov/pubmed/27939749
+pdf: http://boylelab.org/pubs/Trends_Genet_2017_Nishizaki.pdf
+PMID: 27939749
+members: [ boyle, nishizaki ]
+---

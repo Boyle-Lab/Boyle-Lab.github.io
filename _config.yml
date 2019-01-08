@@ -1,5 +1,7 @@
 collections:
   jobs:
+  papers:
+    output: true
   people:
     output: true
     permalink: /:path
