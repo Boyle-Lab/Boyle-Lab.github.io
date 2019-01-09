@@ -25,7 +25,7 @@
 
 <p>
 {% if page.status == "current" %}
-{{ page.position }} since {{ page.dates.start }}
+{{ page.position }} since {{ page.dates.start | date: "%b %Y"}}
 {% else %}
 {{ page.position }} from {{ page.dates.start }} to {{ page.dates.end }}
 {% endif %}
