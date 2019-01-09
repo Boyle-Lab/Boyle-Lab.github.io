@@ -7,7 +7,8 @@ position: Doctoral Student
 title: Human Genetics Candidate
 picture: Sierra_Nishizaki_pic.jpg
 previous_training:
-  B.S. : San Francisco State University
+  - type: 'B.S.'
+    info: 'San Francisco State University'
 dates:
   start: 2015-01-06
   end:

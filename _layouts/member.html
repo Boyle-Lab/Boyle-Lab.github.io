@@ -44,8 +44,8 @@
 <p>
 <h3 class="title">Education</h3>
 <ul>
-{% for step in page.previous_training %}
-<li>{{ step[0] }}: {{ step[1] }}</li>
+{% for degree in page.previous_training %}
+<li>{{ degree.type }}: {{ degree.info }}</li>
 {% endfor %}
 </ul>
 </p>
