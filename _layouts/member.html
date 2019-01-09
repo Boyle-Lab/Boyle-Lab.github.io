@@ -25,9 +25,9 @@
 
 <p>
 {% if page.status == "current" %}
-{{ page.position }} since {{ page.dates.start | date: "%b %Y"}}
+{{ page.position }} since {{ page.dates.start | date: "%B %Y" }}
 {% else %}
-{{ page.position }} from {{ page.dates.start }} to {{ page.dates.end }}
+{{ page.position }} from {{ page.dates.start | date: "%B %Y" }} to {{ page.dates.end | date: "%B %Y" }}
 {% endif %}
 </p>
 
@@ -46,6 +46,15 @@
 <ul>
 {% for degree in page.previous_training %}
 <li>{{ degree.type }}: {{ degree.info }}</li>
+{% endfor %}
+</ul>
+</p>
+
+<p>
+<h3 class="title">Honors and Awards</h3>
+<ul>
+{% for award in page.awards %}
+<li>{{ award }}</li>
 {% endfor %}
 </ul>
 </p>

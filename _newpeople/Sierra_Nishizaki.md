@@ -23,6 +23,11 @@ theme_areas:
   - Non-coding variation
   - Zebrafish models
   - Gene Regulation
+awards:
+  - Genome Science Training Program
+  - Rackham Merit Fellow
+  - Rackham Summer Award
+  - Rackham Graduate Student Research Grant (post-candidate)
 ---
 
 testing page content
