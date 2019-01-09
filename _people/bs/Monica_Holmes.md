@@ -2,7 +2,7 @@
 publish: true
 name: Monica Holmes
 title: PostBac MEDPREP
-picture: 
+picture: Monica_Holmes.jpg
 line1: University of Michigan
 line2:
 google-scholar: 
