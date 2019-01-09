@@ -25,8 +25,8 @@
 
 
 	<div class="supp">
-		{% if include.ref.journal %}
-		<a href="{{ include.ref.url | replace:'yml','pdf' | replace:'papers','assets/pdf'}}">
+		{% if include.ref.pdf %}
+		<a href="{{ include.ref.pdf'}}">
 			<i class="fa fa-file-pdf-o fa-lg"></i>
 		</a>
 		{% endif %}
