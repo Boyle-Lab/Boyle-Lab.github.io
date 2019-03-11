@@ -32,6 +32,11 @@ theme_areas:
   - High-throughput genomics
 ---
 
-testing page content
-change to rebuild page
-...
+Alan Boyle (Computational Medicine and Bioinformatics, Human Genetics) completed his PhD in
+Computational Biology and Bioinformatics at Duke University where he developed methods to map open
+chromatin and his postdoctoral research at Stanford University where he developed new methods for
+interpreting non-coding variation and worked as part of ENCODE and modENCODE. Currently, he works to
+improve the interpretation of non-coding variation to extend from association to biological function and works
+to map and characterize regulatory elements in the non-coding genome. He is PI of a U41 to annotate
+regulatory variation and a PI of a NSF CAREER award to study the combinatorial effect of transcription factors
+on gene regulation.
