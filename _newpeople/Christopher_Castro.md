@@ -29,3 +29,5 @@ awards:
   - Rackham Merit Fellow
   - Rackham Graduate Student Research Grant (pre-candidate)
 ---
+
+Christopher Castro received his bachelor's degree in applied mathematics from Northeastern Illinois University.  His current research targets the role of genetic variation in autism spectrum disorders, with a particular focus on uninherited (de novo) mutations occurring in non-coding regions.
