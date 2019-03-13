@@ -6,7 +6,7 @@ name: Steve Ho
 umid: stevesho
 position: PIBS Rotation Student
 title: Human Genetics Ph.D. Student
-picture: Steve_pic.jpg
+picture: Steve_pic.png
 previous_training:
   - type: 'B.S.'
     info: 'University of California Davis'

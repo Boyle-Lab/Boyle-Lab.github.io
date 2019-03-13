@@ -6,7 +6,7 @@ name: Bradley Crone
 umid: crone
 position: PIBS Rotation Student
 title: Bioinformatics Ph.D. Student
-picture: Brad_pic.jpg
+picture: Brad_pic.png
 previous_training:
   - type: 'B.S.'
     info: 'University of Iowa'

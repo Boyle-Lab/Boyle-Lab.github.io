@@ -6,7 +6,7 @@ name: Haley Amemiya
 umid: hamemiya
 position: Doctoral Student
 title: Cellular & Molecular Biology Ph.D. Student
-picture: Haley_pic.jpg
+picture: Haley_pic.png
 previous_training:
   - type: 'B.S.'
     info: 'University of Washington'
