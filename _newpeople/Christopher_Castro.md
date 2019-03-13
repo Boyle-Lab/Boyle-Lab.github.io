@@ -1,8 +1,9 @@
 ---
 layout: member
-publish: false
+publish: true
 status: current
 name: Christopher Castro
+umid: castrocp
 position: Doctoral Student
 title: Bioinformatics Candidate
 picture: Christopher_Castro_pic.jpg

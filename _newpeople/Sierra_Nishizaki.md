@@ -3,6 +3,7 @@ layout: member
 publish: true
 status: current
 name: Sierra Nishizaki
+umid: ssnishi
 position: Doctoral Student
 title: Human Genetics Candidate
 picture: Sierra_Nishizaki_pic.jpg
