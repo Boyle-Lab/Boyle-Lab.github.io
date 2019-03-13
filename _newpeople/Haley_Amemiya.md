@@ -10,8 +10,7 @@ picture: Haley_pic.png
 previous_training:
   - type: 'B.S.'
     info: 'University of Washington'
-current:
-  - position: 'PhD student with Peter Freddolino'
+current: 'PhD student with Peter Freddolino'
 dates:
   start: 2016-09-06
   end: 2018-12-17

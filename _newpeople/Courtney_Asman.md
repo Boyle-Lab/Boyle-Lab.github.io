@@ -5,13 +5,12 @@ status: alumni
 name: Courtney Asman
 umid: casman
 position: Undergraduate Researcher
-title: Undergraduate Researcher
+title: University of Michigan Neuroscience
 picture: Courtney_pic.jpg
 previous_training:
   - type: 'B.S.'
     info: 'University of Michigan'
-current:
-  - position: 'Genetic Counceling M.S. at Indiana State University'
+current: 'Genetic Counceling M.S. at Indiana State University'
 dates:
   start: 2016-05-27
   end: 2017-05-03

@@ -10,8 +10,7 @@ picture: Stephen_Carney_pic.jpg
 previous_training:
   - type: 'B.S.'
     info: 'Michigan State University'
-current:
-  - position: 'PhD student with Castro/Lowenstein'
+current: 'PhD student with Castro/Lowenstein'
 dates:
   start: 2017-01-03
   end: 2017-03-01

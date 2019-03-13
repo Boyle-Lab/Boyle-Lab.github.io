@@ -5,13 +5,12 @@ status: alumni
 name: Matthew Pun
 umid: punm
 position: MSTP Rotation Student
-title: MSTP Student
+title: Michigan MSTP Student
 picture: Matthew_pic.jpg
 previous_training:
   - type: 'B.S.'
     info: 'Duke University'
 current:
-  - position:
 dates:
   start: 2018-07-30
   end: 2018-08-24

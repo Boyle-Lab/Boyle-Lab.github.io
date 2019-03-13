@@ -12,8 +12,7 @@ previous_training:
     info: 'Western Michigan University'
   - type: 'M.S.'
     info: 'University of Michigan'
-current:
-  - position: 'PhD student with Stephanie Bielas'
+current: 'PhD student with Stephanie Bielas'
 dates:
   start: 2017-03-06
   end: 2017-05-02

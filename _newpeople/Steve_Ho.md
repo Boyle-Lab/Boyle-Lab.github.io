@@ -10,8 +10,7 @@ picture: Steve_pic.png
 previous_training:
   - type: 'B.S.'
     info: 'University of California Davis'
-current:
-  - position: 'PhD student with Ryan Mills'
+current: 'PhD student with Ryan Mills'
 dates:
   start: 2018-09-04
   end: 2018-12-11

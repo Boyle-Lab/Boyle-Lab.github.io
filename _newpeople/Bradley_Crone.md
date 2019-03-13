@@ -11,7 +11,6 @@ previous_training:
   - type: 'B.S.'
     info: 'University of Iowa'
 current:
-  - position:
 dates:
   start: 2018-09-04
   end: 2018-12-20

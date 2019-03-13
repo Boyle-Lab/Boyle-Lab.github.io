@@ -13,7 +13,6 @@ previous_training:
   - type: 'M.S.'
     info: 'Michigan State University'
 current:
-  - position:
 dates:
   start: 2015-07-01
   end: 2017-07-01

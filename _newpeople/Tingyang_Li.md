@@ -10,8 +10,7 @@ picture: Tingyang_pic.jpg
 previous_training:
   - type: 'B.S.'
     info: 'Fudan University'
-current:
-  - position: 'Bioinformatics PhD Student'
+current: 
 dates:
   start: 2016-09-06
   end: 2016-12-01
