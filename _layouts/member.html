@@ -29,6 +29,13 @@
 {% else %}
 {{ page.position }} from {{ page.dates.start | date: "%B %Y" }} to {{ page.dates.end | date: "%B %Y" }}
 {% endif %}
+<br>
+{{ page.title }}
+
+{% if page.current.position != "" %}
+<br>
+Current: {{ page.current.position }}
+{% endif %}
 </p>
 
 <p>
@@ -63,8 +70,8 @@
 {% endif %}
 
 
-{% assign content = post.content | strip_newlines %}
-{% if content != "" %}
+{% assign cleancontent = content | strip_newlines %}
+{% if cleancontent != "" %}
 <div class="entry-content">
 <h3 class="title">Background</h3>
 {{ content }}
