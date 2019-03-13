@@ -1,0 +1,15 @@
+---
+authors: Diehl AG and Boyle AP
+title: "Conserved and species-specific transcription factor co-binding patterns drive divergent gene regulation in human and mouse"
+journal: Nucleic Acids Research
+year: 2018
+volume: 46
+number: 4
+pages: 1878-1894
+doi: "10.1093/nar/gky018"
+abstract: "The mouse has been widely used as a model system in which to study human genetic mechanisms. However, part of the difficulty in translating findings from mouse is that, despite high levels of gene conservation, regulatory control networks between human and mouse have been extensively rewired. To understand common themes of regulatory control we look beyond physical sharing of regulatory sequence, where extensive turnover of individual transcription factor binding sites complicates cross-species prediction of specific functions, and instead look at conserved properties of the regulatory code itself. We define regulatory conservation in terms of a grammar with shared, species-specific, and tissue-specific segments, and show that this grammar is more predictive of shared chromatin states and gene expression profiles than shared occupancy alone. Furthermore, we demonstrate a marked enrichment of disease associated variation in conserved grammatical patterns. These findings offer new understanding of transcriptional regulatory mechanisms shared between human and mouse."
+url: "http://www.ncbi.nlm.nih.gov/pubmed/29361190"
+pdf: "http://boylelab.org/pubs/Nucleic_Acids_Res._2018_Diehl.pdf"
+PMID: 29361190
+members: [ boyle, diehl ]
+---
