@@ -2,21 +2,19 @@
 layout: member
 publish: true
 status: alumni
-name: Greg Farnum
-umid: gregfar
-position: Doctoral Student
-title: Cellular & Molecular Biology Ph.D. Student
-picture: Greg_Farnum_pic.jpg
+name: Stephen Carney
+umid: carneyst
+position: PIBS Rotation Student
+title: Cancer Biology Ph.D. Student
+picture: Stephen_Carney_pic.jpg
 previous_training:
   - type: 'B.S.'
     info: 'Michigan State University'
-  - type: 'M.S.'
-    info: 'Michigan State University'
 current:
-  - position:
+  - position: 'PhD student with Castro/Lowenstein'
 dates:
-  start: 2015-07-01
-  end: 2017-07-01
+  start: 2017-01-03
+  end: 2017-03-01
 social: 
   google-scholar: 
   linked-in: 
