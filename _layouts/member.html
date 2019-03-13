@@ -62,11 +62,14 @@
 </p>
 {% endif %}
 
+
+{% assign content = post.content | strip_newlines %}
+{% if content != "" %}
 <div class="entry-content">
 <h3 class="title">Background</h3>
 {{ content }}
 </div>
-
+{% endif %}
 
 {% assign member = page.umid %}
 {% assign member_papers = site.array %}
