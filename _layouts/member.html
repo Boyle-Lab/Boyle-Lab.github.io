@@ -50,6 +50,7 @@
 </ul>
 </p>
 
+{% if award in page.awards %}
 <p>
 <h3 class="title">Honors and Awards</h3>
 <ul>
@@ -58,14 +59,15 @@
 {% endfor %}
 </ul>
 </p>
-	
+{% endif %}
+
 <div class="entry-content">
 <h3 class="title">Background</h3>
 {{ content }}
 </div>
 
 
-{% assign member = "boyle" %}
+{% assign member = page.umid %}
 {% assign member_papers = site.array %}
 {% for paper in site.papers reversed %}
   {% if paper.members contains member %}
