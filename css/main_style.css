@@ -179,6 +179,12 @@ body { font-family: 'Open Sans', sans-serif; font-size: 14px; background: url('/
 	border-radius: 20px;  
 }
 
+.people .list a:hover .image {
+    background-color:#ccc;
+    opacity:0.6;
+}
+
+
 .people .list h3 {
 	font-size: 1.4em;
 	margin-bottom: 0px;
