@@ -3,8 +3,8 @@ title: People
 layout: default
 ---
 
-{% assign sorted_people = (site.newpeople | sort: 'date.start') %}
-{% assign sorted_alumni = (site.newpeople | sort: 'date.end' | reverse ) %}
+{% assign sorted_people = (site.newpeople | sort: date.start) %}
+{% assign sorted_alumni = (site.newpeople | sort: date.end | reverse ) %}
 <br>
 
 <div class = "people">
