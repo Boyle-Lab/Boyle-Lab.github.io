@@ -194,11 +194,6 @@ body { font-family: 'Open Sans', sans-serif; font-size: 14px; background: url('/
 	padding: 10px 5px 20px;
 }
 
-.people .list a {
-	border-bottom: 1px dashed #666;
-	color: #666;
-}
-
 .row{
 /* border:2px dotted #F00; */
 border-left:none;
