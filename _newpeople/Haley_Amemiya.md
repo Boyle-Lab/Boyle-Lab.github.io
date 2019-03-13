@@ -23,6 +23,8 @@ social:
 CV: 
 theme_areas:
   - Gene Regulation
+  - C. elegans Regulation
+  - CRISPR/Cas9 efficiency
 awards:
   - Cellular and Molecular Biology Training Program
   - Rackham Graduate Student Research Grant (pre- & post-candidate)
