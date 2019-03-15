@@ -1,0 +1,15 @@
+---
+authors: *Yang B, *Zhou W, *Jiao J, Nielsen JB, Mathis MR, Heydarpour M, Lettre G, Folkersen L, Prakash S, Schurmann C, Fritsche L, Farnum GA, Lin M, Othman M, Hornsby W, Driscoll A, Levasseur A, Thomas M, Farhat L, Dubé MP, Isselbacher EM, Franco-Cereceda A, Guo Dc, Bottinger EP, Deeb GM, Booher A, Kheterpal S, Chen YE, Kang HM, Kitzman J, Cordell HJ, Keavney BD, Goodship JA, Ganesh SK, Abecasis G, Eagle KA, Boyle AP, Loos RJF, †Eriksson P, †Tardif JC, †Brummett CM, †Milewicz DM, †Body SC, †Willer CJ.
+title: "Protein-altering and regulatory genetic variants near GATA4 implicated in bicuspid aortic valve."
+journal: Nature Communications
+year: 2017
+volume: 8
+pages: 15481
+doi: "10.1038/ncomms15481"
+abstract: "Bicuspid aortic valve (BAV) is a heritable congenital heart defect and an important risk factor for valvulopathy and aortopathy. Here we report a genome-wide association scan of 466 BAV cases and 4,660 age, sex and ethnicity-matched controls with replication in up to 1,326 cases and 8,103 controls. We identify association with a noncoding variant 151 kb from the gene encoding the cardiac-specific transcription factor, GATA4, and near-significance for p.Ser377Gly in GATA4. GATA4 was interrupted by CRISPR-Cas9 in induced pluripotent stem cells from healthy donors. The disruption of GATA4 significantly impaired the transition from endothelial cells into mesenchymal cells, a critical step in heart valve development."
+url: "http://www.ncbi.nlm.nih.gov/pubmed/28541271"
+pdf: http://boylelab.org/pubs/Nat_Commun_2017_Yang.pdf"
+PMID: 28541271
+members: [ apboyle, gregfar ]
+---
+
