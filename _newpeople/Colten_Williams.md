@@ -5,7 +5,7 @@ status: alumni
 name: Colten Williams
 umid: coltenw
 position: UROP Computer Science
-title: Universit of Michigan Computer Science
+title: University of Michigan Computer Science
 picture: Colten_pic.jpg
 previous_training:
 current:
