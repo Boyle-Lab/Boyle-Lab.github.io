@@ -31,7 +31,8 @@ awards:
   - Rackham Graduate Student Research Grant (post-candidate)
 ---
 
-testing page content
-change to rebuild page
-...
+Sierra Nishizaki’s PhD research focuses on expanding our knowledge of the non-
+coding genome. To do this they are both working with zebrafish to identify and
+characterize new regulatory elements from the human genome and designing
+software to predict disease-relevant variation within these regions.
 
