@@ -23,7 +23,7 @@ social:
   orcid:
 CV: 
 theme_areas:
-  - DNase Footprinting 
   - Gene Regulation
+  - DNase Footprinting 
 ---
-~
+Ningxin's current project focuses on developing an unsupervised footprinting method. She works to integrate both DNase I hypersensitivity and genome sequence information in a multivariate Hidden Markov Model to detect transcription factor binding sites
