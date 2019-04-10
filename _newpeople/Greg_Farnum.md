@@ -1,11 +1,11 @@
 ---
 layout: member
 publish: true
-status: alumni
+status: current
 name: Greg Farnum
 umid: gregfar
-position: Doctoral Student
-title: Cellular & Molecular Biology Ph.D. Student
+position: Volunteer
+title: Volunteer Researcher
 picture: Greg_Farnum_pic.jpg
 previous_training:
   - type: 'B.S.'
@@ -15,7 +15,7 @@ previous_training:
 current:
 dates:
   start: 2015-07-01
-  end: 2017-07-01
+  end: 
 social: 
   google-scholar: 
   linked-in: 
@@ -26,5 +26,6 @@ CV:
 theme_areas:
   - Gene Regulation
   - 3D structure of the genome
+  - Silencer biology
 awards:
 ---
