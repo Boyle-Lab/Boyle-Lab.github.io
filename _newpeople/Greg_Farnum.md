@@ -14,7 +14,7 @@ previous_training:
     info: 'Michigan State University'
 current:
 dates:
-  start: 2015-07-01
+  start: 2019-04-10
   end: 
 social: 
   google-scholar: 
