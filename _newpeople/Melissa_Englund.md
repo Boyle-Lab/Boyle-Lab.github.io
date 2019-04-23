@@ -4,7 +4,7 @@ publish: true
 status: current
 name: Melissa Englund
 umid: melyssae
-position: Doctoral Student since September 2015
+position: Doctoral Student 
 title: Human Genetics PhD Candidate
 picture: Melissa_pic.jpg
 previous_training:
