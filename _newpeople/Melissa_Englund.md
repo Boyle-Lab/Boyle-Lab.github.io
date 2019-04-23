@@ -1,0 +1,36 @@
+---
+layout: member
+publish: true
+status: current
+name: Melissa Englund
+umid: melyssae
+position: Doctoral Student since September 2015
+title: Human Genetics PhD Candidate
+picture: Melissa_pic.jpg
+previous_training:
+  - type: ‘B.A. Molecular and Cell Biology’
+    info: ‘University of California, Berkeley’
+dates:
+  start: 2017-07-17
+  end:
+social: 
+  google-scholar: 
+  linked-in: 
+  email: melyssae@umich.edu
+  github:
+  orcid:
+CV: 
+theme_areas:
+  - Non-coding Genome
+  - Human Genetics
+  - Gene Regulation
+  - Silencers, Enhancer-blockers and Insulators
+  - Massively-parallel Reporter Assays
+  - CRISPR/Cas9 Genomic Targeting
+  - PRDM1
+awards:
+  - NIH Training Grant: Michigan Predoctoral Training in Genetics (GTP)
+  - Anita and Howard Cramer Scholarship Award for Academic Achievement
+---
+
+Melissa’s PhD research focuses on understanding the regulatory capacity of the human non-coding genome. Her work involves both development of novel plasmid-based tools for assaying negative regulatory element activity and the leveraging of these tools to characterize regulatory elements in the 300kb non-coding genomic region surrounding the gene PRDM1.
