@@ -8,8 +8,8 @@ position: Doctoral Student
 title: Human Genetics PhD Candidate
 picture: Melissa_pic.jpg
 previous_training:
-  - type: B.A. Molecular and Cell Biology
-    info: University of California, Berkeley
+  - type: 'B.A. Molecular and Cell Biology'
+    info: 'University of California, Berkeley'
 dates:
   start: 2017-07-17
   end:
