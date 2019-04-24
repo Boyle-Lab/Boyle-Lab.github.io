@@ -8,8 +8,8 @@ position: Doctoral Student
 title: Human Genetics PhD Candidate
 picture: Melissa_pic.jpg
 previous_training:
-  - type: ‘B.A. Molecular and Cell Biology’
-    info: ‘University of California, Berkeley’
+  - type: B.A. Molecular and Cell Biology
+    info: University of California, Berkeley
 dates:
   start: 2017-07-17
   end:
@@ -29,7 +29,7 @@ theme_areas:
   - CRISPR/Cas9 Genomic Targeting
   - PRDM1
 awards:
-  - NIH Training Grant: Michigan Predoctoral Training in Genetics (GTP)
+  - Michigan Predoctoral Training in Genetics (GTP T32)
   - Anita and Howard Cramer Scholarship Award for Academic Achievement
 ---
 
