@@ -8,7 +8,7 @@ position: UROP / Honors Capstone
 title: University of Michigan Computer Science 
 picture: Cody_pic.jpg
 previous_training:
-current:
+current: Capital One
 dates:
   start: 2016-10-11
   end: 2019-04-24
