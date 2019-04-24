@@ -10,7 +10,7 @@ picture: Margarita_Brovkina.jpg
 previous_training:
   - type: 'B.S.'
     info: 'University of Maryland, BC'
-current: 
+current: Eleanor Clowney Lab
 dates:
   start: 2019-01-09
   end: 2019-03-01
