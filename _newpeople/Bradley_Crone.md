@@ -1,11 +1,11 @@
 ---
 layout: member
 publish: true
-status: alumni
+status: current
 name: Bradley Crone
 umid: crone
-position: PIBS Rotation Student
-title: Bioinformatics Ph.D. Student
+position: Doctoral Student
+title: Bioinformatics Ph.D. Student (co-mentor with Cristen Willer)
 picture: Brad_pic.png
 previous_training:
   - type: 'B.S.'
@@ -13,7 +13,7 @@ previous_training:
 current:
 dates:
   start: 2018-09-04
-  end: 2018-12-20
+  end:
 social: 
   google-scholar: 
   linked-in: 
