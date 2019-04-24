@@ -11,7 +11,7 @@ previous_training:
   - type: 'B.S.'
     info: 'Michigan State University'
   - type: 'M.S'.
-    info: Cornell University
+    info: 'Cornell University'
 dates:
   start: 2015-02-16
   end:
