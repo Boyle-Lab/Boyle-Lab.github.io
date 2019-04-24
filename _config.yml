@@ -4,9 +4,6 @@ collections:
     output: true
   people:
     output: true
-    permalink: /:path
-  newpeople:
-    output: true
     permalink: /people/:path
 defaults:
   -
