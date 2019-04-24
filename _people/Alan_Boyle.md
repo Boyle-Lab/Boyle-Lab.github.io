@@ -23,8 +23,8 @@ social:
   google-scholar: yAqEpxMAAAAJ
   linked-in: pub/alan-boyle/
   email: apboyle@umich.edu
-  github:
-  orcid:
+  github: aboyle
+  orcid: 0000-0002-2081-1105
 CV: ABoyle_CV.pdf
 theme_areas:
   - Non-coding variation
