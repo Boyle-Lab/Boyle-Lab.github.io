@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Cody Morterud
 umid: cmorteru
 position: UROP / Honors Capstone
@@ -11,7 +11,7 @@ previous_training:
 current:
 dates:
   start: 2016-10-11
-  end: 
+  end: 2019-04-24
 social: 
   google-scholar: 
   linked-in: 
