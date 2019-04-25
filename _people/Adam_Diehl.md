@@ -28,7 +28,5 @@ theme_areas:
   - High-throughput genomics
   - Software Development
 ---
+Adam Diehl completed his Masters in Genetics at Cornell University in July of 2010, in the lab of Adam Siepel, where he developed a hidden Markov model to identify species-specific transcription factor binding sites. His current research centers on gene regulatory grammar and evolution, using the human and mouse genomes as model systems. He has a strong background in teaching and enjoys mentoring students and helping other lab members find solutions to computational and bioinformatics problems.
 
-
-awards:
----
