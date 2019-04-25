@@ -18,7 +18,7 @@ social:
   linked-in: 
   email: shengchd@umich.edu
   github:
-  orcid:
+  orcid: 0000-0001-5728-8090
 theme_areas:
   - Non-coding variation
   - Gene Regulation

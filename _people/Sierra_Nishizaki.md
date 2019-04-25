@@ -18,7 +18,7 @@ social:
   linked-in: 
   email: 
   github:
-  orcid:
+  orcid: 0000-0002-4288-4567
 CV: 
 theme_areas:
   - Non-coding variation
