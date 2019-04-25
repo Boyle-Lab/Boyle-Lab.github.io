@@ -19,9 +19,16 @@ social:
   google-scholar: 
   linked-in: 
   email: 
-  github:
+  github: adadiehl
   orcid:
 CV: 
 theme_areas:
+  - Gene Regulation
+  - Bioinformatics
+  - High-throughput genomics
+  - Software Development
+___
+
+
 awards:
 ---
