@@ -27,7 +27,7 @@ theme_areas:
   - Bioinformatics
   - High-throughput genomics
   - Software Development
-___
+---
 
 
 awards:
