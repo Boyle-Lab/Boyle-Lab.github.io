@@ -38,18 +38,18 @@ Current: {{ page.current }}
 {% endif %}
 </p>
 <div class="social">
-	{% if page.email2	%}
+	{% if page.social.email	%}
 		<a href="mailto:{{ page.social.email }}">
 		<i class="fa fa-envelope-o"></i>
 		</a>
 	{% endif			%}
-	{% if page.twitter2	%}
-		<a href="https://twitter.com/{{ page.twitter }}">
+	{% if page.social.twitter	%}
+		<a href="https://twitter.com/{{ page.social.twitter }}">
 		<i class="fa fa-twitter"></i>
 		</a>
 	{% endif			%}
-	{% if page.github	%}
-		<a href="https://github.com/{{ page.github }}">
+	{% if page.social.github	%}
+		<a href="https://github.com/{{ page.social.github }}">
 		<i class="fa fa-github"></i>
 		</a>
 	{% endif			%}
@@ -59,23 +59,23 @@ Current: {{ page.current }}
 		</a>
 	{% endif			%}
 	{% if page.social.orcid	%}
-		<a href="http://orcid.org/{{page.orcid}}">
+		<a href="http://orcid.org/{{page.social.orcid}}">
 		<i class="ai ai-orcid"></i>
 		</a>
 	{% endif			%}
 	{% if page.social.linkedin	%}
-		<a href="https://linkedin.com/in/{{ page.linkedin }}">
+		<a href="https://linkedin.com/in/{{ page.social.linkedin }}">
 		<i class="fa fa-linkedin"></i>
 		</a>
 	{% endif			%}
-	{% if page.website	%}
-		<a href="{{ page.website }}">
+	{% if page.social.website	%}
+		<a href="{{ page.social.website }}">
 		<i class="fa fa-globe"></i>
 		</a>
 	{% endif			%}
 	{% if page.CV	%}
 		<a href="http://boylelab.org/assets/{{ page.CV }}">
-		<i class="fa fa-globe"></i>
+		<i class="ai ai-cv"></i>
 		</a>
 	{% endif			%}
 </div>
