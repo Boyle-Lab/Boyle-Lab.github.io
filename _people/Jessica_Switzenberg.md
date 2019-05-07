@@ -19,7 +19,7 @@ dates:
   end:
 social: 
   google-scholar: 
-  linked-in: /in/switzjess
+  linked-in: switzjess
   email: jswitzen@umich.edu
   github:
   orcid: 0000-0003-4569-3720
