@@ -21,7 +21,7 @@ dates:
   end:
 social: 
   google-scholar: yAqEpxMAAAAJ
-  linked-in: pub/alan-boyle/
+  linked-in: alan-boyle-48bb2810
   email: apboyle@umich.edu
   github: aboyle
   orcid: 0000-0002-2081-1105
