@@ -37,6 +37,48 @@
 Current: {{ page.current }}
 {% endif %}
 </p>
+<div class="social">
+	{% if page.email2	%}
+		<a href="mailto:{{ page.social.email }}">
+		<i class="fa fa-envelope-o"></i>
+		</a>
+	{% endif			%}
+	{% if page.twitter2	%}
+		<a href="https://twitter.com/{{ page.twitter }}">
+		<i class="fa fa-twitter"></i>
+		</a>
+	{% endif			%}
+	{% if page.github	%}
+		<a href="https://github.com/{{ page.github }}">
+		<i class="fa fa-github"></i>
+		</a>
+	{% endif			%}
+	{% if page.social.google-scholar	%}
+		<a href="https://scholar.google.com/citations?user={{page.social.google-scholar}}">
+		<i class="ai ai-google-scholar"></i>
+		</a>
+	{% endif			%}
+	{% if page.social.orcid	%}
+		<a href="http://orcid.org/{{page.orcid}}">
+		<i class="ai ai-orcid"></i>
+		</a>
+	{% endif			%}
+	{% if page.social.linkedin	%}
+		<a href="https://linkedin.com/in/{{ page.linkedin }}">
+		<i class="fa fa-linkedin"></i>
+		</a>
+	{% endif			%}
+	{% if page.website	%}
+		<a href="{{ page.website }}">
+		<i class="fa fa-globe"></i>
+		</a>
+	{% endif			%}
+	{% if page.CV	%}
+		<a href="http://boylelab.org/assets/{{ page.CV }}">
+		<i class="fa fa-globe"></i>
+		</a>
+	{% endif			%}
+</div>
 
 <p>
 <h3 class="title">Research areas</h3>
