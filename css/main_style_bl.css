@@ -11,12 +11,12 @@
 
 #masthead { padding:1.618em; }
 #masthead .nav-wrap { width:960px; margin-left:auto; margin-right:auto; }
-#navigation { display: block; position: relative; }
-#wsite-menu ul { position: absolute; right: 0; margin: 0; padding: 0; }
-#wsite-menu li { list-style: none; float: left; margin-left: 15px; }
-#wsite-menu ul li a { display: block; color: #333; text-decoration: none; padding: 5px 7px 8px; margin:0 0px 1px; border: 0; outline: 0; list-style-type: none; box-sizing:border-box; float: left; font:13px 'Open Sans',arial,sans-serif; text-transform:uppercase; }
-#wsite-menu ul li#active a{ padding: 5px 7px 4px; border-bottom:4px solid #0D57AA; color:#000; }
-#wsite-menu ul li a:hover { padding: 5px 7px 4px; border-bottom:4px solid #0D57AA; color: #666; }
+.navigation { display: block; position: relative; }
+.wsite-menu ul { position: absolute; right: 0; margin: 0; padding: 0; }
+.wsite-menu li { list-style: none; float: left; margin-left: 15px; }
+.wsite-menu ul li a { display: block; color: #333; text-decoration: none; padding: 5px 7px 8px; margin:0 0px 1px; border: 0; outline: 0; list-style-type: none; box-sizing:border-box; float: left; font:13px 'Open Sans',arial,sans-serif; text-transform:uppercase; }
+.wsite-menu ul li#active a{ padding: 5px 7px 4px; border-bottom:4px solid #0D57AA; color:#000; }
+.wsite-menu ul li a:hover { padding: 5px 7px 4px; border-bottom:4px solid #0D57AA; color: #666; }
 
  #wsite-university { margin-top:0px; padding:10px 20px 0px; text-align:right; }
  #wsite-title { font-family: 'Open Sans', sans-serif; color:#555; line-height:30px; float:left; padding-left:10px; }
