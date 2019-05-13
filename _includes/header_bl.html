@@ -1,0 +1,35 @@
+{% assign current = page.url | downcase | split: '/' %}
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{page.title}} | The Boyle Lab</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<link rel='stylesheet' type='text/css' href='/css/main_style_bl.css' />
+<link rel='stylesheet' type='text/css' href='/css/academicons.css' />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,400italic,700italic' rel='stylesheet' type='text/css' />
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+
+{% include tracking.html %}
+
+<script>
+window.onload = function() {
+  var a = document.getElementsByTagName('a');
+  for (i = 0; i < a.length; i++) {
+    if (a[i].hostname === location.hostname) {
+      if (a[i].href.match(/(zip|dmg|txt|cfg|gz|pl|pdf)$/i)) {
+        a[i].setAttribute('target', '_blank');
+        a[i].onclick = function() {
+          ga('send', 'event', 'Downloads', 'Click', this.getAttribute('href'));
+        };
+      }
+    }
+  }
+}
+</script>
+
+</head>
