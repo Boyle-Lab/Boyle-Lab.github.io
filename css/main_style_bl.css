@@ -11,8 +11,8 @@
 
 #masthead { padding:1.618em; }
 #masthead .nav-wrap { width:960px; margin-left:auto; margin-right:auto; }
-.navigation { display: block; position: relative; }
-.wsite-menu ul { position: absolute; right: 0; margin: 0; padding: 0; }
+.site-title { display: block; float: left; position: relative; }
+.wsite-menu { line-height: 55px; display: block; float: right; margin: 0; padding: 0; }
 .wsite-menu li { list-style: none; float: left; margin-left: 15px; }
 .wsite-menu ul li a { display: block; color: #333; text-decoration: none; padding: 5px 7px 8px; margin:0 0px 1px; border: 0; outline: 0; list-style-type: none; box-sizing:border-box; float: left; font:13px 'Open Sans',arial,sans-serif; text-transform:uppercase; }
 .wsite-menu ul li#active a{ padding: 5px 7px 4px; border-bottom:4px solid #0D57AA; color:#000; }
@@ -37,7 +37,7 @@
  ol, ul { margin: 0; padding: 0px 20px; }
  a img { border: 0; }
  a { text-decoration: none; }
-body { font-family: 'Open Sans', sans-serif; font-size: 14px; background: url('/assets/images/pattern.jpg'); color: #000; line-height:24px; } 
+body { font-family: 'Open Sans', sans-serif; font-size: 14px; color: #000; } 
 /*  body { font-family: 'Open Sans', sans-serif; font-size: 14px; background: #FFFFFF; color: #000; line-height:24px; } */
  h3 { font-size: 22px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:20px; }
  h4 { font-size: 18px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:5px; }
