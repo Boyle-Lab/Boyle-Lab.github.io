@@ -26,9 +26,10 @@ theme_areas:
   - De Novo Mutations 
   - Gene Regulation
 awards:
-  - Bioinformatics Training Program
+  - Bioinformatics Training Program (T32)
   - Rackham Merit Fellow
   - Rackham Graduate Student Research Grant (pre-candidate)
+  - Global Research Engagement Opportunity Fellowship
 ---
 
 Christopher Castro received his bachelor's degree in applied mathematics from Northeastern Illinois University.  His current research targets the role of genetic variation in autism spectrum disorders, with a particular focus on uninherited (de novo) mutations occurring in non-coding regions.
