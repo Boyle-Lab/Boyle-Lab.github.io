@@ -8,6 +8,8 @@ number:
 pages: 
 month: 
 url: "http://dx.doi.org/10.1534/genetics.118.301525"
-PMID: 
+doi: "10.1534/genetics.118.301525"
+pdf: "http://boylelab.org/pubs/Genetics_2019_Varshney.pdf"
+PMID: 30593493
 members: [ apboyle ]
 ---

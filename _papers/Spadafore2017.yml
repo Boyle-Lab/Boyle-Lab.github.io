@@ -8,6 +8,8 @@ number: 530
 pages: 
 month: 
 url: "http://dx.doi.org/10.1186/s12859-017-1935-y"
-PMID: 
+doi: "10.1186/s12859-017-1935-y"
+pdf: "http://boylelab.org/pubs/BMC_Bioinformatics_2017_Spadafore.pdf"
+PMID: 29187152
 members: [ apboyle ]
 ---
