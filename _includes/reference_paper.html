@@ -25,16 +25,18 @@
 
 
 	<div class="supp">
-		{% if include.ref.pdf %}
-		<a href="{{ include.ref.pdf'}}">
+		{% if include.ref.pdf 		%}
+		<a href="{{ include.ref.pdf }}">
 			<i class="far fa-file-pdf fa-lg"></i>
 		</a>
-		{% endif %}
-		{% if include.ref.preprint %}
-		<a href="{{ include.ref.preprint }}">
+		{% endif			%}
+
+		{% if include.ref.biorxiv	%}
+		<a href="{{ include.ref.biorxiv }}">
 			<i class="ai ai-biorxiv ai-lg"></i>
 		</a>
 		{% endif			%}
+
 		{% if include.ref.github	%}
 			<a href="{{ include.ref.github }}">
 				<i class="fab fa-github fa-lg" ></i>
