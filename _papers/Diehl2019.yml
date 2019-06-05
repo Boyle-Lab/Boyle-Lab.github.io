@@ -11,6 +11,8 @@ doi:
 abstract: "Dimensionality-reduction methods are widely used to break down complex datasets into more manageable subunits. For example, self-organizing maps (SOMs) [@Kohonen:1990], a type of neural network, are capable of projecting high-dimensional data onto a two-dimensional grid topography. Each grid cell (node) within these mappings represents a cluster of data points (modules) with similar properties, and the distance between nodes on the map is inversely correlated with their underlying similarity. These properties allow these maps to capture the properties of complex datasets and represent them in a human-readable form that facilitates further analysis. In particular, projecting covariates onto these mappings can yield insights into how and why modules cluster together, giving clues to their underlying properties and potential functions within the system from which they were drawn. For example, SOMs have been used in computational genomics to distill co-occurence data for large sets of DNA binding proteins into common co-binding patterns [@Boyle:2014; @Diehl:2018; @Xie:2013]. Projecting various genomic annotations onto these mappings has yielded insights into the biological processes and mechanisms associated with different co-binding patterns."
 url: 
 pdf: 
+biorxiv:
+github: "https://github.com/Boyle-Lab/CGIMP"
 PMID: 
 members: [ adadiehl, apboyle ]
 ---

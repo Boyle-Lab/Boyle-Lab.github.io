@@ -10,6 +10,7 @@ doi: "10.1016/j.tig.2016.02.002"
 abstract: "The ENCODE project represents a major leap from merely describing and comparing genomic sequences to surveying them for direct indicators of function. The astounding quantity of data produced by the ENCODE consortium can serve as a map to locate specific landmarks, guide hypothesis generation, and lead us to principles and mechanisms underlying genome biology. Despite its broad appeal, the size and complexity of the repository can be intimidating to prospective users. We present here some background about the ENCODE data, survey the resources available for accessing them, and describe a few simple principles to help prospective users choose the data type(s) that best suit their needs, where to get them, and how to use them to their best advantage."
 url: "http://www.ncbi.nlm.nih.gov/pubmed/26962025"
 pdf: "http://boylelab.org/pubs/Trends_Genet_2016_Diehl.pdf"
+github: "https://github.com/Boyle-Lab/ENCODE-API-Apps"
 PMID: 26962025
 members: [ apboyle, adadiehl ]
 ---
