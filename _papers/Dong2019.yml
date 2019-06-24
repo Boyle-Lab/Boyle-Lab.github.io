@@ -1,14 +1,16 @@
 ---
 authors: Dong S and Boyle AP
 title: "Predicting functional variants in enhancer and promoter elements using RegulomeDB"
-journal: In Press, Human Mutation
+journal: Human Mutation
 year: 2019
 volume: 
 number: 
 pages: 
 month: 
 url: 
+doi: "10.1002/humu.23791"
+pdf: "http://boylelab.org/pubs/Hum._Mutat._2019_Dong.pdf"
 github: "https://github.com/Boyle-Lab/CAGI5-RegDB"
-PMID: 
+PMID: 31228310
 members: [ shengchd, apboyle ]
 ---
