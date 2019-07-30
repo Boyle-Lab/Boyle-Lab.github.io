@@ -6,7 +6,7 @@ name: Diana Davis
 umid: dianald
 position: Research Assistant
 title: University of Michigan Neuroscience
-picture: Diana_pic.jpg
+picture: Diana_pic.JPG
 previous_training:
   - type: 'B.S. Neuroscience (2020)'
     info: 'University of Michigan'
