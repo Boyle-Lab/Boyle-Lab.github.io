@@ -17,8 +17,8 @@ dates:
 social: 
   google-scholar: 
   linked-in: 
-  email: 
-  github:
+  email: crone@umich.edu
+  github: https://github.com/bcrone
   orcid:
 CV: 
 theme_areas:
