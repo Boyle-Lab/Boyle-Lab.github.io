@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Vibhasri Davuluri
 umid: vibhasri
 position: Research Assistant
