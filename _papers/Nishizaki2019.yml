@@ -1,17 +1,17 @@
 ---
-authors: Nishizaki SS, Ng N, Dong S, Morterud C, Williams C, and Boyle AP
+authors: Nishizaki SS, Ng N, Dong S, Porter RS, Morterud C, Williams C, Asman C, Switzenberg JA, and Boyle AP
 title: "Predicting the effects of SNPs on transcription factor binding affinity"
-journal: BiorXiv
+journal: Bioinformatics
 year: 2019
-volume: 581306
+volume: 50
 number: 
-pages: 
-month: 
-doi: "10.1101/581306"
+pages: 2434
+month: Aug
+doi: "10.1093/bioinformatics/btz612"
 abstract: "GWAS have revealed that 88% of disease associated SNPs reside in noncoding regions. However, noncoding SNPs remain understudied, partly because they are challenging to prioritize for experimental validation. To address this deficiency, we developed the SNP effect matrix pipeline (SEMpl). SEMpl estimates transcription factor binding affinity by observing differences in ChIP-seq signal intensity for SNPs within functional transcription factor binding sites genome-wide. By cataloging the effects of every possible mutation within the transcription factor binding site motif, SEMpl can predict the consequences of SNPs to transcription factor binding. This knowledge can be used to identify potential disease-causing regulatory loci."
 biorxiv: "https://www.biorxiv.org/content/10.1101/581306v1"
-pdf: "https://www.biorxiv.org/content/biorxiv/early/2019/03/18/581306.full-text.pdf"
+pdf: "http://boylelab.org/pubs/Bioinformatics_2019_Nishizaki.pdf"
 github: "https://github.com/Boyle-Lab/SEM_CPP"
-PMID: 
-members: [ ssnishi, shengchd, cmorteru, coltenw, apboyle ]
+PMID: 31373606
+members: [ ssnishi, shengchd, cmorteru, coltenw, casman, jswitzen, apboyle ]
 ---
