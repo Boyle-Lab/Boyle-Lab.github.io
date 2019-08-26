@@ -4,7 +4,7 @@ publish: true
 status: current
 name: Sheila Rasouli
 umid: srasouli
-position: Research Assistant
+position: Undergraduate Research Assistant
 title: University of Toronto Neuroscience
 picture: Sheila_pic.jpg
 previous_training:

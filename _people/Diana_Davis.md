@@ -4,7 +4,7 @@ publish: true
 status: current
 name: Diana Davis
 umid: dianald
-position: Research Assistant
+position: Undergraduate Research Assistant
 title: University of Michigan Neuroscience
 picture: Diana_pic.jpg
 previous_training:

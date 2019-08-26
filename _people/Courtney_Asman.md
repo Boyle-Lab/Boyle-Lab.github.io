@@ -4,7 +4,7 @@ publish: true
 status: alumni
 name: Courtney Asman
 umid: casman
-position: Undergraduate Researcher
+position: Undergraduate Research Assistant
 title: University of Michigan Neuroscience
 picture: Courtney_pic.jpg
 previous_training:

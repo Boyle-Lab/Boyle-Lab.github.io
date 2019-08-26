@@ -4,7 +4,7 @@ publish: true
 status: alumni
 name: Vibhasri Davuluri
 umid: vibhasri
-position: Research Assistant
+position: High School Research Assistant
 title: 
 picture: Vibha_pic.jpg
 previous_training:
