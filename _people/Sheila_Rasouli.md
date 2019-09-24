@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Sheila Rasouli
 umid: srasouli
 position: Undergraduate Research Assistant
