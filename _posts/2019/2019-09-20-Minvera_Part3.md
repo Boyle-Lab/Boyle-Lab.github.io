@@ -4,7 +4,7 @@ status: publish
 title: The lab helps Minerva in Part 3!
 date: '2019-09-20'
 external-url:
-teaser: 2019/Minerva.png
+teaser: 2019/Minvera.png
 categories:
 - Events
 ---
