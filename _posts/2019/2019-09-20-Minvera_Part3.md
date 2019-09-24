@@ -13,7 +13,7 @@ The lab helped out our friend Minvera in Part 3 of Decode Detroit: Ann Arbor's e
 
 <div>
 {% for image in site.static_files %}
-    {% if image.path contains 'MinveraP3' %}
+    {% if image.path contains 'MinervaP3' %}
         <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
     {% endif %}
 {% endfor %}
