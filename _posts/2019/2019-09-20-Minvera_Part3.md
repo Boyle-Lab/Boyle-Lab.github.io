@@ -9,7 +9,7 @@ categories:
 - Events
 ---
 
-The lab helped out our friend Minvera in Part 3 of Decode Detroit: Ann Arbor's escape room. We were only 2 minutes away from setting a new record! Everyone had a great time and looks forward to our next escape room (and finally breaking a room record)!
+The lab helped out our friend Minerva in Part 3 of Decode Detroit: Ann Arbor's escape room. We were only 2 minutes away from setting a new record! Everyone had a great time and looks forward to our next escape room (and finally breaking a room record)!
 
 <div>
 {% for image in site.static_files %}
