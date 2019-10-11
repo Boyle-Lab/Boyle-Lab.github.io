@@ -7,10 +7,10 @@ volume:
 number: 
 pages: 
 month: 
-doi: ""
+doi: "10.1101/801001"
 abstract: "Transcription is tightly regulated by cis-regulatory DNA elements where transcription factors can bind. Thus, identification of transcription factor binding sites is key to understanding gene expression and whole regulatory networks within a cell. The standard approaches for TFBSs prediction such as position weight matrices (PWMs) and chromatin immunoprecipitation followed by sequencing (ChIP-seq) are widely used but have their drawbacks such as high false positive rates and limited antibody availability, respectively. Several computational footprinting algorithms have been developed to detect TFBSs by investigating chromatin accessibility patterns, but also have their limitations. To improve on these methods, we have developed a footprinting method to predict Transcription factor footpRints in Active Chromatin Elements (TRACE). Trace incorporates DNase-seq data and PWMs within a multivariate Hidden Markov Model (HMM) to detect footprint-like regions with matching motifs. Trace is an unsupervised method that accurately annotates binding sites for specific TFs automatically with no requirement on pre-generated candidate binding sites or ChIP-seq training data. Compared to published footprinting algorithms, TRACE has the best overall performance with the distinct advantage of targeting multiple motifs in a single model."
-biorxiv: ""
-pdf: ""
+biorxiv: "https://www.biorxiv.org/content/10.1101/801001v1"
+pdf:
 github: "https://github.com/Boyle-Lab/TRACE"
 PMID: 
 members: [ nouyang, apboyle ]
