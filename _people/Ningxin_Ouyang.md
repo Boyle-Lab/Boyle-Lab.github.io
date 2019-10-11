@@ -19,7 +19,7 @@ social:
   google-scholar: 
   linked-in: 
   email: 
-  github: oynx0601
+  github: nxouyang
   orcid: 0000-0002-1182-8861
 CV: 
 theme_areas:
