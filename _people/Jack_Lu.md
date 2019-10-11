@@ -4,7 +4,7 @@ publish: true
 status: current
 name: Jack Lu
 umid: jacklu
-position: UROP / Computer Science
+position: UROP Computer Science
 title: University of Michigan Computer Science 
 picture: Jack_Lu_pic.jpg
 previous_training: 
@@ -15,7 +15,7 @@ previous_training:
   - type: 'STEM Program'
     info: 'Thomas A. Edison High School'
 dates:
-  start: 2019-10-1
+  start: 2019-10-01
   end:
 social: 
   google-scholar: 
