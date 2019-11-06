@@ -23,5 +23,6 @@ CV:
 theme_areas:
   - Software Development for the CGIMP Data Browser
 awards:
+  - Dean's Honor List, Fall 2018 - Winter 2019
 ---
 
