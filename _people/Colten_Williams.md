@@ -8,7 +8,9 @@ position: UROP Computer Science
 title: University of Michigan Computer Science
 picture: Colten_pic.jpg
 previous_training:
-current:
+  - type: 'B.S.'
+    info: 'Computer Science, University of Michigan'
+current: 
 dates:
   start: 2016-10-06
   end: 2017-05-01
