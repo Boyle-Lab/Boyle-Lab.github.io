@@ -194,6 +194,14 @@ body { font-family: 'Open Sans', sans-serif; font-size: 14px; background: url('/
 	padding: 10px 5px 20px;
 }
 
+.memberpage img {
+	border: 1px solid #ccc;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;  
+}
+
+
 .row{
 /* border:2px dotted #F00; */
 border-left:none;
