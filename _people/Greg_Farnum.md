@@ -21,7 +21,7 @@ social:
   linked-in: 
   email: 
   github:
-  orcid:
+  orcid: 0000-0002-0915-4570
 CV: 
 theme_areas:
   - Gene Regulation
