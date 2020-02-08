@@ -1,14 +1,14 @@
 ---
 authors: Amemiya HM, Kundaje A, and Boyle AP
 title: "The ENCODE Blacklist: Identification of Problematic Regions of the Genome"
-journal: Submitted
+journal: Scientific Reports
 year: 2019
-volume: 
+volume: 9
 number: 
-pages: 
-month: 
+pages: 9354
+month: Jun
 url: 
 github: "https://github.com/Boyle-Lab/Blacklist"
-PMID: 
+PMID: 31249361
 members: [ hamemiya, apboyle ]
 ---
