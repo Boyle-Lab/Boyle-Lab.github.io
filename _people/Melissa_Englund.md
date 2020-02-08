@@ -18,7 +18,7 @@ social:
   linked-in: 
   email: melyssae@umich.edu
   github:
-  orcid:
+  orcid: 0000-0003-3551-2877
 CV: 
 theme_areas:
   - Non-coding Genome
