@@ -7,11 +7,11 @@ volume:
 number: 
 pages: 
 month: 
-doi: "10.1101/939223"
+doi: "10.1101/2020.02.10.939223"
 abstract: "Zebrafish have been a foundational model organism for studying the spatio-temporal activity of genes and their regulatory sequences. A variety of approaches are currently available for editing genes and modifying gene expression in zebrafish including RNAi, Cre/lox, and CRISPR-Cas9. However, the lac operator-repressor system, a component of the E. Coli lac operon, which has been adapted for use in many other species to study the inducible modulation of gene expression, has not previously been shown to function in zebrafish. Here we demonstrate that the lac operator-repressor system robustly decreases expression of firefly luciferase in cultured zebrafish fibroblast cells. Our work establishes the lac operator-repressor system as a promising tool for the manipulation of gene expression in whole zebrafish. Additionally we show the first evidence that the cytomegalovirus (CMV) enhancer is active in zebrafish cells and enhances eGFP expression ubiquitously in zebrafish embryos. Our results lay the groundwork for the development of lac-based reporter assays in zebrafish, and add to the tools available for investigating dynamic gene expression in embryogenesis. We believe that this work will catalyze the development of new reporter assay systems to investigate uncharacterized regulatory elements and their cell-type specific activities."
 url: 
 pdf: 
-biorxiv: https://www.biorxiv.org/content/10.1101/939223v1
+biorxiv: https://www.biorxiv.org/content/10.1101/2020.02.10.939223v1
 github: 
 PMID: 
 members: [ ssnishi, torrin, gregfar, mhholmes, melyssae, jswitzen, apboyle ]
