@@ -1,0 +1,18 @@
+---
+authors: Lee CT, Cavalcante RG, Lee C, Qin T, Patil S, Wang S, Tsai ZT, Boyle AP, Sartor MA
+title: "Poly-Enrich: count-based methods for gene set enrichment testing with genomic regions"
+journal: NAR Genomics and Bioinformatics
+year: 2020
+volume: 2
+number: 1
+pages: lqaa006
+month: Feb
+doi: "10.1093/nargab/lqaa006"
+abstract: "Gene set enrichment (GSE) testing enhances the biological interpretation of ChIP-seq data and other large sets of genomic regions. Our group has previously introduced two GSE methods for genomic regions: ChIP-Enrich for narrow regions and Broad-Enrich for broad regions. Here, we introduce Poly-Enrich, which has wider applicability, additional capabilities and models the number of peaks assigned to a gene using a generalized additive model with a negative binomial family to determine gene set enrichment, while adjusting for gene locus length. As opposed to ChIP-Enrich, Poly-Enrich works well even when nearly all genes have a peak, illustrated by using Poly-Enrich to characterize pathways and types of genic regions enriched with different families of repetitive elements. By comparing Poly-Enrich and ChIP-Enrich results with ENCODE ChIP-seq data, we found that the optimal test depends more on the pathway being regulated than on properties of the transcription factors. Using known transcription factor functions, we discovered clusters of related biological processes consistently better modeled with Poly-Enrich. This suggests that the regulation of certain processes may be modified by multiple binding events, better modeled by a count-based method. Our new hybrid method automatically uses the optimal method for each gene set, with correct FDR-adjustment."
+url: "https://doi.org/10.1093/nargab/lqaa006"
+pdf: "http://boylelab.org/pubs/NAR_Genomics_and_Bioinformatics_2020_Lee.pdf"
+github: "https://github.com/sartorlab/polyenrich"
+biorxiv: "http://dx.doi.org/10.1101/488734"
+PMID: 
+members: [ apboyle ]
+---
