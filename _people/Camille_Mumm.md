@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Camille Mumm
 umid: crmumm
 position: PIBS Rotation Student
@@ -12,7 +12,7 @@ previous_training:
     info: 'University of Iowa'
 dates:
   start: 2020-01-08
-  end:
+  end: 2020-02-28
 social: 
   google-scholar: 
   linked-in: 
