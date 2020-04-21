@@ -1,5 +1,23 @@
 {% raw %}
-<h1>pub.bib</h1><a name="Lee488734"></a><pre>
+<h1>pub.bib</h1><a name="Diehl679217"></a><pre>
+@article{<a href="pub.html#Diehl679217">Diehl679217</a>,
+  author = {Diehl, Adam G and Ouyang, Ningxin and Boyle, Alan P},
+  title = {Transposable elements contribute to cell and species-specific chromatin looping and gene regulation in mammalian genomes},
+  year = {2020},
+  doi = {10.1038/s41467-020-15520-5},
+  volume = {11},
+  number = {1},
+  pages = {1796},
+  month = mar,
+  abstract = {Chromatin looping is important for gene regulation, and studies of 3D chromatin structure across species and cell types have improved our understanding of the principles governing chromatin looping. However, 3D genome evolution and its relationship with natural selection remains largely unexplored. In mammals, the CTCF protein defines the boundaries of most chromatin loops, and variations in CTCF occupancy are associated with looping divergence. While many CTCF binding sites fall within transposable elements (TEs), their contribution to 3D chromatin structural evolution is unknown. Here we report the relative contributions of TE-driven CTCF binding site expansions to conserved and divergent chromatin looping in human and mouse. We demonstrate that TE-derived CTCF binding divergence may explain a large fraction of variable loops. These variable loops contribute significantly to corresponding gene expression variability across cells and species, possibly by refining sub-TAD-scale loop contacts responsible for cell-type-specific enhancer-promoter interactions.},
+  url = {<a href="http://www.nature.com/articles/s41467-020-15520-5">http://www.nature.com/articles/s41467-020-15520-5</a>},
+  pdf = {<a href="http://boylelab.org/pubs/Nature_Communications_2020_Diehl.pdf">http://boylelab.org/pubs/Nature_Communications_2020_Diehl.pdf</a>},
+  journal = {Nature Communications},
+  note = {{PMID:} 32286261}
+}
+</pre>
+
+<a name="Lee488734"></a><pre>
 @article{<a href="pub.html#Lee488734">Lee488734</a>,
   author = {Lee, Christopher T and Cavalcante, Raymond G and Lee, Chee and Qin, Tingting and Patil, Snehal and Wang, Shuze and Tsai, Zing T Y and Boyle, Alan P and Sartor, Maureen A},
   title = {{Poly-Enrich: count-based methods for gene set enrichment testing with genomic regions}},
@@ -11,7 +29,7 @@
   abstract = {{Gene set enrichment (GSE) testing enhances the biological interpretation of ChIP-seq data and other large sets of genomic regions. Our group has previously introduced two GSE methods for genomic regions: ChIP-Enrich for narrow regions and Broad-Enrich for broad regions. Here, we introduce Poly-Enrich, which has wider applicability, additional capabilities and models the number of peaks assigned to a gene using a generalized additive model with a negative binomial family to determine gene set enrichment, while adjusting for gene locus length. As opposed to ChIP-Enrich, Poly-Enrich works well even when nearly all genes have a peak, illustrated by using Poly-Enrich to characterize pathways and types of genic regions enriched with different families of repetitive elements. By comparing Poly-Enrich and ChIP-Enrich results with ENCODE ChIP-seq data, we found that the optimal test depends more on the pathway being regulated than on properties of the transcription factors. Using known transcription factor functions, we discovered clusters of related biological processes consistently better modeled with Poly-Enrich. This suggests that the regulation of certain processes may be modified by multiple binding events, better modeled by a count-based method. Our new hybrid method automatically uses the optimal method for each gene set, with correct FDR-adjustment.}},
   doi = {10.1093/nargab/lqaa006},
   url = {https://doi.org/10.1093/nargab/lqaa006},
-  note = {{PMID:} },
+  note = {{PMID:} 32051932},
   pdf = {<a href="http://boylelab.org/pubs/NAR_Genomics_and_Bioinformatics_2020_Lee.pdf">http://boylelab.org/pubs/NAR_Genomics_and_Bioinformatics_2020_Lee.pdf</a>}
 }
 </pre>
@@ -56,21 +74,6 @@
   abstract = {Transcription is tightly regulated by cis-regulatory DNA elements where transcription factors can bind. Thus, identification of transcription factor binding sites is key to understanding gene expression and whole regulatory networks within a cell. The standard approaches for TFBSs prediction such as position weight matrices (PWMs) and chromatin immunoprecipitation followed by sequencing (ChIP-seq) are widely used but have their drawbacks such as high false positive rates and limited antibody availability, respectively. Several computational footprinting algorithms have been developed to detect TFBSs by investigating chromatin accessibility patterns, but also have their limitations. To improve on these methods, we have developed a footprinting method to predict Transcription factor footpRints in Active Chromatin Elements (TRACE). Trace incorporates DNase-seq data and PWMs within a multivariate Hidden Markov Model (HMM) to detect footprint-like regions with matching motifs. Trace is an unsupervised method that accurately annotates binding sites for specific TFs automatically with no requirement on pre-generated candidate binding sites or ChIP-seq training data. Compared to published footprinting algorithms, TRACE has the best overall performance with the distinct advantage of targeting multiple motifs in a single model.},
   url = {https://www.biorxiv.org/content/early/2019/10/10/801001},
   pdf = {https://www.biorxiv.org/content/biorxiv/early/2019/10/10/801001.full-text.pdf},
-  journal = {bioRxiv}
-}
-</pre>
-
-<a name="Diehl679217"></a><pre>
-@article{<a href="pub.html#Diehl679217">Diehl679217</a>,
-  author = {Diehl, Adam G and Ouyang, Ningxin and Boyle, Alan P},
-  title = {Transposable elements strongly contribute to cell-specific and species-specific looping diversity in mammalian genomes},
-  elocation-id = {679217},
-  year = {2019},
-  doi = {10.1101/679217},
-  publisher = {Cold Spring Harbor Laboratory},
-  abstract = {Background Chromatin looping is exceedingly important to gene regulation and a host of other nuclear processes. Many recent insights into 3D chromatin structure across species and cell types have contributed to our understanding of the principles governing chromatin looping. However, 3D genome evolution and how it relates to Mendelian selection remain largely unexplored. CTCF, an insulator protein found at most loop anchors, has been described as the {\textquotedblleft}master weaver{\textquotedblright} of mammalian genomes, and variations in CTCF occupancy are known to influence looping divergence. A large fraction of mammalian CTCF binding sites fall within transposable elements (TEs) but their contributions to looping variation are unknown. Here we investigated the effect of TE-driven CTCF binding site expansions on chromatin looping in human and mouse.Results TEs have broadly contributed to CTCF binding and loop boundary specification, primarily forming variable loops across species and cell types and contributing nearly 1/3 of species-specific and cell-specific loops.Conclusions Our results demonstrate that TE activity is a major source of looping variability across species and cell types. Thus, TE-mediated CTCF expansions explain a large fraction of population-level looping variation and may play a role in adaptive evolution.},
-  url = {https://www.biorxiv.org/content/early/2019/06/21/679217},
-  pdf = {https://www.biorxiv.org/content/early/2019/06/21/679217.full.pdf},
   journal = {bioRxiv}
 }
 </pre>
