@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: David Wang
 umid: daviwang
 position: UROP Computer Science
