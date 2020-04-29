@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Jack Lu
 umid: jacklu
 position: UROP Computer Science
@@ -16,7 +16,7 @@ previous_training:
     info: 'Thomas A. Edison High School'
 dates:
   start: 2019-10-01
-  end:
+  end: 2020-04-21
 social: 
   google-scholar: 
   linked-in: 
