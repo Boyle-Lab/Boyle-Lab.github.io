@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Diana Davis
 umid: dianald
 position: Undergraduate Research Assistant
@@ -12,7 +12,7 @@ previous_training:
     info: 'University of Michigan'
 dates:
   start: 2019-06-26
-  end:
+  end: 2020-04-22
 social: 
   google-scholar: 
   linked-in: 
