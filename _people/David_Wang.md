@@ -12,7 +12,7 @@ previous_training:
     info: 'University of Michigan'
 dates:
   start: 2019-10-15
-  end: 2019-04-21
+  end: 2020-04-21
 social: 
   google-scholar: 
   linked-in: 
