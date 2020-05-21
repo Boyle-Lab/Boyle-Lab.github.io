@@ -5,7 +5,7 @@ status: current
 name: Alan P. Boyle, Ph.D.
 umid: apboyle
 position: Principal Investigator
-title: Assistant Professor, Computational Biology & Bioinformatics and Human Genetics
+title: Associate Professor, Computational Biology & Bioinformatics and Human Genetics
 picture: aboyle.jpg
 previous_training:
   - type: 'B.S.'
