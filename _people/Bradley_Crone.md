@@ -5,7 +5,7 @@ status: current
 name: Bradley Crone
 umid: crone
 position: Doctoral Student
-title: Bioinformatics Ph.D. Student (co-mentor with Cristen Willer)
+title: Bioinformatics Candidate (co-mentor with Cristen Willer)
 picture: Brad_pic.png
 previous_training:
   - type: 'B.S.'
