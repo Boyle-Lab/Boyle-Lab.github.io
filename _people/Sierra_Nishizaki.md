@@ -1,18 +1,19 @@
 ---
 layout: member
 publish: true
-status: current
-name: Sierra Nishizaki
+status: alumni
+name: Sierra Nishizaki, Ph.D.
 umid: ssnishi
 position: Doctoral Student
-title: Human Genetics Candidate
+title: Genetics and Genomics Ph.D.
 picture: Sierra_Nishizaki_pic.jpg
 previous_training:
   - type: 'B.S.'
     info: 'San Francisco State University'
+current: 'ARTP Postdoctoral Fellow, UC Davis'
 dates:
   start: 2015-01-06
-  end:
+  end: 2020-09-01
 social: 
   google-scholar: 
   linked-in: 
