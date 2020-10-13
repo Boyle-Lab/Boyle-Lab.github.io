@@ -31,7 +31,7 @@ theme_areas:
 awards:
   - Michigan Predoctoral Training in Genetics (GTP T32)
   - Anita and Howard Cramer Scholarship Award for Academic Achievement
-  - Rackham Graduate Student Research Grant (post-candidate)
+  - Rackham Graduate Student Research Grant (candidate)
 ---
 
 Melissa’s PhD research focuses on understanding the regulatory capacity of the human non-coding genome. Her work involves both development of novel plasmid-based tools for assaying negative regulatory element activity and the leveraging of these tools to characterize regulatory elements in the 300kb non-coding genomic region surrounding the gene PRDM1.

@@ -23,6 +23,8 @@ theme_areas:
   - Non-coding variation
   - Gene Regulation
   - Machine learning
+awards:
+  - Rackham Graduate Student Research Grant (candidate)
 ---
 
 Shengcheng Dong current research focuses on predicting functional non-coding variation related with human diseases by applying machine learning methods.

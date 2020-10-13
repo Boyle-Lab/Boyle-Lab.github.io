@@ -28,7 +28,7 @@ theme_areas:
   - Massively-parallel Reporter Assays
 awards:
   - Michigan Predoctoral Training in Genetics (GTP T32)
-  - Rackham Graduate Student Research Grant (pre-candidate)
+  - Rackham Graduate Student Research Grant (pre-candidate & candidate)
 ---
 
 

@@ -29,7 +29,7 @@ awards:
   - Genome Science Training Program
   - Rackham Merit Fellow
   - Rackham Summer Award
-  - Rackham Graduate Student Research Grant (post-candidate)
+  - Rackham Graduate Student Research Grant (candidate)
 ---
 
 Sierra Nishizaki’s PhD research focuses on expanding our knowledge of the non-
