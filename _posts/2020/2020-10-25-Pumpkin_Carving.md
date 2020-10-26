@@ -9,7 +9,7 @@ categories:
 - Events
 ---
 
-The Boyle Lab celebrates new lab members and successful funding in the lab with a pumpkin carving competition! 
+The Boyle Lab celebrates new lab members and successful funding in the lab with a physically distanced pumpkin carving competition and bonfire! 
 
 <div>
 {% for image in site.static_files %}
