@@ -1,18 +1,18 @@
 ---
 layout: member
 publish: true
-status: current
-name: Shriya Sethuraman
+status: alumni
+name: Shriya Sethuraman, Ph.D.
 umid: shriyas
 position: Doctoral Student
-title: Bioinformatics Candidate (co-mentor)
+title: Bioinformatics Ph.D. (Co-mentored)
 picture: Shriya_pic.jpg
 previous_training:
   - type: 'B.Tech.'
     info: SRM University
 dates:
   start: 2016-08-29
-  end:
+  end: 2020-11-16
 social: 
   google-scholar: 
   linked-in: 
