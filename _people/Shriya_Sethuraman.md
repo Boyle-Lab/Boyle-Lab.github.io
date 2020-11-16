@@ -5,7 +5,7 @@ status: alumni
 name: Shriya Sethuraman, Ph.D.
 umid: shriyas
 position: Doctoral Student
-title: Bioinformatics Ph.D. (Co-mentored)
+title: Bioinformatics Ph.D. (co-mentored with Andrzej Wierzbicki)
 picture: Shriya_pic.jpg
 previous_training:
   - type: 'B.Tech.'

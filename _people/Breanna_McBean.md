@@ -12,7 +12,7 @@ previous_training:
     info: 'University of California, Fullerton'
 dates:
   start: 2020-08-31
-  end: 
+  end: 2020-10-23
 social: 
   google-scholar: 
   linked-in: 
