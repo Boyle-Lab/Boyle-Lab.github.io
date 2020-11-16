@@ -4,8 +4,8 @@ publish: true
 status: current
 name: Monica Holmes
 umid: mhholmes
-position: Volunteer
-title: PostBac MEDPREP
+position: Master's Student
+title: Bioinformatics Master's Student
 picture: Monica_Holmes.jpg
 previous_training:
   - type: 'B.S.'

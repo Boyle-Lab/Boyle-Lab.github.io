@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Breanna McBean
 umid: bmcbean
 position: Doctoral Student
