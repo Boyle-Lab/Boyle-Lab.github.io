@@ -10,6 +10,7 @@ picture: Diana_pic.jpg
 previous_training:
   - type: 'B.S. Neuroscience (2020)'
     info: 'University of Michigan'
+current: Research Lab Technician at University of Massachusetts
 dates:
   start: 2019-06-26
   end: 2020-04-22
