@@ -6,7 +6,7 @@ name: Preston Parana
 umid: prparana
 position: UROP Life Sciences
 title: University of Michigan Molecular, Cellular, and Developmental Biology 
-picture: Preston_Parana_pic.jpg
+picture: Preston_Parana.jpg
 previous_training: 
 dates:
   start: 2020-12-10
