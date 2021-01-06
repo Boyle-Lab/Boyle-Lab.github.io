@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Andrea Valenzuela
 umid: andreava
 position: Doctoral Student
@@ -12,7 +12,7 @@ previous_training:
     info: 'Northeastern Illinois University'
 dates:
   start: 2020-10-19
-  end: 
+  end: 2020-12-11
 social: 
   google-scholar: 
   linked-in: 
