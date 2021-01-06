@@ -4,7 +4,7 @@ publish: true
 status: alumni
 name: Breanna McBean
 umid: bmcbean
-position: Doctoral Student
+position: PIBS Rotation Student
 title: Human Genetics Ph.D. Student
 picture: Breanna_McBean.jpg
 previous_training:

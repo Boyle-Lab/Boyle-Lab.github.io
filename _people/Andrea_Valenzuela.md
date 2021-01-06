@@ -4,7 +4,7 @@ publish: true
 status: alumni
 name: Andrea Valenzuela
 umid: andreava
-position: Doctoral Student
+position: Rotation Student
 title: Chemical Biology Ph.D. Student
 picture: Andrea_Valenzuela.jpg
 previous_training:
