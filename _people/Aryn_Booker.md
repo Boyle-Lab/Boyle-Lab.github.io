@@ -6,7 +6,7 @@ name: Aryn Booker
 umid: atbooker
 position: UROP Life Sciences
 title: University of Michigan Molecular, Cellular, and Developmental Biology 
-picture: 
+picture: Aryn_Booker.png
 previous_training: 
 dates:
   start: 2021-01-19
