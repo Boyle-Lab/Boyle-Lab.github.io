@@ -1,5 +1,14 @@
 {% raw %}
-<h1>pub.bib</h1><a name="McDonald2021.02.10.430605"></a><pre>
+<h1>pub.bib</h1><a name="Dong2021"></a><pre>
+@article{<a href="pub.html#Dong2021">Dong2021</a>,
+  author = {Dong, Shengcheng and Boyle, Alan P},
+  title = {Prioritization of regulatory variants with tissue-specific function in the non-coding regions of human genome},
+  year = {2021},
+  journal = {bioRxiv}
+}
+</pre>
+
+<a name="McDonald2021.02.10.430605"></a><pre>
 @article{<a href="pub.html#McDonald2021.02.10.430605">McDonald2021.02.10.430605</a>,
   author = {McDonald, Torrin L. and Zhou, Weichen and Castro, Christopher P. and Mumm, Camille and Switzenberg, Jessica A. and Mills, Ryan E. and Boyle, Alan P.},
   title = {Cas9 targeted enrichment of mobile elements using nanopore sequencing},
@@ -72,12 +81,16 @@
 @article{<a href="pub.html#Zhao:2021a">Zhao:2021a</a>,
   author = {Zhao, Nanxiang and Boyle, Alan P},
   title = {{F-Seq2: improving the feature density based peak caller with dynamic statistics}},
+  journal = {NAR Genomics and Bioinformatics},
+  volume = {3},
+  number = {1},
   year = {2021},
-  doi = {10.1101/2020.10.06.328674},
-  url = {https://www.biorxiv.org/content/10.1101/2020.10.06.328674v1},
-  pdf = {https://www.biorxiv.org/content/10.1101/2020.10.06.328674v1.full.pdf},
-  abstract = {Genomic and epigenomic features are captured at a genome-wide level by using high-throughput sequencing technologies. Peak calling is one of the first essential steps in analyzing these features by delineating regions such as open chromatin regions and transcription factor binding sites. Our original peak calling software, F-Seq, has been widely used and shown to be the most sensitive and accurate peak caller for DNase I hypersensitive sites sequencing (DNase-seq) data. However, F-Seq lacks support for user-input control dataset nor reporting test statistics, limiting its ability to capture systematic and experimental biases and accurately estimate background distributions. Here we present an improved version, F-Seq2, which combined the power of kernel density estimation and a dynamic "continuous" Poisson distribution to robustly account for local biases and solve ties when ranking candidate peaks. In F-score and motif distance analysis, we demonstrated the superior performance of F-Seq2 than other competing peak callers used by the ENCODE Consortium on simulated and real ATAC-seq and ChIP-seq datasets. The output of F-Seq2 is suitable for irreproducible discovery rate (IDR) analysis as the test statistics calculated for individual candidate summit and ties are robustly solved.},
-  journal = {NAR Genomics and Bioinformatics, In Press}
+  month = {02},
+  abstract = {{Genomic and epigenomic features are captured at a genome-wide level by using high-throughput sequencing (HTS) technologies. Peak calling delineates features identified in HTS experiments, such as open chromatin regions and transcription factor binding sites, by comparing the observed read distributions to a random expectation. Since its introduction, F-Seq has been widely used and shown to be the most sensitive and accurate peak caller for DNase I hypersensitive site (DNase-seq) data. However, the first release (F-Seq1) has two key limitations: lack of support for user-input control datasets, and poor test statistic reporting. These constrain its ability to capture systematic and experimental biases inherent to the background distributions in peak prediction, and to subsequently rank predicted peaks by confidence. To address these limitations, we present F-Seq2, which combines kernel density estimation and a dynamic ‘continuous’ Poisson test to account for local biases and accurately rank candidate peaks. The output of F-Seq2 is suitable for irreproducible discovery rate analysis as test statistics are calculated for individual candidate summits, allowing direct comparison of predictions across replicates. These improvements significantly boost the performance of F-Seq2 for ATAC-seq and ChIP-seq datasets, outperforming competing peak callers used by the ENCODE Consortium in terms of precision and recall.}},
+  doi = {10.1093/nargab/lqab012},
+  url = {https://doi.org/10.1093/nargab/lqab012},
+  pdf = {<a href="http://boylelab.org/pubs/NARGB_2021_Zhao.pdf">http://boylelab.org/pubs/NARGB_2021_Zhao.pdf</a>},
+  note = {{PMID:} 33655209}
 }
 </pre>
 
@@ -92,7 +105,8 @@
   issn = {0027-8424},
   url = {https://www.pnas.org/content/early/2020/11/11/2014419117},
   pdf = {<a href="http://boylelab.org/pubs/PNAS_2020_Tsuzuki.pdf">http://boylelab.org/pubs/PNAS_2020_Tsuzuki.pdf</a>},
-  journal = {Proceedings of the National Academy of Sciences}
+  journal = {Proceedings of the National Academy of Sciences},
+  note = {{PMID:} 33199612}
 }
 </pre>
 
