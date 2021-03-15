@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: alumni
+status: rotation
 name: Steve Ho
 umid: stevesho
 position: PIBS Rotation Student

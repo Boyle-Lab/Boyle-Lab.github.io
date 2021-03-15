@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: alumni
+status: rotation
 name: Breanna McBean
 umid: bmcbean
 position: PIBS Rotation Student

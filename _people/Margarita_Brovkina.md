@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: alumni
+status: rotation
 name: Margarita Brovkina
 umid: mbrovkin
 position: PIBS Rotation Student

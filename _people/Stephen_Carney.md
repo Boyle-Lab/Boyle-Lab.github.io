@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: alumni
+status: rotation
 name: Stephen Carney
 umid: carneyst
 position: PIBS Rotation Student

@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: alumni
+status: rotation
 name: Tingyang Li
 umid: tyli
 position: PIBS Rotation Student

@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: alumni
+status: rotation
 name: Matthew Pun
 umid: punm
 position: MSTP Rotation Student

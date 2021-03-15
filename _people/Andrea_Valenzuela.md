@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: alumni
+status: rotation
 name: Andrea Valenzuela
 umid: andreava
 position: Rotation Student

@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: alumni
+status: rotation
 name: Amanda Moccia
 umid: moccia
 position: PIBS Rotation Student
