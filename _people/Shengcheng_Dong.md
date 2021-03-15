@@ -2,14 +2,16 @@
 layout: member
 publish: true
 status: current
-name: Shengcheng Dong
+name: Shengcheng Dong, Ph.D.
 umid: shengchd
-position: Doctoral Student
-title: Bioinformatics Candidate
+position: Postdoctoral Scholar
+title: Bioinformatics Ph.D.
 picture: Shengcheng_Dong_pic.jpg
 previous_training:
   - type: 'B.S.'
     info: Tsinghua University
+  - type: 'Ph.D.'
+    info: University of Michigan
 dates:
   start: 2015-09-08
   end:
@@ -27,4 +29,5 @@ awards:
   - Rackham Graduate Student Research Grant (candidate)
 ---
 
-Shengcheng Dong current research focuses on predicting functional non-coding variation related with human diseases by applying machine learning methods.
+Shengcheng Dong current research focuses on predicting functional non-coding variation related with human diseases by applying machine learning methods. She finished her Ph.D. in the Boyle lab in March 2021.
+
