@@ -12,7 +12,7 @@ previous_training:
     info: 'University of California, San Diego'
 dates:
   start: 2021-01-19
-  end: 
+  end: 2021-03-12
 social: 
   google-scholar: 
   linked-in: 
