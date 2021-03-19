@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: rotation
 name: Kinsey Van Deynze
 umid: kvandeyn
 position: PIBS Rotation Student
