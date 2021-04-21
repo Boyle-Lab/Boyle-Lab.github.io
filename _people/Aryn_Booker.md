@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Aryn Booker
 umid: atbooker
 position: UROP Life Sciences
@@ -10,7 +10,7 @@ picture: Aryn_Booker.png
 previous_training: 
 dates:
   start: 2021-01-19
-  end: 
+  end: 2021-04-22
 social: 
   google-scholar: 
   linked-in: 

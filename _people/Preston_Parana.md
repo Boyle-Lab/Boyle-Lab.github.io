@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Preston Parana
 umid: prparana
 position: UROP Life Sciences
@@ -10,7 +10,7 @@ picture: Preston_Parana.jpg
 previous_training: 
 dates:
   start: 2020-12-10
-  end: 
+  end: 2021-04-22
 social: 
   google-scholar: 
   linked-in: 

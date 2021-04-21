@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Monica Holmes
 umid: mhholmes
 position: Master's Student
@@ -12,7 +12,7 @@ previous_training:
     info: University of Michigan
 dates:
   start: 2019-01-02
-  end:
+  end: 2021-01-01
 social: 
   google-scholar: 
   linked-in: 
