@@ -1,10 +1,10 @@
 ---
 layout: member
 publish: true
-status: rotation
+status: current
 name: Kinsey Van Deynze
 umid: kvandeyn
-position: PIBS Rotation Student
+position: Doctoral Student
 title: Bioinformatics Ph.D. Student
 picture: Kinsey_Van_Deynze.png
 previous_training:
@@ -12,7 +12,7 @@ previous_training:
     info: 'University of California, San Diego'
 dates:
   start: 2021-01-19
-  end: 2021-03-12
+  end: 
 social: 
   google-scholar: 
   linked-in: 
@@ -22,6 +22,8 @@ social:
 CV: 
 theme_areas:
   - 3D Chromatin Structure
+  - Short tandem repeats
+  - Nanopore sequencing
 awards:
 ---
 
