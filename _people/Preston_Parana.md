@@ -20,5 +20,6 @@ social:
 CV: 
 theme_areas:
 awards:
+  - UROP Blue Ribbon Award
 ---
 
