@@ -5,7 +5,7 @@ status: current
 name: Breanna McBean
 umid: bmcbean
 position: Doctoral Student
-title: Human Genetics Ph.D. Student
+title: Human Genetics Ph.D. Student (co-mentored with Corey Speers)
 picture: Breanna_McBean.jpg
 previous_training:
   - type: 'B.A.'
@@ -21,7 +21,7 @@ social:
   orcid:
 CV: 
 theme_areas:
-  - Nanopore Sequencing
+  - Breast Cancer
 awards:
 ---
 

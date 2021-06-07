@@ -1,18 +1,18 @@
 ---
 layout: member
 publish: true
-status: rotation
+status: current
 name: Andrea Valenzuela
 umid: andreava
 position: Rotation Student
-title: Chemical Biology Ph.D. Student
+title: Chemical Biology Ph.D. Student (co-mentored with Sriram Chandrasekaran)
 picture: Andrea_Valenzuela.jpg
 previous_training:
   - type: 'B.S.'
     info: 'Northeastern Illinois University'
 dates:
   start: 2020-10-19
-  end: 2020-12-11
+  end: 
 social: 
   google-scholar: 
   linked-in: 
@@ -23,6 +23,7 @@ CV:
 theme_areas:
   - Nanopore Sequencing
   - TE evolution
+  - TB Host-Pathogen interactions
 awards:
 ---
 
