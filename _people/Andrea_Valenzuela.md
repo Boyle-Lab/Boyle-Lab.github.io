@@ -4,7 +4,7 @@ publish: true
 status: current
 name: Andrea Valenzuela
 umid: andreava
-position: Rotation Student
+position: Doctoral Student
 title: Chemical Biology Ph.D. Student (co-mentored with Sriram Chandrasekaran)
 picture: Andrea_Valenzuela.jpg
 previous_training:
