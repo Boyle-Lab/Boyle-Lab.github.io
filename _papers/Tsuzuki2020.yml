@@ -1,0 +1,19 @@
+---
+authors: Tsuzuki M, Sethuraman S, Coke AN, Rothi MH, Boyle AP and Wierzbicki AT
+title: "Broad noncoding transcription suggests genome surveillance by RNA polymerase V"
+journal: Proceedings of the National Academy of Sciences
+year: 2020
+volume: 117
+number: 48
+pages: 30799-30804
+month: dec
+doi: "10.1073/pnas.2014419117"
+abstract: "Eukaryotic genomes are pervasively transcribed, yet most transcribed sequences lack conservation or known biological functions. In Arabidopsis thaliana, RNA polymerase V (Pol V) produces noncoding transcripts, which base pair with small interfering RNA (siRNA) and allow specific establishment of RNA-directed DNA methylation (RdDM) on transposable elements. Here, we show that Pol V transcribes much more broadly than previously expected, including subsets of both heterochromatic and euchromatic regions. At already established RdDM targets, Pol V and siRNA work together to maintain silencing. In contrast, some euchromatic sequences do not give rise to siRNA but are covered by low levels of Pol V transcription, which is needed to establish RdDM de novo if a transposon is reactivated. We propose a model where Pol V surveils the genome to make it competent to silence newly activated or integrated transposons. This indicates that pervasive transcription of nonconserved sequences may serve an essential role in maintenance of genome integrity."
+url: https://www.pnas.org/content/117/48/30799
+pdf: http://boylelab.org/pubs/PNAS_2020_Tsuzuki.pdf
+biorxiv: 
+github: ""
+PMID: 33199612
+members: [ shriyas, apboyle ]
+news:
+---

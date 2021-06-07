@@ -1,0 +1,19 @@
+---
+authors: Zhao N and Boyle AP
+title: "F-Seq2: improving the feature density based peak caller with dynamic statistics"
+journal: NAR Genomics and Bioinformatics
+year: 2021
+volume: 3
+number: 1
+pages: lqab012
+month: mar
+doi: "10.1093/nargab/lqab012"
+abstract: "Genomic and epigenomic features are captured at a genome-wide level by using high-throughput sequencing (HTS) technologies. Peak calling delineates features identified in HTS experiments, such as open chromatin regions and transcription factor binding sites, by comparing the observed read distributions to a random expectation. Since its introduction, F-Seq has been widely used and shown to be the most sensitive and accurate peak caller for DNase I hypersensitive site (DNase-seq) data. However, the first release (F-Seq1) has two key limitations: lack of support for user-input control datasets, and poor test statistic reporting. These constrain its ability to capture systematic and experimental biases inherent to the background distributions in peak prediction, and to subsequently rank predicted peaks by confidence. To address these limitations, we present F-Seq2, which combines kernel density estimation and a dynamic ‘continuous’ Poisson test to account for local biases and accurately rank candidate peaks. The output of F-Seq2 is suitable for irreproducible discovery rate analysis as test statistics are calculated for individual candidate summits, allowing direct comparison of predictions across replicates. These improvements significantly boost the performance of F-Seq2 for ATAC-seq and ChIP-seq datasets, outperforming competing peak callers used by the ENCODE Consortium in terms of precision and recall."
+url: https://academic.oup.com/nargab/article/3/1/lqab012/6148839
+pdf: http://boylelab.org/pubs/NARGB_2021_Zhao.pdf
+biorxiv: 
+github: "https://github.com/Boyle-Lab/F-Seq2"
+PMID: 33655209
+members: [samzhao, apboyle ]
+news:
+---

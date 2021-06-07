@@ -1,0 +1,17 @@
+---
+authors: Ouyang N and Boyle AP
+title: "TRACE: transcription factor footprinting using chromatin accessibility data and DNA sequence"
+journal: Genome Research
+year: 2020
+volume: 30
+number: 7
+pages: 1040-1046
+month: Jul
+doi: "10.1101/gr.258228.119"
+abstract: "Transcription is tightly regulated by cis-regulatory DNA elements where transcription factors (TFs) can bind. Thus, identification of TF binding sites (TFBSs) is key to understanding gene expression and whole regulatory networks within a cell. The standard approaches used for TFBS prediction, such as position weight matrices (PWMs) and chromatin immunoprecipitation followed by sequencing (ChIP-seq), are widely used but have their drawbacks, including high false-positive rates and limited antibody availability, respectively. Several computational footprinting algorithms have been developed to detect TFBSs by investigating chromatin accessibility patterns; however, these also have limitations. We have developed a footprinting method to predict TF footprints in active chromatin elements (TRACE) to improve the prediction of TFBS footprints. TRACE incorporates DNase-seq data and PWMs within a multivariate hidden Markov model (HMM) to detect footprint-like regions with matching motifs. TRACE is an unsupervised method that accurately annotates binding sites for specific TFs automatically with no requirement for pregenerated candidate binding sites or ChIP-seq training data. Compared with published footprinting algorithms, TRACE has the best overall performance with the distinct advantage of targeting multiple motifs in a single model."
+biorxiv: "https://www.biorxiv.org/content/10.1101/801001v1"
+pdf: http://boylelab.org/pubs/Genome_Research_2020_Ouyang.pdf
+github: "https://github.com/Boyle-Lab/TRACE"
+PMID: 32660981
+members: [ nouyang, apboyle ]
+---
