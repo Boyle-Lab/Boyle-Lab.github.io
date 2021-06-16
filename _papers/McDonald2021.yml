@@ -3,17 +3,17 @@ authors: McDonald TL, Zhou W, Castro CP, Mumm C, Switzenberg JA, Mills RE and Bo
 title: "Cas9 targeted enrichment of mobile elements using nanopore sequencing"
 journal: Nature Communications
 year: 2021
-volume: 
-number: 
-pages: 
-month: 
-doi: ""
-abstract: ""
-url: 
-pdf: 
+volume: 12
+number: 1
+pages: 3586
+month: jun
+doi: "10.1038/s41467-021-23918-y"
+abstract: "Mobile element insertions (MEIs) are repetitive genomic sequences that contribute to genetic variation and can lead to genetic disorders. Targeted and whole-genome approaches using short-read sequencing have been developed to identify reference and non-reference MEIs; however, the read length hampers detection of these elements in complex genomic regions. Here, we pair Cas9-targeted nanopore sequencing with computational methodologies to capture active MEIs in human genomes. We demonstrate parallel enrichment for distinct classes of MEIs, averaging 44% of reads on-targeted signals and exhibiting a 13.4-54x enrichment over whole-genome approaches. We show an individual flow cell can recover most MEIs (97% L1Hs, 93% AluYb, 51% AluYa, 99% SVA_F, and 65% SVA_E). We identify seventeen non-reference MEIs in GM12878 overlooked by modern, long-read analysis pipelines, primarily in repetitive genomic regions. This work introduces the utility of nanopore sequencing for MEI enrichment and lays the foundation for rapid discovery of elusive, repetitive genetic elements."
+url: http://dx.doi.org/10.1038/s41467-021-23918-y
+pdf: http://boylelab.org/pubs/Nature_Communications_2021_McDonald.pdf
 biorxiv: https://www.biorxiv.org/content/10.1101/2021.02.10.430605v1
-github: ""
-PMID: 
+github: "https://github.com/Boyle-Lab/NanoPal-and-Cas9-targeted-enrichment-pipelines"
+PMID: 34117247
 members: [ torrin, castrocp, crmumm, jswitzen, apboyle ]
 news:
 ---
