@@ -25,5 +25,6 @@ theme_areas:
   - TE evolution
   - TB Host-Pathogen interactions
 awards:
+  - NIH Cellular Biotechnology Training Program (T32)
 ---
 

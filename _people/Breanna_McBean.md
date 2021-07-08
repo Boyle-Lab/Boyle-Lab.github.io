@@ -23,5 +23,6 @@ CV:
 theme_areas:
   - Breast Cancer
 awards:
+  - Genome Science Training Program (T32)
 ---
 

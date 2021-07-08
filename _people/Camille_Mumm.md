@@ -23,5 +23,6 @@ CV:
 theme_areas:
   - Nanopore Sequencing
 awards:
+  - Genome Science Training Program (T32)
 ---
 

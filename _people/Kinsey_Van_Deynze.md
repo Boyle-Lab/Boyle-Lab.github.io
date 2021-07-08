@@ -25,5 +25,6 @@ theme_areas:
   - Short tandem repeats
   - Nanopore sequencing
 awards:
+  - Genome Science Training Program (T32)
 ---
 
