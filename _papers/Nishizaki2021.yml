@@ -3,13 +3,13 @@ authors: Nishizaki SS, McDonald TL, Farnum GA, Holmes MJ, Drexel ML, Switzenberg
 title: "The inducible lac operator-repressor system is functional in zebrafish cells"
 journal: Frontiers in Genetics
 year: 2021
-volume: 
+volume: 12
 number: 
-pages: 
-month: 
+pages: 994
+month: Jun
 doi: "10.3389/fgene.2021.683394"
 abstract: "Background: Zebrafish are a foundational model organism for studying the spatio-temporal activity of genes and their regulatory sequences. A variety of approaches are currently available for editing genes and modifying gene expression in zebrafish, including RNAi, Cre/lox, and CRISPR-Cas9. However, the lac operator-repressor system, an E. coli lac operon component which has been adapted for use in many other species and is a valuable, flexible tool for inducible modulation of gene expression studies, has not been previously tested in zebrafish. Results: Here we demonstrate that the lac operator-repressor system robustly decreases expression of firefly luciferase in cultured zebrafish fibroblast cells. Our work establishes the lac operator-repressor system as a promising tool for the manipulation of gene expression in whole zebrafish. Conclusions: Our results lay the groundwork for the development of lac-based reporter assays in zebrafish, and adds to the tools available for investigating dynamic gene expression in embryogenesis. We believe this work will catalyze the development of new reporter assay systems to investigate uncharacterized regulatory elements and their cell-type specific activities."
-url: https://www.frontiersin.org/articles/10.3389/fgene.2021.683394/abstract
+url: https://www.frontiersin.org/articles/10.3389/fgene.2021.683394/full
 pdf: 
 biorxiv: https://www.biorxiv.org/content/10.1101/2020.02.10.939223v1
 github: 
