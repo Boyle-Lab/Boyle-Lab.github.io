@@ -2,7 +2,7 @@
 layout: member
 publish: true
 status: alumni
-name: Haley Amemiya
+name: Haley Amemiya, Ph.D.
 umid: hamemiya
 position: Doctoral Student
 title: Cellular & Molecular Biology Ph.D. Student
@@ -10,7 +10,7 @@ picture: Haley_pic.png
 previous_training:
   - type: 'B.S.'
     info: 'University of Washington'
-current: 'PhD student with Peter Freddolino'
+current: 'Postdoctoral Researcher at the Broad Institute of MIT and Harvard'
 dates:
   start: 2016-09-06
   end: 2018-12-17

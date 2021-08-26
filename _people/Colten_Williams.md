@@ -10,7 +10,7 @@ picture: Colten_pic.jpg
 previous_training:
   - type: 'B.S.'
     info: 'Computer Science, University of Michigan'
-current: 
+current: 'Software Engineer at Amazon'
 dates:
   start: 2016-10-06
   end: 2017-05-01

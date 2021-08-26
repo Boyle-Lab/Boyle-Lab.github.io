@@ -10,6 +10,7 @@ picture: Shriya_pic.jpg
 previous_training:
   - type: 'B.Tech.'
     info: SRM University
+current: 'Bioinformatics Scientist at Kyverna Therapeutics'
 dates:
   start: 2016-08-29
   end: 2020-11-16
