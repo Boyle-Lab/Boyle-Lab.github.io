@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: alumni
+status: current
 name: Preston Parana
 umid: prparana
 position: UROP Life Sciences
@@ -10,7 +10,7 @@ picture: Preston_Parana.jpg
 previous_training: 
 dates:
   start: 2020-12-10
-  end: 2021-04-22
+  end: 
 social: 
   google-scholar: 
   linked-in: 
@@ -19,6 +19,7 @@ social:
   orcid:
 CV: 
 theme_areas:
+  - Nanopore sequencing
 awards:
   - UROP Blue Ribbon Award
 ---
