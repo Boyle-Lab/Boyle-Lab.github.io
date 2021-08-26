@@ -2,7 +2,7 @@
 layout: member
 publish: true
 status: alumni
-name: Haley Amemiya, Ph.D.
+name: Haley Amemiya
 umid: hamemiya
 position: Doctoral Student
 title: Cellular & Molecular Biology Ph.D. Student
