@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: alumni
+status: phd_alumni
 name: Sierra Nishizaki, Ph.D.
 umid: ssnishi
 position: Doctoral Student

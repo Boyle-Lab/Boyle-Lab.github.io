@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: alumni
+status: phd_alumni
 name: Shriya Sethuraman, Ph.D.
 umid: shriyas
 position: Doctoral Student
