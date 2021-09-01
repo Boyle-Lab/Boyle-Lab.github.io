@@ -4,7 +4,7 @@ publish: true
 status: current
 name: Preston Parana
 umid: prparana
-position: UROP Life Sciences
+position: Undergraduate Research Assistant
 title: University of Michigan Molecular, Cellular, and Developmental Biology 
 picture: Preston_Parana.jpg
 previous_training: 
