@@ -6,7 +6,7 @@ name: Julia Tweadey
 umid: jtweadey
 position: Undergraduate Research Assistant
 title: University of Michigan Informatics 
-picture: 
+picture: Julia_Tweadey.jpg
 previous_training: 
 dates:
   start: 2021-08-30
