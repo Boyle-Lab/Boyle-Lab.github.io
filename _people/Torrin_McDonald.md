@@ -2,7 +2,7 @@
 layout: member
 publish: true
 status: current
-name: Torrin McDonald
+name: Torrin McDonald, Ph.D.
 umid: torrin
 position: Doctoral Student 
 title: Human Genetics PhD Candidate
