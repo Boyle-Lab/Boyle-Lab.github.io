@@ -4,7 +4,7 @@ publish: true
 status: rotation
 name: Amelia Lauth
 umid: alauth
-position: Doctoral Student
+position: PIBS Rotation Student
 title: Cellular & Molecular Biology Ph.D. Student 
 picture: Amelia_Lauth.jpg
 previous_training:
