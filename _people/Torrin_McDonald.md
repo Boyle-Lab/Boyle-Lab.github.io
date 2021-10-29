@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: phd_alumni
 name: Torrin McDonald, Ph.D.
 umid: torrin
 position: Doctoral Student 
@@ -10,9 +10,10 @@ picture: Torrin_McDonald_pic.jpg
 previous_training:
   - type: 'B.S.'
     info: 'Michigan State University'
+current: 'Research & Development Specialist, Columbia University'
 dates:
   start: 2015-07-06
-  end:
+  end: 2021-11-12
 social: 
   google-scholar: 
   linked-in: 

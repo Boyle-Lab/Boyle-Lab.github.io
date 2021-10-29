@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: rotation
 name: Amelia Lauth
 umid: alauth
 position: Doctoral Student
@@ -12,7 +12,7 @@ previous_training:
     info: 'Wisconsin Lutheran College'
 dates:
   start: 2021-08-30
-  end: 
+  end: 2021-10-20
 social: 
   google-scholar: 
   linked-in: 

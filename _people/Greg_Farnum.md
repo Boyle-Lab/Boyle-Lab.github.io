@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Greg Farnum
 umid: gregfar
 position: Volunteer
@@ -15,7 +15,7 @@ previous_training:
 current:
 dates:
   start: 2019-04-10
-  end: 
+  end: 2021-06-06
 social: 
   google-scholar: 
   linked-in: 
@@ -27,5 +27,6 @@ theme_areas:
   - Gene Regulation
   - 3D structure of the genome
   - Silencer biology
+  - Nanopore analysis
 awards:
 ---
