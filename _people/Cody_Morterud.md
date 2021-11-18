@@ -10,7 +10,7 @@ picture: Cody_pic.jpg
 previous_training:
   - type: 'B.S.E.'
     info: 'Computer Science, University of Michigan'
-current: Software Engineer at Capital One
+current: Software Engineer at Microsoft
 dates:
   start: 2016-10-11
   end: 2019-04-24
