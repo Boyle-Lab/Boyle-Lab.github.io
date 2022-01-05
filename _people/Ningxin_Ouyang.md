@@ -2,10 +2,10 @@
 layout: member
 publish: true
 status: current
-name: Ningxin Ouyang
+name: Ningxin Ouyang, Ph.D.
 umid: nouyang
 position: Doctoral Student
-title: Bioinformatics Candidate
+title: Bioinformatics Ph.D. Candidate
 picture: Ningxin_pic.jpg
 previous_training:
   - type: 'B.S.'
@@ -14,7 +14,7 @@ previous_training:
     info: 'University of Michigan'
 dates:
   start: 2015-10-23
-  end:
+  end: 
 social: 
   google-scholar: 
   linked-in: 
