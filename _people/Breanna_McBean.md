@@ -24,5 +24,6 @@ theme_areas:
   - Breast Cancer
 awards:
   - Genome Science Training Program (T32)
+  - Rackham Graduate Student Research Grant (pre-candidate)
 ---
 
