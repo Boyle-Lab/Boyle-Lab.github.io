@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: phd_alumni
 name: Ningxin Ouyang, Ph.D.
 umid: nouyang
 position: Doctoral Student
@@ -12,9 +12,10 @@ previous_training:
     info: 'Purdue University'
   - type: 'M.S.'
     info: 'University of Michigan'
+current: 'Illimina, Inc.'
 dates:
   start: 2015-10-23
-  end: 
+  end: 2022-01-28
 social: 
   google-scholar: 
   linked-in: 
