@@ -12,6 +12,7 @@ previous_training:
     info: Tsinghua University
   - type: 'Ph.D.'
     info: University of Michigan
+current: 'Postdoctoral Scholar, Stanford University'
 dates:
   start: 2015-09-08
   end: 2022-02-28
