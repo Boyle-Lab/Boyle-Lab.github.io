@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: phd_alumni
 name: Shengcheng Dong, Ph.D.
 umid: shengchd
 position: Postdoctoral Scholar
@@ -14,7 +14,11 @@ previous_training:
     info: University of Michigan
 dates:
   start: 2015-09-08
-  end:
+  end: 2022-02-28
+  phd_start: 2015-09-08
+  phd_end: 2015-09-08
+  pd_start: 2021-04-01
+  pd_end: 2022-02-28
 social: 
   google-scholar: 
   linked-in: 

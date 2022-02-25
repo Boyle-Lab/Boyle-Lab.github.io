@@ -15,6 +15,10 @@ previous_training:
 dates:
   start: 2017-01-03
   end:
+  ms_start: 2017-01-03
+  ms_end: 2018-01-01
+  phd_start: 2018-01-01
+  phd_end:
 social: 
   google-scholar: 
   linked-in: 

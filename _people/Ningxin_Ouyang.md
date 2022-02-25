@@ -16,6 +16,10 @@ current: 'Illimina, Inc.'
 dates:
   start: 2015-10-23
   end: 2022-01-28
+  ms_start: 2015-10-23
+  ms_end: 2017-01-01
+  phd_start: 2017-01-01
+  end: 2022-01-28
 social: 
   google-scholar: 
   linked-in: 

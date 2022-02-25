@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: rotation
 name: Xin Li
 umid: xinleee
 position: PIBS Rotation Student
@@ -14,7 +14,7 @@ previous_training:
     info: 'China Pharmaceutical University'
 dates:
   start: 2022-01-05
-  end: 
+  end: 2022-02-25
 social: 
   google-scholar: 
   linked-in: 
