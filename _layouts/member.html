@@ -24,34 +24,40 @@
 {% endif %}
 
 <p>
+{% if page.dates.ms_start %}
 {% if page.dates.ms_start != "" and page.dates.ms_end == "" %}
 Master's student since {{ page.dates.ms_start | date: "%B %Y" }}
 {% endif %}
 {% if page.dates.ms_start != "" and page.dates.ms_end != "" %}
 Master's student from {{ page.dates.ms_start | date: "%B %Y" }} to {{ page.dates.ms_end | date: "%B %Y" }}
 {% endif %}
+{% endif %}
 
+{% if page.dates.phd_start %}
 {% if page.dates.phd_start != "" and page.dates.phd_end == "" %}
 PhD student since {{ page.dates.phd_start | date: "%B %Y" }}
 {% endif %}
 {% if page.dates.phd_start != "" and page.dates.phd_end != "" %}
 PhD student from {{ page.dates.phd_start | date: "%B %Y" }} to {{ page.dates.phd_end | date: "%B %Y" }}
 {% endif %}
+{% endif %}
 
+{% if page.dates.pd_start %}
 {% if page.dates.pd_start != "" and page.dates.pd_end == "" %}
 Postdoc since {{ page.dates.pd_start | date: "%B %Y" }}
 {% endif %}
 {% if page.dates.pd_start != "" and page.dates.pd_end != "" %}
 Postdoc from {{ page.dates.pd_start | date: "%B %Y" }} to {{ page.dates.pd_end | date: "%B %Y" }}
 {% endif %}
+{% endif %}
 
-{% if page.dates.ms_start == "" and page.dates.phd_start == "" and page.dates.pd_start == "" %}
+{% unless page.dates.ms_start or page.dates.phd_start or page.dates.pd_start %}
   {% if page.status == "current" %}
   {{ page.position }} since {{ page.dates.start | date: "%B %Y" }}
   {% else %}
   {{ page.position }} from {{ page.dates.start | date: "%B %Y" }} to {{ page.dates.end | date: "%B %Y" }}
   {% endif %}
-{% endif %}
+{% endunless %}
 <br>
 {{ page.title }}
 
