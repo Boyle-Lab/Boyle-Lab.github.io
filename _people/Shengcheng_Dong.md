@@ -17,7 +17,7 @@ dates:
   start: 2015-09-08
   end: 2022-02-28
   phd_start: 2015-09-08
-  phd_end: 2015-09-08
+  phd_end: 2021-03-31
   pd_start: 2021-04-01
   pd_end: 2022-02-28
 social: 
