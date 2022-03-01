@@ -4,7 +4,7 @@ publish: true
 status: current
 name: Mahnoor Gondal
 umid: gondal
-position: PIBS Rotation Student
+position: Bioinformatics Rotation Student
 title: Ph.D. Student 
 picture: Mahnoor_Gondal.png
 previous_training:
