@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Julia Tweadey
 umid: jtweadey
 position: Undergraduate Research Assistant
@@ -10,7 +10,7 @@ picture: Julia_Tweadey.jpg
 previous_training: 
 dates:
   start: 2021-08-30
-  end: 
+  end: 2022-04-12
 social: 
   google-scholar: 
   linked-in: 

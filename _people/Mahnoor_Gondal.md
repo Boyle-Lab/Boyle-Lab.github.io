@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: rotation
 name: Mahnoor Gondal
 umid: gondal
 position: Bioinformatics Rotation Student
@@ -12,7 +12,7 @@ previous_training:
     info: 'Lahor University of Management Sciences'
 dates:
   start: 2022-03-01
-  end: 
+  end: 2022-04-25
 social: 
   google-scholar: 
   linked-in: 
