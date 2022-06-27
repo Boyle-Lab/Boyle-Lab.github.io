@@ -9,4 +9,4 @@ categories:
 - Students
 ---
 
-Kinsey from Bioinformatics, Breanna from Genetics and Genomics, and Andrea from Chemical Bioloft join the lab. Welcome!
+Kinsey from Bioinformatics, Breanna from Genetics and Genomics, and Andrea from Chemical Biology join the lab. Welcome!
