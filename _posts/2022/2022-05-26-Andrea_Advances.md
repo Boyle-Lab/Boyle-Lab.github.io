@@ -2,7 +2,7 @@
 layout: post
 status: publish
 title: Andrea advances to Ph.D. candidacy!
-date: '2021-05-26'
+date: '2022-05-26'
 external-url:
 teaser: congratulations.jpg
 categories:
