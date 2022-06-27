@@ -9,6 +9,6 @@ categories:
 - Students
 ---
 
-Ningxin completed her Ph.D. defense today! She will be moving to San Diego to work at Illimina! 
+Ningxin completed her Ph.D. defense today! She will be moving to San Diego to work at Illumina! 
 <br>
 Congrats! 
