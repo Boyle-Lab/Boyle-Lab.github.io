@@ -26,5 +26,6 @@ theme_areas:
   - Nanopore sequencing
 awards:
   - Genome Science Training Program (T32)
+  - Rackham Graduate Student Research Grant (pre-candidate)
 ---
 

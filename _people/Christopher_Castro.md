@@ -29,6 +29,7 @@ awards:
   - Bioinformatics Training Program (T32)
   - Rackham Merit Fellow
   - Rackham Graduate Student Research Grant (pre-candidate)
+  - Rackham Graduate Student Research Grant (candidate)
   - Global Research Engagement Opportunity Fellowship
 ---
 
