@@ -216,9 +216,13 @@ line-height: 250px;
 .column-right{ float: right; width: 32%; }
 .column-center{ display: inline-block; width: 33%;}
 .column-narrow{ float:center; width:66%;}
+.column-wide{ float:center; width:100%;}
 .align-left{ text-align: left;}
 .yellow-bar { align:center; width:50px; border-bottom:4px solid #FFCB05; margin-bottom:5px; }
 .gray-bar { float:center; width:30px; border-bottom:1px solid #A0A0A0; margin-bottom:5px; }
+.white-dot { float:center; width:5px; border-bottom:10px solid #A0A0A0; margin-bottom:5px; }
+.yellow-dot { align:center; width:5px; border-bottom:10px solid #FFCB05; margin-bottom:5px; }
+.blue-dot { align:center; width:5px; border-bottom:10px solid #00274C; margin-bottom:5px; }
 .right-link{ float:right; }
 
 h2.postdate { font-size: 0.875em; color:#999; margin-bottom:0px; margin-left: 10px; padding: 0px; display: inline; }
