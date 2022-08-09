@@ -24,7 +24,7 @@
  #wsite-title:hover { color:#0052ad; }
  td#peoplepic { text-align:center; width:200px; padding-right:20px; }
  td#peopledesc { text-align:left; }
- #banner { padding-bottom:100px; }
+ #banner { padding-bottom:10px; }
  .wsite-header { width: 100%; height: 300px; background: url('/assets/images/banner-landing.jpg') no-repeat; }
  #main-wrap .container {min-height:450px;}
  .wsite-content { padding-left:10px; padding-right:10px; padding-bottom:10px; }
@@ -250,13 +250,13 @@ a.button {
   font-size: 16px;
 }
 
-a.yellow-button {
+a.button.yellow-button {
   background-color: #FFCB05; 
   border: 2px solid #FFFFFF;
   color: white;
 }
 
-a.yellow-button:hover {
+a.button.yellow-button:hover {
 	background-color: #FFFFFF;
 	color: #FFCB05;
 	border: 2px solid #FFCB05;
