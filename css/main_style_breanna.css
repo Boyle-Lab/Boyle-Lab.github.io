@@ -216,7 +216,7 @@ line-height: 250px;
 .column-right{ float: right; width: 32%; }
 .column-center{ display: inline-block; width: 33%;}
 .column-narrow{ float:center; width:66%;}
-.column-wide{ float:center; width:100%;}
+.column-wide{ float:center; width:99%;}
 .align-left{ text-align: left;}
 .yellow-bar { align:center; width:50px; border-bottom:4px solid #FFCB05; margin-bottom:5px; }
 .gray-bar { float:center; width:30px; border-bottom:1px solid #A0A0A0; margin-bottom:5px; }
@@ -250,3 +250,8 @@ h3.title { margin-bottom: 0px; margin-top: 10px; }
   font-size: 16px;
 }
 
+.yellow-button:hover {
+	background-color: #FFFFFF;
+	color: #FFCB05;
+	border: 2px solid #FFCB05;
+}
