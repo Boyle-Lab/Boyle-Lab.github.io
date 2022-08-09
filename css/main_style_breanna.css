@@ -4,7 +4,7 @@
 .container { margin: 0 auto; width: 960px; background: #FFFFFF; overflow:hidden; }
 #header-wrap .container {
 	margin-top:0px;
-	padding:10px 20px 0px;
+	padding:10px 20px 50px;
 	text-align:right;
 	width:920px;
 }
@@ -43,8 +43,8 @@ body { font-family: 'Open Sans', sans-serif; font-size: 14px; color: #000; }
  h3 { font-size: 22px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:20px; }
  h4 { font-size: 18px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:5px; }
 
- a { color: #0D57AA; }
- a:hover { color: #00274c; }
+ a { color: #000000; }
+ a:hover { color: #FFCB05; }
  hr {background:#ddd !important;}
  h2 { font-size: 22px; padding: .8em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:20px; }
 
@@ -220,9 +220,9 @@ line-height: 250px;
 .align-left{ text-align: left;}
 .yellow-bar { align:center; width:50px; border-bottom:4px solid #FFCB05; margin-bottom:5px; }
 .gray-bar { float:center; width:30px; border-bottom:1px solid #A0A0A0; margin-bottom:5px; }
-.white-dot { float:center; width:5px; border-bottom:10px solid #A0A0A0; margin-bottom:5px; }
-.yellow-dot { align:center; width:5px; border-bottom:10px solid #FFCB05; margin-bottom:5px; }
-.blue-dot { align:center; width:5px; border-bottom:10px solid #00274C; margin-bottom:5px; }
+.white-dot { float:center; width:8px; border-bottom:5px solid #A0A0A0; margin-bottom:5px; }
+.yellow-dot { align:center; width:8px; border-bottom:5px solid #FFCB05; margin-bottom:5px; }
+.blue-dot { align:center; width:8px; border-bottom:5px solid #00274C; margin-bottom:5px; }
 .right-link{ float:right; }
 
 h2.postdate { font-size: 0.875em; color:#999; margin-bottom:0px; margin-left: 10px; padding: 0px; display: inline; }
