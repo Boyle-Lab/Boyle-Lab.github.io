@@ -239,18 +239,18 @@ h3.title { margin-bottom: 0px; margin-top: 10px; }
 	vertical-align:baseline !important;
 }
 	
-.yellow-button {
+a.yellow-button {
   background-color: #FFCB05; 
   border: 2px solid #FFFFFF;
   color: white;
-  padding: 15px 32px;
+  padding: 12px 28px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
 }
 
-.yellow-button:hover {
+a.yellow-button:hover {
 	background-color: #FFFFFF;
 	color: #FFCB05;
 	border: 2px solid #FFCB05;
