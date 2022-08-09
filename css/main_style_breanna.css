@@ -15,8 +15,8 @@
 .wsite-menu { line-height: 55px; display: block; float: right; margin: 0; padding: 0; }
 .wsite-menu li { list-style: none; float: left; margin-left: 15px; }
 .wsite-menu ul li a { display: block; color: #333; text-decoration: none; padding: 5px 7px 8px; margin:0 0px 1px; border: 0; outline: 0; list-style-type: none; box-sizing:border-box; float: left; font:13px 'Open Sans',arial,sans-serif; text-transform:uppercase; }
-.wsite-menu ul li#active a{ padding: 5px 7px 4px; border-bottom:4px solid #0D57AA; color:#000; }
-.wsite-menu ul li a:hover { padding: 5px 7px 4px; border-bottom:4px solid #0D57AA; color: #666; }
+.wsite-menu ul li#active a{ padding: 5px 7px 4px; border-bottom:4px solid #FFCB05; color:#000; }
+.wsite-menu ul li a:hover { padding: 5px 7px 4px; border-bottom:4px solid #FFCB05; color: #666; }
 
  #wsite-university { margin-top:0px; padding:10px 20px 0px; text-align:right; }
  #wsite-title { font-family: 'Open Sans', sans-serif; color:#555; line-height:30px; float:left; padding-left:10px; }
@@ -24,7 +24,7 @@
  #wsite-title:hover { color:#0052ad; }
  td#peoplepic { text-align:center; width:200px; padding-right:20px; }
  td#peopledesc { text-align:left; }
- #banner { padding-bottom:0px; }
+ #banner { padding-bottom:100px; }
  .wsite-header { width: 100%; height: 300px; background: url('/assets/images/banner-landing.jpg') no-repeat; }
  #main-wrap .container {min-height:450px;}
  .wsite-content { padding-left:10px; padding-right:10px; padding-bottom:10px; }
@@ -239,7 +239,7 @@ h3.title { margin-bottom: 0px; margin-top: 10px; }
 	vertical-align:baseline !important;
 }
 
-.button {
+a.button {
   background-color: #FFCB05;
   border: none;
   color: white;
