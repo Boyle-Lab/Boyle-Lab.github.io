@@ -239,9 +239,9 @@ h3.title { margin-bottom: 0px; margin-top: 10px; }
 	vertical-align:baseline !important;
 }
 
-a.button {
+a.yellow-button {
   background-color: #FFCB05;
-  border: none;
+  border: 2px solid #FFFFFF;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -250,13 +250,7 @@ a.button {
   font-size: 16px;
 }
 
-a.button.yellow-button {
-  background-color: #FFCB05; 
-  border: 2px solid #FFFFFF;
-  color: white;
-}
-
-a.button.yellow-button:hover {
+a.yellow-button:hover {
 	background-color: #FFFFFF;
 	color: #FFCB05;
 	border: 2px solid #FFCB05;
