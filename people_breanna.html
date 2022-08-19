@@ -1,0 +1,106 @@
+---
+title: People
+layout: breanna
+---
+
+{% assign sorted_people = (site.people | sort: "dates.start") %}
+{% assign sorted_phd = (site.people | sort: "dates.end" | reverse ) %}
+{% assign sorted_alumni = (site.people | sort: "dates.end" | reverse ) %}
+{% assign sorted_rotation = (site.people | sort: "dates.end" | reverse ) %}
+<br>
+
+<div class = "people">
+<ul class = "list">
+{% for person in sorted_people %}
+  {% if person.publish and person.status == 'current'%}
+    <li class="item">
+      <center>
+      {% if person.picture %}
+      <a href="{{person.url}}"><img class="image" src="/assets/people/{{ person.picture }}" height="240px"></a>
+      {% else %}
+      <img src="/assets/people/placeholder.png" height="240px" width="190px">
+      {% endif %}
+      <a href="{{person.url}}"><h3><u> {{ person.name }} </u></h3></a>
+      <p><b><i> {{ person.position }} </i></b>	  <br /></p>
+    </li>
+
+    {% cycle 'close rows': '', '', '', '</ul><br><ul class = "list">' %}
+
+  {% endif %}
+{% endfor %}
+</ul>
+</div>
+<br><br>
+<div class="Nheader">Lab Ph.D. Alumni</div><br>
+
+<div class = "people">
+<ul class = "list">
+{% for person in sorted_phd %}
+  {% if person.publish and person.status == 'phd_alumni'%}
+    <li class="item">
+      <center>
+      {% if person.picture %}
+      <a href="{{person.url}}"><img class="image" src="/assets/people/{{ person.picture }}" height="240px"></a>
+      {% else %}
+      <img src="/assets/people/placeholder.png" height="240px" width="190px">
+      {% endif %}
+      <a href="{{person.url}}"><h3><u> {{ person.name }} </u></h3></a>
+      <p><b><i> {{ person.position }} </i></b>	  <br /></p>
+    </li>
+
+    {% cycle 'close phdalumni rows': '', '', '', '</ul><br><ul class = "list">' %}
+
+  {% endif %}
+{% endfor %}
+</ul>
+</div>
+
+<br><br>
+<div class="Nheader">Other Lab Alumni</div><br>
+
+<div class = "people">
+<ul class = "list">
+{% for person in sorted_alumni %}
+  {% if person.publish and person.status == 'alumni'%}
+    <li class="item">
+      <center>
+      {% if person.picture %}
+      <a href="{{person.url}}"><img class="image" src="/assets/people/{{ person.picture }}" height="240px"></a>
+      {% else %}
+      <img src="/assets/people/placeholder.png" height="240px" width="190px">
+      {% endif %}
+      <a href="{{person.url}}"><h3><u> {{ person.name }} </u></h3></a>
+      <p><b><i> {{ person.position }} </i></b>	  <br /></p>
+    </li>
+
+    {% cycle 'close alumni rows': '', '', '', '</ul><br><ul class = "list">' %}
+
+  {% endif %}
+{% endfor %}
+</ul>
+</div>
+
+<br><br>
+<div class="Nheader">Past Rotation Students</div><br>
+
+<div class = "people">
+<ul class = "list">
+{% for person in sorted_rotation %}
+  {% if person.publish and person.status == 'rotation'%}
+    <li class="item">
+      <center>
+      {% if person.picture %}
+      <a href="{{person.url}}"><img class="image" src="/assets/people/{{ person.picture }}" height="240px"></a>
+      {% else %}
+      <img src="/assets/people/placeholder.png" height="240px" width="190px">
+      {% endif %}
+      <a href="{{person.url}}"><h3><u> {{ person.name }} </u></h3></a>
+      <p><b><i> {{ person.position }} </i></b>	  <br /></p>
+    </li>
+
+    {% cycle 'close rotation rows': '', '', '', '</ul><br><ul class = "list">' %}
+
+  {% endif %}
+{% endfor %}
+</ul>
+</div>
