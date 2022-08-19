@@ -1,0 +1,14 @@
+---
+title: Jobs
+layout: breanna
+---
+
+<br>
+
+{% for job in site.jobs reversed %}
+{% if job.publish == true %}
+<div class="Nheader">{{ job.title }} {% if job.pdf %} &nbsp;&nbsp;&nbsp;<a href="/assets/job_PDFs/{{ job.pdf }}">[PDF]</a> {% endif %}</div>
+	{{ job.output }}
+<br />
+{% endif %}
+{% endfor %}
