@@ -9,12 +9,11 @@ layout: breanna
 {% assign sorted_rotation = (site.people | sort: "dates.end" | reverse ) %}
 <br>
 
+<div class = "people">
 <div class = "row color_2">
 <center><h3>Current Members</h3></center>
 <center><p class = "yellow-dot"</p></center>
 <br>
-
-<div class = "people">
 <ul class = "list">
 {% for person in sorted_people %}
   {% if person.publish and person.status == 'current'%}
