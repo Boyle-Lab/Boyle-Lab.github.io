@@ -222,6 +222,8 @@ padding-bottom:20px;
 
 .row.genomics { background: url('/assets/images/science_alan.jpg') no-repeat; }
 .row.PI { background: #FFCB05; }
+.row.color_1 { background: #FFFFFF; }
+.row.color_2 { background: #F9F9F9; }
 
 .row div{
 display: inline-block;
