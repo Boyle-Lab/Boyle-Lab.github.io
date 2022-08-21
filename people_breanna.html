@@ -9,7 +9,11 @@ layout: breanna
 {% assign sorted_rotation = (site.people | sort: "dates.end" | reverse ) %}
 <br>
 
-<h3>Current Members</h3>
+<div class = "row color_2">
+<center><h3>Current Members</h3></center>
+<center><p class = "yellow-dot"</p></center>
+<br>
+
 <div class = "people">
 <ul class = "list">
 {% for person in sorted_people %}
@@ -31,9 +35,14 @@ layout: breanna
 {% endfor %}
 </ul>
 </div>
-<br><br>
-<h3>Lab Ph.D. Alumni</h3>
+<br><br>  
+</div>
+
+
+<div class = "row color_1">
+<center><h3>Lab Ph.D. Alumni</h3></center>
 <center><p class="yellow-dot"></p></center>
+<br>
 
 <div class = "people">
 <ul class = "list">
@@ -57,9 +66,14 @@ layout: breanna
 </ul>
 </div>
 
-<br><br>
-<h3>Other Lab Alumni</h3>
+<br><br>  
+</div>
+
+
+<div class = "row color_2">
+<center><h3>Other Lab Alumni</h3></center>
 <center><p class="yellow_dot></p></center>
+  <br>
 
 <div class = "people">
 <ul class = "list">
@@ -84,8 +98,13 @@ layout: breanna
 </div>
 
 <br><br>
-<h3>Past Rotation Students</h3><br>
+</div>
+  
+  
+<div class = "row color_1">
+  <center><h3>Past Rotation Students</h3></center>
 <center><p class="yellow-dot"></p></center>
+  <br>
 
 <div class = "people">
 <ul class = "list">
@@ -107,4 +126,5 @@ layout: breanna
   {% endif %}
 {% endfor %}
 </ul>
+</div>
 </div>
