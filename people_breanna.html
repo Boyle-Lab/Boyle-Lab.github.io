@@ -13,6 +13,7 @@ layout: breanna
 <div class = "row color_2">
 <center><h3>Current Members</h3></center>
 <center><p class = "yellow-dot"</p></center>
+  <br>
 <ul class = "list">
 {% for person in sorted_people %}
   {% if person.publish and person.status == 'current'%}
@@ -42,6 +43,7 @@ layout: breanna
 <div class = "row color_1">
 <center><h3>Lab Ph.D. Alumni</h3></center>
 <center><p class="yellow-dot"></p></center>
+  <br>
 <ul class = "list">
 {% for person in sorted_phd %}
   {% if person.publish and person.status == 'phd_alumni'%}
@@ -69,7 +71,8 @@ layout: breanna
 <div class = "people">
 <div class = "row color_2">
 <center><h3>Other Lab Alumni</h3></center>
-<center><p class="yellow_dot></p></center>
+<center><p class="yellow-dot></p></center>
+  <br>
 <ul class = "list">
 {% for person in sorted_alumni %}
   {% if person.publish and person.status == 'alumni'%}
@@ -101,6 +104,7 @@ layout: breanna
 <div class = "row color_1">
 <center><h3>Past Rotation Students</h3></center>
 <center><p class="yellow-dot"></p></center>
+  <br>
 <ul class = "list">
 {% for person in sorted_rotation %}
   {% if person.publish and person.status == 'rotation'%}
