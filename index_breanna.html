@@ -1,0 +1,57 @@
+---
+title: Home
+layout: breanna
+---
+
+<div class="row genomics">
+	<div class="column-wide">
+		<h4><font color = "#FFCB05">EXPLORING <b><i>THE GENOME</i></b></font></h4>
+		<p class = "align-left"><font color = white>
+		We use modern genomics techniques and high-throughput experiments to explore biological systems.
+		We can leverage computational tools to help answer biological problems that were previously intractable.
+		We aim to combine computational approaches with high-throughput biological assays to better understand the whole human transcriptional regulatory system.
+		</font></p>
+	</div>
+</div>
+
+<div class="row PI">
+	<div class="column-narrow">
+		<h4><font color = "#FFFFFF">From Principal Investigator, <b><i>Alan P. Boyle, Ph.D.</i></b></font></h4>
+		<center><p class="white-dot"></p></center>
+		<p class="align-left">
+		Understanding gene regulation at the transcriptional level is critical to understanding complex biological systems and human disease. In virtually all organisms gene regulation is mediated by a “regulatory code” in which distinct combinations of specific transcription factors collaborate to regulate the expression of individual genes.
+		This code is complex and not readily obvious from sequences alone.
+		It likely involves many cis-regulatory modules that exist both upstream and within genes.
+		In addition, mounting evidence suggests that major differences between individuals and species lie at the level of gene regulation and that changes in cis-regulatory sequences are responsible for these effects.
+		<br><br>
+		Our research aims to explore this regulatory code by examining the cis-regulatory elements in the human genome.
+		</p>
+		<center><a class="yellow-button" href="research/">Read More</a></center>
+	</div>
+</div>
+
+<div class="row">
+	<div class="column-center">
+		<a href="publications/"><h4><font color = "#00274C">OUR <b><i>WORK</i></b></font></h4></a>
+		<center><p class="blue-dot"></p><center>
+        	<p><img src="assets/images/Fseq.gif" width="200px"></p>
+		<center><a class="yellow-button" href="publications/">Read More</a></center>
+    	</div>
+	<div class="column-left">
+		<a href="news/"><h4><font color = "#00274C">CURRENT <b><i>EVENTS</i></b></font></h4></a>
+		<center><p class="blue-dot"></p><center>
+		{% for post in site.posts limit:3 offset:0 %}
+        	<p class="align-left">
+		<i><font color="#888">{{ post.date | date: "%B %d, %Y" }} - </font></i> {{ post.title }}
+		</p>
+		{% endfor %}
+		<center><a class="yellow-button" href="news/">Learn More</a></center>
+	</div>
+	<div class="column-right">
+		<a href="contact/"><h4><font color = "#00274C">OUR <b><i>SPACE</i></b></font></h4></a>
+		<center><p class="blue-dot"></p><center>
+		<p class="align-left">Our offices are located in the Palmer Commons Building on the edge of central campus. The lab is located on the 4th floor of the Medical Science Research Building I.</p>
+		<center><a href="contact/" class="yellow-button">View Map</a></center>
+		<p><i><a href="contact/">View Map</a><br><a href="http://palmercommons.umich.edu/article/driving-directions">Parking Information</a></i></p>
+	</div>
+</div><!-- end row -->
