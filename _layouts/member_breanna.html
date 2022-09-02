@@ -5,15 +5,17 @@
 <div id="main-wrap">
 	<div class="container">
 		<div class="wsite-content">
-			
-<div style="text-align: right"></div>
-<h3 class="title">{{ page.name }}</h3>
-<p class="memberpage" style="float: right; margin: 10px 0px 10px 20px; width: 350px;">
+<p><img style="float: left; margin: 0px 15px 15px 0px;"  			
+
 {% if page.picture %}
       <img src="/assets/people/{{ page.picture }}" height="240px">
 {% else %}
       <img src="/assets/people/placeholder.png" height="240px" width="190px"">
 {% endif %}
+/>
+<div style="text-align: right"></div>
+<h3 class="title">{{ page.name }}</h3>
+<p class="memberpage" style="float: right; margin: 10px 0px 10px 20px; width: 350px;">
 </div>
 
 <p>
@@ -105,7 +107,9 @@ Current: {{ page.current }}
 		</a>
 	{% endif			%}
 </div>
-
+				   
+<br style="clear: both;" /></p>
+			
 <p>
 <h3 class="title">Research areas</h3>
 <ul>
