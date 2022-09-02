@@ -6,7 +6,7 @@
 	<div class="container">
 		<div class="column-left-half">
 
-<h3 class="title">ABOUT <p style = "text-transform: uppercase'>{{ page.name }}</p></h3>
+<h3 class="title">ABOUT <p style = "text-transform: capitalize'>{{ page.name }}</p></h3>
 <p class="memberpage" style="float: right; margin: 10px 0px 10px 20px; width: 350px;">
 
 <p>
@@ -128,15 +128,7 @@ Current: {{ page.current }}
 {% endfor %}
 </ul>
 </p>
-	</div>
-	
-<div class="column-right-half">	
-{% if page.picture %}
-      <img src="/assets/people/{{ page.picture }}" height="240px">
-{% else %}
-      <img src="/assets/people/placeholder.png" height="240px" width="190px"">
-{% endif %}
-{% endif %}
+
 
 
 {% assign cleancontent = content | strip_newlines %}
@@ -171,6 +163,16 @@ Current: {{ page.current }}
   {% endfor %}
   </ol>
 </div>
+{% endif %}
+	
+		</div>
+	
+<div class="column-right-half">	
+{% if page.picture %}
+      <img src="/assets/people/{{ page.picture }}" height="240px">
+{% else %}
+      <img src="/assets/people/placeholder.png" height="240px" width="190px"">
+{% endif %}
 {% endif %}
 
 		</div>
