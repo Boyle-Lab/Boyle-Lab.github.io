@@ -238,6 +238,7 @@ line-height: 250px;
 .column-narrow{ float: center; width: 66%;}
 .column-wide{ float: center; width: 99%;}
 .column-left-half{ margin-left:10px; width: 40%;}
+.column-right-half{ float: right; margin-right:10px; width: 40%;}
 .align-left{ text-align: left;}
 .yellow-bar { align:center; width:50px; border-bottom:4px solid #FFCB05; margin-bottom:5px; }
 .gray-bar { float:center; width:30px; border-bottom:1px solid #A0A0A0; margin-bottom:5px; }
