@@ -4,15 +4,17 @@
 	
 <div id="main-wrap">
 	<div class="container">
-		<div style="text-align: left">
-		{% if page.picture %}
-      			<img src="/assets/people/{{ page.picture }}" height="240px">
-		{% else %}
-     			<img src="/assets/people/placeholder.png" height="240px" width="190px"">
-		{% endif %}
-
-<h3 class="title">ABOUT {{ page.name }}</h3>
+		<div class="wsite-content">
+			
+<div style="text-align: left"></div>
+<h3 class="title">{{ page.name }}</h3>
 <p class="memberpage" style="float: right; margin: 10px 0px 10px 20px; width: 350px;">
+{% if page.picture %}
+      <img src="/assets/people/{{ page.picture }}" height="240px">
+{% else %}
+      <img src="/assets/people/placeholder.png" height="240px" width="190px"">
+{% endif %}
+</div>
 
 <p>
 {% if page.dates.ms_start %}
@@ -133,7 +135,7 @@ Current: {{ page.current }}
 {% endfor %}
 </ul>
 </p>
-
+{% endif %}
 
 
 {% assign cleancontent = content | strip_newlines %}
