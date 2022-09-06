@@ -4,8 +4,8 @@ publish: true
 status: current
 name: Summer Ann
 umid: anneun
-position: Undergraduate Researcher
-title: Undergraduate Researcher 
+position: Undergraduate Research Assistant
+title: Undergraduate Research Assistant
 picture: 
 dates:
   start: 2022-09-10

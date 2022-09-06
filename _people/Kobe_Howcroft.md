@@ -4,8 +4,8 @@ publish: true
 status: current
 name: Kobe Howcroft
 umid: korb
-position: Undergraduate Researcher
-title: Undergraduate Researcher 
+position: Undergraduate Research Assistant
+title: Undergraduate Research Assistant
 picture: Kobe_Howcroft.jpg
 dates:
   start: 2022-09-06
