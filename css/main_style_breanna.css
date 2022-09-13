@@ -230,7 +230,7 @@ padding-bottom:20px;
 display: inline-block;
 /* border-left: 2px dotted #ccc; */
 vertical-align: middle;
-line-height: 250px;
+line-height: 25px;
 }
 
 .column-left{ float: left; width: 32%;}
