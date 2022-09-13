@@ -58,6 +58,7 @@ body { font-family: 'Open Sans', sans-serif; font-size: 14px; color: #000; }
    display: inline-block;
    font-size: 16px;
    height: 0px;
+   padding: 15px 32px;
  }
 
  a.yellow-button:hover {
