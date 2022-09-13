@@ -48,10 +48,10 @@ body { font-family: 'Open Sans', sans-serif; font-size: 14px; color: #000; }
  a.two:link {color:#FFFFFF;}
  a.two:hover {color:#FFCB05;}
  a.yellow-button:link {
-   background-color: #FFCB05;
+   background-color: #000000;
    border: 2px solid #FFFFFF;
    color: white;
-   padding: 150px 15px;
+   padding: 32px 150px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
