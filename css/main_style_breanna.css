@@ -51,7 +51,7 @@ body { font-family: 'Open Sans', sans-serif; font-size: 14px; color: #000; }
    background-color: #FFCB05;
    border: 2px solid #FFFFFF;
    color: white;
-   padding: 15px 32px;
+   padding: 32px 15px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
