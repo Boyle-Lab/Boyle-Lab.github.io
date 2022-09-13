@@ -47,7 +47,7 @@ body { font-family: 'Open Sans', sans-serif; font-size: 14px; color: #000; }
  a:hover { color: #FFCB05; }
  a.two:link {color:#000000;}
  a.two:hover {color:#FFCB05;}
- a.yellow-button {
+ a.yellow-button:link {
    background-color: #FFCB05;
    border: 2px solid #FFFFFF;
    color: white;
