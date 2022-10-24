@@ -5,7 +5,7 @@ status: current
 name: Bradley Crone
 umid: crone
 position: Doctoral Student
-title: Bioinformatics Candidate (co-mentored with Cristen Willer)
+title: Bioinformatics Candidate 
 picture: Brad_pic.png
 previous_training:
   - type: 'B.S.'
@@ -16,9 +16,9 @@ dates:
   end:
 social: 
   google-scholar: 
-  linked-in: 
+  linked-in: https://www.linkedin.com/in/brad-crone/ 
   email: crone@umich.edu
-  github: https://github.com/bcrone
+  github: bcrone
   orcid:
 CV: 
 theme_areas:
