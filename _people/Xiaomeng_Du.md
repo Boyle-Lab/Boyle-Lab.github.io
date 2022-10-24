@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: rotation
 name: Xiaomeng Du
 umid: xmdu
 position: PIBS Rotation Student
@@ -14,7 +14,7 @@ previous_training:
     info: 'University of Michigan'
 dates:
   start: 2022-08-29
-  end: 
+  end: 2022-10-19
 social: 
   google-scholar: 
   linked-in: 
