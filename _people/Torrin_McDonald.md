@@ -4,8 +4,8 @@ publish: true
 status: current
 name: Torrin McDonald, Ph.D.
 umid: torrin
-position: Doctoral Student 
-title: Human Genetics PhD Candidate
+position: Postdoctoral Scholar
+title: Human Genetics Ph.D.
 picture: Torrin_McDonald_pic.jpg
 previous_training:
   - type: 'B.S.'
