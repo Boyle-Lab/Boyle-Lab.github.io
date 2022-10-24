@@ -16,13 +16,16 @@ dates:
   end:
 social: 
   google-scholar: 
-  linked-in: https://www.linkedin.com/in/brad-crone/ 
+  linked-in: brad-crone 
   email: crone@umich.edu
   github: bcrone
   orcid:
 CV: 
 theme_areas:
   - Gene Regulation
-  - Variant Analysis
+  - Polygenic Risk Models
+  - Functional Variant Analysis
 awards:
 ---
+
+Bradley Crone recieved a dual Bachelors of Science degree in Computer Science and Mathematics from the University of Iowa. His research focuses on implementing functional variant prioritization models to optimize and improve accuracy of trans-ancestral polygenic risk score applications.
