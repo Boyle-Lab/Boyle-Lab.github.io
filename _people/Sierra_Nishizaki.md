@@ -10,7 +10,7 @@ picture: Sierra_Nishizaki_pic.jpg
 previous_training:
   - type: 'B.S.'
     info: 'San Francisco State University'
-current: 'ARTP Postdoctoral Fellow, UC Davis'
+current: 'Assistant Bioinformatics Scientist, Emory Integrated Computational Core'
 dates:
   start: 2015-01-06
   end: 2020-09-01
