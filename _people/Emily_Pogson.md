@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: rotation
 name: Emily Pogson
 umid: epogson
 position: PIBS Rotation Student

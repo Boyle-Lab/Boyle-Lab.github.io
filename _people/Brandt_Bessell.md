@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: rotation
 name: Brandt Bessell
 umid: bbessell
 position: PIBS Rotation Student

@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: rotation
 name: Katarina_Pavlovic
 umid: katrinp
 position: PIBS Rotation Student
