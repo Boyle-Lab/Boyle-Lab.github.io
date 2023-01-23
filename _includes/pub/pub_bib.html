@@ -1,5 +1,30 @@
 {% raw %}
-<h1>pub.bib</h1><a name="Ouyang2022.11.22.517559"></a><pre>
+<h1>pub.bib</h1><a name="Zhao2023"></a><pre>
+@article{<a href="pub.html#Zhao2023">Zhao2023</a>,
+  author = {Zhao, N and Wang, S and Huang, Q and Dong, S and Boyle, Alan P.},
+  title = {{Explain-seq: an end-to-end pipeline from training to interpretation of sequence-based deep learning models}},
+  year = {2023},
+  doi = {10.1101/2023.01.23.525250},
+  url = {https://www.biorxiv.org/content/early/2023/01/23/2023.01.23.525250},
+  pdf = {https://www.biorxiv.org/content/early/2023/01/23/2023.01.23.525250.full.pdf},
+  journal = {bioRxiv}
+}
+</pre>
+
+<a name="Holmes2023.01.18.524565"></a><pre>
+@article{<a href="pub.html#Holmes2023.01.18.524565">Holmes2023.01.18.524565</a>,
+  author = {Holmes, Monica J. and Mahjour, Babak and Castro, Christopher P. and Farnum, Gregory A. and Diehl, Adam G. and Boyle, Alan P.},
+  title = {{LRphase: an efficient method for assigning haplotype identity to long reads}},
+  year = {2023},
+  doi = {10.1101/2023.01.18.524565},
+  abstract = {Motivation Understanding the functional effects of sequence variation is among the primary goals of contemporary genomics. Individual human genomes contain millions of variants which are thought to contribute to phenotypic variability and differential disease risks at the population level. However, because variants rarely act in isolation, we cannot accurately predict functional effects without first considering the potential effects of other interacting variants on the same chromosome. This information can be obtained by phasing the read data from sequencing experiments. However, no standalone tools are available to simply phase reads based on known haplotypes. Here we present LRphase: a user-friendly utility for simple phasing of long sequencing reads.Availability and Implementation LRphase is implemented in Python, and is freely available at https://github.com/Boyle-Lab/LRphase, under the MIT license. Version 1.1.0, described in this manuscript, is available through the pip and Bioconda repositories (e.g., {\textquotedblleft}pip install lrphase==1.1.0{\textquotedblright}).Contact apboyle{at}umich.eduSupplementary Information Supplementary methods are available as part of the online version of this publication.Competing Interest StatementThe authors have declared no competing interest.},
+  url = {https://www.biorxiv.org/content/early/2023/01/20/2023.01.18.524565},
+  pdf = {https://www.biorxiv.org/content/early/2023/01/20/2023.01.18.524565.full.pdf},
+  journal = {bioRxiv}
+}
+</pre>
+
+<a name="Ouyang2022.11.22.517559"></a><pre>
 @article{<a href="pub.html#Ouyang2022.11.22.517559">Ouyang2022.11.22.517559</a>,
   author = {Ouyang, Ningxin and Boyle, Alan P.},
   title = {Quantitative assessment of association between noncoding variants and transcription factor binding},
@@ -21,19 +46,6 @@
   abstract = {{Understanding the genetic basis for complex, heterogeneous disorders, such as autism spectrum disorder (ASD), is a persistent challenge in human medicine. Owing to their phenotypic complexity, the genetic mechanisms underlying these disorders may be highly variable across individual patients. Furthermore, much of their heritability is unexplained by known regulatory or coding variants. Indeed, there is evidence that much of the causal genetic variation stems from rare and de novo variants arising from ongoing mutation. These variants occur mostly in noncoding regions, likely affecting regulatory processes for genes linked to the phenotype of interest. However, because there is no uniform code for assessing regulatory function, it is difficult to separate these mutations into likely functional and nonfunctional subsets. This makes finding associations between complex diseases and potentially causal de novo single-nucleotide variants (dnSNVs) a difficult task. To date, all but one published study in this area has failed to find any significant associations between dnSNVs from ASD patients and any class of known regulatory elements. We sought to identify the underlying reasons for this and present strategies for overcoming these challenges. We show that, contrary to previous claims, the main reason for failure to find robust statistical enrichments is not the number of families sampled, but the quality and relevance to ASD of the annotations used to prioritize dnSNVs, and the reliability of the set of dnSNVs itself. We present a list of recommendations for designing future studies of this sort that will help researchers avoid common pitfalls.Competing Interest StatementThe authors have declared no competing interest.}},
   url = {https://www.biorxiv.org/content/early/2022/11/05/2022.11.05.515231},
   pdf = {https://www.biorxiv.org/content/early/2022/11/05/2022.11.05.515231.full.pdf},
-  journal = {bioRxiv}
-}
-</pre>
-
-<a name="Dong2022.10.18.512627"></a><pre>
-@article{<a href="pub.html#Dong2022.10.18.512627">Dong2022.10.18.512627</a>,
-  author = {*Dong, Shengcheng and *Zhao, Nanxiang and Spragins, Emma and Kagda, Meenakshi S and Li, Mingjie and Assis, Pedro R and Jolanki, Otto and Luo, Yunhai and Cherry, J Michael and {\dag}Boyle, Alan P and {\dag}Hitz, Benjamin C},
-  title = {{Annotating and prioritizing human non-coding variants with RegulomeDB}},
-  year = {2022},
-  doi = {10.1101/2022.10.18.512627},
-  abstract = {Nearly 90\% of the disease risk-associated variants identified from genome-wide association studies (GWAS) are in non-coding regions of the genome. The annotations obtained from analyzing functional genomics assays can provide additional information to pinpoint causal variants, which are often not the lead variants identified from association studies. However, the lack of available annotation tools limits the use of such data. To address the challenge, we have previously built the RegulomeDB database for prioritizing and annotating variants in non-coding regions1, which has been a highly utilized resource for the research community (Supplementary Fig. 1). RegulomeDB annotates a variant by intersecting its position with genomic intervals identified from functional genomic assays and computational approaches. It also incorporates those hits of a variant into a heuristic ranking score, representing its potential to be functional in regulatory elements. Here we present a newer version of the RegulomeDB web server, RegulomeDB v2.1 (http://regulomedb.org). We improve and boost annotation power by incorporating thousands of newly processed data from functional genomic assays in GRCh38 assembly, and now include probabilistic scores from the SURF algorithm that was the top performing non-coding variant predictor in CAGI 52. We also provide interactive charts and genome browser views to allow users an easy way to perform exploratory analyses in different tissue contexts.Competing Interest StatementThe authors have declared no competing interest.},
-  url = {https://www.biorxiv.org/content/early/2022/10/20/2022.10.18.512627},
-  pdf = {https://www.biorxiv.org/content/early/2022/10/20/2022.10.18.512627.full.pdf},
   journal = {bioRxiv}
 }
 </pre>
@@ -75,6 +87,19 @@
   url = {https://www.biorxiv.org/content/early/2020/10/29/2020.10.29.359794},
   pdf = {https://www.biorxiv.org/content/early/2020/10/29/2020.10.29.359794.full.pdf},
   journal = {bioRxiv}
+}
+</pre>
+
+<a name="Dong2022.10.18.512627"></a><pre>
+@article{<a href="pub.html#Dong2022.10.18.512627">Dong2022.10.18.512627</a>,
+  author = {*Dong, Shengcheng and *Zhao, Nanxiang and Spragins, Emma and Kagda, Meenakshi S and Li, Mingjie and Assis, Pedro R and Jolanki, Otto and Luo, Yunhai and Cherry, J Michael and {\dag}Boyle, Alan P and {\dag}Hitz, Benjamin C},
+  title = {{Annotating and prioritizing human non-coding variants with RegulomeDB}},
+  year = {2022},
+  doi = {10.1101/2022.10.18.512627},
+  abstract = {Nearly 90\% of the disease risk-associated variants identified from genome-wide association studies (GWAS) are in non-coding regions of the genome. The annotations obtained from analyzing functional genomics assays can provide additional information to pinpoint causal variants, which are often not the lead variants identified from association studies. However, the lack of available annotation tools limits the use of such data. To address the challenge, we have previously built the RegulomeDB database for prioritizing and annotating variants in non-coding regions1, which has been a highly utilized resource for the research community (Supplementary Fig. 1). RegulomeDB annotates a variant by intersecting its position with genomic intervals identified from functional genomic assays and computational approaches. It also incorporates those hits of a variant into a heuristic ranking score, representing its potential to be functional in regulatory elements. Here we present a newer version of the RegulomeDB web server, RegulomeDB v2.1 (http://regulomedb.org). We improve and boost annotation power by incorporating thousands of newly processed data from functional genomic assays in GRCh38 assembly, and now include probabilistic scores from the SURF algorithm that was the top performing non-coding variant predictor in CAGI 52. We also provide interactive charts and genome browser views to allow users an easy way to perform exploratory analyses in different tissue contexts.Competing Interest StatementThe authors have declared no competing interest.},
+  url = {https://www.biorxiv.org/content/early/2022/10/20/2022.10.18.512627},
+  pdf = {https://www.biorxiv.org/content/early/2022/10/20/2022.10.18.512627.full.pdf},
+  journal = {In Press, Nature Genetics}
 }
 </pre>
 
