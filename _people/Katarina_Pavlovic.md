@@ -2,7 +2,7 @@
 layout: member
 publish: true
 status: current
-name: Katarina_Pavlovic
+name: Katarina Pavlovic
 umid: katrinp
 position: Doctoral Student
 title: Bioinformatics Ph.D. Student 
