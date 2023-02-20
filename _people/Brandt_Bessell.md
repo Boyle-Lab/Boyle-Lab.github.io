@@ -12,7 +12,7 @@ previous_training:
     info: 'University of Florida'
 dates:
   start: 2022-10-24
-  end: 
+  end: 2022-12-16
 social: 
   google-scholar: 
   linked-in: 

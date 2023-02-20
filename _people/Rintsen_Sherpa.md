@@ -1,18 +1,18 @@
 ---
 layout: member
 publish: true
-status: rotation
+status: current
 name: Rintsen Sherpa
 umid: rintsen
-position: PIBS Rotation Student
-title: Ph.D. Student 
+position: Doctoral Student
+title: Bioinformatics Ph.D. Student 
 picture: Rintsen_Sherpa.jpg
 previous_training:
   - type: 'B.A.'
     info: 'Washinton University in St. Louis'
 dates:
   start: 2022-08-29
-  end: 2022-10-19
+  end: 
 social: 
   google-scholar: 
   linked-in: 

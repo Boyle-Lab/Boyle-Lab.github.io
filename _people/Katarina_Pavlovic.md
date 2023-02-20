@@ -1,11 +1,11 @@
 ---
 layout: member
 publish: true
-status: rotation
+status: current
 name: Katarina_Pavlovic
 umid: katrinp
-position: PIBS Rotation Student
-title: Ph.D. Student 
+position: Doctoral Student
+title: Bioinformatics Ph.D. Student 
 picture: Katarina_Pavlovic.jpg
 previous_training:
   - type: 'B.S.'
