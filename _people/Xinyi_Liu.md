@@ -6,7 +6,7 @@ name: Xinyi (Lily) Liu
 umid: lxylily
 position: Master's Student
 title: Bioinformatics Master's Student
-picture: 
+picture: Xinyi_Liu.jpg
 previous_training:
   - type: 'B.S.'
     info: The Chinese University of Hong Kong, Shenzhen
