@@ -4,8 +4,8 @@ publish: true
 status: current
 name: Emily Pogson
 umid: epogson
-position: PIBS Rotation Student
-title: Ph.D. Student 
+position: Doctoral Student
+title: Genetics and Genomics Ph.D. Student 
 picture: Emily_Pogson.jpg
 previous_training:
   - type: 'B.S.'
