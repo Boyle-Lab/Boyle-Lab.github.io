@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: rotation
+status: current
 name: Emily Pogson
 umid: epogson
 position: PIBS Rotation Student
@@ -12,7 +12,7 @@ previous_training:
     info: 'Cornell University'
 dates:
   start: 2022-10-24
-  end: 2022-12-16
+  end: 
 social: 
   google-scholar: 
   linked-in: 

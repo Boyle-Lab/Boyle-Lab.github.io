@@ -6,7 +6,7 @@ name: Zongrui Dai
 umid: daizr
 position: Master's Student
 title: Biostatistics Master's Student
-picture: 
+picture: Zongrui_Dai.jpg
 previous_training:
   - type: 'B.S.'
     info: Southwest University, Chongqing, China
