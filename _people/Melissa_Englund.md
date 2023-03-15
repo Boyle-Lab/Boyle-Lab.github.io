@@ -2,7 +2,7 @@
 layout: member
 publish: true
 status: current
-name: Melissa Englund
+name: Melissa Englund, Ph.D.
 umid: melyssae
 position: Doctoral Student 
 title: Human Genetics PhD Candidate
