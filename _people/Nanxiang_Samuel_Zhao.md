@@ -2,7 +2,7 @@
 layout: member
 publish: true
 status: current
-name: Nanxiang (Samuel) Zhao
+name: Nanxiang (Samuel) Zhao, Ph.D.
 umid: samzhao
 position: Doctoral Student
 title: Bioinformatics Candidate
