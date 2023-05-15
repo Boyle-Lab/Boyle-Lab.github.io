@@ -5,7 +5,7 @@ status: current
 name: Jessica A. Switzenberg, Ph.D.
 umid: jswitzen
 position: Staff 
-title: Research Lab Specialist
+title: Lab Manager
 picture: Jess_pic.jpg
 previous_training:
   - type: 'B.A.'
