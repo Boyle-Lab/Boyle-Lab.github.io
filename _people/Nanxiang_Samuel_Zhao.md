@@ -1,24 +1,25 @@
 ---
 layout: member
 publish: true
-status: current
+status: phd_alumni
 name: Nanxiang (Samuel) Zhao, Ph.D.
 umid: samzhao
 position: Doctoral Student
-title: Bioinformatics Candidate
+title: Bioinformatics Ph.D.
 picture: Samuel_Zhao_pic.jpg
 previous_training:
   - type: 'B.S.'
     info: 'Biomedical Science, University of Waterloo (2016)'
   - type: 'M.S.'
     info: 'Bioinformatics, University of Michigan (2018)'
+current: 'Merck & Co Inc.'
 dates:
   start: 2017-01-03
-  end:
+  end: 2023-05-01
   ms_start: 2017-01-03
   ms_end: 2018-01-01
   phd_start: 2018-01-01
-  phd_end:
+  phd_end: 2023-05-01
 social: 
   google-scholar: 
   linked-in: 

@@ -13,6 +13,10 @@ previous_training:
 dates:
   start: 2017-07-17
   end:
+  phd_start: 2017-07-17
+  phd_end: 2023-03-29
+  pd_start: 2023-05-01
+  pd_end:
 social: 
   google-scholar: 
   linked-in: 

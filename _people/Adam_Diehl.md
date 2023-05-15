@@ -5,7 +5,7 @@ status: current
 name: Adam Diehl
 umid: adadiehl
 position: Staff 
-title: Computer Research Specialist
+title: Bioinformatician
 picture: Adam_pic.jpg
 previous_training:
   - type: 'B.S.'

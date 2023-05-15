@@ -4,8 +4,8 @@ publish: true
 status: current
 name: Christopher Castro, Ph.D.
 umid: castrocp
-position: Doctoral Student
-title: Bioinformatics Candidate
+position: Staff
+title: Bioinformatician
 picture: Christopher_Castro_pic.jpg
 previous_training:
   - type: 'B.S.'
@@ -13,6 +13,8 @@ previous_training:
 dates:
   start: 2016-01-05
   end:
+  phd_start: 2016-01-05
+  phd_end: 2023-03-30
 social: 
   google-scholar: 
   linked-in: 
