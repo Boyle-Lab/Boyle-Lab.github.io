@@ -77,6 +77,13 @@ body { font-family: 'Open Sans', sans-serif; font-size: 14px; color: #000; }
 
 #contact { outline: 0px solid; float: left; }
 
+#example1 { 
+	background:black url(assets/images/science_alan.jpg) repeat-y;
+	background-size: 50% auto;
+	width: 100%;
+	height:250px;
+	padding: 15px;
+}
 
 /* news */
 .news .list {
