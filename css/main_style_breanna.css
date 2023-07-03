@@ -42,7 +42,7 @@ body { font-family: 'Open Sans', sans-serif; font-size: 14px; color: #000; }
 /*  body { font-family: 'Open Sans', sans-serif; font-size: 14px; background: #FFFFFF; color: #000; line-height:24px; } */
  h3 { font-size: 22px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:20px; }
  h4 { font-size: 18px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:5px; }
- h5 { font-size: 18px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:5px; margin-left: 60%; }
+ h5 { font-size: 18px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:5px; margin-left: 65%; }
 
 
 
@@ -226,21 +226,15 @@ p.right_text { margin-left: 53%; margin-right: 3%; text-align: justify}
 	padding: 10px 5px 20px;
 }
 
-/* .row{
+.row{
 /* border:2px dotted #F00; */
 border-left:none;
 border-right:none;
 text-align:center;
 padding-top:20px;
 padding-bottom:20px;
-} */
-
-.row{
-/* border:2px dotted #F00; */
-border-left:none;
-border-right:none;
-text-align:center;
 }
+
 
 .row.genomics { background-image: url("/assets/images/science_alan.jpg") no-repeat; }
 .row.PI { background: #FFCB05; }
