@@ -42,7 +42,7 @@ body { font-family: 'Open Sans', sans-serif; font-size: 14px; color: #000; }
 /*  body { font-family: 'Open Sans', sans-serif; font-size: 14px; background: #FFFFFF; color: #000; line-height:24px; } */
  h3 { font-size: 22px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:20px; }
  h4 { font-size: 18px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:5px; }
- h5 { font-size: 18px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:5px; margin-left: 70%; }
+ h5 { font-size: 18px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:5px; margin-left: 60%; }
 
 
 
@@ -83,7 +83,7 @@ p.right_text { margin-left: 53%; margin-right: 3%; text-align: justify}
 #contact { outline: 0px solid; float: left; }
 
 #example1 { 
-	background:black url(/assets/images/science_alan_crop.jpg) repeat-y;
+	background:#00274C url(/assets/images/science_alan_crop.jpg) repeat-y;
 	background-size: 50% auto;
 	width: 100%;
 	height:250px;
