@@ -226,13 +226,20 @@ p.right_text { margin-left: 53%; margin-right: 3%; text-align: justify}
 	padding: 10px 5px 20px;
 }
 
-.row{
+/* .row{
 /* border:2px dotted #F00; */
 border-left:none;
 border-right:none;
 text-align:center;
 padding-top:20px;
 padding-bottom:20px;
+} */
+
+.row{
+/* border:2px dotted #F00; */
+border-left:none;
+border-right:none;
+text-align:center;
 }
 
 .row.genomics { background-image: url("/assets/images/science_alan.jpg") no-repeat; }
