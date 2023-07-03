@@ -254,6 +254,7 @@ line-height: 25px;
 .column-left-half{ margin-left:10px; width: 40%;}
 .column-right-half{ float: right; margin-right:10px; width: 40%;}
 .align-left{ text-align: left;}
+.align-justify{ text-align: justify;}
 .yellow-bar { align:center; width:50px; border-bottom:4px solid #FFCB05; margin-bottom:5px; }
 .gray-bar { float:center; width:30px; border-bottom:1px solid #A0A0A0; margin-bottom:5px; }
 .white-dot { float:center; width:8px; border-bottom:5px solid #FFFFFF; margin-bottom:5px; }
