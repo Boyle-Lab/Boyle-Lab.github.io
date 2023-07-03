@@ -43,6 +43,8 @@ body { font-family: 'Open Sans', sans-serif; font-size: 14px; color: #000; }
  h3 { font-size: 22px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:20px; }
  h4 { font-size: 18px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:5px; }
 
+
+
  a { color: #000000; }
  a:hover { color: #FFCB05; }
 
@@ -73,7 +75,7 @@ body { font-family: 'Open Sans', sans-serif; font-size: 14px; color: #000; }
  p { color:#000; font: 13px/22px 'Open Sans',arial,sans-serif; font-weight: 400; }
  .footer {font-size:12px; background: #00274C; width: 100%; float:right;}
 
-p.right_text { margin-left: 50%;}
+p.right_text { margin-left: 55%;}
 
  blockquote { font-style:italic; border-left:4px solid #0370EA; margin:10px 0 10px 0; padding-left:20px; line-height:1.5; font-size:13px; color:#999; }
 
