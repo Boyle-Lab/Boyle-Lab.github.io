@@ -261,6 +261,7 @@ line-height: 25px;
 .gray-bar { float:center; width:30px; border-bottom:1px solid #A0A0A0; margin-bottom:5px; }
 .white-dot { float:center; width:8px; border-bottom:5px solid #FFFFFF; margin-bottom:5px; }
 .yellow-dot { align:center; width:8px; border-bottom:5px solid #FFCB05; margin-bottom:5px; }
+.yellow-dot-right { width:8px; border-bottom:5px solid #FFCB05; margin-bottom:5px; margin-left: 75%; }
 .blue-dot { align:center; width:8px; border-bottom:5px solid #00274C; margin-bottom:5px; }
 .right-link{ float:right; }
 
