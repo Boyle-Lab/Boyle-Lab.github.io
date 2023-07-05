@@ -86,6 +86,7 @@ p.right_text { margin-left: 53%; margin-right: 3%; text-align: justify}
 	background:url(/assets/images/nanopore_sequencers_crop.jpg) repeat-y;
 /* 	background:#00274C url(/assets/images/nanopore_sequencers_crop.jpg) repeat-y; */
 /* 	background-size: 65% auto; */
+	background-size: contain;
 	width: 100%;
 	height:250px;
 	padding: 15px;
@@ -93,7 +94,7 @@ p.right_text { margin-left: 53%; margin-right: 3%; text-align: justify}
 
 #from_Alan { 
 	background:url(/assets/images/science_alan_crop.jpg) #FFCB05 repeat-y;
-	background-size: 50% auto;
+	background-size: 45% auto;
 	width: 100%;
 	height:250px;
 	padding: 15px;
