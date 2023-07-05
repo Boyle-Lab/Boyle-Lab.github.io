@@ -76,7 +76,7 @@ body { font-family: 'Open Sans', sans-serif; font-size: 14px; color: #000; }
  p { color:#000; font: 13px/22px 'Open Sans',arial,sans-serif; font-weight: 400; }
  .footer {font-size:12px; background: #00274C; width: 100%; float:right;}
 
-p.right_text { margin-left: 43%; margin-right: 3%; text-align: justify}
+p.right_text { margin-left: 42%; margin-right: 3%; text-align: justify}
 p.right_text_2 { margin-left: 48%; margin-right: 3%; text-align: justify}
 p.left_text { margin-left: 3%; margin-right: 53%; text-align: justify}
 
@@ -85,10 +85,10 @@ p.left_text { margin-left: 3%; margin-right: 53%; text-align: justify}
 #contact { outline: 0px solid; float: left; }
 
 #explore_the_genome { 	
- 	background:#00274C url(/assets/images/nanopore_sequencers.jpg) repeat-y; 
+ 	background: #00274C url(/assets/images/nanopore_sequencers.jpg) repeat-y; 
  	background-size: 35% auto; 
 	width: 100%;
-	height:250px;
+	height:200px;
 	padding: 15px;
 }
 
@@ -96,7 +96,7 @@ p.left_text { margin-left: 3%; margin-right: 53%; text-align: justify}
 	background:url(/assets/images/science_alan.jpg) #FFCB05 repeat-y;
 	background-size: 40% auto;
 	width: 100%;
-	height:300px;
+	height:450px;
 	padding: 15px;
 }
 
