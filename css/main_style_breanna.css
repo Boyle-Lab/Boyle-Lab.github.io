@@ -86,8 +86,8 @@ p.left_text { margin-left: 3%; margin-right: 53%; text-align: justify}
 
 #explore_the_genome { 	
  	background: #00274C, url(/assets/images/nanopore_sequencers.jpg);
-	background-repeat: repeat-y, no-repeat;
  	background-size: 35% auto; 
+	background-position: left, right;
 	width: 100%;
 	height:200px;
 	padding: 15px;
