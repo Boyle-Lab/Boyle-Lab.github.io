@@ -310,7 +310,7 @@ h2.categories { font-size: 0.875em; color:#999; margin-bottom:0px; margin-right:
 h2.date { font-size: 0.875em; color:#999; margin-bottom:0px; margin-right: 10px; padding: 0px; float:right; display: inline; }
 h2.title { font-size: 1.125em; margin-bottom: 0px; font-weight: bold; margin-top: 5px; margin-right: 5px;}
 h3.title { margin-bottom: 0px; margin-top: 10px; }
-h4.left { margin-left: 75%; }
+h4.left { margin-left: 25%; }
 .entry-content { margin-bottom: 20px; margin-top: 1px; }
 
 .pagination { height: 16px; }
