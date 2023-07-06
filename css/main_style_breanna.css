@@ -42,7 +42,7 @@ body { font-family: 'Open Sans', sans-serif; font-size: 14px; color: #000; }
 /*  body { font-family: 'Open Sans', sans-serif; font-size: 14px; background: #FFFFFF; color: #000; line-height:24px; } */
  h3 { font-size: 22px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:20px; }
  h4 { font-size: 18px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:5px; }
- h5 { font-size: 18px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:5px; margin-left: 10%; }
+/*  h5 { font-size: 18px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:5px; margin-left: 10%; } */
 
 
 
@@ -273,6 +273,7 @@ line-height: 25px;
 .white-dot { float:center; width:8px; border-bottom:5px solid #FFFFFF; margin-bottom:5px; }
 .yellow-dot { align:center; width:8px; border-bottom:5px solid #FFCB05; margin-bottom:5px; }
 .yellow-dot-right { width:8px; border-bottom:5px solid #FFCB05; margin-bottom:5px; margin-left: 75%; }
+.yellow-dot-left { width:8px; border-bottom:5px solid #FFCB05; margin-bottom:5px; margin-left: 15%; }
 .blue-dot { align:center; width:8px; border-bottom:5px solid #00274C; margin-bottom:5px; }
 .right-link{ float:right; }
 
@@ -281,6 +282,7 @@ h2.categories { font-size: 0.875em; color:#999; margin-bottom:0px; margin-right:
 h2.date { font-size: 0.875em; color:#999; margin-bottom:0px; margin-right: 10px; padding: 0px; float:right; display: inline; }
 h2.title { font-size: 1.125em; margin-bottom: 0px; font-weight: bold; margin-top: 5px; margin-right: 5px;}
 h3.title { margin-bottom: 0px; margin-top: 10px; }
+h4.left { margin-left: 75%}
 .entry-content { margin-bottom: 20px; margin-top: 1px; }
 
 .pagination { height: 16px; }
