@@ -69,6 +69,26 @@ body { font-family: 'Open Sans', sans-serif; font-size: 14px; color: #000; }
 	 color: #FFCB05;
 	 border: 2px solid #FFCB05;
  }
+
+a.yellow-button-PI:link, a.yellow-button-PI:visited {
+   background-color: #FFCB05;
+   border: 2px solid #FFFFFF;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   height: 25px;
+   padding: 15px 32px;
+   left-margin: 65%;
+ }
+
+ a.yellow-button-PI:hover {
+	 background-color: #FFFFFF;
+	 color: #FFCB05;
+	 border: 2px solid #FFCB05;
+	 left-margin: 65%;
+ }
  hr {background:#ddd !important;}
  h2 { font-size: 22px; padding: .8em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:20px; }
 
