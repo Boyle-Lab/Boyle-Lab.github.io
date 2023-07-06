@@ -85,17 +85,15 @@ p.left_text { margin-left: 3%; margin-right: 53%; text-align: justify}
 #contact { outline: 0px solid; float: left; }
 
 #explore_the_genome { 	
- 	background-image: #00274C, url(/assets/images/nanopore_sequencers.jpg);
- 	background-size: 35%, auto; 
-	background-position: left, right;
-	background-repeat: repeat, no-repeat; 
+ 	background-image: #00274C url(/assets/images/nanopore_sequencers.jpg);
+ 	background-size: 35% auto; 
 	width: 100%;
 	height: 200px;
 	padding: 15px;
 }
 
 #from_Alan { 
-	background: url(/assets/images/science_alan.jpg) #FFCB05;
+	background: url(/assets/images/science_alan.jpg) #FFCB05 repeat-y;
 	background-size: 40% auto;
 	width: 100%;
 	height: 375px;
@@ -284,7 +282,7 @@ h2.categories { font-size: 0.875em; color:#999; margin-bottom:0px; margin-right:
 h2.date { font-size: 0.875em; color:#999; margin-bottom:0px; margin-right: 10px; padding: 0px; float:right; display: inline; }
 h2.title { font-size: 1.125em; margin-bottom: 0px; font-weight: bold; margin-top: 5px; margin-right: 5px;}
 h3.title { margin-bottom: 0px; margin-top: 10px; }
-h4.left { margin-left: 75%}
+h4.left { margin-left: 75%; }
 .entry-content { margin-bottom: 20px; margin-top: 1px; }
 
 .pagination { height: 16px; }
