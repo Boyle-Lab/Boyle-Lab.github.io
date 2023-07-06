@@ -85,15 +85,17 @@ p.left_text { margin-left: 3%; margin-right: 53%; text-align: justify}
 #contact { outline: 0px solid; float: left; }
 
 #explore_the_genome { 	
- 	background: #00274C url(/assets/images/nanopore_sequencers.jpg);
- 	background-size: 35% auto; 
+ 	background-image: #00274C, url(/assets/images/nanopore_sequencers.jpg);
+ 	background-size: 35%, auto; 
+	background-position: left, right;
+	background-repeat: repeat, no-repeat; 
 	width: 100%;
 	height: 200px;
 	padding: 15px;
 }
 
 #from_Alan { 
-	background: url(/assets/images/science_alan.jpg) #FFCB05 repeat-y;
+	background: url(/assets/images/science_alan.jpg) #FFCB05;
 	background-size: 40% auto;
 	width: 100%;
 	height: 375px;
@@ -273,7 +275,7 @@ line-height: 25px;
 .white-dot { float:center; width:8px; border-bottom:5px solid #FFFFFF; margin-bottom:5px; }
 .yellow-dot { align:center; width:8px; border-bottom:5px solid #FFCB05; margin-bottom:5px; }
 .yellow-dot-right { width:8px; border-bottom:5px solid #FFCB05; margin-bottom:5px; margin-left: 75%; }
-.yellow-dot-left { width:8px; border-bottom:5px solid #FFCB05; margin-bottom:5px; margin-left: 15%; }
+.yellow-dot-left { width:8px; border-bottom:5px solid #FFCB05; margin-bottom:5px; margin-left: 20%; }
 .blue-dot { align:center; width:8px; border-bottom:5px solid #00274C; margin-bottom:5px; }
 .right-link{ float:right; }
 
