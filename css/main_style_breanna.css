@@ -123,7 +123,7 @@ p.PI_header { font-size: 20px; padding: .2em 0 .2em 0; line-height: 1.2; font-we
 }
 
 #from_Alan { 
-	background: url(/assets/images/science_alan.jpg) #FFCB05 repeat-y;
+	background: url(/assets/images/science_alan_crop.jpg) #FFCB05 repeat-y;
 	background-size: 40% auto;
 	width: 100%;
 	height: 350px;
