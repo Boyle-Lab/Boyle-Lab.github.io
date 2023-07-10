@@ -82,7 +82,7 @@ a.yellow-button-PI:link, a.yellow-button-PI:visited {
    font-size: 16px;
    height: 25px;
    padding: 15px 32px;
-   margin-left: 42%;
+   margin-left: 40%;
 	margin-top: 7px;
  }
 
@@ -90,7 +90,7 @@ a.yellow-button-PI:link, a.yellow-button-PI:visited {
 	 background-color: #FFFFFF;
 	 color: #FFCB05;
 	 border: 2px solid #FFCB05;
-	 margin-left: 42%;
+	 margin-left: 40%;
 	 margin-top: 7px; 
  }
  hr {background:#ddd !important;}
@@ -130,7 +130,7 @@ p.PI_header { font-size: 20px; letter-spacing: -1px; color: #333; margin-bottom:
 	background: url(/assets/images/science_alan_crop.jpg) #FFCB05 repeat-y;
 	background-size: 40% auto;
 	width: 100%;
-	height: 365px;
+	height: 370px;
 	padding: 15px;
 }
 
@@ -305,7 +305,7 @@ line-height: 25px;
 .yellow-bar-left { align:center; width:50px; border-bottom:4px solid #FFCB05; margin-bottom:5px; margin-left: 75%; }
 .gray-bar { float:center; width:30px; border-bottom:1px solid #A0A0A0; margin-bottom:5px; }
 .white-dot { float:center; width:8px; border-bottom:5px solid #FFFFFF; margin-bottom:5px; }
-.white-dot-PI { width:8px; border-bottom:5px solid #FFFFFF; margin-bottom:5px; margin-left: 69%; }
+.white-dot-PI { width:8px; border-bottom:5px solid #FFFFFF; margin-bottom:5px; margin-left: 68%; }
 .yellow-dot { align:center; width:8px; border-bottom:5px solid #FFCB05; margin-bottom:5px; }
 .yellow-dot-right { width:8px; border-bottom:5px solid #FFCB05; margin-bottom:5px; margin-left: 75%; }
 .yellow-dot-genome { width:8px; border-bottom:5px solid #FFCB05; margin-bottom:5px; margin-left: 28%; }
