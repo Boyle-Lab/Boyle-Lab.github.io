@@ -80,14 +80,14 @@ a.yellow-button-PI:link, a.yellow-button-PI:visited {
    font-size: 16px;
    height: 25px;
    padding: 15px 32px;
-   float: right;
+   margin-left: 75%;
  }
 
  a.yellow-button-PI:hover {
 	 background-color: #FFFFFF;
 	 color: #FFCB05;
 	 border: 2px solid #FFCB05;
-	 float: right;
+	 margin-left: 75%;
  }
  hr {background:#ddd !important;}
  h2 { font-size: 22px; padding: .8em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:20px; }
@@ -99,7 +99,7 @@ a.yellow-button-PI:link, a.yellow-button-PI:visited {
 p.right_text { margin-left: 42%; margin-right: 3%; text-align: justify; }
 p.right_text_2 { margin-left: 48%; margin-right: 3%; text-align: justify; }
 p.left_text { margin-left: 3%; margin-right: 60%; text-align: justify; }
-p.genome_header { font-size: 20px; letter-spacing: -1px; float: left; }
+p.genome_header { font-size: 20px; letter-spacing: -1px; margin-left: 15%; }
 p.PI_header { font-size: 20px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:5px; margin-left: 55%; }
 
  blockquote { font-style:italic; border-left:4px solid #0370EA; margin:10px 0 10px 0; padding-left:20px; line-height:1.5; font-size:13px; color:#999; }
