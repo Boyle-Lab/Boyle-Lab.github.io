@@ -99,8 +99,8 @@ a.yellow-button-PI:link, a.yellow-button-PI:visited {
 p.right_text { margin-left: 42%; margin-right: 3%; text-align: justify; }
 p.right_text_2 { margin-left: 48%; margin-right: 3%; text-align: justify; }
 p.left_text { margin-left: 3%; margin-right: 48%; text-align: justify; }
-p.genome_header { font-size: 20px; letter-spacing: -1px; margin-right: 55%; }
-p.PI_header { font-size: 20px; letter-spacing: -1px; color: #333; margin-bottom:5px; margin-left: 15%; }
+p.genome_header { font-size: 20px; letter-spacing: -1px; margin-right: 50%; }
+p.PI_header { font-size: 20px; letter-spacing: -1px; color: #333; margin-bottom:5px; margin-left: 20%; }
 
  blockquote { font-style:italic; border-left:4px solid #0370EA; margin:10px 0 10px 0; padding-left:20px; line-height:1.5; font-size:13px; color:#999; }
 
@@ -301,7 +301,7 @@ line-height: 25px;
 .yellow-bar-left { align:center; width:50px; border-bottom:4px solid #FFCB05; margin-bottom:5px; margin-left: 75%; }
 .gray-bar { float:center; width:30px; border-bottom:1px solid #A0A0A0; margin-bottom:5px; }
 .white-dot { float:center; width:8px; border-bottom:5px solid #FFFFFF; margin-bottom:5px; }
-.white-dot-PI { width:8px; border-bottom:5px solid #FFFFFF; margin-bottom:5px; margin-left: 70%; }
+.white-dot-PI { width:8px; border-bottom:5px solid #FFFFFF; margin-bottom:5px; margin-left: 65%; }
 .yellow-dot { align:center; width:8px; border-bottom:5px solid #FFCB05; margin-bottom:5px; }
 .yellow-dot-right { width:8px; border-bottom:5px solid #FFCB05; margin-bottom:5px; margin-left: 75%; }
 .yellow-dot-genome { width:8px; border-bottom:5px solid #FFCB05; margin-bottom:5px; margin-left: 28%; }
