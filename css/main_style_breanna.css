@@ -279,11 +279,6 @@ padding-top:20px;
 padding-bottom:20px;
 }
 
-// Pen-specific styles
-html, body, section, div {
-  height: 100%;
-}
-
 body { 
   color: #fff;
   font-family: sans-serif;
@@ -293,17 +288,6 @@ body {
   text-shadow: 0 2px 2px #b6701e;
 }
 
-h1 {
-  font-size: 1.75rem;
-  margin: 0 0 0.75rem 0;
-}
-
-// Pattern styles
-.container {
-  display: table;
-  height: 100%;
-  width: 100%;
-}
 
 div {
   display: table-cell;
