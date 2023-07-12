@@ -279,22 +279,6 @@ padding-top:20px;
 padding-bottom:20px;
 }
 
-div {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  width: 50%;
-  padding: 1rem;
-}
-
-.left-half {
-  background: #ff9e2c;
-}
-
-.right-half {
-  background: #b6701e;
-}
-
 
 .row.genomics { background-image: url("/assets/images/science_alan.jpg") no-repeat; }
 .row.PI { background: #FFCB05; }
