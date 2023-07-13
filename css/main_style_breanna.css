@@ -110,16 +110,16 @@ p.PI_header { font-size: 20px; letter-spacing: -1px; color: #333; margin-bottom:
 
 #contact { outline: 0px solid; float: left; }
 
-/* #explore_the_genome { 	
- 	background: #00274C url(/assets/images/nanopore_sequencers.jpg) repeat-y;
- 	background-size: 35% auto; 
+#explore_the_genome { 	
+ 	background: url(/assets/images/nanopore_sequencers_crop.jpg) right top no-repeat, #00274C left top repeat;
+  	background-size: contain, auto;  
 	width: 100%;
 	height: 200px;
 	padding: 15px;
-} */
+}
 
-#explore_the_genome { 	
- 	background: url(/assets/images/nanopore_sequencers_crop.jpg) right top no-repeat, #00274C left top repeat;
+#eukaryote_transcription { 	
+ 	background: url(/assets/images/reg.jpg) right top no-repeat, #00274C left top repeat;
   	background-size: contain, auto;  
 	width: 100%;
 	height: 200px;
