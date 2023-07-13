@@ -51,19 +51,29 @@ body { font-family: 'Open Sans', sans-serif; font-size: 14px; color: #000; }
   width: 100%;
 }
 
-div {
+/* div {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
   width: 50%;
   padding: 1rem;
-}
+} */
 
 .left-half {
-  background: #ff9e2c;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 50%;
+  padding: 1rem;
+   background: #ff9e2c;
 }
 
 .right-half {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 50%;
+  padding: 1rem;
   background: #b6701e;
 }
 
