@@ -44,6 +44,30 @@ body { font-family: 'Open Sans', sans-serif; font-size: 14px; color: #000; }
  h4 { font-size: 18px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:5px; }
 /*  h5 { font-size: 18px; padding: .2em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:5px; margin-left: 10%; } */
 
+// Pattern styles
+.container-split {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.left-half {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 50%;
+  padding: 1rem;
+  background: #ff9e2c;
+}
+
+.right-half {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 50%;
+  padding: 1rem;
+  background: #b6701e;
+}
 
 
  a { color: #000000; }
