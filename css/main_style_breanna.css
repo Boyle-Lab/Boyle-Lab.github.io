@@ -100,9 +100,9 @@ a.yellow-button-PI:link, a.yellow-button-PI:visited {
  p { color:#000; font: 13px/22px 'Open Sans',arial,sans-serif; font-weight: 400; }
  .footer {font-size:12px; background: #00274C; width: 100%; float:right; }
 
-p.right_text { margin-left: 42%; margin-right: 3%; text-align: justify; }
+p.right_text_PI { margin-left: 42%; margin-right: 3%; text-align: justify; }
 p.right_text_2 { margin-left: 48%; margin-right: 3%; text-align: justify; }
-p.left_text { margin-left: 3%; margin-right: 48%; text-align: justify; }
+p.left_text_explore_the_genome { margin-left: 3%; margin-right: 48%; text-align: justify; }
 p.genome_header { font-size: 20px; letter-spacing: -1px; margin-right: 43%; margin-bottom: 10px; }
 p.PI_header { font-size: 20px; letter-spacing: -1px; color: #333; margin-bottom:5px; margin-left: 38%; margin-bottom: 10px; }
 
