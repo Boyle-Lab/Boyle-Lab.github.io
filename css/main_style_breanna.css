@@ -102,7 +102,7 @@ a.yellow-button-PI:link, a.yellow-button-PI:visited {
 
 p.right_text_PI { margin-left: 42%; margin-right: 3%; text-align: justify; }
 p.right_text_2 { margin-left: 48%; margin-right: 3%; text-align: justify; }
-p.right_text_explore_the_genome { margin-left:42%; margin-right: 3%; text-align: justify; }
+p.right_text_explore_the_genome { margin-left:42%; margin-right: 3%; margin-top: 10px; text-align: justify; }
 p.genome_header { font-size: 20px; letter-spacing: -1px; margin-right: 43%; margin-bottom: 10px; }
 p.PI_header { font-size: 20px; letter-spacing: -1px; color: #333; margin-bottom:5px; margin-left: 38%; margin-bottom: 10px; }
 
