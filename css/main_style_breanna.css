@@ -119,8 +119,8 @@ p.PI_header { font-size: 20px; letter-spacing: -1px; color: #333; margin-bottom:
 }
 
 #eukaryote_transcription { 	
- 	background: url(/assets/images/reg.jpg) right top no-repeat, #00274C left top repeat;
-  	background-size: 60%, auto;  
+ 	background: url(/assets/images/reg.jpg) #00274C repeat-y;
+  	background-size: 60% auto;  
 	width: 100%;
 	height: 400px;
 	padding: 15px;
