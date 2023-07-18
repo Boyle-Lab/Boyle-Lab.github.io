@@ -1,6 +1,6 @@
 ---
 layout: member
-publish: true
+publish: false
 status: current
 name: Zongrui Dai
 umid: daizr
