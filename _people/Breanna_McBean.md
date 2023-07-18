@@ -24,7 +24,7 @@ theme_areas:
   - Breast Cancer
 awards:
   - Genome Science Training Program (T32)
-  - Rackham Graduate Student Research Grant (pre-candidate)
+  - Rackham Graduate Student Research Grant (pre-candidate & candidate)
 ---
 
 Breanna McBean completed her BA in Mathematics at California State University, Fullerton with a concentration in Applied Mathematics and a minor in Computer Science. Broadly, her research interests are in precision medicine for breast cancer patients. One of her projects focuses on elucidating the regulatory networks that govern radioresistance in breast cancer. She is also working on a project to study the role of the epithelial-mesenchymal transition and its reverse process, the mesenchymal-epithelial transition, on metastasis in triple-negative breast cancer. 
