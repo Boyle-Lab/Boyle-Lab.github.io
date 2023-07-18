@@ -273,6 +273,13 @@ p.projects_text { font-size: 16px; text-align: justify; margin-left:7%; margin-r
 	padding: 10px 5px 20px;
 }
 
+.memberpage img {
+	border: 1px solid #ccc;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;  
+}
+
 .row{
 /* border:2px dotted #F00; */
 border-left:none;
