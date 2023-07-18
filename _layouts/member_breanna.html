@@ -2,22 +2,26 @@
 
 {% include nav_breanna.html %}
 	
+<div id="banner-wrap">
+	<div class="container">
+		<div id="banner">
+			<div class="wsite-header"></div>
+			<div style="clear:both;"></div>
+		</div><!-- end banner -->
+	</div><!-- end container -->
+</div><!-- end banner-wrap -->
+	
 <div id="main-wrap">
 	<div class="container">
 		<div class="wsite-content">
-<p><img style="float: left; margin: 50px 15px 15px 100px;"  			
 
-{% if page.picture %}
-      <img src="/assets/people/{{ page.picture }}" height="400px">
-{% else %}
-      <img src="/assets/people/placeholder.png" height="400px" width="190px"">
-{% endif %}
-
-<div style="text-align: right;background:#FFCB05"></div>
-<br><br><br><br><br><br>
-<h3 class="title">ABOUT {{ page.name }}</h3>
+<h3 class="title">{{ page.name }}</h3>
 <p class="memberpage" style="float: right; margin: 10px 0px 10px 20px; width: 350px;">
-</div>
+{% if page.picture %}
+      <img src="/assets/people/{{ page.picture }}" height="240px">
+{% else %}
+      <img src="/assets/people/placeholder.png" height="240px" width="190px"">
+{% endif %}
 
 <p>
 {% if page.dates.ms_start %}
@@ -108,9 +112,7 @@ Current: {{ page.current }}
 		</a>
 	{% endif			%}
 </div>
-				   
-<br style="clear: both;" /></p>
-			
+
 <p>
 <h3 class="title">Research areas</h3>
 <ul>
