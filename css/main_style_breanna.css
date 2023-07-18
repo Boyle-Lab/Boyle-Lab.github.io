@@ -128,14 +128,6 @@ p.what_we_do_text { font-size: 16px; text-align: justify; }
 	padding: 15px;
 }
 
-#projects_tandem_repeats { 	
- 	background: url(/assets/images/tandem_repeats.PNG) #FFCB05 repeat-y;
-  	background-size: 55% auto;  
-	width: 100%;
-	height: 340px;
-	padding: 15px;
-}
-
 #from_Alan { 
 	background: url(/assets/images/science_alan_crop.jpg) #FFCB05 repeat-y;
 	background-size: 40% auto;
