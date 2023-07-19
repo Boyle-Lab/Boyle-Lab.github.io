@@ -118,7 +118,7 @@ Current: {{ page.current }}
 
 <p style="float: left; "><font color = white>
 <h3 class="title" align = left><font color = #FFCB05>Education</font></h3>
-<ul>
+<ul align = left>
 {% for degree in page.previous_training %}
 <li>{{ degree.type }}: {{ degree.info }}</li>
 {% endfor %}
@@ -129,7 +129,7 @@ Current: {{ page.current }}
 {% if award_count > 0 %}
 <p style="float:left; "><font color = white>
 <h3 class="title" align = left><font color=#FFCB05>Honors and Awards</font></h3>
-<ul>
+<ul align = left>
 {% for award in page.awards %}
 <li>{{ award }}</li>
 {% endfor %}
@@ -141,8 +141,10 @@ Current: {{ page.current }}
 {% assign cleancontent = content | strip_newlines %}
 {% if cleancontent != "" %}
 <div class="entry-content">
-<h3 class="title">Background</h3>
+<div class = "row maize"
+<h3 class="title"><font color = white>Background</font></h3>
 {{ content }}
+</div>
 </div>
 {% endif %}
 
