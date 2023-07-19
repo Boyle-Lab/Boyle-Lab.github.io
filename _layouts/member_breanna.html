@@ -13,8 +13,8 @@
 {% else %}
       <img src="/assets/people/placeholder.png" height="300px" width="238px"">
 {% endif %}
-<h3 class="title"><font color = "#FFCB05"><i><b>ABOUT</b></i> {{ page.name }}</font></h3>
-<p align = "left">
+<h3 class="title" align = left><font color = "#FFCB05"><i><b>ABOUT</b></i> {{ page.name }}</font></h3>
+<p align = "left"><font color = white>
 {% if page.dates.ms_start %}
 {% if page.dates.ms_start != "" and page.dates.ms_end == "" %}
 Master's student since {{ page.dates.ms_start | date: "%B %Y" }}
@@ -60,7 +60,7 @@ Postdoc from {{ page.dates.pd_start | date: "%B %Y" }} to {{ page.dates.pd_end |
 <br>
 Current: {{ page.current }}
 {% endif %}
-</p>
+</font></p>
 <div class="social">
 	{% if page.social.email	%}
 		<a href="mailto:{{ page.social.email }}">
