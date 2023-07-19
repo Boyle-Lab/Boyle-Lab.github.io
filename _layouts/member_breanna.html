@@ -61,7 +61,7 @@ Postdoc from {{ page.dates.pd_start | date: "%B %Y" }} to {{ page.dates.pd_end |
 Current: {{ page.current }}
 {% endif %}
 </font></p>
-<div class="social" align="left">
+<div class="social" style="float: left; " >
 	{% if page.social.email	%}
 		<a href="mailto:{{ page.social.email }}">
 		<i class="fas fa-envelope"></i>
@@ -104,7 +104,7 @@ Current: {{ page.current }}
 	{% endif			%}
 </div>
 
-<p align="left"><font color = white>
+<p style="float: left; "><font color = white>
 <h3 class="title"><font color = #FFCB05> Research areas</font></h3>
 <ul>
 {% for theme in page.theme_areas %}
@@ -114,25 +114,25 @@ Current: {{ page.current }}
 </ul>
 </font></p>
 
-<p style="float: left;">
+<p style="float: left; "><font color = white>
 <h3 class="title"><font color = #FFCB05>Education</font></h3>
 <ul>
 {% for degree in page.previous_training %}
 <li>{{ degree.type }}: {{ degree.info }}</li>
 {% endfor %}
 </ul>
-</p>
+</font></p>
 
 {% assign award_count = page.awards | size %}
 {% if award_count > 0 %}
-<p style="float: left;">
+<p style="float:left; "><font color = white>
 <h3 class="title"><font color=#FFCB05>Honors and Awards</font></h3>
 <ul>
 {% for award in page.awards %}
 <li>{{ award }}</li>
 {% endfor %}
 </ul>
-</p>
+</font></p>
 {% endif %}
 
 </div>
