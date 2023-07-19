@@ -6,7 +6,7 @@
 	<div class="container">
 		<div class="wsite-content">
 
-
+<div class = "row blue">
 <p class="memberpage" style="float: left; margin: 10px 0px 10px 20px; width: 350px;">
 {% if page.picture %}
       <img src="/assets/people/{{ page.picture }}" height="300px">
@@ -135,7 +135,7 @@ Current: {{ page.current }}
 </p>
 {% endif %}
 
-
+</div>
 {% assign cleancontent = content | strip_newlines %}
 {% if cleancontent != "" %}
 <div class="entry-content">
