@@ -137,13 +137,13 @@ Current: {{ page.current }}
 </font></p>
 {% endif %}
 
-</div>
+
 {% assign cleancontent = content | strip_newlines %}
 {% if cleancontent != "" %}
-<div class = "row maize">
-<div class="entry-content" align=justify>
-<h3 class="title" align=left><font color = white>Background</font></h3>
+<div class="entry-content" align=justify><font color = white>
+<h3 class="title" align=left><font color = #FFCB05>Background</font></h3>
 {{ content }}
+</font>
 </div>
 </div>
 {% endif %}
