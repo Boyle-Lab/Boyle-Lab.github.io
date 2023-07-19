@@ -7,14 +7,14 @@
 		<div class="wsite-content">
 
 <div class = "row blue">
-<p class="memberpage" style="float: left; margin: 10px 0px 10px 20px; width: 350px;">
+<p style="float: left; margin: 10px 0px 10px 20px; width: 300px;">
 {% if page.picture %}
       <img src="/assets/people/{{ page.picture }}" height="300px">
 {% else %}
       <img src="/assets/people/placeholder.png" height="300px" width="238px"">
 {% endif %}
-<h3 class="title">{{ page.name }}</h3>
-<p>
+<h3 class="title"><font color = "#FFCB05"><i><b>ABOUT</b></i> {{ page.name }}</font></h3>
+<p align = "left">
 {% if page.dates.ms_start %}
 {% if page.dates.ms_start != "" and page.dates.ms_end == "" %}
 Master's student since {{ page.dates.ms_start | date: "%B %Y" }}
