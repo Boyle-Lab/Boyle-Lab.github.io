@@ -61,7 +61,7 @@ Postdoc from {{ page.dates.pd_start | date: "%B %Y" }} to {{ page.dates.pd_end |
 Current: {{ page.current }}
 {% endif %}
 </font></p>
-<div class="social" float="left>
+<div class="social" align="left">
 	{% if page.social.email	%}
 		<a href="mailto:{{ page.social.email }}">
 		<i class="fas fa-envelope"></i>
@@ -104,7 +104,7 @@ Current: {{ page.current }}
 	{% endif			%}
 </div>
 
-<p style="float: left;">
+<p align="left"><font color = white>
 <h3 class="title"><font color = #FFCB05> Research areas</font></h3>
 <ul>
 {% for theme in page.theme_areas %}
@@ -112,7 +112,7 @@ Current: {{ page.current }}
 <li>{{ theme }}</li>
 {% endfor %}
 </ul>
-</p>
+</font></p>
 
 <p style="float: left;">
 <h3 class="title"><font color = #FFCB05>Education</font></h3>
