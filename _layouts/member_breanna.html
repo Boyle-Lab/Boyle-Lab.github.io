@@ -140,8 +140,9 @@ Current: {{ page.current }}
 
 {% assign cleancontent = content | strip_newlines %}
 {% if cleancontent != "" %}
-<div class="entry-content" align=justify><font color = white>
+<div class="entry-content" style = "align=justify; margin-left=10px; " >
 <h3 class="title" align=left><font color = #FFCB05>Background</font></h3>
+<font color = white>
 {{ content }}
 </font>
 </div>
