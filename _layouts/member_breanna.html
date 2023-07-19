@@ -104,8 +104,9 @@ Current: {{ page.current }}
 	{% endif			%}
 </div>
 
+
+<h3 class="title" align = left><font color = #FFCB05> Research areas</font></h3>
 <p style="float: left; "><font color = white>
-<h3 class="title"><font color = #FFCB05> Research areas</font></h3>
 <ul>
 {% for theme in page.theme_areas %}
 <!--- Need to create links to these theme pages --->
@@ -115,7 +116,7 @@ Current: {{ page.current }}
 </font></p>
 
 <p style="float: left; "><font color = white>
-<h3 class="title"><font color = #FFCB05>Education</font></h3>
+<h3 class="title" align = left><font color = #FFCB05>Education</font></h3>
 <ul>
 {% for degree in page.previous_training %}
 <li>{{ degree.type }}: {{ degree.info }}</li>
@@ -126,7 +127,7 @@ Current: {{ page.current }}
 {% assign award_count = page.awards | size %}
 {% if award_count > 0 %}
 <p style="float:left; "><font color = white>
-<h3 class="title"><font color=#FFCB05>Honors and Awards</font></h3>
+<h3 class="title" align = left><font color=#FFCB05>Honors and Awards</font></h3>
 <ul>
 {% for award in page.awards %}
 <li>{{ award }}</li>
