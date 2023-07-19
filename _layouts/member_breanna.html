@@ -68,37 +68,37 @@ Current: {{ page.current }}
 		</a>
 	{% endif			%}
 	{% if page.social.twitter	%}
-		<a href="https://twitter.com/{{ page.social.twitter }}">
+		<a class="two" href="https://twitter.com/{{ page.social.twitter }}">
 		<i class="fab fa-twitter"></i>
 		</a>
 	{% endif			%}
 	{% if page.social.github	%}
-		<a href="https://github.com/{{ page.social.github }}">
+		<a class="two" href="https://github.com/{{ page.social.github }}">
 		<i class="fab fa-github"></i>
 		</a>
 	{% endif			%}
 	{% if page.social.google-scholar	%}
-		<a href="https://scholar.google.com/citations?user={{page.social.google-scholar}}">
+		<a class="two" href="https://scholar.google.com/citations?user={{page.social.google-scholar}}">
 		<i class="ai ai-google-scholar"></i>
 		</a>
 	{% endif			%}
 	{% if page.social.orcid	%}
-		<a href="http://orcid.org/{{page.social.orcid}}">
+		<a class="two" href="http://orcid.org/{{page.social.orcid}}">
 		<i class="ai ai-orcid"></i>
 		</a>
 	{% endif			%}
 	{% if page.social.linked-in	%}
-		<a href="https://linkedin.com/in/{{ page.social.linked-in }}">
+		<a class="two" href="https://linkedin.com/in/{{ page.social.linked-in }}">
 		<i class="fab fa-linkedin"></i>
 		</a>
 	{% endif			%}
 	{% if page.social.website	%}
-		<a href="{{ page.social.website }}">
+		<a class="two" href="{{ page.social.website }}">
 		<i class="fas fa-globe"></i>
 		</a>
 	{% endif			%}
 	{% if page.CV	%}
-		<a href="http://boylelab.org/assets/{{ page.CV }}">
+		<a class="two" href="http://boylelab.org/assets/{{ page.CV }}">
 		<i class="ai ai-cv"></i>
 		</a>
 	{% endif			%}
@@ -107,7 +107,7 @@ Current: {{ page.current }}
 
 
 <h3 class="title" align = left><font color = #FFCB05> Research areas</font></h3>
-<p style="float: left; "><font color = white>
+<p align = left><font color = white>
 <ul>
 {% for theme in page.theme_areas %}
 <!--- Need to create links to these theme pages --->
