@@ -135,11 +135,13 @@ Current: {{ page.current }}
 {% endfor %}
 </ul>
 </font></p>
+	</div>
 {% endif %}
 
 
 {% assign cleancontent = content | strip_newlines %}
 {% if cleancontent != "" %}
+<div class = "row blue">
 <div class="entry-content" align = justify>
 <h3 class="title" margin-left = 10px><font color = #FFCB05>Background</font></h3>
 <font color = white>
@@ -147,8 +149,10 @@ Current: {{ page.current }}
 </font>
 </div>
 </div>
+		</div>
 {% endif %}
 
+			
 {% assign member = page.umid %}
 {% assign member_papers = site.array %}
 {% for paper in site.papers reversed %}
