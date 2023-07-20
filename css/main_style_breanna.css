@@ -14,7 +14,7 @@
 .site-title { display: block; float: left; position: relative; }
 .wsite-menu { line-height: 55px; display: block; float: right; margin: 0; padding: 0; }
 .wsite-menu li { list-style: none; float: left; margin-left: 15px; }
-.wsite-menu ul li a { display: block; color: #333; text-decoration: none; padding: 5px 7px 8px; margin:0 0px 1px; border: 0; outline: 0; list-style-type: none; box-sizing:border-box; float: left; font:13px 'Open Sans',arial,sans-serif; text-transform:uppercase; }
+.wsite-menu ul li a { display: block; color: #333; text-decoration: none; padding: 5px 7px 8px; margin:0 0px 1px; border: 0; outline: 0; list-style-type: none; box-sizing:border-box; float: left; font:13px 'Open Sans',sans-serif; text-transform:uppercase; }
 .wsite-menu ul li#active a{ padding: 5px 7px 4px; border-bottom:4px solid #FFCB05; color:#000; }
 .wsite-menu ul li a:hover { padding: 5px 7px 4px; border-bottom:4px solid #FFCB05; color: #666; }
 
@@ -96,8 +96,8 @@ a.yellow-button-PI:link, a.yellow-button-PI:visited {
  hr {background:#ddd !important;}
  h2 { font-size: 22px; padding: .8em 0 .2em 0; line-height: 1.2; font-weight: normal; letter-spacing: -1px; color: #333; margin-bottom:20px; }
 
- div.paragraph { color:#000; font: 13px/22px 'Open Sans',arial,sans-serif; font-weight: 400; }
- p { color:#000; font: 13px/22px 'Open Sans',arial,sans-serif; font-weight: 400; }
+ div.paragraph { color:#000; font: 13px/22px 'Open Sans',sans-serif; font-weight: 400; }
+ p { color:#000; font: 13px/22px 'Open Sans',sans-serif; font-weight: 400; }
  .footer {font-size:12px; background: #00274C; width: 100%; float:right; }
 
 p.right_text_PI { margin-left: 42%; margin-right: 3%; text-align: justify; }
