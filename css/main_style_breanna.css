@@ -293,14 +293,10 @@ padding-bottom:20px;
 
 .row.genomics { background-image: url("/assets/images/science_alan.jpg") no-repeat; }
 .row.PI { background: #FFCB05; }
-.row.color_1 { background: #FFFFFF; }
-.row.color_2 { background: #F9F9F9; }
-.row.blue { background: #00274C; }
-.row.maize { background: #FFCB05; }
-/* .row.color_1 { background: #FFFFFF; padding-left: 10px; padding-right: 10px; }
+.row.color_1 { background: #FFFFFF; padding-left: 10px; padding-right: 10px; }
 .row.color_2 { background: #F9F9F9; padding-left: 10px; padding-right: 10px; }
 .row.blue { background: #00274C; padding-left: 10px; padding-right: 10px; }
-.row.maize { background: #FFCB05; padding-left: 10px; padding-right: 10px; } */
+.row.maize { background: #FFCB05; padding-left: 10px; padding-right: 10px; }
 
 .row div{
 display: inline-block;
@@ -334,7 +330,7 @@ h2.categories { font-size: 0.875em; color:#999; margin-bottom:0px; margin-right:
 h2.date { font-size: 0.875em; color:#999; margin-bottom:0px; margin-right: 10px; padding: 0px; float:right; display: inline; }
 h2.title { font-size: 1.125em; margin-bottom: 0px; font-weight: bold; margin-top: 5px; margin-right: 5px;}
 h3.title { margin-bottom: 0px; margin-top: 10px; }
-.entry-content { margin-bottom: 20px; margin-top: 1px; }
+.entry-content { margin-bottom: 20px; margin-top: 1px; margin-left: 10px; margin-right: 10px}
 
 .pagination { height: 16px; }
 .pagination a { float: left; padding: 0px 14px; border-style: solid; border-color: #DDD; text-decoration: none; border-width: 1px; }
