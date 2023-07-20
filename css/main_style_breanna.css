@@ -293,10 +293,14 @@ padding-bottom:20px;
 
 .row.genomics { background-image: url("/assets/images/science_alan.jpg") no-repeat; }
 .row.PI { background: #FFCB05; }
-.row.color_1 { background: #FFFFFF; padding-left: 10px; padding-right: 10px; }
+.row.color_1 { background: #FFFFFF; }
+.row.color_2 { background: #F9F9F9; }
+.row.blue { background: #00274C; }
+.row.maize { background: #FFCB05; }
+/* .row.color_1 { background: #FFFFFF; padding-left: 10px; padding-right: 10px; }
 .row.color_2 { background: #F9F9F9; padding-left: 10px; padding-right: 10px; }
 .row.blue { background: #00274C; padding-left: 10px; padding-right: 10px; }
-.row.maize { background: #FFCB05; padding-left: 10px; padding-right: 10px; }
+.row.maize { background: #FFCB05; padding-left: 10px; padding-right: 10px; } */
 
 .row div{
 display: inline-block;
