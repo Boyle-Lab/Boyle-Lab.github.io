@@ -8,7 +8,7 @@
 
 <div class = "row blue_people">
 	
-<p style="float: left; margin: 10px 10px 10px 10px; width: 300px;">
+<p style="float: left; margin: 10px 0px 10px 10px; width: 300px;">
 {% if page.picture %}
       <img src="/assets/people/{{ page.picture }}" height="300px">
 {% else %}
@@ -16,7 +16,7 @@
 {% endif %}
 </p>
 
-<h3 class="title" align = left><font color = "#FFCB05"><i><b>ABOUT</b></i> {{ page.name }}</font></h3>
+<h3 class="title" align = left margin-left=15px ><font color = "#FFCB05"><i><b>ABOUT</b></i> {{ page.name }}</font></h3>
 <p align = "left"><font color = white>
 {% if page.dates.ms_start %}
 {% if page.dates.ms_start != "" and page.dates.ms_end == "" %}
