@@ -7,15 +7,15 @@
 		<div class="wsite-content">
 
 <div class = "row blue">
-	<div class = "people_pic" style="margin: 10px 10px 10px 10px; width: 300px;">
-<!-- <p style="float: left; margin: 10px 10px 10px 10px; width: 300px;"> -->
+	
+<p style="float: left; margin: 10px 10px 10px 10px; width: 300px;">
 {% if page.picture %}
       <img src="/assets/people/{{ page.picture }}" height="300px">
 {% else %}
       <img src="/assets/people/placeholder.png" height="300px" width="238px"">
 {% endif %}
-<!-- </p> -->
-	</div>
+</p>
+<div style="clear:both;"></div>
 <h3 class="title" align = left><font color = "#FFCB05"><i><b>ABOUT</b></i> {{ page.name }}</font></h3>
 <p align = "left"><font color = white>
 {% if page.dates.ms_start %}
