@@ -165,7 +165,8 @@ Current: {{ page.current }}
 {% assign paper_count = member_papers | size %}
 {% if paper_count > 0 %}
   {% assign sorted_papers = member_papers | sort: 'year' %}
-  <h3 class="title">Boyle lab papers</h3>
+  <center><h3 class="title"><font color = black>Boyle lab papers</font></h3></center>
+  <center><p class="yellow-dot"></p></center>
   <div class="papers">
   <ol>
   {% for paper in sorted_papers %}
