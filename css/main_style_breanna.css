@@ -32,7 +32,7 @@
  #footer-wrap .container { padding:30px 20px 38px; text-align:right; width:920px; font-size: 8px; line-height: normal; }
  #footer-wrap a { text-decoration: none; }
 /* .Nheader {background-color:#ffcb05; border-left:4px solid #00274c; color:#ffffff; font-size:1em; line-height:2em; font-weight:bold; padding:0px 0px 0px 10px; margin:0px; } */
-.Nheader {color:black; font-size:1em; line-height:2em; font-weight:bold; padding:0px 0px 0px 10px; margin:0px; justify: center; }
+.Nheader {color:black; font-size:1em; line-height:2em; font-weight:bold; padding:0px 0px 0px 10px; margin:0px; text-align: center; }
 .imgright {float:right; margin:2px 10px 2px 10px;}
 
  li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, div.paragraph, blockquote, fieldset, input { margin: 0; padding: 0; }
