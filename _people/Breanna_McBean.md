@@ -1,5 +1,5 @@
 ---
-layout: member_breanna
+layout: member
 publish: true
 status: current
 name: Breanna McBean
