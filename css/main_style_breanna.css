@@ -305,7 +305,7 @@ width: 100%;
 .row.color_1 { background: #FFFFFF; padding-left: 10px; padding-right: 10px; }
 .row.color_2 { background: #F9F9F9; padding-left: 10px; padding-right: 10px; }
 .row.blue { background: #00274C; padding-left: 10px; padding-right: 20px; }
-.row.blue_people { background: #00274C; padding-left: 20px; padding-right: 20px; min-height: 325px; }
+.row.blue_people { background: #00274C; padding-left: 30px; padding-right: 20px; min-height: 325px; }
 .row.maize { background: #FFCB05; padding-left: 10px; padding-right: 10px; }
 
 .row div{
