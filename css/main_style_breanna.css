@@ -308,6 +308,7 @@ width: 100%;
 .row.blue_people { background: #00274C; padding-left: 30px; padding-right: 20px; min-height: 325px; }
 .row.blue_background { background: #00274C; padding-left: 10px; padding-right: 20px; padding-top: 0px; }
 .row.maize { background: #FFCB05; padding-left: 10px; padding-right: 10px; }
+.papers {background: #FFFFFF; padding-left: 10px; padding-right: 10px; }
 
 .row div{
 display: inline-block;
