@@ -315,8 +315,6 @@ display: inline-block;
 /* border-left: 2px dotted #ccc; */
 vertical-align: middle;
 line-height: 25px;
-width: 100%;
-margin-left: 0px
 }
 
 .column-left{ float: left; width: 32%; font-family: 'Open Sans', sans-serif; }
