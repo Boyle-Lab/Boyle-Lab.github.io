@@ -2,28 +2,22 @@
 
 {% include nav_breanna.html %}
 	
-<div id="banner-wrap">
-	<div class="container">
-		<div id="banner">
-			<div class="wsite-header"></div>
-			<div style="clear:both;"></div>
-		</div><!-- end banner -->
-	</div><!-- end container -->
-</div><!-- end banner-wrap -->
-	
 <div id="main-wrap">
 	<div class="container">
 		<div class="wsite-content">
 
-<h3 class="title">{{ page.name }}</h3>
-<p class="memberpage" style="float: right; margin: 10px 0px 10px 20px; width: 350px;">
+<div class = "row blue_people">
+	
+<p style="float: left; margin: 10px 0px 10px 10px; width: 300px;">
 {% if page.picture %}
-      <img src="/assets/people/{{ page.picture }}" height="240px">
+      <img src="/assets/people/{{ page.picture }}" height="300px">
 {% else %}
-      <img src="/assets/people/placeholder.png" height="240px" width="190px"">
+      <img src="/assets/people/placeholder.png" height="300px" width="238px"">
 {% endif %}
+</p>
 
-<p>
+<h3 class="title" align = left margin-left=15px ><font color = "#FFCB05"><i><b>ABOUT</b></i> {{ page.name }}</font></h3>
+<p align = "left" margin-left = 15px><font color = white>
 {% if page.dates.ms_start %}
 {% if page.dates.ms_start != "" and page.dates.ms_end == "" %}
 Master's student since {{ page.dates.ms_start | date: "%B %Y" }}
@@ -69,90 +63,103 @@ Postdoc from {{ page.dates.pd_start | date: "%B %Y" }} to {{ page.dates.pd_end |
 <br>
 Current: {{ page.current }}
 {% endif %}
-</p>
-<div class="social">
+</font></p>
+<div class="social" style="float: left; " >
 	{% if page.social.email	%}
-		<a href="mailto:{{ page.social.email }}">
-		<i class="fas fa-envelope"></i>
+		<a class="two" href="mailto:{{ page.social.email }}">
+		<i class="fas fa-envelope" style="font-size:20px" ></i>
 		</a>
 	{% endif			%}
 	{% if page.social.twitter	%}
-		<a href="https://twitter.com/{{ page.social.twitter }}">
-		<i class="fab fa-twitter"></i>
+		<a class="two" href="https://twitter.com/{{ page.social.twitter }}">
+		<i class="fab fa-twitter" style="font-size:20px" ></i>
 		</a>
 	{% endif			%}
 	{% if page.social.github	%}
-		<a href="https://github.com/{{ page.social.github }}">
-		<i class="fab fa-github"></i>
+		<a class="two" href="https://github.com/{{ page.social.github }}">
+		<i class="fab fa-github" style="font-size:20px" ></i>
 		</a>
 	{% endif			%}
 	{% if page.social.google-scholar	%}
-		<a href="https://scholar.google.com/citations?user={{page.social.google-scholar}}">
-		<i class="ai ai-google-scholar"></i>
+		<a class="two" href="https://scholar.google.com/citations?user={{page.social.google-scholar}}">
+		<i class="ai ai-google-scholar" style="font-size:20px" ></i>
 		</a>
 	{% endif			%}
 	{% if page.social.orcid	%}
-		<a href="http://orcid.org/{{page.social.orcid}}">
-		<i class="ai ai-orcid"></i>
+		<a class="two" href="http://orcid.org/{{page.social.orcid}}">
+		<i class="ai ai-orcid" style="font-size:20px" ></i>
 		</a>
 	{% endif			%}
 	{% if page.social.linked-in	%}
-		<a href="https://linkedin.com/in/{{ page.social.linked-in }}">
-		<i class="fab fa-linkedin"></i>
+		<a class="two" href="https://linkedin.com/in/{{ page.social.linked-in }}">
+		<i class="fab fa-linkedin" style="font-size:20px" ></i>
 		</a>
 	{% endif			%}
 	{% if page.social.website	%}
-		<a href="{{ page.social.website }}">
-		<i class="fas fa-globe"></i>
+		<a class="two" href="{{ page.social.website }}">
+		<i class="fas fa-globe" style="font-size:20px" ></i>
 		</a>
 	{% endif			%}
 	{% if page.CV	%}
-		<a href="http://boylelab.org/assets/{{ page.CV }}">
-		<i class="ai ai-cv"></i>
+		<a class="two" href="http://boylelab.org/assets/{{ page.CV }}">
+		<i class="ai ai-cv" style="font-size:20px" ></i>
 		</a>
 	{% endif			%}
 </div>
+<br>
 
-<p>
-<h3 class="title">Research areas</h3>
-<ul>
+
+<h3 class="title" align = left><font color = #FFCB05> Research areas</font></h3>
+<p align = left><font color = white>
+<ul align = left>
 {% for theme in page.theme_areas %}
 <!--- Need to create links to these theme pages --->
 <li>{{ theme }}</li>
 {% endfor %}
 </ul>
-</p>
+</font></p>
 
-<p>
-<h3 class="title">Education</h3>
-<ul>
+<p style="float: left; "><font color = white>
+<h3 class="title" align = left><font color = #FFCB05>Education</font></h3>
+<ul align = left>
 {% for degree in page.previous_training %}
 <li>{{ degree.type }}: {{ degree.info }}</li>
 {% endfor %}
 </ul>
-</p>
+</font></p>
 
+<!-- 	<div style="clear:both;"></div> -->
+	
 {% assign award_count = page.awards | size %}
 {% if award_count > 0 %}
-<p>
-<h3 class="title">Honors and Awards</h3>
-<ul>
+<p style="margin-left=200px; "><font color = white>
+<h3 class="title" align=left><font color=#FFCB05>Honors and Awards</font></h3>
+<ul align=left >
 {% for award in page.awards %}
 <li>{{ award }}</li>
 {% endfor %}
 </ul>
-</p>
+</font></p>
+	
+	</div>
 {% endif %}
 
 
 {% assign cleancontent = content | strip_newlines %}
 {% if cleancontent != "" %}
-<div class="entry-content">
-<h3 class="title">Background</h3>
+<div class = "row blue_background">
+<div class="entry-content-background" align = justify>
+<h3 class="title"><font color = #FFCB05>Background</font></h3>
+<p><font color = white>
 {{ content }}
+</font></p>
 </div>
+</div>
+		</div>
 {% endif %}
 
+		</div><!-- end container -->
+			
 {% assign member = page.umid %}
 {% assign member_papers = site.array %}
 {% for paper in site.papers reversed %}
@@ -165,7 +172,8 @@ Current: {{ page.current }}
 {% assign paper_count = member_papers | size %}
 {% if paper_count > 0 %}
   {% assign sorted_papers = member_papers | sort: 'year' %}
-  <h3 class="title">Boyle lab papers</h3>
+  <center><h3 class="title"><font color = black>Boyle lab papers</font></h3></center>
+  <center><p class="yellow-dot"></p></center>
   <div class="papers">
   <ol>
   {% for paper in sorted_papers %}
@@ -179,8 +187,8 @@ Current: {{ page.current }}
 </div>
 {% endif %}
 
-		</div>
-	</div><!-- end container -->
+	
+	
 </div><!-- end main-wrap -->
 
-{% include footer.html %}
+{% include footer_breanna.html %}
