@@ -61,7 +61,8 @@ body { font-family: 'Open Sans', sans-serif; font-size: 14px; color: #000; }
  a.two:link, a.two:visited {color:#FFFFFF;}
  a.two:hover {color:#FFCB05;}
 
-a.three {color:#FFCB05;}
+ a.three:link, a.three:visited {color:#FFCB05;}
+a.three:hover {color:#FFFFFF;}
 
  a.yellow-button:link, a.yellow-button:visited {
    background-color: #FFCB05;
