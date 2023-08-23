@@ -15,7 +15,7 @@
 	<div class="container">
 		<div class="wsite-content">
 
-<h3 class="title">{{ page.title }}</h3>
+<center><h3 class="title">{{ page.title }}</h3></center>
 <h2 class="postdate">{{ page.date | date: "%B %d, %Y" }}</h2>
 <h2 class="categories">
   {% for cat in page.categories %}
@@ -23,8 +23,9 @@
   {% endfor %}
 </h2>
 
-<div class="entry-content">
+<div class="entry-content"><center>
 {{ content }}
+	</center>
 </div>
 
 
