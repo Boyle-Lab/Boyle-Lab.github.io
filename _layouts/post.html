@@ -1,0 +1,24 @@
+{% include header_breanna.html %}
+
+{% include nav_breanna.html %}
+	
+<!--<div id="banner-wrap">
+	<div class="container">
+		<div id="banner">
+			<div class="wsite-header"></div>
+			<div style="clear:both;"></div>
+		</div><!-- end banner -->
+	</div><!-- end container -->
+</div><!-- end banner-wrap -->-->
+	
+<div id="main-wrap">
+	<div class="container">
+		<div class="wsite-content">
+
+<h3 class="title">{{ page.title }}</h3>
+<h2 class="postdate">{{ page.date | date: "%B %d, %Y" }}</h2>
+<h2 class="categories">
+  {% for cat in page.categories %}
+    {{cat}}&nbsp;
+  {% endfor %}
+</h2>
