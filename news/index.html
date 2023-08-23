@@ -31,7 +31,7 @@ layout: breanna
     <h2 class="date">{{ post.date | date: "%B %d, %Y" }}</h2>
     <h2 class="title"><a href="{{ post.external-url }}">{{ post.title }}</a></h2>
   {% else %}
-    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" class="post-teaser">
+    <a class = "three" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" class="post-teaser">
     <center>
     {% if post.teaser %}
       <img class="image" src="{{ site.url }}/assets/news_graphics/{{ post.teaser }}" heigth="137px" width="220px">
@@ -63,12 +63,12 @@ layout: breanna
   {% if paginator.previous_page %}
     <a class = "two" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
   {% else %}
-    <a class = "two" style="color:black">&laquo; Prev</a>
+    <a class = "two" style="color:#FFCB05">&laquo; Prev</a>
   {% endif %}
 
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-      <a class = "two" style="color:black"><em>{{ page }}</em></a>
+      <a class = "two" style="color:#FFCB05"><em>{{ page }}</em></a>
     {% elsif page == 1 %}
       <a class = "two" href="/news">{{ page }}</a>
     {% else %}
@@ -79,7 +79,7 @@ layout: breanna
   {% if paginator.next_page %}
     <a class = "two" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
   {% else %}
-    <a class = "two" style="color:black">Next &raquo;</a>
+    <a class = "two" style="color:#FFCB05">Next &raquo;</a>
   {% endif %}
   </div>
 {% endif %}
