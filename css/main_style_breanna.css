@@ -154,6 +154,7 @@ p.projects_text { font-size: 16px; text-align: justify; margin-left:7%; margin-r
 	padding: 0;
 	margin: 0;
 	clear: both;
+	color: #FFCB05;
 }
 
 .news .list:after {
@@ -217,7 +218,7 @@ p.projects_text { font-size: 16px; text-align: justify; margin-left:7%; margin-r
 	margin-right: 7px;
 	text-align: left;
 	color: #FFFFFF;
-	line-height: 1em;
+	line-height: 3em;
 }
 
 
