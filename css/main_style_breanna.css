@@ -348,7 +348,7 @@ line-height: 25px;
 h2.postdate { font-size: 0.875em; color:#999; margin-bottom:0px; margin-left: 10px; padding: 0px; display: inline; }
 h2.categories { font-size: 0.875em; color:#999; margin-bottom:0px; margin-right: 10px; padding: 0px; float:right; display: inline; }
 h2.date { font-size: 0.875em; color:#FFFFFF; margin-bottom:0px; margin-right: 10px; padding: 0px; float:right; display: inline; }
-h2.title { font-size: 1.125em; color:#FFCB05; margin-bottom: 0px; font-weight: 700; margin-top: 5px; margin-right: 5px;text-align: left;}
+h2.title { font-size: 1.125em; color:#FFCB05; margin-bottom: 0px; font-weight: 600; margin-top: 5px; margin-right: 5px;text-align: left;}
 h3.title { margin-bottom: 0px; margin-top: 10px; }
 .entry-content { margin-bottom: 20px; margin-top: 1px; }
 .entry-content-background { margin-bottom: 5px; margin-top: 0px; color:#ccc; }
