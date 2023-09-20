@@ -6,7 +6,7 @@ name: Kateri Darr
 umid: katerid
 position: Undergraduate Research Assistant
 title: Undergraduate Research Assistant
-picture: 
+picture: Kateri_Darr.jpg
 dates:
   start: 2023-09-13
   end: 
