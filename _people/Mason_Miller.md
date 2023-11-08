@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Mason Miller
 umid: masonmil
 position: Undergraduate Research Assistant
