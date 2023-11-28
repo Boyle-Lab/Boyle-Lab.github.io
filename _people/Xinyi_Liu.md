@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Xinyi (Lily) Liu
 umid: lxylily
 position: Master's Student
@@ -12,7 +12,7 @@ previous_training:
     info: The Chinese University of Hong Kong, Shenzhen
 dates:
   start: 2023-02-08
-  end:
+  end: 2023-11-17
 social: 
   google-scholar: 
   linked-in: 

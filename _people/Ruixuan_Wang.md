@@ -1,6 +1,6 @@
 ---
 layout: member
-publish: true
+publish: false
 status: current
 name: Ruixuan Wang
 umid: rxxwang

@@ -9,7 +9,7 @@ title: Undergraduate Research Assistant
 picture: Mason_Miller.jpg
 dates:
   start: 2023-05-16
-  end: 
+  end: 2023-09-12
 social: 
   google-scholar: 
   linked-in: 
