@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: rotation
 name: Rosina Carr
 umid: raacarr
 position: PIBS Rotation Student
@@ -12,7 +12,7 @@ previous_training:
     info: 'University of Health and Allied Sciences, Ghana'
 dates:
   start: 2023-10-23
-  end: 
+  end: 2023-12-15
 social: 
   google-scholar: 
   linked-in: 
