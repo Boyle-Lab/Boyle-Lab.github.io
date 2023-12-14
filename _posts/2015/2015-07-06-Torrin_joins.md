@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+status: none
 title: Torrin McDonald joins us for a summer rotation project.
 date: '2015-07-06'
 external-url:

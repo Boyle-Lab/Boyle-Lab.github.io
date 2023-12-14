@@ -16,6 +16,7 @@ layout: breanna
 <ul class = "list">
 {% for post in paginator.posts %}
 {% if post.title != nil %}
+{% if post.stats == publish %}
 <li class = "item">
 
   {% if post.external-url %}
@@ -50,6 +51,7 @@ layout: breanna
 </li>
 {% cycle 'close rows': '', '', '', '</ul><ul class = "list">' %}
 
+{% endif %}
 {% endif %}
 {% endfor %}
 
