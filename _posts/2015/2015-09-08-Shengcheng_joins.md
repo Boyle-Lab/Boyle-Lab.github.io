@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+status: none
 title: Shengcheng Dong joins us for a fall rotation project.
 date: '2015-09-08'
 external-url:

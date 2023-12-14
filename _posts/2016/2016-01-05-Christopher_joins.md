@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+status: none
 title: Christopher Castro joins us for a winter rotation project.
 date: '2016-01-05'
 external-url:
