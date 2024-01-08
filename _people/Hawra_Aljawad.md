@@ -1,11 +1,11 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Hawra Aljawad
 umid: aljawadh
-position: Doctoral Student
-title: Chemical Engineering Ph.D. Student 
+position: Master's Student
+title: Chemical Engineering M.S. Student 
 picture: Hawra_Aljawad.jpg
 previous_training:
   - type: 'B.S.'

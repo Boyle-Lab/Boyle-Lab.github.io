@@ -1,18 +1,18 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Emily Pogson
 umid: epogson
-position: Doctoral Student
-title: Genetics and Genomics Ph.D. Student 
+position: Master's Student
+title: Genetics and Genomics M.S. Student 
 picture: Emily_Pogson.jpg
 previous_training:
   - type: 'B.S.'
     info: 'Cornell University'
 dates:
   start: 2022-10-24
-  end: 
+  end: 2023-12-22
 social: 
   google-scholar: 
   linked-in: 
