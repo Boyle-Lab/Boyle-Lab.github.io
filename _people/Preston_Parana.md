@@ -8,9 +8,10 @@ position: Undergraduate Research Assistant
 title: University of Michigan Molecular, Cellular, and Developmental Biology 
 picture: Preston_Parana.jpg
 previous_training: 
+current: 'MD Student'
 dates:
   start: 2020-12-10
-  end: 
+  end: 2023-12-31
 social: 
   google-scholar: 
   linked-in: 
