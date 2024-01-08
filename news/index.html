@@ -9,7 +9,6 @@ layout: default
 <ul class = "list">
 {% for post in paginator.posts %}
 {% if post.title != nil %}
-{% if post.status == 'publish' %}
 <li class = "item">
 
   {% if post.external-url %}
@@ -44,7 +43,6 @@ layout: default
 </li>
 {% cycle 'close rows': '', '', '', '</ul><ul class = "list">' %}
 
-{% endif %}
 {% endif %}
 {% endfor %}
 
