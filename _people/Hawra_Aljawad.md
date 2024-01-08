@@ -12,7 +12,7 @@ previous_training:
     info: 'University of Wisconsin Madison'
 dates:
   start: 2023-05-01
-  end: 
+  end: 2023-12-31
 social: 
   google-scholar: 
   linked-in: 
