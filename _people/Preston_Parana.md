@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Preston Parana
 umid: prparana
 position: Undergraduate Research Assistant
