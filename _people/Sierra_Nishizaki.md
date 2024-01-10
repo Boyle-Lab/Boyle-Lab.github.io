@@ -14,6 +14,7 @@ current: 'Assistant Bioinformatics Scientist, Emory Integrated Computational Cor
 dates:
   start: 2015-01-06
   end: 2020-09-01
+  phd_end: 2020-09-01
 social: 
   google-scholar: 
   linked-in: 

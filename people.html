@@ -4,7 +4,7 @@ layout: default
 ---
 
 {% assign sorted_people = (site.people | sort: "dates.start") %}
-{% assign sorted_phd = (site.people | sort: "dates.end" | reverse ) %}
+{% assign sorted_phd = (site.people | sort: "dates.phd_end" | reverse ) %}
 {% assign sorted_alumni = (site.people | sort: "dates.end" | reverse ) %}
 {% assign sorted_rotation = (site.people | sort: "dates.end" | reverse ) %}
 <br>
@@ -36,7 +36,7 @@ layout: default
 <div class = "people">
 <ul class = "list">
 {% for person in sorted_phd %}
-  {% if person.publish and person.status == 'phd_alumni'%}
+  {% if person.publish and person.status == 'phd_alumni' or person.status == 'current' and person.dates.phd_end %}
     <li class="item">
       <center>
       {% if person.picture %}

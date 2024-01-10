@@ -14,6 +14,7 @@ current: 'Bioinformatics Scientist at Kyverna Therapeutics'
 dates:
   start: 2016-08-29
   end: 2020-11-16
+  phd_end: 2020-11-16
 social: 
   google-scholar: 
   linked-in: 
