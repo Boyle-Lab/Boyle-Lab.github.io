@@ -31,19 +31,6 @@
 }
 </pre>
 
-<a name="consortium2023impact"></a><pre>
-@article{<a href="pub.html#consortium2023impact">consortium2023impact</a>,
-  title = {{The Impact of Genomic Variation on Function (IGVF) Consortium}},
-  author = {{{IGVF} Consortium}},
-  year = {2023},
-  doi = {10.48550/arXiv.2307.13708},
-  abstract = {Our genomes influence nearly every aspect of human biology from molecular and cellular functions to phenotypes in health and disease. Human genetics studies have now associated hundreds of thousands of differences in our DNA sequence ("genomic variation") with disease risk and other phenotypes, many of which could reveal novel mechanisms of human biology and uncover the basis of genetic predispositions to diseases, thereby guiding the development of new diagnostics and therapeutics. Yet, understanding how genomic variation alters genome function to influence phenotype has proven challenging. To unlock these insights, we need a systematic and comprehensive catalog of genome function and the molecular and cellular effects of genomic variants. Toward this goal, the Impact of Genomic Variation on Function (IGVF) Consortium will combine approaches in single-cell mapping, genomic perturbations, and predictive modeling to investigate the relationships among genomic variation, genome function, and phenotypes. Through systematic comparisons and benchmarking of experimental and computational methods, we aim to create maps across hundreds of cell types and states describing how coding variants alter protein activity, how noncoding variants change the regulation of gene expression, and how both coding and noncoding variants may connect through gene regulatory and protein interaction networks. These experimental data, computational predictions, and accompanying standards and pipelines will be integrated into an open resource that will catalyze community efforts to explore genome function and the impact of genetic variation on human biology and disease across populations.},
-  url = {https://doi.org/10.48550/arXiv.2307.13708},
-  pdf = {https://arxiv.org/ftp/arxiv/papers/2307/2307.13708.pdf},
-  journal = {arXiv}
-}
-</pre>
-
 <a name="Yee2023"></a><pre>
 @article{<a href="pub.html#Yee2023">Yee2023</a>,
   author = {Yee, C and Xiao, Y and Chen, H and Reddy, A and Xu, R and Medwig-Kinney, T and Zhang, W and Boyle, Alan P. and Xiang, Y K and Matus, D Q and Shen, K},
@@ -92,16 +79,43 @@
 }
 </pre>
 
+<a name="consortium2023impact"></a><pre>
+@article{<a href="pub.html#consortium2023impact">consortium2023impact</a>,
+  title = {{The Impact of Genomic Variation on Function (IGVF) Consortium}},
+  author = {{IGVF} Consortium},
+  year = {2024},
+  doi = {10.48550/arXiv.2307.13708},
+  abstract = {Our genomes influence nearly every aspect of human biology from molecular and cellular functions to phenotypes in health and disease. Human genetics studies have now associated hundreds of thousands of differences in our DNA sequence ("genomic variation") with disease risk and other phenotypes, many of which could reveal novel mechanisms of human biology and uncover the basis of genetic predispositions to diseases, thereby guiding the development of new diagnostics and therapeutics. Yet, understanding how genomic variation alters genome function to influence phenotype has proven challenging. To unlock these insights, we need a systematic and comprehensive catalog of genome function and the molecular and cellular effects of genomic variants. Toward this goal, the Impact of Genomic Variation on Function (IGVF) Consortium will combine approaches in single-cell mapping, genomic perturbations, and predictive modeling to investigate the relationships among genomic variation, genome function, and phenotypes. Through systematic comparisons and benchmarking of experimental and computational methods, we aim to create maps across hundreds of cell types and states describing how coding variants alter protein activity, how noncoding variants change the regulation of gene expression, and how both coding and noncoding variants may connect through gene regulatory and protein interaction networks. These experimental data, computational predictions, and accompanying standards and pipelines will be integrated into an open resource that will catalyze community efforts to explore genome function and the impact of genetic variation on human biology and disease across populations.},
+  url = {https://doi.org/10.48550/arXiv.2307.13708},
+  pdf = {https://arxiv.org/ftp/arxiv/papers/2307/2307.13708.pdf},
+  journal = {Nature, Accepted}
+}
+</pre>
+
+<a name="cagi2024"></a><pre>
+@article{<a href="pub.html#cagi2024">cagi2024</a>,
+  title = {{CAGI, the Critical Assessment of Genome Interpretation, establishes progress and prospects for computational genetic variant interpretation methods.}},
+  author = {{The Critical Assessment of Genome Interpretation Consortium}},
+  year = {2024},
+  doi = {10.1186/s13059-023-03113-6},
+  journal = {Genome Biology, Accepted}
+}
+</pre>
+
 <a name="Holmes2023.01.18.524565"></a><pre>
 @article{<a href="pub.html#Holmes2023.01.18.524565">Holmes2023.01.18.524565</a>,
   author = {Holmes, Monica J. and Mahjour, Babak and Castro, Christopher P. and Farnum, Gregory A. and Diehl, Adam G. and Boyle, Alan P.},
   title = {{HaplotagLR: an efficient and configurable utility for haplotagging long reads}},
-  year = {2023},
-  doi = {10.1101/2023.01.18.524565},
-  abstract = {Motivation Understanding the functional effects of sequence variation is among the primary goals of contemporary genomics. Individual human genomes contain millions of variants which are thought to contribute to phenotypic variability and differential disease risks at the population level. However, because variants rarely act in isolation, we cannot accurately predict functional effects without first considering the potential effects of other interacting variants on the same chromosome. This information can be obtained by phasing the read data from sequencing experiments. However, no standalone tools are available to simply phase reads based on known haplotypes. Here we present LRphase: a user-friendly utility for simple phasing of long sequencing reads.Availability and Implementation LRphase is implemented in Python, and is freely available at https://github.com/Boyle-Lab/LRphase, under the MIT license. Version 1.1.0, described in this manuscript, is available through the pip and Bioconda repositories (e.g., {\textquotedblleft}pip install lrphase==1.1.0{\textquotedblright}).Contact apboyle{at}umich.eduSupplementary Information Supplementary methods are available as part of the online version of this publication.Competing Interest StatementThe authors have declared no competing interest.},
-  url = {https://www.biorxiv.org/content/early/2023/01/20/2023.01.18.524565},
-  pdf = {https://www.biorxiv.org/content/early/2023/01/20/2023.01.18.524565.full.pdf},
-  journal = {{PLOS ONE, Accepted}}
+  year = {2024},
+  month = {03},
+  volume = {19},
+  pages = {1-15},
+  number = {3},
+  doi = {10.1371/journal.pone.0298688},
+  abstract = {Understanding the functional effects of sequence variation is crucial in genomics. Individual human genomes contain millions of variants that contribute to phenotypic variability and disease risks at the population level. Because variants rarely act in isolation, we must consider potential interactions of neighboring variants to accurately predict functional effects. We can accomplish this using haplotagging, which matches sequencing reads to their parental haplotypes using alleles observed at known heterozygous variants. However, few published tools for haplotagging exist and these share several technical and usability-related shortcomings that limit applicability, in particular a lack of insight or control over error rates, and lack of key metrics on the underlying sources of haplotagging error. Here we present HaplotagLR: a user-friendly tool that haplotags long sequencing reads based on a multinomial model and existing phased variant lists. HaplotagLR is user-configurable and includes a basic error model to control the empirical FDR in its output. We show that HaplotagLR outperforms the leading haplotagging method in simulated datasets, especially at high levels of specificity, and displays 7% greater sensitivity in haplotagging real data. HaplotagLR advances both the immediate utility of haplotagging and paves the way for further improvements to this important method.},
+  url = {https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298688},
+  pdf = {https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0298688&type=printable},
+  journal = {{PLoS ONE}}
 }
 </pre>
 
@@ -255,14 +269,14 @@
 <a name="Dong2021"></a><pre>
 @article{<a href="pub.html#Dong2021">Dong2021</a>,
   author = {Dong, Shengcheng and Boyle, Alan P},
-  title = {{Prioritization of regulatory variants with tissue-specific function in the non-coding regions of human genome}},
+  title = {Prioritization of regulatory variants with tissue-specific function in the non-coding regions of human genome},
   journal = {Nucleic Acids Research},
   year = {2021},
   month = {10},
   volume = {50},
   number = {1},
   pages = {e6-e6},
-  abstract = {{Understanding the functional consequences of genetic variation in the non-coding regions of the human genome remains a challenge. We introduce h ere a computational tool, TURF, to prioritize regulatory variants with tissue-specific function by leveraging evidence from functional genomics experiments, including over 3000 functional genomics datasets from the ENCODE project provided in the RegulomeDB database. TURF is able to generate prediction scores at both organism and tissue/organ-specific levels for any non-coding variant on the genome. We present that TURF has an overall top performance in prediction by using validated variants from MPRA experiments. We also demonstrate how TURF can pick out the regulatory variants with tissue-specific function over a candidate list from associate studies. Furthermore, we found that various GWAS traits showed the enrichment of regulatory variants predicted by TURF scores in the trait-relevant organs, which indicates that these variants can be a valuable source for future studies.}},
+  abstract = {Understanding the functional consequences of genetic variation in the non-coding regions of the human genome remains a challenge. We introduce h ere a computational tool, TURF, to prioritize regulatory variants with tissue-specific function by leveraging evidence from functional genomics experiments, including over 3000 functional genomics datasets from the ENCODE project provided in the RegulomeDB database. TURF is able to generate prediction scores at both organism and tissue/organ-specific levels for any non-coding variant on the genome. We present that TURF has an overall top performance in prediction by using validated variants from MPRA experiments. We also demonstrate how TURF can pick out the regulatory variants with tissue-specific function over a candidate list from associate studies. Furthermore, we found that various GWAS traits showed the enrichment of regulatory variants predicted by TURF scores in the trait-relevant organs, which indicates that these variants can be a valuable source for future studies.},
   doi = {10.1093/nar/gkab924},
   url = {https://doi.org/10.1093/nar/gkab924},
   pdf = {<a href="http://boylelab.org/pubs/NAR_2021_Dong.pdf">http://boylelab.org/pubs/NAR_2021_Dong.pdf</a>},
@@ -361,7 +375,7 @@
 
 <a name="ENCODE2020b"></a><pre>
 @article{<a href="pub.html#ENCODE2020b">ENCODE2020b</a>,
-  author = {{The {ENCODE} Project Consortium}},
+  author = {{The ENCODE Project Consortium}},
   title = {{Perspectives on ENCODE}},
   journal = {Nature},
   year = {2020},
@@ -380,7 +394,7 @@
 
 <a name="ENCODE2020"></a><pre>
 @article{<a href="pub.html#ENCODE2020">ENCODE2020</a>,
-  author = {{The {ENCODE} Project Consortium}},
+  author = {{The ENCODE Project Consortium}},
   title = {{Expanded encyclopaedias of DNA elements in the human and mouse genomes}},
   journal = {Nature},
   year = {2020},
@@ -845,7 +859,7 @@
   abstract = {The human genome encodes the blueprint of life, but the function of the vast majority of its nearly three billion bases is unknown. The Encyclopedia of {DNA} Elements {(ENCODE)} project has systematically mapped regions of transcription, transcription factor association, chromatin structure and histone modification. These data enabled us to assign biochemical functions for 80\% of the genome, in particular outside of the well-studied protein-coding regions. Many discovered candidate regulatory elements are physically associated with one another and with expressed genes, providing new insights into the mechanisms of gene regulation. The newly identified elements also show a statistical correspondence to sequence variants linked to human disease, and can thereby guide interpretation of this variation. Overall, the project provides new insights into the organization and regulation of our genes and genome, and is an expansive resource of functional annotations for biomedical research.},
   number = {7414},
   journal = {Nature},
-  author = {{The {ENCODE} Project Consortium}},
+  author = {{The ENCODE Project Consortium}},
   month = sep,
   year = {2012},
   note = {{PMID:} 22955616},
@@ -925,7 +939,7 @@ derived results are made available through a freely accessible database. This ar
 facilitate the interpretation of the human genome.},
   number = {4},
   journal = {{PLoS} Biology},
-  author = {{The {ENCODE} Project Consortium}},
+  author = {{The ENCODE Project Consortium}},
   month = apr,
   year = {2011},
   pages = {e1001046},
