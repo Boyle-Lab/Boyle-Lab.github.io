@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: rotation
+status: current
 name: Steve Losh
 umid: slosh
 position: PIBS Rotation Student
