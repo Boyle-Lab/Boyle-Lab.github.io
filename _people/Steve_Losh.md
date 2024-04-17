@@ -4,7 +4,7 @@ publish: true
 status: current
 name: Steve Losh
 umid: slosh
-position: PIBS Rotation Student
+position: Doctoral Student
 title: Ph.D. Student 
 picture: Steve_Losh.jpg
 previous_training:
@@ -14,7 +14,7 @@ previous_training:
     info: 'Reykjavík University'
 dates:
   start: 2023-10-23
-  end: 2023-12-15
+  end: 
 social: 
   google-scholar: 
   linked-in: 
