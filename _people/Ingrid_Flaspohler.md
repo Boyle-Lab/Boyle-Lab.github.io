@@ -4,8 +4,8 @@ publish: true
 status: current
 name: Ingrid Flaspohler
 umid: imf
-position: PIBS Rotation Student
-title: Ph.D. Student 
+position: Doctoral Student
+title: Bioinformatics Ph.D. Student
 picture: Ingrid_Flaspohler.jpg
 previous_training:
   - type: 'B.S.'

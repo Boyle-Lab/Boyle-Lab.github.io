@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: rotation
 name: Jeremy Chen
 umid: jeremyhc
 position: PIBS Rotation Student
