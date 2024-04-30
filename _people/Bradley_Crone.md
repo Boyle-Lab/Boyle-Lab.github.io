@@ -2,7 +2,7 @@
 layout: member
 publish: true
 status: current
-name: Bradley Crone
+name: Bradley Crone, Ph.D.
 umid: crone
 position: Doctoral Student
 title: Bioinformatics Candidate 
