@@ -12,7 +12,7 @@ previous_training:
     info: 'Princeton University'
 dates:
   start: 2024-03-11
-  end: 
+  end: 2024-04-30
 social: 
   google-scholar: 
   linked-in: 
