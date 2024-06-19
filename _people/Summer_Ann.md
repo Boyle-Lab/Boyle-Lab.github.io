@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Summer Ann
 umid: anneun
 position: Undergraduate Research Assistant

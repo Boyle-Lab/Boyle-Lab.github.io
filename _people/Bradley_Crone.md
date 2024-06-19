@@ -14,6 +14,7 @@ current:
 dates:
   start: 2018-09-04
   end: 2024-06-02
+  phd_end: 2024-06-02
 social: 
   google-scholar: 
   linked-in: brad-crone 
