@@ -6,10 +6,11 @@ name: Summer Ann
 umid: anneun
 position: Undergraduate Research Assistant
 title: Undergraduate Research Assistant
+current: PhD Student at Chicago
 picture: Summer_Ann.jpg
 dates:
   start: 2022-09-10
-  end: 
+  end: 2024-05-21
 social: 
   google-scholar: 
   linked-in: 
