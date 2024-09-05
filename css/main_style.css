@@ -243,6 +243,6 @@ h3.title { margin-bottom: 0px; margin-top: 10px; }
 .pagination { height: 16px; }
 .pagination a { float: left; padding: 0px 14px; border-style: solid; border-color: #DDD; text-decoration: none; border-width: 1px; }
 
-.__dimensions_badge_embed__[style] {
+.__dimensions_badge_embed__, .__dimensions_badge_embed__ a, .__dimensions_badge_embed__ a:hover, .__dimensions_badge_embed__ div {
 	vertical-align:baseline !important;
 }
