@@ -1,11 +1,11 @@
 ---
 layout: member
 publish: true
-status: phd_alumni
+status: current
 name: Bradley Crone, Ph.D.
 umid: crone
-position: Doctoral Student
-title: Bioinformatics Candidate 
+position: Staff
+title: Bioinformatician 
 picture: Brad_pic.png
 previous_training:
   - type: 'B.S.'
@@ -13,7 +13,8 @@ previous_training:
 current:
 dates:
   start: 2018-09-04
-  end: 2024-06-02
+  end: 
+  phd_start: 2018-09-04
   phd_end: 2024-06-02
 social: 
   google-scholar: 
