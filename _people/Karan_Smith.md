@@ -1,22 +1,22 @@
 ---
 layout: member
 publish: true
-status: rotation
-name: Jun Sik Yun
-umid: yjunsik
+status: current
+name: Karan Smith
+umid: karanks
 position: PIBS Rotation Student
 title: Ph.D. Student 
-picture: Jun_Sik_Yun.jpg
+picture: Karan_Smith.jpg
 previous_training:
-  - type: 'B.S.E.'
-    info: 'Sungkyunkwan University'
+  - type: 'B.A.'
+    info: 'Boston University'
 dates:
-  start: 2024-08-26
-  end: 2024-10-16
+  start: 2024-10-21
+  end: 
 social: 
   google-scholar: 
   linked-in: 
-  email: yjunsik@umich.edu
+  email: karanks@umich.edu
   github:
   orcid:
 CV: 
