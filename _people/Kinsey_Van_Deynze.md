@@ -17,7 +17,7 @@ social:
   google-scholar: XLCor0oAAAAJ
   linked-in: kinsey-van-deynze
   email: kvandeyn@umich.edu
-  github:kvandeynze
+  github: kvandeynze
   orcid: 0000-0002-9186-9881
 CV: 
 theme_areas:
