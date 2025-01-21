@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: rotation
 name: Karan Smith
 umid: karanks
 position: PIBS Rotation Student
@@ -12,7 +12,7 @@ previous_training:
     info: 'Boston University'
 dates:
   start: 2024-10-21
-  end: 
+  end: 2024-12-11
 social: 
   google-scholar: 
   linked-in: 
