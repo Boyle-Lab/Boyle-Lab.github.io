@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Torrin McDonald, Ph.D.
 umid: torrin
 position: Postdoctoral Scholar
@@ -18,7 +18,7 @@ dates:
   phd_start: 2015-07-06
   phd_end: 2021-11-12
   pd_start: 2022-10-26
-  pd_end: 
+  pd_end: 2025-02-14
 social: 
   google-scholar: 
   linked-in: 
