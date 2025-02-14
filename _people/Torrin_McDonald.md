@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: alumni
+status: phd_alumni
 name: Torrin McDonald, Ph.D.
 umid: torrin
 position: Postdoctoral Scholar
