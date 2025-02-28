@@ -27,7 +27,6 @@ awards:
   - Rackham Predoctoral Fellowship
   - Rackham Graduate Student Research Grant
   - Rackham Travel Grant
-background:
-  Camille received her BS in Biology and Informatics from the University of Iowa where she studied the gene regulatory network governing periderm differentiation using reporter assays in zebrafish. Her PhD work focuses on applying targeted nanopore sequencing techniques to characterize repetitive element variation in the human genome.
 ---
+Camille received her BS in Biology and Informatics from the University of Iowa where she studied the gene regulatory network governing periderm differentiation using reporter assays in zebrafish. Her PhD work focuses on applying targeted nanopore sequencing techniques to characterize repetitive element variation in the human genome.
 
