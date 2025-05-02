@@ -2,17 +2,23 @@
 layout: member
 publish: true
 status: current
-name: Camille Mumm
+name: Camille Mumm, Ph.D.
 umid: crmumm
-position: Doctoral Student
-title: Human Genetics Ph.D. Student
+position: Staff
+title: Research Lab Specialist
 picture: Camille_Mumm.jpg
 previous_training:
   - type: 'B.S.'
     info: 'University of Iowa'
+  - type: 'M.S.'
+    info: 'University of Michigan'
+  - type: 'Ph.D.'
+    info: 'University of Michigan'
 dates:
   start: 2020-01-08
-  end: 
+  end:
+  phd_start: 2020-01-08
+  phd_end: 2025-03-11
 social: 
   google-scholar: 
   linked-in: https://www.linkedin.com/in/camille-mumm/
