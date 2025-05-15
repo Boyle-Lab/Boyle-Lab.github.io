@@ -5,7 +5,7 @@ status: current
 name: Camille Mumm, Ph.D.
 umid: crmumm
 position: Staff
-title: Research Lab Specialist
+title: Bioinformatician
 picture: Camille_Mumm.jpg
 previous_training:
   - type: 'B.S.'
