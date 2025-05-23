@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: phd_alumni
 name: Melissa Englund, Ph.D.
 umid: melyssae
 position: Postdoctoral Scholar
