@@ -12,7 +12,7 @@ previous_training:
     info: 'University of California, Berkeley'
 dates:
   start: 2017-07-17
-  end:
+  end: 2025-05-23
   phd_start: 2017-07-17
   phd_end: 2023-03-29
   pd_start: 2023-05-01
