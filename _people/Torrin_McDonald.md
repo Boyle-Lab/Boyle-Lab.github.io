@@ -14,7 +14,7 @@ previous_training:
     info: 'University of Michigan'
 dates:
   start: 2015-07-06
-  end: 
+  end: 2025-02-14
   phd_start: 2015-07-06
   phd_end: 2021-11-12
   pd_start: 2022-10-26

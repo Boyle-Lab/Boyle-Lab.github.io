@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: phd_alumni
 name: Bradley Crone, Ph.D.
 umid: crone
 position: Staff
@@ -13,7 +13,7 @@ previous_training:
 current:
 dates:
   start: 2018-09-04
-  end: 
+  end: 2025-08-02
   phd_start: 2018-09-04
   phd_end: 2024-06-02
 social: 
