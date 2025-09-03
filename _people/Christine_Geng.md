@@ -6,7 +6,7 @@ name: Christine Geng
 umid: cgeng
 position: Master's Student
 title: Bioinformatics M.S. Student
-picture: 
+picture: Christine_Geng.jpg
 previous_training:
   - type: 'B.S.'
     info: 'University ofMichigan'
