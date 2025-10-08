@@ -2,7 +2,7 @@
 layout: member
 publish: true
 status: current
-name: Kinsey Van Deynze
+name: Kinsey Van Deynze, PhD
 umid: kvandeyn
 position: Doctoral Student
 title: Bioinformatics Ph.D. Student
@@ -10,9 +10,13 @@ picture: Kinsey_Van_Deynze.png
 previous_training:
   - type: 'B.S.'
     info: 'University of California, San Diego'
+  - type: 'Ph.D.'
+    info: 'University of Michigan'
 dates:
   start: 2021-01-19
   end: 
+  phd_start: 2021-01-19
+  phd_end: 2025-10-06
 social: 
   google-scholar: XLCor0oAAAAJ
   linked-in: kinsey-van-deynze
