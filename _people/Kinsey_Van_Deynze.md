@@ -4,8 +4,8 @@ publish: true
 status: current
 name: Kinsey Van Deynze, PhD
 umid: kvandeyn
-position: Doctoral Student
-title: Bioinformatics Ph.D. Student
+position: Postdoctoral Scholar
+title: Bioinformatics Ph.D.
 picture: Kinsey_Van_Deynze.png
 previous_training:
   - type: 'B.S.'

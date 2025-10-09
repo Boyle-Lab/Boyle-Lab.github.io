@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Kobe Howcroft
 umid: korb
 position: Undergraduate Research Assistant
@@ -9,7 +9,7 @@ title: Undergraduate Research Assistant
 picture: Kobe_Howcroft.jpg
 dates:
   start: 2022-09-06
-  end: 
+  end: 2025-09-25
 social: 
   google-scholar: 
   linked-in: 
