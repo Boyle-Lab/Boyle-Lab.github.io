@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Kau Boayue
 umid: boayue
 position: Staff
@@ -9,7 +9,7 @@ title: Lab Technician
 picture: Kau_Boayue.jpg
 dates:
   start: 2025-06-19
-  end: 
+  end: 2025-12-03
 social: 
   google-scholar: 
   linked-in: 
