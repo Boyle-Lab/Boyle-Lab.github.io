@@ -8,7 +8,7 @@ position: Undergraduate Research Assistant
 title: Undergraduate Research Assistant
 picture: Pria_Chandarana.jpg
 dates:
-  start: 2025-01-19
+  start: 2026-01-19
   end: 
 social: 
   google-scholar: 
