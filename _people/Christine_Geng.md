@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Christine Geng
 umid: cgeng
 position: Master's Student
@@ -12,7 +12,7 @@ previous_training:
     info: 'University ofMichigan'
 dates:
   start: 2025-08-27
-  end: 
+  end: 2025-12-31
 social: 
   google-scholar: 
   linked-in: 
