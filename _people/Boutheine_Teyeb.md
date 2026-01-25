@@ -6,7 +6,7 @@ name: Boutheine Teyeb
 umid: teyeb
 position: Undergraduate Research Assistant
 title: Undergraduate Research Assistant
-picture: Boutheine Teyeb.jpg
+picture: Boutheine_Teyeb.jpg
 dates:
   start: 2026-01-19
   end: 
