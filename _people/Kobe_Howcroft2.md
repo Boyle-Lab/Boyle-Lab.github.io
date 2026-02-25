@@ -4,8 +4,8 @@ publish: true
 status: current
 name: Kobe Howcroft
 umid: korb
-position: PIBS Rotation Student
-title: PIBS Rotation Student
+position: Doctoral Student
+title: Bioinformatics Ph.D. Student
 picture: Kobe_Howcroft.jpg
 dates:
   start: 2026-01-07
@@ -19,6 +19,8 @@ social:
 CV: 
 theme_areas:
   - Analysis of mtDNA
+  - Inpact of structural variation
+  - NUMTs in the human genome
 awards:
 ---
 
