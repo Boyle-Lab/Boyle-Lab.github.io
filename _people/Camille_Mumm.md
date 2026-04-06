@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: phd_alumni
 name: Camille Mumm, Ph.D.
 umid: crmumm
 position: Staff
@@ -16,7 +16,7 @@ previous_training:
     info: 'University of Michigan'
 dates:
   start: 2020-01-08
-  end:
+  end: 2026-03-27
   phd_start: 2020-01-08
   phd_end: 2025-03-11
 social: 
