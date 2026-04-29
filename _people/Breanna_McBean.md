@@ -4,7 +4,7 @@ publish: true
 status: current
 name: Breanna McBean, Ph.D.
 umid: bmcbean
-position: Doctoral Student
+position: Visiting Scientist
 title: Human Genetics Ph.D. Student (co-mentored with Corey Speers)
 picture: Breanna_McBean.jpg
 previous_training:
