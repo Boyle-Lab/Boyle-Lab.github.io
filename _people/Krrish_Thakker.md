@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Krrish Thakker
 umid: kthakker
 position: Undergraduate Research Assistant
@@ -9,7 +9,7 @@ title: Undergraduate Research Assistant
 picture: Krrish_Thakker.jpg
 dates:
   start: 2025-02-17
-  end: 
+  end: 2026-04-29
 social: 
   google-scholar: 
   linked-in: 

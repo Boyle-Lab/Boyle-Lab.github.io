@@ -13,6 +13,8 @@ previous_training:
 dates:
   start: 2020-08-31
   end: 
+  phd_start: 2020-08-31
+  phd_end: 2026-03-06
 social: 
   google-scholar: cSoEvA8AAAAJ
   linked-in: breanna-mcbean

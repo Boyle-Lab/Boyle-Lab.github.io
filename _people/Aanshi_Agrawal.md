@@ -1,7 +1,7 @@
 ---
 layout: member
 publish: true
-status: current
+status: alumni
 name: Aanshi Agrawal
 umid: aanshiag
 position: Undergraduate Research Assistant
@@ -9,7 +9,7 @@ title: Undergraduate Research Assistant
 picture: Aanshi_Agrawal.jpg
 dates:
   start: 2026-01-19
-  end: 
+  end: 2026-04-29
 social: 
   google-scholar: 
   linked-in: 
