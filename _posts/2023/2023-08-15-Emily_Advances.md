@@ -9,4 +9,4 @@ categories:
 - Students
 ---
 
-Emily Pogson successfully completed her Bioinformatics preliminary exams and is now a Ph.D. candidate! Congrats!
+Emily Pogson successfully completed her Human Genetics preliminary exams and is now a Ph.D. candidate! Congrats!
