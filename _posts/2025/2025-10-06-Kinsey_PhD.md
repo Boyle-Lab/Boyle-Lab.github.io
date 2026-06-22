@@ -4,7 +4,7 @@ status: publish
 title: Congratulations Dr. Van Deynze!
 date: '2025-10-06'
 external-url:
-teaser: 2025/Kinsey_PhD.jpg
+teaser: 2025/Kinsey_PhD.png
 categories:
 - Students
 ---
