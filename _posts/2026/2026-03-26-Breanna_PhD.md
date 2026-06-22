@@ -12,3 +12,11 @@ categories:
 Breanna completed her Ph.D. defense today! She will be continuing on with a Postdoc at The University of Michigan! 
 <br>
 Congrats! 
+
+<div>
+{% for image in site.static_files %}
+    {% if image.path contains '2026-03-06-Breanna_PhD' %}
+        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+    {% endif %}
+{% endfor %}
+</div>
