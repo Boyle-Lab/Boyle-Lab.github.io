@@ -4,7 +4,7 @@ status: publish
 title: Congratulations Dr. Van Deynze!
 date: '2025-10-06'
 external-url:
-teaser: 2025/INSERT_PHOTO_PATH
+teaser: 2025/Kinsey_PhD.jpg
 categories:
 - Students
 ---
@@ -15,7 +15,7 @@ Congrats!
 
 <div>
 {% for image in site.static_files %}
-    {% if image.path contains '2025-10-06-Breanna_PhD' %}
+    {% if image.path contains '2025-10-06-Kinsey_PhD' %}
         <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
     {% endif %}
 {% endfor %}
