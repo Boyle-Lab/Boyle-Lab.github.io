@@ -4,11 +4,11 @@ status: publish
 title: Congratulations Dr. Englund!
 date: '2023-03-13'
 external-url:
-teaser: 2023/Englund_PhD.jpg
+teaser: 2023/Melissa_PhD.jpg
 categories:
 - Students
 ---
 
-Melissa completed her Ph.D. defense today! She will be continuing on with a job at the Chan Zuckerberg Biohub in Chicago! 
+Melissa completed her Ph.D. defense today! She will be continuing on as a Scientist at the Chan Zuckerberg Biohub in Chicago! 
 <br>
 Congrats! 
