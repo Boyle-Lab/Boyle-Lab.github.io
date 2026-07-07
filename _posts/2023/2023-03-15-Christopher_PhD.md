@@ -4,7 +4,7 @@ status: publish
 title: Congratulations Dr. Castro!
 date: '2023-03-15'
 external-url:
-teaser: 2023/Castro_PhD.jpg
+teaser: 2023/Castro_PhD.png
 categories:
 - Students
 ---
