@@ -28,16 +28,9 @@ social:
 CV: ABoyle_CV.pdf
 theme_areas:
   - Non-coding variation
-  - Silencer Biology
   - Gene Regulation
   - High-throughput genomics
+  - Nanopore sequencing
 ---
 
-Alan Boyle (Computational Medicine and Bioinformatics, Human Genetics) completed his PhD in
-Computational Biology and Bioinformatics at Duke University where he developed methods to map open
-chromatin and his postdoctoral research at Stanford University where he developed new methods for
-interpreting non-coding variation and worked as part of ENCODE and modENCODE. Currently, he works to
-improve the interpretation of non-coding variation to extend from association to biological function and works
-to map and characterize regulatory elements in the non-coding genome. He is PI of a U41 to annotate
-regulatory variation and a PI of a NSF CAREER award to study the combinatorial effect of transcription factors
-on gene regulation.
+Alan Boyle is Professor of Computational Medicine and Bioinformatics and Professor of Human Genetics at the University of Michigan Medical School. He earned his PhD in Computational Biology and Bioinformatics at Duke University, where he developed experimental and computational methods for mapping open chromatin, including DNase-seq. He completed his postdoctoral training in Genetics at Stanford University, where he developed methods for interpreting non-coding genetic variation and contributed to the ENCODE and modENCODE projects. His laboratory combines computational genomics, high-throughput functional assays, and long-read sequencing to understand how variation in regulatory and repetitive regions of the genome alters gene regulation and contributes to human disease. Current research includes interpreting regulatory variants through the IGVF Consortium, developing long-read approaches to study somatic mosaicism through the SMaHT Network, and investigating the effects of mobile elements, tandem repeats, and other structural variants on genome function.
