@@ -9,7 +9,7 @@ categories:
 - Events
 ---
 
-The Boyle Lab went fowling!
+The Boyle Lab had fun fowling; a crazy game that's part bowling, part football, and part beanbag toss!
 
 <div>
 {% for image in site.static_files %}
