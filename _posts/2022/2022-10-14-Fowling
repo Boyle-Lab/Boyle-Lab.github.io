@@ -1,0 +1,20 @@
+---
+layout: post
+status: publish
+title: The lab goes Fowling!
+date: '2022-10-14'
+external-url:
+teaser: 2022/ENTER_PIC HERE!
+categories:
+- Events
+---
+
+The Boyle Lab went fowling!
+
+<div>
+{% for image in site.static_files %}
+    {% if image.path contains '2022-10-14-Fowling' %}
+        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+    {% endif %}
+{% endfor %}
+</div>
