@@ -9,7 +9,7 @@ categories:
 - Events
 ---
 
-We enjoyed an end-of-year celebration with hotpot and a friendly White Elephant gift exchange game!
+We enjoyed an end-of-year celebration with hotpot and a White Elephant gift exchange game!
 
 <div>
 {% for image in site.static_files %}
