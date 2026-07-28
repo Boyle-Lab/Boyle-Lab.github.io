@@ -9,7 +9,7 @@ categories:
 - Events
 ---
 
-Katarina and Rintsen attended Biology of Genomes at the Cold Spring Harbor Laboratory campus in New York! They presented their work and got the chance to socialize and share ideas with other researchers while taking walks, and enjoying the nice weather and views of the harbor.
+Katarina and Rintsen attended Biology of Genomes at the Cold Spring Harbor Laboratory campus in New York! They presented their work and got the chance to socialize and share ideas with other researchers. The weather was great for going on walks and enjoying nice views of the harbor!
 
 <div>
 {% for image in site.static_files %}
