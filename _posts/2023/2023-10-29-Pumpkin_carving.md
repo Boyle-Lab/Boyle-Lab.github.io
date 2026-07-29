@@ -4,7 +4,7 @@ status: publish
 title: The lab carves pumpkins!
 date: '2023-10-29'
 external-url:
-teaser: 2023/carving.png
+teaser: 2023/carving.jpg
 categories:
 - Events
 ---
