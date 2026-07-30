@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Congratulations Dr. Van Deynze!
 date: '2025-10-06'
 external-url:
