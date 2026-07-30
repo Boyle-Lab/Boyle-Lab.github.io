@@ -9,4 +9,4 @@ categories:
 - Papers
 ---
 
-Out newest method for interpreting SNVs called SEMpl is published in Bioinformatics!
+Out newest method for interpreting SNVs called SEMpl is published in Bioinformatics! SEMpl uses in vivo transcription factor binding and chromatin accessibility data to predict how every possible nucleotide change within a binding motif will alter binding affinity. The resulting SNP effect matrices help prioritize noncoding variants that may disrupt gene regulation and contribute to disease. Congratulations to Sierra on leading this work!
