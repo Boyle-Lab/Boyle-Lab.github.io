@@ -9,4 +9,4 @@ categories:
 - Papers
 ---
 
-Our paper studying the conservation of how transcription factors work in a coordinated fashion to regulate gene expression is published in Nucleic Acids Research. You can also see it on our <a href="http://boylelab.org/publications.html">publications page</a>.
+Our paper studying the conservation of how transcription factors work in a coordinated fashion to regulate gene expression is published in Nucleic Acids Research. This study learns a regulatory “grammar” from transcription factor co-binding patterns in human and mouse cells. These combinations of factors predict regulatory function more reliably than sequence position alone and reveal how conserved logic and species-specific rewiring jointly shape gene expression and disease risk. Congratulations to Adam on leading this work!
