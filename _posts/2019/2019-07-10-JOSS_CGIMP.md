@@ -9,4 +9,4 @@ categories:
 - Papers
 ---
 
-Out newest method for browser SOMs is now available at the Journal of Open Source Software!
+Our newest method for browser SOMs is now available at the Journal of Open Source Software! CGIMP is an interactive tool for exploring self-organizing maps and projecting genomic or experimental covariates onto trained models in real time. It turns complex high-dimensional clustering results into an accessible, interpretable visual analysis. Congratulations to Adam on leading this work!
