@@ -1,6 +1,6 @@
 ---
 layout: post
-status: none
+published: false
 title: Greg Farnum joins us for a summer rotation project.
 date: '2015-07-01'
 external-url:
