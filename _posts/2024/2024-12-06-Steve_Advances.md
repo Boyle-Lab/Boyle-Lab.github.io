@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Steve advances to Ph.D. candidacy!
 date: '2024-12-06'
 external-url:
