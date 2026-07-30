@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: 'Our paper on tissue-informed trans-ancestral polygenic risk scores is published in PLOS Genetics!'
 date: '2024-08-07'
 external-url: https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011356
