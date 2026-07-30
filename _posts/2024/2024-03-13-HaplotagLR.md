@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: 'Our method HaplotagLR is published in PLOS ONE!'
 date: '2024-03-13'
 external-url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298688
