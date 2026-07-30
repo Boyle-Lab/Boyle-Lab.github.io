@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Biology of Genomes 2024!
 date: '2024-05-07'
 external-url:
