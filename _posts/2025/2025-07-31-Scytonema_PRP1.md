@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: 'Our Scytonema sp. PRP1 genome paper is published in Microbiology Resource Announcements!'
 date: '2025-07-31'
 external-url: https://journals.asm.org/doi/10.1128/mra.00029-25
