@@ -9,4 +9,4 @@ categories:
 - Papers
 ---
 
-At long last, our automated ENCODE Blacklist system is available online.
+At long last, our automated ENCODE Blacklist system is available online. This study defines the ENCODE blacklist: genomic regions that produce anomalous, experiment-independent signal in high-throughput sequencing data. Removing these regions prevents technical artifacts from being mistaken for biology and has become an essential quality-control step in functional genomics. Congratulations to Haley on leading this work!
