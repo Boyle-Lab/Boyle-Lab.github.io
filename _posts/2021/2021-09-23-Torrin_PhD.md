@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Congratulations Dr. McDonald!
 date: '2021-09-23'
 external-url:

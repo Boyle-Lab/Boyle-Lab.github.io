@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Shengcheng wins CAGI Challenege!
 date: '2018-07-07'
 external-url:

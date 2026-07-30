@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: The Boyle Lab takes on the Mills Lab for Whirley Ball
 date: '2016-11-03'
 external-url:

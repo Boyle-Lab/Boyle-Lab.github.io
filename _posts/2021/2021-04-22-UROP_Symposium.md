@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Preston and Booker win Blue Ribbon!
 date: '2021-04-22'
 external-url:

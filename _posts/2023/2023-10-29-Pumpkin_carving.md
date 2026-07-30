@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: The lab carves pumpkins!
 date: '2023-10-29'
 external-url:

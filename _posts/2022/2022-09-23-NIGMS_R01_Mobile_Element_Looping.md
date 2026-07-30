@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Boyle Lab receives NIGMS R01 award!
 date: '2022-09-23'
 external-url:

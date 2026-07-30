@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Congratulations Dr. Ouyang!
 date: '2022-01-05'
 external-url:

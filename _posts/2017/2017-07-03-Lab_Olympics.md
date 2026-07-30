@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Boyle Lab Olympic Competition!
 date: '2017-07-03'
 external-url:

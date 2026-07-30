@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Congratulations Dr. Nishizaki!
 date: '2020-09-01'
 external-url:

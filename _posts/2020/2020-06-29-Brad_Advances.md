@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Brad advances to Ph.D. candidacy!
 date: '2020-06-29'
 external-url:

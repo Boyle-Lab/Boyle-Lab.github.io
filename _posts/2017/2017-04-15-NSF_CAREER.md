@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Dr. Boyle receives NSF CAREER award!
 date: '2017-04-15'
 external-url:

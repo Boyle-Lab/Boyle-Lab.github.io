@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: The lab celebrated spring with Make-Your-Own-Pizza!
 date: '2019-04-27'
 external-url:

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: The ENCODE consortium publishes the mouse ENCODE papers in Nature!
 date: '2014-11-20'
 external-url:

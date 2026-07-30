@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: 'Our paper on de novo noncoding variants in complex phenotypes is published in Human Genetics and Genomics Advances!'
 date: '2023-05-20'
 external-url: https://www.cell.com/hgg-advances/fulltext/S2666-2477(23)00042-8

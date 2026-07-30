@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Haley awarded Scholar-Activist Award!
 date: '2018-04-13'
 external-url:

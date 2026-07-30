@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: The Boyle Lab takes a break at the lake!
 date: '2016-08-20'
 external-url:

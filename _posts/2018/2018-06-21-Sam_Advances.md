@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Samuel advances to Ph.D. candidacy and receives Rackham pre-candidate award!
 date: '2018-06-21'
 external-url:

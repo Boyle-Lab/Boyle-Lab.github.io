@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Mel and Sam awarded Rackham Graduate Student Research Grant!
 date: '2019-05-31'
 external-url:

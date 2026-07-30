@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Emily advances to Ph.D. candidacy!
 date: '2023-08-15'
 external-url:

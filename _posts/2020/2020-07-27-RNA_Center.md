@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Dr. Boyle is spotlighted by the RNA Center
 date: '2020-07-27'
 external-url: https://rna.umich.edu/rna-faculty-spotlight-boyle/

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Dr. Boyle awarded 2019 Precision Health Investigator Award!
 date: '2019-11-26'
 external-url:

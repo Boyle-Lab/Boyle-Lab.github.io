@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Shengcheng officially joins the lab. Welcome!
 date: '2016-06-27'
 external-url:

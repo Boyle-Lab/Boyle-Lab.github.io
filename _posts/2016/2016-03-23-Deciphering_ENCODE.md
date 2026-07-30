@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Our review on using ENCODE data is published in Trends in Genetics!
 date: '2016-03-23'
 external-url: https://doi.org/10.1016/j.tig.2016.02.002

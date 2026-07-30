@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Pumpkin Carving!
 date: '2021-10-31'
 external-url:

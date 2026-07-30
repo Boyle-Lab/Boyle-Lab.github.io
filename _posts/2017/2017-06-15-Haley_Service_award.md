@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Haley awarded PIBS award for outstanding service!
 date: '2017-06-15'
 external-url:

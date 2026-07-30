@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Dr. Boyle receives Michigan - Israel Partnership for Research & Education Grant
 date: '2017-07-18'
 external-url:

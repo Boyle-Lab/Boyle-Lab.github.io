@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Boyle Lab awarded NVIDIA GPU research grant!
 date: '2019-02-11'
 external-url:

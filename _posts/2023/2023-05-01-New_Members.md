@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Rintsen, Katarina, Emily, and Hawra join the lab!
 date: '2023-05-01'
 external-url:

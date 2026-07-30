@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: The Boyle Lab opens at the Univeristy of Michigan!
 date: '2014-09-01'
 external-url:

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Boyle Lab Holiday Party!
 date: '2015-12-12'
 external-url:

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: The lab helps Minerva in Part 3!
 date: '2019-09-20'
 external-url:

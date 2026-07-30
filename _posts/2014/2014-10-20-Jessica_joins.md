@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Jessica Switzenberg joins the lab as our lab manager.
 date: '2014-10-20'
 external-url:

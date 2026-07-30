@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: The lab celebrates the summer with a BBQ!
 date: '2019-07-12'
 external-url:

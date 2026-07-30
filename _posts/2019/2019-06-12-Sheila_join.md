@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Sheila and Diana join the lab as research assistants!
 date: '2019-06-12'
 external-url:

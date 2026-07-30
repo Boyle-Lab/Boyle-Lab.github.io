@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Our manuscript on TE-derived chromatin looping is published in Nature Communications!
 date: '2020-04-14'
 external-url: https://www.nature.com/articles/s41467-020-15520-5

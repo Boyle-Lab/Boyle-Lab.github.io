@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Colten Williams and Cody Morterud join the lab as UROP students!
 date: '2016-10-06'
 external-url:

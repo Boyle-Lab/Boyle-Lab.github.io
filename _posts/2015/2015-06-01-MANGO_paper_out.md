@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Mango a bias-correcting ChIA-PET analysis pipeline published
 date: '2015-06-01'
 external-url:

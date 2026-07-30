@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Kinsey, Breanna, and Andrea join the lab!
 date: '2021-05-01'
 external-url:

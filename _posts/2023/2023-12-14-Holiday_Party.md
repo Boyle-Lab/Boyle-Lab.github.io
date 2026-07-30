@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Lab Celebrates 2023!
 date: '2023-12-14'
 external-url:

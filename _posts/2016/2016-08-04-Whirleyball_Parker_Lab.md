@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Whirleyball competition with the Parker Lab!
 date: '2016-08-04'
 external-url:

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: RegulomeDB grant receives 5 year renewal!
 date: '2020-09-01'
 external-url:

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Breanna advances to Ph.D. candidacy!
 date: '2021-08-24'
 external-url:

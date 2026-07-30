@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Ningxin Ouyang joins the lab as a Master's student.
 date: '2015-10-23'
 external-url:

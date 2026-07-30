@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Camille joins the lab from Genetics & Genomics!
 date: '2020-07-27'
 external-url:

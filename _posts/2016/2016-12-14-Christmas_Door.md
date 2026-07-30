@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Boyle Lab wins door decorating contest!
 date: '2016-12-14'
 external-url:

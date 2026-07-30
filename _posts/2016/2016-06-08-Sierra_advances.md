@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Sierra advances to Ph.D. candidacy. Congratulations!
 date: '2016-06-08'
 external-url:

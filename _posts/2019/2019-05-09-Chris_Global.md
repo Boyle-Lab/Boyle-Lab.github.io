@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Christopher awarded the Global Research Engagement Opportunity!
 date: '2019-05-09'
 external-url:

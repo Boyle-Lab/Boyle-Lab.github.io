@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Lab wins 1st place for gingerbread house, and funniest door!
 date: '2018-12-12'
 external-url:

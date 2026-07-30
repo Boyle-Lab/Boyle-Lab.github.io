@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Kinsey advances to Ph.D. candidacy!
 date: '2022-08-08'
 external-url:

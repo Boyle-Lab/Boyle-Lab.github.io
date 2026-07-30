@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Congratulations Dr. Englund!
 date: '2023-03-13'
 external-url:

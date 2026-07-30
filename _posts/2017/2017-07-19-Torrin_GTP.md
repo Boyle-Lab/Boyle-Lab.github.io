@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Torrin receives GTP position! Congratulations!
 date: '2017-07-19'
 external-url:

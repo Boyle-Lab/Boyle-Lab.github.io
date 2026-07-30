@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Holiday Hot Pot Party!
 date: '2022-12-17'
 external-url:

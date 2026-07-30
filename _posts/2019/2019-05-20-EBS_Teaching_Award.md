@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Dr. Boyle receives EBS Teaching Award!
 date: '2019-05-20'
 external-url:

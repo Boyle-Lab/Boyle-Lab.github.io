@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: The Boyle Lab joins the Cellular & Molecular Biology program at UM.
 date: '2017-01-19'
 external-url:

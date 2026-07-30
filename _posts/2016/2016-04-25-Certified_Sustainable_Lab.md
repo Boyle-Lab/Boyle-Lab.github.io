@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: The Boyle Lab is certified as a sustainable lab at the gold level.
 date: '2016-04-25'
 external-url:

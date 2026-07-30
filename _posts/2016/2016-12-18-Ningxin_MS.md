@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Ningxin completes her Master's degree!
 date: '2016-12-18'
 external-url:

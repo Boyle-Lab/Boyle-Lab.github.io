@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Our manuscript on a browser system for self organizing maps is published in JOSS!
 date: '2019-07-10'
 external-url: https://joss.theoj.org/papers/10.21105/joss.01520

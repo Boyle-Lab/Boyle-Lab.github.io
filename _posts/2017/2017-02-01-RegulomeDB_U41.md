@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Lab receives grant to support RegulomeDB!
 date: '2017-02-01'
 external-url:

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Boyle Lab Fights off Summer Boredom!
 date: '2018-07-27'
 external-url:

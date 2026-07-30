@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Haley advances to Ph.D. candidacy. Congratulations!
 date: '2018-02-23'
 external-url:

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Lab celebrates the end of the year!
 date: '2019-12-14'
 external-url:

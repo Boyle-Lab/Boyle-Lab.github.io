@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Shriya Sethuraman joins the lab as a co-mentored student!
 date: '2016-08-29'
 external-url:

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Haley awarded Maas Professional Development Award!
 date: '2018-01-10'
 external-url:

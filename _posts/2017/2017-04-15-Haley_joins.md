@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Haley officially joins the lab as part of CMB!
 date: '2017-04-15'
 external-url:

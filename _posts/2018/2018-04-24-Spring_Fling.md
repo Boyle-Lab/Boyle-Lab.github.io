@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Boyle Lab Celebrates the end of the semester!
 date: '2018-04-24'
 external-url:

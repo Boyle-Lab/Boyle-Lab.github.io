@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Andrea advances to Ph.D. candidacy!
 date: '2022-05-26'
 external-url:

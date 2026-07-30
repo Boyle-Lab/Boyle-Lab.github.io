@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Boyle Lab Summer BBQ!
 date: '2016-07-17'
 external-url:

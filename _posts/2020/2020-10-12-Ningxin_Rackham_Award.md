@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Ningxin is awarded Rackham Graduate Student Research Grant!
 date: '2020-10-12'
 external-url:

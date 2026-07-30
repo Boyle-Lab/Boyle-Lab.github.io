@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Lab surprises Jessica with a baby shower!
 date: '2016-12-02'
 external-url:

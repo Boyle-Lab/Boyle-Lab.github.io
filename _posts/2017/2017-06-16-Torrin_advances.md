@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Torrin advances to Ph.D. candidacy. Congratulations!
 date: '2017-06-16'
 external-url:

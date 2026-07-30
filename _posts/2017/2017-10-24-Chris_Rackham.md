@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Chris awarded Rackham Graduate Student Research Grant!
 date: '2017-10-24'
 external-url:

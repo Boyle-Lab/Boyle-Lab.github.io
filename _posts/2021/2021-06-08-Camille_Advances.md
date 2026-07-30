@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Camille advances to Ph.D. candidacy!
 date: '2021-06-08'
 external-url:

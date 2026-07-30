@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Katarina advances to Ph.D. candidacy!
 date: '2023-11-14'
 external-url:

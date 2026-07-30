@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Torrin accepted to Community Research Education and Engagement for Data Science (CREEDS) summer program!
 date: '2016-04-12'
 external-url:

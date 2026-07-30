@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: 'Our RegulomeDB v.2 manuscript is published in Nature Genetics!'
 date: '2023-04-25'
 external-url: https://www.nature.com/articles/s41588-023-01365-3

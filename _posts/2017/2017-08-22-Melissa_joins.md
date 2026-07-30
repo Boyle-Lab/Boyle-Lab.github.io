@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Melissa officially joins the lab from Human Genetics!
 date: '2017-08-22'
 external-url:

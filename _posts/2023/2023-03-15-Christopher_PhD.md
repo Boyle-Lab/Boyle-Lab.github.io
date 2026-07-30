@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Congratulations Dr. Castro!
 date: '2023-03-15'
 external-url:

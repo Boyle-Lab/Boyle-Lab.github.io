@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Lab celebrated the holiday with a hotpot!
 date: '2018-12-16'
 external-url:

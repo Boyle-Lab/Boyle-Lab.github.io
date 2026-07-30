@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Christopher, Greg, and Torrin officially join the lab. Welcome!
 date: '2016-04-20'
 external-url:
