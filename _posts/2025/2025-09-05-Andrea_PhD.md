@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Congratulations Dr. Valenzuela!
 date: '2025-09-05'
 external-url:
