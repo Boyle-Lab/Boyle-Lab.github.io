@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Congratulations Dr. Mumm!
 date: '2025-03-11'
 external-url:
