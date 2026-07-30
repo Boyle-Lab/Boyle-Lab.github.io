@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Ingrid advances to Ph.D. candidacy!
 date: '2025-04-30'
 external-url:
