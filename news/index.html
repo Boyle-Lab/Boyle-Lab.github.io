@@ -11,19 +11,6 @@ layout: default
 {% if post.title != nil %}
 <li class = "item">
 
-  {% if post.external-url %}
-    <a href="{{ post.external-url }}" title="{{ post.title }}" class="post-teaser">
-    <center>
-    {% if post.teaser %}
-      <img class="image" src="{{ site.url }}/assets/news_graphics/{{ post.teaser }}" height="137px" width="220px">
-    {% else %}
-      <img class="image" src="{{ site.url }}/assets/news_graphics/default_teaser.png" height="137px" width="220px">
-    {% endif %}
-    </center>
-    </a>
-    <h2 class="date">{{ post.date | date: "%B %d, %Y" }}</h2>
-    <h2 class="title"><a href="{{ post.external-url }}">{{ post.title }}</a></h2>
-  {% else %}
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" class="post-teaser">
     <center>
     {% if post.teaser %}
@@ -35,7 +22,6 @@ layout: default
     </a>
     <h2 class="date">{{ post.date | date: "%B %d, %Y" }}</h2>
     <h2 class="title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
-  {% endif %}
 
 <div class="entry-content">
 {{ post.excerpt | strip_html | truncate: 160 }}
