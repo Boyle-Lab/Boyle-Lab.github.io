@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Rintsen advances to Ph.D. candidacy!
 date: '2024-04-22'
 external-url:
