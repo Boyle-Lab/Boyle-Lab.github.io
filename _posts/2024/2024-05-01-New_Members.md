@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Ingrid, Sowmya, and Steve join the lab!
 date: '2024-05-01'
 external-url:
