@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Congratulations Dr. McBean!
 date: '2026-03-26'
 external-url:
