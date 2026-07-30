@@ -1,6 +1,6 @@
 ---
 layout: post
-status: none
+published: false
 title: Sierra Nishizaki joins us for a spring rotation project.
 date: '2015-01-06'
 external-url:
