@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Kobe joins the lab!
 date: '2026-03-01'
 external-url:
