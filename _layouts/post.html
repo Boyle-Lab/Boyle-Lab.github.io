@@ -23,9 +23,19 @@
   {% endfor %}
 </h2>
 
-<div class="entry-content"><center>
-{{ content }}
-	</center>
+<div class="entry-content">
+  <center>
+    {{ content }}
+
+    {% assign external_url = page["external-url"] %}
+    {% if external_url and external_url != blank %}
+      <p style="margin-top: 20px;">
+        <a href="{{ external_url | escape }}" target="_blank" rel="noopener noreferrer">
+          Read more about this paper here.
+        </a>
+      </p>
+    {% endif %}
+  </center>
 </div>
 
 
