@@ -44,15 +44,46 @@ layout: default
     <a style="color:black">&laquo; Prev</a>
   {% endif %}
 
-  {% for page in (1..paginator.total_pages) %}
+  {% assign max_page_links = 10 %}
+  {% assign total_pages = paginator.total_pages %}
+  {% assign current_page = paginator.page %}
+
+  {% if total_pages <= max_page_links %}
+    {% assign start_page = 1 %}
+    {% assign end_page = total_pages %}
+  {% else %}
+    {% assign half_window = max_page_links | divided_by: 2 %}
+    {% assign start_page = current_page | minus: half_window %}
+    {% assign end_page = start_page | plus: max_page_links | minus: 1 %}
+
+    {% if start_page < 1 %}
+      {% assign start_page = 1 %}
+      {% assign end_page = max_page_links %}
+    {% endif %}
+
+    {% if end_page > total_pages %}
+      {% assign end_page = total_pages %}
+      {% assign start_page = total_pages | minus: max_page_links | plus: 1 %}
+    {% endif %}
+  {% endif %}
+
+  {% if start_page > 1 %}
+    <span class="pagination-ellipsis">&hellip;</span>
+  {% endif %}
+
+  {% for page in (start_page..end_page) %}
     {% if page == paginator.page %}
       <a style="color:black"><em>{{ page }}</em></a>
     {% elsif page == 1 %}
       <a href="/news">{{ page }}</a>
     {% else %}
-      <a href="{{ site.paginate_path | prepend: "/" | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      <a href="{{ site.paginate_path | prepend: '/' | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
     {% endif %}
   {% endfor %}
+
+  {% if end_page < total_pages %}
+    <span class="pagination-ellipsis">&hellip;</span>
+  {% endif %}
 
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
