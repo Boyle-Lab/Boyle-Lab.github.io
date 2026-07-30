@@ -44,7 +44,7 @@ layout: default
     <a style="color:black">&laquo; Prev</a>
   {% endif %}
 
-  {% assign max_page_links = 10 %}
+  {% assign max_page_links = 18 %}
   {% assign total_pages = paginator.total_pages %}
   {% assign current_page = paginator.page %}
 
@@ -67,10 +67,6 @@ layout: default
     {% endif %}
   {% endif %}
 
-  {% if start_page > 1 %}
-    <span class="pagination-ellipsis">&hellip;</span>
-  {% endif %}
-
   {% for page in (start_page..end_page) %}
     {% if page == paginator.page %}
       <a style="color:black"><em>{{ page }}</em></a>
@@ -80,10 +76,6 @@ layout: default
       <a href="{{ site.paginate_path | prepend: '/' | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
     {% endif %}
   {% endfor %}
-
-  {% if end_page < total_pages %}
-    <span class="pagination-ellipsis">&hellip;</span>
-  {% endif %}
 
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
