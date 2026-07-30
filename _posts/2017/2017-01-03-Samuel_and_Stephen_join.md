@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: false
 title: Samuel Zhao and Stephen Carney join the lab!
 date: '2017-01-03'
 external-url:
