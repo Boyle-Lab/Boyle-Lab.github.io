@@ -9,4 +9,4 @@ categories:
 - Papers
 ---
 
-Our paper showing how TEs affected chromatin <a href="https://rna.umich.edu/transposable-elements/">highlighted here</a> is published in Nature Communications.
+Our paper showing how TEs affected chromatin <a href="https://rna.umich.edu/transposable-elements/">highlighted here</a> is published in Nature Communications. This study shows that transposable elements are an important source of cell- and species-specific chromatin loops in mammalian genomes. By introducing and redistributing CTCF binding sites, these elements help reshape 3D genome organization and nearby gene regulation during evolution. Congratulations to Adam on leading this work!
