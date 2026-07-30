@@ -9,4 +9,4 @@ categories:
 - Papers
 ---
 
-Our paper reviewing methods for annotation of noncoding SNPs is now available from Trends in Genetics. You can also see it on our <a href="http://boylelab.org/publications.html">publications page</a>.
+Our paper reviewing methods for annotation of noncoding SNPs is now available from Trends in Genetics. This review examines the experimental and computational strategies used to assign biological function to noncoding single-nucleotide variants. It highlights how functional genomics, sequence-based models, and integrative annotations can help connect regulatory variants to their molecular and disease consequences. Congratulations to Sierra on leading this work!
