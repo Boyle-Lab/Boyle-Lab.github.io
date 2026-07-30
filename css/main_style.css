@@ -249,7 +249,7 @@ h3.title { margin-bottom: 0px; margin-top: 10px; }
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 4px;
+	gap: 0px;
 	flex-wrap: nowrap;
 }
 
