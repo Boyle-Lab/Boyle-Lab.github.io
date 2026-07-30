@@ -1,6 +1,6 @@
 ---
 layout: post
-status: publish
+published: true
 title: Sowmya advances to Ph.D. candidacy!
 date: '2024-08-15'
 external-url:
