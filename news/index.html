@@ -37,14 +37,14 @@ layout: default
 <br>
 
 {% if paginator.total_pages > 1 %}
-  <div class="pagination">
+  <div class="pagination"><center>
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
   {% else %}
     <a style="color:black">&laquo; Prev</a>
   {% endif %}
 
-  {% assign max_page_links = 19 %}
+  {% assign max_page_links = 18 %}
   {% assign total_pages = paginator.total_pages %}
   {% assign current_page = paginator.page %}
 
@@ -82,7 +82,7 @@ layout: default
   {% else %}
     <a style="color:black">Next &raquo;</a>
   {% endif %}
-  </div>
+  </center></div>
 {% endif %}
 
 <br>
