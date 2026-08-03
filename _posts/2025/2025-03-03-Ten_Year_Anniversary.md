@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: The Lab Turns 10!
+title: The lab turns 10!
 date: '2025-03-03'
 external-url:
 teaser: 2025/cake.jpg
