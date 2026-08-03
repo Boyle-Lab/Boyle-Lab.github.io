@@ -4,7 +4,7 @@ published: true
 title: DCMB Holiday Party!
 date: '2024-12-18'
 external-url:
-teaser: 2024/group_photo.jpg
+teaser: 2024/spirit_house_2.jpg
 categories:
 - Events
 ---
