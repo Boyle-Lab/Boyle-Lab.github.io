@@ -4,7 +4,7 @@ published: true
 title: The lab eats donuts!
 date: '2025-10-10'
 external-url:
-teaser: 2025/group.jpg
+teaser: 2025/wasem_group.jpg
 categories:
 - Events
 ---
