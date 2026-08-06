@@ -10,12 +10,11 @@ bibliography, including nested braces, quoted values, and ``#`` concatenation.
 
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
 import hashlib
 import html
-import json
 import re
 import unicodedata
 from typing import Any, Iterable, Iterator, Mapping, Sequence
@@ -43,7 +42,6 @@ class Person:
     source: Path
     url: str
     publish: bool = True
-    publication_names: list[str] = field(default_factory=list)
 
 
 @dataclass(slots=True)
@@ -96,6 +94,8 @@ VALID_STATUSES = {"published", "preprint", "in_press"}
 VALID_PUBLICATION_TYPES = {"article", "chapter", "conference"}
 VALID_LAB_ROLES = {"first", "senior", "corresponding"}
 SAFE_BIBKEY_PATTERN = re.compile(r"^[A-Za-z][A-Za-z0-9]*$")
+DEPRECATED_METADATA_FIELDS = {"slug", "legacy_bibkeys"}
+DEPRECATED_PERSON_FIELDS = {"publication_names", "author_aliases"}
 
 
 # ---------------------------------------------------------------------------
@@ -126,6 +126,13 @@ def load_people(people_dir: Path) -> tuple[dict[str, Person], list[BuildMessage]
 
     for path in sorted(people_dir.glob("*.md")):
         data = load_yaml_file(path)
+        deprecated = sorted(DEPRECATED_PERSON_FIELDS.intersection(data))
+        if deprecated:
+            raise PublicationError(
+                f"{path}: deprecated person field(s): {', '.join(deprecated)}. "
+                "Map historical or publication-specific bylines in the relevant "
+                "publication_metadata sidecar using author_member_map."
+            )
         umid = str(data.get("umid") or "").strip()
         if not umid:
             messages.append(BuildMessage("warning", f"{path}: missing umid; ignored for publication matching"))
@@ -135,11 +142,6 @@ def load_people(people_dir: Path) -> tuple[dict[str, Person], list[BuildMessage]
         publish = bool(data.get("publish", True))
         configured_url = str(data.get("permalink") or "").strip()
         url = configured_url or f"/people/{path.stem}/"
-        aliases = data.get("publication_names") or data.get("author_aliases") or []
-        if isinstance(aliases, str):
-            aliases = [aliases]
-        aliases = [str(alias).strip() for alias in aliases if str(alias).strip()]
-
         if umid in people:
             other = people[umid]
             raise PublicationError(
@@ -153,7 +155,6 @@ def load_people(people_dir: Path) -> tuple[dict[str, Person], list[BuildMessage]
             source=path,
             url=url,
             publish=publish,
-            publication_names=aliases,
         )
 
     return people, messages
@@ -167,6 +168,12 @@ def load_metadata(metadata_dir: Path) -> tuple[dict[str, dict[str, Any]], list[B
 
     for path in sorted(metadata_dir.glob("*.yml")) + sorted(metadata_dir.glob("*.yaml")):
         data = load_yaml_file(path)
+        deprecated = sorted(DEPRECATED_METADATA_FIELDS.intersection(data))
+        if deprecated:
+            raise PublicationError(
+                f"{path}: deprecated metadata field(s): {', '.join(deprecated)}. "
+                "The stable BibTeX key is now the only publication identifier."
+            )
         key = str(data.get("bibkey") or "").strip()
         if not key:
             raise PublicationError(f"{path}: required field 'bibkey' is missing")
@@ -568,7 +575,7 @@ def _name_signature(name: str) -> tuple[str, str, str]:
 
 
 def person_name_signatures(person: Person) -> list[tuple[str, str, str]]:
-    names = [person.name, *person.publication_names]
+    names = [person.name]
     signatures: list[tuple[str, str, str]] = []
     for name in names:
         # Person display names are generally given-name first.  Add both a normal
@@ -598,7 +605,7 @@ def author_matches_person(author: Mapping[str, Any], person: Person) -> bool:
             return True
         if initials and author_initials and len(initials) >= 2 and initials == author_initials:
             return True
-        # An explicit alias may intentionally contain only an initial.
+        # A profile display name may intentionally contain only an initial.
         if len(first) == 1 and author_first.startswith(first):
             return True
     return False
@@ -660,7 +667,7 @@ def attach_members_to_authors(
 
 
 def infer_member_ids(authors: Sequence[Mapping[str, Any]], people: Mapping[str, Person]) -> list[str]:
-    """Conservatively infer exact/aliased lab-member authors.
+    """Conservatively infer lab-member authors from current profile names.
 
     This helper is used by the one-time migration and metadata scaffolding.
     The normal build still treats the sidecar ``members`` list as authoritative.
@@ -902,8 +909,8 @@ def build_publication_record(
             BuildMessage(
                 "warning",
                 f"{metadata.get('_source')}: member '{umid}' is listed for '{entry.key}' "
-                "but did not match an author. Add publication_names to the person's _people file, "
-                "author_member_map to this metadata file, or a non-byline member_roles value.",
+                "but did not match an author. Add author_member_map to this publication metadata "
+                "file or a non-byline member_roles value.",
             )
         )
 
@@ -985,7 +992,6 @@ def build_publication_record(
     if lab_led is None:
         lab_led = bool(roles["first"] or roles["senior"])
 
-    slug = str(metadata.get("slug") or slugify(entry.key))
     citation_names = [str(author["citation_name"]) for author in authors]
     if len(citation_names) > 9:
         authors_short = ", ".join(citation_names[:6]) + ", …, " + citation_names[-1]
@@ -996,31 +1002,12 @@ def build_publication_record(
     summary = str(metadata.get("summary") or "").strip()
     topics = [str(topic).strip() for topic in _safe_list(metadata.get("topics")) if str(topic).strip()]
     consortium = str(metadata.get("consortium") or "").strip()
-    legacy_bibkeys = [
-        str(key).strip()
-        for key in _safe_list(metadata.get("legacy_bibkeys"))
-        if str(key).strip() and str(key).strip() != entry.key
-    ]
-    legacy_bibkeys = list(dict.fromkeys(legacy_bibkeys))
 
     primary_url = url or (f"https://doi.org/{doi}" if doi else pdf or preprint)
-    search_parts = [
-        title,
-        journal,
-        str(year),
-        " ".join(citation_names),
-        " ".join(author["full_name"] for author in authors),
-        " ".join(topics),
-        consortium,
-        status,
-        publication_type,
-    ]
 
     record: dict[str, Any] = {
         "generated": True,
         "bibkey": entry.key,
-        "legacy_bibkeys": legacy_bibkeys,
-        "slug": slug,
         "entry_type": entry.entry_type,
         "publication_type": publication_type,
         "status": status,
@@ -1055,7 +1042,6 @@ def build_publication_record(
         "summary": summary,
         "teaser": str(metadata.get("teaser") or "").strip(),
         "abstract": abstract,
-        "search_text": " ".join(part for part in search_parts if part).casefold(),
         "bibtex": entry.raw,
     }
 
@@ -1091,43 +1077,6 @@ def build_publication_record(
             record.pop(key, None)
 
     return record, messages
-
-
-def records_to_public_json(records: Sequence[Mapping[str, Any]]) -> list[dict[str, Any]]:
-    allowed = {
-        "bibkey",
-        "slug",
-        "publication_type",
-        "status",
-        "title",
-        "authors",
-        "authors_short",
-        "author_list",
-        "journal",
-        "year",
-        "sort_date",
-        "volume",
-        "number",
-        "pages",
-        "doi",
-        "PMID",
-        "primary_url",
-        "links",
-        "members",
-        "member_roles",
-        "lab_roles",
-        "lab_led",
-        "featured",
-        "topics",
-        "consortium",
-        "summary",
-        "teaser",
-        "abstract",
-    }
-    result: list[dict[str, Any]] = []
-    for record in records:
-        result.append({key: value for key, value in record.items() if key in allowed})
-    return result
 
 
 # ---------------------------------------------------------------------------
@@ -1190,7 +1139,3 @@ def combined_bibtex(entries: Sequence[BibEntry]) -> str:
         "% Citation keys are permanent ASCII FirstAuthorYearMnemonic identifiers.\n\n"
     )
     return header + "\n\n".join(entry.raw.rstrip() for entry in entries) + "\n"
-
-
-def json_text(data: Any) -> str:
-    return json.dumps(data, ensure_ascii=False, indent=2) + "\n"

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Create reviewable metadata sidecars for new BibTeX publications.
 
-The command conservatively matches full/aliased author names to Michigan
+The command conservatively matches current profile names to Michigan
 ``umid`` records in ``_people``.  It never overwrites an existing sidecar.
 Review every generated ``members`` list before running the full build,
 especially for consortium bylines and common names.

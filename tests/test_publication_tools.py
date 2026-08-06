@@ -11,10 +11,10 @@ from build_publications import expected_outputs  # noqa: E402
 from publication_tools import (  # noqa: E402
     Person,
     PublicationError,
-    author_matches_person,
     build_publication_record,
     latex_to_text,
     load_bibliography,
+    load_metadata,
     load_people,
     parse_authors,
     parse_bibtex,
@@ -101,6 +101,7 @@ class RepositoryDataTests(unittest.TestCase):
         self.assertEqual(len(records), len(entries))
         self.assertFalse([message for message in messages if message.level == "warning"])
         self.assertIn(ROOT / "pub.bib", outputs)
+        self.assertNotIn(ROOT / "assets" / "data" / "publications.json", outputs)
 
     def test_repository_keys_are_filename_safe(self) -> None:
         import re
@@ -110,10 +111,48 @@ class RepositoryDataTests(unittest.TestCase):
         self.assertTrue(all(pattern.fullmatch(entry.key) for entry in entries))
         self.assertEqual(len(entries), len({entry.key for entry in entries}))
 
-    def test_publication_alias_matches_prior_name(self) -> None:
-        people, _ = load_people(ROOT / "_people")
-        author = parse_authors("Drexel, Melissa L.")[0]
-        self.assertTrue(author_matches_person(author, people["melyssae"]))
+    def test_generated_paper_filenames_match_citation_keys(self) -> None:
+        entries, _ = load_bibliography(ROOT / "bibliography")
+        expected = {f"{entry.key}.yml" for entry in entries}
+        actual = {path.name for path in (ROOT / "_papers").glob("*.yml")}
+        self.assertEqual(actual, expected)
+
+    def test_publication_specific_name_map_handles_prior_name(self) -> None:
+        _outputs, _messages, records = expected_outputs(ROOT)
+        by_key = {record["bibkey"]: record for record in records}
+        onramp = by_key["Mumm2023OnRamp"]
+        drexel = next(author for author in onramp["author_list"] if author["family"] == "Drexel")
+        self.assertEqual(drexel["member_id"], "melyssae")
+
+        sidecars, _ = load_metadata(ROOT / "publication_metadata")
+        self.assertEqual(
+            sidecars["Mumm2023OnRamp"]["author_member_map"]["melyssae"],
+            "Drexel, Melissa L",
+        )
+
+    def test_person_front_matter_contains_no_publication_aliases(self) -> None:
+        for path in (ROOT / "_people").glob("*.md"):
+            text = path.read_text(encoding="utf-8")
+            self.assertNotIn("publication_names:", text, path)
+            self.assertNotIn("author_aliases:", text, path)
+
+    def test_deprecated_person_alias_field_is_rejected(self) -> None:
+        from tempfile import TemporaryDirectory
+
+        with TemporaryDirectory() as directory:
+            people_dir = Path(directory)
+            (people_dir / "Example.md").write_text(
+                "---\nname: Example Person\numid: example\npublication_names:\n  - Prior, Example\n---\n",
+                encoding="utf-8",
+            )
+            with self.assertRaises(PublicationError):
+                load_people(people_dir)
+
+    def test_metadata_contains_no_legacy_publication_identifiers(self) -> None:
+        for path in (ROOT / "publication_metadata").glob("*.yml"):
+            text = path.read_text(encoding="utf-8")
+            self.assertNotIn("legacy_bibkeys:", text, path)
+            self.assertNotIn("slug:", text, path)
 
     def test_consortium_relationship_does_not_fake_byline_authorship(self) -> None:
         _outputs, _messages, records = expected_outputs(ROOT)
@@ -135,6 +174,16 @@ class RepositoryDataTests(unittest.TestCase):
             ),
             1,
         )
+
+    def test_publication_page_has_no_search_filter_or_sort_javascript(self) -> None:
+        publications_page = (ROOT / "_includes" / "publications_page.html").read_text()
+        self.assertNotIn("publication-filters", publications_page)
+        self.assertNotIn("publication-search", publications_page)
+        self.assertNotIn("publication-status", publications_page)
+        self.assertNotIn("publication-type", publications_page)
+        self.assertNotIn("publication-lab-led", publications_page)
+        self.assertFalse((ROOT / "assets" / "js" / "publications.js").exists())
+        self.assertFalse((ROOT / "assets" / "data" / "publications.json").exists())
 
 
 if __name__ == "__main__":

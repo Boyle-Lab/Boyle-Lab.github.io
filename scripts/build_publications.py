@@ -10,7 +10,6 @@ Inputs
 Generated outputs
 -----------------
 * _papers/*.yml                  Jekyll collection consumed by the site
-* assets/data/publications.json  machine-readable publication index
 * pub.bib                        combined BibTeX file for the CV/downloads
 
 Run ``python scripts/build_publications.py`` after changing any input.  Use
@@ -31,16 +30,17 @@ from publication_tools import (
     build_publication_record,
     combined_bibtex,
     dump_front_matter,
-    json_text,
     load_bibliography,
     load_metadata,
     load_people,
-    records_to_public_json,
-    slugify,
 )
 
 
 GENERATED_NOTICE = "# This directory is generated from bibliography/ and publication_metadata/.\n"
+DEPRECATED_GENERATED_PATHS = (
+    Path("assets/data/publications.json"),
+    Path("assets/js/publications.js"),
+)
 
 
 def parse_args() -> argparse.Namespace:
@@ -59,7 +59,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--strict",
         action="store_true",
-        help="Treat warnings, including unmatched member aliases, as errors",
+        help="Treat warnings, including unmatched member-to-author mappings, as errors",
     )
     return parser.parse_args()
 
@@ -90,20 +90,20 @@ def expected_outputs(root: Path) -> tuple[dict[Path, str], list[BuildMessage], l
 
     messages = [*people_messages, *metadata_messages]
     records: list[dict[str, Any]] = []
-    slugs: dict[str, str] = {}
+    paper_filenames: dict[str, str] = {}
     dois: dict[str, str] = {}
 
     for entry in entries:
         record, record_messages = build_publication_record(entry, metadata[entry.key], people)
         messages.extend(record_messages)
 
-        slug = str(record["slug"])
-        if slug in slugs:
+        filename_key = entry.key.casefold()
+        if filename_key in paper_filenames:
             raise PublicationError(
-                f"Generated publication slug '{slug}' is shared by '{slugs[slug]}' and '{entry.key}'. "
-                "Set a unique slug in one metadata file."
+                f"Citation keys '{paper_filenames[filename_key]}' and '{entry.key}' map to the "
+                "same filename on a case-insensitive filesystem."
             )
-        slugs[slug] = entry.key
+        paper_filenames[filename_key] = entry.key
 
         doi = str(record.get("doi") or "").casefold()
         if doi:
@@ -121,11 +121,8 @@ def expected_outputs(root: Path) -> tuple[dict[Path, str], list[BuildMessage], l
     outputs: dict[Path, str] = {}
     papers_dir = root / "_papers"
     for record in records:
-        outputs[papers_dir / f"{record['slug']}.yml"] = dump_front_matter(record)
+        outputs[papers_dir / f"{record['bibkey']}.yml"] = dump_front_matter(record)
 
-    outputs[root / "assets" / "data" / "publications.json"] = json_text(
-        records_to_public_json(records)
-    )
     outputs[root / "pub.bib"] = combined_bibtex(entries)
     return outputs, messages, records
 
@@ -160,6 +157,10 @@ def check_outputs(root: Path, outputs: dict[Path, str]) -> list[str]:
     stale_papers = existing_generated_papers(root) - expected_paths
     for path in sorted(stale_papers):
         problems.append(f"obsolete generated file: {path.relative_to(root)}")
+    for relative_path in DEPRECATED_GENERATED_PATHS:
+        path = root / relative_path
+        if path.exists():
+            problems.append(f"obsolete publication asset: {relative_path}")
     return problems
 
 
@@ -167,6 +168,10 @@ def write_outputs(root: Path, outputs: dict[Path, str]) -> None:
     expected_paths = set(outputs)
     for stale in sorted(existing_generated_papers(root) - expected_paths):
         stale.unlink()
+    for relative_path in DEPRECATED_GENERATED_PATHS:
+        path = root / relative_path
+        if path.exists():
+            path.unlink()
 
     for path, content in outputs.items():
         path.parent.mkdir(parents=True, exist_ok=True)
