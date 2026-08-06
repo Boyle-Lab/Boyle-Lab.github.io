@@ -1,0 +1,222 @@
+---
+generated: true
+bibkey: Rabbani2026SpermatidChromatin
+entry_type: article
+publication_type: article
+status: preprint
+title: 3D chromatin compartment of round spermatids encodes the spatiotemporal program of histone-to-protamine
+  exchange in spermiogenesis
+authors: Rabbani M, Apell Z, Parnell TJ, Moritz L, Kim S, Srinivasan S, Agrawal R, Vargo A, Orchard P,
+  Xie W, Freddolino L, Boyle AP, Li JZ, Lesch BJ, Cairns B, Kim M, Wilson TE, Hammoud SS
+authors_short: Rabbani M, Apell Z, Parnell TJ, Moritz L, Kim S, Srinivasan S, …, Hammoud SS
+author_count: 18
+author_list:
+- raw: Rabbani, Mashiat
+  family: Rabbani
+  given: Mashiat
+  initials: M
+  citation_name: Rabbani M
+  full_name: Mashiat Rabbani
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Apell, Zachary
+  family: Apell
+  given: Zachary
+  initials: Z
+  citation_name: Apell Z
+  full_name: Zachary Apell
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Parnell, Timothy J.
+  family: Parnell
+  given: Timothy J.
+  initials: TJ
+  citation_name: Parnell TJ
+  full_name: Timothy J. Parnell
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Moritz, Lindsay
+  family: Moritz
+  given: Lindsay
+  initials: L
+  citation_name: Moritz L
+  full_name: Lindsay Moritz
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Kim, Sion
+  family: Kim
+  given: Sion
+  initials: S
+  citation_name: Kim S
+  full_name: Sion Kim
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Srinivasan, Sowmya
+  family: Srinivasan
+  given: Sowmya
+  initials: S
+  citation_name: Srinivasan S
+  full_name: Sowmya Srinivasan
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: sowsrin
+  member_url: /people/Sowmya_Srinivasan/
+  member_name: Sowmya Srinivasan
+- raw: Agrawal, Ritvija
+  family: Agrawal
+  given: Ritvija
+  initials: R
+  citation_name: Agrawal R
+  full_name: Ritvija Agrawal
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Vargo, Alexander
+  family: Vargo
+  given: Alexander
+  initials: A
+  citation_name: Vargo A
+  full_name: Alexander Vargo
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Orchard, Peter
+  family: Orchard
+  given: Peter
+  initials: P
+  citation_name: Orchard P
+  full_name: Peter Orchard
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Xie, Wenxin
+  family: Xie
+  given: Wenxin
+  initials: W
+  citation_name: Xie W
+  full_name: Wenxin Xie
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Freddolino, Lydia
+  family: Freddolino
+  given: Lydia
+  initials: L
+  citation_name: Freddolino L
+  full_name: Lydia Freddolino
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Boyle, Alan P
+  family: Boyle
+  given: Alan P
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- raw: Li, Jun Z.
+  family: Li
+  given: Jun Z.
+  initials: JZ
+  citation_name: Li JZ
+  full_name: Jun Z. Li
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Lesch, Bluma J.
+  family: Lesch
+  given: Bluma J.
+  initials: BJ
+  citation_name: Lesch BJ
+  full_name: Bluma J. Lesch
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Cairns, Bradley
+  family: Cairns
+  given: Bradley
+  initials: B
+  citation_name: Cairns B
+  full_name: Bradley Cairns
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Kim, Minji
+  family: Kim
+  given: Minji
+  initials: M
+  citation_name: Kim M
+  full_name: Minji Kim
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Wilson, Thomas E.
+  family: Wilson
+  given: Thomas E.
+  initials: TE
+  citation_name: Wilson TE
+  full_name: Thomas E. Wilson
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Hammoud, Saher Sue
+  family: Hammoud
+  given: Saher Sue
+  initials: SS
+  citation_name: Hammoud SS
+  full_name: Saher Sue Hammoud
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+journal: bioRxiv
+year: 2026
+month: 1
+sort_date: '2026-03-12'
+doi: 10.64898/2026.03.10.710708
+primary_url: https://www.biorxiv.org/content/early/2026/03/12/2026.03.10.710708
+url: https://www.biorxiv.org/content/early/2026/03/12/2026.03.10.710708
+pdf: https://www.biorxiv.org/content/early/2026/03/12/2026.03.10.710708.full.pdf
+biorxiv: https://www.biorxiv.org/content/early/2026/03/12/2026.03.10.710708
+links:
+  article: https://www.biorxiv.org/content/early/2026/03/12/2026.03.10.710708
+  pdf: https://www.biorxiv.org/content/early/2026/03/12/2026.03.10.710708.full.pdf
+  preprint: https://www.biorxiv.org/content/early/2026/03/12/2026.03.10.710708
+members:
+- sowsrin
+- apboyle
+member_roles: {}
+matched_members:
+- apboyle
+- sowsrin
+lab_roles:
+  first: []
+  senior: []
+  corresponding: []
+lab_led: false
+featured: false
+topics: []
+abstract: |-
+  Sperm formation requires a radical chromatin reorganization, where nucleosomes are replaced by transition proteins (TNPs) and subsequently by protamines (PRM1 and PRM2). Although essential for fertility, the regulatory logic governing this exchange is unknown, but it’s presumed to be stochastic and unregulated. Using endogenously tagged PRM mouse models and stage-resolved, genome-wide profiling, we revise the order of histone-to-protamine exchange and show that the chromatin remodeling process is highly programmed. Imaging and biochemical experiments reveal a direct histone-to-PRM1 exchange, while TNPs appear after PRM1 but precede PRM2 incorporation. This temporal uncoupling of PRM1 and PRM2 incorporation coincides with dynamic, region-specific chromatin remodeling that is not governed by histone acetylation but is instructed by the three-dimensional nuclear architecture of round spermatids. Therefore, by integrating ATAC-seq, CUT&Tag, and Hi-C, we define a compartment-encoded “blueprint” that prescribes the assembly of the mature sperm epigenome and establishes a complex molecular hierarchy for the histone-to-protamine exchange.Competing Interest StatementThe authors have declared no competing interest.National Institute of Health, GM148028, 1DP2HD091949-01, R01HD104680 01, R01HD113274, GM148028, 5T32HD079342-10University of Michigan, https://ror.org/00jmfr291Open Philanthropy Grant, 2019-199327 (5384)
+bibtex: |-
+  @article{Rabbani2026SpermatidChromatin,
+    author = {Rabbani, Mashiat and Apell, Zachary and Parnell, Timothy J. and Moritz, Lindsay and Kim, Sion and Srinivasan, Sowmya and Agrawal, Ritvija and Vargo, Alexander and Orchard, Peter and Xie, Wenxin and Freddolino, Lydia and Boyle, Alan P and Li, Jun Z. and Lesch, Bluma J. and Cairns, Bradley and Kim, Minji and Wilson, Thomas E. and Hammoud, Saher Sue},
+    title = {{3D chromatin compartment of round spermatids encodes the spatiotemporal program of histone-to-protamine exchange in spermiogenesis}},
+    year = {2026},
+    doi = {10.64898/2026.03.10.710708},
+    abstract = {Sperm formation requires a radical chromatin reorganization, where nucleosomes are replaced by transition proteins (TNPs) and subsequently by protamines (PRM1 and PRM2). Although essential for fertility, the regulatory logic governing this exchange is unknown, but it{\textquoteright}s presumed to be stochastic and unregulated. Using endogenously tagged PRM mouse models and stage-resolved, genome-wide profiling, we revise the order of histone-to-protamine exchange and show that the chromatin remodeling process is highly programmed. Imaging and biochemical experiments reveal a direct histone-to-PRM1 exchange, while TNPs appear after PRM1 but precede PRM2 incorporation. This temporal uncoupling of PRM1 and PRM2 incorporation coincides with dynamic, region-specific chromatin remodeling that is not governed by histone acetylation but is instructed by the three-dimensional nuclear architecture of round spermatids. Therefore, by integrating ATAC-seq, CUT\&Tag, and Hi-C, we define a compartment-encoded {\textquotedblleft}blueprint{\textquotedblright} that prescribes the assembly of the mature sperm epigenome and establishes a complex molecular hierarchy for the histone-to-protamine exchange.Competing Interest StatementThe authors have declared no competing interest.National Institute of Health, GM148028, 1DP2HD091949-01, R01HD104680 01, R01HD113274, GM148028, 5T32HD079342-10University of Michigan, https://ror.org/00jmfr291Open Philanthropy Grant, 2019-199327 (5384)},
+    url = {https://www.biorxiv.org/content/early/2026/03/12/2026.03.10.710708},
+    pdf = {https://www.biorxiv.org/content/early/2026/03/12/2026.03.10.710708.full.pdf},
+    journal = {bioRxiv}
+  }
+---

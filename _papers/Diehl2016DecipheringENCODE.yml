@@ -1,0 +1,86 @@
+---
+generated: true
+bibkey: Diehl2016DecipheringENCODE
+entry_type: article
+publication_type: article
+status: published
+title: Deciphering ENCODE.
+authors: Diehl AG, Boyle AP
+authors_short: Diehl AG, Boyle AP
+author_count: 2
+author_list:
+- raw: Diehl, Adam G
+  family: Diehl
+  given: Adam G
+  initials: AG
+  citation_name: Diehl AG
+  full_name: Adam G Diehl
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: adadiehl
+  member_url: /people/Adam_Diehl/
+  member_name: Adam Diehl
+- raw: Boyle, Alan P
+  family: Boyle
+  given: Alan P
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+journal: Trends in Genetics
+year: 2016
+month: 3
+sort_date: '2016-03-01'
+volume: '32'
+number: '4'
+pages: 238--249
+doi: 10.1016/j.tig.2016.02.002
+PMID: '26962025'
+primary_url: http://www.ncbi.nlm.nih.gov/pubmed/26962025
+url: http://www.ncbi.nlm.nih.gov/pubmed/26962025
+pdf: http://boylelab.org/pubs/Trends_Genet_2016_Diehl.pdf
+links:
+  code: https://github.com/Boyle-Lab/ENCODE-API-Apps
+  article: http://www.ncbi.nlm.nih.gov/pubmed/26962025
+  pdf: http://boylelab.org/pubs/Trends_Genet_2016_Diehl.pdf
+members:
+- adadiehl
+- apboyle
+member_roles: {}
+matched_members:
+- adadiehl
+- apboyle
+lab_roles:
+  first:
+  - adadiehl
+  senior:
+  - apboyle
+  corresponding: []
+lab_led: true
+featured: false
+topics: []
+abstract: |-
+  The ENCODE project represents a major leap from merely describing and comparing genomic sequences to surveying them for direct indicators of function. The astounding quantity of data produced by the ENCODE consortium can serve as a map to locate specific landmarks, guide hypothesis generation, and lead us to principles and mechanisms underlying genome biology. Despite its broad appeal, the size and complexity of the repository can be intimidating to prospective users. We present here some background about the ENCODE data, survey the resources available for accessing them, and describe a few simple principles to help prospective users choose the data type(s) that best suit their needs, where to get them, and how to use them to their best advantage.
+bibtex: |-
+  @article{Diehl2016DecipheringENCODE,
+    author = {Diehl, Adam G and Boyle, Alan P},
+    title = {{Deciphering ENCODE.}},
+    journal = {Trends in Genetics},
+    year = {2016},
+    volume = {32},
+    number = {4},
+    pages = {238--249},
+    month = mar,
+    doi = {10.1016/j.tig.2016.02.002},
+    abstract = {The ENCODE project represents a major leap from merely describing and comparing genomic sequences to surveying them for direct indicators of function. The astounding quantity of data produced by the ENCODE consortium can serve as a map to locate specific landmarks, guide hypothesis generation, and lead us to principles and mechanisms underlying genome biology. Despite its broad appeal, the size and complexity of the repository can be intimidating to prospective users. We present here some background about the ENCODE data, survey the resources available for accessing them, and describe a few simple principles to help prospective users choose the data type(s) that best suit their needs, where to get them, and how to use them to their best advantage.},
+    url = {http://www.ncbi.nlm.nih.gov/pubmed/26962025},
+    pdf = {http://boylelab.org/pubs/Trends_Genet_2016_Diehl.pdf},
+    note = {{PMID:} 26962025}
+  }
+---

@@ -1,0 +1,252 @@
+---
+generated: true
+bibkey: Moritz2023ProtamineChromatin
+entry_type: article
+publication_type: article
+status: published
+title: Sperm chromatin structure and reproductive fitness are altered by substitution of a single amino
+  acid in mouse protamine 1
+authors: Moritz L, Schon SB, Rabbani M, Sheng Y, Agrawal R, Glass-Klaiber J, Sultan C, M CJ, Clements
+  J, Baldwin MR, Diehl AG, Boyle AP, O'Brien PJ, Ragunathan K, Hu YC, Kelleher NL, Nandakumar J, Li JZ,
+  Orwig KE, Redding S, Hammoud SS
+authors_short: Moritz L, Schon SB, Rabbani M, Sheng Y, Agrawal R, Glass-Klaiber J, …, Hammoud SS
+author_count: 21
+author_list:
+- raw: Moritz, Lindsay
+  family: Moritz
+  given: Lindsay
+  initials: L
+  citation_name: Moritz L
+  full_name: Lindsay Moritz
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Schon, Samantha B.
+  family: Schon
+  given: Samantha B.
+  initials: SB
+  citation_name: Schon SB
+  full_name: Samantha B. Schon
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Rabbani, Mashiat
+  family: Rabbani
+  given: Mashiat
+  initials: M
+  citation_name: Rabbani M
+  full_name: Mashiat Rabbani
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Sheng, Yi
+  family: Sheng
+  given: Yi
+  initials: Y
+  citation_name: Sheng Y
+  full_name: Yi Sheng
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Agrawal, Ritvija
+  family: Agrawal
+  given: Ritvija
+  initials: R
+  citation_name: Agrawal R
+  full_name: Ritvija Agrawal
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Glass-Klaiber, Juniper
+  family: Glass-Klaiber
+  given: Juniper
+  initials: J
+  citation_name: Glass-Klaiber J
+  full_name: Juniper Glass-Klaiber
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Sultan, Caleb
+  family: Sultan
+  given: Caleb
+  initials: C
+  citation_name: Sultan C
+  full_name: Caleb Sultan
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Camarillo Jeannie M
+  family: M
+  given: Camarillo Jeannie
+  initials: CJ
+  citation_name: M CJ
+  full_name: Camarillo Jeannie M
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Clements, Jourdan
+  family: Clements
+  given: Jourdan
+  initials: J
+  citation_name: Clements J
+  full_name: Jourdan Clements
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Baldwin, Michael R
+  family: Baldwin
+  given: Michael R
+  initials: MR
+  citation_name: Baldwin MR
+  full_name: Michael R Baldwin
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Diehl, Adam G
+  family: Diehl
+  given: Adam G
+  initials: AG
+  citation_name: Diehl AG
+  full_name: Adam G Diehl
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: adadiehl
+  member_url: /people/Adam_Diehl/
+  member_name: Adam Diehl
+- raw: Boyle, Alan P.
+  family: Boyle
+  given: Alan P.
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P. Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- raw: O'Brien, Patrick J
+  family: O'Brien
+  given: Patrick J
+  initials: PJ
+  citation_name: O'Brien PJ
+  full_name: Patrick J O'Brien
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Ragunathan, Kaushik
+  family: Ragunathan
+  given: Kaushik
+  initials: K
+  citation_name: Ragunathan K
+  full_name: Kaushik Ragunathan
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Hu, Yueh-Chiang
+  family: Hu
+  given: Yueh-Chiang
+  initials: YC
+  citation_name: Hu YC
+  full_name: Yueh-Chiang Hu
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Kelleher, Neil L
+  family: Kelleher
+  given: Neil L
+  initials: NL
+  citation_name: Kelleher NL
+  full_name: Neil L Kelleher
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Nandakumar, Jayakrishnan
+  family: Nandakumar
+  given: Jayakrishnan
+  initials: J
+  citation_name: Nandakumar J
+  full_name: Jayakrishnan Nandakumar
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Li, Jun Z.
+  family: Li
+  given: Jun Z.
+  initials: JZ
+  citation_name: Li JZ
+  full_name: Jun Z. Li
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Orwig, Kyle E.
+  family: Orwig
+  given: Kyle E.
+  initials: KE
+  citation_name: Orwig KE
+  full_name: Kyle E. Orwig
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Redding, Sy
+  family: Redding
+  given: Sy
+  initials: S
+  citation_name: Redding S
+  full_name: Sy Redding
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Hammoud, Saher Sue
+  family: Hammoud
+  given: Saher Sue
+  initials: SS
+  citation_name: Hammoud SS
+  full_name: Saher Sue Hammoud
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+journal: Nature Structural & Molecular Biology
+year: 2023
+month: 7
+sort_date: '2023-07-01'
+doi: 10.1038/s41594-023-01033-4
+PMID: '37460896'
+primary_url: https://www.nature.com/articles/s41594-023-01033-4
+url: https://www.nature.com/articles/s41594-023-01033-4
+pdf: http://boylelab.org/pubs/Nature_Structural_2023_Moritz.pdf
+links:
+  article: https://www.nature.com/articles/s41594-023-01033-4
+  pdf: http://boylelab.org/pubs/Nature_Structural_2023_Moritz.pdf
+members:
+- adadiehl
+- apboyle
+member_roles: {}
+matched_members:
+- adadiehl
+- apboyle
+lab_roles:
+  first: []
+  senior: []
+  corresponding: []
+lab_led: false
+featured: false
+topics: []
+abstract: |-
+  Conventional dogma presumes that protamine-mediated DNA compaction in sperm is achieved by electrostatic interactions between DNA and the arginine-rich core of protamines. Phylogenetic analysis reveals several non-arginine residues conserved within, but not across species. The significance of these residues and their post-translational modifications are poorly understood. Here, we investigated the role of K49, a rodent-specific lysine residue in protamine 1 (P1) that is acetylated early in spermiogenesis and retained in sperm. In sperm, alanine substitution (P1(K49A)) decreases sperm motility and male fertility-defects that are not rescued by arginine substitution (P1(K49R)). In zygotes, P1(K49A) leads to premature male pronuclear decompaction, altered DNA replication, and embryonic arrest. In vitro, P1(K49A) decreases protamine-DNA binding and alters DNA compaction and decompaction kinetics. Hence, a single amino acid substitution outside the P1 arginine core is sufficient to profoundly alter protein function and developmental outcomes, suggesting that protamine non-arginine residues are essential for reproductive fitness.
+bibtex: |-
+  @article{Moritz2023ProtamineChromatin,
+    author = {Moritz, Lindsay and Schon, Samantha B. and Rabbani, Mashiat and Sheng, Yi and Agrawal, Ritvija and Glass-Klaiber, Juniper and Sultan, Caleb and Camarillo Jeannie M and Clements, Jourdan and Baldwin, Michael R and Diehl, Adam G and Boyle, Alan P. and O'Brien, Patrick J and Ragunathan, Kaushik and Hu, Yueh-Chiang and Kelleher, Neil L and Nandakumar, Jayakrishnan and Li, Jun Z. and Orwig, Kyle E. and Redding, Sy and Hammoud, Saher Sue},
+    title = {Sperm chromatin structure and reproductive fitness are altered by substitution of a single amino acid in mouse protamine 1},
+    year = {2023},
+    month = {jul},
+    day = {17},
+    doi = {10.1038/s41594-023-01033-4},
+    abstract = {Conventional dogma presumes that protamine-mediated DNA compaction in sperm is achieved by electrostatic interactions between DNA and the arginine-rich core of protamines. Phylogenetic analysis reveals several non-arginine residues conserved within, but not across species. The significance of these residues and their post-translational modifications are poorly understood. Here, we investigated the role of K49, a rodent-specific lysine residue in protamine 1 (P1) that is acetylated early in spermiogenesis and retained in sperm. In sperm, alanine substitution (P1(K49A)) decreases sperm motility and male fertility-defects that are not rescued by arginine substitution (P1(K49R)). In zygotes, P1(K49A) leads to premature male pronuclear decompaction, altered DNA replication, and embryonic arrest. In vitro, P1(K49A) decreases protamine-DNA binding and alters DNA compaction and decompaction kinetics. Hence, a single amino acid substitution outside the P1 arginine core is sufficient to profoundly alter protein function and developmental outcomes, suggesting that protamine non-arginine residues are essential for reproductive fitness.},
+    url = {https://www.nature.com/articles/s41594-023-01033-4},
+    pdf = {http://boylelab.org/pubs/Nature_Structural_2023_Moritz.pdf},
+    journal = {Nature Structural \& Molecular Biology},
+    note = {{PMID:} 37460896}
+  }
+---

@@ -1,0 +1,149 @@
+---
+generated: true
+bibkey: McDonald2021Cas9MobileElements
+entry_type: article
+publication_type: article
+status: published
+title: Cas9 targeted enrichment of mobile elements using nanopore sequencing
+authors: McDonald TL, Zhou W, Castro CP, Mumm C, Switzenberg JA, Mills RE, Boyle AP
+authors_short: McDonald TL, Zhou W, Castro CP, Mumm C, Switzenberg JA, Mills RE, Boyle AP
+author_count: 7
+author_list:
+- raw: '*McDonald, Torrin L.'
+  family: McDonald
+  given: Torrin L.
+  initials: TL
+  citation_name: McDonald TL
+  full_name: Torrin L. McDonald
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+  member_id: torrin
+  member_url: /people/Torrin_McDonald/
+  member_name: Torrin McDonald, Ph.D.
+- raw: '*Zhou, Weichen'
+  family: Zhou
+  given: Weichen
+  initials: W
+  citation_name: Zhou W
+  full_name: Weichen Zhou
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: Castro, Christopher P.
+  family: Castro
+  given: Christopher P.
+  initials: CP
+  citation_name: Castro CP
+  full_name: Christopher P. Castro
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: castrocp
+  member_url: /people/Christopher_Castro/
+  member_name: Christopher Castro, Ph.D.
+- raw: Mumm, Camille
+  family: Mumm
+  given: Camille
+  initials: C
+  citation_name: Mumm C
+  full_name: Camille Mumm
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: crmumm
+  member_url: /people/Camille_Mumm/
+  member_name: Camille Mumm, Ph.D.
+- raw: Switzenberg, Jessica A.
+  family: Switzenberg
+  given: Jessica A.
+  initials: JA
+  citation_name: Switzenberg JA
+  full_name: Jessica A. Switzenberg
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: jswitzen
+  member_url: /people/Jessica_Switzenberg/
+  member_name: Jessica A. Switzenberg, Ph.D.
+- raw: '{\dag}Mills, Ryan E.'
+  family: Mills
+  given: Ryan E.
+  initials: RE
+  citation_name: Mills RE
+  full_name: Ryan E. Mills
+  corporate: false
+  equal_contrib: false
+  co_senior: true
+- raw: '{\dag}Boyle, Alan P.'
+  family: Boyle
+  given: Alan P.
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P. Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: true
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+journal: Nature Communications
+year: 2021
+month: 6
+sort_date: '2021-06-01'
+volume: '12'
+number: '1'
+pages: '3586'
+doi: 10.1038/s41467-021-23918-y
+PMID: '34117247'
+primary_url: https://doi.org/10.1038/s41467-021-23918-y
+url: https://doi.org/10.1038/s41467-021-23918-y
+pdf: http://boylelab.org/pubs/Nature_Communications_2021_McDonald.pdf
+biorxiv: https://www.biorxiv.org/content/10.1101/2021.02.10.430605v1
+links:
+  code: https://github.com/Boyle-Lab/NanoPal-and-Cas9-targeted-enrichment-pipelines
+  article: https://doi.org/10.1038/s41467-021-23918-y
+  pdf: http://boylelab.org/pubs/Nature_Communications_2021_McDonald.pdf
+  preprint: https://www.biorxiv.org/content/10.1101/2021.02.10.430605v1
+members:
+- torrin
+- castrocp
+- crmumm
+- jswitzen
+- apboyle
+member_roles: {}
+matched_members:
+- apboyle
+- castrocp
+- crmumm
+- jswitzen
+- torrin
+lab_roles:
+  first:
+  - torrin
+  senior:
+  - apboyle
+  corresponding: []
+lab_led: true
+featured: false
+topics: []
+abstract: |-
+  Mobile element insertions (MEIs) are repetitive genomic sequences that contribute to genetic variation and can lead to genetic disorders. Targeted and whole-genome approaches using short-read sequencing have been developed to identify reference and non-reference MEIs; however, the read length hampers detection of these elements in complex genomic regions. Here, we pair Cas9-targeted nanopore sequencing with computational methodologies to capture active MEIs in human genomes. We demonstrate parallel enrichment for distinct classes of MEIs, averaging 44% of reads on-targeted signals and exhibiting a 13.4-54x enrichment over whole-genome approaches. We show an individual flow cell can recover most MEIs (97% L1Hs, 93% AluYb, 51% AluYa, 99% SVA_F, and 65% SVA_E). We identify seventeen non-reference MEIs in GM12878 overlooked by modern, long-read analysis pipelines, primarily in repetitive genomic regions. This work introduces the utility of nanopore sequencing for MEI enrichment and lays the foundation for rapid discovery of elusive, repetitive genetic elements.
+bibtex: |-
+  @article{McDonald2021Cas9MobileElements,
+    author = {*McDonald, Torrin L. and *Zhou, Weichen and Castro, Christopher P. and Mumm, Camille and Switzenberg, Jessica A. and {\dag}Mills, Ryan E. and {\dag}Boyle, Alan P.},
+    title = {Cas9 targeted enrichment of mobile elements using nanopore sequencing},
+    year = {2021},
+    month = {jun},
+    day = {11},
+    volume = {12},
+    number = {1},
+    pages = {3586},
+    doi = {10.1038/s41467-021-23918-y},
+    abstract = {{Mobile element insertions (MEIs) are repetitive genomic sequences that contribute to genetic variation and can lead to genetic disorders. Targeted and whole-genome approaches using short-read sequencing have been developed to identify reference and non-reference MEIs; however, the read length hampers detection of these elements in complex genomic regions. Here, we pair Cas9-targeted nanopore sequencing with computational methodologies to capture active MEIs in human genomes. We demonstrate parallel enrichment for distinct classes of MEIs, averaging 44% of reads on-targeted signals and exhibiting a 13.4-54x enrichment over whole-genome approaches. We show an individual flow cell can recover most MEIs (97% L1Hs, 93% AluYb, 51% AluYa, 99% SVA_F, and 65% SVA_E). We identify seventeen non-reference MEIs in GM12878 overlooked by modern, long-read analysis pipelines, primarily in repetitive genomic regions. This work introduces the utility of nanopore sequencing for MEI enrichment and lays the foundation for rapid discovery of elusive, repetitive genetic elements.}},
+    url = {https://doi.org/10.1038/s41467-021-23918-y},
+    pdf = {http://boylelab.org/pubs/Nature_Communications_2021_McDonald.pdf},
+    journal = {Nature Communications},
+    note = {{PMID:} 34117247}
+  }
+---

@@ -1,0 +1,85 @@
+---
+generated: true
+bibkey: Nishizaki2017NoncodingSNPFunction
+entry_type: article
+publication_type: article
+status: published
+title: 'Mining the Unknown: Assigning Function to Noncoding Single Nucleotide Polymorphisms.'
+authors: Nishizaki SS, Boyle AP
+authors_short: Nishizaki SS, Boyle AP
+author_count: 2
+author_list:
+- raw: Nishizaki, Sierra S
+  family: Nishizaki
+  given: Sierra S
+  initials: SS
+  citation_name: Nishizaki SS
+  full_name: Sierra S Nishizaki
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: ssnishi
+  member_url: /people/Sierra_Nishizaki/
+  member_name: Sierra Nishizaki, Ph.D.
+- raw: Boyle, Alan P
+  family: Boyle
+  given: Alan P
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+journal: Trends in Genetics
+year: 2017
+month: 1
+sort_date: '2017-01-01'
+volume: '33'
+number: '1'
+pages: 34--45
+doi: 10.1016/j.tig.2016.10.008
+PMID: '27939749'
+primary_url: http://www.ncbi.nlm.nih.gov/pubmed/27939749
+url: http://www.ncbi.nlm.nih.gov/pubmed/27939749
+pdf: http://boylelab.org/pubs/Trends_Genet_2017_Nishizaki.pdf
+links:
+  article: http://www.ncbi.nlm.nih.gov/pubmed/27939749
+  pdf: http://boylelab.org/pubs/Trends_Genet_2017_Nishizaki.pdf
+members:
+- ssnishi
+- apboyle
+member_roles: {}
+matched_members:
+- apboyle
+- ssnishi
+lab_roles:
+  first:
+  - ssnishi
+  senior:
+  - apboyle
+  corresponding: []
+lab_led: true
+featured: false
+topics: []
+abstract: |-
+  One of the formative goals of genetics research is to understand how genetic variation leads to phenotypic differences and human disease. Genome-wide association studies (GWASs) bring us closer to this goal by linking variation with disease faster than ever before. Despite this, GWASs alone are unable to pinpoint disease-causing single nucleotide polymorphisms (SNPs). Noncoding SNPs, which represent the majority of GWAS SNPs, present a particular challenge. To address this challenge, an array of computational tools designed to prioritize and predict the function of noncoding GWAS SNPs have been developed. However, fewer than 40% of GWAS publications from 2015 utilized these tools. We discuss several leading methods for annotating noncoding variants and how they can be integrated into research pipelines in hopes that they will be broadly applied in future GWAS analyses.
+bibtex: |-
+  @article{Nishizaki2017NoncodingSNPFunction,
+    author = {Nishizaki, Sierra S and Boyle, Alan P},
+    title = {{Mining the Unknown: Assigning Function to Noncoding Single Nucleotide Polymorphisms.}},
+    journal = {Trends in Genetics},
+    year = {2017},
+    volume = {33},
+    number = {1},
+    pages = {34--45},
+    month = jan,
+    doi = {10.1016/j.tig.2016.10.008},
+    abstract = {One of the formative goals of genetics research is to understand how genetic variation leads to phenotypic differences and human disease. Genome-wide association studies (GWASs) bring us closer to this goal by linking variation with disease faster than ever before. Despite this, GWASs alone are unable to pinpoint disease-causing single nucleotide polymorphisms (SNPs). Noncoding SNPs, which represent the majority of GWAS SNPs, present a particular challenge. To address this challenge, an array of computational tools designed to prioritize and predict the function of noncoding GWAS SNPs have been developed. However, fewer than 40% of GWAS publications from 2015 utilized these tools. We discuss several leading methods for annotating noncoding variants and how they can be integrated into research pipelines in hopes that they will be broadly applied in future GWAS analyses.},
+    url = {http://www.ncbi.nlm.nih.gov/pubmed/27939749},
+    pdf = {http://boylelab.org/pubs/Trends_Genet_2017_Nishizaki.pdf},
+    note = {{PMID:} 27939749}
+  }
+---

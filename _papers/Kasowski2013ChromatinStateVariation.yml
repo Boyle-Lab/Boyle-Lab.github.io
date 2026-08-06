@@ -1,0 +1,213 @@
+---
+generated: true
+bibkey: Kasowski2013ChromatinStateVariation
+entry_type: article
+publication_type: article
+status: published
+title: Extensive variation in chromatin states across humans
+authors: Kasowski M, Kyriazopoulou-Panagiotopoulou S, Grubert F, Zaugg JB, Kundaje A, Liu Y, Boyle AP,
+  Zhang QC, Zakharia F, Spacek DV, Li J, Xie D, Steinmetz LM, Hogenesch JB, Kellis M, Batzoglou S, Snyder
+  M
+authors_short: Kasowski M, Kyriazopoulou-Panagiotopoulou S, Grubert F, Zaugg JB, Kundaje A, Liu Y, …,
+  Snyder M
+author_count: 17
+author_list:
+- raw: '*Kasowski, Maya'
+  family: Kasowski
+  given: Maya
+  initials: M
+  citation_name: Kasowski M
+  full_name: Maya Kasowski
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Kyriazopoulou-Panagiotopoulou, Sofia'
+  family: Kyriazopoulou-Panagiotopoulou
+  given: Sofia
+  initials: S
+  citation_name: Kyriazopoulou-Panagiotopoulou S
+  full_name: Sofia Kyriazopoulou-Panagiotopoulou
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Grubert, Fabian'
+  family: Grubert
+  given: Fabian
+  initials: F
+  citation_name: Grubert F
+  full_name: Fabian Grubert
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Zaugg, Judith B'
+  family: Zaugg
+  given: Judith B
+  initials: JB
+  citation_name: Zaugg JB
+  full_name: Judith B Zaugg
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Kundaje, Anshul'
+  family: Kundaje
+  given: Anshul
+  initials: A
+  citation_name: Kundaje A
+  full_name: Anshul Kundaje
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: Liu, Yuling
+  family: Liu
+  given: Yuling
+  initials: Y
+  citation_name: Liu Y
+  full_name: Yuling Liu
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Boyle, Alan P
+  family: Boyle
+  given: Alan P
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- raw: Zhang, Qiangfeng Cliff
+  family: Zhang
+  given: Qiangfeng Cliff
+  initials: QC
+  citation_name: Zhang QC
+  full_name: Qiangfeng Cliff Zhang
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Zakharia, Fouad
+  family: Zakharia
+  given: Fouad
+  initials: F
+  citation_name: Zakharia F
+  full_name: Fouad Zakharia
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Spacek, Damek V
+  family: Spacek
+  given: Damek V
+  initials: DV
+  citation_name: Spacek DV
+  full_name: Damek V Spacek
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Li, Jingjing
+  family: Li
+  given: Jingjing
+  initials: J
+  citation_name: Li J
+  full_name: Jingjing Li
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Xie, Dan
+  family: Xie
+  given: Dan
+  initials: D
+  citation_name: Xie D
+  full_name: Dan Xie
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Steinmetz, Lars M
+  family: Steinmetz
+  given: Lars M
+  initials: LM
+  citation_name: Steinmetz LM
+  full_name: Lars M Steinmetz
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Hogenesch, John B
+  family: Hogenesch
+  given: John B
+  initials: JB
+  citation_name: Hogenesch JB
+  full_name: John B Hogenesch
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Kellis, Manolis
+  family: Kellis
+  given: Manolis
+  initials: M
+  citation_name: Kellis M
+  full_name: Manolis Kellis
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Batzoglou, Serafim
+  family: Batzoglou
+  given: Serafim
+  initials: S
+  citation_name: Batzoglou S
+  full_name: Serafim Batzoglou
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Snyder, Michael
+  family: Snyder
+  given: Michael
+  initials: M
+  citation_name: Snyder M
+  full_name: Michael Snyder
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+journal: Science
+year: 2013
+month: 11
+sort_date: '2013-11-01'
+volume: '342'
+number: '6159'
+pages: 750--752
+doi: 10.1126/science.1242510
+PMID: '24136358'
+primary_url: http://www.ncbi.nlm.nih.gov/pubmed/24136358
+url: http://www.ncbi.nlm.nih.gov/pubmed/24136358
+pdf: http://boylelab.org/pubs/Science_2013_Kasowski.pdf
+links:
+  article: http://www.ncbi.nlm.nih.gov/pubmed/24136358
+  pdf: http://boylelab.org/pubs/Science_2013_Kasowski.pdf
+members:
+- apboyle
+member_roles: {}
+matched_members:
+- apboyle
+lab_roles:
+  first: []
+  senior: []
+  corresponding: []
+lab_led: false
+featured: false
+topics: []
+bibtex: |-
+  @article{Kasowski2013ChromatinStateVariation,
+    title = {Extensive variation in chromatin states across humans},
+    author = {*Kasowski, Maya and *Kyriazopoulou-Panagiotopoulou, Sofia and *Grubert, Fabian and *Zaugg, Judith B and *Kundaje, Anshul and Liu, Yuling and Boyle, Alan P and Zhang, Qiangfeng Cliff and Zakharia, Fouad and Spacek, Damek V and Li, Jingjing and Xie, Dan and Steinmetz, Lars M and Hogenesch, John B and Kellis, Manolis and Batzoglou, Serafim and Snyder, Michael},
+    journal = {Science},
+    year = {2013},
+    month = {Nov},
+    volume = {342},
+    number = {6159},
+    url = {http://www.ncbi.nlm.nih.gov/pubmed/24136358},
+    pdf = {http://boylelab.org/pubs/Science_2013_Kasowski.pdf},
+    doi = {10.1126/science.1242510},
+    pages = {750--752},
+    note = {{PMID:} 24136358}
+  }
+---

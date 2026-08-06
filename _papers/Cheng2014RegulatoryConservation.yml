@@ -1,0 +1,295 @@
+---
+generated: true
+bibkey: Cheng2014RegulatoryConservation
+entry_type: article
+publication_type: article
+status: published
+title: Principles of regulatory information conservation between mouse and human.
+authors: |-
+  Cheng Y, Ma Z, Kim BH, Wu W, Cayting P, Boyle AP, Sundaram V, Xing X, Dogan N, Li J, Euskirchen G, Lin S, Lin Y, Visel A, Kawli T, Yang X, Patacsil D, Keller CA, Giardine B, Mouse ENCODE Consortium, Kundaje A, Wang T, Pennacchio LA, Weng Z, Hardison RC, Snyder MP
+authors_short: Cheng Y, Ma Z, Kim BH, Wu W, Cayting P, Boyle AP, …, Snyder MP
+author_count: 26
+author_list:
+- raw: '*Cheng, Yong'
+  family: Cheng
+  given: Yong
+  initials: Y
+  citation_name: Cheng Y
+  full_name: Yong Cheng
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Ma, Zhihai'
+  family: Ma
+  given: Zhihai
+  initials: Z
+  citation_name: Ma Z
+  full_name: Zhihai Ma
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: Kim, Bong-Hyun
+  family: Kim
+  given: Bong-Hyun
+  initials: BH
+  citation_name: Kim BH
+  full_name: Bong-Hyun Kim
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Wu, Weisheng
+  family: Wu
+  given: Weisheng
+  initials: W
+  citation_name: Wu W
+  full_name: Weisheng Wu
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Cayting, Philip
+  family: Cayting
+  given: Philip
+  initials: P
+  citation_name: Cayting P
+  full_name: Philip Cayting
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Boyle, Alan P
+  family: Boyle
+  given: Alan P
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- raw: Sundaram, Vasavi
+  family: Sundaram
+  given: Vasavi
+  initials: V
+  citation_name: Sundaram V
+  full_name: Vasavi Sundaram
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Xing, Xiaoyun
+  family: Xing
+  given: Xiaoyun
+  initials: X
+  citation_name: Xing X
+  full_name: Xiaoyun Xing
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Dogan, Nergiz
+  family: Dogan
+  given: Nergiz
+  initials: N
+  citation_name: Dogan N
+  full_name: Nergiz Dogan
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Li, Jingjing
+  family: Li
+  given: Jingjing
+  initials: J
+  citation_name: Li J
+  full_name: Jingjing Li
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Euskirchen, Ghia
+  family: Euskirchen
+  given: Ghia
+  initials: G
+  citation_name: Euskirchen G
+  full_name: Ghia Euskirchen
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Lin, Shin
+  family: Lin
+  given: Shin
+  initials: S
+  citation_name: Lin S
+  full_name: Shin Lin
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Lin, Yiing
+  family: Lin
+  given: Yiing
+  initials: Y
+  citation_name: Lin Y
+  full_name: Yiing Lin
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Visel, Axel
+  family: Visel
+  given: Axel
+  initials: A
+  citation_name: Visel A
+  full_name: Axel Visel
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Kawli, Trupti
+  family: Kawli
+  given: Trupti
+  initials: T
+  citation_name: Kawli T
+  full_name: Trupti Kawli
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Yang, Xinqiong
+  family: Yang
+  given: Xinqiong
+  initials: X
+  citation_name: Yang X
+  full_name: Xinqiong Yang
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Patacsil, Dorrelyn
+  family: Patacsil
+  given: Dorrelyn
+  initials: D
+  citation_name: Patacsil D
+  full_name: Dorrelyn Patacsil
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Keller, Cheryl A
+  family: Keller
+  given: Cheryl A
+  initials: CA
+  citation_name: Keller CA
+  full_name: Cheryl A Keller
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Giardine, Belinda
+  family: Giardine
+  given: Belinda
+  initials: B
+  citation_name: Giardine B
+  full_name: Belinda Giardine
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: '{Mouse ENCODE Consortium}'
+  family: Mouse ENCODE Consortium
+  given: ''
+  initials: ''
+  citation_name: Mouse ENCODE Consortium
+  full_name: Mouse ENCODE Consortium
+  corporate: true
+  equal_contrib: false
+  co_senior: false
+- raw: Kundaje, Anshul
+  family: Kundaje
+  given: Anshul
+  initials: A
+  citation_name: Kundaje A
+  full_name: Anshul Kundaje
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Wang, Ting
+  family: Wang
+  given: Ting
+  initials: T
+  citation_name: Wang T
+  full_name: Ting Wang
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Pennacchio, Len A
+  family: Pennacchio
+  given: Len A
+  initials: LA
+  citation_name: Pennacchio LA
+  full_name: Len A Pennacchio
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Weng, Zhiping
+  family: Weng
+  given: Zhiping
+  initials: Z
+  citation_name: Weng Z
+  full_name: Zhiping Weng
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: '{\dag}Hardison, Ross C'
+  family: Hardison
+  given: Ross C
+  initials: RC
+  citation_name: Hardison RC
+  full_name: Ross C Hardison
+  corporate: false
+  equal_contrib: false
+  co_senior: true
+- raw: '{\dag}Snyder, Michael P'
+  family: Snyder
+  given: Michael P
+  initials: MP
+  citation_name: Snyder MP
+  full_name: Michael P Snyder
+  corporate: false
+  equal_contrib: false
+  co_senior: true
+journal: Nature
+year: 2014
+month: 11
+sort_date: '2014-11-01'
+volume: '515'
+number: '7527'
+pages: 371--375
+doi: 10.1038/nature13985
+PMID: '25409826'
+primary_url: http://www.ncbi.nlm.nih.gov/pubmed/25409826
+url: http://www.ncbi.nlm.nih.gov/pubmed/25409826
+pdf: http://boylelab.org/pubs/Nature_2014_Cheng.pdf
+links:
+  article: http://www.ncbi.nlm.nih.gov/pubmed/25409826
+  pdf: http://boylelab.org/pubs/Nature_2014_Cheng.pdf
+members:
+- apboyle
+member_roles: {}
+matched_members:
+- apboyle
+lab_roles:
+  first: []
+  senior: []
+  corresponding: []
+lab_led: false
+featured: false
+topics: []
+abstract: |-
+  To broaden our understanding of the evolution of gene regulation mechanisms, we generated occupancy profiles for 34 orthologous transcription factors (TFs) in human-mouse erythroid progenitor, lymphoblast and embryonic stem-cell lines. By combining the genome-wide transcription factor occupancy repertoires, associated epigenetic signals, and co-association patterns, here we deduce several evolutionary principles of gene regulatory features operating since the mouse and human lineages diverged. The genomic distribution profiles, primary binding motifs, chromatin states, and DNA methylation preferences are well conserved for TF-occupied sequences. However, the extent to which orthologous DNA segments are bound by orthologous TFs varies both among TFs and with genomic location: binding at promoters is more highly conserved than binding at distal elements. Notably, occupancy-conserved TF-occupied sequences tend to be pleiotropic; they function in several tissues and also co-associate with many TFs. Single nucleotide variants at sites with potential regulatory functions are enriched in occupancy-conserved TF-occupied sequences.
+bibtex: |-
+  @article{Cheng2014RegulatoryConservation,
+    author = {*Cheng, Yong and *Ma, Zhihai and Kim, Bong-Hyun and Wu, Weisheng and Cayting, Philip and Boyle, Alan P and Sundaram, Vasavi and Xing, Xiaoyun and Dogan, Nergiz and Li, Jingjing and Euskirchen, Ghia and Lin, Shin and Lin, Yiing and Visel, Axel and Kawli, Trupti and Yang, Xinqiong and Patacsil, Dorrelyn and Keller, Cheryl A and Giardine, Belinda and {Mouse ENCODE Consortium} and Kundaje, Anshul and Wang, Ting and Pennacchio, Len A and Weng, Zhiping and {\dag}Hardison, Ross C and {\dag}Snyder, Michael P},
+    title = {{Principles of regulatory information conservation between mouse and human.}},
+    journal = {Nature},
+    year = {2014},
+    volume = {515},
+    number = {7527},
+    pages = {371--375},
+    month = nov,
+    doi = {10.1038/nature13985},
+    abstract = {To broaden our understanding of the evolution of gene regulation mechanisms, we generated occupancy profiles for 34 orthologous transcription factors (TFs) in human-mouse erythroid progenitor, lymphoblast and embryonic stem-cell lines. By combining the genome-wide transcription factor occupancy repertoires, associated epigenetic signals, and co-association patterns, here we deduce several evolutionary principles of gene regulatory features operating since the mouse and human lineages diverged. The genomic distribution profiles, primary binding motifs, chromatin states, and DNA methylation preferences are well conserved for TF-occupied sequences. However, the extent to which orthologous DNA segments are bound by orthologous TFs varies both among TFs and with genomic location: binding at promoters is more highly conserved than binding at distal elements. Notably, occupancy-conserved TF-occupied sequences tend to be pleiotropic; they function in several tissues and also co-associate with many TFs. Single nucleotide variants at sites with potential regulatory functions are enriched in occupancy-conserved TF-occupied sequences.},
+    url = {http://www.ncbi.nlm.nih.gov/pubmed/25409826},
+    pdf = {http://boylelab.org/pubs/Nature_2014_Cheng.pdf},
+    note = {{PMID:} 25409826}
+  }
+---

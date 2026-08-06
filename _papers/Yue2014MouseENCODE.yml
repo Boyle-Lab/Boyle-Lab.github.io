@@ -1,0 +1,1303 @@
+---
+generated: true
+bibkey: Yue2014MouseENCODE
+entry_type: article
+publication_type: article
+status: published
+title: A comparative encyclopedia of DNA elements in the mouse genome.
+authors: |-
+  Yue F, Cheng Y, Breschi A, Vierstra J, Wu W, Ryba T, Sandstrom R, Ma Z, Davis C, Pope BD, Shen Y, Pervouchine DD, Djebali S, Thurman RE, Kaul R, Rynes E, Kirilusha A, Marinov GK, Williams BA, Trout D, Amrhein H, Fisher-Aylor K, Antoshechkin I, DeSalvo G, See LH, Fastuca M, Drenkow J, Zaleski C, Dobin A, Prieto P, Lagarde J, Bussotti G, Tanzer A, Denas O, Li K, Bender MA, Zhang M, Byron R, Groudine MT, McCleary D, Pham L, Ye Z, Kuan S, Edsall L, Wu YC, Rasmussen MD, Bansal MS, Kellis M, Keller CA, Morrissey CS, Mishra T, Jain D, Dogan N, Harris RS, Cayting P, Kawli T, Boyle AP, Euskirchen G, Kundaje A, Lin S, Lin Y, Jansen C, Malladi VS, Cline MS, Erickson DT, Kirkup VM, Learned K, Sloan CA, Rosenbloom KR, Lacerda de Sousa B, Beal K, Pignatelli M, Flicek P, Lian J, Kahveci T, Lee D, Kent WJ, Ramalho Santos M, Herrero J, Notredame C, Johnson A, Vong S, Lee K, Bates D, Neri F, Diegel M, Canfield T, Sabo PJ, Wilken MS, Reh TA, Giste E, Shafer A, Kutyavin T, Haugen E, Dunn D, Reynolds AP, Neph S, Humbert R, Hansen RS, De Bruijn M, Selleri L, Rudensky A, Josefowicz S, Samstein R, Eichler EE, Orkin SH, Levasseur D, Papayannopoulou T, Chang KH, Skoultchi A, Gosh S, Disteche C, Treuting P, Wang Y, Weiss MJ, Blobel GA, Cao X, Zhong S, Wang T, Good PJ, Lowdon RF, Adams LB, Zhou XQ, Pazin MJ, Feingold EA, Wold B, Taylor J, Mortazavi A, Weissman SM, Stamatoyannopoulos JA, Snyder MP, Guigo R, Gingeras TR, Gilbert DM, Hardison RC, Beer MA, Ren B, Mouse ENCODE Consortium
+authors_short: Yue F, Cheng Y, Breschi A, Vierstra J, Wu W, Ryba T, …, Mouse ENCODE Consortium
+author_count: 138
+author_list:
+- raw: '*Yue, Feng'
+  family: Yue
+  given: Feng
+  initials: F
+  citation_name: Yue F
+  full_name: Feng Yue
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Cheng, Yong'
+  family: Cheng
+  given: Yong
+  initials: Y
+  citation_name: Cheng Y
+  full_name: Yong Cheng
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Breschi, Alessandra'
+  family: Breschi
+  given: Alessandra
+  initials: A
+  citation_name: Breschi A
+  full_name: Alessandra Breschi
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Vierstra, Jeff'
+  family: Vierstra
+  given: Jeff
+  initials: J
+  citation_name: Vierstra J
+  full_name: Jeff Vierstra
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Wu, Weisheng'
+  family: Wu
+  given: Weisheng
+  initials: W
+  citation_name: Wu W
+  full_name: Weisheng Wu
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Ryba, Tyrone'
+  family: Ryba
+  given: Tyrone
+  initials: T
+  citation_name: Ryba T
+  full_name: Tyrone Ryba
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Sandstrom, Richard'
+  family: Sandstrom
+  given: Richard
+  initials: R
+  citation_name: Sandstrom R
+  full_name: Richard Sandstrom
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Ma, Zhihai'
+  family: Ma
+  given: Zhihai
+  initials: Z
+  citation_name: Ma Z
+  full_name: Zhihai Ma
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Davis, Carrie'
+  family: Davis
+  given: Carrie
+  initials: C
+  citation_name: Davis C
+  full_name: Carrie Davis
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Pope, Benjamin D'
+  family: Pope
+  given: Benjamin D
+  initials: BD
+  citation_name: Pope BD
+  full_name: Benjamin D Pope
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Shen, Yin'
+  family: Shen
+  given: Yin
+  initials: Y
+  citation_name: Shen Y
+  full_name: Yin Shen
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: Pervouchine, Dmitri D
+  family: Pervouchine
+  given: Dmitri D
+  initials: DD
+  citation_name: Pervouchine DD
+  full_name: Dmitri D Pervouchine
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Djebali, Sarah
+  family: Djebali
+  given: Sarah
+  initials: S
+  citation_name: Djebali S
+  full_name: Sarah Djebali
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Thurman, Robert E
+  family: Thurman
+  given: Robert E
+  initials: RE
+  citation_name: Thurman RE
+  full_name: Robert E Thurman
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Kaul, Rajinder
+  family: Kaul
+  given: Rajinder
+  initials: R
+  citation_name: Kaul R
+  full_name: Rajinder Kaul
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Rynes, Eric
+  family: Rynes
+  given: Eric
+  initials: E
+  citation_name: Rynes E
+  full_name: Eric Rynes
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Kirilusha, Anthony
+  family: Kirilusha
+  given: Anthony
+  initials: A
+  citation_name: Kirilusha A
+  full_name: Anthony Kirilusha
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Marinov, Georgi K
+  family: Marinov
+  given: Georgi K
+  initials: GK
+  citation_name: Marinov GK
+  full_name: Georgi K Marinov
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Williams, Brian A
+  family: Williams
+  given: Brian A
+  initials: BA
+  citation_name: Williams BA
+  full_name: Brian A Williams
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Trout, Diane
+  family: Trout
+  given: Diane
+  initials: D
+  citation_name: Trout D
+  full_name: Diane Trout
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Amrhein, Henry
+  family: Amrhein
+  given: Henry
+  initials: H
+  citation_name: Amrhein H
+  full_name: Henry Amrhein
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Fisher-Aylor, Katherine
+  family: Fisher-Aylor
+  given: Katherine
+  initials: K
+  citation_name: Fisher-Aylor K
+  full_name: Katherine Fisher-Aylor
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Antoshechkin, Igor
+  family: Antoshechkin
+  given: Igor
+  initials: I
+  citation_name: Antoshechkin I
+  full_name: Igor Antoshechkin
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: DeSalvo, Gilberto
+  family: DeSalvo
+  given: Gilberto
+  initials: G
+  citation_name: DeSalvo G
+  full_name: Gilberto DeSalvo
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: See, Lei-Hoon
+  family: See
+  given: Lei-Hoon
+  initials: LH
+  citation_name: See LH
+  full_name: Lei-Hoon See
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Fastuca, Meagan
+  family: Fastuca
+  given: Meagan
+  initials: M
+  citation_name: Fastuca M
+  full_name: Meagan Fastuca
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Drenkow, Jorg
+  family: Drenkow
+  given: Jorg
+  initials: J
+  citation_name: Drenkow J
+  full_name: Jorg Drenkow
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Zaleski, Chris
+  family: Zaleski
+  given: Chris
+  initials: C
+  citation_name: Zaleski C
+  full_name: Chris Zaleski
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Dobin, Alex
+  family: Dobin
+  given: Alex
+  initials: A
+  citation_name: Dobin A
+  full_name: Alex Dobin
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Prieto, Pablo
+  family: Prieto
+  given: Pablo
+  initials: P
+  citation_name: Prieto P
+  full_name: Pablo Prieto
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Lagarde, Julien
+  family: Lagarde
+  given: Julien
+  initials: J
+  citation_name: Lagarde J
+  full_name: Julien Lagarde
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Bussotti, Giovanni
+  family: Bussotti
+  given: Giovanni
+  initials: G
+  citation_name: Bussotti G
+  full_name: Giovanni Bussotti
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Tanzer, Andrea
+  family: Tanzer
+  given: Andrea
+  initials: A
+  citation_name: Tanzer A
+  full_name: Andrea Tanzer
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Denas, Olgert
+  family: Denas
+  given: Olgert
+  initials: O
+  citation_name: Denas O
+  full_name: Olgert Denas
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Li, Kanwei
+  family: Li
+  given: Kanwei
+  initials: K
+  citation_name: Li K
+  full_name: Kanwei Li
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Bender, M A
+  family: Bender
+  given: M A
+  initials: MA
+  citation_name: Bender MA
+  full_name: M A Bender
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Zhang, Miaohua
+  family: Zhang
+  given: Miaohua
+  initials: M
+  citation_name: Zhang M
+  full_name: Miaohua Zhang
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Byron, Rachel
+  family: Byron
+  given: Rachel
+  initials: R
+  citation_name: Byron R
+  full_name: Rachel Byron
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Groudine, Mark T
+  family: Groudine
+  given: Mark T
+  initials: MT
+  citation_name: Groudine MT
+  full_name: Mark T Groudine
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: McCleary, David
+  family: McCleary
+  given: David
+  initials: D
+  citation_name: McCleary D
+  full_name: David McCleary
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Pham, Long
+  family: Pham
+  given: Long
+  initials: L
+  citation_name: Pham L
+  full_name: Long Pham
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Ye, Zhen
+  family: Ye
+  given: Zhen
+  initials: Z
+  citation_name: Ye Z
+  full_name: Zhen Ye
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Kuan, Samantha
+  family: Kuan
+  given: Samantha
+  initials: S
+  citation_name: Kuan S
+  full_name: Samantha Kuan
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Edsall, Lee
+  family: Edsall
+  given: Lee
+  initials: L
+  citation_name: Edsall L
+  full_name: Lee Edsall
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Wu, Yi-Chieh
+  family: Wu
+  given: Yi-Chieh
+  initials: YC
+  citation_name: Wu YC
+  full_name: Yi-Chieh Wu
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Rasmussen, Matthew D
+  family: Rasmussen
+  given: Matthew D
+  initials: MD
+  citation_name: Rasmussen MD
+  full_name: Matthew D Rasmussen
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Bansal, Mukul S
+  family: Bansal
+  given: Mukul S
+  initials: MS
+  citation_name: Bansal MS
+  full_name: Mukul S Bansal
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Kellis, Manolis
+  family: Kellis
+  given: Manolis
+  initials: M
+  citation_name: Kellis M
+  full_name: Manolis Kellis
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Keller, Cheryl A
+  family: Keller
+  given: Cheryl A
+  initials: CA
+  citation_name: Keller CA
+  full_name: Cheryl A Keller
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Morrissey, Christapher S
+  family: Morrissey
+  given: Christapher S
+  initials: CS
+  citation_name: Morrissey CS
+  full_name: Christapher S Morrissey
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Mishra, Tejaswini
+  family: Mishra
+  given: Tejaswini
+  initials: T
+  citation_name: Mishra T
+  full_name: Tejaswini Mishra
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Jain, Deepti
+  family: Jain
+  given: Deepti
+  initials: D
+  citation_name: Jain D
+  full_name: Deepti Jain
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Dogan, Nergiz
+  family: Dogan
+  given: Nergiz
+  initials: N
+  citation_name: Dogan N
+  full_name: Nergiz Dogan
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Harris, Robert S
+  family: Harris
+  given: Robert S
+  initials: RS
+  citation_name: Harris RS
+  full_name: Robert S Harris
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Cayting, Philip
+  family: Cayting
+  given: Philip
+  initials: P
+  citation_name: Cayting P
+  full_name: Philip Cayting
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Kawli, Trupti
+  family: Kawli
+  given: Trupti
+  initials: T
+  citation_name: Kawli T
+  full_name: Trupti Kawli
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Boyle, Alan P
+  family: Boyle
+  given: Alan P
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- raw: Euskirchen, Ghia
+  family: Euskirchen
+  given: Ghia
+  initials: G
+  citation_name: Euskirchen G
+  full_name: Ghia Euskirchen
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Kundaje, Anshul
+  family: Kundaje
+  given: Anshul
+  initials: A
+  citation_name: Kundaje A
+  full_name: Anshul Kundaje
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Lin, Shin
+  family: Lin
+  given: Shin
+  initials: S
+  citation_name: Lin S
+  full_name: Shin Lin
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Lin, Yiing
+  family: Lin
+  given: Yiing
+  initials: Y
+  citation_name: Lin Y
+  full_name: Yiing Lin
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Jansen, Camden
+  family: Jansen
+  given: Camden
+  initials: C
+  citation_name: Jansen C
+  full_name: Camden Jansen
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Malladi, Venkat S
+  family: Malladi
+  given: Venkat S
+  initials: VS
+  citation_name: Malladi VS
+  full_name: Venkat S Malladi
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Cline, Melissa S
+  family: Cline
+  given: Melissa S
+  initials: MS
+  citation_name: Cline MS
+  full_name: Melissa S Cline
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Erickson, Drew T
+  family: Erickson
+  given: Drew T
+  initials: DT
+  citation_name: Erickson DT
+  full_name: Drew T Erickson
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Kirkup, Vanessa M
+  family: Kirkup
+  given: Vanessa M
+  initials: VM
+  citation_name: Kirkup VM
+  full_name: Vanessa M Kirkup
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Learned, Katrina
+  family: Learned
+  given: Katrina
+  initials: K
+  citation_name: Learned K
+  full_name: Katrina Learned
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Sloan, Cricket A
+  family: Sloan
+  given: Cricket A
+  initials: CA
+  citation_name: Sloan CA
+  full_name: Cricket A Sloan
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Rosenbloom, Kate R
+  family: Rosenbloom
+  given: Kate R
+  initials: KR
+  citation_name: Rosenbloom KR
+  full_name: Kate R Rosenbloom
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Lacerda de Sousa, Beatriz
+  family: Lacerda de Sousa
+  given: Beatriz
+  initials: B
+  citation_name: Lacerda de Sousa B
+  full_name: Beatriz Lacerda de Sousa
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Beal, Kathryn
+  family: Beal
+  given: Kathryn
+  initials: K
+  citation_name: Beal K
+  full_name: Kathryn Beal
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Pignatelli, Miguel
+  family: Pignatelli
+  given: Miguel
+  initials: M
+  citation_name: Pignatelli M
+  full_name: Miguel Pignatelli
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Flicek, Paul
+  family: Flicek
+  given: Paul
+  initials: P
+  citation_name: Flicek P
+  full_name: Paul Flicek
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Lian, Jin
+  family: Lian
+  given: Jin
+  initials: J
+  citation_name: Lian J
+  full_name: Jin Lian
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Kahveci, Tamer
+  family: Kahveci
+  given: Tamer
+  initials: T
+  citation_name: Kahveci T
+  full_name: Tamer Kahveci
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Lee, Dongwon
+  family: Lee
+  given: Dongwon
+  initials: D
+  citation_name: Lee D
+  full_name: Dongwon Lee
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Kent, W James
+  family: Kent
+  given: W James
+  initials: WJ
+  citation_name: Kent WJ
+  full_name: W James Kent
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Ramalho Santos, Miguel
+  family: Ramalho Santos
+  given: Miguel
+  initials: M
+  citation_name: Ramalho Santos M
+  full_name: Miguel Ramalho Santos
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Herrero, Javier
+  family: Herrero
+  given: Javier
+  initials: J
+  citation_name: Herrero J
+  full_name: Javier Herrero
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Notredame, Cedric
+  family: Notredame
+  given: Cedric
+  initials: C
+  citation_name: Notredame C
+  full_name: Cedric Notredame
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Johnson, Audra
+  family: Johnson
+  given: Audra
+  initials: A
+  citation_name: Johnson A
+  full_name: Audra Johnson
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Vong, Shinny
+  family: Vong
+  given: Shinny
+  initials: S
+  citation_name: Vong S
+  full_name: Shinny Vong
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Lee, Kristen
+  family: Lee
+  given: Kristen
+  initials: K
+  citation_name: Lee K
+  full_name: Kristen Lee
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Bates, Daniel
+  family: Bates
+  given: Daniel
+  initials: D
+  citation_name: Bates D
+  full_name: Daniel Bates
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Neri, Fidencio
+  family: Neri
+  given: Fidencio
+  initials: F
+  citation_name: Neri F
+  full_name: Fidencio Neri
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Diegel, Morgan
+  family: Diegel
+  given: Morgan
+  initials: M
+  citation_name: Diegel M
+  full_name: Morgan Diegel
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Canfield, Theresa
+  family: Canfield
+  given: Theresa
+  initials: T
+  citation_name: Canfield T
+  full_name: Theresa Canfield
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Sabo, Peter J
+  family: Sabo
+  given: Peter J
+  initials: PJ
+  citation_name: Sabo PJ
+  full_name: Peter J Sabo
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Wilken, Matthew S
+  family: Wilken
+  given: Matthew S
+  initials: MS
+  citation_name: Wilken MS
+  full_name: Matthew S Wilken
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Reh, Thomas A
+  family: Reh
+  given: Thomas A
+  initials: TA
+  citation_name: Reh TA
+  full_name: Thomas A Reh
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Giste, Erika
+  family: Giste
+  given: Erika
+  initials: E
+  citation_name: Giste E
+  full_name: Erika Giste
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Shafer, Anthony
+  family: Shafer
+  given: Anthony
+  initials: A
+  citation_name: Shafer A
+  full_name: Anthony Shafer
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Kutyavin, Tanya
+  family: Kutyavin
+  given: Tanya
+  initials: T
+  citation_name: Kutyavin T
+  full_name: Tanya Kutyavin
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Haugen, Eric
+  family: Haugen
+  given: Eric
+  initials: E
+  citation_name: Haugen E
+  full_name: Eric Haugen
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Dunn, Douglas
+  family: Dunn
+  given: Douglas
+  initials: D
+  citation_name: Dunn D
+  full_name: Douglas Dunn
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Reynolds, Alex P
+  family: Reynolds
+  given: Alex P
+  initials: AP
+  citation_name: Reynolds AP
+  full_name: Alex P Reynolds
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Neph, Shane
+  family: Neph
+  given: Shane
+  initials: S
+  citation_name: Neph S
+  full_name: Shane Neph
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Humbert, Richard
+  family: Humbert
+  given: Richard
+  initials: R
+  citation_name: Humbert R
+  full_name: Richard Humbert
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Hansen, R Scott
+  family: Hansen
+  given: R Scott
+  initials: RS
+  citation_name: Hansen RS
+  full_name: R Scott Hansen
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: De Bruijn, Marella
+  family: De Bruijn
+  given: Marella
+  initials: M
+  citation_name: De Bruijn M
+  full_name: Marella De Bruijn
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Selleri, Licia
+  family: Selleri
+  given: Licia
+  initials: L
+  citation_name: Selleri L
+  full_name: Licia Selleri
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Rudensky, Alexander
+  family: Rudensky
+  given: Alexander
+  initials: A
+  citation_name: Rudensky A
+  full_name: Alexander Rudensky
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Josefowicz, Steven
+  family: Josefowicz
+  given: Steven
+  initials: S
+  citation_name: Josefowicz S
+  full_name: Steven Josefowicz
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Samstein, Robert
+  family: Samstein
+  given: Robert
+  initials: R
+  citation_name: Samstein R
+  full_name: Robert Samstein
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Eichler, Evan E
+  family: Eichler
+  given: Evan E
+  initials: EE
+  citation_name: Eichler EE
+  full_name: Evan E Eichler
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Orkin, Stuart H
+  family: Orkin
+  given: Stuart H
+  initials: SH
+  citation_name: Orkin SH
+  full_name: Stuart H Orkin
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Levasseur, Dana
+  family: Levasseur
+  given: Dana
+  initials: D
+  citation_name: Levasseur D
+  full_name: Dana Levasseur
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Papayannopoulou, Thalia
+  family: Papayannopoulou
+  given: Thalia
+  initials: T
+  citation_name: Papayannopoulou T
+  full_name: Thalia Papayannopoulou
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Chang, Kai-Hsin
+  family: Chang
+  given: Kai-Hsin
+  initials: KH
+  citation_name: Chang KH
+  full_name: Kai-Hsin Chang
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Skoultchi, Arthur
+  family: Skoultchi
+  given: Arthur
+  initials: A
+  citation_name: Skoultchi A
+  full_name: Arthur Skoultchi
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Gosh, Srikanta
+  family: Gosh
+  given: Srikanta
+  initials: S
+  citation_name: Gosh S
+  full_name: Srikanta Gosh
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Disteche, Christine
+  family: Disteche
+  given: Christine
+  initials: C
+  citation_name: Disteche C
+  full_name: Christine Disteche
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Treuting, Piper
+  family: Treuting
+  given: Piper
+  initials: P
+  citation_name: Treuting P
+  full_name: Piper Treuting
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Wang, Yanli
+  family: Wang
+  given: Yanli
+  initials: Y
+  citation_name: Wang Y
+  full_name: Yanli Wang
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Weiss, Mitchell J
+  family: Weiss
+  given: Mitchell J
+  initials: MJ
+  citation_name: Weiss MJ
+  full_name: Mitchell J Weiss
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Blobel, Gerd A
+  family: Blobel
+  given: Gerd A
+  initials: GA
+  citation_name: Blobel GA
+  full_name: Gerd A Blobel
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Cao, Xiaoyi
+  family: Cao
+  given: Xiaoyi
+  initials: X
+  citation_name: Cao X
+  full_name: Xiaoyi Cao
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Zhong, Sheng
+  family: Zhong
+  given: Sheng
+  initials: S
+  citation_name: Zhong S
+  full_name: Sheng Zhong
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Wang, Ting
+  family: Wang
+  given: Ting
+  initials: T
+  citation_name: Wang T
+  full_name: Ting Wang
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Good, Peter J.
+  family: Good
+  given: Peter J.
+  initials: PJ
+  citation_name: Good PJ
+  full_name: Peter J. Good
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Lowdon, Rebecca F.
+  family: Lowdon
+  given: Rebecca F.
+  initials: RF
+  citation_name: Lowdon RF
+  full_name: Rebecca F. Lowdon
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Adams, Leslie B
+  family: Adams
+  given: Leslie B
+  initials: LB
+  citation_name: Adams LB
+  full_name: Leslie B Adams
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Zhou, Xiao-Qiao
+  family: Zhou
+  given: Xiao-Qiao
+  initials: XQ
+  citation_name: Zhou XQ
+  full_name: Xiao-Qiao Zhou
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Pazin, Michael J
+  family: Pazin
+  given: Michael J
+  initials: MJ
+  citation_name: Pazin MJ
+  full_name: Michael J Pazin
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Feingold, Elise A.
+  family: Feingold
+  given: Elise A.
+  initials: EA
+  citation_name: Feingold EA
+  full_name: Elise A. Feingold
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Wold, Barbara
+  family: Wold
+  given: Barbara
+  initials: B
+  citation_name: Wold B
+  full_name: Barbara Wold
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Taylor, James
+  family: Taylor
+  given: James
+  initials: J
+  citation_name: Taylor J
+  full_name: James Taylor
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Mortazavi, Ali
+  family: Mortazavi
+  given: Ali
+  initials: A
+  citation_name: Mortazavi A
+  full_name: Ali Mortazavi
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Weissman, Sherman M
+  family: Weissman
+  given: Sherman M
+  initials: SM
+  citation_name: Weissman SM
+  full_name: Sherman M Weissman
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Stamatoyannopoulos, John A
+  family: Stamatoyannopoulos
+  given: John A
+  initials: JA
+  citation_name: Stamatoyannopoulos JA
+  full_name: John A Stamatoyannopoulos
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Snyder, Michael P
+  family: Snyder
+  given: Michael P
+  initials: MP
+  citation_name: Snyder MP
+  full_name: Michael P Snyder
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Guigo, Roderic
+  family: Guigo
+  given: Roderic
+  initials: R
+  citation_name: Guigo R
+  full_name: Roderic Guigo
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Gingeras, Thomas R.
+  family: Gingeras
+  given: Thomas R.
+  initials: TR
+  citation_name: Gingeras TR
+  full_name: Thomas R. Gingeras
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Gilbert, David M
+  family: Gilbert
+  given: David M
+  initials: DM
+  citation_name: Gilbert DM
+  full_name: David M Gilbert
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Hardison, Ross C
+  family: Hardison
+  given: Ross C
+  initials: RC
+  citation_name: Hardison RC
+  full_name: Ross C Hardison
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Beer, Michael A
+  family: Beer
+  given: Michael A
+  initials: MA
+  citation_name: Beer MA
+  full_name: Michael A Beer
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Ren, Bing
+  family: Ren
+  given: Bing
+  initials: B
+  citation_name: Ren B
+  full_name: Bing Ren
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: '{Mouse ENCODE Consortium}'
+  family: Mouse ENCODE Consortium
+  given: ''
+  initials: ''
+  citation_name: Mouse ENCODE Consortium
+  full_name: Mouse ENCODE Consortium
+  corporate: true
+  equal_contrib: false
+  co_senior: false
+journal: Nature
+year: 2014
+month: 11
+sort_date: '2014-11-01'
+volume: '515'
+number: '7527'
+pages: 355--364
+doi: 10.1038/nature13992
+PMID: '25409824'
+primary_url: http://www.ncbi.nlm.nih.gov/pubmed/25409824
+url: http://www.ncbi.nlm.nih.gov/pubmed/25409824
+pdf: http://boylelab.org/pubs/Nature_2014_Yue.pdf
+links:
+  article: http://www.ncbi.nlm.nih.gov/pubmed/25409824
+  pdf: http://boylelab.org/pubs/Nature_2014_Yue.pdf
+members:
+- apboyle
+member_roles: {}
+matched_members:
+- apboyle
+lab_roles:
+  first: []
+  senior: []
+  corresponding: []
+lab_led: false
+featured: false
+topics: []
+abstract: |-
+  The laboratory mouse shares the majority of its protein-coding genes with humans, making it the premier model organism in biomedical research, yet the two mammals differ in significant ways. To gain greater insights into both shared and species-specific transcriptional and cellular regulatory programs in the mouse, the Mouse ENCODE Consortium has mapped transcription, DNase I hypersensitivity, transcription factor binding, chromatin modifications and replication domains throughout the mouse genome in diverse cell and tissue types. By comparing with the human genome, we not only confirm substantial conservation in the newly annotated potential functional sequences, but also find a large degree of divergence of sequences involved in transcriptional regulation, chromatin state and higher order chromatin organization. Our results illuminate the wide range of evolutionary forces acting on genes and their regulatory regions, and provide a general resource for research into mammalian biology and mechanisms of human diseases.
+bibtex: |-
+  @article{Yue2014MouseENCODE,
+    author = {*Yue, Feng and *Cheng, Yong and *Breschi, Alessandra and *Vierstra, Jeff and *Wu, Weisheng and *Ryba, Tyrone and *Sandstrom, Richard and *Ma, Zhihai and *Davis, Carrie and *Pope, Benjamin D and *Shen, Yin and Pervouchine, Dmitri D and Djebali, Sarah and Thurman, Robert E and Kaul, Rajinder and Rynes, Eric and Kirilusha, Anthony and Marinov, Georgi K and Williams, Brian A and Trout, Diane and Amrhein, Henry and Fisher-Aylor, Katherine and Antoshechkin, Igor and DeSalvo, Gilberto and See, Lei-Hoon and Fastuca, Meagan and Drenkow, Jorg and Zaleski, Chris and Dobin, Alex and Prieto, Pablo and Lagarde, Julien and Bussotti, Giovanni and Tanzer, Andrea and Denas, Olgert and Li, Kanwei and Bender, M A and Zhang, Miaohua and Byron, Rachel and Groudine, Mark T and McCleary, David and Pham, Long and Ye, Zhen and Kuan, Samantha and Edsall, Lee and Wu, Yi-Chieh and Rasmussen, Matthew D and Bansal, Mukul S and Kellis, Manolis and Keller, Cheryl A and Morrissey, Christapher S and Mishra, Tejaswini and Jain, Deepti and Dogan, Nergiz and Harris, Robert S and Cayting, Philip and Kawli, Trupti and Boyle, Alan P and Euskirchen, Ghia and Kundaje, Anshul and Lin, Shin and Lin, Yiing and Jansen, Camden and Malladi, Venkat S and Cline, Melissa S and Erickson, Drew T and Kirkup, Vanessa M and Learned, Katrina and Sloan, Cricket A and Rosenbloom, Kate R and Lacerda de Sousa, Beatriz and Beal, Kathryn and Pignatelli, Miguel and Flicek, Paul and Lian, Jin and Kahveci, Tamer and Lee, Dongwon and Kent, W James and Ramalho Santos, Miguel and Herrero, Javier and Notredame, Cedric and Johnson, Audra and Vong, Shinny and Lee, Kristen and Bates, Daniel and Neri, Fidencio and Diegel, Morgan and Canfield, Theresa and Sabo, Peter J and Wilken, Matthew S and Reh, Thomas A and Giste, Erika and Shafer, Anthony and Kutyavin, Tanya and Haugen, Eric and Dunn, Douglas and Reynolds, Alex P and Neph, Shane and Humbert, Richard and Hansen, R Scott and De Bruijn, Marella and Selleri, Licia and Rudensky, Alexander and Josefowicz, Steven and Samstein, Robert and Eichler, Evan E and Orkin, Stuart H and Levasseur, Dana and Papayannopoulou, Thalia and Chang, Kai-Hsin and Skoultchi, Arthur and Gosh, Srikanta and Disteche, Christine and Treuting, Piper and Wang, Yanli and Weiss, Mitchell J and Blobel, Gerd A and Cao, Xiaoyi and Zhong, Sheng and Wang, Ting and Good, Peter J. and Lowdon, Rebecca F. and Adams, Leslie B and Zhou, Xiao-Qiao and Pazin, Michael J and Feingold, Elise A. and Wold, Barbara and Taylor, James and Mortazavi, Ali and Weissman, Sherman M and Stamatoyannopoulos, John A and Snyder, Michael P and Guigo, Roderic and Gingeras, Thomas R. and Gilbert, David M and Hardison, Ross C and Beer, Michael A and Ren, Bing and {Mouse ENCODE Consortium}},
+    title = {{A comparative encyclopedia of DNA elements in the mouse genome.}},
+    journal = {Nature},
+    year = {2014},
+    volume = {515},
+    number = {7527},
+    pages = {355--364},
+    month = nov,
+    doi = {10.1038/nature13992},
+    abstract = {The laboratory mouse shares the majority of its protein-coding genes with humans, making it the premier model organism in biomedical research, yet the two mammals differ in significant ways. To gain greater insights into both shared and species-specific transcriptional and cellular regulatory programs in the mouse, the Mouse ENCODE Consortium has mapped transcription, DNase I hypersensitivity, transcription factor binding, chromatin modifications and replication domains throughout the mouse genome in diverse cell and tissue types. By comparing with the human genome, we not only confirm substantial conservation in the newly annotated potential functional sequences, but also find a large degree of divergence of sequences involved in transcriptional regulation, chromatin state and higher order chromatin organization. Our results illuminate the wide range of evolutionary forces acting on genes and their regulatory regions, and provide a general resource for research into mammalian biology and mechanisms of human diseases.},
+    url = {http://www.ncbi.nlm.nih.gov/pubmed/25409824},
+    pdf = {http://boylelab.org/pubs/Nature_2014_Yue.pdf},
+    note = {{PMID:} 25409824}
+  }
+---

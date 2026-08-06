@@ -1,0 +1,110 @@
+---
+generated: true
+bibkey: Kenney2026SEMPLR
+entry_type: article
+publication_type: article
+status: published
+title: 'SEMPLR: an R package for transcription factor binding prediction'
+authors: Kenney GE, Sherpa RN, Burgess JD, Boyle AP, Phanstiel DH
+authors_short: Kenney GE, Sherpa RN, Burgess JD, Boyle AP, Phanstiel DH
+author_count: 5
+author_list:
+- raw: Kenney, Grace E
+  family: Kenney
+  given: Grace E
+  initials: GE
+  citation_name: Kenney GE
+  full_name: Grace E Kenney
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Sherpa, Rintsen N
+  family: Sherpa
+  given: Rintsen N
+  initials: RN
+  citation_name: Sherpa RN
+  full_name: Rintsen N Sherpa
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: rintsen
+  member_url: /people/Rintsen_Sherpa/
+  member_name: Rintsen Sherpa
+- raw: Burgess, Jeremy D
+  family: Burgess
+  given: Jeremy D
+  initials: JD
+  citation_name: Burgess JD
+  full_name: Jeremy D Burgess
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Boyle, Alan P
+  family: Boyle
+  given: Alan P
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- raw: Phanstiel, Douglas H
+  family: Phanstiel
+  given: Douglas H
+  initials: DH
+  citation_name: Phanstiel DH
+  full_name: Douglas H Phanstiel
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+journal: Bioinformatics
+year: 2026
+month: 6
+sort_date: '2026-06-01'
+volume: '42'
+number: '6'
+pages: btag383
+doi: 10.1093/bioinformatics/btag383
+PMID: '42286344'
+primary_url: https://doi.org/10.1093/bioinformatics/btag383
+url: https://doi.org/10.1093/bioinformatics/btag383
+pdf: https://academic.oup.com/bioinformatics/article-pdf/42/6/btag383/68520077/btag383.pdf
+links:
+  article: https://doi.org/10.1093/bioinformatics/btag383
+  pdf: https://academic.oup.com/bioinformatics/article-pdf/42/6/btag383/68520077/btag383.pdf
+members:
+- rintsen
+- apboyle
+member_roles: {}
+matched_members:
+- apboyle
+- rintsen
+lab_roles:
+  first: []
+  senior: []
+  corresponding: []
+lab_led: false
+featured: false
+topics: []
+abstract: |-
+  SEMPLR is an R package that predicts transcription factor binding and variant effects using SNP Effect Matrices (SEMs), providing efficient, genome-wide scoring, enrichment testing, and visualization tools for comprehensive analysis of regulatory sequences.Available on GitHub at https://github.com/grkenney/SEMPLR and on Bioconductor at https://bioconductor.org/packages/release/bioc/html/SEMPLR.html.
+bibtex: |-
+  @article{Kenney2026SEMPLR,
+    author = {Kenney, Grace E and Sherpa, Rintsen N and Burgess, Jeremy D and Boyle, Alan P and Phanstiel, Douglas H},
+    title = {{SEMPLR: an R package for transcription factor binding prediction}},
+    journal = {Bioinformatics},
+    volume = {42},
+    number = {6},
+    pages = {btag383},
+    year = {2026},
+    month = {06},
+    abstract = {{SEMPLR is an R package that predicts transcription factor binding and variant effects using SNP Effect Matrices (SEMs), providing efficient, genome-wide scoring, enrichment testing, and visualization tools for comprehensive analysis of regulatory sequences.Available on GitHub at https://github.com/grkenney/SEMPLR and on Bioconductor at https://bioconductor.org/packages/release/bioc/html/SEMPLR.html.}},
+    doi = {10.1093/bioinformatics/btag383},
+    url = {https://doi.org/10.1093/bioinformatics/btag383},
+    pdf = {https://academic.oup.com/bioinformatics/article-pdf/42/6/btag383/68520077/btag383.pdf},
+    note = {{PMID:} 42286344}
+  }
+---

@@ -1,0 +1,67 @@
+---
+generated: true
+bibkey: CAGIConsortium2024VariantInterpretation
+entry_type: article
+publication_type: article
+status: published
+title: CAGI, the Critical Assessment of Genome Interpretation, establishes progress and prospects for
+  computational genetic variant interpretation methods.
+authors: The Critical Assessment of Genome Interpretation Consortium
+authors_short: The Critical Assessment of Genome Interpretation Consortium
+author_count: 1
+author_list:
+- raw: '{The Critical Assessment of Genome Interpretation Consortium}'
+  family: The Critical Assessment of Genome Interpretation Consortium
+  given: ''
+  initials: ''
+  citation_name: The Critical Assessment of Genome Interpretation Consortium
+  full_name: The Critical Assessment of Genome Interpretation Consortium
+  corporate: true
+  equal_contrib: false
+  co_senior: false
+journal: Genome Biology
+year: 2024
+month: 2
+sort_date: '2024-02-01'
+volume: '25'
+number: '1'
+pages: '53'
+doi: 10.1186/s13059-023-03113-6
+PMID: '38389099'
+primary_url: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03113-6
+url: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03113-6
+pdf: http://boylelab.org/pubs/Genome_Biology_2024_CAGI.pdf
+links:
+  article: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03113-6
+  pdf: http://boylelab.org/pubs/Genome_Biology_2024_CAGI.pdf
+members:
+- apboyle
+member_roles:
+  apboyle: consortium
+matched_members: []
+lab_roles:
+  first: []
+  senior: []
+  corresponding: []
+lab_led: false
+featured: false
+topics: []
+abstract: |-
+  Background: The Critical Assessment of Genome Interpretation (CAGI) aims to advance the state-of-the-art for computational prediction of genetic variant impact, particularly where relevant to disease. The five complete editions of the CAGI community experiment comprised 50 challenges, in which participants made blind predictions of phenotypes from genetic data, and these were evaluated by independent assessors. Results: Performance was particularly strong for clinical pathogenic variants, including some difficult-to-diagnose cases, and extends to interpretation of cancer-related variants. Missense variant interpretation methods were able to estimate biochemical effects with increasing accuracy. Assessment of methods for regulatory variants and complex trait disease risk was less definitive and indicates performance potentially suitable for auxiliary use in the clinic. Conclusions: Results show that while current methods are imperfect, they have major utility for research and clinical applications. Emerging methods and increasingly large, robust datasets for training and assessment promise further progress ahead.
+bibtex: |-
+  @article{CAGIConsortium2024VariantInterpretation,
+    title = {{CAGI, the Critical Assessment of Genome Interpretation, establishes progress and prospects for computational genetic variant interpretation methods.}},
+    author = {{The Critical Assessment of Genome Interpretation Consortium}},
+    year = {2024},
+    month = {02},
+    volume = {25},
+    pages = {53},
+    number = {1},
+    doi = {10.1186/s13059-023-03113-6},
+    abstract = {Background: The Critical Assessment of Genome Interpretation (CAGI) aims to advance the state-of-the-art for computational prediction of genetic variant impact, particularly where relevant to disease. The five complete editions of the CAGI community experiment comprised 50 challenges, in which participants made blind predictions of phenotypes from genetic data, and these were evaluated by independent assessors. Results: Performance was particularly strong for clinical pathogenic variants, including some difficult-to-diagnose cases, and extends to interpretation of cancer-related variants. Missense variant interpretation methods were able to estimate biochemical effects with increasing accuracy. Assessment of methods for regulatory variants and complex trait disease risk was less definitive and indicates performance potentially suitable for auxiliary use in the clinic. Conclusions: Results show that while current methods are imperfect, they have major utility for research and clinical applications. Emerging methods and increasingly large, robust datasets for training and assessment promise further progress ahead.},
+    url = {https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03113-6},
+    pdf = {http://boylelab.org/pubs/Genome_Biology_2024_CAGI.pdf},
+    journal = {Genome Biology},
+    note = {{PMID:} 38389099}
+  }
+---

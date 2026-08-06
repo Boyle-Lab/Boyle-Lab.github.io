@@ -1,0 +1,171 @@
+---
+generated: true
+bibkey: Boyle2012RegulomeDB
+entry_type: article
+publication_type: article
+status: published
+title: Annotation of functional variation in personal genomes using RegulomeDB
+authors: Boyle AP, Hong EL, Hariharan M, Cheng Y, Schaub MA, Kasowski M, Karczewski KJ, Park J, Hitz BC,
+  Weng S, Cherry JM, Snyder M
+authors_short: Boyle AP, Hong EL, Hariharan M, Cheng Y, Schaub MA, Kasowski M, …, Snyder M
+author_count: 12
+author_list:
+- raw: Boyle, Alan P
+  family: Boyle
+  given: Alan P
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- raw: Hong, Eurie L
+  family: Hong
+  given: Eurie L
+  initials: EL
+  citation_name: Hong EL
+  full_name: Eurie L Hong
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Hariharan, Manoj
+  family: Hariharan
+  given: Manoj
+  initials: M
+  citation_name: Hariharan M
+  full_name: Manoj Hariharan
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Cheng, Yong
+  family: Cheng
+  given: Yong
+  initials: Y
+  citation_name: Cheng Y
+  full_name: Yong Cheng
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Schaub, Marc A
+  family: Schaub
+  given: Marc A
+  initials: MA
+  citation_name: Schaub MA
+  full_name: Marc A Schaub
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Kasowski, Maya
+  family: Kasowski
+  given: Maya
+  initials: M
+  citation_name: Kasowski M
+  full_name: Maya Kasowski
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Karczewski, Konrad J
+  family: Karczewski
+  given: Konrad J
+  initials: KJ
+  citation_name: Karczewski KJ
+  full_name: Konrad J Karczewski
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Park, Julie
+  family: Park
+  given: Julie
+  initials: J
+  citation_name: Park J
+  full_name: Julie Park
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Hitz, Benjamin C
+  family: Hitz
+  given: Benjamin C
+  initials: BC
+  citation_name: Hitz BC
+  full_name: Benjamin C Hitz
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Weng, Shuai
+  family: Weng
+  given: Shuai
+  initials: S
+  citation_name: Weng S
+  full_name: Shuai Weng
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Cherry, J Michael
+  family: Cherry
+  given: J Michael
+  initials: JM
+  citation_name: Cherry JM
+  full_name: J Michael Cherry
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Snyder, Michael
+  family: Snyder
+  given: Michael
+  initials: M
+  citation_name: Snyder M
+  full_name: Michael Snyder
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+journal: Genome Research
+year: 2012
+month: 9
+sort_date: '2012-09-01'
+volume: '22'
+number: '9'
+pages: 1790--1797
+doi: 10.1101/gr.137323.112
+PMID: '22955989'
+primary_url: http://www.ncbi.nlm.nih.gov/pubmed/22955989
+url: http://www.ncbi.nlm.nih.gov/pubmed/22955989
+pdf: http://boylelab.org/pubs/Genome_Res._2012_Boyle.pdf
+links:
+  article: http://www.ncbi.nlm.nih.gov/pubmed/22955989
+  pdf: http://boylelab.org/pubs/Genome_Res._2012_Boyle.pdf
+members:
+- apboyle
+member_roles: {}
+matched_members:
+- apboyle
+lab_roles:
+  first:
+  - apboyle
+  senior: []
+  corresponding: []
+lab_led: true
+featured: false
+topics: []
+abstract: |-
+  As the sequencing of healthy and disease genomes becomes more commonplace, detailed annotation provides interpretation for individual variation responsible for normal and disease phenotypes. Current approaches focus on direct changes in protein coding genes, particularly nonsynonymous mutations that directly affect the gene product. However, most individual variation occurs outside of genes and, indeed, most markers generated from genome-wide association studies (GWAS) identify variants outside of coding segments. Identification of potential regulatory changes that perturb these sites will lead to a better localization of truly functional variants and interpretation of their effects. We have developed a novel approach and database, RegulomeDB, which guides interpretation of regulatory variants in the human genome. RegulomeDB includes high-throughput, experimental data sets from ENCODE and other sources, as well as computational predictions and manual annotations to identify putative regulatory potential and identify functional variants. These data sources are combined into a powerful tool that scores variants to help separate functional variants from a large pool and provides a small set of putative sites with testable hypotheses as to their function. We demonstrate the applicability of this tool to the annotation of noncoding variants from 69 full sequenced genomes as well as that of a personal genome, where thousands of functionally associated variants were identified. Moreover, we demonstrate a GWAS where the database is able to quickly identify the known associated functional variant and provide a hypothesis as to its function. Overall, we expect this approach and resource to be valuable for the annotation of human genome sequences.
+bibtex: |-
+  @article{Boyle2012RegulomeDB,
+    title = {Annotation of functional variation in personal genomes using {RegulomeDB}},
+    volume = {22},
+    issn = {1549-5469},
+    url = {http://www.ncbi.nlm.nih.gov/pubmed/22955989},
+    pdf = {http://boylelab.org/pubs/Genome_Res._2012_Boyle.pdf},
+    doi = {10.1101/gr.137323.112},
+    abstract = {As the sequencing of healthy and disease genomes becomes more commonplace, detailed annotation provides interpretation for individual variation responsible for normal and disease phenotypes. Current approaches focus on direct changes in protein coding genes, particularly nonsynonymous mutations that directly affect the gene product. However, most individual variation occurs outside of genes and, indeed, most markers generated from genome-wide association studies {(GWAS)} identify variants outside of coding segments. Identification of potential regulatory changes that perturb these sites will lead to a better localization of truly functional variants and interpretation of their effects. We have developed a novel approach and database, {RegulomeDB}, which guides interpretation of regulatory variants in the human genome. {RegulomeDB} includes high-throughput, experimental data sets from {ENCODE} and other sources, as well as computational predictions and manual annotations to identify putative regulatory potential and identify functional variants. These data sources are combined into a powerful tool that scores variants to help separate functional variants from a large pool and provides a small set of putative sites with testable hypotheses as to their function. We demonstrate the applicability of this tool to the annotation of noncoding variants from 69 full sequenced genomes as well as that of a personal genome, where thousands of functionally associated variants were identified. Moreover, we demonstrate a {GWAS} where the database is able to quickly identify the known associated functional variant and provide a hypothesis as to its function. Overall, we expect this approach and resource to be valuable for the annotation of human genome sequences.},
+    number = {9},
+    journal = {Genome Research},
+    author = {Boyle, Alan P and Hong, Eurie L and Hariharan, Manoj and Cheng, Yong and Schaub, Marc A and Kasowski, Maya and Karczewski, Konrad J and Park, Julie and Hitz, Benjamin C and Weng, Shuai and Cherry, J Michael and Snyder, Michael},
+    month = sep,
+    year = {2012},
+    note = {{PMID:} 22955989},
+    pages = {1790--1797}
+  }
+---

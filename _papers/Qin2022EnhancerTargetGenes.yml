@@ -1,0 +1,162 @@
+---
+generated: true
+bibkey: Qin2022EnhancerTargetGenes
+entry_type: article
+publication_type: article
+status: published
+title: Comprehensive enhancer-target gene assignments improve gene set level interpretation of genome-wide
+  regulatory data
+authors: Qin T, Lee C, Li S, Cavalcante RG, Orchard P, Yao H, Zhang H, Wang S, Patil S, Boyle AP, Sartor
+  MA
+authors_short: Qin T, Lee C, Li S, Cavalcante RG, Orchard P, Yao H, …, Sartor MA
+author_count: 11
+author_list:
+- raw: Qin, Tingting
+  family: Qin
+  given: Tingting
+  initials: T
+  citation_name: Qin T
+  full_name: Tingting Qin
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Lee, Christopher
+  family: Lee
+  given: Christopher
+  initials: C
+  citation_name: Lee C
+  full_name: Christopher Lee
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Li, Shiting
+  family: Li
+  given: Shiting
+  initials: S
+  citation_name: Li S
+  full_name: Shiting Li
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Cavalcante, Raymond G
+  family: Cavalcante
+  given: Raymond G
+  initials: RG
+  citation_name: Cavalcante RG
+  full_name: Raymond G Cavalcante
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Orchard, Peter
+  family: Orchard
+  given: Peter
+  initials: P
+  citation_name: Orchard P
+  full_name: Peter Orchard
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Yao, Heming
+  family: Yao
+  given: Heming
+  initials: H
+  citation_name: Yao H
+  full_name: Heming Yao
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Zhang, Hanrui
+  family: Zhang
+  given: Hanrui
+  initials: H
+  citation_name: Zhang H
+  full_name: Hanrui Zhang
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Wang, Shuze
+  family: Wang
+  given: Shuze
+  initials: S
+  citation_name: Wang S
+  full_name: Shuze Wang
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Patil, Snehal
+  family: Patil
+  given: Snehal
+  initials: S
+  citation_name: Patil S
+  full_name: Snehal Patil
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Boyle, Alan P
+  family: Boyle
+  given: Alan P
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- raw: Sartor, Maureen A
+  family: Sartor
+  given: Maureen A
+  initials: MA
+  citation_name: Sartor MA
+  full_name: Maureen A Sartor
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+journal: Genome Biology
+year: 2022
+month: 4
+sort_date: '2022-04-01'
+volume: '23'
+number: '1'
+pages: '105'
+doi: 10.1186/s13059-022-02668-0
+PMID: '35473573'
+primary_url: https://doi.org/10.1186/s13059-022-02668-0
+url: https://doi.org/10.1186/s13059-022-02668-0
+pdf: http://boylelab.org/pubs/Genome_Biology_2022_Qin.pdf
+links:
+  article: https://doi.org/10.1186/s13059-022-02668-0
+  pdf: http://boylelab.org/pubs/Genome_Biology_2022_Qin.pdf
+members:
+- apboyle
+member_roles: {}
+matched_members:
+- apboyle
+lab_roles:
+  first: []
+  senior: []
+  corresponding: []
+lab_led: false
+featured: false
+topics: []
+abstract: |-
+  Revealing the gene targets of distal regulatory elements is challenging yet critical for interpreting regulome data. Experiment-derived enhancer-gene links are restricted to a small set of enhancers and/or cell types, while the accuracy of genome-wide approaches remains elusive due to the lack of a systematic evaluation. We combined multiple spatial and in silico approaches for defining enhancer locations and linking them to their target genes aggregated across >500 cell types, generating 1860 human genome-wide distal enhancer-to-target gene definitions (EnTDefs). To evaluate performance, we used gene set enrichment (GSE) testing on 87 independent ENCODE ChIP-seq datasets of 34 transcription factors (TFs) and assessed concordance of results with known TF Gene Ontology annotations, and other benchmarks.
+bibtex: |-
+  @article{Qin2022EnhancerTargetGenes,
+    author = {Qin, Tingting and Lee, Christopher and Li, Shiting and Cavalcante, Raymond G and Orchard, Peter and Yao, Heming and Zhang, Hanrui and Wang, Shuze and Patil, Snehal and Boyle, Alan P and Sartor, Maureen A},
+    title = {{Comprehensive enhancer-target gene assignments improve gene set level interpretation of genome-wide regulatory data}},
+    year = {2022},
+    month = {apr},
+    day = {26},
+    volume = {23},
+    number = {1},
+    pages = {105},
+    doi = {10.1186/s13059-022-02668-0},
+    abstract = {{Revealing the gene targets of distal regulatory elements is challenging yet critical for interpreting regulome data. Experiment-derived enhancer-gene links are restricted to a small set of enhancers and/or cell types, while the accuracy of genome-wide approaches remains elusive due to the lack of a systematic evaluation. We combined multiple spatial and in silico approaches for defining enhancer locations and linking them to their target genes aggregated across >500 cell types, generating 1860 human genome-wide distal enhancer-to-target gene definitions (EnTDefs). To evaluate performance, we used gene set enrichment (GSE) testing on 87 independent ENCODE ChIP-seq datasets of 34 transcription factors (TFs) and assessed concordance of results with known TF Gene Ontology annotations, and other benchmarks.}},
+    url = {https://doi.org/10.1186/s13059-022-02668-0},
+    pdf = {http://boylelab.org/pubs/Genome_Biology_2022_Qin.pdf},
+    journal = {Genome Biology},
+    note = {{PMID:} 35473573}
+  }
+---

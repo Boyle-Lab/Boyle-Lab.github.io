@@ -1,0 +1,75 @@
+---
+generated: true
+bibkey: Boyle2003GenomicORFVisualization
+entry_type: article
+publication_type: article
+status: published
+title: Visualization of aligned genomic open reading frame data
+authors: Boyle AP, Boyle JA
+authors_short: Boyle AP, Boyle JA
+author_count: 2
+author_list:
+- raw: Alan P Boyle
+  family: Boyle
+  given: Alan P
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- raw: John A Boyle
+  family: Boyle
+  given: John A
+  initials: JA
+  citation_name: Boyle JA
+  full_name: John A Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+journal: Biochemistry and Molecular Biology Education
+year: 2003
+month: 1
+sort_date: '2003-01-01'
+volume: '31'
+number: '1'
+pages: 64--68
+doi: 10.1002/bmb.2003.494031010144
+primary_url: https://doi.org/10.1002/bmb.2003.494031010144
+pdf: http://boylelab.org/pubs/BAMBED_2002_Boyle.pdf
+links:
+  pdf: http://boylelab.org/pubs/BAMBED_2002_Boyle.pdf
+members:
+- apboyle
+member_roles: {}
+matched_members:
+- apboyle
+lab_roles:
+  first:
+  - apboyle
+  senior: []
+  corresponding: []
+lab_led: true
+featured: false
+topics: []
+abstract: |-
+  Students can better appreciate the value of genomic data if they are asked to use the data themselves. However, in general the enormous volume of data involved makes detailed examination difficult. Here we present a web site that allows students to study one particular aspect of sequenced genomes. They are able to align the open reading frames (ORFs) of any available genome that is of reasonable size. The ORFs may be aligned using either the start codon or the stop codon as the starting points. Results will readily show the presence of common ribosome binding sites as well as reveal interesting order within the ORFs that is nonexistent outside of them. Students will be able to ask various questions involving comparisons of genomes and see the results presented in both a tabular and graphic format. An example problem is presented under "Results."
+bibtex: |-
+  @article{Boyle2003GenomicORFVisualization,
+    title = {Visualization of aligned genomic open reading frame data},
+    issn = {1539-3429},
+    pdf = {http://boylelab.org/pubs/BAMBED_2002_Boyle.pdf},
+    abstract = {Students can better appreciate the value of genomic data if they are asked to use the data themselves. However, in general the enormous volume of data involved makes detailed examination difficult. Here we present a web site that allows students to study one particular aspect of sequenced genomes. They are able to align the open reading frames (ORFs) of any available genome that is of reasonable size. The ORFs may be aligned using either the start codon or the stop codon as the starting points. Results will readily show the presence of common ribosome binding sites as well as reveal interesting order within the ORFs that is nonexistent outside of them. Students will be able to ask various questions involving comparisons of genomes and see the results presented in both a tabular and graphic format. An example problem is presented under "Results."},
+    volume = {31},
+    number = {1},
+    pages = {64--68},
+    doi = {10.1002/bmb.2003.494031010144},
+    journal = {Biochemistry and Molecular Biology Education},
+    author = {Alan P Boyle and John A Boyle},
+    month = jan,
+    year = {2003}
+  }
+---

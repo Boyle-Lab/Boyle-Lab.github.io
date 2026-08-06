@@ -1,0 +1,104 @@
+---
+generated: true
+bibkey: Parana2025ScytonemaGenome
+entry_type: article
+publication_type: article
+status: published
+title: 'Draft de novo genome construction of Scytonema sp. PRP1: identified from single-cell sequencing
+  library preparation'
+authors: Parana P, Mumm C, McConnell MJ, Boyle AP
+authors_short: Parana P, Mumm C, McConnell MJ, Boyle AP
+author_count: 4
+author_list:
+- raw: Preston Parana
+  family: Parana
+  given: Preston
+  initials: P
+  citation_name: Parana P
+  full_name: Preston Parana
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: prparana
+  member_url: /people/Preston_Parana/
+  member_name: Preston Parana
+- raw: Camille Mumm
+  family: Mumm
+  given: Camille
+  initials: C
+  citation_name: Mumm C
+  full_name: Camille Mumm
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: crmumm
+  member_url: /people/Camille_Mumm/
+  member_name: Camille Mumm, Ph.D.
+- raw: Michael J. McConnell
+  family: McConnell
+  given: Michael J.
+  initials: MJ
+  citation_name: McConnell MJ
+  full_name: Michael J. McConnell
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Alan P. Boyle
+  family: Boyle
+  given: Alan P.
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P. Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+journal: Microbiology Resource Announcements
+year: 2025
+month: 1
+sort_date: '2025-01-01'
+pages: e00029-25
+doi: 10.1128/mra.00029-25
+PMID: '40744872'
+primary_url: https://journals.asm.org/doi/abs/10.1128/mra.00029-25
+url: https://journals.asm.org/doi/abs/10.1128/mra.00029-25
+pdf: http://boylelab.org/pubs/MRA_2025_Parana.pdf
+links:
+  article: https://journals.asm.org/doi/abs/10.1128/mra.00029-25
+  pdf: http://boylelab.org/pubs/MRA_2025_Parana.pdf
+members:
+- prparana
+- crmumm
+- apboyle
+member_roles: {}
+matched_members:
+- apboyle
+- crmumm
+- prparana
+lab_roles:
+  first:
+  - prparana
+  senior:
+  - apboyle
+  corresponding: []
+lab_led: true
+featured: false
+topics: []
+abstract: |-
+  We present the genome sequence of Scytonema sp. PRP1, a cyanobacterium identified during single-cell sequencing library preparation of de-identified human brain samples associated with the Brain Somatic Mosaicism Network. Our 8,266,022 bp genome comprises 140 contigs, containing 6,765 protein-coding sequences, 37 tRNA genes, and 11 rRNA genes.
+bibtex: |-
+  @article{Parana2025ScytonemaGenome,
+    author = {Preston Parana and Camille Mumm and Michael J. McConnell and Alan P. Boyle},
+    title = {{Draft de novo genome construction of Scytonema sp. PRP1: identified from single-cell sequencing library preparation}},
+    journal = {Microbiology Resource Announcements},
+    pages = {e00029-25},
+    year = {2025},
+    doi = {10.1128/mra.00029-25},
+    url = {https://journals.asm.org/doi/abs/10.1128/mra.00029-25},
+    pdf = {http://boylelab.org/pubs/MRA_2025_Parana.pdf},
+    abstract = {We present the genome sequence of Scytonema sp. PRP1, a cyanobacterium identified during single-cell sequencing library preparation of de-identified human brain samples associated with the Brain Somatic Mosaicism Network. Our 8,266,022 bp genome comprises 140 contigs, containing 6,765 protein-coding sequences, 37 tRNA genes, and 11 rRNA genes. },
+    note = {{PMID:} 40744872}
+  }
+---

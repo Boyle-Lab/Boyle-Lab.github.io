@@ -1,0 +1,431 @@
+---
+generated: true
+bibkey: Chen2012PersonalOmics
+entry_type: article
+publication_type: article
+status: published
+title: Personal omics profiling reveals dynamic molecular and medical phenotypes
+authors: |-
+  Chen R, Mias GI, Li-Pook-Than J, Jiang L, Lam HYK, Chen R, Miriami E, Karczewski KJ, Hariharan M, Dewey FE, Cheng Y, Clark MJ, Im H, Habegger L, Balasubramanian S, O'Huallachain M, Dudley JT, Hillenmeyer S, Haraksingh R, Sharon D, Euskirchen G, Lacroute P, Bettinger K, Boyle AP, Kasowski M, Grubert F, Seki S, Garcia M, Whirl-Carrillo M, Gallardo M, Blasco MA, Greenberg PL, Snyder P, Klein TE, Altman RB, Butte AJ, Ashley EA, Gerstein M, Nadeau KC, Tang H, Snyder M
+authors_short: Chen R, Mias GI, Li-Pook-Than J, Jiang L, Lam HYK, Chen R, …, Snyder M
+author_count: 41
+author_list:
+- raw: '*Chen, Rui'
+  family: Chen
+  given: Rui
+  initials: R
+  citation_name: Chen R
+  full_name: Rui Chen
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Mias, George I'
+  family: Mias
+  given: George I
+  initials: GI
+  citation_name: Mias GI
+  full_name: George I Mias
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*{Li-Pook-Than}, Jennifer'
+  family: Li-Pook-Than
+  given: Jennifer
+  initials: J
+  citation_name: Li-Pook-Than J
+  full_name: Jennifer Li-Pook-Than
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Jiang, Lihua'
+  family: Jiang
+  given: Lihua
+  initials: L
+  citation_name: Jiang L
+  full_name: Lihua Jiang
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: Lam, Hugo Y K
+  family: Lam
+  given: Hugo Y K
+  initials: HYK
+  citation_name: Lam HYK
+  full_name: Hugo Y K Lam
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Chen, Rong
+  family: Chen
+  given: Rong
+  initials: R
+  citation_name: Chen R
+  full_name: Rong Chen
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Miriami, Elana
+  family: Miriami
+  given: Elana
+  initials: E
+  citation_name: Miriami E
+  full_name: Elana Miriami
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Karczewski, Konrad J
+  family: Karczewski
+  given: Konrad J
+  initials: KJ
+  citation_name: Karczewski KJ
+  full_name: Konrad J Karczewski
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Hariharan, Manoj
+  family: Hariharan
+  given: Manoj
+  initials: M
+  citation_name: Hariharan M
+  full_name: Manoj Hariharan
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Dewey, Frederick E
+  family: Dewey
+  given: Frederick E
+  initials: FE
+  citation_name: Dewey FE
+  full_name: Frederick E Dewey
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Cheng, Yong
+  family: Cheng
+  given: Yong
+  initials: Y
+  citation_name: Cheng Y
+  full_name: Yong Cheng
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Clark, Michael J
+  family: Clark
+  given: Michael J
+  initials: MJ
+  citation_name: Clark MJ
+  full_name: Michael J Clark
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Im, Hogune
+  family: Im
+  given: Hogune
+  initials: H
+  citation_name: Im H
+  full_name: Hogune Im
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Habegger, Lukas
+  family: Habegger
+  given: Lukas
+  initials: L
+  citation_name: Habegger L
+  full_name: Lukas Habegger
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Balasubramanian, Suganthi
+  family: Balasubramanian
+  given: Suganthi
+  initials: S
+  citation_name: Balasubramanian S
+  full_name: Suganthi Balasubramanian
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: '{O''Huallachain}, Maeve'
+  family: O'Huallachain
+  given: Maeve
+  initials: M
+  citation_name: O'Huallachain M
+  full_name: Maeve O'Huallachain
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Dudley, Joel T
+  family: Dudley
+  given: Joel T
+  initials: JT
+  citation_name: Dudley JT
+  full_name: Joel T Dudley
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Hillenmeyer, Sara
+  family: Hillenmeyer
+  given: Sara
+  initials: S
+  citation_name: Hillenmeyer S
+  full_name: Sara Hillenmeyer
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Haraksingh, Rajini
+  family: Haraksingh
+  given: Rajini
+  initials: R
+  citation_name: Haraksingh R
+  full_name: Rajini Haraksingh
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Sharon, Donald
+  family: Sharon
+  given: Donald
+  initials: D
+  citation_name: Sharon D
+  full_name: Donald Sharon
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Euskirchen, Ghia
+  family: Euskirchen
+  given: Ghia
+  initials: G
+  citation_name: Euskirchen G
+  full_name: Ghia Euskirchen
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Lacroute, Phil
+  family: Lacroute
+  given: Phil
+  initials: P
+  citation_name: Lacroute P
+  full_name: Phil Lacroute
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Bettinger, Keith
+  family: Bettinger
+  given: Keith
+  initials: K
+  citation_name: Bettinger K
+  full_name: Keith Bettinger
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Boyle, Alan P
+  family: Boyle
+  given: Alan P
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- raw: Kasowski, Maya
+  family: Kasowski
+  given: Maya
+  initials: M
+  citation_name: Kasowski M
+  full_name: Maya Kasowski
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Grubert, Fabian
+  family: Grubert
+  given: Fabian
+  initials: F
+  citation_name: Grubert F
+  full_name: Fabian Grubert
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Seki, Scott
+  family: Seki
+  given: Scott
+  initials: S
+  citation_name: Seki S
+  full_name: Scott Seki
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Garcia, Marco
+  family: Garcia
+  given: Marco
+  initials: M
+  citation_name: Garcia M
+  full_name: Marco Garcia
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: '{Whirl-Carrillo}, Michelle'
+  family: Whirl-Carrillo
+  given: Michelle
+  initials: M
+  citation_name: Whirl-Carrillo M
+  full_name: Michelle Whirl-Carrillo
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Gallardo, Mercedes
+  family: Gallardo
+  given: Mercedes
+  initials: M
+  citation_name: Gallardo M
+  full_name: Mercedes Gallardo
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Blasco, Maria A
+  family: Blasco
+  given: Maria A
+  initials: MA
+  citation_name: Blasco MA
+  full_name: Maria A Blasco
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Greenberg, Peter L
+  family: Greenberg
+  given: Peter L
+  initials: PL
+  citation_name: Greenberg PL
+  full_name: Peter L Greenberg
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Snyder, Phyllis
+  family: Snyder
+  given: Phyllis
+  initials: P
+  citation_name: Snyder P
+  full_name: Phyllis Snyder
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Klein, Teri E
+  family: Klein
+  given: Teri E
+  initials: TE
+  citation_name: Klein TE
+  full_name: Teri E Klein
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Altman, Russ B
+  family: Altman
+  given: Russ B
+  initials: RB
+  citation_name: Altman RB
+  full_name: Russ B Altman
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Butte, Atul J
+  family: Butte
+  given: Atul J
+  initials: AJ
+  citation_name: Butte AJ
+  full_name: Atul J Butte
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Ashley, Euan A
+  family: Ashley
+  given: Euan A
+  initials: EA
+  citation_name: Ashley EA
+  full_name: Euan A Ashley
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Gerstein, Mark
+  family: Gerstein
+  given: Mark
+  initials: M
+  citation_name: Gerstein M
+  full_name: Mark Gerstein
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Nadeau, Kari C
+  family: Nadeau
+  given: Kari C
+  initials: KC
+  citation_name: Nadeau KC
+  full_name: Kari C Nadeau
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Tang, Hua
+  family: Tang
+  given: Hua
+  initials: H
+  citation_name: Tang H
+  full_name: Hua Tang
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Snyder, Michael
+  family: Snyder
+  given: Michael
+  initials: M
+  citation_name: Snyder M
+  full_name: Michael Snyder
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+journal: Cell
+year: 2012
+month: 3
+sort_date: '2012-03-01'
+volume: '148'
+number: '6'
+pages: 1293--1307
+doi: 10.1016/j.cell.2012.02.009
+PMID: '22424236'
+primary_url: http://www.ncbi.nlm.nih.gov/pubmed/22424236
+url: http://www.ncbi.nlm.nih.gov/pubmed/22424236
+pdf: http://boylelab.org/pubs/Cell_2012_Chen.pdf
+links:
+  article: http://www.ncbi.nlm.nih.gov/pubmed/22424236
+  pdf: http://boylelab.org/pubs/Cell_2012_Chen.pdf
+members:
+- apboyle
+member_roles: {}
+matched_members:
+- apboyle
+lab_roles:
+  first: []
+  senior: []
+  corresponding: []
+lab_led: false
+featured: false
+topics: []
+abstract: |-
+  Personalized medicine is expected to benefit from combining genomic information with regular monitoring of physiological states by multiple high-throughput methods. Here, we present an integrative personal omics profile (iPOP), an analysis that combines genomic, transcriptomic, proteomic, metabolomic, and autoantibody profiles from a single individual over a 14¬†month period. Our iPOP analysis revealed various medical risks, including type 2 diabetes. It also uncovered extensive, dynamic changes in diverse molecular components and biological pathways across healthy and diseased conditions. Extremely high-coverage genomic and¬†transcriptomic data, which provide the basis of¬†our¬†iPOP, revealed extensive heteroallelic changes during healthy and diseased states and an unexpected RNA editing mechanism. This study demonstrates that longitudinal iPOP can be used to interpret healthy and diseased states by connecting genomic information with additional dynamic omics activity.
+bibtex: |-
+  @article{Chen2012PersonalOmics,
+    title = {Personal omics profiling reveals dynamic molecular and medical phenotypes},
+    volume = {148},
+    issn = {1097-4172},
+    url = {http://www.ncbi.nlm.nih.gov/pubmed/22424236},
+    pdf = {http://boylelab.org/pubs/Cell_2012_Chen.pdf},
+    doi = {10.1016/j.cell.2012.02.009},
+    abstract = {Personalized medicine is expected to benefit from combining genomic information with regular monitoring of physiological states by multiple high-throughput methods. Here, we present an integrative personal omics profile {(iPOP)}, an analysis that combines genomic, transcriptomic, proteomic, metabolomic, and autoantibody profiles from a single individual over a 14¬†month period. Our {iPOP} analysis revealed various medical risks, including type 2 diabetes. It also uncovered extensive, dynamic changes in diverse molecular components and biological pathways across healthy and diseased conditions. Extremely high-coverage genomic and¬†transcriptomic data, which provide the basis of¬†our¬†{iPOP}, revealed extensive heteroallelic changes during healthy and diseased states and an unexpected {RNA} editing mechanism. This study demonstrates that longitudinal {iPOP} can be used to interpret healthy and diseased states by connecting genomic information with additional dynamic omics activity.},
+    number = {6},
+    journal = {Cell},
+    author = {*Chen, Rui and *Mias, George I and *{Li-Pook-Than}, Jennifer and *Jiang, Lihua and Lam, Hugo Y K and Chen, Rong and Miriami, Elana and Karczewski, Konrad J and Hariharan, Manoj and Dewey, Frederick E and Cheng, Yong and Clark, Michael J and Im, Hogune and Habegger, Lukas and Balasubramanian, Suganthi and {O'Huallachain}, Maeve and Dudley, Joel T and Hillenmeyer, Sara and Haraksingh, Rajini and Sharon, Donald and Euskirchen, Ghia and Lacroute, Phil and Bettinger, Keith and Boyle, Alan P and Kasowski, Maya and Grubert, Fabian and Seki, Scott and Garcia, Marco and {Whirl-Carrillo}, Michelle and Gallardo, Mercedes and Blasco, Maria A and Greenberg, Peter L and Snyder, Phyllis and Klein, Teri E and Altman, Russ B and Butte, Atul J and Ashley, Euan A and Gerstein, Mark and Nadeau, Kari C and Tang, Hua and Snyder, Michael},
+    month = mar,
+    year = {2012},
+    note = {{PMID:} 22424236},
+    pages = {1293--1307}
+  }
+---

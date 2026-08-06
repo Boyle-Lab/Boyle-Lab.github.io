@@ -1,0 +1,213 @@
+---
+generated: true
+bibkey: McDaniell2010ChromatinSignatures
+entry_type: article
+publication_type: article
+status: published
+title: Heritable individual-specific and allele-specific chromatin signatures in humans
+authors: McDaniell R, Lee BK, Liu LSAZ, Boyle AP, Erdos MR, Scott LJ, Morken MA, Kucera KS, Battenhouse
+  A, Keefe D, Collins FS, Willard HF, Furey JDLATS, Crawford GE, Iyer VR, Birney E
+authors_short: McDaniell R, Lee BK, Liu LSAZ, Boyle AP, Erdos MR, Scott LJ, …, Birney E
+author_count: 16
+author_list:
+- raw: Ryan {McDaniell}
+  family: McDaniell
+  given: Ryan
+  initials: R
+  citation_name: McDaniell R
+  full_name: Ryan McDaniell
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: '{Bum-Kyu} Lee'
+  family: Lee
+  given: Bum-Kyu
+  initials: BK
+  citation_name: Lee BK
+  full_name: Bum-Kyu Lee
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: "Lingyun Song \nand Zheng Liu"
+  family: Liu
+  given: Lingyun Song and Zheng
+  initials: LSAZ
+  citation_name: Liu LSAZ
+  full_name: Lingyun Song and Zheng Liu
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Alan P Boyle
+  family: Boyle
+  given: Alan P
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- raw: Michael R Erdos
+  family: Erdos
+  given: Michael R
+  initials: MR
+  citation_name: Erdos MR
+  full_name: Michael R Erdos
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Laura J Scott
+  family: Scott
+  given: Laura J
+  initials: LJ
+  citation_name: Scott LJ
+  full_name: Laura J Scott
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Mario A Morken
+  family: Morken
+  given: Mario A
+  initials: MA
+  citation_name: Morken MA
+  full_name: Mario A Morken
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Katerina S Kucera
+  family: Kucera
+  given: Katerina S
+  initials: KS
+  citation_name: Kucera KS
+  full_name: Katerina S Kucera
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Anna Battenhouse
+  family: Battenhouse
+  given: Anna
+  initials: A
+  citation_name: Battenhouse A
+  full_name: Anna Battenhouse
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: "Damian \nKeefe"
+  family: Keefe
+  given: Damian
+  initials: D
+  citation_name: Keefe D
+  full_name: Damian Keefe
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Francis S Collins
+  family: Collins
+  given: Francis S
+  initials: FS
+  citation_name: Collins FS
+  full_name: Francis S Collins
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Huntington F Willard
+  family: Willard
+  given: Huntington F
+  initials: HF
+  citation_name: Willard HF
+  full_name: Huntington F Willard
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: "Jason D Lieb \nand Terrence S Furey"
+  family: Furey
+  given: Jason D Lieb and Terrence S
+  initials: JDLATS
+  citation_name: Furey JDLATS
+  full_name: Jason D Lieb and Terrence S Furey
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Gregory E {\dag}Crawford
+  family: Crawford
+  given: Gregory E
+  initials: GE
+  citation_name: Crawford GE
+  full_name: Gregory E Crawford
+  corporate: false
+  equal_contrib: false
+  co_senior: true
+- raw: Vishwanath R {\dag}Iyer
+  family: Iyer
+  given: Vishwanath R
+  initials: VR
+  citation_name: Iyer VR
+  full_name: Vishwanath R Iyer
+  corporate: false
+  equal_contrib: false
+  co_senior: true
+- raw: Ewan {\dag}Birney
+  family: Birney
+  given: Ewan
+  initials: E
+  citation_name: Birney E
+  full_name: Ewan Birney
+  corporate: false
+  equal_contrib: false
+  co_senior: true
+journal: Science
+year: 2010
+month: 4
+sort_date: '2010-04-01'
+volume: '328'
+number: '5975'
+pages: 235--239
+doi: 10.1126/science.1184655
+PMID: '20299549'
+primary_url: http://www.ncbi.nlm.nih.gov/pubmed/20299549
+url: http://www.ncbi.nlm.nih.gov/pubmed/20299549
+pdf: http://boylelab.org/pubs/Science_2010_McDaniell.pdf
+links:
+  article: http://www.ncbi.nlm.nih.gov/pubmed/20299549
+  pdf: http://boylelab.org/pubs/Science_2010_McDaniell.pdf
+members:
+- apboyle
+member_roles: {}
+matched_members:
+- apboyle
+lab_roles:
+  first: []
+  senior: []
+  corresponding: []
+lab_led: false
+featured: false
+topics: []
+abstract: |-
+  The extent to which variation in chromatin structure and transcription factor binding may influence gene expression, and thus underlie or contribute to variation in phenotype, is unknown. To address this question, we cataloged both individual-to-individual variation and differences between homologous chromosomes within the same individual (allele-specific variation) in chromatin structure and transcription factor binding in lymphoblastoid cells derived from individuals of geographically diverse ancestry. Ten percent of active chromatin sites were individual-specific; a similar proportion were allele-specific. Both individual-specific and allele-specific sites were commonly transmitted from parent to child, which suggests that they are heritable features of the human genome. Our study shows that heritable chromatin status and transcription factor binding differ as a result of genetic variation and may underlie phenotypic variation in humans.
+bibtex: "@article{McDaniell2010ChromatinSignatures,\n  title = {Heritable individual-specific and allele-specific\
+  \ \nchromatin signatures in humans},\n  volume = {328},\n  issn = {1095-9203},\n  url = {http://www.ncbi.nlm.nih.gov/pubmed/20299549},\n\
+  \  pdf = {http://boylelab.org/pubs/Science_2010_McDaniell.pdf},\n  documenturl = {http://f1000.com/3410956},\n\
+  \  doi = {10.1126/science.1184655},\n  abstract = {The extent to which variation in chromatin structure\
+  \ \nand transcription factor binding may influence gene expression, and thus \nunderlie or contribute\
+  \ to variation in phenotype, is unknown. To address \nthis question, we cataloged both individual-to-individual\
+  \ variation and \ndifferences between homologous chromosomes within the same individual \n(allele-specific\
+  \ variation) in chromatin structure and transcription \nfactor binding in lymphoblastoid cells derived\
+  \ from individuals of \ngeographically diverse ancestry. Ten percent of active chromatin sites \nwere\
+  \ individual-specific; a similar proportion were allele-specific. \nBoth individual-specific and allele-specific\
+  \ sites were commonly \ntransmitted from parent to child, which suggests that they are heritable \n\
+  features of the human genome. Our study shows that heritable chromatin \nstatus and transcription factor\
+  \ binding differ as a result of genetic \nvariation and may underlie phenotypic variation in humans.},\n\
+  \  number = {5975},\n  journal = {Science},\n  author = {Ryan {McDaniell} and {Bum-Kyu} Lee and Lingyun\
+  \ Song \nand Zheng Liu and Alan P Boyle and Michael R Erdos and Laura J Scott and \nMario A Morken and\
+  \ Katerina S Kucera and Anna Battenhouse and Damian \nKeefe and Francis S Collins and Huntington F Willard\
+  \ and Jason D Lieb \nand Terrence S Furey and Gregory E {\\dag}Crawford and Vishwanath R {\\dag}Iyer\
+  \ and \nEwan {\\dag}Birney},\n  month = apr,\n  year = {2010},\n  note = {{PMID:} 20299549},\n  keywords\
+  \ = {African Continental Ancestry Group, Alleles, Binding \nSites, Cell Line, Chromatin, Chromatin Immunoprecipitation,\
+  \ Chromosomes, \nHuman, Chromosomes, Human, X, Deoxyribonuclease I, European Continental \nAncestry\
+  \ Group, Female, Gene Expression Regulation, Genetic Variation, \nHumans, Male, Nuclear Family, Polymorphism,\
+  \ Single Nucleotide, Protein \nBinding, Regulatory Elements, Transcriptional, Repressor Proteins, \n\
+  Sequence Analysis, {DNA,} Transcription Factors, X Chromosome \nInactivation},\n  pages = {235--239}\n\
+  }"
+---

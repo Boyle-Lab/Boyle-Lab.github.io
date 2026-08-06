@@ -1,0 +1,493 @@
+---
+generated: true
+bibkey: Li2025IGVFCatalog
+entry_type: article
+publication_type: article
+status: published
+title: The IGVF catalog—from genetic variation to function
+authors: |-
+  Li D, Liu S, Assis PR, Li M, Dong S, Whaling I, Jolanki O, Kagda M, Zhang W, Macias-Velasco JF, Liu T, Cody S, Antonacci-Fulton L, Huang Y, Liu J, Montgomery MT, Zeiberg D, Jain S, Pejaver V, Bergquist T, Chen Y, Radivojac P, Gersbach CA, Sherpa RN, Castro CP, Boyle AP, Starita LM, Fowler DM, Ahituv N, Dey KK, Majoros WH, Reddy TE, Craven M, Sinha R, Sverchkov Y, Cai X, Nzima MZ, Calderwood MA, Rozowsky J, Gerstein M, Ma J, Yue F, Cherry JM, Love MI, Engreitz JM, Hitz BC, Wang T
+authors_short: Li D, Liu S, Assis PR, Li M, Dong S, Whaling I, …, Wang T
+author_count: 47
+author_list:
+- raw: Li, Daofeng
+  family: Li
+  given: Daofeng
+  initials: D
+  citation_name: Li D
+  full_name: Daofeng Li
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Liu, Shane
+  family: Liu
+  given: Shane
+  initials: S
+  citation_name: Liu S
+  full_name: Shane Liu
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Assis, Pedro R
+  family: Assis
+  given: Pedro R
+  initials: PR
+  citation_name: Assis PR
+  full_name: Pedro R Assis
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Li, Mingjie
+  family: Li
+  given: Mingjie
+  initials: M
+  citation_name: Li M
+  full_name: Mingjie Li
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Dong, Shengcheng
+  family: Dong
+  given: Shengcheng
+  initials: S
+  citation_name: Dong S
+  full_name: Shengcheng Dong
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: shengchd
+  member_url: /people/Shengcheng_Dong/
+  member_name: Shengcheng Dong, Ph.D.
+- raw: Whaling, Ian
+  family: Whaling
+  given: Ian
+  initials: I
+  citation_name: Whaling I
+  full_name: Ian Whaling
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Jolanki, Otto
+  family: Jolanki
+  given: Otto
+  initials: O
+  citation_name: Jolanki O
+  full_name: Otto Jolanki
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Kagda, Meenakshi
+  family: Kagda
+  given: Meenakshi
+  initials: M
+  citation_name: Kagda M
+  full_name: Meenakshi Kagda
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Zhang, Wenjin
+  family: Zhang
+  given: Wenjin
+  initials: W
+  citation_name: Zhang W
+  full_name: Wenjin Zhang
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Macias-Velasco, Juan F
+  family: Macias-Velasco
+  given: Juan F
+  initials: JF
+  citation_name: Macias-Velasco JF
+  full_name: Juan F Macias-Velasco
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Liu, Tianjie
+  family: Liu
+  given: Tianjie
+  initials: T
+  citation_name: Liu T
+  full_name: Tianjie Liu
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Cody, Sarah
+  family: Cody
+  given: Sarah
+  initials: S
+  citation_name: Cody S
+  full_name: Sarah Cody
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Antonacci-Fulton, Lucinda
+  family: Antonacci-Fulton
+  given: Lucinda
+  initials: L
+  citation_name: Antonacci-Fulton L
+  full_name: Lucinda Antonacci-Fulton
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Huang, Yuanhao
+  family: Huang
+  given: Yuanhao
+  initials: Y
+  citation_name: Huang Y
+  full_name: Yuanhao Huang
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Liu, Jie
+  family: Liu
+  given: Jie
+  initials: J
+  citation_name: Liu J
+  full_name: Jie Liu
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Montgomery, Michael T
+  family: Montgomery
+  given: Michael T
+  initials: MT
+  citation_name: Montgomery MT
+  full_name: Michael T Montgomery
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Zeiberg, Daniel
+  family: Zeiberg
+  given: Daniel
+  initials: D
+  citation_name: Zeiberg D
+  full_name: Daniel Zeiberg
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Jain, Shantanu
+  family: Jain
+  given: Shantanu
+  initials: S
+  citation_name: Jain S
+  full_name: Shantanu Jain
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Pejaver, Vikas
+  family: Pejaver
+  given: Vikas
+  initials: V
+  citation_name: Pejaver V
+  full_name: Vikas Pejaver
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Bergquist, Timothy
+  family: Bergquist
+  given: Timothy
+  initials: T
+  citation_name: Bergquist T
+  full_name: Timothy Bergquist
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Chen, Yile
+  family: Chen
+  given: Yile
+  initials: Y
+  citation_name: Chen Y
+  full_name: Yile Chen
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Radivojac, Predrag
+  family: Radivojac
+  given: Predrag
+  initials: P
+  citation_name: Radivojac P
+  full_name: Predrag Radivojac
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Gersbach, Charles A
+  family: Gersbach
+  given: Charles A
+  initials: CA
+  citation_name: Gersbach CA
+  full_name: Charles A Gersbach
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Sherpa, Rintsen N
+  family: Sherpa
+  given: Rintsen N
+  initials: RN
+  citation_name: Sherpa RN
+  full_name: Rintsen N Sherpa
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: rintsen
+  member_url: /people/Rintsen_Sherpa/
+  member_name: Rintsen Sherpa
+- raw: Castro, Christopher P
+  family: Castro
+  given: Christopher P
+  initials: CP
+  citation_name: Castro CP
+  full_name: Christopher P Castro
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: castrocp
+  member_url: /people/Christopher_Castro/
+  member_name: Christopher Castro, Ph.D.
+- raw: Boyle, Alan P
+  family: Boyle
+  given: Alan P
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- raw: Starita, Lea M
+  family: Starita
+  given: Lea M
+  initials: LM
+  citation_name: Starita LM
+  full_name: Lea M Starita
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Fowler, Douglas M
+  family: Fowler
+  given: Douglas M
+  initials: DM
+  citation_name: Fowler DM
+  full_name: Douglas M Fowler
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Ahituv, Nadav
+  family: Ahituv
+  given: Nadav
+  initials: N
+  citation_name: Ahituv N
+  full_name: Nadav Ahituv
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Dey, Kushal K
+  family: Dey
+  given: Kushal K
+  initials: KK
+  citation_name: Dey KK
+  full_name: Kushal K Dey
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Majoros, William H
+  family: Majoros
+  given: William H
+  initials: WH
+  citation_name: Majoros WH
+  full_name: William H Majoros
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Reddy, Timothy E
+  family: Reddy
+  given: Timothy E
+  initials: TE
+  citation_name: Reddy TE
+  full_name: Timothy E Reddy
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Craven, Mark
+  family: Craven
+  given: Mark
+  initials: M
+  citation_name: Craven M
+  full_name: Mark Craven
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Sinha, Riya
+  family: Sinha
+  given: Riya
+  initials: R
+  citation_name: Sinha R
+  full_name: Riya Sinha
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Sverchkov, Yuriy
+  family: Sverchkov
+  given: Yuriy
+  initials: Y
+  citation_name: Sverchkov Y
+  full_name: Yuriy Sverchkov
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Cai, Xiangmeng
+  family: Cai
+  given: Xiangmeng
+  initials: X
+  citation_name: Cai X
+  full_name: Xiangmeng Cai
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Nzima, Mpathi Z
+  family: Nzima
+  given: Mpathi Z
+  initials: MZ
+  citation_name: Nzima MZ
+  full_name: Mpathi Z Nzima
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Calderwood, Michael A
+  family: Calderwood
+  given: Michael A
+  initials: MA
+  citation_name: Calderwood MA
+  full_name: Michael A Calderwood
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Rozowsky, Joel
+  family: Rozowsky
+  given: Joel
+  initials: J
+  citation_name: Rozowsky J
+  full_name: Joel Rozowsky
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Gerstein, Mark
+  family: Gerstein
+  given: Mark
+  initials: M
+  citation_name: Gerstein M
+  full_name: Mark Gerstein
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Ma, Jian
+  family: Ma
+  given: Jian
+  initials: J
+  citation_name: Ma J
+  full_name: Jian Ma
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Yue, Feng
+  family: Yue
+  given: Feng
+  initials: F
+  citation_name: Yue F
+  full_name: Feng Yue
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Cherry, J Michael
+  family: Cherry
+  given: J Michael
+  initials: JM
+  citation_name: Cherry JM
+  full_name: J Michael Cherry
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Love, Michael I
+  family: Love
+  given: Michael I
+  initials: MI
+  citation_name: Love MI
+  full_name: Michael I Love
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Engreitz, Jesse M
+  family: Engreitz
+  given: Jesse M
+  initials: JM
+  citation_name: Engreitz JM
+  full_name: Jesse M Engreitz
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Hitz, Benjamin C
+  family: Hitz
+  given: Benjamin C
+  initials: BC
+  citation_name: Hitz BC
+  full_name: Benjamin C Hitz
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Wang, Ting
+  family: Wang
+  given: Ting
+  initials: T
+  citation_name: Wang T
+  full_name: Ting Wang
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+journal: Nucleic Acids Research
+year: 2025
+month: 12
+sort_date: '2025-12-01'
+pages: gkaf1341
+doi: 10.1093/nar/gkaf1341
+PMID: '41359121'
+primary_url: https://doi.org/10.1093/nar/gkaf1341
+url: https://doi.org/10.1093/nar/gkaf1341
+links:
+  article: https://doi.org/10.1093/nar/gkaf1341
+members:
+- shengchd
+- rintsen
+- castrocp
+- apboyle
+member_roles: {}
+matched_members:
+- apboyle
+- castrocp
+- rintsen
+- shengchd
+lab_roles:
+  first: []
+  senior: []
+  corresponding: []
+lab_led: false
+featured: false
+topics: []
+abstract: |-
+  Genomic variation between individuals is essential for understanding how differences in the genome sequence affect molecular and cellular processes. The Impact of Genomic Variation on Function (IGVF) Consortium aims to uncover the relationships among genomic variation, genome function, and phenotypes by combining experimental techniques, such as single-cell mapping and genomic perturbation assays, with computational approaches such as machine learning-based predictive modeling. The IGVF Data and Administrative Coordinating Centers collect, analyze, and disseminate data and results from across the consortium through an open-source platform called the IGVF Catalog. This resource includes, but is not limited to, data on the effects of coding variants on protein abundance and function, noncoding variants on enhancer activity (measured by MPRA or predicted computationally), and associations between variants and quantitative traits. All data are organized within a graph database comprising over 50 types of data collections with nearly 3 billion nodes and over 7.5 billion edges. The Catalog offers public API endpoints (https://api.catalogkg.igvf.org/) and a user-friendly interface for exploring, querying, and visualizing the data at https://catalog.igvf.org. We expect that this open-access platform will support the broader scientific community to advance our understanding of how genomic variation influences biology and disease.
+bibtex: |-
+  @article{Li2025IGVFCatalog,
+    author = {Li, Daofeng and Liu, Shane and Assis, Pedro R and Li, Mingjie and Dong, Shengcheng and Whaling, Ian and Jolanki, Otto and Kagda, Meenakshi and Zhang, Wenjin and Macias-Velasco, Juan F and Liu, Tianjie and Cody, Sarah and Antonacci-Fulton, Lucinda and Huang, Yuanhao and Liu, Jie and Montgomery, Michael T and Zeiberg, Daniel and Jain, Shantanu and Pejaver, Vikas and Bergquist, Timothy and Chen, Yile and Radivojac, Predrag and Gersbach, Charles A and Sherpa, Rintsen N and Castro, Christopher P and Boyle, Alan P and Starita, Lea M and Fowler, Douglas M and Ahituv, Nadav and Dey, Kushal K and Majoros, William H and Reddy, Timothy E and Craven, Mark and Sinha, Riya and Sverchkov, Yuriy and Cai, Xiangmeng and Nzima, Mpathi Z and Calderwood, Michael A and Rozowsky, Joel and Gerstein, Mark and Ma, Jian and Yue, Feng and Cherry, J Michael and Love, Michael I and Engreitz, Jesse M and Hitz, Benjamin C and Wang, Ting},
+    title = {{The IGVF catalog—from genetic variation to function}},
+    journal = {Nucleic Acids Research},
+    pages = {gkaf1341},
+    year = {2025},
+    month = {12},
+    abstract = {Genomic variation between individuals is essential for understanding how differences in the genome sequence affect molecular and cellular processes. The Impact of Genomic Variation on Function (IGVF) Consortium aims to uncover the relationships among genomic variation, genome function, and phenotypes by combining experimental techniques, such as single-cell mapping and genomic perturbation assays, with computational approaches such as machine learning-based predictive modeling. The IGVF Data and Administrative Coordinating Centers collect, analyze, and disseminate data and results from across the consortium through an open-source platform called the IGVF Catalog. This resource includes, but is not limited to, data on the effects of coding variants on protein abundance and function, noncoding variants on enhancer activity (measured by MPRA or predicted computationally), and associations between variants and quantitative traits. All data are organized within a graph database comprising over 50 types of data collections with nearly 3 billion nodes and over 7.5 billion edges. The Catalog offers public API endpoints (https://api.catalogkg.igvf.org/) and a user-friendly interface for exploring, querying, and visualizing the data at https://catalog.igvf.org. We expect that this open-access platform will support the broader scientific community to advance our understanding of how genomic variation influences biology and disease.},
+    issn = {1362-4962},
+    doi = {10.1093/nar/gkaf1341},
+    url = {https://doi.org/10.1093/nar/gkaf1341},
+    note = {{PMID:} 41359121}
+  }
+---

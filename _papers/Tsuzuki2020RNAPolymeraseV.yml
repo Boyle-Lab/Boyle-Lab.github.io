@@ -1,0 +1,122 @@
+---
+generated: true
+bibkey: Tsuzuki2020RNAPolymeraseV
+entry_type: article
+publication_type: article
+status: published
+title: Broad noncoding transcription suggests genome surveillance by RNA polymerase V
+authors: Tsuzuki M, Sethuraman S, Coke AN, Rothi MH, Boyle AP, Wierzbicki AT
+authors_short: Tsuzuki M, Sethuraman S, Coke AN, Rothi MH, Boyle AP, Wierzbicki AT
+author_count: 6
+author_list:
+- raw: '*Tsuzuki, Masayuki'
+  family: Tsuzuki
+  given: Masayuki
+  initials: M
+  citation_name: Tsuzuki M
+  full_name: Masayuki Tsuzuki
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Sethuraman, Shriya'
+  family: Sethuraman
+  given: Shriya
+  initials: S
+  citation_name: Sethuraman S
+  full_name: Shriya Sethuraman
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+  member_id: shriyas
+  member_url: /people/Shriya_Sethuraman/
+  member_name: Shriya Sethuraman, Ph.D.
+- raw: Coke, Adriana N.
+  family: Coke
+  given: Adriana N.
+  initials: AN
+  citation_name: Coke AN
+  full_name: Adriana N. Coke
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Rothi, M. Hafiz
+  family: Rothi
+  given: M. Hafiz
+  initials: MH
+  citation_name: Rothi MH
+  full_name: M. Hafiz Rothi
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Boyle, Alan P.
+  family: Boyle
+  given: Alan P.
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P. Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- raw: Wierzbicki, Andrzej T.
+  family: Wierzbicki
+  given: Andrzej T.
+  initials: AT
+  citation_name: Wierzbicki AT
+  full_name: Andrzej T. Wierzbicki
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+journal: Proceedings of the National Academy of Sciences
+year: 2020
+month: 1
+sort_date: '2020-11-11'
+volume: '117'
+number: '48'
+pages: 30799--30804
+publisher: National Academy of Sciences
+doi: 10.1073/pnas.2014419117
+PMID: '33199612'
+primary_url: https://www.pnas.org/content/early/2020/11/11/2014419117
+url: https://www.pnas.org/content/early/2020/11/11/2014419117
+pdf: http://boylelab.org/pubs/PNAS_2020_Tsuzuki.pdf
+links:
+  article: https://www.pnas.org/content/early/2020/11/11/2014419117
+  pdf: http://boylelab.org/pubs/PNAS_2020_Tsuzuki.pdf
+members:
+- shriyas
+- apboyle
+member_roles: {}
+matched_members:
+- apboyle
+- shriyas
+lab_roles:
+  first:
+  - shriyas
+  senior: []
+  corresponding: []
+lab_led: true
+featured: false
+topics: []
+abstract: |-
+  Eukaryotic genomes are pervasively transcribed, yet most transcribed sequences lack conservation or known biological functions. We show that a specialized plant-specific RNA polymerase V broadly transcribes the Arabidopsis genome. We propose a model where Pol V transcription surveils the genome and is required to recognize and repress newly inserted or reactivated transposons. Our results indicate that pervasive transcription of nonconserved sequences may serve an essential role in maintenance of genome integrity.Eukaryotic genomes are pervasively transcribed, yet most transcribed sequences lack conservation or known biological functions. In Arabidopsis thaliana, RNA polymerase V (Pol V) produces noncoding transcripts, which base pair with small interfering RNA (siRNA) and allow specific establishment of RNA-directed DNA methylation (RdDM) on transposable elements. Here, we show that Pol V transcribes much more broadly than previously expected, including subsets of both heterochromatic and euchromatic regions. At already established RdDM targets, Pol V and siRNA work together to maintain silencing. In contrast, some euchromatic sequences do not give rise to siRNA but are covered by low levels of Pol V transcription, which is needed to establish RdDM de novo if a transposon is reactivated. We propose a model where Pol V surveils the genome to make it competent to silence newly activated or integrated transposons. This indicates that pervasive transcription of nonconserved sequences may serve an essential role in maintenance of genome integrity.High-throughput sequencing data have been deposited in Gene Expression Omnibus (GEO) database (accession no. GSE146913).
+bibtex: |-
+  @article{Tsuzuki2020RNAPolymeraseV,
+    author = {*Tsuzuki, Masayuki and *Sethuraman, Shriya and Coke, Adriana N. and Rothi, M. Hafiz and Boyle, Alan P. and Wierzbicki, Andrzej T.},
+    title = {{Broad noncoding transcription suggests genome surveillance by RNA polymerase V}},
+    year = {2020},
+    volume = {117},
+    doi = {10.1073/pnas.2014419117},
+    number = {48},
+    publisher = {National Academy of Sciences},
+    pages = {30799--30804},
+    abstract = {Eukaryotic genomes are pervasively transcribed, yet most transcribed sequences lack conservation or known biological functions. We show that a specialized plant-specific RNA polymerase V broadly transcribes the Arabidopsis genome. We propose a model where Pol V transcription surveils the genome and is required to recognize and repress newly inserted or reactivated transposons. Our results indicate that pervasive transcription of nonconserved sequences may serve an essential role in maintenance of genome integrity.Eukaryotic genomes are pervasively transcribed, yet most transcribed sequences lack conservation or known biological functions. In Arabidopsis thaliana, RNA polymerase V (Pol V) produces noncoding transcripts, which base pair with small interfering RNA (siRNA) and allow specific establishment of RNA-directed DNA methylation (RdDM) on transposable elements. Here, we show that Pol V transcribes much more broadly than previously expected, including subsets of both heterochromatic and euchromatic regions. At already established RdDM targets, Pol V and siRNA work together to maintain silencing. In contrast, some euchromatic sequences do not give rise to siRNA but are covered by low levels of Pol V transcription, which is needed to establish RdDM de novo if a transposon is reactivated. We propose a model where Pol V surveils the genome to make it competent to silence newly activated or integrated transposons. This indicates that pervasive transcription of nonconserved sequences may serve an essential role in maintenance of genome integrity.High-throughput sequencing data have been deposited in Gene Expression Omnibus (GEO) database (accession no. GSE146913).},
+    issn = {0027-8424},
+    url = {https://www.pnas.org/content/early/2020/11/11/2014419117},
+    pdf = {http://boylelab.org/pubs/PNAS_2020_Tsuzuki.pdf},
+    journal = {Proceedings of the National Academy of Sciences},
+    note = {{PMID:} 33199612}
+  }
+---

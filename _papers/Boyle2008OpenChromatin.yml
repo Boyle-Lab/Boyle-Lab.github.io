@@ -1,0 +1,133 @@
+---
+generated: true
+bibkey: Boyle2008OpenChromatin
+entry_type: article
+publication_type: article
+status: published
+title: High-resolution mapping and characterization of open chromatin across the genome.
+authors: Boyle AP, Davis S, Shulha HP, Meltzer P, Margulies EH, Weng Z, Furey TS, Crawford GE
+authors_short: Boyle AP, Davis S, Shulha HP, Meltzer P, Margulies EH, Weng Z, Furey TS, Crawford GE
+author_count: 8
+author_list:
+- raw: Alan P Boyle
+  family: Boyle
+  given: Alan P
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- raw: Sean Davis
+  family: Davis
+  given: Sean
+  initials: S
+  citation_name: Davis S
+  full_name: Sean Davis
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Hennady P Shulha
+  family: Shulha
+  given: Hennady P
+  initials: HP
+  citation_name: Shulha HP
+  full_name: Hennady P Shulha
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Paul Meltzer
+  family: Meltzer
+  given: Paul
+  initials: P
+  citation_name: Meltzer P
+  full_name: Paul Meltzer
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Elliott H Margulies
+  family: Margulies
+  given: Elliott H
+  initials: EH
+  citation_name: Margulies EH
+  full_name: Elliott H Margulies
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Zhiping Weng
+  family: Weng
+  given: Zhiping
+  initials: Z
+  citation_name: Weng Z
+  full_name: Zhiping Weng
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Terrence S {\dag}Furey
+  family: Furey
+  given: Terrence S
+  initials: TS
+  citation_name: Furey TS
+  full_name: Terrence S Furey
+  corporate: false
+  equal_contrib: false
+  co_senior: true
+- raw: Gregory E {\dag}Crawford
+  family: Crawford
+  given: Gregory E
+  initials: GE
+  citation_name: Crawford GE
+  full_name: Gregory E Crawford
+  corporate: false
+  equal_contrib: false
+  co_senior: true
+journal: Cell
+year: 2008
+month: 1
+sort_date: '2008-01-01'
+volume: '132'
+number: '2'
+pages: 311--322
+doi: 10.1016/j.cell.2007.12.014
+PMID: '18243105'
+primary_url: http://www.ncbi.nlm.nih.gov/pubmed/18243105
+url: http://www.ncbi.nlm.nih.gov/pubmed/18243105
+pdf: http://boylelab.org/pubs/Cell_2008_Boyle.pdf
+links:
+  article: http://www.ncbi.nlm.nih.gov/pubmed/18243105
+  pdf: http://boylelab.org/pubs/Cell_2008_Boyle.pdf
+members:
+- apboyle
+member_roles: {}
+matched_members:
+- apboyle
+lab_roles:
+  first:
+  - apboyle
+  senior: []
+  corresponding: []
+lab_led: true
+featured: false
+topics: []
+abstract: |-
+  Mapping DNase I hypersensitive (HS) sites is an accurate method of identifying the location of genetic regulatory elements, including promoters, enhancers, silencers, insulators, and locus control regions. We employed high-throughput sequencing and whole-genome tiled array strategies to identify DNase I HS sites within human primary CD4+ T cells. Combining these two technologies, we have created a comprehensive and accurate genome-wide open chromatin map. Surprisingly, only 16%-21% of the identified 94,925 DNase I HS sites are found in promoters or first exons of known genes, but nearly half of the most open sites are in these regions. In conjunction with expression, motif, and chromatin immunoprecipitation data, we find evidence of cell-type-specific characteristics, including the ability to identify transcription start sites and locations of different chromatin marks utilized in these cells. In addition, and unexpectedly, our analyses have uncovered detailed features of nucleosome structure.
+bibtex: |-
+  @article{Boyle2008OpenChromatin,
+    title = {High-resolution mapping and characterization of open chromatin across the genome.},
+    volume = {132},
+    url = {http://www.ncbi.nlm.nih.gov/pubmed/18243105},
+    pdf = {http://boylelab.org/pubs/Cell_2008_Boyle.pdf},
+    doi = {10.1016/j.cell.2007.12.014},
+    abstract = {Mapping {DNase} I hypersensitive {(HS)} sites is an accurate method of identifying the location of genetic regulatory elements, including promoters, enhancers, silencers, insulators, and locus control regions. We employed high-throughput sequencing and whole-genome tiled array strategies to identify {DNase} I {HS} sites within human primary {CD4+} T cells. Combining these two technologies, we have created a comprehensive and accurate genome-wide open chromatin map. Surprisingly, only 16\%-21\% of the identified 94,925 {DNase} I {HS} sites are found in promoters or first exons of known genes, but nearly half of the most open sites are in these regions. In conjunction with expression, motif, and chromatin immunoprecipitation data, we find evidence of cell-type-specific characteristics, including the ability to identify transcription start sites and locations of different chromatin marks utilized in these cells. In addition, and unexpectedly, our analyses have uncovered detailed features of nucleosome structure.},
+    number = {2},
+    journal = {Cell},
+    author = {Alan P Boyle and Sean Davis and Hennady P Shulha and Paul Meltzer and Elliott H Margulies and Zhiping Weng and Terrence S {\dag}Furey and Gregory E {\dag}Crawford},
+    month = jan,
+    year = {2008},
+    note = {{PMID:} 18243105},
+    pages = {311--322}
+  }
+---

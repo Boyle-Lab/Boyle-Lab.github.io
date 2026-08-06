@@ -1,0 +1,216 @@
+---
+generated: true
+bibkey: Maltby2024CANVASNeurons
+entry_type: article
+publication_type: article
+status: published
+title: AAGGG repeat expansions trigger RFC1-independent synaptic dysregulation in human CANVAS neurons
+authors: Maltby CJ, Krans A, Grudzien SJ, Palacios Y, Muiños J, Suárez A, Asher M, Willey S, Van Deynze
+  K, Mumm C, Boyle AP, Cortese A, Khurana V, Barmada SJ, Dijkstra AA, Todd PK
+authors_short: Maltby CJ, Krans A, Grudzien SJ, Palacios Y, Muiños J, Suárez A, …, Todd PK
+author_count: 16
+author_list:
+- raw: Maltby, Connor J.
+  family: Maltby
+  given: Connor J.
+  initials: CJ
+  citation_name: Maltby CJ
+  full_name: Connor J. Maltby
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Krans, Amy
+  family: Krans
+  given: Amy
+  initials: A
+  citation_name: Krans A
+  full_name: Amy Krans
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Grudzien, Samantha J.
+  family: Grudzien
+  given: Samantha J.
+  initials: SJ
+  citation_name: Grudzien SJ
+  full_name: Samantha J. Grudzien
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Palacios, Yomira
+  family: Palacios
+  given: Yomira
+  initials: Y
+  citation_name: Palacios Y
+  full_name: Yomira Palacios
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Mui{\~n}os, Jessica
+  family: Muiños
+  given: Jessica
+  initials: J
+  citation_name: Muiños J
+  full_name: Jessica Muiños
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Su{\'a}rez, Andrea
+  family: Suárez
+  given: Andrea
+  initials: A
+  citation_name: Suárez A
+  full_name: Andrea Suárez
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Asher, Melissa
+  family: Asher
+  given: Melissa
+  initials: M
+  citation_name: Asher M
+  full_name: Melissa Asher
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Willey, Sydney
+  family: Willey
+  given: Sydney
+  initials: S
+  citation_name: Willey S
+  full_name: Sydney Willey
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Van Deynze, Kinsey
+  family: Van Deynze
+  given: Kinsey
+  initials: K
+  citation_name: Van Deynze K
+  full_name: Kinsey Van Deynze
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: kvandeyn
+  member_url: /people/Kinsey_Van_Deynze/
+  member_name: Kinsey Van Deynze, PhD
+- raw: Mumm, Camille
+  family: Mumm
+  given: Camille
+  initials: C
+  citation_name: Mumm C
+  full_name: Camille Mumm
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: crmumm
+  member_url: /people/Camille_Mumm/
+  member_name: Camille Mumm, Ph.D.
+- raw: Boyle, Alan P
+  family: Boyle
+  given: Alan P
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- raw: Cortese, Andrea
+  family: Cortese
+  given: Andrea
+  initials: A
+  citation_name: Cortese A
+  full_name: Andrea Cortese
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Khurana, Vikram
+  family: Khurana
+  given: Vikram
+  initials: V
+  citation_name: Khurana V
+  full_name: Vikram Khurana
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Barmada, Sami J.
+  family: Barmada
+  given: Sami J.
+  initials: SJ
+  citation_name: Barmada SJ
+  full_name: Sami J. Barmada
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Dijkstra, Anke A.
+  family: Dijkstra
+  given: Anke A.
+  initials: AA
+  citation_name: Dijkstra AA
+  full_name: Anke A. Dijkstra
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Todd, Peter K.
+  family: Todd
+  given: Peter K.
+  initials: PK
+  citation_name: Todd PK
+  full_name: Peter K. Todd
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+journal: Science Advances
+year: 2024
+month: 9
+sort_date: '2024-09-01'
+volume: '10'
+number: '36'
+pages: eadn2321
+doi: 10.1126/sciadv.adn2321
+PMID: '39231235'
+primary_url: https://www.science.org/doi/10.1126/sciadv.adn2321
+url: https://www.science.org/doi/10.1126/sciadv.adn2321
+pdf: http://boylelab.org/pubs/Sci_Advances_2024_Maltby.pdf
+links:
+  article: https://www.science.org/doi/10.1126/sciadv.adn2321
+  pdf: http://boylelab.org/pubs/Sci_Advances_2024_Maltby.pdf
+members:
+- kvandeyn
+- crmumm
+- apboyle
+member_roles: {}
+matched_members:
+- apboyle
+- crmumm
+- kvandeyn
+lab_roles:
+  first: []
+  senior: []
+  corresponding: []
+lab_led: false
+featured: false
+topics: []
+abstract: |-
+  Cerebellar ataxia with neuropathy and vestibular areflexia syndrome (CANVAS) is a late onset, recessively inherited neurodegenerative disorder caused by biallelic, non-reference pentameric AAGGG(CCCTT) repeat expansions within the second intron of replication factor complex subunit 1 (RFC1). To investigate how these repeats cause disease, we generated CANVAS patient induced pluripotent stem cell (iPSC) derived neurons (iNeurons) and utilized calcium imaging and transcriptomic analysis to define repeat-elicited gain-of-function and loss-of-function contributions to neuronal toxicity. AAGGG repeat expansions do not alter neuronal RFC1 splicing, expression, or DNA repair pathway functions. In reporter assays, AAGGG repeats are translated into pentapeptide repeat proteins that selectively accumulate in CANVAS patient brains. However, neither these proteins nor repeat RNA foci were detected in iNeurons, and overexpression of these repeats in isolation did not induce neuronal toxicity. CANVAS iNeurons exhibit defects in neuronal development and diminished synaptic connectivity that is rescued by CRISPR deletion of a single expanded allele. These phenotypic deficits were not replicated by knockdown of RFC1 in control neurons and were not rescued by ectopic expression of RFC1. These findings support a repeat-dependent but RFC1-independent cause of neuronal dysfunction in CANVAS, with important implications for therapeutic development in this currently untreatable condition.Summary Human CANVAS neurons exhibit transcriptional and functional synaptic defects that are corrected by heterozygous repeat deletion but are independent of the gene within which they reside—RFC1.Competing Interest StatementThe authors declare no direct conflicts of interest related to the content of this manuscript. No commercial forces had editorial or supervisory input on the content of the manuscript or its figures. P.K.T. holds a shared patent on ASOs with Ionis Pharmaceuticals. He has served as a consultant with Denali Therapeutics, and he has licensed technology and antibodies to Denali and Abcam. V.K. is a co-founder of and senior advisor to DaCapo Brainscience and Yumanity Therapeutics, companies focused on CNS diseases.
+bibtex: |-
+  @article{Maltby2024CANVASNeurons,
+    title = {{AAGGG repeat expansions trigger RFC1-independent synaptic dysregulation in human CANVAS neurons}},
+    author = {Maltby, Connor J. and Krans, Amy and Grudzien, Samantha J. and Palacios, Yomira and Mui{\~n}os, Jessica and Su{\'a}rez, Andrea and Asher, Melissa and Willey, Sydney and Van Deynze, Kinsey and Mumm, Camille and Boyle, Alan P and Cortese, Andrea and Khurana, Vikram and Barmada, Sami J. and Dijkstra, Anke A. and Todd, Peter K.},
+    year = {2024},
+    month = {Sep},
+    day = {6},
+    volume = {10},
+    number = {36},
+    pages = {eadn2321},
+    doi = {10.1126/sciadv.adn2321},
+    abstract = {Cerebellar ataxia with neuropathy and vestibular areflexia syndrome (CANVAS) is a late onset, recessively inherited neurodegenerative disorder caused by biallelic, non-reference pentameric AAGGG(CCCTT) repeat expansions within the second intron of replication factor complex subunit 1 (RFC1). To investigate how these repeats cause disease, we generated CANVAS patient induced pluripotent stem cell (iPSC) derived neurons (iNeurons) and utilized calcium imaging and transcriptomic analysis to define repeat-elicited gain-of-function and loss-of-function contributions to neuronal toxicity. AAGGG repeat expansions do not alter neuronal RFC1 splicing, expression, or DNA repair pathway functions. In reporter assays, AAGGG repeats are translated into pentapeptide repeat proteins that selectively accumulate in CANVAS patient brains. However, neither these proteins nor repeat RNA foci were detected in iNeurons, and overexpression of these repeats in isolation did not induce neuronal toxicity. CANVAS iNeurons exhibit defects in neuronal development and diminished synaptic connectivity that is rescued by CRISPR deletion of a single expanded allele. These phenotypic deficits were not replicated by knockdown of RFC1 in control neurons and were not rescued by ectopic expression of RFC1. These findings support a repeat-dependent but RFC1-independent cause of neuronal dysfunction in CANVAS, with important implications for therapeutic development in this currently untreatable condition.Summary Human CANVAS neurons exhibit transcriptional and functional synaptic defects that are corrected by heterozygous repeat deletion but are independent of the gene within which they reside{\textemdash}RFC1.Competing Interest StatementThe authors declare no direct conflicts of interest related to the content of this manuscript. No commercial forces had editorial or supervisory input on the content of the manuscript or its figures. P.K.T. holds a shared patent on ASOs with Ionis Pharmaceuticals. He has served as a consultant with Denali Therapeutics, and he has licensed technology and antibodies to Denali and Abcam. V.K. is a co-founder of and senior advisor to DaCapo Brainscience and Yumanity Therapeutics, companies focused on CNS diseases.},
+    url = {https://www.science.org/doi/10.1126/sciadv.adn2321},
+    pdf = {http://boylelab.org/pubs/Sci_Advances_2024_Maltby.pdf},
+    journal = {Science Advances},
+    note = {{PMID:} 39231235}
+  }
+---

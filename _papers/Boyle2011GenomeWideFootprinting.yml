@@ -1,0 +1,142 @@
+---
+generated: true
+bibkey: Boyle2011GenomeWideFootprinting
+entry_type: article
+publication_type: article
+status: published
+title: High-resolution genome-wide in vivo footprinting of diverse transcription factors in human cells
+authors: Boyle AP, Song L, Lee BK, London D, Keefe D, Birney E, Iyer VR, Crawford GE, Furey TS
+authors_short: Boyle AP, Song L, Lee BK, London D, Keefe D, Birney E, Iyer VR, Crawford GE, Furey TS
+author_count: 9
+author_list:
+- raw: Alan P Boyle
+  family: Boyle
+  given: Alan P
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- raw: Lingyun Song
+  family: Song
+  given: Lingyun
+  initials: L
+  citation_name: Song L
+  full_name: Lingyun Song
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: '{Bum-Kyu} Lee'
+  family: Lee
+  given: Bum-Kyu
+  initials: BK
+  citation_name: Lee BK
+  full_name: Bum-Kyu Lee
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Darin London
+  family: London
+  given: Darin
+  initials: D
+  citation_name: London D
+  full_name: Darin London
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Damian Keefe
+  family: Keefe
+  given: Damian
+  initials: D
+  citation_name: Keefe D
+  full_name: Damian Keefe
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Ewan Birney
+  family: Birney
+  given: Ewan
+  initials: E
+  citation_name: Birney E
+  full_name: Ewan Birney
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Vishwanath R Iyer
+  family: Iyer
+  given: Vishwanath R
+  initials: VR
+  citation_name: Iyer VR
+  full_name: Vishwanath R Iyer
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Gregory E {\dag}Crawford
+  family: Crawford
+  given: Gregory E
+  initials: GE
+  citation_name: Crawford GE
+  full_name: Gregory E Crawford
+  corporate: false
+  equal_contrib: false
+  co_senior: true
+- raw: Terrence S {\dag}Furey
+  family: Furey
+  given: Terrence S
+  initials: TS
+  citation_name: Furey TS
+  full_name: Terrence S Furey
+  corporate: false
+  equal_contrib: false
+  co_senior: true
+journal: Genome Research
+year: 2011
+month: 3
+sort_date: '2011-03-01'
+volume: '21'
+pages: 456--464
+doi: 10.1101/gr.112656.110
+PMID: '21106903'
+primary_url: http://www.ncbi.nlm.nih.gov/pubmed/21106903
+url: http://www.ncbi.nlm.nih.gov/pubmed/21106903
+pdf: http://boylelab.org/pubs/Genome_Res._2011_Boyle.pdf
+links:
+  article: http://www.ncbi.nlm.nih.gov/pubmed/21106903
+  pdf: http://boylelab.org/pubs/Genome_Res._2011_Boyle.pdf
+members:
+- apboyle
+member_roles: {}
+matched_members:
+- apboyle
+lab_roles:
+  first:
+  - apboyle
+  senior: []
+  corresponding: []
+lab_led: true
+featured: false
+topics: []
+abstract: |-
+  Regulation of gene transcription in diverse cell types is largely determined by varied sets of cis-elements where transcription factors bind. Here we demonstrate that data from a single high-throughput DNaseI hypersensitivity assay can delineate hundreds of thousands of base-pair resolution in vivo footprints in human cells that precisely mark individual transcription factor-DNA interactions. These annotations provide a unique resource for the investigation of cis-regulatory elements. We find that footprints for specific transcription factors correlate with ChIP-seq enrichment and can accurately identify functional vs. non-functional transcription factor motifs. We also find that footprints reveal a unique evolutionary conservation pattern that differentiates functional footprinted bases from surrounding DNA. Finally, detailed analysis of CTCF footprints suggests multiple modes of binding and a novel DNA binding motif upstream of the primary binding site.
+bibtex: "@article{Boyle2011GenomeWideFootprinting,\n  title = {High-resolution genome-wide in vivo footprinting\
+  \ of diverse transcription factors in human cells},\n  volume = {21},\n  issn = {1549-5469},\n  url\
+  \ = {http://www.ncbi.nlm.nih.gov/pubmed/21106903},\n  pdf = {http://boylelab.org/pubs/Genome_Res._2011_Boyle.pdf},\n\
+  \  doi = {10.1101/gr.112656.110},\n  abstract = {Regulation of gene transcription in diverse cell \n\
+  types is largely determined by varied sets of cis-elements where \ntranscription factors bind. Here\
+  \ we demonstrate that data from a single \nhigh-throughput {DNaseI} hypersensitivity assay can delineate\
+  \ hundreds \nof thousands of base-pair resolution in vivo footprints in human cells \nthat precisely\
+  \ mark individual transcription {factor-DNA} interactions. \nThese annotations provide a unique resource\
+  \ for the investigation of \ncis-regulatory elements. We find that footprints for specific \ntranscription\
+  \ factors correlate with {ChIP-seq} enrichment and can \naccurately identify functional vs. non-functional\
+  \ transcription factor \nmotifs. We also find that footprints reveal a unique evolutionary \nconservation\
+  \ pattern that differentiates functional footprinted bases \nfrom surrounding {DNA.} Finally, detailed\
+  \ analysis of {CTCF} footprints \nsuggests multiple modes of binding and a novel {DNA} binding motif\
+  \ \nupstream of the primary binding site.},\n  journal = {Genome Research},\n  author = {Alan P Boyle\
+  \ and Lingyun Song and {Bum-Kyu} Lee and \nDarin London and Damian Keefe and Ewan Birney and Vishwanath\
+  \ R Iyer and \nGregory E {\\dag}Crawford and Terrence S {\\dag}Furey},\n  month = mar,\n  year = {2011},\n\
+  \  note = {{PMID:} 21106903},\n  pages = {456--464}\n}"
+---

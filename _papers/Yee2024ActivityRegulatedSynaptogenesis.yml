@@ -1,0 +1,169 @@
+---
+generated: true
+bibkey: Yee2024ActivityRegulatedSynaptogenesis
+entry_type: article
+publication_type: article
+status: published
+title: An activity-regulated transcriptional program directly drives synaptogenesis
+authors: Yee C, Xiao Y, Chen H, Reddy A, Xu B, Medwig-Kinney T, Zhang W, Boyle AP, Herbst W, Xiang Y,
+  Matus D, Shen K
+authors_short: Yee C, Xiao Y, Chen H, Reddy A, Xu B, Medwig-Kinney T, …, Shen K
+author_count: 12
+author_list:
+- raw: Yee, C
+  family: Yee
+  given: C
+  initials: C
+  citation_name: Yee C
+  full_name: C Yee
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Xiao, Y
+  family: Xiao
+  given: Y
+  initials: Y
+  citation_name: Xiao Y
+  full_name: Y Xiao
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Chen, H
+  family: Chen
+  given: H
+  initials: H
+  citation_name: Chen H
+  full_name: H Chen
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Reddy, AR
+  family: Reddy
+  given: AR
+  initials: A
+  citation_name: Reddy A
+  full_name: AR Reddy
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Xu, B
+  family: Xu
+  given: B
+  initials: B
+  citation_name: Xu B
+  full_name: B Xu
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Medwig-Kinney, TN
+  family: Medwig-Kinney
+  given: TN
+  initials: T
+  citation_name: Medwig-Kinney T
+  full_name: TN Medwig-Kinney
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Zhang, W
+  family: Zhang
+  given: W
+  initials: W
+  citation_name: Zhang W
+  full_name: W Zhang
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Boyle, Alan P.
+  family: Boyle
+  given: Alan P.
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P. Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- raw: Herbst, WA
+  family: Herbst
+  given: WA
+  initials: W
+  citation_name: Herbst W
+  full_name: WA Herbst
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Xiang, YK
+  family: Xiang
+  given: YK
+  initials: Y
+  citation_name: Xiang Y
+  full_name: YK Xiang
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Matus, DQ
+  family: Matus
+  given: DQ
+  initials: D
+  citation_name: Matus D
+  full_name: DQ Matus
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Shen, K
+  family: Shen
+  given: K
+  initials: K
+  citation_name: Shen K
+  full_name: K Shen
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+journal: Nature Neuroscience
+year: 2024
+month: 8
+sort_date: '2024-08-01'
+volume: '27'
+number: '9'
+pages: 1695-1707
+doi: 10.1038/s41593-024-01728-x
+PMID: '39103556'
+primary_url: https://www.nature.com/articles/s41593-024-01728-x
+url: https://www.nature.com/articles/s41593-024-01728-x
+pdf: http://boylelab.org/pubs/Nat_Neuroscience_2024_Yee.pdf
+links:
+  article: https://www.nature.com/articles/s41593-024-01728-x
+  pdf: http://boylelab.org/pubs/Nat_Neuroscience_2024_Yee.pdf
+members:
+- apboyle
+member_roles: {}
+matched_members:
+- apboyle
+lab_roles:
+  first: []
+  senior: []
+  corresponding: []
+lab_led: false
+featured: false
+topics: []
+abstract: |-
+  Although the molecular composition and architecture of synapses have been widely explored, much less is known about what genetic programs directly activate synaptic gene expression and how they are modulated. Here, using Caenorhabditis elegans dopaminergic neurons, we reveal that EGL-43/MECOM and FOS-1/FOS control an activity-dependent synaptogenesis program. Loss of either factor severely reduces presynaptic protein expression. Both factors bind directly to promoters of synaptic genes and act together with CUT homeobox transcription factors to activate transcription. egl-43 and fos-1 mutually promote each other's expression, and increasing the binding affinity of FOS-1 to the egl-43 locus results in increased presynaptic protein expression and synaptic function. EGL-43 regulates the expression of multiple transcription factors, including activity-regulated factors and developmental factors that define multiple aspects of dopaminergic identity. Together, we describe a robust genetic program underlying activity-regulated synapse formation during development.
+bibtex: |-
+  @article{Yee2024ActivityRegulatedSynaptogenesis,
+    author = {Yee, C and Xiao, Y and Chen, H and Reddy, AR and Xu, B and Medwig-Kinney, TN and Zhang, W and Boyle, Alan P. and Herbst, WA and Xiang, YK and Matus, DQ and Shen, K},
+    title = {{An activity-regulated transcriptional program directly drives synaptogenesis}},
+    year = {2024},
+    month = {Aug},
+    volume = {27},
+    number = {9},
+    pages = {1695-1707},
+    doi = {10.1038/s41593-024-01728-x},
+    abstract = {Although the molecular composition and architecture of synapses have been widely explored, much less is known about what genetic programs directly activate synaptic gene expression and how they are modulated. Here, using Caenorhabditis elegans dopaminergic neurons, we reveal that EGL-43/MECOM and FOS-1/FOS control an activity-dependent synaptogenesis program. Loss of either factor severely reduces presynaptic protein expression. Both factors bind directly to promoters of synaptic genes and act together with CUT homeobox transcription factors to activate transcription. egl-43 and fos-1 mutually promote each other's expression, and increasing the binding affinity of FOS-1 to the egl-43 locus results in increased presynaptic protein expression and synaptic function. EGL-43 regulates the expression of multiple transcription factors, including activity-regulated factors and developmental factors that define multiple aspects of dopaminergic identity. Together, we describe a robust genetic program underlying activity-regulated synapse formation during development.},
+    url = {https://www.nature.com/articles/s41593-024-01728-x},
+    pdf = {http://boylelab.org/pubs/Nat_Neuroscience_2024_Yee.pdf},
+    journal = {Nature Neuroscience},
+    note = {{PMID:} 39103556}
+  }
+---

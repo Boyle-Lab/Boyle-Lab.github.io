@@ -1,0 +1,95 @@
+---
+generated: true
+bibkey: Amemiya2019ENCODEBlacklist
+entry_type: article
+publication_type: article
+status: published
+title: 'The ENCODE Blacklist: Identification of Problematic Regions of the Genome.'
+authors: Amemiya HM, Kundaje A, Boyle AP
+authors_short: Amemiya HM, Kundaje A, Boyle AP
+author_count: 3
+author_list:
+- raw: Amemiya, Haley M
+  family: Amemiya
+  given: Haley M
+  initials: HM
+  citation_name: Amemiya HM
+  full_name: Haley M Amemiya
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: hamemiya
+  member_url: /people/Haley_Amemiya/
+  member_name: Haley Amemiya
+- raw: '{\dag}Kundaje, Anshul'
+  family: Kundaje
+  given: Anshul
+  initials: A
+  citation_name: Kundaje A
+  full_name: Anshul Kundaje
+  corporate: false
+  equal_contrib: false
+  co_senior: true
+- raw: '{\dag}Boyle, Alan P'
+  family: Boyle
+  given: Alan P
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: true
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+journal: Scientific Reports
+year: 2019
+month: 6
+sort_date: '2019-06-01'
+volume: '9'
+number: '1'
+pages: '9354'
+doi: 10.1038/s41598-019-45839-z
+PMID: '31249361'
+primary_url: http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&id=31249361&retmode=ref&cmd=prlinks
+url: http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&id=31249361&retmode=ref&cmd=prlinks
+pdf: http://boylelab.org/pubs/Sci_Rep_2019_Amemiya.pdf
+links:
+  code: https://github.com/Boyle-Lab/Blacklist
+  article: http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&id=31249361&retmode=ref&cmd=prlinks
+  pdf: http://boylelab.org/pubs/Sci_Rep_2019_Amemiya.pdf
+members:
+- hamemiya
+- apboyle
+member_roles: {}
+matched_members:
+- apboyle
+- hamemiya
+lab_roles:
+  first:
+  - hamemiya
+  senior:
+  - apboyle
+  corresponding: []
+lab_led: true
+featured: false
+topics: []
+abstract: |-
+  Functional genomics assays based on high-throughput sequencing greatly expand our ability to understand the genome. Here, we define the ENCODE blacklist- a comprehensive set of regions in the human, mouse, worm, and fly genomes that have anomalous, unstructured, or high signal in next-generation sequencing experiments independent of cell line or experiment. The removal of the ENCODE blacklist is an essential quality measure when analyzing functional genomics data.
+bibtex: |-
+  @article{Amemiya2019ENCODEBlacklist,
+    author = {Amemiya, Haley M and {\dag}Kundaje, Anshul and {\dag}Boyle, Alan P},
+    title = {{The ENCODE Blacklist: Identification of Problematic Regions of the Genome.}},
+    journal = {Scientific Reports},
+    year = {2019},
+    volume = {9},
+    number = {1},
+    pages = {9354},
+    month = jun,
+    doi = {10.1038/s41598-019-45839-z},
+    abstract = {Functional genomics assays based on high-throughput sequencing greatly expand our ability to understand the genome. Here, we define the ENCODE blacklist- a comprehensive set of regions in the human, mouse, worm, and fly genomes that have anomalous, unstructured, or high signal in next-generation sequencing experiments independent of cell line or experiment. The removal of the ENCODE blacklist is an essential quality measure when analyzing functional genomics data.},
+    url = {http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&id=31249361&retmode=ref&cmd=prlinks},
+    pdf = {http://boylelab.org/pubs/Sci_Rep_2019_Amemiya.pdf},
+    note = {{PMID:} 31249361}
+  }
+---

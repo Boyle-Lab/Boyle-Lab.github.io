@@ -1,0 +1,566 @@
+---
+generated: true
+bibkey: Gerstein2012ENCODERegulatoryNetwork
+entry_type: article
+publication_type: article
+status: published
+title: Architecture of the human regulatory network derived from ENCODE data
+authors: |-
+  Gerstein MB, Kundaje A, Hariharan M, Landt SG, Yan KK, Cheng C, Mu XJ, Khurana E, Rozowsky J, Alexander R, Min R, Alves P, Abyzov A, Addleman N, Bhardwaj N, Boyle AP, Cayting P, Charos A, Chen DZ, Cheng Y, Clarke D, Eastman C, Euskirchen G, Frietze S, Fu Y, Gertz J, Grubert F, Harmanci A, Jain P, Kasowski M, Lacroute P, Leng J, Lian J, Monahan H, O'Geen H, Ouyang Z, Partridge EC, Patacsil D, Pauli F, Raha D, Ramirez L, Reddy TE, Reed B, Shi M, Slifer T, Wang J, Wu L, Yang X, Yip KY, Zilberman-Schapira G, Batzoglou S, Sidow A, Farnham PJ, Myers RM, Weissman SM, Snyder M
+authors_short: Gerstein MB, Kundaje A, Hariharan M, Landt SG, Yan KK, Cheng C, …, Snyder M
+author_count: 56
+author_list:
+- raw: '*Gerstein, Mark B'
+  family: Gerstein
+  given: Mark B
+  initials: MB
+  citation_name: Gerstein MB
+  full_name: Mark B Gerstein
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Kundaje, Anshul'
+  family: Kundaje
+  given: Anshul
+  initials: A
+  citation_name: Kundaje A
+  full_name: Anshul Kundaje
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Hariharan, Manoj'
+  family: Hariharan
+  given: Manoj
+  initials: M
+  citation_name: Hariharan M
+  full_name: Manoj Hariharan
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Landt, Stephen G'
+  family: Landt
+  given: Stephen G
+  initials: SG
+  citation_name: Landt SG
+  full_name: Stephen G Landt
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Yan, Koon-Kiu'
+  family: Yan
+  given: Koon-Kiu
+  initials: KK
+  citation_name: Yan KK
+  full_name: Koon-Kiu Yan
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Cheng, Chao'
+  family: Cheng
+  given: Chao
+  initials: C
+  citation_name: Cheng C
+  full_name: Chao Cheng
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Mu, Xinmeng Jasmine'
+  family: Mu
+  given: Xinmeng Jasmine
+  initials: XJ
+  citation_name: Mu XJ
+  full_name: Xinmeng Jasmine Mu
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Khurana, Ekta'
+  family: Khurana
+  given: Ekta
+  initials: E
+  citation_name: Khurana E
+  full_name: Ekta Khurana
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Rozowsky, Joel'
+  family: Rozowsky
+  given: Joel
+  initials: J
+  citation_name: Rozowsky J
+  full_name: Joel Rozowsky
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Alexander, Roger'
+  family: Alexander
+  given: Roger
+  initials: R
+  citation_name: Alexander R
+  full_name: Roger Alexander
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Min, Renqiang'
+  family: Min
+  given: Renqiang
+  initials: R
+  citation_name: Min R
+  full_name: Renqiang Min
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Alves, Pedro'
+  family: Alves
+  given: Pedro
+  initials: P
+  citation_name: Alves P
+  full_name: Pedro Alves
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: Abyzov, Alexej
+  family: Abyzov
+  given: Alexej
+  initials: A
+  citation_name: Abyzov A
+  full_name: Alexej Abyzov
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Addleman, Nick
+  family: Addleman
+  given: Nick
+  initials: N
+  citation_name: Addleman N
+  full_name: Nick Addleman
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Bhardwaj, Nitin
+  family: Bhardwaj
+  given: Nitin
+  initials: N
+  citation_name: Bhardwaj N
+  full_name: Nitin Bhardwaj
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Boyle, Alan P
+  family: Boyle
+  given: Alan P
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- raw: Cayting, Philip
+  family: Cayting
+  given: Philip
+  initials: P
+  citation_name: Cayting P
+  full_name: Philip Cayting
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Charos, Alexandra
+  family: Charos
+  given: Alexandra
+  initials: A
+  citation_name: Charos A
+  full_name: Alexandra Charos
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Chen, David Z
+  family: Chen
+  given: David Z
+  initials: DZ
+  citation_name: Chen DZ
+  full_name: David Z Chen
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Cheng, Yong
+  family: Cheng
+  given: Yong
+  initials: Y
+  citation_name: Cheng Y
+  full_name: Yong Cheng
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Clarke, Declan
+  family: Clarke
+  given: Declan
+  initials: D
+  citation_name: Clarke D
+  full_name: Declan Clarke
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Eastman, Catharine
+  family: Eastman
+  given: Catharine
+  initials: C
+  citation_name: Eastman C
+  full_name: Catharine Eastman
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Euskirchen, Ghia
+  family: Euskirchen
+  given: Ghia
+  initials: G
+  citation_name: Euskirchen G
+  full_name: Ghia Euskirchen
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Frietze, Seth
+  family: Frietze
+  given: Seth
+  initials: S
+  citation_name: Frietze S
+  full_name: Seth Frietze
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Fu, Yao
+  family: Fu
+  given: Yao
+  initials: Y
+  citation_name: Fu Y
+  full_name: Yao Fu
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Gertz, Jason
+  family: Gertz
+  given: Jason
+  initials: J
+  citation_name: Gertz J
+  full_name: Jason Gertz
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Grubert, Fabian
+  family: Grubert
+  given: Fabian
+  initials: F
+  citation_name: Grubert F
+  full_name: Fabian Grubert
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Harmanci, Arif
+  family: Harmanci
+  given: Arif
+  initials: A
+  citation_name: Harmanci A
+  full_name: Arif Harmanci
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Jain, Preti
+  family: Jain
+  given: Preti
+  initials: P
+  citation_name: Jain P
+  full_name: Preti Jain
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Kasowski, Maya
+  family: Kasowski
+  given: Maya
+  initials: M
+  citation_name: Kasowski M
+  full_name: Maya Kasowski
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Lacroute, Phil
+  family: Lacroute
+  given: Phil
+  initials: P
+  citation_name: Lacroute P
+  full_name: Phil Lacroute
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Leng, Jing
+  family: Leng
+  given: Jing
+  initials: J
+  citation_name: Leng J
+  full_name: Jing Leng
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Lian, Jin
+  family: Lian
+  given: Jin
+  initials: J
+  citation_name: Lian J
+  full_name: Jin Lian
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Monahan, Hannah
+  family: Monahan
+  given: Hannah
+  initials: H
+  citation_name: Monahan H
+  full_name: Hannah Monahan
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: '{O''Geen}, Henriette'
+  family: O'Geen
+  given: Henriette
+  initials: H
+  citation_name: O'Geen H
+  full_name: Henriette O'Geen
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Ouyang, Zhengqing
+  family: Ouyang
+  given: Zhengqing
+  initials: Z
+  citation_name: Ouyang Z
+  full_name: Zhengqing Ouyang
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Partridge, E Christopher
+  family: Partridge
+  given: E Christopher
+  initials: EC
+  citation_name: Partridge EC
+  full_name: E Christopher Partridge
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Patacsil, Dorrelyn
+  family: Patacsil
+  given: Dorrelyn
+  initials: D
+  citation_name: Patacsil D
+  full_name: Dorrelyn Patacsil
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Pauli, Florencia
+  family: Pauli
+  given: Florencia
+  initials: F
+  citation_name: Pauli F
+  full_name: Florencia Pauli
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Raha, Debasish
+  family: Raha
+  given: Debasish
+  initials: D
+  citation_name: Raha D
+  full_name: Debasish Raha
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Ramirez, Lucia
+  family: Ramirez
+  given: Lucia
+  initials: L
+  citation_name: Ramirez L
+  full_name: Lucia Ramirez
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Reddy, Timothy E
+  family: Reddy
+  given: Timothy E
+  initials: TE
+  citation_name: Reddy TE
+  full_name: Timothy E Reddy
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Reed, Brian
+  family: Reed
+  given: Brian
+  initials: B
+  citation_name: Reed B
+  full_name: Brian Reed
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Shi, Minyi
+  family: Shi
+  given: Minyi
+  initials: M
+  citation_name: Shi M
+  full_name: Minyi Shi
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Slifer, Teri
+  family: Slifer
+  given: Teri
+  initials: T
+  citation_name: Slifer T
+  full_name: Teri Slifer
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Wang, Jing
+  family: Wang
+  given: Jing
+  initials: J
+  citation_name: Wang J
+  full_name: Jing Wang
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Wu, Linfeng
+  family: Wu
+  given: Linfeng
+  initials: L
+  citation_name: Wu L
+  full_name: Linfeng Wu
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Yang, Xinqiong
+  family: Yang
+  given: Xinqiong
+  initials: X
+  citation_name: Yang X
+  full_name: Xinqiong Yang
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Yip, Kevin Y
+  family: Yip
+  given: Kevin Y
+  initials: KY
+  citation_name: Yip KY
+  full_name: Kevin Y Yip
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Zilberman-Schapira, Gili
+  family: Zilberman-Schapira
+  given: Gili
+  initials: G
+  citation_name: Zilberman-Schapira G
+  full_name: Gili Zilberman-Schapira
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Batzoglou, Serafim
+  family: Batzoglou
+  given: Serafim
+  initials: S
+  citation_name: Batzoglou S
+  full_name: Serafim Batzoglou
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Sidow, Arend
+  family: Sidow
+  given: Arend
+  initials: A
+  citation_name: Sidow A
+  full_name: Arend Sidow
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Farnham, Peggy J
+  family: Farnham
+  given: Peggy J
+  initials: PJ
+  citation_name: Farnham PJ
+  full_name: Peggy J Farnham
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Myers, Richard M
+  family: Myers
+  given: Richard M
+  initials: RM
+  citation_name: Myers RM
+  full_name: Richard M Myers
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Weissman, Sherman M
+  family: Weissman
+  given: Sherman M
+  initials: SM
+  citation_name: Weissman SM
+  full_name: Sherman M Weissman
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Snyder, Michael
+  family: Snyder
+  given: Michael
+  initials: M
+  citation_name: Snyder M
+  full_name: Michael Snyder
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+journal: Nature
+year: 2012
+month: 9
+sort_date: '2012-09-01'
+volume: '489'
+number: '7414'
+pages: 91--100
+doi: 10.1038/nature11245
+PMID: '22955619'
+primary_url: http://www.ncbi.nlm.nih.gov/pubmed/22955619
+url: http://www.ncbi.nlm.nih.gov/pubmed/22955619
+pdf: http://boylelab.org/pubs/Nature_2012_Gerstein.pdf
+links:
+  article: http://www.ncbi.nlm.nih.gov/pubmed/22955619
+  pdf: http://boylelab.org/pubs/Nature_2012_Gerstein.pdf
+members:
+- apboyle
+member_roles: {}
+matched_members:
+- apboyle
+lab_roles:
+  first: []
+  senior: []
+  corresponding: []
+lab_led: false
+featured: false
+topics: []
+abstract: |-
+  Transcription factors bind in a combinatorial fashion to specify the on-and-off states of genes; the ensemble of these binding events forms a regulatory network, constituting the wiring diagram for a cell. To examine the principles of the human transcriptional regulatory network, we determined the genomic binding information of 119 transcription-related factors in over 450 distinct experiments. We found the combinatorial, co-association of transcription factors to be highly context specific: distinct combinations of factors bind at specific genomic locations. In particular, there are significant differences in the binding proximal and distal to genes. We organized all the transcription factor binding into a hierarchy and integrated it with other genomic information (for example, microRNA regulation), forming a dense meta-network. Factors at different levels have different properties; for instance, top-level transcription factors more strongly influence expression and middle-level ones co-regulate targets to mitigate information-flow bottlenecks. Moreover, these co-regulations give rise to many enriched network motifs (for example, noise-buffering feed-forward loops). Finally, more connected network components are under stronger selection and exhibit a greater degree of allele-specific activity (that is, differential binding to the two parental alleles). The regulatory information obtained in this study will be crucial for interpreting personal genome sequences and understanding basic principles of human biology and disease.
+bibtex: |-
+  @article{Gerstein2012ENCODERegulatoryNetwork,
+    title = {Architecture of the human regulatory network derived from {ENCODE} data},
+    volume = {489},
+    issn = {1476-4687},
+    url = {http://www.ncbi.nlm.nih.gov/pubmed/22955619},
+    pdf = {http://boylelab.org/pubs/Nature_2012_Gerstein.pdf},
+    doi = {10.1038/nature11245},
+    abstract = {Transcription factors bind in a combinatorial fashion to specify the on-and-off states of genes; the ensemble of these binding events forms a regulatory network, constituting the wiring diagram for a cell. To examine the principles of the human transcriptional regulatory network, we determined the genomic binding information of 119 transcription-related factors in over 450 distinct experiments. We found the combinatorial, co-association of transcription factors to be highly context specific: distinct combinations of factors bind at specific genomic locations. In particular, there are significant differences in the binding proximal and distal to genes. We organized all the transcription factor binding into a hierarchy and integrated it with other genomic information (for example, {microRNA} regulation), forming a dense meta-network. Factors at different levels have different properties; for instance, top-level transcription factors more strongly influence expression and middle-level ones co-regulate targets to mitigate information-flow bottlenecks. Moreover, these co-regulations give rise to many enriched network motifs (for example, noise-buffering feed-forward loops). Finally, more connected network components are under stronger selection and exhibit a greater degree of allele-specific activity (that is, differential binding to the two parental alleles). The regulatory information obtained in this study will be crucial for interpreting personal genome sequences and understanding basic principles of human biology and disease.},
+    number = {7414},
+    journal = {Nature},
+    author = {*Gerstein, Mark B and *Kundaje, Anshul and *Hariharan, Manoj and *Landt, Stephen G and *Yan, Koon-Kiu and *Cheng, Chao and *Mu, Xinmeng Jasmine and *Khurana, Ekta and *Rozowsky, Joel and *Alexander, Roger and *Min, Renqiang and *Alves, Pedro and Abyzov, Alexej and Addleman, Nick and Bhardwaj, Nitin and Boyle, Alan P and Cayting, Philip and Charos, Alexandra and Chen, David Z and Cheng, Yong and Clarke, Declan and Eastman, Catharine and Euskirchen, Ghia and Frietze, Seth and Fu, Yao and Gertz, Jason and Grubert, Fabian and Harmanci, Arif and Jain, Preti and Kasowski, Maya and Lacroute, Phil and Leng, Jing and Lian, Jin and Monahan, Hannah and {O'Geen}, Henriette and Ouyang, Zhengqing and Partridge, E Christopher and Patacsil, Dorrelyn and Pauli, Florencia and Raha, Debasish and Ramirez, Lucia and Reddy, Timothy E and Reed, Brian and Shi, Minyi and Slifer, Teri and Wang, Jing and Wu, Linfeng and Yang, Xinqiong and Yip, Kevin Y and Zilberman-Schapira, Gili and Batzoglou, Serafim and Sidow, Arend and Farnham, Peggy J and Myers, Richard M and Weissman, Sherman M and Snyder, Michael},
+    month = sep,
+    year = {2012},
+    note = {{PMID:} 22955619},
+    pages = {91--100}
+  }
+---
