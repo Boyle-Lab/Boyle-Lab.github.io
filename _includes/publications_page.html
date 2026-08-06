@@ -1,0 +1,67 @@
+{% assign sorted_papers = site.papers | sort: "sort_date" | reverse %}
+{% assign publication_count = sorted_papers | size %}
+{% assign pi = site.people | where: "umid", "apboyle" | first %}
+
+<div class="publications-page">
+  <header class="publications-header">
+    <div>
+      <h1>Publications</h1>
+      <p>Our work combines computational genomics, long-read sequencing, and functional experiments to understand gene regulation, repetitive DNA, somatic variation, and the functional consequences of human genetic variation.</p>
+    </div>
+  </header>
+
+  <nav class="publications-profile-links" aria-label="Publication profiles and downloads">
+    {% if pi.social.google-scholar %}<a href="https://scholar.google.com/citations?user={{ pi.social.google-scholar | escape }}">Google Scholar</a>{% endif %}
+    {% if pi.social.orcid %}<a href="https://orcid.org/{{ pi.social.orcid | escape }}">ORCID</a>{% endif %}
+  </nav>
+
+  {% assign featured_papers = site.array %}
+  {% for paper in sorted_papers %}
+    {% if paper.featured %}{% assign featured_papers = featured_papers | push: paper %}{% endif %}
+  {% endfor %}
+  {% if featured_papers.size > 0 %}
+    <section class="publication-featured-section" aria-labelledby="featured-publications-heading">
+      <h2 id="featured-publications-heading">Featured lab-led work</h2>
+      <div class="publication-feature-grid">
+        {% for paper in featured_papers limit: 4 %}{% include publication_featured.html paper=paper %}{% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  <section class="publication-index" aria-labelledby="all-publications-heading">
+    <div class="publication-index-heading">
+      <div>
+        <h2 id="all-publications-heading">All publications</h2>
+      </div>
+      <details class="publication-notation">
+        <summary>Author notation</summary>
+        <p><strong class="publication-author--member">Bold blue</strong> names are Boyle Lab members. * denotes co-first authors and † denotes co-senior authors.</p>
+      </details>
+    </div>
+
+    <div id="publication-list">
+      {% assign grouped_papers = sorted_papers | group_by: "year" %}
+      {% for group in grouped_papers %}
+        <section class="publication-year-section" data-publication-year-section data-year="{{ group.name }}" aria-labelledby="publication-year-{{ group.name }}">
+          <h2 id="publication-year-{{ group.name }}" class="publication-year-heading"><span>{{ group.name }}</span><small>{{ group.items.size }} publication{% if group.items.size != 1 %}s{% endif %}</small></h2>
+          {% assign papers_in_year = group.items | sort: "sort_date" | reverse %}
+          <div class="publication-year-list">
+            {% for paper in papers_in_year %}
+              <div class="publication-filter-item"
+                   data-publication-item
+                   data-year="{{ paper.year }}"
+                   data-status="{{ paper.status }}"
+                   data-type="{{ paper.publication_type }}"
+                   data-lab-led="{{ paper.lab_led }}"
+                   data-search="{{ paper.search_text | escape }}">
+                {% include publication_citation.html paper=paper show_abstract=true show_metrics=true %}
+              </div>
+            {% endfor %}
+          </div>
+        </section>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+
+<script async src="https://integration-dimensions-badge.digital-science.com/static/com/badge.js" charset="utf-8"></script>

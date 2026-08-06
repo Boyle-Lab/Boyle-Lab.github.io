@@ -1,0 +1,9 @@
+{% assign publication_authors = include.authors %}
+{% for author in publication_authors %}
+  {% if author.member_url %}
+    <a class="publication-author publication-author--member" href="{{ author.member_url | escape }}" title="Boyle Lab member: {{ author.member_name | escape }}">{{ author.citation_name | escape }}</a>
+  {% else %}
+    <span class="publication-author">{{ author.citation_name | escape }}</span>
+  {% endif %}
+  {% if author.equal_contrib %}<sup class="publication-author-marker" title="Co-first author">*</sup>{% endif %}{% if author.co_senior %}<sup class="publication-author-marker" title="Co-senior author">†</sup>{% endif %}{% unless forloop.last %}, {% endunless %}
+{% endfor %}

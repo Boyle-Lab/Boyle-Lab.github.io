@@ -1,0 +1,81 @@
+{% assign paper = include.paper | default: include.ref %}
+<article class="publication-citation{% if include.compact %} publication-citation--compact{% endif %}" id="publication-{{ paper.slug | escape }}">
+  <div class="publication-title-row">
+    <h3 class="publication-title">
+      {% if paper.primary_url %}<a href="{{ paper.primary_url | escape }}">{{ paper.title | escape }}</a>{% else %}{{ paper.title | escape }}{% endif %}
+    </h3>
+    {% if paper.status == "preprint" %}<span class="publication-badge publication-badge--preprint">Preprint</span>{% endif %}
+    {% if paper.status == "in_press" %}<span class="publication-badge publication-badge--in-press">In press</span>{% endif %}
+    {% if paper.publication_type == "chapter" %}<span class="publication-badge">Book chapter</span>{% endif %}
+    {% if include.member_id and paper.member_roles %}
+      {% assign publication_member_role = paper.member_roles[include.member_id] %}
+      {% if publication_member_role %}<span class="publication-badge">{{ publication_member_role | replace: "_", " " | capitalize }}</span>{% endif %}
+    {% endif %}
+  </div>
+
+  <div class="publication-authors">
+    {% if paper.author_count > 14 %}
+      <details class="publication-author-details">
+        <summary>{{ paper.authors_short | escape }}</summary>
+        <div class="publication-author-list-expanded">{% include publication_authors.html authors=paper.author_list %}</div>
+      </details>
+    {% else %}
+      {% include publication_authors.html authors=paper.author_list %}
+    {% endif %}
+  </div>
+
+  <div class="publication-meta">
+    {% if paper.journal %}<span class="publication-journal">{{ paper.journal | escape }}</span>{% endif %}
+    {% if paper.year %}<span>{{ paper.year }}</span>{% endif %}
+    {% if paper.volume %}<span><strong>{{ paper.volume | escape }}</strong>{% if paper.number %}({{ paper.number | escape }}){% endif %}{% if paper.pages %}:{{ paper.pages | escape }}{% endif %}</span>{% elsif paper.pages %}<span>{{ paper.pages | escape }}</span>{% endif %}
+    {% if paper.consortium %}<span>{{ paper.consortium | escape }}</span>{% endif %}
+  </div>
+
+  {% if paper.summary and include.compact != true %}
+    <p class="publication-summary">{{ paper.summary | escape }}</p>
+  {% endif %}
+
+  <div class="publication-actions">
+    <div class="publication-links" aria-label="Links for {{ paper.title | escape }}">
+      {% if paper.primary_url %}<a href="{{ paper.primary_url | escape }}">Article</a>{% endif %}
+      {% if paper.doi %}<a href="https://doi.org/{{ paper.doi | escape }}">DOI</a>{% endif %}
+      {% if paper.pdf %}<a href="{{ paper.pdf | escape }}">PDF</a>{% endif %}
+      {% if paper.PMID %}<a href="https://pubmed.ncbi.nlm.nih.gov/{{ paper.PMID | escape }}/">PubMed</a>{% endif %}
+      {% if paper.status != "preprint" and paper.biorxiv %}<a href="{{ paper.biorxiv | escape }}">Preprint</a>{% endif %}
+      {% if paper.links.code %}<a href="{{ paper.links.code | escape }}">Code</a>{% endif %}
+      {% if paper.links.data %}<a href="{{ paper.links.data | escape }}">Data</a>{% endif %}
+      {% if paper.links.protocol %}<a href="{{ paper.links.protocol | escape }}">Protocol</a>{% endif %}
+      {% if paper.links.news %}
+        {% assign publication_news_link = paper.links.news | first %}
+        <a href="{{ publication_news_link | escape }}">News</a>
+      {% endif %}
+      <a href="/pub_bib/#{{ paper.slug | escape }}">BibTeX</a>
+    </div>
+
+    {% if include.show_metrics %}
+      {% if paper.doi or paper.PMID %}
+        <div class="publication-citation-metric" aria-label="Live citation count from Dimensions">
+          <span class="publication-citation-metric-label">Dimensions</span>
+          {% if paper.doi %}
+            <span class="__dimensions_badge_embed__"
+                  data-doi="{{ paper.doi | escape }}"
+                  data-style="small_rectangle"
+                  data-legend="hover-left"></span>
+          {% else %}
+            <span class="__dimensions_badge_embed__"
+                  data-pmid="{{ paper.PMID | escape }}"
+                  data-style="small_rectangle"
+                  data-legend="hover-left"></span>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endif %}
+  </div>
+
+  {% if include.show_abstract and paper.abstract %}
+    <details class="publication-abstract">
+      <summary>Abstract</summary>
+      <p>{{ paper.abstract | escape }}</p>
+    </details>
+  {% endif %}
+</article>

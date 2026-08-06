@@ -1,0 +1,14 @@
+{% assign paper = include.paper %}
+<article class="publication-feature-card{% unless paper.teaser %} publication-feature-card--no-image{% endunless %}">
+  {% if paper.teaser %}
+    {% if paper.primary_url %}<a class="publication-feature-image" href="{{ paper.primary_url | escape }}">{% else %}<div class="publication-feature-image">{% endif %}
+      <img src="{{ paper.teaser | escape }}" alt="" loading="lazy">
+    {% if paper.primary_url %}</a>{% else %}</div>{% endif %}
+  {% endif %}
+  <div class="publication-feature-content">
+    {% if paper.topics and paper.topics.size > 0 %}<div class="publication-feature-label">{{ paper.topics | first | escape }}</div>{% endif %}
+    <h3>{% if paper.primary_url %}<a href="{{ paper.primary_url | escape }}">{{ paper.title | escape }}</a>{% else %}{{ paper.title | escape }}{% endif %}</h3>
+    {% if paper.summary %}<p>{{ paper.summary | escape }}</p>{% endif %}
+    <div class="publication-feature-meta">{% if paper.journal %}{{ paper.journal | escape }} · {% endif %}{{ paper.year }}{% if paper.status == "preprint" %} · Preprint{% elsif paper.status == "in_press" %} · In press{% endif %}</div>
+  </div>
+</article>
