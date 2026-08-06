@@ -9,7 +9,7 @@ categories:
 - Events
 ---
 
-Alan, Rintsen, and Christopher attended the IGVF Annual Meeting in Durham. Alan presented some of our work in the PI-only poster session and Rintsen gave a talk on some of the collaborative work being done across the consortium. Over the three days, it was great to catch up and share ideas in person with collaborators. There was also time for dinners, socializing, and fun at the Durham ballpark, where we got to take batting practice! 
+Alan, Rintsen, and Christopher attended the IGVF Annual Meeting in Durham, North Carolina. Alan presented some of our work in the PI-only poster session and Rintsen gave a talk on some of the exciting collaborative work being done across the consortium. Over the three days, it was great to catch up and share ideas in person with collaborators. There was also time for dinners, socializing, and fun at the Durham ballpark, where we got to take batting practice! 
 
 <div>
 {% for image in site.static_files %}
