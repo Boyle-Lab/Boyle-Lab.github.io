@@ -162,29 +162,21 @@ Current: {{ page.current }}
 			
 {% assign member = page.umid %}
 {% assign member_papers = site.array %}
-{% for paper in site.papers reversed %}
+{% for paper in site.papers %}
   {% if paper.members contains member %}
     {% assign member_papers = member_papers | push: paper %}
   {% endif %}
 {% endfor %}
 
-
 {% assign paper_count = member_papers | size %}
 {% if paper_count > 0 %}
-  {% assign sorted_papers = member_papers | sort: 'year' %}
-  <center><h3 class="title"><font color = black>BOYLE LAB <i><b>PAPERS</b></i></font></h3></center>
-  <center><p class="yellow-dot"></p></center>
-  <div class="papers">
-  <ol>
-  {% for paper in sorted_papers %}
-    {% if paper.layout == "chapter" %}
-      <li>{% include reference_chapter.html ref=paper %}</li>
-    {% else %}
-      <li>{% include reference_paper.html ref=paper %}</li>
-    {% endif %}
-  {% endfor %}
-  </ol>
-</div>
+  {% assign sorted_papers = member_papers | sort: 'sort_date' | reverse %}
+  <h3 class="title">Boyle Lab publications <small>({{ paper_count }})</small></h3>
+  <div class="papers member-publication-list">
+    {% for paper in sorted_papers %}
+      {% include publication_citation.html paper=paper compact=true member_id=member %}
+    {% endfor %}
+  </div>
 {% endif %}
 
 	

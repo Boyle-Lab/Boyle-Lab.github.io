@@ -1,0 +1,10 @@
+bibkey: Amemiya2019ENCODEBlacklist
+slug: amemiya-2019do
+legacy_bibkeys:
+- Amemiya:2019do
+members:
+- hamemiya
+- apboyle
+links:
+  code: https://github.com/Boyle-Lab/Blacklist
+PMID: 31249361

@@ -56,6 +56,12 @@ Postdoc from {{ page.dates.pd_start | date: "%B %Y" }} to {{ page.dates.pd_end |
 
 {{ page.title }}
 
+{% if page.prior_lab_roles %}
+  {% for role in page.prior_lab_roles %}
+    <br>{{ role.position }} from {{ role.start | date: "%B %Y" }} to {{ role.end | date: "%B %Y" }}
+  {% endfor %}
+{% endif %}
+
 {% if page.current %}
 <br>
 Current: {{ page.current }}
@@ -146,28 +152,21 @@ Current: {{ page.current }}
 
 {% assign member = page.umid %}
 {% assign member_papers = site.array %}
-{% for paper in site.papers reversed %}
+{% for paper in site.papers %}
   {% if paper.members contains member %}
     {% assign member_papers = member_papers | push: paper %}
   {% endif %}
 {% endfor %}
 
-
 {% assign paper_count = member_papers | size %}
 {% if paper_count > 0 %}
-  {% assign sorted_papers = member_papers | sort: 'year' %}
-  <h3 class="title">Boyle lab papers</h3>
-  <div class="papers">
-  <ol>
-  {% for paper in sorted_papers %}
-    {% if paper.layout == "chapter" %}
-      <li>{% include reference_chapter.html ref=paper %}</li>
-    {% else %}
-      <li>{% include reference_paper.html ref=paper %}</li>
-    {% endif %}
-  {% endfor %}
-  </ol>
-</div>
+  {% assign sorted_papers = member_papers | sort: 'sort_date' | reverse %}
+  <h3 class="title">Boyle Lab publications <small>({{ paper_count }})</small></h3>
+  <div class="papers member-publication-list">
+    {% for paper in sorted_papers %}
+      {% include publication_citation.html paper=paper compact=true member_id=member %}
+    {% endfor %}
+  </div>
 {% endif %}
 
 		</div>

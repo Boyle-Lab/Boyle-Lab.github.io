@@ -1,0 +1,10 @@
+bibkey: Diehl2016DecipheringENCODE
+slug: diehl-2016
+legacy_bibkeys:
+- Diehl:2016bs
+members:
+- adadiehl
+- apboyle
+links:
+  code: https://github.com/Boyle-Lab/ENCODE-API-Apps
+PMID: 26962025

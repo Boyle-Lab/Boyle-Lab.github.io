@@ -1,0 +1,88 @@
+old_key,new_key,year,first_author,title,doi
+Pavlovic2026.06.26.734832,Pavlovic2026FiberTEnCATS,2026,Katarina Pavlovic,Fiber-TEnCATS reveals haplotype-specific chromatin accessibility and DNA methylation at human L1HS loci,10.64898/2026.06.26.734832
+10.1093/bioinformatics/btag383,Kenney2026SEMPLR,2026,Grace E Kenney,SEMPLR: an R package for transcription factor binding prediction,10.1093/bioinformatics/btag383
+Rabbani2026.03.10.710708,Rabbani2026SpermatidChromatin,2026,Mashiat Rabbani,3D chromatin compartment of round spermatids encodes the spatiotemporal program of histone-to-protamine exchange in spermiogenesis,10.64898/2026.03.10.710708
+Li2026.03.04.709638,Li2026TFBSpedia,2026,Shiting Li,TFBSpedia: a comprehensive human and mouse transcription factor binding sites database,10.64898/2026.03.04.709638
+McBean2026,McBean2026RadiosensitizationARPositiveTNBC,2026,Breanna McBean,Transcriptomic analysis to uncover the mechanism of radiosensitization of AR-positive triple-negative breast cancers with AR inhibition,10.1038/s41523-026-00916-1
+10.1093/nar/gkaf1341,Li2025IGVFCatalog,2025,Daofeng Li,The IGVF catalog—from genetic variation to function,10.1093/nar/gkaf1341
+SMaHT2025,SMaHTNetwork2025SomaticMutationBenchmarking,2025,The Somatic Mosaicism across Human Tissues Network (SMaHT),Comprehensive benchmarking of somatic mutation detection by the SMaHT Network,10.1101/2025.10.09.678885
+Wang2025.10.07.680917,Wang2025SomaticRetrotransposition,2025,Seunghyun Wang,Multi-platform framework for mapping somatic retrotransposition in‬ human tissues,10.1101/2025.10.07.680917
+Diehl2025.05.22.655567,Diehl2026GPatch,2026,Adam G Diehl,"GPatch enables chromosome-scale, gap-free pseudoassemblies from fragmented draft genomes",10.1101/2025.05.22.655567
+Denstaedt2025.05.16.654442,Denstaedt2025MonocyteReprogramming,2025,Scott J. Denstaedt,Long-term immune reprogramming of classical monocytes with altered ontogeny mediates enhanced lung injury in sepsis survivors,10.1101/2025.05.16.654442
+miller2025,Miller2025C9orf72RANTranslation,2025,Shannon L. Miller,Cryptic intronic transcriptional initiation generates efficient endogenous mRNA templates for C9orf72-associated RAN translation,10.1073/pnas.2507334122
+parana2025,Parana2025ScytonemaGenome,2025,Preston Parana,Draft de novo genome construction of Scytonema sp. PRP1: identified from single-cell sequencing library preparation,10.1128/mra.00029-25
+consortium2024SMAHT,Coorens2025SMaHTNetwork,2025,Tim H. H. Coorens,The Somatic Mosaicism across Human Tissues Network,10.1038/s41586-025-09096-7
+ijms26052245,McBean2025MELKStemnessMetastasis,2025,Breanna McBean,MELK as a Mediator of Stemness and Metastasis in Aggressive Subtypes of Breast Cancer,10.3390/ijms26052245
+Lee2025,Lee2025PsychiatricMPRA,2025,Sool Lee,Massively parallel reporter assay investigates shared genetic variants of eight psychiatric disorders,10.1016/j.cell.2024.12.022
+VanDeynze2024,VanDeynze2025HMMSTR,2025,Kinsey Van Deynze,Enhanced detection and genotyping of disease-associated tandem repeats using HMMSTR and targeted long-read sequencing,10.1093/nar/gkae1202
+Zhou2024.12.18.629274,Zhou2024PersonalizedSomaticMosaicism,2024,Weichen Zhou,A personalized multi-platform assessment of somatic mosaicism in the human frontal cortex,10.1101/2024.12.18.629274
+maltby2024,Maltby2024CANVASNeurons,2024,Connor J. Maltby,AAGGG repeat expansions trigger RFC1-independent synaptic dysregulation in human CANVAS neurons,10.1126/sciadv.adn2321
+consortium2023impact,IGVFConsortium2024GenomicVariationFunction,2024,IGVF Consortium,Deciphering the impact of genomic variation on function,10.1038/s41586-024-07510-0
+Yee2023,Yee2024ActivityRegulatedSynaptogenesis,2024,C Yee,An activity-regulated transcriptional program directly drives synaptogenesis,10.1038/s41593-024-01728-x
+Crone2024,Crone2024TransAncestralPRS,2024,Bradley Crone,Enhancing Portability of Trans-Ancestral Polygenic Risk Scores through Tissue-Specific Functional Genomic Data Integration,10.1371/journal.pgen.1011356
+cagi2024,CAGIConsortium2024VariantInterpretation,2024,The Critical Assessment of Genome Interpretation Consortium,"CAGI, the Critical Assessment of Genome Interpretation, establishes progress and prospects for computational genetic variant interpretation methods.",10.1186/s13059-023-03113-6
+Zhao2023.09.07.556700,Zhao2023OrganSpecificRegulatoryVariants,2023,Nanxiang Zhao,Organ-specific prioritization and annotation of non-coding regulatory variants in the human genome,10.1101/2023.09.07.556700
+Zhao2023,Zhao2023ExplainSeq,2023,Nanxiang Zhao,Explain-seq: an end-to-end pipeline from training to interpretation of sequence-based deep learning models,10.1101/2023.01.23.525250
+Holmes2023.01.18.524565,Holmes2024HaplotagLR,2024,Monica J. Holmes,HaplotagLR: an efficient and configurable utility for haplotagging long reads,10.1371/journal.pone.0298688
+McAfee2022.09.15.22279954,McAfee2023SchizophreniaRegulatoryVariants,2023,Jessica C. McAfee,Systematic investigation of allelic regulatory activity of schizophrenia-associated common variants,10.1016/j.xgen.2023.100404
+Moritz2021.09.16.460631,Moritz2023ProtamineChromatin,2023,Lindsay Moritz,Sperm chromatin structure and reproductive fitness are altered by substitution of a single amino acid in mouse protamine 1,10.1038/s41594-023-01033-4
+Castro2022.11.05.515231,Castro2023DeNovoNoncodingVariants,2023,Christopher P. Castro,Challenges in screening for de novo noncoding variants contributing to genetically complex phenotypes,10.1016/j.xhgg.2023.100210
+Mumm2022.03.15.484480,Mumm2023OnRamp,2023,Camille Mumm,OnRamp: rapid nanopore plasmid validation,10.1101/gr.277369.122
+Dong2022.10.18.512627,Dong2023RegulomeDB2,2023,Shengcheng Dong,Annotating and prioritizing human non-coding variants with RegulomeDB v.2,10.1038/s41588-023-01365-3
+Ouyang2022.11.22.517559,Ouyang2022NoncodingVariantTFBinding,2022,Ningxin Ouyang,Quantitative assessment of association between noncoding variants and transcription factor binding,10.1101/2022.11.22.517559
+Nishizaki:2022,Nishizaki2022SEMplMe,2022,Sierra S Nishizaki,SEMplMe: A tool for integrating DNA methylation effects in transcription factor binding affinity predictions,10.1186/s12859-022-04865-x
+Qin2020.10.22.351049,Qin2022EnhancerTargetGenes,2022,Tingting Qin,Comprehensive enhancer-target gene assignments improve gene set level interpretation of genome-wide regulatory data,10.1186/s13059-022-02668-0
+Bao2021.01.15.426907,Bao2021SquiggleNet,2021,Yuwei Bao,"SquiggleNet: real-time, direct classification of nanopore signals",10.1186/s13059-021-02511-y
+Dong2021,Dong2021TissueSpecificRegulatoryVariants,2021,Shengcheng Dong,Prioritization of regulatory variants with tissue-specific function in the non-coding regions of human genome,10.1093/nar/gkab924
+McDonald2021,McDonald2021Cas9MobileElements,2021,Torrin L. McDonald,Cas9 targeted enrichment of mobile elements using nanopore sequencing,10.1038/s41467-021-23918-y
+Nishizak:2021a,Nishizaki2021LacOperatorZebrafish,2021,Sierra S Nishizaki,The inducible lac operator-repressor system is functional in zebrafish cells,10.3389/fgene.2021.683394
+Zhao:2021a,Zhao2021FSeq2,2021,Nanxiang Zhao,F-Seq2: improving the feature density based peak caller with dynamic statistics,10.1093/nargab/lqab012
+Tsuzuki202014419,Tsuzuki2020RNAPolymeraseV,2020,Masayuki Tsuzuki,Broad noncoding transcription suggests genome surveillance by RNA polymerase V,10.1073/pnas.2014419117
+Diehl827907,Diehl2020MapGL,2020,Adam G Diehl,MapGL: Inferring evolutionary gain and loss of short genomic sequence features by phylogenetic maximum parsimony,10.1186/s12859-020-03742-9
+Rothi2020.10.29.359794,Rothi2020MethylationNucleosomePositioning,2020,M Hafiz Rothi,DNA methylation directs nucleosome positioning in RNA-mediated transcriptional silencing,10.1101/2020.10.29.359794
+ENCODE2020b,ENCODEConsortium2020Perspectives,2020,The ENCODE Project Consortium,Perspectives on ENCODE,10.1038/s41586-020-2449-8
+ENCODE2020,ENCODEConsortium2020ExpandedEncyclopedias,2020,The ENCODE Project Consortium,Expanded encyclopaedias of DNA elements in the human and mouse genomes,10.1038/s41586-020-2493-4
+Ouyang:2020an,Ouyang2020TRACE,2020,Ningxin Ouyang,TRACE: transcription factor footprinting using chromatin accessibility data and DNA sequence,10.1101/gr.258228.119
+Diehl679217,Diehl2020TransposableElementLoops,2020,Adam G Diehl,Transposable elements contribute to cell and species-specific chromatin looping and gene regulation in mammalian genomes,10.1038/s41467-020-15520-5
+Lee488734,Lee2020PolyEnrich,2020,Christopher T Lee,Poly-Enrich: count-based methods for gene set enrichment testing with genomic regions,10.1093/nargab/lqaa006
+Nishizaki:2019gd,Nishizaki2019SNPBindingAffinity,2019,Sierra S Nishizaki,Predicting the effects of SNPs on transcription factor binding affinity.,10.1093/bioinformatics/btz612
+Diehl:2019dh,Diehl2019CGIMP,2019,Adam G Diehl,CGIMP: Real-time exploration and covariate projection for self-organizing map datasets,10.21105/joss.01520
+Amemiya:2019do,Amemiya2019ENCODEBlacklist,2019,Haley M Amemiya,The ENCODE Blacklist: Identification of Problematic Regions of the Genome.,10.1038/s41598-019-45839-z
+Dong2019ft,Dong2019RegulomeDB,2019,Shengcheng Dong,Predicting functional variants in enhancer and promoter elements using RegulomeDB,10.1002/humu.23791
+Shigaki:2019ci,Shigaki2019EpigenomicVariantImpact,2019,Dustin Shigaki,Integration of Multiple Epigenomic Marks Improves Prediction of Variant Impact in Saturation Mutagenesis Reporter Assay.,10.1002/humu.23797
+Varshney:2019kl,Varshney2019CellSpecificAnnotations,2019,Arushi Varshney,Cell specificity of regulatory annotations and their genetic effects on gene expression,10.1534/genetics.118.301525
+Diehl:2018iq,Diehl2018TranscriptionFactorCobinding,2018,Adam G Diehl,Conserved and species-specific transcription factor co-binding patterns drive divergent gene regulation in human and mouse,10.1093/nar/gky018
+Nielsen:2017fd,Nielsen2017AtrialFibrillation,2017,Jonas B Nielsen,Genome-wide Study of Atrial Fibrillation Identifies Seven Risk Loci and Highlights Biological Pathways and Regulatory Elements Involved in Cardiac Development.,10.1016/j.ajhg.2017.12.003
+Spadafore:2017ga,Spadafore2017TranscriptionFactorClusters,2017,Maxwell Spadafore,A proximity-based graph clustering method for the identification and application of transcription factor clusters.,10.1186/s12859-017-1935-y
+Yang:2017km,Yang2017GATA4BicuspidAorticValve,2017,Bo Yang,Protein-altering and regulatory genetic variants near GATA4 implicated in bicuspid aortic valve.,10.1038/ncomms15481
+Nishizaki:2017jj,Nishizaki2017NoncodingSNPFunction,2017,Sierra S Nishizaki,Mining the Unknown: Assigning Function to Noncoding Single Nucleotide Polymorphisms.,10.1016/j.tig.2016.10.008
+Diehl:2016bs,Diehl2016DecipheringENCODE,2016,Adam G Diehl,Deciphering ENCODE.,10.1016/j.tig.2016.02.002
+Phanstiel:2015,Phanstiel2015Mango,2015,Douglas H Phanstiel,Mango: A bias correcting ChIA-PET analysis pipeline,10.1093/bioinformatics/btv336
+Cheng:2014gm,Cheng2014RegulatoryConservation,2014,Yong Cheng,Principles of regulatory information conservation between mouse and human.,10.1038/nature13985
+Yue:2014gc,Yue2014MouseENCODE,2014,Feng Yue,A comparative encyclopedia of DNA elements in the mouse genome.,10.1038/nature13992
+Boyle:2014bq,Boyle2014ComparativeRegulatoryCircuits,2014,Alan P Boyle,Comparative analysis of regulatory information and circuits across distant species.,10.1038/nature13668
+Araya:2014cs,Araya2014CElegansRegulation,2014,Carlos L Araya,Regulatory analysis of the C. elegans genome with spatiotemporal resolution.,10.1038/nature13497
+Phanstiel:2014gaa,Phanstiel2014SushiR,2014,Douglas H Phanstiel,"Sushi.R: flexible, quantitative and integrative genomic visualizations for publication-quality multi-panel figures.",10.1093/bioinformatics/btu379
+xie_dynamic_2013,Xie2013FactorColocalization,2013,Dan Xie,Dynamic trans-acting factor colocalization in human cells,10.1016/j.cell.2013.09.043
+kasowski_extensive_2013,Kasowski2013ChromatinStateVariation,2013,Maya Kasowski,Extensive variation in chromatin states across humans,10.1126/science.1242510
+boyle_annotation_2012,Boyle2012RegulomeDB,2012,Alan P Boyle,Annotation of functional variation in personal genomes using RegulomeDB,10.1101/gr.137323.112
+schaub_linking_2012,Schaub2012DiseaseRegulatoryInformation,2012,Marc A Schaub,Linking disease associations with regulatory information in the human genome,10.1101/gr.136127.111
+encode_integrated_2012,ENCODEConsortium2012IntegratedEncyclopedia,2012,The ENCODE Project Consortium,An integrated encyclopedia of DNA elements in the human genome,10.1038/nature11247
+gerstein_architecture_2012,Gerstein2012ENCODERegulatoryNetwork,2012,Mark B Gerstein,Architecture of the human regulatory network derived from ENCODE data,10.1038/nature11245
+chen_personal_2012,Chen2012PersonalOmics,2012,Rui Chen,Personal omics profiling reveals dynamic molecular and medical phenotypes,10.1016/j.cell.2012.02.009
+song_open_2011,Song2011OpenChromatin,2011,Lingyun Song,Open chromatin defined by DNaseI and FAIRE identifies regulatory elements that shape cell-type identity,10.1101/gr.121541.111
+the_encode_project_consortium_users_2011,ENCODEConsortium2011UsersGuide,2011,The ENCODE Project Consortium,A User's Guide to the Encyclopedia of DNA Elements (ENCODE),10.1371/journal.pbio.1001046
+boyle_high-resolution_2011,Boyle2011GenomeWideFootprinting,2011,Alan P Boyle,High-resolution genome-wide in vivo footprinting of diverse transcription factors in human cells,10.1101/gr.112656.110
+stitzel_global_2010,Stitzel2010PancreaticIsletEpigenome,2010,Michael L Stitzel,Global epigenomic analysis of primary human pancreatic islets provides insights into type 2 diabetes susceptibility loci,10.1016/j.cmet.2010.09.012
+mcdaniell_heritable_2010,McDaniell2010ChromatinSignatures,2010,Ryan McDaniell,Heritable individual-specific and allele-specific chromatin signatures in humans,10.1126/science.1184655
+georgiev_evidence-ranked_2010,Georgiev2010MotifIdentification,2010,Stoyan Georgiev,Evidence-ranked motif identification,10.1186/gb-2010-11-2-r19
+babbitt_both_2010,Babbitt2010PrimateBrainRNAEvolution,2010,Courtney C Babbitt,Both noncoding and protein-coding RNAs contribute to gene expression evolution in the primate brain,10.1093/gbe/evq002
+xu_dnasei_2009,Xu2009FSHDChromatin,2009,Xueqing Xu,"DNaseI hypersensitivity at gene-poor, FSH dystrophy-linked 4q35.2",10.1093/nar/gkp833
+boyle_high-resolution_2009,Boyle2009ChromatinMapping,2009,Alan P Boyle,High-resolution mapping studies of chromatin and gene regulatory elements,10.2217/epi.09.29
+boyle_f-seq:_2008,Boyle2008FSeq,2008,Alan P Boyle,F-Seq: a feature density estimator for high-throughput sequence tags.,10.1093/bioinformatics/btn480
+boyle_high-resolution_2008,Boyle2008OpenChromatin,2008,Alan P Boyle,High-resolution mapping and characterization of open chromatin across the genome.,10.1016/j.cell.2007.12.014
+boyle_recomb_2004,Boyle2004ArchaeaRegulatoryElements,2004,Alan P Boyle,Identification of Regulatory Elements in Archaea using Self-Organizing Maps,
+boyle_globaln_2003,Boyle2003TranslationInitiation,2003,Alan P Boyle,Global analysis of microbial translation initiation regions,
+boyle_clustering_2003,Boyle2003ArchaeaRegulatoryClustering,2003,Alan P Boyle,Clustering of archael gene regulatory regions,
+boyle_visualization_2003,Boyle2003GenomicORFVisualization,2003,Alan P Boyle,Visualization of aligned genomic open reading frame data,10.1002/bmb.2003.494031010144
+wan_interactive_2002,Wan2002InteractiveGenomicClustering,2002,Xiufeng Wan,Interactive clustering for exploration of genomic data,

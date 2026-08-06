@@ -1,7 +1,7 @@
 collections:
   jobs:
   papers:
-    output: true
+    output: false
   people:
     output: true
     permalink: /people/:path
@@ -16,3 +16,12 @@ paginate: 8
 paginate_path: "/news/page:num"
 permalink: pretty
 array: []
+
+exclude:
+  - bibliography
+  - publication_metadata
+  - scripts
+  - tests
+  - requirements-publications.txt
+  - Makefile
+  - PUBLICATIONS.md

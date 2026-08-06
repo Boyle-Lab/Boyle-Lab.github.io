@@ -1,0 +1,10 @@
+bibkey: Dong2019RegulomeDB
+slug: dong2019ft
+legacy_bibkeys:
+- Dong2019ft
+members:
+- shengchd
+- apboyle
+links:
+  code: https://github.com/Boyle-Lab/CAGI5-RegDB
+PMID: 31228310
