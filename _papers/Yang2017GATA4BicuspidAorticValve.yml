@@ -1,0 +1,460 @@
+---
+generated: true
+bibkey: Yang2017GATA4BicuspidAorticValve
+entry_type: article
+publication_type: article
+status: published
+title: Protein-altering and regulatory genetic variants near GATA4 implicated in bicuspid aortic valve.
+authors: |-
+  Yang B, Zhou W, Jiao J, Nielsen JB, Mathis MR, Heydarpour M, Lettre G, Folkersen L, Prakash S, Schurmann C, Fritsche L, Farnum GA, Lin M, Othman M, Hornsby W, Driscoll A, Levasseur A, Thomas M, Farhat L, Dubé MP, Isselbacher EM, Franco-Cereceda A, Guo DC, Bottinger EP, Deeb GM, Booher A, Kheterpal S, Chen YE, Kang HM, Kitzman J, Cordell HJ, Keavney BD, Goodship JA, Ganesh SK, Abecasis G, Eagle KA, Boyle AP, Loos RJF, Eriksson P, Tardif JC, Brummett CM, Milewicz DM, Body SC, Willer CJ
+authors_short: Yang B, Zhou W, Jiao J, Nielsen JB, Mathis MR, Heydarpour M, …, Willer CJ
+author_count: 44
+author_list:
+- raw: '*Yang, Bo'
+  family: Yang
+  given: Bo
+  initials: B
+  citation_name: Yang B
+  full_name: Bo Yang
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Zhou, Wei'
+  family: Zhou
+  given: Wei
+  initials: W
+  citation_name: Zhou W
+  full_name: Wei Zhou
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: '*Jiao, Jiao'
+  family: Jiao
+  given: Jiao
+  initials: J
+  citation_name: Jiao J
+  full_name: Jiao Jiao
+  corporate: false
+  equal_contrib: true
+  co_senior: false
+- raw: Nielsen, Jonas B
+  family: Nielsen
+  given: Jonas B
+  initials: JB
+  citation_name: Nielsen JB
+  full_name: Jonas B Nielsen
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Mathis, Michael R
+  family: Mathis
+  given: Michael R
+  initials: MR
+  citation_name: Mathis MR
+  full_name: Michael R Mathis
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Heydarpour, Mahyar
+  family: Heydarpour
+  given: Mahyar
+  initials: M
+  citation_name: Heydarpour M
+  full_name: Mahyar Heydarpour
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Lettre, Guillaume
+  family: Lettre
+  given: Guillaume
+  initials: G
+  citation_name: Lettre G
+  full_name: Guillaume Lettre
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Folkersen, Lasse
+  family: Folkersen
+  given: Lasse
+  initials: L
+  citation_name: Folkersen L
+  full_name: Lasse Folkersen
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Prakash, Siddharth
+  family: Prakash
+  given: Siddharth
+  initials: S
+  citation_name: Prakash S
+  full_name: Siddharth Prakash
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Schurmann, Claudia
+  family: Schurmann
+  given: Claudia
+  initials: C
+  citation_name: Schurmann C
+  full_name: Claudia Schurmann
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Fritsche, Lars
+  family: Fritsche
+  given: Lars
+  initials: L
+  citation_name: Fritsche L
+  full_name: Lars Fritsche
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Farnum, Gregory A
+  family: Farnum
+  given: Gregory A
+  initials: GA
+  citation_name: Farnum GA
+  full_name: Gregory A Farnum
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: gregfar
+  member_url: /people/Greg_Farnum/
+  member_name: Greg Farnum
+- raw: Lin, Maoxuan
+  family: Lin
+  given: Maoxuan
+  initials: M
+  citation_name: Lin M
+  full_name: Maoxuan Lin
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Othman, Mohammad
+  family: Othman
+  given: Mohammad
+  initials: M
+  citation_name: Othman M
+  full_name: Mohammad Othman
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Hornsby, Whitney
+  family: Hornsby
+  given: Whitney
+  initials: W
+  citation_name: Hornsby W
+  full_name: Whitney Hornsby
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Driscoll, Anisa
+  family: Driscoll
+  given: Anisa
+  initials: A
+  citation_name: Driscoll A
+  full_name: Anisa Driscoll
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Levasseur, Alexandra
+  family: Levasseur
+  given: Alexandra
+  initials: A
+  citation_name: Levasseur A
+  full_name: Alexandra Levasseur
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Thomas, Marc
+  family: Thomas
+  given: Marc
+  initials: M
+  citation_name: Thomas M
+  full_name: Marc Thomas
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Farhat, Linda
+  family: Farhat
+  given: Linda
+  initials: L
+  citation_name: Farhat L
+  full_name: Linda Farhat
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Dub{\'e}, Marie-Pierre
+  family: Dubé
+  given: Marie-Pierre
+  initials: MP
+  citation_name: Dubé MP
+  full_name: Marie-Pierre Dubé
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Isselbacher, Eric M
+  family: Isselbacher
+  given: Eric M
+  initials: EM
+  citation_name: Isselbacher EM
+  full_name: Eric M Isselbacher
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Franco-Cereceda, Anders
+  family: Franco-Cereceda
+  given: Anders
+  initials: A
+  citation_name: Franco-Cereceda A
+  full_name: Anders Franco-Cereceda
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Guo, Dong-chuan
+  family: Guo
+  given: Dong-chuan
+  initials: DC
+  citation_name: Guo DC
+  full_name: Dong-chuan Guo
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Bottinger, Erwin P
+  family: Bottinger
+  given: Erwin P
+  initials: EP
+  citation_name: Bottinger EP
+  full_name: Erwin P Bottinger
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Deeb, G Michael
+  family: Deeb
+  given: G Michael
+  initials: GM
+  citation_name: Deeb GM
+  full_name: G Michael Deeb
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Booher, Anna
+  family: Booher
+  given: Anna
+  initials: A
+  citation_name: Booher A
+  full_name: Anna Booher
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Kheterpal, Sachin
+  family: Kheterpal
+  given: Sachin
+  initials: S
+  citation_name: Kheterpal S
+  full_name: Sachin Kheterpal
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Chen, Y Eugene
+  family: Chen
+  given: Y Eugene
+  initials: YE
+  citation_name: Chen YE
+  full_name: Y Eugene Chen
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Kang, Hyun Min
+  family: Kang
+  given: Hyun Min
+  initials: HM
+  citation_name: Kang HM
+  full_name: Hyun Min Kang
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Kitzman, Jacob
+  family: Kitzman
+  given: Jacob
+  initials: J
+  citation_name: Kitzman J
+  full_name: Jacob Kitzman
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Cordell, Heather J
+  family: Cordell
+  given: Heather J
+  initials: HJ
+  citation_name: Cordell HJ
+  full_name: Heather J Cordell
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Keavney, Bernard D
+  family: Keavney
+  given: Bernard D
+  initials: BD
+  citation_name: Keavney BD
+  full_name: Bernard D Keavney
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Goodship, Judith A
+  family: Goodship
+  given: Judith A
+  initials: JA
+  citation_name: Goodship JA
+  full_name: Judith A Goodship
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Ganesh, Santhi K
+  family: Ganesh
+  given: Santhi K
+  initials: SK
+  citation_name: Ganesh SK
+  full_name: Santhi K Ganesh
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Abecasis, Gon{\c c}alo
+  family: Abecasis
+  given: Gonçalo
+  initials: G
+  citation_name: Abecasis G
+  full_name: Gonçalo Abecasis
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Eagle, Kim A
+  family: Eagle
+  given: Kim A
+  initials: KA
+  citation_name: Eagle KA
+  full_name: Kim A Eagle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: Boyle, Alan P
+  family: Boyle
+  given: Alan P
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- raw: Loos, Ruth J F
+  family: Loos
+  given: Ruth J F
+  initials: RJF
+  citation_name: Loos RJF
+  full_name: Ruth J F Loos
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+- raw: '{\dag}Eriksson, Per'
+  family: Eriksson
+  given: Per
+  initials: P
+  citation_name: Eriksson P
+  full_name: Per Eriksson
+  corporate: false
+  equal_contrib: false
+  co_senior: true
+- raw: '{\dag}Tardif, Jean-Claude'
+  family: Tardif
+  given: Jean-Claude
+  initials: JC
+  citation_name: Tardif JC
+  full_name: Jean-Claude Tardif
+  corporate: false
+  equal_contrib: false
+  co_senior: true
+- raw: '{\dag}Brummett, Chad M'
+  family: Brummett
+  given: Chad M
+  initials: CM
+  citation_name: Brummett CM
+  full_name: Chad M Brummett
+  corporate: false
+  equal_contrib: false
+  co_senior: true
+- raw: '{\dag}Milewicz, Dianna M'
+  family: Milewicz
+  given: Dianna M
+  initials: DM
+  citation_name: Milewicz DM
+  full_name: Dianna M Milewicz
+  corporate: false
+  equal_contrib: false
+  co_senior: true
+- raw: '{\dag}Body, Simon C'
+  family: Body
+  given: Simon C
+  initials: SC
+  citation_name: Body SC
+  full_name: Simon C Body
+  corporate: false
+  equal_contrib: false
+  co_senior: true
+- raw: '{\dag}Willer, Cristen J'
+  family: Willer
+  given: Cristen J
+  initials: CJ
+  citation_name: Willer CJ
+  full_name: Cristen J Willer
+  corporate: false
+  equal_contrib: false
+  co_senior: true
+journal: Nature Communications
+year: 2017
+month: 5
+sort_date: '2017-05-01'
+volume: '8'
+pages: '15481'
+doi: 10.1038/ncomms15481
+PMID: '28541271'
+primary_url: http://www.ncbi.nlm.nih.gov/pubmed/28541271
+url: http://www.ncbi.nlm.nih.gov/pubmed/28541271
+pdf: http://boylelab.org/pubs/Nat_Commun_2017_Yang.pdf
+links:
+  article: http://www.ncbi.nlm.nih.gov/pubmed/28541271
+  pdf: http://boylelab.org/pubs/Nat_Commun_2017_Yang.pdf
+members:
+- gregfar
+- apboyle
+member_roles: {}
+matched_members:
+- apboyle
+- gregfar
+lab_roles:
+  first: []
+  senior: []
+  corresponding: []
+lab_led: false
+featured: false
+topics: []
+abstract: |-
+  Bicuspid aortic valve (BAV) is a heritable congenital heart defect and an important risk factor for valvulopathy and aortopathy. Here we report a genome-wide association scan of 466 BAV cases and 4,660 age, sex and ethnicity-matched controls with replication in up to 1,326 cases and 8,103 controls. We identify association with a noncoding variant 151 kb from the gene encoding the cardiac-specific transcription factor, GATA4, and near-significance for p.Ser377Gly in GATA4. GATA4 was interrupted by CRISPR-Cas9 in induced pluripotent stem cells from healthy donors. The disruption of GATA4 significantly impaired the transition from endothelial cells into mesenchymal cells, a critical step in heart valve development.
+bibtex: |-
+  @article{Yang2017GATA4BicuspidAorticValve,
+    author = {*Yang, Bo and *Zhou, Wei and *Jiao, Jiao and Nielsen, Jonas B and Mathis, Michael R and Heydarpour, Mahyar and Lettre, Guillaume and Folkersen, Lasse and Prakash, Siddharth and Schurmann, Claudia and Fritsche, Lars and Farnum, Gregory A and Lin, Maoxuan and Othman, Mohammad and Hornsby, Whitney and Driscoll, Anisa and Levasseur, Alexandra and Thomas, Marc and Farhat, Linda and Dub{\'e}, Marie-Pierre and Isselbacher, Eric M and Franco-Cereceda, Anders and Guo, Dong-chuan and Bottinger, Erwin P and Deeb, G Michael and Booher, Anna and Kheterpal, Sachin and Chen, Y Eugene and Kang, Hyun Min and Kitzman, Jacob and Cordell, Heather J and Keavney, Bernard D and Goodship, Judith A and Ganesh, Santhi K and Abecasis, Gon{\c c}alo and Eagle, Kim A and Boyle, Alan P and Loos, Ruth J F and {\dag}Eriksson, Per and {\dag}Tardif, Jean-Claude and {\dag}Brummett, Chad M and {\dag}Milewicz, Dianna M and {\dag}Body, Simon C and {\dag}Willer, Cristen J},
+    title = {{Protein-altering and regulatory genetic variants near GATA4 implicated in bicuspid aortic valve.}},
+    journal = {Nature Communications},
+    year = {2017},
+    volume = {8},
+    pages = {15481},
+    month = may,
+    doi = {10.1038/ncomms15481},
+    abstract = {Bicuspid aortic valve (BAV) is a heritable congenital heart defect and an important risk factor for valvulopathy and aortopathy. Here we report a genome-wide association scan of 466 BAV cases and 4,660 age, sex and ethnicity-matched controls with replication in up to 1,326 cases and 8,103 controls. We identify association with a noncoding variant 151 kb from the gene encoding the cardiac-specific transcription factor, GATA4, and near-significance for p.Ser377Gly in GATA4. GATA4 was interrupted by CRISPR-Cas9 in induced pluripotent stem cells from healthy donors. The disruption of GATA4 significantly impaired the transition from endothelial cells into mesenchymal cells, a critical step in heart valve development.},
+    url = {http://www.ncbi.nlm.nih.gov/pubmed/28541271},
+    pdf = {http://boylelab.org/pubs/Nat_Commun_2017_Yang.pdf},
+    note = {{PMID:} 28541271}
+  }
+---

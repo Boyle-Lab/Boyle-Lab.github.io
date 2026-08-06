@@ -1,0 +1,86 @@
+---
+generated: true
+bibkey: Diehl2020MapGL
+entry_type: article
+publication_type: article
+status: published
+title: 'MapGL: Inferring evolutionary gain and loss of short genomic sequence features by phylogenetic
+  maximum parsimony'
+authors: Diehl AG, Boyle AP
+authors_short: Diehl AG, Boyle AP
+author_count: 2
+author_list:
+- raw: Diehl, Adam G
+  family: Diehl
+  given: Adam G
+  initials: AG
+  citation_name: Diehl AG
+  full_name: Adam G Diehl
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: adadiehl
+  member_url: /people/Adam_Diehl/
+  member_name: Adam Diehl
+- raw: Boyle, Alan P
+  family: Boyle
+  given: Alan P
+  initials: AP
+  citation_name: Boyle AP
+  full_name: Alan P Boyle
+  corporate: false
+  equal_contrib: false
+  co_senior: false
+  member_id: apboyle
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+journal: BMC Bioinformatics
+year: 2020
+month: 9
+sort_date: '2020-09-01'
+volume: '21'
+pages: '416'
+doi: 10.1186/s12859-020-03742-9
+PMID: '32962625'
+primary_url: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03742-9
+url: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03742-9
+pdf: http://boylelab.org/pubs/BMC_Bioinformatics_2020_Diehl.pdf
+links:
+  code: https://github.com/adadiehl/mapGL
+  article: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03742-9
+  pdf: http://boylelab.org/pubs/BMC_Bioinformatics_2020_Diehl.pdf
+members:
+- adadiehl
+- apboyle
+member_roles: {}
+matched_members:
+- adadiehl
+- apboyle
+lab_roles:
+  first:
+  - adadiehl
+  senior:
+  - apboyle
+  corresponding: []
+lab_led: true
+featured: false
+topics: []
+abstract: |-
+  Comparative genomics studies are growing in number partly because of their unique ability to provide insight into shared and divergent biology between species. Of particular interest is the use of phylogenetic methods to infer the evolutionary history of cis-regulatory sequence features, which contribute strongly to phenotypic divergence and are frequently gained and lost in eutherian genomes. Understanding the mechanisms by which cis-regulatory element turnover generate emergent phenotypes is crucial to our understanding of adaptive evolution. Ancestral reconstruction methods can place species-specific cis-regulatory features in their evolutionary context, thus increasing our understanding of the process of regulatory sequence turnover. However, applying these methods to gain and loss of cis-regulatory features currently requires complex workflows which represent a potential barrier to widespread adoption by a broad scientific community. MapGL simplifies phylogenetic inference of the evolutionary history of short genomic sequence features by combining the necessary steps into a single piece of software with a simple set of inputs and outputs.
+bibtex: |-
+  @article{Diehl2020MapGL,
+    author = {Diehl, Adam G and Boyle, Alan P},
+    title = {{MapGL: Inferring evolutionary gain and loss of short genomic sequence features by phylogenetic maximum parsimony}},
+    year = {2020},
+    month = {Sep},
+    day = {22},
+    volume = {21},
+    pages = {416},
+    doi = {10.1186/s12859-020-03742-9},
+    abstract = {Comparative genomics studies are growing in number partly because of their unique ability to provide insight into shared and divergent biology between species. Of particular interest is the use of phylogenetic methods to infer the evolutionary history of cis-regulatory sequence features, which contribute strongly to phenotypic divergence and are frequently gained and lost in eutherian genomes. Understanding the mechanisms by which cis-regulatory element turnover generate emergent phenotypes is crucial to our understanding of adaptive evolution. Ancestral reconstruction methods can place species-specific cis-regulatory features in their evolutionary context, thus increasing our understanding of the process of regulatory sequence turnover. However, applying these methods to gain and loss of cis-regulatory features currently requires complex workflows which represent a potential barrier to widespread adoption by a broad scientific community. MapGL simplifies phylogenetic inference of the evolutionary history of short genomic sequence features by combining the necessary steps into a single piece of software with a simple set of inputs and outputs.},
+    url = {https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03742-9},
+    pdf = {http://boylelab.org/pubs/BMC_Bioinformatics_2020_Diehl.pdf},
+    journal = {BMC Bioinformatics},
+    note = {{PMID:} 32962625}
+  }
+---
