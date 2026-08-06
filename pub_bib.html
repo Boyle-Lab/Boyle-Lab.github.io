@@ -1,6 +1,22 @@
 ---
-title: Bibtex
-layout: simple
+title: Publication BibTeX
+layout: default
+permalink: /pub_bib/
 ---
 
-{% include pub/pub_bib.html %}
+{% assign sorted_papers = site.papers | sort: "sort_date" | reverse %}
+<div class="bibtex-page">
+  <header class="publications-header">
+    <div>
+      <h1>Publication BibTeX</h1>
+      <p>These records are generated from the same BibTeX source used for the publications page and CV.</p>
+    </div>
+  </header>
+  <p class="publications-profile-links"><a href="/pub.bib">Download the complete <code>pub.bib</code> file</a></p>
+  {% for paper in sorted_papers %}
+    <article class="bibtex-record" id="{{ paper.bibkey | escape }}">
+      <h2>{{ paper.title | escape }}</h2>
+      <pre><code>{{ paper.bibtex | escape }}</code></pre>
+    </article>
+  {% endfor %}
+</div>
