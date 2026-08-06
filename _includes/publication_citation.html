@@ -1,5 +1,5 @@
 {% assign paper = include.paper | default: include.ref %}
-<article class="publication-citation{% if include.compact %} publication-citation--compact{% endif %}" id="publication-{{ paper.slug | escape }}">
+<article class="publication-citation{% if include.compact %} publication-citation--compact{% endif %}" id="publication-{{ paper.bibkey | escape }}">
   <div class="publication-title-row">
     <h3 class="publication-title">
       {% if paper.primary_url %}<a href="{{ paper.primary_url | escape }}">{{ paper.title | escape }}</a>{% else %}{{ paper.title | escape }}{% endif %}
@@ -49,7 +49,7 @@
         {% assign publication_news_link = paper.links.news | first %}
         <a href="{{ publication_news_link | escape }}">News</a>
       {% endif %}
-      <a href="/pub_bib/#{{ paper.slug | escape }}">BibTeX</a>
+      <a href="/pub_bib/#{{ paper.bibkey | escape }}">BibTeX</a>
     </div>
 
     {% if include.show_metrics %}

@@ -8,11 +8,17 @@
       <h1>Publications</h1>
       <p>Our work combines computational genomics, long-read sequencing, and functional experiments to understand gene regulation, repetitive DNA, somatic variation, and the functional consequences of human genetic variation.</p>
     </div>
+    <div class="publications-summary" aria-label="Publication summary">
+      <strong>{{ publication_count }}</strong>
+      <span>publications</span>
+    </div>
   </header>
 
   <nav class="publications-profile-links" aria-label="Publication profiles and downloads">
     {% if pi.social.google-scholar %}<a href="https://scholar.google.com/citations?user={{ pi.social.google-scholar | escape }}">Google Scholar</a>{% endif %}
     {% if pi.social.orcid %}<a href="https://orcid.org/{{ pi.social.orcid | escape }}">ORCID</a>{% endif %}
+    <a href="/pub.bib">Download BibTeX</a>
+    <a href="/pub_bib/">Browse BibTeX</a>
   </nav>
 
   {% assign featured_papers = site.array %}
@@ -32,6 +38,8 @@
     <div class="publication-index-heading">
       <div>
         <h2 id="all-publications-heading">All publications</h2>
+        <p class="publication-list-note">{{ publication_count }} publications, listed by year with the newest work first.</p>
+        <p class="publication-metric-note">Citation counts are updated automatically by Dimensions when the page loads.</p>
       </div>
       <details class="publication-notation">
         <summary>Author notation</summary>
@@ -39,21 +47,15 @@
       </details>
     </div>
 
-    <div id="publication-list">
+    <div class="publication-list">
       {% assign grouped_papers = sorted_papers | group_by: "year" %}
       {% for group in grouped_papers %}
-        <section class="publication-year-section" data-publication-year-section data-year="{{ group.name }}" aria-labelledby="publication-year-{{ group.name }}">
+        <section class="publication-year-section" aria-labelledby="publication-year-{{ group.name }}">
           <h2 id="publication-year-{{ group.name }}" class="publication-year-heading"><span>{{ group.name }}</span><small>{{ group.items.size }} publication{% if group.items.size != 1 %}s{% endif %}</small></h2>
           {% assign papers_in_year = group.items | sort: "sort_date" | reverse %}
           <div class="publication-year-list">
             {% for paper in papers_in_year %}
-              <div class="publication-filter-item"
-                   data-publication-item
-                   data-year="{{ paper.year }}"
-                   data-status="{{ paper.status }}"
-                   data-type="{{ paper.publication_type }}"
-                   data-lab-led="{{ paper.lab_led }}"
-                   data-search="{{ paper.search_text | escape }}">
+              <div class="publication-list-item">
                 {% include publication_citation.html paper=paper show_abstract=true show_metrics=true %}
               </div>
             {% endfor %}
