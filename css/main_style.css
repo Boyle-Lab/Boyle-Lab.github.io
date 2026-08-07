@@ -904,12 +904,7 @@ h3.title { margin-bottom: 0px; margin-top: 10px; }
 	max-width: 690px;
 }
 
-.site-page-header {
-	font-size: 14.5px;
-	line-height: 1.65;
-	color: #404040;
-}
-
+.site-page-header p,
 .publications-header p {
 	max-width: 730px;
 	font-size: 14.5px;
@@ -1060,116 +1055,188 @@ h3.title { margin-bottom: 0px; margin-top: 10px; }
 }
 
 /* Home */
-.home-header-mark {
-	flex: 0 0 190px;
-	align-self: center;
-	text-align: right;
+.home-page {
+	padding-top: 0;
 }
 
-.home-header-mark img {
-	max-width: 180px;
-	max-height: 110px;
-	object-fit: contain;
+.home-intro-section {
+	margin: 0 -4px;
+	padding: 34px 34px 31px;
+	background: #fff url('/assets/images/background-top.png') center 38% / cover no-repeat;
+	border-bottom: 1px solid #e4e7ea;
+	text-align: center;
 }
 
-.home-pi-section {
-	display: grid;
-	grid-template-columns: minmax(190px, .7fr) minmax(0, 1.6fr);
-	gap: 38px;
-	margin: 32px 0 38px;
-	padding: 26px 28px;
-	background: #fafafa;
-	border-left: 4px solid #00274C;
+.home-classic-inner {
+	max-width: 770px;
+	margin: 0 auto;
 }
 
-.home-pi-heading h2 {
+.home-intro-section h1,
+.home-pi-section h2 {
 	margin: 0;
 	padding: 0;
-	font-size: 23px;
-	font-weight: 700;
-	line-height: 1.25;
-	letter-spacing: -.35px;
+	font-weight: 600;
+	line-height: 1.3;
 	color: #00274C;
 }
 
+.home-intro-section h1 {
+	font-size: 21px;
+	font-style: italic;
+	letter-spacing: .045em;
+	text-transform: uppercase;
+}
+
+.home-heading-rule,
+.home-card-rule {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.home-heading-rule--maize {
+	width: 50px;
+	margin-top: 10px;
+	margin-bottom: 16px;
+	border-top: 4px solid #FFCB05;
+}
+
+.home-heading-rule--gray {
+	width: 34px;
+	margin-top: 10px;
+	margin-bottom: 18px;
+	border-top: 1px solid #9ba3aa;
+}
+
+.home-intro-copy {
+	max-width: 700px;
+	margin: 0 auto;
+	font-size: 14px !important;
+	line-height: 1.72 !important;
+	color: #30363b !important;
+}
+
+.home-pi-section {
+	display: block;
+	margin: 0 -4px 24px;
+	padding: 28px 34px 29px;
+	background: #fafafa;
+	border-bottom: 1px solid #e4e7ea;
+	text-align: center;
+}
+
+.home-pi-section h2 {
+	font-size: 19px;
+	font-style: italic;
+	letter-spacing: -.2px;
+}
+
+.home-pi-copy {
+	max-width: 760px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.home-pi-copy p {
+	font-size: 13.5px;
+	line-height: 1.7;
+}
+
 .home-pi-copy p + p {
-	margin-top: 12px;
+	margin-top: 11px;
 }
 
 .home-section-link {
-	margin-top: 15px !important;
+	margin-top: 13px !important;
+	text-align: right;
+}
+
+.home-section-link::before {
+	content: "|";
+	margin-right: 6px;
+	color: #FFCB05;
+	font-weight: 700;
 }
 
 .home-card-grid {
 	display: grid;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
-	gap: 17px;
+	align-items: stretch;
+	gap: 16px;
 }
 
 .home-card {
-	display: flex;
-	flex-direction: column;
-	min-height: 100%;
+	min-height: 0;
 	border: 1px solid #d9dfe5;
+	border-top: 3px solid #00274C;
 	background: #fff;
-}
-
-.home-card-media {
-	height: 155px;
-	padding: 14px;
-	box-sizing: border-box;
-	background: #f3f6f8;
-	text-align: center;
-}
-
-.home-card-media img {
-	max-width: 100%;
-	height: 100%;
-	object-fit: contain;
 }
 
 .home-card-content {
 	display: flex;
-	flex: 1;
+	height: 100%;
+	box-sizing: border-box;
 	flex-direction: column;
-	padding: 18px 19px 20px;
+	padding: 14px 17px 16px;
 }
 
 .home-card h2 {
-	margin: 0 0 8px;
+	margin: 0;
 	padding: 0;
-	font-size: 20px;
-	font-weight: 700;
-	letter-spacing: -.25px;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 600;
+	letter-spacing: -.2px;
 	line-height: 1.3;
+	text-align: center;
 }
 
 .home-card h2 a {
 	color: #00274C;
 }
 
-.home-card .text-link {
-	align-self: flex-start;
-	margin-top: auto;
-	padding-top: 12px;
+.home-card-rule {
+	width: 38px;
+	margin-top: 7px;
+	margin-bottom: 10px;
+	border-top: 3px solid #FFCB05;
 }
 
+.home-card-kicker {
+	margin: 0 0 7px !important;
+	font-size: 10px !important;
+	font-weight: 700 !important;
+	line-height: 1.35 !important;
+	letter-spacing: .07em;
+	text-transform: uppercase;
+	color: #68717a !important;
+}
+
+.home-publication-list article,
 .home-news-list article {
-	padding: 8px 0;
+	padding: 7px 0;
 	border-bottom: 1px solid #e3e6e9;
 }
 
+.home-publication-list article:first-child,
 .home-news-list article:first-child {
 	padding-top: 0;
 }
 
-.home-news-list time,
+.home-publication-title,
 .home-news-list a {
 	display: block;
+	font-size: 12.25px;
+	font-weight: 700;
+	line-height: 1.42;
 }
 
+.home-publication-meta,
 .home-news-list time {
-	font-size: 10.5px;
+	display: block;
+	margin-top: 2px;
+	font-size: 9.75px;
 	font-weight: 700;
 	line-height: 1.4;
 	letter-spacing: .035em;
@@ -1177,11 +1244,22 @@ h3.title { margin-bottom: 0px; margin-top: 10px; }
 	color: #777;
 }
 
-.home-news-list a {
-	margin-top: 2px;
-	font-size: 12.5px;
-	font-weight: 700;
-	line-height: 1.45;
+.home-news-list time {
+	margin-top: 0;
+	margin-bottom: 2px;
+}
+
+.home-location-copy {
+	margin: 0;
+	font-size: 12.5px !important;
+	line-height: 1.6 !important;
+	color: #3f454b !important;
+}
+
+.home-card .text-link {
+	align-self: flex-start;
+	margin-top: auto;
+	padding-top: 11px;
 }
 
 /* Research */
@@ -1437,8 +1515,8 @@ h3.title { margin-bottom: 0px; margin-top: 10px; }
 /* News */
 .news-grid {
 	display: grid;
-	grid-template-columns: repeat(4, minmax(0, 1fr));
-	gap: 9px;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 18px;
 }
 
 .news-card {
@@ -1744,16 +1822,16 @@ h3.title { margin-bottom: 0px; margin-top: 10px; }
 		max-width: 420px;
 	}
 
-	.home-pi-section,
 	.research-overview,
 	.research-program,
 	.software-grid {
 		grid-template-columns: 1fr;
 	}
 
+	.home-intro-section,
 	.home-pi-section {
-		gap: 18px;
-		padding: 22px;
+		padding-right: 24px;
+		padding-left: 24px;
 	}
 
 	.research-program:nth-child(even) .research-program-media {
@@ -1785,6 +1863,24 @@ h3.title { margin-bottom: 0px; margin-top: 10px; }
 	.site-page-header h1,
 	.publications-header h1 {
 		font-size: 26px;
+	}
+
+	.home-intro-section {
+		padding-top: 27px;
+		padding-bottom: 25px;
+	}
+
+	.home-intro-section h1 {
+		font-size: 19px;
+	}
+
+	.home-pi-section {
+		padding-top: 24px;
+		padding-bottom: 25px;
+	}
+
+	.home-pi-section h2 {
+		font-size: 18px;
 	}
 
 	.home-card-grid,
