@@ -25,3 +25,4 @@ exclude:
   - requirements-publications.txt
   - Makefile
   - PUBLICATIONS.md
+  - NEWS_POSTS.md
