@@ -1557,7 +1557,7 @@ h3.title { margin-bottom: 0px; margin-top: 10px; }
 	display: flex;
 	flex: 1;
 	flex-direction: column;
-	padding: 15px 16px 17px;
+	padding: 5px 8px 5px;
 }
 
 .news-card time {
