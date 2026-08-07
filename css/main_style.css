@@ -1679,7 +1679,7 @@ h3.title { margin-bottom: 0px; margin-top: 10px; }
 	max-width: 760px;
 	margin: 0;
 	padding: 0;
-	font-size: 29px;
+	font-size: 25px;
 	font-weight: 700;
 	letter-spacing: -.65px;
 	line-height: 1.18;
@@ -1770,7 +1770,7 @@ h3.title { margin-bottom: 0px; margin-top: 10px; }
 
 .news-article-body p,
 .news-article-body li {
-	font-size: 14.5px;
+	font-size: 13.5px;
 	line-height: 1.65;
 }
 
