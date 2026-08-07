@@ -6,7 +6,7 @@ status:
 name: Steve Losh
 umid: slosh
 position: Doctoral Student
-title: Ph.D. Student
+title: Bioinformatics Ph.D. Student
 picture: Steve_Losh.jpg
 previous_training:
   - type: B.S.
