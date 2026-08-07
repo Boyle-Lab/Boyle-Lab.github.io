@@ -397,9 +397,11 @@ h3.title { margin-bottom: 0px; margin-top: 10px; }
 }
 
 .publication-feature-image img {
+	display: block;
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
+	object-fit: contain;
+	object-position: center;
 }
 
 .publication-feature-content {
