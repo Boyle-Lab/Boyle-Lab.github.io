@@ -18,9 +18,9 @@ layout: default
           <article class="news-card">
             <a href="{{ post.url }}" title="{{ post.title | escape }}" class="news-card-image">
               {% if post.teaser %}
-                <img src="/assets/news_graphics/{{ post.teaser }}" alt="" loading="lazy">
+                <img src="/assets/news_graphics/{{ post.teaser }}" alt="" loading="lazy" height="137px" width="220px">
               {% else %}
-                <img src="/assets/news_graphics/default_teaser.png" alt="" loading="lazy">
+                <img src="/assets/news_graphics/default_teaser.png" alt="" loading="lazy" height="137px" width="220px">
               {% endif %}
             </a>
             <div class="news-card-content">
