@@ -2,6 +2,15 @@
 
 {% include nav.html %}
 
+{% assign is_current = false %}
+{% assign is_phd_alumni = false %}
+{% assign is_alumni = false %}
+{% assign is_rotation = false %}
+{% if page.status contains "current" %}{% assign is_current = true %}{% endif %}
+{% if page.status contains "phd_alumni" %}{% assign is_phd_alumni = true %}{% endif %}
+{% if page.status contains "alumni" %}{% assign is_alumni = true %}{% endif %}
+{% if page.status contains "rotation" %}{% assign is_rotation = true %}{% endif %}
+
 <div id="main-wrap">
   <div class="container">
     <div class="wsite-content">
@@ -23,14 +32,18 @@
 
           <div class="member-profile-header-copy">
             <p class="site-page-eyebrow">
-              {% if page.status == "current" %}
+              {% if is_current and is_phd_alumni %}
+                Current lab member <span aria-hidden="true">&middot;</span> Boyle Lab Ph.D. alumnus
+              {% elsif is_current %}
                 Current lab member
-              {% elsif page.status == "phd_alumni" %}
-                Boyle Lab Ph.D. alumnus
-              {% elsif page.status == "rotation" %}
+              {% elsif is_phd_alumni %}
+                Boyle Lab Ph.D. or postdoctoral alumnus
+              {% elsif is_rotation %}
                 Former rotation student
-              {% else %}
+              {% elsif is_alumni %}
                 Boyle Lab alumnus
+              {% else %}
+                Boyle Lab member
               {% endif %}
             </p>
 
@@ -40,76 +53,74 @@
             {% if member_title %}
               <p class="member-profile-title">{{ member_title | escape }}</p>
             {% endif %}
-            {% if page.position and page.position != member_title %}
+            {% if is_current and page.position and page.position != member_title and page.position != "Staff" %}
               <p class="member-profile-position">{{ page.position | escape }}</p>
             {% endif %}
 
-            <div class="member-profile-history" aria-label="Boyle Lab history">
-              <ul>
-                {% if page.dates.ms_start %}
-                  <li>
-                    <strong>Master's student</strong>
-                    {% if page.dates.ms_end and page.dates.ms_end != "" %}
-                      {{ page.dates.ms_start | date: "%B %Y" }}–{{ page.dates.ms_end | date: "%B %Y" }}
-                    {% else %}
-                      since {{ page.dates.ms_start | date: "%B %Y" }}
-                    {% endif %}
-                  </li>
+            {% if page.current_position %}
+              <aside class="member-current-position" aria-label="Current position">
+                <p class="member-current-position-label">Current position</p>
+                <p class="member-current-position-title">
+                  {% if page.current_position.url %}
+                    <a href="{{ page.current_position.url | escape }}">{{ page.current_position.title | escape }}</a>
+                  {% else %}
+                    {{ page.current_position.title | escape }}
+                  {% endif %}
+                </p>
+                {% if page.current_position.organization %}
+                  <p class="member-current-position-organization">{{ page.current_position.organization | escape }}</p>
                 {% endif %}
+              </aside>
+            {% endif %}
 
-                {% if page.dates.phd_start %}
-                  <li>
-                    <strong>Ph.D. student</strong>
-                    {% if page.dates.phd_end and page.dates.phd_end != "" %}
-                      {{ page.dates.phd_start | date: "%B %Y" }}–{{ page.dates.phd_end | date: "%B %Y" }}
-                    {% else %}
-                      since {{ page.dates.phd_start | date: "%B %Y" }}
+            {% assign prior_role_count = page.prior_lab_roles | size %}
+            {% if prior_role_count > 0 or is_current or page.dates.start %}
+              <div class="member-profile-history" aria-label="Boyle Lab history">
+                <p class="member-profile-history-label">Boyle Lab history</p>
+                <ul>
+                  {% if page.prior_lab_roles %}
+                    {% for role in page.prior_lab_roles %}
+                      <li>
+                        <strong>{{ role.position | escape }}</strong>
+                        {% if role.period %}
+                          {{ role.period | escape }}
+                        {% elsif role.start and role.end %}
+                          {{ role.start | date: "%B %Y" }}–{{ role.end | date: "%B %Y" }}
+                        {% elsif role.start %}
+                          since {{ role.start | date: "%B %Y" }}
+                        {% elsif role.end %}
+                          through {{ role.end | date: "%B %Y" }}
+                        {% endif %}
+                      </li>
+                    {% endfor %}
+                  {% endif %}
+
+                  {% if is_current %}
+                    {% assign current_lab_role = page.position | default: page.title | default: "Lab member" %}
+                    {% if page.position == "Staff" and page.title %}
+                      {% assign current_lab_role = page.title %}
                     {% endif %}
-                  </li>
-                {% endif %}
-
-                {% if page.dates.pd_start %}
-                  <li>
-                    <strong>Postdoctoral fellow</strong>
-                    {% if page.dates.pd_end and page.dates.pd_end != "" %}
-                      {{ page.dates.pd_start | date: "%B %Y" }}–{{ page.dates.pd_end | date: "%B %Y" }}
-                    {% else %}
-                      since {{ page.dates.pd_start | date: "%B %Y" }}
-                    {% endif %}
-                  </li>
-                {% endif %}
-
-                {% unless page.dates.ms_start or page.dates.phd_start or page.dates.pd_start %}
-                  {% if page.dates.start %}
-                    <li>
-                      <strong>{{ page.position | default: "Lab member" | escape }}</strong>
-                      {% if page.status == "current" or page.dates.end == nil or page.dates.end == "" %}
+                    <li class="member-profile-history-current">
+                      <strong>{{ current_lab_role | escape }}</strong>
+                      {% if prior_role_count == 0 and page.dates.start %}
                         since {{ page.dates.start | date: "%B %Y" }}
                       {% else %}
+                        <span class="member-role-status">Current</span>
+                      {% endif %}
+                    </li>
+                  {% elsif prior_role_count == 0 and page.dates.start %}
+                    <li>
+                      <strong>{{ page.position | default: "Lab member" | escape }}</strong>
+                      {% if page.dates.end %}
                         {{ page.dates.start | date: "%B %Y" }}–{{ page.dates.end | date: "%B %Y" }}
+                      {% else %}
+                        since {{ page.dates.start | date: "%B %Y" }}
                       {% endif %}
                     </li>
                   {% endif %}
-                {% endunless %}
-
-                {% if page.prior_lab_roles %}
-                  {% for role in page.prior_lab_roles %}
-                    <li>
-                      <strong>{{ role.position | escape }}</strong>
-                      {% if role.start and role.end %}
-                        {{ role.start | date: "%B %Y" }}–{{ role.end | date: "%B %Y" }}
-                      {% elsif role.start %}
-                        since {{ role.start | date: "%B %Y" }}
-                      {% endif %}
-                    </li>
-                  {% endfor %}
-                {% endif %}
-
-                {% if page.current %}
-                  <li><strong>Current position</strong> {{ page.current | escape }}</li>
-                {% endif %}
-              </ul>
-            </div>
+                </ul>
+              </div>
+            {% endif %}
 
             {% if page.social.email or page.social.twitter or page.social.github or page.social.google-scholar or page.social.orcid or page.social.linked-in or page.social.website or page.CV %}
               <div class="site-action-links member-profile-links" aria-label="Professional links for {{ page.name | escape }}">
