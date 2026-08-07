@@ -1,0 +1,57 @@
+---
+generated: true
+bibkey: Kasowski2013ChromatinStateVariation
+title: Extensive variation in chromatin states across humans
+author_list:
+- citation_name: Kasowski M
+  equal_contrib: true
+- citation_name: Kyriazopoulou-Panagiotopoulou S
+  equal_contrib: true
+- citation_name: Grubert F
+  equal_contrib: true
+- citation_name: Zaugg JB
+  equal_contrib: true
+- citation_name: Kundaje A
+  equal_contrib: true
+- citation_name: Liu Y
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- citation_name: Zhang QC
+- citation_name: Zakharia F
+- citation_name: Spacek DV
+- citation_name: Li J
+- citation_name: Xie D
+- citation_name: Steinmetz LM
+- citation_name: Hogenesch JB
+- citation_name: Kellis M
+- citation_name: Batzoglou S
+- citation_name: Snyder M
+year: 2013
+sort_date: '2013-11-01'
+members:
+- apboyle
+bibtex: |-
+  @article{Kasowski2013ChromatinStateVariation,
+    title = {Extensive variation in chromatin states across humans},
+    author = {*Kasowski, Maya and *Kyriazopoulou-Panagiotopoulou, Sofia and *Grubert, Fabian and *Zaugg, Judith B and *Kundaje, Anshul and Liu, Yuling and Boyle, Alan P and Zhang, Qiangfeng Cliff and Zakharia, Fouad and Spacek, Damek V and Li, Jingjing and Xie, Dan and Steinmetz, Lars M and Hogenesch, John B and Kellis, Manolis and Batzoglou, Serafim and Snyder, Michael},
+    journal = {Science},
+    year = {2013},
+    month = {Nov},
+    volume = {342},
+    number = {6159},
+    url = {http://www.ncbi.nlm.nih.gov/pubmed/24136358},
+    pdf = {http://boylelab.org/pubs/Science_2013_Kasowski.pdf},
+    doi = {10.1126/science.1242510},
+    pages = {750--752},
+    note = {{PMID:} 24136358}
+  }
+journal: Science
+volume: '342'
+number: '6159'
+pages: 750--752
+doi: 10.1126/science.1242510
+PMID: '24136358'
+primary_url: http://www.ncbi.nlm.nih.gov/pubmed/24136358
+pdf: http://boylelab.org/pubs/Science_2013_Kasowski.pdf
+---

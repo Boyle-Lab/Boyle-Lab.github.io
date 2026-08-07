@@ -1,0 +1,65 @@
+---
+generated: true
+bibkey: McDonald2021Cas9MobileElements
+title: Cas9 targeted enrichment of mobile elements using nanopore sequencing
+author_list:
+- citation_name: McDonald TL
+  member_url: /people/Torrin_McDonald/
+  member_name: Torrin McDonald, Ph.D.
+  equal_contrib: true
+- citation_name: Zhou W
+  equal_contrib: true
+- citation_name: Castro CP
+  member_url: /people/Christopher_Castro/
+  member_name: Christopher Castro, Ph.D.
+- citation_name: Mumm C
+  member_url: /people/Camille_Mumm/
+  member_name: Camille Mumm, Ph.D.
+- citation_name: Switzenberg JA
+  member_url: /people/Jessica_Switzenberg/
+  member_name: Jessica A. Switzenberg, Ph.D.
+- citation_name: Mills RE
+  co_senior: true
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+  co_senior: true
+year: 2021
+sort_date: '2021-06-01'
+members:
+- torrin
+- castrocp
+- crmumm
+- jswitzen
+- apboyle
+bibtex: |-
+  @article{McDonald2021Cas9MobileElements,
+    author = {*McDonald, Torrin L. and *Zhou, Weichen and Castro, Christopher P. and Mumm, Camille and Switzenberg, Jessica A. and {\dag}Mills, Ryan E. and {\dag}Boyle, Alan P.},
+    title = {Cas9 targeted enrichment of mobile elements using nanopore sequencing},
+    year = {2021},
+    month = {jun},
+    day = {11},
+    volume = {12},
+    number = {1},
+    pages = {3586},
+    doi = {10.1038/s41467-021-23918-y},
+    abstract = {{Mobile element insertions (MEIs) are repetitive genomic sequences that contribute to genetic variation and can lead to genetic disorders. Targeted and whole-genome approaches using short-read sequencing have been developed to identify reference and non-reference MEIs; however, the read length hampers detection of these elements in complex genomic regions. Here, we pair Cas9-targeted nanopore sequencing with computational methodologies to capture active MEIs in human genomes. We demonstrate parallel enrichment for distinct classes of MEIs, averaging 44% of reads on-targeted signals and exhibiting a 13.4-54x enrichment over whole-genome approaches. We show an individual flow cell can recover most MEIs (97% L1Hs, 93% AluYb, 51% AluYa, 99% SVA_F, and 65% SVA_E). We identify seventeen non-reference MEIs in GM12878 overlooked by modern, long-read analysis pipelines, primarily in repetitive genomic regions. This work introduces the utility of nanopore sequencing for MEI enrichment and lays the foundation for rapid discovery of elusive, repetitive genetic elements.}},
+    url = {https://doi.org/10.1038/s41467-021-23918-y},
+    pdf = {http://boylelab.org/pubs/Nature_Communications_2021_McDonald.pdf},
+    journal = {Nature Communications},
+    note = {{PMID:} 34117247}
+  }
+journal: Nature Communications
+volume: '12'
+number: '1'
+pages: '3586'
+doi: 10.1038/s41467-021-23918-y
+PMID: '34117247'
+primary_url: https://doi.org/10.1038/s41467-021-23918-y
+pdf: http://boylelab.org/pubs/Nature_Communications_2021_McDonald.pdf
+biorxiv: https://www.biorxiv.org/content/10.1101/2021.02.10.430605v1
+links:
+  code: https://github.com/Boyle-Lab/NanoPal-and-Cas9-targeted-enrichment-pipelines
+abstract: |-
+  Mobile element insertions (MEIs) are repetitive genomic sequences that contribute to genetic variation and can lead to genetic disorders. Targeted and whole-genome approaches using short-read sequencing have been developed to identify reference and non-reference MEIs; however, the read length hampers detection of these elements in complex genomic regions. Here, we pair Cas9-targeted nanopore sequencing with computational methodologies to capture active MEIs in human genomes. We demonstrate parallel enrichment for distinct classes of MEIs, averaging 44% of reads on-targeted signals and exhibiting a 13.4-54x enrichment over whole-genome approaches. We show an individual flow cell can recover most MEIs (97% L1Hs, 93% AluYb, 51% AluYa, 99% SVA_F, and 65% SVA_E). We identify seventeen non-reference MEIs in GM12878 overlooked by modern, long-read analysis pipelines, primarily in repetitive genomic regions. This work introduces the utility of nanopore sequencing for MEI enrichment and lays the foundation for rapid discovery of elusive, repetitive genetic elements.
+---

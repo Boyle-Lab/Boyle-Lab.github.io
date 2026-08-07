@@ -1,0 +1,48 @@
+---
+generated: true
+bibkey: Boyle2008OpenChromatin
+title: High-resolution mapping and characterization of open chromatin across the genome.
+author_list:
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- citation_name: Davis S
+- citation_name: Shulha HP
+- citation_name: Meltzer P
+- citation_name: Margulies EH
+- citation_name: Weng Z
+- citation_name: Furey TS
+  co_senior: true
+- citation_name: Crawford GE
+  co_senior: true
+year: 2008
+sort_date: '2008-01-01'
+members:
+- apboyle
+bibtex: |-
+  @article{Boyle2008OpenChromatin,
+    title = {High-resolution mapping and characterization of open chromatin across the genome.},
+    volume = {132},
+    url = {http://www.ncbi.nlm.nih.gov/pubmed/18243105},
+    pdf = {http://boylelab.org/pubs/Cell_2008_Boyle.pdf},
+    doi = {10.1016/j.cell.2007.12.014},
+    abstract = {Mapping {DNase} I hypersensitive {(HS)} sites is an accurate method of identifying the location of genetic regulatory elements, including promoters, enhancers, silencers, insulators, and locus control regions. We employed high-throughput sequencing and whole-genome tiled array strategies to identify {DNase} I {HS} sites within human primary {CD4+} T cells. Combining these two technologies, we have created a comprehensive and accurate genome-wide open chromatin map. Surprisingly, only 16\%-21\% of the identified 94,925 {DNase} I {HS} sites are found in promoters or first exons of known genes, but nearly half of the most open sites are in these regions. In conjunction with expression, motif, and chromatin immunoprecipitation data, we find evidence of cell-type-specific characteristics, including the ability to identify transcription start sites and locations of different chromatin marks utilized in these cells. In addition, and unexpectedly, our analyses have uncovered detailed features of nucleosome structure.},
+    number = {2},
+    journal = {Cell},
+    author = {Alan P Boyle and Sean Davis and Hennady P Shulha and Paul Meltzer and Elliott H Margulies and Zhiping Weng and Terrence S {\dag}Furey and Gregory E {\dag}Crawford},
+    month = jan,
+    year = {2008},
+    note = {{PMID:} 18243105},
+    pages = {311--322}
+  }
+journal: Cell
+volume: '132'
+number: '2'
+pages: 311--322
+doi: 10.1016/j.cell.2007.12.014
+PMID: '18243105'
+primary_url: http://www.ncbi.nlm.nih.gov/pubmed/18243105
+pdf: http://boylelab.org/pubs/Cell_2008_Boyle.pdf
+abstract: |-
+  Mapping DNase I hypersensitive (HS) sites is an accurate method of identifying the location of genetic regulatory elements, including promoters, enhancers, silencers, insulators, and locus control regions. We employed high-throughput sequencing and whole-genome tiled array strategies to identify DNase I HS sites within human primary CD4+ T cells. Combining these two technologies, we have created a comprehensive and accurate genome-wide open chromatin map. Surprisingly, only 16%-21% of the identified 94,925 DNase I HS sites are found in promoters or first exons of known genes, but nearly half of the most open sites are in these regions. In conjunction with expression, motif, and chromatin immunoprecipitation data, we find evidence of cell-type-specific characteristics, including the ability to identify transcription start sites and locations of different chromatin marks utilized in these cells. In addition, and unexpectedly, our analyses have uncovered detailed features of nucleosome structure.
+---

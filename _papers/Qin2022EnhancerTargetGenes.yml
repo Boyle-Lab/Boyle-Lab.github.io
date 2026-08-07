@@ -1,0 +1,51 @@
+---
+generated: true
+bibkey: Qin2022EnhancerTargetGenes
+title: Comprehensive enhancer-target gene assignments improve gene set level interpretation of genome-wide
+  regulatory data
+author_list:
+- citation_name: Qin T
+- citation_name: Lee C
+- citation_name: Li S
+- citation_name: Cavalcante RG
+- citation_name: Orchard P
+- citation_name: Yao H
+- citation_name: Zhang H
+- citation_name: Wang S
+- citation_name: Patil S
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- citation_name: Sartor MA
+year: 2022
+sort_date: '2022-04-01'
+members:
+- apboyle
+bibtex: |-
+  @article{Qin2022EnhancerTargetGenes,
+    author = {Qin, Tingting and Lee, Christopher and Li, Shiting and Cavalcante, Raymond G and Orchard, Peter and Yao, Heming and Zhang, Hanrui and Wang, Shuze and Patil, Snehal and Boyle, Alan P and Sartor, Maureen A},
+    title = {{Comprehensive enhancer-target gene assignments improve gene set level interpretation of genome-wide regulatory data}},
+    year = {2022},
+    month = {apr},
+    day = {26},
+    volume = {23},
+    number = {1},
+    pages = {105},
+    doi = {10.1186/s13059-022-02668-0},
+    abstract = {{Revealing the gene targets of distal regulatory elements is challenging yet critical for interpreting regulome data. Experiment-derived enhancer-gene links are restricted to a small set of enhancers and/or cell types, while the accuracy of genome-wide approaches remains elusive due to the lack of a systematic evaluation. We combined multiple spatial and in silico approaches for defining enhancer locations and linking them to their target genes aggregated across >500 cell types, generating 1860 human genome-wide distal enhancer-to-target gene definitions (EnTDefs). To evaluate performance, we used gene set enrichment (GSE) testing on 87 independent ENCODE ChIP-seq datasets of 34 transcription factors (TFs) and assessed concordance of results with known TF Gene Ontology annotations, and other benchmarks.}},
+    url = {https://doi.org/10.1186/s13059-022-02668-0},
+    pdf = {http://boylelab.org/pubs/Genome_Biology_2022_Qin.pdf},
+    journal = {Genome Biology},
+    note = {{PMID:} 35473573}
+  }
+journal: Genome Biology
+volume: '23'
+number: '1'
+pages: '105'
+doi: 10.1186/s13059-022-02668-0
+PMID: '35473573'
+primary_url: https://doi.org/10.1186/s13059-022-02668-0
+pdf: http://boylelab.org/pubs/Genome_Biology_2022_Qin.pdf
+abstract: |-
+  Revealing the gene targets of distal regulatory elements is challenging yet critical for interpreting regulome data. Experiment-derived enhancer-gene links are restricted to a small set of enhancers and/or cell types, while the accuracy of genome-wide approaches remains elusive due to the lack of a systematic evaluation. We combined multiple spatial and in silico approaches for defining enhancer locations and linking them to their target genes aggregated across >500 cell types, generating 1860 human genome-wide distal enhancer-to-target gene definitions (EnTDefs). To evaluate performance, we used gene set enrichment (GSE) testing on 87 independent ENCODE ChIP-seq datasets of 34 transcription factors (TFs) and assessed concordance of results with known TF Gene Ontology annotations, and other benchmarks.
+---

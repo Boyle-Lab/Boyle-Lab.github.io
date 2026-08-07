@@ -1,0 +1,62 @@
+---
+generated: true
+bibkey: Mumm2023OnRamp
+title: 'OnRamp: rapid nanopore plasmid validation'
+author_list:
+- citation_name: Mumm C
+  member_url: /people/Camille_Mumm/
+  member_name: Camille Mumm, Ph.D.
+  equal_contrib: true
+- citation_name: Drexel ML
+  member_url: /people/Melissa_Englund/
+  member_name: Melissa Englund, Ph.D.
+  equal_contrib: true
+- citation_name: McDonald TL
+  member_url: /people/Torrin_McDonald/
+  member_name: Torrin McDonald, Ph.D.
+- citation_name: Diehl AG
+  member_url: /people/Adam_Diehl/
+  member_name: Adam Diehl
+- citation_name: Switzenberg JA
+  member_url: /people/Jessica_Switzenberg/
+  member_name: Jessica A. Switzenberg, Ph.D.
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+year: 2023
+sort_date: '2023-05-08'
+members:
+- crmumm
+- melyssae
+- torrin
+- adadiehl
+- jswitzen
+- apboyle
+bibtex: |-
+  @article{Mumm2023OnRamp,
+    author = {*Mumm, Camille and *Drexel, Melissa L and McDonald, Torrin L and Diehl, Adam G and Switzenberg, Jessica A and Boyle, Alan P},
+    title = {{OnRamp: rapid nanopore plasmid validation}},
+    year = {2023},
+    month = {may},
+    day = {8},
+    volume = {33},
+    number = {5},
+    pages = {741--749},
+    doi = {10.1101/gr.277369.122},
+    abstract = {Recombinant plasmid vectors are versatile tools that have facilitated discoveries in molecular biology, genetics, proteomics, and many other fields. As the enzymatic and bacterial processes used to create recombinant DNA can introduce errors, sequence validation is an essential step in plasmid assembly. Sanger sequencing is the current standard for plasmid validation; however, this method is limited by an inability to sequence through complex secondary structure, and lacks scalability when applied to full-plasmid sequencing of multiple plasmids due to read-length limits. While high-throughput sequencing does provide full-plasmid sequencing at scale, it is impractical and costly when utilized outside of library-scale validation. Here we present OnRamp (Oxford nanopore-based Rapid Analysis of Multiplexed Plasmids), an alternative method for routine plasmid validation which combines the advantages of high-throughput sequencing's full-plasmid coverage and scalability with Sanger's affordability and accessibility by leveraging nanopore's long-read sequencing technology. We include customized wet-lab protocols for plasmid preparation along with a pipeline designed for analysis of read data obtained using these protocols. This analysis pipeline is deployed on the OnRamp web app, which generates alignments between actual and predicted plasmid sequences, quality scores, and read-level views. OnRamp is designed to be broadly accessible regardless of programming experience to facilitate more widespread adoption of long-read sequencing for routine plasmid validation. Here we describe the OnRamp protocols and pipeline and demonstrate our ability to obtain full sequences from pooled plasmids while detecting sequence variation even in regions of high secondary structure at less than half the cost of equivalent Sanger sequencing.},
+    url = {https://genome.cshlp.org/content/early/2023/05/08/gr.277369.122},
+    pdf = {http://boylelab.org/pubs/Genome_Research_2023_Mumm.pdf},
+    journal = {Genome Research},
+    note = {{PMID:} 37156622}
+  }
+journal: Genome Research
+volume: '33'
+number: '5'
+pages: 741--749
+doi: 10.1101/gr.277369.122
+PMID: '37156622'
+primary_url: https://genome.cshlp.org/content/early/2023/05/08/gr.277369.122
+pdf: http://boylelab.org/pubs/Genome_Research_2023_Mumm.pdf
+abstract: |-
+  Recombinant plasmid vectors are versatile tools that have facilitated discoveries in molecular biology, genetics, proteomics, and many other fields. As the enzymatic and bacterial processes used to create recombinant DNA can introduce errors, sequence validation is an essential step in plasmid assembly. Sanger sequencing is the current standard for plasmid validation; however, this method is limited by an inability to sequence through complex secondary structure, and lacks scalability when applied to full-plasmid sequencing of multiple plasmids due to read-length limits. While high-throughput sequencing does provide full-plasmid sequencing at scale, it is impractical and costly when utilized outside of library-scale validation. Here we present OnRamp (Oxford nanopore-based Rapid Analysis of Multiplexed Plasmids), an alternative method for routine plasmid validation which combines the advantages of high-throughput sequencing's full-plasmid coverage and scalability with Sanger's affordability and accessibility by leveraging nanopore's long-read sequencing technology. We include customized wet-lab protocols for plasmid preparation along with a pipeline designed for analysis of read data obtained using these protocols. This analysis pipeline is deployed on the OnRamp web app, which generates alignments between actual and predicted plasmid sequences, quality scores, and read-level views. OnRamp is designed to be broadly accessible regardless of programming experience to facilitate more widespread adoption of long-read sequencing for routine plasmid validation. Here we describe the OnRamp protocols and pipeline and demonstrate our ability to obtain full sequences from pooled plasmids while detecting sequence variation even in regions of high secondary structure at less than half the cost of equivalent Sanger sequencing.
+---

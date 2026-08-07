@@ -1,0 +1,84 @@
+---
+generated: true
+bibkey: Chen2012PersonalOmics
+title: Personal omics profiling reveals dynamic molecular and medical phenotypes
+author_list:
+- citation_name: Chen R
+  equal_contrib: true
+- citation_name: Mias GI
+  equal_contrib: true
+- citation_name: Li-Pook-Than J
+  equal_contrib: true
+- citation_name: Jiang L
+  equal_contrib: true
+- citation_name: Lam HYK
+- citation_name: Chen R
+- citation_name: Miriami E
+- citation_name: Karczewski KJ
+- citation_name: Hariharan M
+- citation_name: Dewey FE
+- citation_name: Cheng Y
+- citation_name: Clark MJ
+- citation_name: Im H
+- citation_name: Habegger L
+- citation_name: Balasubramanian S
+- citation_name: O'Huallachain M
+- citation_name: Dudley JT
+- citation_name: Hillenmeyer S
+- citation_name: Haraksingh R
+- citation_name: Sharon D
+- citation_name: Euskirchen G
+- citation_name: Lacroute P
+- citation_name: Bettinger K
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- citation_name: Kasowski M
+- citation_name: Grubert F
+- citation_name: Seki S
+- citation_name: Garcia M
+- citation_name: Whirl-Carrillo M
+- citation_name: Gallardo M
+- citation_name: Blasco MA
+- citation_name: Greenberg PL
+- citation_name: Snyder P
+- citation_name: Klein TE
+- citation_name: Altman RB
+- citation_name: Butte AJ
+- citation_name: Ashley EA
+- citation_name: Gerstein M
+- citation_name: Nadeau KC
+- citation_name: Tang H
+- citation_name: Snyder M
+year: 2012
+sort_date: '2012-03-01'
+members:
+- apboyle
+bibtex: |-
+  @article{Chen2012PersonalOmics,
+    title = {Personal omics profiling reveals dynamic molecular and medical phenotypes},
+    volume = {148},
+    issn = {1097-4172},
+    url = {http://www.ncbi.nlm.nih.gov/pubmed/22424236},
+    pdf = {http://boylelab.org/pubs/Cell_2012_Chen.pdf},
+    doi = {10.1016/j.cell.2012.02.009},
+    abstract = {Personalized medicine is expected to benefit from combining genomic information with regular monitoring of physiological states by multiple high-throughput methods. Here, we present an integrative personal omics profile {(iPOP)}, an analysis that combines genomic, transcriptomic, proteomic, metabolomic, and autoantibody profiles from a single individual over a 14¬†month period. Our {iPOP} analysis revealed various medical risks, including type 2 diabetes. It also uncovered extensive, dynamic changes in diverse molecular components and biological pathways across healthy and diseased conditions. Extremely high-coverage genomic and¬†transcriptomic data, which provide the basis of¬†our¬†{iPOP}, revealed extensive heteroallelic changes during healthy and diseased states and an unexpected {RNA} editing mechanism. This study demonstrates that longitudinal {iPOP} can be used to interpret healthy and diseased states by connecting genomic information with additional dynamic omics activity.},
+    number = {6},
+    journal = {Cell},
+    author = {*Chen, Rui and *Mias, George I and *{Li-Pook-Than}, Jennifer and *Jiang, Lihua and Lam, Hugo Y K and Chen, Rong and Miriami, Elana and Karczewski, Konrad J and Hariharan, Manoj and Dewey, Frederick E and Cheng, Yong and Clark, Michael J and Im, Hogune and Habegger, Lukas and Balasubramanian, Suganthi and {O'Huallachain}, Maeve and Dudley, Joel T and Hillenmeyer, Sara and Haraksingh, Rajini and Sharon, Donald and Euskirchen, Ghia and Lacroute, Phil and Bettinger, Keith and Boyle, Alan P and Kasowski, Maya and Grubert, Fabian and Seki, Scott and Garcia, Marco and {Whirl-Carrillo}, Michelle and Gallardo, Mercedes and Blasco, Maria A and Greenberg, Peter L and Snyder, Phyllis and Klein, Teri E and Altman, Russ B and Butte, Atul J and Ashley, Euan A and Gerstein, Mark and Nadeau, Kari C and Tang, Hua and Snyder, Michael},
+    month = mar,
+    year = {2012},
+    note = {{PMID:} 22424236},
+    pages = {1293--1307}
+  }
+journal: Cell
+volume: '148'
+number: '6'
+pages: 1293--1307
+doi: 10.1016/j.cell.2012.02.009
+PMID: '22424236'
+primary_url: http://www.ncbi.nlm.nih.gov/pubmed/22424236
+pdf: http://boylelab.org/pubs/Cell_2012_Chen.pdf
+abstract: |-
+  Personalized medicine is expected to benefit from combining genomic information with regular monitoring of physiological states by multiple high-throughput methods. Here, we present an integrative personal omics profile (iPOP), an analysis that combines genomic, transcriptomic, proteomic, metabolomic, and autoantibody profiles from a single individual over a 14¬†month period. Our iPOP analysis revealed various medical risks, including type 2 diabetes. It also uncovered extensive, dynamic changes in diverse molecular components and biological pathways across healthy and diseased conditions. Extremely high-coverage genomic and¬†transcriptomic data, which provide the basis of¬†our¬†iPOP, revealed extensive heteroallelic changes during healthy and diseased states and an unexpected RNA editing mechanism. This study demonstrates that longitudinal iPOP can be used to interpret healthy and diseased states by connecting genomic information with additional dynamic omics activity.
+---

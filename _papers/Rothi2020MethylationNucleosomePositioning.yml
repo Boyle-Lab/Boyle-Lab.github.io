@@ -1,0 +1,40 @@
+---
+generated: true
+bibkey: Rothi2020MethylationNucleosomePositioning
+title: DNA methylation directs nucleosome positioning in RNA-mediated transcriptional silencing
+author_list:
+- citation_name: Rothi MH
+- citation_name: Sethuraman S
+  member_url: /people/Shriya_Sethuraman/
+  member_name: Shriya Sethuraman, Ph.D.
+- citation_name: Dolata J
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- citation_name: Wierzbicki AT
+year: 2020
+sort_date: '2020-10-29'
+members:
+- shriyas
+- apboyle
+bibtex: |-
+  @article{Rothi2020MethylationNucleosomePositioning,
+    author = {Rothi, M Hafiz and Sethuraman, Shriya and Dolata, Jakub and Boyle, Alan P and Wierzbicki, Andrzej T},
+    title = {{DNA methylation directs nucleosome positioning in RNA-mediated transcriptional silencing}},
+    year = {2020},
+    doi = {10.1101/2020.10.29.359794},
+    publisher = {Cold Spring Harbor Laboratory},
+    abstract = {{Repressive chromatin modifications are instrumental in regulation of gene expression and transposon silencing. In Arabidopsis thaliana, transcriptional silencing is performed by the RNA-directed DNA methylation (RdDM) pathway. In this process, two specialized RNA polymerases, Pol IV and Pol V, produce non-coding RNAs, which recruit several RNA-binding proteins and lead to the establishment of repressive chromatin marks. An important feature of chromatin is nucleosome positioning, which has also been implicated in RdDM. We show that RdDM affects nucleosomes via the SWI/SNF chromatin remodeling complex. This leads to the establishment of nucleosomes on methylated regions, which counteracts the general depletion of DNA methylation on nucleosomal regions. Nucleosome placement by RdDM has no detectable effects on the pattern of DNA methylation. Instead, DNA methylation by RdDM and other pathways affects nucleosome positioning. We propose a model where DNA methylation serves as one of the determinants of nucleosome positioning.Competing Interest StatementThe authors have declared no competing interest.}},
+    url = {https://www.biorxiv.org/content/early/2020/10/29/2020.10.29.359794},
+    pdf = {https://www.biorxiv.org/content/early/2020/10/29/2020.10.29.359794.full.pdf},
+    journal = {bioRxiv}
+  }
+status: preprint
+journal: bioRxiv
+doi: 10.1101/2020.10.29.359794
+primary_url: https://www.biorxiv.org/content/early/2020/10/29/2020.10.29.359794
+pdf: https://www.biorxiv.org/content/early/2020/10/29/2020.10.29.359794.full.pdf
+biorxiv: https://www.biorxiv.org/content/10.1101/2020.10.29.359794v1
+abstract: |-
+  Repressive chromatin modifications are instrumental in regulation of gene expression and transposon silencing. In Arabidopsis thaliana, transcriptional silencing is performed by the RNA-directed DNA methylation (RdDM) pathway. In this process, two specialized RNA polymerases, Pol IV and Pol V, produce non-coding RNAs, which recruit several RNA-binding proteins and lead to the establishment of repressive chromatin marks. An important feature of chromatin is nucleosome positioning, which has also been implicated in RdDM. We show that RdDM affects nucleosomes via the SWI/SNF chromatin remodeling complex. This leads to the establishment of nucleosomes on methylated regions, which counteracts the general depletion of DNA methylation on nucleosomal regions. Nucleosome placement by RdDM has no detectable effects on the pattern of DNA methylation. Instead, DNA methylation by RdDM and other pathways affects nucleosome positioning. We propose a model where DNA methylation serves as one of the determinants of nucleosome positioning.Competing Interest StatementThe authors have declared no competing interest.
+---

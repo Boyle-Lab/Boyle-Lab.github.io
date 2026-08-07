@@ -1,0 +1,58 @@
+---
+generated: true
+bibkey: Moritz2023ProtamineChromatin
+title: Sperm chromatin structure and reproductive fitness are altered by substitution of a single amino
+  acid in mouse protamine 1
+author_list:
+- citation_name: Moritz L
+- citation_name: Schon SB
+- citation_name: Rabbani M
+- citation_name: Sheng Y
+- citation_name: Agrawal R
+- citation_name: Glass-Klaiber J
+- citation_name: Sultan C
+- citation_name: M CJ
+- citation_name: Clements J
+- citation_name: Baldwin MR
+- citation_name: Diehl AG
+  member_url: /people/Adam_Diehl/
+  member_name: Adam Diehl
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- citation_name: O'Brien PJ
+- citation_name: Ragunathan K
+- citation_name: Hu YC
+- citation_name: Kelleher NL
+- citation_name: Nandakumar J
+- citation_name: Li JZ
+- citation_name: Orwig KE
+- citation_name: Redding S
+- citation_name: Hammoud SS
+year: 2023
+sort_date: '2023-07-01'
+members:
+- adadiehl
+- apboyle
+bibtex: |-
+  @article{Moritz2023ProtamineChromatin,
+    author = {Moritz, Lindsay and Schon, Samantha B. and Rabbani, Mashiat and Sheng, Yi and Agrawal, Ritvija and Glass-Klaiber, Juniper and Sultan, Caleb and Camarillo Jeannie M and Clements, Jourdan and Baldwin, Michael R and Diehl, Adam G and Boyle, Alan P. and O'Brien, Patrick J and Ragunathan, Kaushik and Hu, Yueh-Chiang and Kelleher, Neil L and Nandakumar, Jayakrishnan and Li, Jun Z. and Orwig, Kyle E. and Redding, Sy and Hammoud, Saher Sue},
+    title = {Sperm chromatin structure and reproductive fitness are altered by substitution of a single amino acid in mouse protamine 1},
+    year = {2023},
+    month = {jul},
+    day = {17},
+    doi = {10.1038/s41594-023-01033-4},
+    abstract = {Conventional dogma presumes that protamine-mediated DNA compaction in sperm is achieved by electrostatic interactions between DNA and the arginine-rich core of protamines. Phylogenetic analysis reveals several non-arginine residues conserved within, but not across species. The significance of these residues and their post-translational modifications are poorly understood. Here, we investigated the role of K49, a rodent-specific lysine residue in protamine 1 (P1) that is acetylated early in spermiogenesis and retained in sperm. In sperm, alanine substitution (P1(K49A)) decreases sperm motility and male fertility-defects that are not rescued by arginine substitution (P1(K49R)). In zygotes, P1(K49A) leads to premature male pronuclear decompaction, altered DNA replication, and embryonic arrest. In vitro, P1(K49A) decreases protamine-DNA binding and alters DNA compaction and decompaction kinetics. Hence, a single amino acid substitution outside the P1 arginine core is sufficient to profoundly alter protein function and developmental outcomes, suggesting that protamine non-arginine residues are essential for reproductive fitness.},
+    url = {https://www.nature.com/articles/s41594-023-01033-4},
+    pdf = {http://boylelab.org/pubs/Nature_Structural_2023_Moritz.pdf},
+    journal = {Nature Structural \& Molecular Biology},
+    note = {{PMID:} 37460896}
+  }
+journal: Nature Structural & Molecular Biology
+doi: 10.1038/s41594-023-01033-4
+PMID: '37460896'
+primary_url: https://www.nature.com/articles/s41594-023-01033-4
+pdf: http://boylelab.org/pubs/Nature_Structural_2023_Moritz.pdf
+abstract: |-
+  Conventional dogma presumes that protamine-mediated DNA compaction in sperm is achieved by electrostatic interactions between DNA and the arginine-rich core of protamines. Phylogenetic analysis reveals several non-arginine residues conserved within, but not across species. The significance of these residues and their post-translational modifications are poorly understood. Here, we investigated the role of K49, a rodent-specific lysine residue in protamine 1 (P1) that is acetylated early in spermiogenesis and retained in sperm. In sperm, alanine substitution (P1(K49A)) decreases sperm motility and male fertility-defects that are not rescued by arginine substitution (P1(K49R)). In zygotes, P1(K49A) leads to premature male pronuclear decompaction, altered DNA replication, and embryonic arrest. In vitro, P1(K49A) decreases protamine-DNA binding and alters DNA compaction and decompaction kinetics. Hence, a single amino acid substitution outside the P1 arginine core is sufficient to profoundly alter protein function and developmental outcomes, suggesting that protamine non-arginine residues are essential for reproductive fitness.
+---

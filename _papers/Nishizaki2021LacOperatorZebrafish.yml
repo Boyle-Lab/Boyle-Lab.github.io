@@ -1,0 +1,61 @@
+---
+generated: true
+bibkey: Nishizaki2021LacOperatorZebrafish
+title: The inducible lac operator-repressor system is functional in zebrafish cells
+author_list:
+- citation_name: Nishizaki SS
+  member_url: /people/Sierra_Nishizaki/
+  member_name: Sierra Nishizaki, Ph.D.
+  equal_contrib: true
+- citation_name: McDonald TL
+  member_url: /people/Torrin_McDonald/
+  member_name: Torrin McDonald, Ph.D.
+  equal_contrib: true
+- citation_name: Farnum GA
+  member_url: /people/Greg_Farnum/
+  member_name: Greg Farnum
+- citation_name: Holmes MJ
+  member_url: /people/Monica_Holmes/
+  member_name: Monica Holmes
+- citation_name: Drexel ML
+  member_url: /people/Melissa_Englund/
+  member_name: Melissa Englund, Ph.D.
+- citation_name: Switzenberg JA
+  member_url: /people/Jessica_Switzenberg/
+  member_name: Jessica A. Switzenberg, Ph.D.
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+year: 2021
+sort_date: '2021-01-01'
+members:
+- ssnishi
+- torrin
+- gregfar
+- mhholmes
+- melyssae
+- jswitzen
+- apboyle
+bibtex: |-
+  @article{Nishizaki2021LacOperatorZebrafish,
+    author = {*Nishizaki, Sierra S and *McDonald, Torrin L and Farnum, Gregory A and Holmes, Monica J and Drexel, Melissa L and Switzenberg, Jessica A and Boyle, Alan P},
+    title = {The inducible lac operator-repressor system is functional in zebrafish cells},
+    year = {2021},
+    doi = {10.3389/fgene.2021.683394},
+    url = {https://www.frontiersin.org/articles/10.3389/fgene.2021.683394/abstract},
+    pdf = {http://boylelab.org/pubs/Frontiers_in_Genetics_2021_Nishizaki.pdf},
+    abstract = {Background: Zebrafish are a foundational model organism for studying the spatio-temporal activity of genes and their regulatory sequences. A variety of approaches are currently available for editing genes and modifying gene expression in zebrafish, including RNAi, Cre/lox, and CRISPR-Cas9. However, the lac operator-repressor system, an E. coli lac operon component which has been adapted for use in many other species and is a valuable, flexible tool for inducible modulation of gene expression studies, has not been previously tested in zebrafish. Results: Here we demonstrate that the lac operator-repressor system robustly decreases expression of firefly luciferase in cultured zebrafish fibroblast cells. Our work establishes the lac operator-repressor system as a promising tool for the manipulation of gene expression in whole zebrafish. Conclusions: Our results lay the groundwork for the development of lac-based reporter assays in zebrafish, and adds to the tools available for investigating dynamic gene expression in embryogenesis. We believe this work will catalyze the development of new reporter assay systems to investigate uncharacterized regulatory elements and their cell-type specific activities.},
+    journal = {Frontiers in Genetics},
+    volume = {12},
+    note = {{PMID:} 34220959}
+  }
+journal: Frontiers in Genetics
+volume: '12'
+doi: 10.3389/fgene.2021.683394
+PMID: '34220959'
+primary_url: https://www.frontiersin.org/articles/10.3389/fgene.2021.683394/abstract
+pdf: http://boylelab.org/pubs/Frontiers_in_Genetics_2021_Nishizaki.pdf
+biorxiv: https://www.biorxiv.org/content/10.1101/2020.02.10.939223v1
+abstract: |-
+  Background: Zebrafish are a foundational model organism for studying the spatio-temporal activity of genes and their regulatory sequences. A variety of approaches are currently available for editing genes and modifying gene expression in zebrafish, including RNAi, Cre/lox, and CRISPR-Cas9. However, the lac operator-repressor system, an E. coli lac operon component which has been adapted for use in many other species and is a valuable, flexible tool for inducible modulation of gene expression studies, has not been previously tested in zebrafish. Results: Here we demonstrate that the lac operator-repressor system robustly decreases expression of firefly luciferase in cultured zebrafish fibroblast cells. Our work establishes the lac operator-repressor system as a promising tool for the manipulation of gene expression in whole zebrafish. Conclusions: Our results lay the groundwork for the development of lac-based reporter assays in zebrafish, and adds to the tools available for investigating dynamic gene expression in embryogenesis. We believe this work will catalyze the development of new reporter assay systems to investigate uncharacterized regulatory elements and their cell-type specific activities.
+---

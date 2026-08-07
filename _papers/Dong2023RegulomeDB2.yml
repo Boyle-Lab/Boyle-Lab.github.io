@@ -1,0 +1,60 @@
+---
+generated: true
+bibkey: Dong2023RegulomeDB2
+title: Annotating and prioritizing human non-coding variants with RegulomeDB v.2
+author_list:
+- citation_name: Dong S
+  member_url: /people/Shengcheng_Dong/
+  member_name: Shengcheng Dong, Ph.D.
+  equal_contrib: true
+- citation_name: Zhao N
+  member_url: /people/Nanxiang_Samuel_Zhao/
+  member_name: Nanxiang (Samuel) Zhao, Ph.D.
+  equal_contrib: true
+- citation_name: Spragins E
+- citation_name: Kagda MS
+- citation_name: Li M
+- citation_name: Assis PR
+- citation_name: Jolanki O
+- citation_name: Luo Y
+- citation_name: Cherry JM
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+  co_senior: true
+- citation_name: Hitz BC
+  co_senior: true
+year: 2023
+sort_date: '2023-04-01'
+members:
+- shengchd
+- samzhao
+- apboyle
+bibtex: |-
+  @article{Dong2023RegulomeDB2,
+    author = {*Dong, Shengcheng and *Zhao, Nanxiang and Spragins, Emma and Kagda, Meenakshi S and Li, Mingjie and Assis, Pedro R and Jolanki, Otto and Luo, Yunhai and Cherry, J Michael and {\dag}Boyle, Alan P and {\dag}Hitz, Benjamin C},
+    title = {{Annotating and prioritizing human non-coding variants with RegulomeDB v.2}},
+    year = {2023},
+    month = {apr},
+    day = {25},
+    volume = {55},
+    number = {5},
+    pages = {724--726},
+    doi = {10.1038/s41588-023-01365-3},
+    abstract = {Nearly 90\% of the disease risk-associated variants identified from genome-wide association studies (GWAS) are in non-coding regions of the genome. The annotations obtained from analyzing functional genomics assays can provide additional information to pinpoint causal variants, which are often not the lead variants identified from association studies. However, the lack of available annotation tools limits the use of such data. To address the challenge, we have previously built the RegulomeDB database for prioritizing and annotating variants in non-coding regions1, which has been a highly utilized resource for the research community (Supplementary Fig. 1). RegulomeDB annotates a variant by intersecting its position with genomic intervals identified from functional genomic assays and computational approaches. It also incorporates those hits of a variant into a heuristic ranking score, representing its potential to be functional in regulatory elements. Here we present a newer version of the RegulomeDB web server, RegulomeDB v2.1 (http://regulomedb.org). We improve and boost annotation power by incorporating thousands of newly processed data from functional genomic assays in GRCh38 assembly, and now include probabilistic scores from the SURF algorithm that was the top performing non-coding variant predictor in CAGI 52. We also provide interactive charts and genome browser views to allow users an easy way to perform exploratory analyses in different tissue contexts.Competing Interest StatementThe authors have declared no competing interest.},
+    url = {https://www.nature.com/articles/s41588-023-01365-3},
+    pdf = {http://boylelab.org/pubs/Nature_Genetics_2023_Dong.pdf},
+    journal = {Nature Genetics},
+    note = {{PMID:} 37173523}
+  }
+journal: Nature Genetics
+volume: '55'
+number: '5'
+pages: 724--726
+doi: 10.1038/s41588-023-01365-3
+PMID: '37173523'
+primary_url: https://www.nature.com/articles/s41588-023-01365-3
+pdf: http://boylelab.org/pubs/Nature_Genetics_2023_Dong.pdf
+abstract: |-
+  Nearly 90% of the disease risk-associated variants identified from genome-wide association studies (GWAS) are in non-coding regions of the genome. The annotations obtained from analyzing functional genomics assays can provide additional information to pinpoint causal variants, which are often not the lead variants identified from association studies. However, the lack of available annotation tools limits the use of such data. To address the challenge, we have previously built the RegulomeDB database for prioritizing and annotating variants in non-coding regions1, which has been a highly utilized resource for the research community (Supplementary Fig. 1). RegulomeDB annotates a variant by intersecting its position with genomic intervals identified from functional genomic assays and computational approaches. It also incorporates those hits of a variant into a heuristic ranking score, representing its potential to be functional in regulatory elements. Here we present a newer version of the RegulomeDB web server, RegulomeDB v2.1 (http://regulomedb.org). We improve and boost annotation power by incorporating thousands of newly processed data from functional genomic assays in GRCh38 assembly, and now include probabilistic scores from the SURF algorithm that was the top performing non-coding variant predictor in CAGI 52. We also provide interactive charts and genome browser views to allow users an easy way to perform exploratory analyses in different tissue contexts.Competing Interest StatementThe authors have declared no competing interest.
+---

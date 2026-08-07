@@ -1,0 +1,48 @@
+---
+generated: true
+bibkey: Amemiya2019ENCODEBlacklist
+title: 'The ENCODE Blacklist: Identification of Problematic Regions of the Genome.'
+author_list:
+- citation_name: Amemiya HM
+  member_url: /people/Haley_Amemiya/
+  member_name: Haley Amemiya
+- citation_name: Kundaje A
+  co_senior: true
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+  co_senior: true
+year: 2019
+sort_date: '2019-06-01'
+members:
+- hamemiya
+- apboyle
+bibtex: |-
+  @article{Amemiya2019ENCODEBlacklist,
+    author = {Amemiya, Haley M and {\dag}Kundaje, Anshul and {\dag}Boyle, Alan P},
+    title = {{The ENCODE Blacklist: Identification of Problematic Regions of the Genome.}},
+    journal = {Scientific Reports},
+    year = {2019},
+    volume = {9},
+    number = {1},
+    pages = {9354},
+    month = jun,
+    doi = {10.1038/s41598-019-45839-z},
+    abstract = {Functional genomics assays based on high-throughput sequencing greatly expand our ability to understand the genome. Here, we define the ENCODE blacklist- a comprehensive set of regions in the human, mouse, worm, and fly genomes that have anomalous, unstructured, or high signal in next-generation sequencing experiments independent of cell line or experiment. The removal of the ENCODE blacklist is an essential quality measure when analyzing functional genomics data.},
+    url = {http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&id=31249361&retmode=ref&cmd=prlinks},
+    pdf = {http://boylelab.org/pubs/Sci_Rep_2019_Amemiya.pdf},
+    note = {{PMID:} 31249361}
+  }
+journal: Scientific Reports
+volume: '9'
+number: '1'
+pages: '9354'
+doi: 10.1038/s41598-019-45839-z
+PMID: '31249361'
+primary_url: http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&id=31249361&retmode=ref&cmd=prlinks
+pdf: http://boylelab.org/pubs/Sci_Rep_2019_Amemiya.pdf
+links:
+  code: https://github.com/Boyle-Lab/Blacklist
+abstract: |-
+  Functional genomics assays based on high-throughput sequencing greatly expand our ability to understand the genome. Here, we define the ENCODE blacklist- a comprehensive set of regions in the human, mouse, worm, and fly genomes that have anomalous, unstructured, or high signal in next-generation sequencing experiments independent of cell line or experiment. The removal of the ENCODE blacklist is an essential quality measure when analyzing functional genomics data.
+---

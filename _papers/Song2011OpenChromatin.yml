@@ -1,0 +1,78 @@
+---
+generated: true
+bibkey: Song2011OpenChromatin
+title: Open chromatin defined by DNaseI and FAIRE identifies regulatory elements that shape cell-type
+  identity
+author_list:
+- citation_name: Song L
+  equal_contrib: true
+- citation_name: Zhang Z
+  equal_contrib: true
+- citation_name: Grasfeder LL
+  equal_contrib: true
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+  equal_contrib: true
+- citation_name: Giresi PG
+  equal_contrib: true
+- citation_name: Lee BK
+  equal_contrib: true
+- citation_name: Sheffield NC
+  equal_contrib: true
+- citation_name: Graff S
+- citation_name: Huss M
+- citation_name: Keefe D
+- citation_name: Liu Z
+- citation_name: London D
+- citation_name: McDaniell RM
+- citation_name: Shibata Y
+- citation_name: Showers KA
+- citation_name: Simon JM
+- citation_name: Vales T
+- citation_name: Wang T
+- citation_name: Winter D
+- citation_name: Zhang Z
+- citation_name: Clarke ND
+- citation_name: Birney E
+  co_senior: true
+- citation_name: Iyer VR
+  co_senior: true
+- citation_name: Crawford GE
+  co_senior: true
+- citation_name: Lieb JD
+  co_senior: true
+- citation_name: Furey TS
+  co_senior: true
+year: 2011
+sort_date: '2011-07-01'
+members:
+- apboyle
+bibtex: |-
+  @article{Song2011OpenChromatin,
+    title = {Open chromatin defined by {DNaseI} and {FAIRE} identifies regulatory elements that shape cell-type identity},
+    issn = {1549-5469},
+    volume = {21},
+    url = {http://www.ncbi.nlm.nih.gov/pubmed/21750106},
+    pdf = {http://boylelab.org/pubs/Genome_Res._2011_Song.pdf},
+    doi = {10.1101/gr.121541.111},
+    abstract = {The human body contains thousands of unique cell types, each with specialized functions. Cell identity is governed in large part by gene transcription programs, which are determined by regulatory elements encoded in {DNA.} To identify regulatory elements active in seven cell lines representative of diverse human cell types, we used {DNase-seq} and {FAIRE-seq} to map "open chromatin." Over 870,000 {DNaseI} or {FAIRE} sites, which correspond tightly to nucleosome depleted regions, were identified across the seven cell lines, covering nearly 9\% of the genome. The combination of {DNaseI} and {FAIRE} is more effective than either assay alone in identifying likely regulatory elements, as judged by coincidence with transcription factor binding locations determined in the same cells. Open chromatin common to all seven cell types tended to be at or near transcription start sites and to be coincident with {CTCF} binding sites, while open chromatin sites found in only one cell type were typically located away from transcription start sites, and contained {DNA} motifs recognized by regulators of cell-type identity. We show that open chromatin regions bound by {CTCF} are potent insulators. We identified clusters of open regulatory elements {(COREs)} that were physically near each other and whose appearance was coordinated among one or more cell types. Gene expression and {RNA} Pol {II} binding data support the hypothesis that {COREs} control gene activity required for the maintenance of cell-type identity. This publicly available atlas of regulatory elements may prove valuable in identifying non-coding {DNA} sequence variants that are causally linked to human disease.},
+    journal = {Genome Research},
+    author = {*Song, Lingyun and *Zhang, Zhancheng and *Grasfeder, Linda L and *Boyle, Alan P and *Giresi, Paul G and *Lee, {Bum-Kyu} and *Sheffield, Nathan C and Graff, Stefan and Huss, Mikael and Keefe, Damian and Liu, Zheng and London, Darin and {McDaniell}, Ryan M and Shibata, Yoichiro and Showers, Kimberly A and Simon, Jeremy M and Vales, Teresa and Wang, Tianyuan and Winter, Deborah and Zhang, Zhuzhu and Clarke, Neil D and {\dag}Birney, Ewan and {\dag}Iyer, Vishy R and {\dag}Crawford, Gregory E and {\dag}Lieb, Jason D and {\dag}Furey, Terrence S},
+    month = jul,
+    year = {2011},
+    number = {10},
+    note = {{PMID:} 21750106},
+    pages = {1757--1767}
+  }
+journal: Genome Research
+volume: '21'
+number: '10'
+pages: 1757--1767
+doi: 10.1101/gr.121541.111
+PMID: '21750106'
+primary_url: http://www.ncbi.nlm.nih.gov/pubmed/21750106
+pdf: http://boylelab.org/pubs/Genome_Res._2011_Song.pdf
+abstract: |-
+  The human body contains thousands of unique cell types, each with specialized functions. Cell identity is governed in large part by gene transcription programs, which are determined by regulatory elements encoded in DNA. To identify regulatory elements active in seven cell lines representative of diverse human cell types, we used DNase-seq and FAIRE-seq to map "open chromatin." Over 870,000 DNaseI or FAIRE sites, which correspond tightly to nucleosome depleted regions, were identified across the seven cell lines, covering nearly 9% of the genome. The combination of DNaseI and FAIRE is more effective than either assay alone in identifying likely regulatory elements, as judged by coincidence with transcription factor binding locations determined in the same cells. Open chromatin common to all seven cell types tended to be at or near transcription start sites and to be coincident with CTCF binding sites, while open chromatin sites found in only one cell type were typically located away from transcription start sites, and contained DNA motifs recognized by regulators of cell-type identity. We show that open chromatin regions bound by CTCF are potent insulators. We identified clusters of open regulatory elements (COREs) that were physically near each other and whose appearance was coordinated among one or more cell types. Gene expression and RNA Pol II binding data support the hypothesis that COREs control gene activity required for the maintenance of cell-type identity. This publicly available atlas of regulatory elements may prove valuable in identifying non-coding DNA sequence variants that are causally linked to human disease.
+---

@@ -1,0 +1,37 @@
+---
+generated: true
+bibkey: Wan2002InteractiveGenomicClustering
+title: Interactive clustering for exploration of genomic data
+author_list:
+- citation_name: Wan X
+- citation_name: Boyle JA
+- citation_name: Bridges SM
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+year: 2002
+sort_date: '2002-11-01'
+members:
+- apboyle
+bibtex: |-
+  @inproceedings{Wan2002InteractiveGenomicClustering,
+    title = {Interactive clustering for exploration of genomic data},
+    pdf = {http://boylelab.org/pubs/ANNIE_2002_Wan.pdf},
+    abstract = {The complete genomic sequences for many organisms, particularly primitive organisms with relatively small genomes (prokaryotes), are now available. We describe an approach that supports interactive exploration of patterns in genomic data by combining use of positional weight matrices, the k-means clustering algorithm, and a visualization tool. Users interact with the system by examining a visualization of the "average" pattern found in each cluster for the sequence under consideration and determine if further clustering or modified clustering is desired. The effectiveness of this approach is demonstrated by a study of promoter sequences in archaea.},
+    volume = {12},
+    pages = {753--758},
+    booktitle = {Proceedings of the Artificial Neural Networks in Engineering Conference},
+    author = {Xiufeng Wan and John A Boyle and Susan M Bridges and Alan P Boyle},
+    address = {St. Louis, MO},
+    month = nov,
+    year = {2002}
+  }
+publication_type: conference
+journal: Proceedings of the Artificial Neural Networks in Engineering Conference
+volume: '12'
+pages: 753--758
+primary_url: http://boylelab.org/pubs/ANNIE_2002_Wan.pdf
+pdf: http://boylelab.org/pubs/ANNIE_2002_Wan.pdf
+abstract: |-
+  The complete genomic sequences for many organisms, particularly primitive organisms with relatively small genomes (prokaryotes), are now available. We describe an approach that supports interactive exploration of patterns in genomic data by combining use of positional weight matrices, the k-means clustering algorithm, and a visualization tool. Users interact with the system by examining a visualization of the "average" pattern found in each cluster for the sequence under consideration and determine if further clustering or modified clustering is desired. The effectiveness of this approach is demonstrated by a study of promoter sequences in archaea.
+---

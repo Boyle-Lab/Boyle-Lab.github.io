@@ -1,0 +1,50 @@
+---
+generated: true
+bibkey: Lee2025PsychiatricMPRA
+title: Massively parallel reporter assay investigates shared genetic variants of eight psychiatric disorders
+author_list:
+- citation_name: Lee S
+- citation_name: McAfee JC
+- citation_name: Lee J
+- citation_name: Gomez A
+- citation_name: Ledford AT
+- citation_name: Clarke D
+- citation_name: Min H
+- citation_name: Gerstein MB
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- citation_name: Sullivan PF
+- citation_name: Beltran AS
+- citation_name: Won H
+year: 2025
+sort_date: '2025-01-01'
+members:
+- apboyle
+bibtex: |-
+  @article{Lee2025PsychiatricMPRA,
+    author = {Sool Lee and Jessica C McAfee and Jiseok Lee and Alejandro Gomez and Austin T Ledford and Declan Clarke and Hyunggyu Min and Mark B Gerstein and Alan P Boyle and Patrick F Sullivan and Adriana S Beltran and Hyejung Won},
+    title = {Massively parallel reporter assay investigates shared genetic variants of eight psychiatric disorders},
+    journal = {Cell},
+    volume = {S0092-8674},
+    number = {24},
+    pages = {01435-1},
+    year = {2025},
+    month = {Jan},
+    abstract = {A meta-genome-wide association study across eight psychiatric disorders has highlighted the genetic architecture of pleiotropy in major psychiatric disorders. However, mechanisms underlying pleiotropic effects of the associated variants remain to be explored. We conducted a massively parallel reporter assay to decode the regulatory logic of variants with pleiotropic and disorder-specific effects. Pleiotropic variants differ from disorder-specific variants by exhibiting chromatin accessibility that extends across diverse cell types in the neuronal lineage and by altering motifs for transcription factors with higher connectivity in protein-protein interaction networks. We mapped pleiotropic and disorder-specific variants to putative target genes using functional genomics approaches and CRISPR perturbation. In vivo CRISPR perturbation of a pleiotropic and a disorder-specific gene suggests that pleiotropy may involve the regulation of genes expressed broadly across neuronal cell types and with higher network connectivity.},
+    doi = {10.1016/j.cell.2024.12.022},
+    url = {https://www.sciencedirect.com/science/article/pii/S0092867424014351},
+    pdf = {http://boylelab.org/pubs/Cell_2025_Lee.pdf},
+    note = {{PMID:} 39848247}
+  }
+journal: Cell
+volume: S0092-8674
+number: '24'
+pages: 01435-1
+doi: 10.1016/j.cell.2024.12.022
+PMID: '39848247'
+primary_url: https://www.sciencedirect.com/science/article/pii/S0092867424014351
+pdf: http://boylelab.org/pubs/Cell_2025_Lee.pdf
+abstract: |-
+  A meta-genome-wide association study across eight psychiatric disorders has highlighted the genetic architecture of pleiotropy in major psychiatric disorders. However, mechanisms underlying pleiotropic effects of the associated variants remain to be explored. We conducted a massively parallel reporter assay to decode the regulatory logic of variants with pleiotropic and disorder-specific effects. Pleiotropic variants differ from disorder-specific variants by exhibiting chromatin accessibility that extends across diverse cell types in the neuronal lineage and by altering motifs for transcription factors with higher connectivity in protein-protein interaction networks. We mapped pleiotropic and disorder-specific variants to putative target genes using functional genomics approaches and CRISPR perturbation. In vivo CRISPR perturbation of a pleiotropic and a disorder-specific gene suggests that pleiotropy may involve the regulation of genes expressed broadly across neuronal cell types and with higher network connectivity.
+---

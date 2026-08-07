@@ -1,0 +1,30 @@
+---
+generated: true
+bibkey: Boyle2003ArchaeaRegulatoryClustering
+title: Clustering of archael gene regulatory regions
+author_list:
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- citation_name: Bridges S
+year: 2003
+sort_date: '2003-03-01'
+members:
+- apboyle
+bibtex: |-
+  @inproceedings{Boyle2003ArchaeaRegulatoryClustering,
+    title = {Clustering of archael gene regulatory regions},
+    volume = {17},
+    number = {5},
+    pages = {A985-A985},
+    booktitle = {FASEB Journal},
+    author = {Alan P Boyle and Susan Bridges},
+    month = mar,
+    year = {2003}
+  }
+publication_type: conference
+journal: FASEB Journal
+volume: '17'
+number: '5'
+pages: A985-A985
+---

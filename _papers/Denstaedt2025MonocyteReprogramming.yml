@@ -1,0 +1,49 @@
+---
+generated: true
+bibkey: Denstaedt2025MonocyteReprogramming
+title: Long-term immune reprogramming of classical monocytes with altered ontogeny mediates enhanced lung
+  injury in sepsis survivors
+author_list:
+- citation_name: Denstaedt SJ
+- citation_name: McBean B
+  member_url: /people/Breanna_McBean/
+  member_name: Breanna McBean, Ph.D.
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- citation_name: Arenberg BC
+- citation_name: Mack M
+- citation_name: Moore BB
+- citation_name: Newstead MW
+- citation_name: Deng Y
+- citation_name: Nesvizhskii AI
+- citation_name: Singer BH
+- citation_name: Cano J
+- citation_name: Prescott HC
+- citation_name: Goodridge HS
+- citation_name: Zemans RL
+year: 2025
+sort_date: '2025-08-01'
+members:
+- bmcbean
+- apboyle
+bibtex: |-
+  @article{Denstaedt2025MonocyteReprogramming,
+    author = {Denstaedt, Scott J. and McBean, Breanna and Boyle, Alan P and Arenberg, Brett C. and Mack, Matthias and Moore, Bethany B. and Newstead, Michael W. and Deng, Yanmei and Nesvizhskii, Alexey I. and Singer, Benjamin H. and Cano, Jennifer and Prescott, Hallie C. and Goodridge, Helen S. and Zemans, Rachel L.},
+    title = {Long-term immune reprogramming of classical monocytes with altered ontogeny mediates enhanced lung injury in sepsis survivors},
+    year = {2025},
+    doi = {10.1101/2025.05.16.654442},
+    abstract = {Patients who survive sepsis are predisposed to new hospitalizations for respiratory failure, but the underlying mechanisms are unknown. Using a murine model in which prior sepsis predisposes to enhanced lung injury, we previously discovered that classical monocytes persist in the lungs after long-term recovery from sepsis and exhibit enhanced cytokine expression after secondary challenge with intra-nasal lipopolysaccharide. Here, we hypothesized that immune reprogramming of post-sepsis monocytes and altered ontogeny predispose to enhanced lung injury. Monocyte depletion and/or adoptive transfer was performed three weeks and three months after sepsis. Monocytes from post-sepsis mice were necessary and sufficient for enhanced LPS-induced lung injury and promoted neutrophil degranulation. Prior sepsis enhanced JAK-STAT signaling and AP-1 binding in monocytes and shifted monocytes toward the neutrophil-like monocyte lineage. In human sepsis and/or pneumonia survivors, monocytes were predictive of 90-day mortality and exhibit transcriptional and proteomic neutrophil-like signatures. We conclude that sepsis reprograms monocytes into a pro-inflammatory phenotype and skews bone marrow progenitors and monocytes toward the neutrophil-like lineage, predisposing to neutrophil degranulation and lung injury.Competing Interest StatementConflicts of Interest: A.I.N. is the founder of Fragmatics and serves on the scientific advisory boards of Protai Bio, Infinitopes, and Mobilion Systems.National Institutes of Health, https://ror.org/01cwqze88, K08HL153799, U01HG011952, T32HG000040, R35HL144481, R01AG074968, R35HL160770National Institutes of Health, https://ror.org/01cwqze88, R01AI134987, R01HL147920, R01HL131608, R35HL160770, R01HS026725United States Department of Veterans Affairs, VA HSR 20-313},
+    url = {https://www.biorxiv.org/content/early/2025/08/01/2025.05.16.654442},
+    pdf = {https://www.biorxiv.org/content/early/2025/08/01/2025.05.16.654442.full.pdf},
+    journal = {bioRxiv}
+  }
+status: preprint
+journal: bioRxiv
+doi: 10.1101/2025.05.16.654442
+primary_url: https://www.biorxiv.org/content/early/2025/08/01/2025.05.16.654442
+pdf: https://www.biorxiv.org/content/early/2025/08/01/2025.05.16.654442.full.pdf
+biorxiv: https://www.biorxiv.org/content/early/2025/08/01/2025.05.16.654442
+abstract: |-
+  Patients who survive sepsis are predisposed to new hospitalizations for respiratory failure, but the underlying mechanisms are unknown. Using a murine model in which prior sepsis predisposes to enhanced lung injury, we previously discovered that classical monocytes persist in the lungs after long-term recovery from sepsis and exhibit enhanced cytokine expression after secondary challenge with intra-nasal lipopolysaccharide. Here, we hypothesized that immune reprogramming of post-sepsis monocytes and altered ontogeny predispose to enhanced lung injury. Monocyte depletion and/or adoptive transfer was performed three weeks and three months after sepsis. Monocytes from post-sepsis mice were necessary and sufficient for enhanced LPS-induced lung injury and promoted neutrophil degranulation. Prior sepsis enhanced JAK-STAT signaling and AP-1 binding in monocytes and shifted monocytes toward the neutrophil-like monocyte lineage. In human sepsis and/or pneumonia survivors, monocytes were predictive of 90-day mortality and exhibit transcriptional and proteomic neutrophil-like signatures. We conclude that sepsis reprograms monocytes into a pro-inflammatory phenotype and skews bone marrow progenitors and monocytes toward the neutrophil-like lineage, predisposing to neutrophil degranulation and lung injury.Competing Interest StatementConflicts of Interest: A.I.N. is the founder of Fragmatics and serves on the scientific advisory boards of Protai Bio, Infinitopes, and Mobilion Systems.National Institutes of Health, https://ror.org/01cwqze88, K08HL153799, U01HG011952, T32HG000040, R35HL144481, R01AG074968, R35HL160770National Institutes of Health, https://ror.org/01cwqze88, R01AI134987, R01HL147920, R01HL131608, R35HL160770, R01HS026725United States Department of Veterans Affairs, VA HSR 20-313
+---

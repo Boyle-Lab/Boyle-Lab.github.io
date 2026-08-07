@@ -1,0 +1,46 @@
+---
+generated: true
+bibkey: Kenney2026SEMPLR
+title: 'SEMPLR: an R package for transcription factor binding prediction'
+author_list:
+- citation_name: Kenney GE
+- citation_name: Sherpa RN
+  member_url: /people/Rintsen_Sherpa/
+  member_name: Rintsen Sherpa
+- citation_name: Burgess JD
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- citation_name: Phanstiel DH
+year: 2026
+sort_date: '2026-06-01'
+members:
+- rintsen
+- apboyle
+bibtex: |-
+  @article{Kenney2026SEMPLR,
+    author = {Kenney, Grace E and Sherpa, Rintsen N and Burgess, Jeremy D and Boyle, Alan P and Phanstiel, Douglas H},
+    title = {{SEMPLR: an R package for transcription factor binding prediction}},
+    journal = {Bioinformatics},
+    volume = {42},
+    number = {6},
+    pages = {btag383},
+    year = {2026},
+    month = {06},
+    abstract = {{SEMPLR is an R package that predicts transcription factor binding and variant effects using SNP Effect Matrices (SEMs), providing efficient, genome-wide scoring, enrichment testing, and visualization tools for comprehensive analysis of regulatory sequences.Available on GitHub at https://github.com/grkenney/SEMPLR and on Bioconductor at https://bioconductor.org/packages/release/bioc/html/SEMPLR.html.}},
+    doi = {10.1093/bioinformatics/btag383},
+    url = {https://doi.org/10.1093/bioinformatics/btag383},
+    pdf = {https://academic.oup.com/bioinformatics/article-pdf/42/6/btag383/68520077/btag383.pdf},
+    note = {{PMID:} 42286344}
+  }
+journal: Bioinformatics
+volume: '42'
+number: '6'
+pages: btag383
+doi: 10.1093/bioinformatics/btag383
+PMID: '42286344'
+primary_url: https://doi.org/10.1093/bioinformatics/btag383
+pdf: https://academic.oup.com/bioinformatics/article-pdf/42/6/btag383/68520077/btag383.pdf
+abstract: |-
+  SEMPLR is an R package that predicts transcription factor binding and variant effects using SNP Effect Matrices (SEMs), providing efficient, genome-wide scoring, enrichment testing, and visualization tools for comprehensive analysis of regulatory sequences.Available on GitHub at https://github.com/grkenney/SEMPLR and on Bioconductor at https://bioconductor.org/packages/release/bioc/html/SEMPLR.html.
+---

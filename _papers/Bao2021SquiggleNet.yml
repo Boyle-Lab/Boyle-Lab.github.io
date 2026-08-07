@@ -1,0 +1,53 @@
+---
+generated: true
+bibkey: Bao2021SquiggleNet
+title: 'SquiggleNet: real-time, direct classification of nanopore signals'
+author_list:
+- citation_name: Bao Y
+- citation_name: Wadden J
+- citation_name: Erb-Downward JR
+- citation_name: Ranjan P
+- citation_name: Zhou W
+- citation_name: McDonald TL
+  member_url: /people/Torrin_McDonald/
+  member_name: Torrin McDonald, Ph.D.
+- citation_name: Mills RE
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- citation_name: Dickson RP
+- citation_name: Blaauw D
+- citation_name: Welch JD
+year: 2021
+sort_date: '2021-10-01'
+members:
+- torrin
+- apboyle
+bibtex: |-
+  @article{Bao2021SquiggleNet,
+    author = {Bao, Yuwei and Wadden, Jack and Erb-Downward, John R. and Ranjan, Piyush and Zhou, Weichen and McDonald, Torrin L and Mills, Ryan E and Boyle, Alan P and Dickson, Robert P. and Blaauw, David and Welch, Joshua D.},
+    title = {{SquiggleNet: real-time, direct classification of nanopore signals}},
+    year = {2021},
+    month = {oct},
+    day = {27},
+    volume = {22},
+    number = {1},
+    pages = {298},
+    doi = {10.1186/s13059-021-02511-y},
+    abstract = {{We present SquiggleNet, the first deep-learning model that can classify nanopore reads directly from their electrical signals. SquiggleNet operates faster than DNA passes through the pore, allowing real-time classification and read ejection. Using 1 s of sequencing data, the classifier achieves significantly higher accuracy than base calling followed by sequence alignment. Our approach is also faster and requires an order of magnitude less memory than alignment-based approaches. SquiggleNet distinguished human from bacterial DNA with over 90% accuracy, generalized to unseen bacterial species in a human respiratory meta genome sample, and accurately classified sequences containing human long interspersed repeat elements.}},
+    url = {https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02511-y},
+    pdf = {http://boylelab.org/pubs/Genome_Biology_2021_Bao.pdf},
+    journal = {Genome Biology},
+    note = {{PMID:} 34706748}
+  }
+journal: Genome Biology
+volume: '22'
+number: '1'
+pages: '298'
+doi: 10.1186/s13059-021-02511-y
+PMID: '34706748'
+primary_url: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02511-y
+pdf: http://boylelab.org/pubs/Genome_Biology_2021_Bao.pdf
+abstract: |-
+  We present SquiggleNet, the first deep-learning model that can classify nanopore reads directly from their electrical signals. SquiggleNet operates faster than DNA passes through the pore, allowing real-time classification and read ejection. Using 1 s of sequencing data, the classifier achieves significantly higher accuracy than base calling followed by sequence alignment. Our approach is also faster and requires an order of magnitude less memory than alignment-based approaches. SquiggleNet distinguished human from bacterial DNA with over 90% accuracy, generalized to unseen bacterial species in a human respiratory meta genome sample, and accurately classified sequences containing human long interspersed repeat elements.
+---

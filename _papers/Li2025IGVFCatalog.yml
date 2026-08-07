@@ -1,0 +1,89 @@
+---
+generated: true
+bibkey: Li2025IGVFCatalog
+title: The IGVF catalog—from genetic variation to function
+author_list:
+- citation_name: Li D
+- citation_name: Liu S
+- citation_name: Assis PR
+- citation_name: Li M
+- citation_name: Dong S
+  member_url: /people/Shengcheng_Dong/
+  member_name: Shengcheng Dong, Ph.D.
+- citation_name: Whaling I
+- citation_name: Jolanki O
+- citation_name: Kagda M
+- citation_name: Zhang W
+- citation_name: Macias-Velasco JF
+- citation_name: Liu T
+- citation_name: Cody S
+- citation_name: Antonacci-Fulton L
+- citation_name: Huang Y
+- citation_name: Liu J
+- citation_name: Montgomery MT
+- citation_name: Zeiberg D
+- citation_name: Jain S
+- citation_name: Pejaver V
+- citation_name: Bergquist T
+- citation_name: Chen Y
+- citation_name: Radivojac P
+- citation_name: Gersbach CA
+- citation_name: Sherpa RN
+  member_url: /people/Rintsen_Sherpa/
+  member_name: Rintsen Sherpa
+- citation_name: Castro CP
+  member_url: /people/Christopher_Castro/
+  member_name: Christopher Castro, Ph.D.
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- citation_name: Starita LM
+- citation_name: Fowler DM
+- citation_name: Ahituv N
+- citation_name: Dey KK
+- citation_name: Majoros WH
+- citation_name: Reddy TE
+- citation_name: Craven M
+- citation_name: Sinha R
+- citation_name: Sverchkov Y
+- citation_name: Cai X
+- citation_name: Nzima MZ
+- citation_name: Calderwood MA
+- citation_name: Rozowsky J
+- citation_name: Gerstein M
+- citation_name: Ma J
+- citation_name: Yue F
+- citation_name: Cherry JM
+- citation_name: Love MI
+- citation_name: Engreitz JM
+- citation_name: Hitz BC
+- citation_name: Wang T
+year: 2025
+sort_date: '2025-12-01'
+members:
+- shengchd
+- rintsen
+- castrocp
+- apboyle
+bibtex: |-
+  @article{Li2025IGVFCatalog,
+    author = {Li, Daofeng and Liu, Shane and Assis, Pedro R and Li, Mingjie and Dong, Shengcheng and Whaling, Ian and Jolanki, Otto and Kagda, Meenakshi and Zhang, Wenjin and Macias-Velasco, Juan F and Liu, Tianjie and Cody, Sarah and Antonacci-Fulton, Lucinda and Huang, Yuanhao and Liu, Jie and Montgomery, Michael T and Zeiberg, Daniel and Jain, Shantanu and Pejaver, Vikas and Bergquist, Timothy and Chen, Yile and Radivojac, Predrag and Gersbach, Charles A and Sherpa, Rintsen N and Castro, Christopher P and Boyle, Alan P and Starita, Lea M and Fowler, Douglas M and Ahituv, Nadav and Dey, Kushal K and Majoros, William H and Reddy, Timothy E and Craven, Mark and Sinha, Riya and Sverchkov, Yuriy and Cai, Xiangmeng and Nzima, Mpathi Z and Calderwood, Michael A and Rozowsky, Joel and Gerstein, Mark and Ma, Jian and Yue, Feng and Cherry, J Michael and Love, Michael I and Engreitz, Jesse M and Hitz, Benjamin C and Wang, Ting},
+    title = {{The IGVF catalog—from genetic variation to function}},
+    journal = {Nucleic Acids Research},
+    pages = {gkaf1341},
+    year = {2025},
+    month = {12},
+    abstract = {Genomic variation between individuals is essential for understanding how differences in the genome sequence affect molecular and cellular processes. The Impact of Genomic Variation on Function (IGVF) Consortium aims to uncover the relationships among genomic variation, genome function, and phenotypes by combining experimental techniques, such as single-cell mapping and genomic perturbation assays, with computational approaches such as machine learning-based predictive modeling. The IGVF Data and Administrative Coordinating Centers collect, analyze, and disseminate data and results from across the consortium through an open-source platform called the IGVF Catalog. This resource includes, but is not limited to, data on the effects of coding variants on protein abundance and function, noncoding variants on enhancer activity (measured by MPRA or predicted computationally), and associations between variants and quantitative traits. All data are organized within a graph database comprising over 50 types of data collections with nearly 3 billion nodes and over 7.5 billion edges. The Catalog offers public API endpoints (https://api.catalogkg.igvf.org/) and a user-friendly interface for exploring, querying, and visualizing the data at https://catalog.igvf.org. We expect that this open-access platform will support the broader scientific community to advance our understanding of how genomic variation influences biology and disease.},
+    issn = {1362-4962},
+    doi = {10.1093/nar/gkaf1341},
+    url = {https://doi.org/10.1093/nar/gkaf1341},
+    note = {{PMID:} 41359121}
+  }
+journal: Nucleic Acids Research
+pages: gkaf1341
+doi: 10.1093/nar/gkaf1341
+PMID: '41359121'
+primary_url: https://doi.org/10.1093/nar/gkaf1341
+abstract: |-
+  Genomic variation between individuals is essential for understanding how differences in the genome sequence affect molecular and cellular processes. The Impact of Genomic Variation on Function (IGVF) Consortium aims to uncover the relationships among genomic variation, genome function, and phenotypes by combining experimental techniques, such as single-cell mapping and genomic perturbation assays, with computational approaches such as machine learning-based predictive modeling. The IGVF Data and Administrative Coordinating Centers collect, analyze, and disseminate data and results from across the consortium through an open-source platform called the IGVF Catalog. This resource includes, but is not limited to, data on the effects of coding variants on protein abundance and function, noncoding variants on enhancer activity (measured by MPRA or predicted computationally), and associations between variants and quantitative traits. All data are organized within a graph database comprising over 50 types of data collections with nearly 3 billion nodes and over 7.5 billion edges. The Catalog offers public API endpoints (https://api.catalogkg.igvf.org/) and a user-friendly interface for exploring, querying, and visualizing the data at https://catalog.igvf.org. We expect that this open-access platform will support the broader scientific community to advance our understanding of how genomic variation influences biology and disease.
+---

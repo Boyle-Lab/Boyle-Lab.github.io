@@ -1,0 +1,61 @@
+---
+generated: true
+bibkey: McBean2026RadiosensitizationARPositiveTNBC
+title: Transcriptomic analysis to uncover the mechanism of radiosensitization of AR-positive triple-negative
+  breast cancers with AR inhibition
+author_list:
+- citation_name: McBean B
+  member_url: /people/Breanna_McBean/
+  member_name: Breanna McBean, Ph.D.
+- citation_name: Hauk B
+- citation_name: Michmerhuizen AR
+- citation_name: Chandler BC
+- citation_name: Pesch AM
+- citation_name: Lerner LM
+- citation_name: Gurdak D
+- citation_name: Ward C
+  member_url: /people/Connor_Ward/
+  member_name: Connor Ward
+- citation_name: Rana P
+- citation_name: Zeidane RA
+- citation_name: Mercer V
+- citation_name: Tao M
+- citation_name: Hochmuth E
+- citation_name: Jungles KM
+- citation_name: The S
+- citation_name: Liu M
+- citation_name: Spratt DE
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- citation_name: Pierce LJ
+- citation_name: Speers CW
+year: 2026
+sort_date: '2026-02-01'
+members:
+- bmcbean
+- conbward
+- apboyle
+bibtex: |-
+  @article{McBean2026RadiosensitizationARPositiveTNBC,
+    author = {McBean, Breanna and Hauk, Benjamin and Michmerhuizen, Anna R and Chandler, Benjamin C and Pesch, Andrea M and Lerner, Lynn M and Gurdak, Douglas and Ward, Connor and Rana, Priyanka and Zeidane, Reine Abou and Mercer, Vesna and Tao, Mingfang and Hochmuth, Ethan and Jungles, Kassidy M and The, Stephanie and Liu, Meilan and Spratt, Daniel E and Boyle, Alan P and Pierce, Lori J and Speers, Corey W},
+    title = {{Transcriptomic analysis to uncover the mechanism of radiosensitization of {AR-positive} triple-negative breast cancers with AR inhibition}},
+    journal = {NPJ Breast Cancer},
+    volume = {12},
+    number = {1},
+    year = {2026},
+    month = {2},
+    abstract = {The androgen receptor (AR) has been identified as a driver of tumor growth and radioresistance in triple-negative breast cancers (TNBC), though the mechanistic role of AR in response to radiation therapy (RT) remains unknown. Here, we demonstrate that inhibition with the second-generation anti-androgen, apalutamide, but not darolutamide, is sufficient to radiosensitize AR+ TNBC models (rER: 1.34-1.41; rER: 0.96-1.11, respectively). Cells with low AR expression were not radiosensitized by AR inhibition (rER: 0.96-1.03). Mechanistically, while stimulation with the AR-agonist R1881 is sufficient to induce nuclear translocation of AR in AR+ TNBC cells, AR inhibition with enzalutamide, apalutamide, or darolutamide blocked AR nuclear translocation. When cells are treated with R1881+RT, nuclear translocation of AR was induced at similar or greater levels compared to R1881 alone in AR+ TNBC cells. Combination treatment of RT with enzalutamide reduced nuclear localization of AR (32-39% reduction) compared to RT alone. Transcriptional evaluation with RNA-Seq after AR stimulation and RT demonstrated changes in the MAPK/ERK signaling pathway, among others. Overexpression of ERK reduces the radiosensitizing ability of second-generation anti-androgens, suggesting that AR-mediated radioresistance may be due, at least in part, to downstream MAPK/ERK signaling. These findings suggest that AR-mediated radioresistance is at least partially due to downstream MAPK/ERK signaling. Together this work builds on the mechanistic understanding of AR-mediated radioresistance in AR+ TNBC which may expose vulnerabilities in resistance to combination treatment with AR inhibition and RT.},
+    doi = {10.1038/s41523-026-00916-1},
+    url = {https://www.nature.com/articles/s41523-026-00916-1},
+    note = {{PMID:} 41735341}
+  }
+journal: NPJ Breast Cancer
+volume: '12'
+number: '1'
+doi: 10.1038/s41523-026-00916-1
+PMID: '41735341'
+primary_url: https://www.nature.com/articles/s41523-026-00916-1
+abstract: |-
+  The androgen receptor (AR) has been identified as a driver of tumor growth and radioresistance in triple-negative breast cancers (TNBC), though the mechanistic role of AR in response to radiation therapy (RT) remains unknown. Here, we demonstrate that inhibition with the second-generation anti-androgen, apalutamide, but not darolutamide, is sufficient to radiosensitize AR+ TNBC models (rER: 1.34-1.41; rER: 0.96-1.11, respectively). Cells with low AR expression were not radiosensitized by AR inhibition (rER: 0.96-1.03). Mechanistically, while stimulation with the AR-agonist R1881 is sufficient to induce nuclear translocation of AR in AR+ TNBC cells, AR inhibition with enzalutamide, apalutamide, or darolutamide blocked AR nuclear translocation. When cells are treated with R1881+RT, nuclear translocation of AR was induced at similar or greater levels compared to R1881 alone in AR+ TNBC cells. Combination treatment of RT with enzalutamide reduced nuclear localization of AR (32-39% reduction) compared to RT alone. Transcriptional evaluation with RNA-Seq after AR stimulation and RT demonstrated changes in the MAPK/ERK signaling pathway, among others. Overexpression of ERK reduces the radiosensitizing ability of second-generation anti-androgens, suggesting that AR-mediated radioresistance may be due, at least in part, to downstream MAPK/ERK signaling. These findings suggest that AR-mediated radioresistance is at least partially due to downstream MAPK/ERK signaling. Together this work builds on the mechanistic understanding of AR-mediated radioresistance in AR+ TNBC which may expose vulnerabilities in resistance to combination treatment with AR inhibition and RT.
+---

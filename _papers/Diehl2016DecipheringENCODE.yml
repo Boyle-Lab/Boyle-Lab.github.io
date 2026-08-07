@@ -1,0 +1,45 @@
+---
+generated: true
+bibkey: Diehl2016DecipheringENCODE
+title: Deciphering ENCODE.
+author_list:
+- citation_name: Diehl AG
+  member_url: /people/Adam_Diehl/
+  member_name: Adam Diehl
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+year: 2016
+sort_date: '2016-03-01'
+members:
+- adadiehl
+- apboyle
+bibtex: |-
+  @article{Diehl2016DecipheringENCODE,
+    author = {Diehl, Adam G and Boyle, Alan P},
+    title = {{Deciphering ENCODE.}},
+    journal = {Trends in Genetics},
+    year = {2016},
+    volume = {32},
+    number = {4},
+    pages = {238--249},
+    month = mar,
+    doi = {10.1016/j.tig.2016.02.002},
+    abstract = {The ENCODE project represents a major leap from merely describing and comparing genomic sequences to surveying them for direct indicators of function. The astounding quantity of data produced by the ENCODE consortium can serve as a map to locate specific landmarks, guide hypothesis generation, and lead us to principles and mechanisms underlying genome biology. Despite its broad appeal, the size and complexity of the repository can be intimidating to prospective users. We present here some background about the ENCODE data, survey the resources available for accessing them, and describe a few simple principles to help prospective users choose the data type(s) that best suit their needs, where to get them, and how to use them to their best advantage.},
+    url = {http://www.ncbi.nlm.nih.gov/pubmed/26962025},
+    pdf = {http://boylelab.org/pubs/Trends_Genet_2016_Diehl.pdf},
+    note = {{PMID:} 26962025}
+  }
+journal: Trends in Genetics
+volume: '32'
+number: '4'
+pages: 238--249
+doi: 10.1016/j.tig.2016.02.002
+PMID: '26962025'
+primary_url: http://www.ncbi.nlm.nih.gov/pubmed/26962025
+pdf: http://boylelab.org/pubs/Trends_Genet_2016_Diehl.pdf
+links:
+  code: https://github.com/Boyle-Lab/ENCODE-API-Apps
+abstract: |-
+  The ENCODE project represents a major leap from merely describing and comparing genomic sequences to surveying them for direct indicators of function. The astounding quantity of data produced by the ENCODE consortium can serve as a map to locate specific landmarks, guide hypothesis generation, and lead us to principles and mechanisms underlying genome biology. Despite its broad appeal, the size and complexity of the repository can be intimidating to prospective users. We present here some background about the ENCODE data, survey the resources available for accessing them, and describe a few simple principles to help prospective users choose the data type(s) that best suit their needs, where to get them, and how to use them to their best advantage.
+---

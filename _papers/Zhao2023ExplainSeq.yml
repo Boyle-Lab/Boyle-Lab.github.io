@@ -1,0 +1,40 @@
+---
+generated: true
+bibkey: Zhao2023ExplainSeq
+title: 'Explain-seq: an end-to-end pipeline from training to interpretation of sequence-based deep learning
+  models'
+author_list:
+- citation_name: Zhao N
+  member_url: /people/Nanxiang_Samuel_Zhao/
+  member_name: Nanxiang (Samuel) Zhao, Ph.D.
+- citation_name: Wang S
+- citation_name: Huang Q
+- citation_name: Dong S
+  member_url: /people/Shengcheng_Dong/
+  member_name: Shengcheng Dong, Ph.D.
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+year: 2023
+sort_date: '2023-01-23'
+members:
+- samzhao
+- shengchd
+- apboyle
+bibtex: |-
+  @article{Zhao2023ExplainSeq,
+    author = {Zhao, Nanxiang and Wang, S and Huang, Q and Dong, Shengcheng and Boyle, Alan P.},
+    title = {{Explain-seq: an end-to-end pipeline from training to interpretation of sequence-based deep learning models}},
+    year = {2023},
+    doi = {10.1101/2023.01.23.525250},
+    url = {https://www.biorxiv.org/content/early/2023/01/23/2023.01.23.525250},
+    pdf = {https://www.biorxiv.org/content/early/2023/01/23/2023.01.23.525250.full.pdf},
+    journal = {bioRxiv}
+  }
+status: preprint
+journal: bioRxiv
+doi: 10.1101/2023.01.23.525250
+primary_url: https://www.biorxiv.org/content/early/2023/01/23/2023.01.23.525250
+pdf: https://www.biorxiv.org/content/early/2023/01/23/2023.01.23.525250.full.pdf
+biorxiv: https://www.biorxiv.org/content/early/2023/01/23/2023.01.23.525250
+---

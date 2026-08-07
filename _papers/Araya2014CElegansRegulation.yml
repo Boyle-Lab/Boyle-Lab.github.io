@@ -1,0 +1,56 @@
+---
+generated: true
+bibkey: Araya2014CElegansRegulation
+title: Regulatory analysis of the C. elegans genome with spatiotemporal resolution.
+author_list:
+- citation_name: Araya CL
+- citation_name: Kawli T
+- citation_name: Kundaje A
+- citation_name: Jiang L
+- citation_name: Wu B
+- citation_name: Vafeados D
+- citation_name: Terrell R
+- citation_name: Weissdepp P
+- citation_name: Gevirtzman L
+- citation_name: Mace D
+- citation_name: Niu W
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- citation_name: Xie D
+- citation_name: Ma L
+- citation_name: Murray JI
+- citation_name: Reinke V
+- citation_name: Waterston RH
+- citation_name: Snyder M
+year: 2014
+sort_date: '2014-08-01'
+members:
+- apboyle
+bibtex: |-
+  @article{Araya2014CElegansRegulation,
+    author = {Araya, Carlos L and Kawli, Trupti and Kundaje, Anshul and Jiang, Lixia and Wu, Beijing and Vafeados, Dionne and Terrell, Robert and Weissdepp, Peter and Gevirtzman, Louis and Mace, Daniel and Niu, Wei and Boyle, Alan P and Xie, Dan and Ma, Lijia and Murray, John I. and Reinke, Valerie and Waterston, Robert H and Snyder, Michael},
+    title = {{Regulatory analysis of the C. elegans genome with spatiotemporal resolution.}},
+    journal = {Nature},
+    year = {2014},
+    volume = {512},
+    number = {7515},
+    pages = {400--405},
+    month = aug,
+    doi = {10.1038/nature13497},
+    abstract = {Discovering the structure and dynamics of transcriptional regulatory events in the genome with cellular and temporal resolution is crucial to understanding the regulatory underpinnings of development and disease. We determined the genomic distribution of binding sites for 92 transcription factors and regulatory proteins across multiple stages of Caenorhabditis elegans development by performing 241 ChIP-seq (chromatin immunoprecipitation followed by sequencing) experiments. Integration of regulatory binding and cellular-resolution expression data produced a spatiotemporally resolved metazoan transcription factor binding map. Using this map, we explore developmental regulatory circuits that encode combinatorial logic at the levels of co-binding and co-expression of transcription factors, characterizing the genomic coverage and clustering of regulatory binding, the binding preferences of, and biological processes regulated by, transcription factors, the global transcription factor co-associations and genomic subdomains that suggest shared patterns of regulation, and identifying key transcription factors and transcription factor co-associations for fate specification of individual lineages and cell types.},
+    url = {http://www.ncbi.nlm.nih.gov/pubmed/25164749},
+    pdf = {http://boylelab.org/pubs/Nature_2014_Araya.pdf},
+    note = {{PMID:} 25164749}
+  }
+journal: Nature
+volume: '512'
+number: '7515'
+pages: 400--405
+doi: 10.1038/nature13497
+PMID: '25164749'
+primary_url: http://www.ncbi.nlm.nih.gov/pubmed/25164749
+pdf: http://boylelab.org/pubs/Nature_2014_Araya.pdf
+abstract: |-
+  Discovering the structure and dynamics of transcriptional regulatory events in the genome with cellular and temporal resolution is crucial to understanding the regulatory underpinnings of development and disease. We determined the genomic distribution of binding sites for 92 transcription factors and regulatory proteins across multiple stages of Caenorhabditis elegans development by performing 241 ChIP-seq (chromatin immunoprecipitation followed by sequencing) experiments. Integration of regulatory binding and cellular-resolution expression data produced a spatiotemporally resolved metazoan transcription factor binding map. Using this map, we explore developmental regulatory circuits that encode combinatorial logic at the levels of co-binding and co-expression of transcription factors, characterizing the genomic coverage and clustering of regulatory binding, the binding preferences of, and biological processes regulated by, transcription factors, the global transcription factor co-associations and genomic subdomains that suggest shared patterns of regulation, and identifying key transcription factors and transcription factor co-associations for fate specification of individual lineages and cell types.
+---

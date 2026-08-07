@@ -1,0 +1,61 @@
+---
+generated: true
+bibkey: Stitzel2010PancreaticIsletEpigenome
+title: Global epigenomic analysis of primary human pancreatic islets provides insights into type 2 diabetes
+  susceptibility loci
+author_list:
+- citation_name: Stitzel ML
+  equal_contrib: true
+- citation_name: Sethupathy P
+  equal_contrib: true
+- citation_name: Pearson DS
+- citation_name: Chines PS
+- citation_name: Song L
+- citation_name: Erdos MR
+- citation_name: Welch R
+- citation_name: Parker SCJ
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- citation_name: Scott LJ
+- citation_name: Margulies EH
+- citation_name: Boehnke M
+- citation_name: Furey TS
+- citation_name: Crawford GE
+- citation_name: Collins FS
+year: 2010
+sort_date: '2010-09-01'
+members:
+- apboyle
+bibtex: "@article{Stitzel2010PancreaticIsletEpigenome,\n  title = {Global epigenomic analysis of primary\
+  \ human pancreatic \nislets provides insights into type 2 diabetes susceptibility loci},\n  volume =\
+  \ {12},\n  issn = {1932-7420},\n  url = {http://www.ncbi.nlm.nih.gov/pubmed/21035756},\n  pdf = {http://boylelab.org/pubs/Cell_Metab._2010_Stitzel.pdf},\n\
+  \  doi = {10.1016/j.cmet.2010.09.012},\n  abstract = {Identifying cis-regulatory elements is important\
+  \ to \nunderstanding how human pancreatic islets modulate gene expression in \nphysiologic or pathophysiologic\
+  \ (e.g., diabetic) conditions. We \nconducted genome-wide analysis of {DNase} I hypersensitive sites,\
+  \ \nhistone H3 lysine methylation modifications {(K4me1,} K4me3, K79me2), \nand {CCCTC} factor {(CTCF)}\
+  \ binding in human islets. This identified \n.18,000 putative promoters (several hundred unannotated\
+  \ and \nislet-active). Surprisingly, active promoter modifications were absent \nat genes encoding islet-specific\
+  \ hormones, suggesting a distinct \nregulatory mechanism. Of 34,039 distal (nonpromoter) regulatory\
+  \ \nelements, 47\\% are islet unique and 22\\% are {CTCF} bound. In the 18 \ntype 2 diabetes {(T2D)-associated}\
+  \ loci, we identified 118 putative \nregulatory elements and confirmed enhancer activity for 12 of 33\
+  \ tested. \nAmong six regulatory elements harboring {T2D-associated} variants, two \nexhibit significant\
+  \ allele-specific differences in activity. These \nfindings present a global snapshot of the human islet\
+  \ epigenome and \nshould provide functional context for noncoding variants emerging from \ngenetic studies\
+  \ of {T2D} and other islet disorders.},\n  number = {5},\n  journal = {Cell Metabolism},\n  author =\
+  \ {Michael L *Stitzel and Praveen *Sethupathy and Daniel S \nPearson and Peter S Chines and Lingyun\
+  \ Song and Michael R Erdos and Ryan \nWelch and Stephen C J Parker and Alan P Boyle and Laura J Scott\
+  \ and \nElliott H Margulies and Michael Boehnke and Terrence S Furey and Gregory \nE Crawford and Francis\
+  \ S Collins},\n  month = nov,\n  year = {2010},\n  note = {{PMID:} 21035756},\n  pages = {443--455}\n\
+  }"
+journal: Cell Metabolism
+volume: '12'
+number: '5'
+pages: 443--455
+doi: 10.1016/j.cmet.2010.09.012
+PMID: '21035756'
+primary_url: http://www.ncbi.nlm.nih.gov/pubmed/21035756
+pdf: http://boylelab.org/pubs/Cell_Metab._2010_Stitzel.pdf
+abstract: |-
+  Identifying cis-regulatory elements is important to understanding how human pancreatic islets modulate gene expression in physiologic or pathophysiologic (e.g., diabetic) conditions. We conducted genome-wide analysis of DNase I hypersensitive sites, histone H3 lysine methylation modifications (K4me1, K4me3, K79me2), and CCCTC factor (CTCF) binding in human islets. This identified .18,000 putative promoters (several hundred unannotated and islet-active). Surprisingly, active promoter modifications were absent at genes encoding islet-specific hormones, suggesting a distinct regulatory mechanism. Of 34,039 distal (nonpromoter) regulatory elements, 47% are islet unique and 22% are CTCF bound. In the 18 type 2 diabetes (T2D)-associated loci, we identified 118 putative regulatory elements and confirmed enhancer activity for 12 of 33 tested. Among six regulatory elements harboring T2D-associated variants, two exhibit significant allele-specific differences in activity. These findings present a global snapshot of the human islet epigenome and should provide functional context for noncoding variants emerging from genetic studies of T2D and other islet disorders.
+---

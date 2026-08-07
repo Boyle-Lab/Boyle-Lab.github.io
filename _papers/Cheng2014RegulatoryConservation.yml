@@ -1,0 +1,68 @@
+---
+generated: true
+bibkey: Cheng2014RegulatoryConservation
+title: Principles of regulatory information conservation between mouse and human.
+author_list:
+- citation_name: Cheng Y
+  equal_contrib: true
+- citation_name: Ma Z
+  equal_contrib: true
+- citation_name: Kim BH
+- citation_name: Wu W
+- citation_name: Cayting P
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- citation_name: Sundaram V
+- citation_name: Xing X
+- citation_name: Dogan N
+- citation_name: Li J
+- citation_name: Euskirchen G
+- citation_name: Lin S
+- citation_name: Lin Y
+- citation_name: Visel A
+- citation_name: Kawli T
+- citation_name: Yang X
+- citation_name: Patacsil D
+- citation_name: Keller CA
+- citation_name: Giardine B
+- citation_name: Mouse ENCODE Consortium
+- citation_name: Kundaje A
+- citation_name: Wang T
+- citation_name: Pennacchio LA
+- citation_name: Weng Z
+- citation_name: Hardison RC
+  co_senior: true
+- citation_name: Snyder MP
+  co_senior: true
+year: 2014
+sort_date: '2014-11-01'
+members:
+- apboyle
+bibtex: |-
+  @article{Cheng2014RegulatoryConservation,
+    author = {*Cheng, Yong and *Ma, Zhihai and Kim, Bong-Hyun and Wu, Weisheng and Cayting, Philip and Boyle, Alan P and Sundaram, Vasavi and Xing, Xiaoyun and Dogan, Nergiz and Li, Jingjing and Euskirchen, Ghia and Lin, Shin and Lin, Yiing and Visel, Axel and Kawli, Trupti and Yang, Xinqiong and Patacsil, Dorrelyn and Keller, Cheryl A and Giardine, Belinda and {Mouse ENCODE Consortium} and Kundaje, Anshul and Wang, Ting and Pennacchio, Len A and Weng, Zhiping and {\dag}Hardison, Ross C and {\dag}Snyder, Michael P},
+    title = {{Principles of regulatory information conservation between mouse and human.}},
+    journal = {Nature},
+    year = {2014},
+    volume = {515},
+    number = {7527},
+    pages = {371--375},
+    month = nov,
+    doi = {10.1038/nature13985},
+    abstract = {To broaden our understanding of the evolution of gene regulation mechanisms, we generated occupancy profiles for 34 orthologous transcription factors (TFs) in human-mouse erythroid progenitor, lymphoblast and embryonic stem-cell lines. By combining the genome-wide transcription factor occupancy repertoires, associated epigenetic signals, and co-association patterns, here we deduce several evolutionary principles of gene regulatory features operating since the mouse and human lineages diverged. The genomic distribution profiles, primary binding motifs, chromatin states, and DNA methylation preferences are well conserved for TF-occupied sequences. However, the extent to which orthologous DNA segments are bound by orthologous TFs varies both among TFs and with genomic location: binding at promoters is more highly conserved than binding at distal elements. Notably, occupancy-conserved TF-occupied sequences tend to be pleiotropic; they function in several tissues and also co-associate with many TFs. Single nucleotide variants at sites with potential regulatory functions are enriched in occupancy-conserved TF-occupied sequences.},
+    url = {http://www.ncbi.nlm.nih.gov/pubmed/25409826},
+    pdf = {http://boylelab.org/pubs/Nature_2014_Cheng.pdf},
+    note = {{PMID:} 25409826}
+  }
+journal: Nature
+volume: '515'
+number: '7527'
+pages: 371--375
+doi: 10.1038/nature13985
+PMID: '25409826'
+primary_url: http://www.ncbi.nlm.nih.gov/pubmed/25409826
+pdf: http://boylelab.org/pubs/Nature_2014_Cheng.pdf
+abstract: |-
+  To broaden our understanding of the evolution of gene regulation mechanisms, we generated occupancy profiles for 34 orthologous transcription factors (TFs) in human-mouse erythroid progenitor, lymphoblast and embryonic stem-cell lines. By combining the genome-wide transcription factor occupancy repertoires, associated epigenetic signals, and co-association patterns, here we deduce several evolutionary principles of gene regulatory features operating since the mouse and human lineages diverged. The genomic distribution profiles, primary binding motifs, chromatin states, and DNA methylation preferences are well conserved for TF-occupied sequences. However, the extent to which orthologous DNA segments are bound by orthologous TFs varies both among TFs and with genomic location: binding at promoters is more highly conserved than binding at distal elements. Notably, occupancy-conserved TF-occupied sequences tend to be pleiotropic; they function in several tissues and also co-associate with many TFs. Single nucleotide variants at sites with potential regulatory functions are enriched in occupancy-conserved TF-occupied sequences.
+---

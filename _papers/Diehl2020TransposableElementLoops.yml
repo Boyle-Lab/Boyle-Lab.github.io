@@ -1,0 +1,55 @@
+---
+generated: true
+bibkey: Diehl2020TransposableElementLoops
+title: Transposable elements contribute to cell and species-specific chromatin looping and gene regulation
+  in mammalian genomes
+author_list:
+- citation_name: Diehl AG
+  member_url: /people/Adam_Diehl/
+  member_name: Adam Diehl
+- citation_name: Ouyang N
+  member_url: /people/Ningxin_Ouyang/
+  member_name: Ningxin Ouyang, Ph.D.
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+year: 2020
+sort_date: '2020-03-01'
+members:
+- adadiehl
+- nouyang
+- apboyle
+bibtex: |-
+  @article{Diehl2020TransposableElementLoops,
+    author = {Diehl, Adam G and Ouyang, Ningxin and Boyle, Alan P},
+    title = {Transposable elements contribute to cell and species-specific chromatin looping and gene regulation in mammalian genomes},
+    year = {2020},
+    doi = {10.1038/s41467-020-15520-5},
+    volume = {11},
+    number = {1},
+    pages = {1796},
+    month = mar,
+    abstract = {Chromatin looping is important for gene regulation, and studies of 3D chromatin structure across species and cell types have improved our understanding of the principles governing chromatin looping. However, 3D genome evolution and its relationship with natural selection remains largely unexplored. In mammals, the CTCF protein defines the boundaries of most chromatin loops, and variations in CTCF occupancy are associated with looping divergence. While many CTCF binding sites fall within transposable elements (TEs), their contribution to 3D chromatin structural evolution is unknown. Here we report the relative contributions of TE-driven CTCF binding site expansions to conserved and divergent chromatin looping in human and mouse. We demonstrate that TE-derived CTCF binding divergence may explain a large fraction of variable loops. These variable loops contribute significantly to corresponding gene expression variability across cells and species, possibly by refining sub-TAD-scale loop contacts responsible for cell-type-specific enhancer-promoter interactions.},
+    url = {http://www.nature.com/articles/s41467-020-15520-5},
+    pdf = {http://boylelab.org/pubs/Nature_Communications_2020_Diehl.pdf},
+    journal = {Nature Communications},
+    note = {{PMID:} 32286261}
+  }
+journal: Nature Communications
+volume: '11'
+number: '1'
+pages: '1796'
+doi: 10.1038/s41467-020-15520-5
+PMID: '32286261'
+primary_url: http://www.nature.com/articles/s41467-020-15520-5
+pdf: http://boylelab.org/pubs/Nature_Communications_2020_Diehl.pdf
+biorxiv: https://www.biorxiv.org/content/10.1101/679217v1
+links:
+  code: https://github.com/Boyle-Lab/TE-Driven-CTCF-Loop-Evol
+  news:
+  - https://www.nature.com/collections/bhkhbxstgj/content/carolina-perdigoto
+  - https://www.eurekalert.org/pub_releases/2020-04/uom-tep041420.php
+  - https://rna.umich.edu/transposable-elements/
+abstract: |-
+  Chromatin looping is important for gene regulation, and studies of 3D chromatin structure across species and cell types have improved our understanding of the principles governing chromatin looping. However, 3D genome evolution and its relationship with natural selection remains largely unexplored. In mammals, the CTCF protein defines the boundaries of most chromatin loops, and variations in CTCF occupancy are associated with looping divergence. While many CTCF binding sites fall within transposable elements (TEs), their contribution to 3D chromatin structural evolution is unknown. Here we report the relative contributions of TE-driven CTCF binding site expansions to conserved and divergent chromatin looping in human and mouse. We demonstrate that TE-derived CTCF binding divergence may explain a large fraction of variable loops. These variable loops contribute significantly to corresponding gene expression variability across cells and species, possibly by refining sub-TAD-scale loop contacts responsible for cell-type-specific enhancer-promoter interactions.
+---

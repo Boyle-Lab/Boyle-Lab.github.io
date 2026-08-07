@@ -1,0 +1,28 @@
+---
+generated: true
+bibkey: Boyle2004ArchaeaRegulatoryElements
+title: Identification of Regulatory Elements in Archaea using Self-Organizing Maps
+author_list:
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- citation_name: Boyle JA
+- citation_name: Bridges SM
+year: 2004
+sort_date: '2004-03-01'
+members:
+- apboyle
+bibtex: |-
+  @inproceedings{Boyle2004ArchaeaRegulatoryElements,
+    title = {Identification of Regulatory Elements in Archaea using Self-Organizing Maps},
+    pdf = {http://boylelab.org/pubs/RECOMB_2004_Boyle.pdf},
+    booktitle = {Proc RECOMB},
+    author = {Alan P Boyle and John A Boyle and Susan M Bridges},
+    month = mar,
+    year = {2004}
+  }
+publication_type: conference
+journal: Proc RECOMB
+primary_url: http://boylelab.org/pubs/RECOMB_2004_Boyle.pdf
+pdf: http://boylelab.org/pubs/RECOMB_2004_Boyle.pdf
+---

@@ -1,0 +1,187 @@
+---
+generated: true
+bibkey: Yue2014MouseENCODE
+title: A comparative encyclopedia of DNA elements in the mouse genome.
+author_list:
+- citation_name: Yue F
+  equal_contrib: true
+- citation_name: Cheng Y
+  equal_contrib: true
+- citation_name: Breschi A
+  equal_contrib: true
+- citation_name: Vierstra J
+  equal_contrib: true
+- citation_name: Wu W
+  equal_contrib: true
+- citation_name: Ryba T
+  equal_contrib: true
+- citation_name: Sandstrom R
+  equal_contrib: true
+- citation_name: Ma Z
+  equal_contrib: true
+- citation_name: Davis C
+  equal_contrib: true
+- citation_name: Pope BD
+  equal_contrib: true
+- citation_name: Shen Y
+  equal_contrib: true
+- citation_name: Pervouchine DD
+- citation_name: Djebali S
+- citation_name: Thurman RE
+- citation_name: Kaul R
+- citation_name: Rynes E
+- citation_name: Kirilusha A
+- citation_name: Marinov GK
+- citation_name: Williams BA
+- citation_name: Trout D
+- citation_name: Amrhein H
+- citation_name: Fisher-Aylor K
+- citation_name: Antoshechkin I
+- citation_name: DeSalvo G
+- citation_name: See LH
+- citation_name: Fastuca M
+- citation_name: Drenkow J
+- citation_name: Zaleski C
+- citation_name: Dobin A
+- citation_name: Prieto P
+- citation_name: Lagarde J
+- citation_name: Bussotti G
+- citation_name: Tanzer A
+- citation_name: Denas O
+- citation_name: Li K
+- citation_name: Bender MA
+- citation_name: Zhang M
+- citation_name: Byron R
+- citation_name: Groudine MT
+- citation_name: McCleary D
+- citation_name: Pham L
+- citation_name: Ye Z
+- citation_name: Kuan S
+- citation_name: Edsall L
+- citation_name: Wu YC
+- citation_name: Rasmussen MD
+- citation_name: Bansal MS
+- citation_name: Kellis M
+- citation_name: Keller CA
+- citation_name: Morrissey CS
+- citation_name: Mishra T
+- citation_name: Jain D
+- citation_name: Dogan N
+- citation_name: Harris RS
+- citation_name: Cayting P
+- citation_name: Kawli T
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- citation_name: Euskirchen G
+- citation_name: Kundaje A
+- citation_name: Lin S
+- citation_name: Lin Y
+- citation_name: Jansen C
+- citation_name: Malladi VS
+- citation_name: Cline MS
+- citation_name: Erickson DT
+- citation_name: Kirkup VM
+- citation_name: Learned K
+- citation_name: Sloan CA
+- citation_name: Rosenbloom KR
+- citation_name: Lacerda de Sousa B
+- citation_name: Beal K
+- citation_name: Pignatelli M
+- citation_name: Flicek P
+- citation_name: Lian J
+- citation_name: Kahveci T
+- citation_name: Lee D
+- citation_name: Kent WJ
+- citation_name: Ramalho Santos M
+- citation_name: Herrero J
+- citation_name: Notredame C
+- citation_name: Johnson A
+- citation_name: Vong S
+- citation_name: Lee K
+- citation_name: Bates D
+- citation_name: Neri F
+- citation_name: Diegel M
+- citation_name: Canfield T
+- citation_name: Sabo PJ
+- citation_name: Wilken MS
+- citation_name: Reh TA
+- citation_name: Giste E
+- citation_name: Shafer A
+- citation_name: Kutyavin T
+- citation_name: Haugen E
+- citation_name: Dunn D
+- citation_name: Reynolds AP
+- citation_name: Neph S
+- citation_name: Humbert R
+- citation_name: Hansen RS
+- citation_name: De Bruijn M
+- citation_name: Selleri L
+- citation_name: Rudensky A
+- citation_name: Josefowicz S
+- citation_name: Samstein R
+- citation_name: Eichler EE
+- citation_name: Orkin SH
+- citation_name: Levasseur D
+- citation_name: Papayannopoulou T
+- citation_name: Chang KH
+- citation_name: Skoultchi A
+- citation_name: Gosh S
+- citation_name: Disteche C
+- citation_name: Treuting P
+- citation_name: Wang Y
+- citation_name: Weiss MJ
+- citation_name: Blobel GA
+- citation_name: Cao X
+- citation_name: Zhong S
+- citation_name: Wang T
+- citation_name: Good PJ
+- citation_name: Lowdon RF
+- citation_name: Adams LB
+- citation_name: Zhou XQ
+- citation_name: Pazin MJ
+- citation_name: Feingold EA
+- citation_name: Wold B
+- citation_name: Taylor J
+- citation_name: Mortazavi A
+- citation_name: Weissman SM
+- citation_name: Stamatoyannopoulos JA
+- citation_name: Snyder MP
+- citation_name: Guigo R
+- citation_name: Gingeras TR
+- citation_name: Gilbert DM
+- citation_name: Hardison RC
+- citation_name: Beer MA
+- citation_name: Ren B
+- citation_name: Mouse ENCODE Consortium
+year: 2014
+sort_date: '2014-11-01'
+members:
+- apboyle
+bibtex: |-
+  @article{Yue2014MouseENCODE,
+    author = {*Yue, Feng and *Cheng, Yong and *Breschi, Alessandra and *Vierstra, Jeff and *Wu, Weisheng and *Ryba, Tyrone and *Sandstrom, Richard and *Ma, Zhihai and *Davis, Carrie and *Pope, Benjamin D and *Shen, Yin and Pervouchine, Dmitri D and Djebali, Sarah and Thurman, Robert E and Kaul, Rajinder and Rynes, Eric and Kirilusha, Anthony and Marinov, Georgi K and Williams, Brian A and Trout, Diane and Amrhein, Henry and Fisher-Aylor, Katherine and Antoshechkin, Igor and DeSalvo, Gilberto and See, Lei-Hoon and Fastuca, Meagan and Drenkow, Jorg and Zaleski, Chris and Dobin, Alex and Prieto, Pablo and Lagarde, Julien and Bussotti, Giovanni and Tanzer, Andrea and Denas, Olgert and Li, Kanwei and Bender, M A and Zhang, Miaohua and Byron, Rachel and Groudine, Mark T and McCleary, David and Pham, Long and Ye, Zhen and Kuan, Samantha and Edsall, Lee and Wu, Yi-Chieh and Rasmussen, Matthew D and Bansal, Mukul S and Kellis, Manolis and Keller, Cheryl A and Morrissey, Christapher S and Mishra, Tejaswini and Jain, Deepti and Dogan, Nergiz and Harris, Robert S and Cayting, Philip and Kawli, Trupti and Boyle, Alan P and Euskirchen, Ghia and Kundaje, Anshul and Lin, Shin and Lin, Yiing and Jansen, Camden and Malladi, Venkat S and Cline, Melissa S and Erickson, Drew T and Kirkup, Vanessa M and Learned, Katrina and Sloan, Cricket A and Rosenbloom, Kate R and Lacerda de Sousa, Beatriz and Beal, Kathryn and Pignatelli, Miguel and Flicek, Paul and Lian, Jin and Kahveci, Tamer and Lee, Dongwon and Kent, W James and Ramalho Santos, Miguel and Herrero, Javier and Notredame, Cedric and Johnson, Audra and Vong, Shinny and Lee, Kristen and Bates, Daniel and Neri, Fidencio and Diegel, Morgan and Canfield, Theresa and Sabo, Peter J and Wilken, Matthew S and Reh, Thomas A and Giste, Erika and Shafer, Anthony and Kutyavin, Tanya and Haugen, Eric and Dunn, Douglas and Reynolds, Alex P and Neph, Shane and Humbert, Richard and Hansen, R Scott and De Bruijn, Marella and Selleri, Licia and Rudensky, Alexander and Josefowicz, Steven and Samstein, Robert and Eichler, Evan E and Orkin, Stuart H and Levasseur, Dana and Papayannopoulou, Thalia and Chang, Kai-Hsin and Skoultchi, Arthur and Gosh, Srikanta and Disteche, Christine and Treuting, Piper and Wang, Yanli and Weiss, Mitchell J and Blobel, Gerd A and Cao, Xiaoyi and Zhong, Sheng and Wang, Ting and Good, Peter J. and Lowdon, Rebecca F. and Adams, Leslie B and Zhou, Xiao-Qiao and Pazin, Michael J and Feingold, Elise A. and Wold, Barbara and Taylor, James and Mortazavi, Ali and Weissman, Sherman M and Stamatoyannopoulos, John A and Snyder, Michael P and Guigo, Roderic and Gingeras, Thomas R. and Gilbert, David M and Hardison, Ross C and Beer, Michael A and Ren, Bing and {Mouse ENCODE Consortium}},
+    title = {{A comparative encyclopedia of DNA elements in the mouse genome.}},
+    journal = {Nature},
+    year = {2014},
+    volume = {515},
+    number = {7527},
+    pages = {355--364},
+    month = nov,
+    doi = {10.1038/nature13992},
+    abstract = {The laboratory mouse shares the majority of its protein-coding genes with humans, making it the premier model organism in biomedical research, yet the two mammals differ in significant ways. To gain greater insights into both shared and species-specific transcriptional and cellular regulatory programs in the mouse, the Mouse ENCODE Consortium has mapped transcription, DNase I hypersensitivity, transcription factor binding, chromatin modifications and replication domains throughout the mouse genome in diverse cell and tissue types. By comparing with the human genome, we not only confirm substantial conservation in the newly annotated potential functional sequences, but also find a large degree of divergence of sequences involved in transcriptional regulation, chromatin state and higher order chromatin organization. Our results illuminate the wide range of evolutionary forces acting on genes and their regulatory regions, and provide a general resource for research into mammalian biology and mechanisms of human diseases.},
+    url = {http://www.ncbi.nlm.nih.gov/pubmed/25409824},
+    pdf = {http://boylelab.org/pubs/Nature_2014_Yue.pdf},
+    note = {{PMID:} 25409824}
+  }
+journal: Nature
+volume: '515'
+number: '7527'
+pages: 355--364
+doi: 10.1038/nature13992
+PMID: '25409824'
+primary_url: http://www.ncbi.nlm.nih.gov/pubmed/25409824
+pdf: http://boylelab.org/pubs/Nature_2014_Yue.pdf
+abstract: |-
+  The laboratory mouse shares the majority of its protein-coding genes with humans, making it the premier model organism in biomedical research, yet the two mammals differ in significant ways. To gain greater insights into both shared and species-specific transcriptional and cellular regulatory programs in the mouse, the Mouse ENCODE Consortium has mapped transcription, DNase I hypersensitivity, transcription factor binding, chromatin modifications and replication domains throughout the mouse genome in diverse cell and tissue types. By comparing with the human genome, we not only confirm substantial conservation in the newly annotated potential functional sequences, but also find a large degree of divergence of sequences involved in transcriptional regulation, chromatin state and higher order chromatin organization. Our results illuminate the wide range of evolutionary forces acting on genes and their regulatory regions, and provide a general resource for research into mammalian biology and mechanisms of human diseases.
+---

@@ -1,0 +1,49 @@
+---
+generated: true
+bibkey: Pavlovic2026FiberTEnCATS
+title: Fiber-TEnCATS reveals haplotype-specific chromatin accessibility and DNA methylation at human L1HS
+  loci
+author_list:
+- citation_name: Pavlovic K
+  member_url: /people/Katarina_Pavlovic/
+  member_name: Katarina Pavlovic
+- citation_name: McDonald TL
+  member_url: /people/Torrin_McDonald/
+  member_name: Torrin McDonald, Ph.D.
+- citation_name: Diehl AG
+  member_url: /people/Adam_Diehl/
+  member_name: Adam Diehl
+- citation_name: Switzenberg JA
+  member_url: /people/Jessica_Switzenberg/
+  member_name: Jessica A. Switzenberg, Ph.D.
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+year: 2026
+sort_date: '2026-06-28'
+members:
+- katrinp
+- torrin
+- adadiehl
+- jswitzen
+- apboyle
+bibtex: |-
+  @article{Pavlovic2026FiberTEnCATS,
+    author = {Pavlovic, Katarina and McDonald, Torrin L. and Diehl, Adam G. and Switzenberg, Jessica A. and Boyle, Alan P.},
+    title = {{Fiber-TEnCATS reveals haplotype-specific chromatin accessibility and DNA methylation at human L1HS loci}},
+    year = {2026},
+    doi = {10.64898/2026.06.26.734832},
+    abstract = {Human-specific long interspersed nuclear element-1 (L1HS) is an active and autonomous retrotransposon in the human genome. Changes in its transcription and transposition are known to affect cellular processes involved in development and aging, and diseases such as neurological disorders and cancer. To better understand natural variability in epigenetic patterns that affect L1HS regulation, we developed a targeted long-read method to simultaneously profile individual haplotypes for DNA methylation and chromatin accessibility across L1HS loci in a healthy human cell line trio. We show that the intronic L1HS in the ZNF638 gene consistently displays high chromatin accessibility and DNA hypomethylation with bidirectional transcription. Our approach also reveals additional intronic and intergenic L1HS copies with allele-specific chromatin accessibility and methylation, and instances of reduced promoter DNA methylation that does not correspond with increased chromatin accessibility. We also identify potential cases of non-Mendelian inheritance of DNA methylation patterns over a subset of L1HS promoters. Our method{\textquoteright}s high coverage over L1HS loci enables detection and profiling of loci that are missed even by long-read-based assemblies and enables more accurate inheritance tracing of L1HS insertions. Overall, our results offer new insights into the locus-specific regulation of both reference and non-reference L1HS within the human genome.Competing Interest StatementThe authors have declared no competing interest.National Institutes of Health, R01 GM144484},
+    url = {https://www.biorxiv.org/content/early/2026/06/28/2026.06.26.734832},
+    pdf = {https://www.biorxiv.org/content/early/2026/06/28/2026.06.26.734832.full.pdf},
+    journal = {bioRxiv}
+  }
+status: preprint
+journal: bioRxiv
+doi: 10.64898/2026.06.26.734832
+primary_url: https://www.biorxiv.org/content/early/2026/06/28/2026.06.26.734832
+pdf: https://www.biorxiv.org/content/early/2026/06/28/2026.06.26.734832.full.pdf
+biorxiv: https://www.biorxiv.org/content/early/2026/06/28/2026.06.26.734832
+abstract: |-
+  Human-specific long interspersed nuclear element-1 (L1HS) is an active and autonomous retrotransposon in the human genome. Changes in its transcription and transposition are known to affect cellular processes involved in development and aging, and diseases such as neurological disorders and cancer. To better understand natural variability in epigenetic patterns that affect L1HS regulation, we developed a targeted long-read method to simultaneously profile individual haplotypes for DNA methylation and chromatin accessibility across L1HS loci in a healthy human cell line trio. We show that the intronic L1HS in the ZNF638 gene consistently displays high chromatin accessibility and DNA hypomethylation with bidirectional transcription. Our approach also reveals additional intronic and intergenic L1HS copies with allele-specific chromatin accessibility and methylation, and instances of reduced promoter DNA methylation that does not correspond with increased chromatin accessibility. We also identify potential cases of non-Mendelian inheritance of DNA methylation patterns over a subset of L1HS promoters. Our method’s high coverage over L1HS loci enables detection and profiling of loci that are missed even by long-read-based assemblies and enables more accurate inheritance tracing of L1HS insertions. Overall, our results offer new insights into the locus-specific regulation of both reference and non-reference L1HS within the human genome.Competing Interest StatementThe authors have declared no competing interest.National Institutes of Health, R01 GM144484
+---

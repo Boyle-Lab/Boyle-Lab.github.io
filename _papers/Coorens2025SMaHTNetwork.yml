@@ -1,0 +1,100 @@
+---
+generated: true
+bibkey: Coorens2025SMaHTNetwork
+title: The Somatic Mosaicism across Human Tissues Network
+author_list:
+- citation_name: Coorens THH
+- citation_name: Oh JW
+- citation_name: Choi YA
+- citation_name: Lim NS
+- citation_name: Zhao B
+- citation_name: Voshall A
+- citation_name: Abyzov A
+- citation_name: Antonacci-Fulton L
+- citation_name: Aparicio S
+- citation_name: Ardlie KG
+- citation_name: Bell TJ
+- citation_name: Bennett JT
+- citation_name: Bernstein BE
+- citation_name: Blanchard TG
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- citation_name: Buenrostro JD
+- citation_name: Burns KH
+- citation_name: Chen F
+- citation_name: Chen R
+- citation_name: Choudhury S
+- citation_name: Doddapaneni HV
+- citation_name: Eichler EE
+- citation_name: Evrony GD
+- citation_name: Faith MA
+- citation_name: Fazzio TG
+- citation_name: Fulton RS
+- citation_name: Garber M
+- citation_name: Gehlenborg N
+- citation_name: Germer S
+- citation_name: Getz G
+- citation_name: Gibbs RA
+- citation_name: Hernandez RG
+- citation_name: Jin F
+- citation_name: Korbel JO
+- citation_name: Landau DA
+- citation_name: Lawson HA
+- citation_name: Lennon NJ
+- citation_name: Li H
+- citation_name: Li Y
+- citation_name: Loh PR
+- citation_name: Marth G
+- citation_name: McConnell MJ
+- citation_name: Mills RE
+- citation_name: Montgomery SB
+- citation_name: Natarajan P
+- citation_name: Park PJ
+- citation_name: Satija R
+- citation_name: Sedlazeck FJ
+- citation_name: Shao DD
+- citation_name: Shen H
+- citation_name: Stergachis AB
+- citation_name: Underhill HR
+- citation_name: Urban AE
+- citation_name: VonDran MW
+- citation_name: Walsh CA
+- citation_name: Wang T
+- citation_name: Wu TP
+- citation_name: Zong C
+- citation_name: Lee EA
+- citation_name: Vaccarino FM
+- citation_name: Somatic Mosaicism across Human Tissues Network
+year: 2025
+sort_date: '2025-07-01'
+members:
+- apboyle
+bibtex: |-
+  @article{Coorens2025SMaHTNetwork,
+    title = {{The Somatic Mosaicism across Human Tissues Network}},
+    author = {Coorens, Tim H. H. and Oh, Ji Won and Choi, Yujin Angelina and Lim, Nam Seop and Zhao, Boxun and Voshall, Adam and Abyzov, Alexej and Antonacci-Fulton, Lucinda and Aparicio, Samuel and Ardlie, Kristin G. and Bell, Thomas J. and Bennett, James T. and Bernstein, Bradley E. and Blanchard, Thomas G. and Boyle, Alan P. and Buenrostro, Jason D. and Burns, Kathleen H. and Chen, Fei and Chen, Rui and Choudhury, Sangita and Doddapaneni, Harsha V. and Eichler, Evan E. and Evrony, Gilad D. and Faith, Melissa A. and Fazzio, Thomas G. and Fulton, Robert S. and Garber, Manuel and Gehlenborg, Nils and Germer, Soren and Getz, Gad and Gibbs, Richard A. and Hernandez, Raquel G. and Jin, Fulai and Korbel, Jan O. and Landau, Dan A. and Lawson, Heather A. and Lennon, Niall J. and Li, Heng and Li, Yan and Loh, Po-Ru and Marth, Gabor and McConnell, Michael J. and Mills, Ryan E. and Montgomery, Stephen B. and Natarajan, Pradeep and Park, Peter J. and Satija, Rahul and Sedlazeck, Fritz J. and Shao, Diane D. and Shen, Hui and Stergachis, Andrew B. and Underhill, Hunter R. and Urban, Alexander E. and VonDran, Melissa W. and Walsh, Christopher A. and Wang, Ting and Wu, Tao P. and Zong, Chenghang and Lee, Eunjung Alice and Vaccarino, Flora M. and {Somatic Mosaicism across Human Tissues Network}},
+    journal = {Nature},
+    year = {2025},
+    month = {Jul},
+    day = {01},
+    volume = {643},
+    number = {8070},
+    pages = {47-59},
+    abstract = {From fertilization onwards, the cells of the human body acquire variations in their DNA sequence, known as somatic mutations. These postzygotic mutations arise from intrinsic errors in DNA replication and repair, as well as from exposure to mutagens. Somatic mutations have been implicated in some diseases, but a fundamental understanding of the frequency, type and patterns of mutations across healthy human tissues has been limited. This is primarily due to the small proportion of cells harbouring specific somatic variants within an individual, making them more challenging to detect than inherited variants. Here we describe the Somatic Mosaicism across Human Tissues Network, which aims to create a reference catalogue of somatic mutations and their clonal patterns across 19 different tissue sites from 150 non-diseased donors and develop new technologies and computational tools to detect somatic mutations and assess their phenotypic consequences, including clonal expansions. This strategy enables a comprehensive examination of the mutational landscape across the human body, and provides a comparison baseline for somatic mutation in diseases. This will lead to a deep understanding of somatic mutations and clonal expansions across the lifespan, as well as their roles in health, in ageing and, by comparison, in diseases.},
+    doi = {10.1038/s41586-025-09096-7},
+    url = {https://doi.org/10.1038/s41586-025-09096-7},
+    pdf = {http://boylelab.org/pubs/Nature_2025_SMaHT.pdf},
+    note = {{PMID:} 40604182}
+  }
+journal: Nature
+volume: '643'
+number: '8070'
+pages: 47-59
+doi: 10.1038/s41586-025-09096-7
+PMID: '40604182'
+primary_url: https://doi.org/10.1038/s41586-025-09096-7
+pdf: http://boylelab.org/pubs/Nature_2025_SMaHT.pdf
+abstract: |-
+  From fertilization onwards, the cells of the human body acquire variations in their DNA sequence, known as somatic mutations. These postzygotic mutations arise from intrinsic errors in DNA replication and repair, as well as from exposure to mutagens. Somatic mutations have been implicated in some diseases, but a fundamental understanding of the frequency, type and patterns of mutations across healthy human tissues has been limited. This is primarily due to the small proportion of cells harbouring specific somatic variants within an individual, making them more challenging to detect than inherited variants. Here we describe the Somatic Mosaicism across Human Tissues Network, which aims to create a reference catalogue of somatic mutations and their clonal patterns across 19 different tissue sites from 150 non-diseased donors and develop new technologies and computational tools to detect somatic mutations and assess their phenotypic consequences, including clonal expansions. This strategy enables a comprehensive examination of the mutational landscape across the human body, and provides a comparison baseline for somatic mutation in diseases. This will lead to a deep understanding of somatic mutations and clonal expansions across the lifespan, as well as their roles in health, in ageing and, by comparison, in diseases.
+---

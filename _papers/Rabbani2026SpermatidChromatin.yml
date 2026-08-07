@@ -1,0 +1,53 @@
+---
+generated: true
+bibkey: Rabbani2026SpermatidChromatin
+title: 3D chromatin compartment of round spermatids encodes the spatiotemporal program of histone-to-protamine
+  exchange in spermiogenesis
+author_list:
+- citation_name: Rabbani M
+- citation_name: Apell Z
+- citation_name: Parnell TJ
+- citation_name: Moritz L
+- citation_name: Kim S
+- citation_name: Srinivasan S
+  member_url: /people/Sowmya_Srinivasan/
+  member_name: Sowmya Srinivasan
+- citation_name: Agrawal R
+- citation_name: Vargo A
+- citation_name: Orchard P
+- citation_name: Xie W
+- citation_name: Freddolino L
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- citation_name: Li JZ
+- citation_name: Lesch BJ
+- citation_name: Cairns B
+- citation_name: Kim M
+- citation_name: Wilson TE
+- citation_name: Hammoud SS
+year: 2026
+sort_date: '2026-03-12'
+members:
+- sowsrin
+- apboyle
+bibtex: |-
+  @article{Rabbani2026SpermatidChromatin,
+    author = {Rabbani, Mashiat and Apell, Zachary and Parnell, Timothy J. and Moritz, Lindsay and Kim, Sion and Srinivasan, Sowmya and Agrawal, Ritvija and Vargo, Alexander and Orchard, Peter and Xie, Wenxin and Freddolino, Lydia and Boyle, Alan P and Li, Jun Z. and Lesch, Bluma J. and Cairns, Bradley and Kim, Minji and Wilson, Thomas E. and Hammoud, Saher Sue},
+    title = {{3D chromatin compartment of round spermatids encodes the spatiotemporal program of histone-to-protamine exchange in spermiogenesis}},
+    year = {2026},
+    doi = {10.64898/2026.03.10.710708},
+    abstract = {Sperm formation requires a radical chromatin reorganization, where nucleosomes are replaced by transition proteins (TNPs) and subsequently by protamines (PRM1 and PRM2). Although essential for fertility, the regulatory logic governing this exchange is unknown, but it{\textquoteright}s presumed to be stochastic and unregulated. Using endogenously tagged PRM mouse models and stage-resolved, genome-wide profiling, we revise the order of histone-to-protamine exchange and show that the chromatin remodeling process is highly programmed. Imaging and biochemical experiments reveal a direct histone-to-PRM1 exchange, while TNPs appear after PRM1 but precede PRM2 incorporation. This temporal uncoupling of PRM1 and PRM2 incorporation coincides with dynamic, region-specific chromatin remodeling that is not governed by histone acetylation but is instructed by the three-dimensional nuclear architecture of round spermatids. Therefore, by integrating ATAC-seq, CUT\&Tag, and Hi-C, we define a compartment-encoded {\textquotedblleft}blueprint{\textquotedblright} that prescribes the assembly of the mature sperm epigenome and establishes a complex molecular hierarchy for the histone-to-protamine exchange.Competing Interest StatementThe authors have declared no competing interest.National Institute of Health, GM148028, 1DP2HD091949-01, R01HD104680 01, R01HD113274, GM148028, 5T32HD079342-10University of Michigan, https://ror.org/00jmfr291Open Philanthropy Grant, 2019-199327 (5384)},
+    url = {https://www.biorxiv.org/content/early/2026/03/12/2026.03.10.710708},
+    pdf = {https://www.biorxiv.org/content/early/2026/03/12/2026.03.10.710708.full.pdf},
+    journal = {bioRxiv}
+  }
+status: preprint
+journal: bioRxiv
+doi: 10.64898/2026.03.10.710708
+primary_url: https://www.biorxiv.org/content/early/2026/03/12/2026.03.10.710708
+pdf: https://www.biorxiv.org/content/early/2026/03/12/2026.03.10.710708.full.pdf
+biorxiv: https://www.biorxiv.org/content/early/2026/03/12/2026.03.10.710708
+abstract: |-
+  Sperm formation requires a radical chromatin reorganization, where nucleosomes are replaced by transition proteins (TNPs) and subsequently by protamines (PRM1 and PRM2). Although essential for fertility, the regulatory logic governing this exchange is unknown, but it’s presumed to be stochastic and unregulated. Using endogenously tagged PRM mouse models and stage-resolved, genome-wide profiling, we revise the order of histone-to-protamine exchange and show that the chromatin remodeling process is highly programmed. Imaging and biochemical experiments reveal a direct histone-to-PRM1 exchange, while TNPs appear after PRM1 but precede PRM2 incorporation. This temporal uncoupling of PRM1 and PRM2 incorporation coincides with dynamic, region-specific chromatin remodeling that is not governed by histone acetylation but is instructed by the three-dimensional nuclear architecture of round spermatids. Therefore, by integrating ATAC-seq, CUT&Tag, and Hi-C, we define a compartment-encoded “blueprint” that prescribes the assembly of the mature sperm epigenome and establishes a complex molecular hierarchy for the histone-to-protamine exchange.Competing Interest StatementThe authors have declared no competing interest.National Institute of Health, GM148028, 1DP2HD091949-01, R01HD104680 01, R01HD113274, GM148028, 5T32HD079342-10University of Michigan, https://ror.org/00jmfr291Open Philanthropy Grant, 2019-199327 (5384)
+---
