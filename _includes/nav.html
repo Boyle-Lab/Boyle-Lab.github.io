@@ -1,30 +1,28 @@
-{% assign current = page.url | downcase | split: '/' %}
+{% assign current_path = page.url | downcase %}
 
-<body class='short-header-page'>
+<body class="short-header-page">
 
-<div id="nav-wrap">
-	<div class="container">
-		<table>
-			<tr>
-				<td rowspan=2><span id="wsite-title"><img src="/assets/images/lab-logo.png" height=50></span></td>
-				<td><span id="wsite-university"><img src="/assets/images/U-M_2color-HorizontalReversed.30px.png" height=30></span></td>
-			</tr>
-			<tr>
-				<td id="nav">
-					<div id="navigation">
-						<ul class='wsite-menu-default'>
-							<li {% if current[1] == 'boylelab.org' %}id='active'{% endif %}><a href='/'>Home</a></li>
-							<li {% if current[1] == 'research' %}id='active'{% endif %}><a href='/research/'>Research</a></li>
-							<li {% if current[1] == 'people' %}id='active'{% endif %}><a href='/people/'>People</a></li>
-							<li {% if current[1] == 'software' %}id='active'{% endif %}><a href='/software/'>Software</a></li>
-							<li {% if current[1] == 'publications' %}id='active'{% endif %}><a href='/publications/'>Publications</a></li>
-							<li {% if current[1] == 'jobs' %}id='active'{% endif %}><a href='/jobs/'>Jobs</a></li>
-							<li {% if current[1] == 'news' %}id='active'{% endif %}><a href='/news/'>News</a></li>
-							<li {% if current[1] == 'contact' %}id='active'{% endif %}><a href='/contact/'>Contact</a></li>
-						</ul>
-					</div>
-				</td>
-			</tr>
-		</table>
-	</div><!-- end container -->
-</div><!-- end nav-wrap -->
+<header id="nav-wrap" class="site-nav">
+  <div class="container">
+    <div class="site-nav-shell">
+      <a id="wsite-title" class="site-lab-brand" href="/" aria-label="Boyle Lab home">
+        <img src="/assets/images/lab-logo.png" alt="The Boyle Lab" height="50">
+      </a>
+      <a id="wsite-university" class="site-university-brand" href="https://umich.edu/" aria-label="University of Michigan">
+        <img src="/assets/images/U-M_2color-HorizontalReversed.30px.png" alt="University of Michigan" height="30">
+      </a>
+      <nav id="navigation" aria-label="Primary navigation">
+        <ul class="wsite-menu-default">
+          <li{% if current_path == '/' %} id="active"{% endif %}><a href="/">Home</a></li>
+          <li{% if current_path contains '/research/' %} id="active"{% endif %}><a href="/research/">Research</a></li>
+          <li{% if current_path contains '/people/' %} id="active"{% endif %}><a href="/people/">People</a></li>
+          <li{% if current_path contains '/software/' %} id="active"{% endif %}><a href="/software/">Software</a></li>
+          <li{% if current_path contains '/publications/' or current_path contains '/pub_bib/' %} id="active"{% endif %}><a href="/publications/">Publications</a></li>
+          <li{% if current_path contains '/jobs/' %} id="active"{% endif %}><a href="/jobs/">Jobs</a></li>
+          <li{% if current_path contains '/news/' %} id="active"{% endif %}><a href="/news/">News</a></li>
+          <li{% if current_path contains '/contact/' %} id="active"{% endif %}><a href="/contact/">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

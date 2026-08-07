@@ -7,6 +7,7 @@
     {% if paper.status == "preprint" %}<span class="publication-badge publication-badge--preprint">Preprint</span>{% endif %}
     {% if paper.status == "in_press" %}<span class="publication-badge publication-badge--in-press">In press</span>{% endif %}
     {% if paper.publication_type == "chapter" %}<span class="publication-badge">Book chapter</span>{% endif %}
+    {% if paper.publication_type == "conference" %}<span class="publication-badge">Conference</span>{% endif %}
     {% if include.member_id and paper.member_roles %}
       {% assign publication_member_role = paper.member_roles[include.member_id] %}
       {% if publication_member_role %}<span class="publication-badge">{{ publication_member_role | replace: "_", " " | capitalize }}</span>{% endif %}
@@ -14,14 +15,7 @@
   </div>
 
   <div class="publication-authors">
-    {% if paper.author_count > 14 %}
-      <details class="publication-author-details">
-        <summary>{{ paper.authors_short | escape }}</summary>
-        <div class="publication-author-list-expanded">{% include publication_authors.html authors=paper.author_list %}</div>
-      </details>
-    {% else %}
-      {% include publication_authors.html authors=paper.author_list %}
-    {% endif %}
+    {% include publication_authors.html authors=paper.author_list %}
   </div>
 
   <div class="publication-meta">
@@ -42,10 +36,10 @@
       {% if paper.pdf %}<a href="{{ paper.pdf | escape }}">PDF</a>{% endif %}
       {% if paper.PMID %}<a href="https://pubmed.ncbi.nlm.nih.gov/{{ paper.PMID | escape }}/">PubMed</a>{% endif %}
       {% if paper.status != "preprint" and paper.biorxiv %}<a href="{{ paper.biorxiv | escape }}">Preprint</a>{% endif %}
-      {% if paper.links.code %}<a href="{{ paper.links.code | escape }}">Code</a>{% endif %}
-      {% if paper.links.data %}<a href="{{ paper.links.data | escape }}">Data</a>{% endif %}
-      {% if paper.links.protocol %}<a href="{{ paper.links.protocol | escape }}">Protocol</a>{% endif %}
-      {% if paper.links.news %}
+      {% if paper.links and paper.links.code %}<a href="{{ paper.links.code | escape }}">Code</a>{% endif %}
+      {% if paper.links and paper.links.data %}<a href="{{ paper.links.data | escape }}">Data</a>{% endif %}
+      {% if paper.links and paper.links.protocol %}<a href="{{ paper.links.protocol | escape }}">Protocol</a>{% endif %}
+      {% if paper.links and paper.links.news %}
         {% assign publication_news_link = paper.links.news | first %}
         <a href="{{ publication_news_link | escape }}">News</a>
       {% endif %}
@@ -54,8 +48,7 @@
 
     {% if include.show_metrics %}
       {% if paper.doi or paper.PMID %}
-        <div class="publication-citation-metric" aria-label="Live citation count from Dimensions">
-          <span class="publication-citation-metric-label">Dimensions</span>
+        <div class="publication-citation-metric" aria-label="Live citation count">
           {% if paper.doi %}
             <span class="__dimensions_badge_embed__"
                   data-doi="{{ paper.doi | escape }}"

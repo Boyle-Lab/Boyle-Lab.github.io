@@ -1,0 +1,14 @@
+{% assign person = include.person %}
+<article class="person-card">
+  <a class="person-card-image" href="{{ person.url }}" aria-label="View {{ person.name | escape }}'s profile">
+    {% if person.picture %}
+      <img src="/assets/people/{{ person.picture }}" alt="{{ person.name | escape }}" loading="lazy">
+    {% else %}
+      <img src="/assets/people/placeholder.png" alt="" loading="lazy">
+    {% endif %}
+  </a>
+  <div class="person-card-content">
+    <h3><a href="{{ person.url }}">{{ person.name }}</a></h3>
+    <p>{{ include.role | default: person.position }}</p>
+  </div>
+</article>

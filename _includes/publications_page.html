@@ -2,19 +2,19 @@
 {% assign publication_count = sorted_papers | size %}
 {% assign pi = site.people | where: "umid", "apboyle" | first %}
 
-<div class="publications-page">
-  <header class="publications-header">
-    <div>
+<div class="site-page publications-page">
+  <header class="site-page-header publications-header">
+    <div class="site-page-header-copy">
       <h1>Publications</h1>
       <p>Our work combines computational genomics, long-read sequencing, and functional experiments to understand gene regulation, repetitive DNA, somatic variation, and the functional consequences of human genetic variation.</p>
     </div>
-    <div class="publications-summary" aria-label="Publication summary">
+    <div class="site-page-stat" aria-label="Publication summary">
       <strong>{{ publication_count }}</strong>
       <span>publications</span>
     </div>
   </header>
 
-  <nav class="publications-profile-links" aria-label="Publication profiles and downloads">
+  <nav class="site-action-links publications-profile-links" aria-label="Publication profiles and downloads">
     {% if pi.social.google-scholar %}<a href="https://scholar.google.com/citations?user={{ pi.social.google-scholar | escape }}">Google Scholar</a>{% endif %}
     {% if pi.social.orcid %}<a href="https://orcid.org/{{ pi.social.orcid | escape }}">ORCID</a>{% endif %}
     <a href="/pub.bib">Download BibTeX</a>
@@ -39,7 +39,7 @@
       <div>
         <h2 id="all-publications-heading">All publications</h2>
         <p class="publication-list-note">{{ publication_count }} publications, listed by year with the newest work first.</p>
-        <p class="publication-metric-note">Citation counts are updated automatically by Dimensions when the page loads.</p>
+        <p class="publication-metric-note">Citation counts update automatically when the page loads.</p>
       </div>
       <details class="publication-notation">
         <summary>Author notation</summary>
