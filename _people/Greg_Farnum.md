@@ -14,11 +14,12 @@ previous_training:
   - type: M.S.
     info: Michigan State University
 dates:
-  start: '2015-01-01'
-  end: '2021-06-06'
+  start: 2015-01-01
+  end: 2021-06-06
 prior_lab_roles:
   - position: Ph.D. student
-    period: 2015–2017
+    start: '2015-07-01'
+    end: '2017-07-01'
   - position: Volunteer Researcher
     start: '2019-04-10'
     end: '2021-06-06'
