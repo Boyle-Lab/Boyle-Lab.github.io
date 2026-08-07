@@ -20,4 +20,6 @@ theme_areas:
   - Analysis of mtDNA
   - Impact of structural variation
   - NUMTs in the human genome
+awards:
+  - Biomedical Informatics and Data Science Training Program (T32)
 ---

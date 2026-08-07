@@ -32,6 +32,7 @@ theme_areas:
   - Nanopore sequencing
 awards:
   - Genome Science Training Program (T32)
-  - Rackham Graduate Student Research Grant (pre-candidate)
+  - Rackham Graduate Student Research Grant (pre-candidate & candidate)
+  - Training Program in Translational Neuroscience (T32)
 ---
 Kinsey Van Deynze completed her BS in Bioinformatics at UC San Diego where her research focused on 3D chromatin conformation and gene regulation in the context of cancer and she discovered her interest in emerging techologies in molecular biology. Since starting her PhD, her research has focused on elucidating the role of structural variants, tandem repeats in particular, in neurodegenerative disorders and neuronal function using nanopore sequencing data.

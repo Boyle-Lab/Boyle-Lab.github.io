@@ -17,5 +17,7 @@ social:
   email: rintsen@umich.edu
 theme_areas:
   - Variant annotation analysis
+awards:
+  - Rackham Graduate Student Research Grant (candidate)
 ---
 

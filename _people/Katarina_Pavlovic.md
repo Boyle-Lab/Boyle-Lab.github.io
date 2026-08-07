@@ -18,5 +18,7 @@ social:
 theme_areas:
   - Nanopore sequencing
   - LTR13 functional consequences
+awards:
+  - Rackham Graduate Student Research Grant (pre-candidate & candidate)
 ---
 

@@ -38,7 +38,7 @@ theme_areas:
 awards:
   - Genome Science Training Program (T32)
   - Rackham Predoctoral Fellowship
-  - Rackham Graduate Student Research Grant
+  - Rackham Graduate Student Research Grant (pre-candidate & candidate)
   - Rackham Travel Grant
 ---
 Camille received her BS in Biology and Informatics from the University of Iowa where she studied the gene regulatory network governing periderm differentiation using reporter assays in zebrafish. Her PhD work focuses on applying targeted nanopore sequencing techniques to characterize repetitive element variation in the human genome.

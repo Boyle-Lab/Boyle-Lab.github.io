@@ -17,5 +17,8 @@ social:
   email: imf@umich.edu
 theme_areas:
   - Short Tandem Repeats
+awards:
+  - Rackham Graduate Student Research Grant (pre-candidate)
+  - Biomedical Informatics and Data Science Training Program (T32)
 ---
 
