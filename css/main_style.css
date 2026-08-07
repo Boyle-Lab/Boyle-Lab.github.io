@@ -390,9 +390,13 @@ h3.title { margin-bottom: 0px; margin-top: 10px; }
 }
 
 .publication-feature-image {
-	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	min-height: 150px;
-	background: #eef2f5;
+	box-sizing: border-box;
+	padding: 0;
+	background: #fff;
 	overflow: hidden;
 }
 
