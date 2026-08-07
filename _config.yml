@@ -4,7 +4,7 @@ collections:
     output: false
   people:
     output: true
-    permalink: /people/:path
+    permalink: /people/:path/
 defaults:
   -
     scope:
