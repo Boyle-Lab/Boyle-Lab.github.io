@@ -12,9 +12,6 @@
 {% if hero_image == nil or hero_image == blank %}
   {% assign hero_image = page["hero-image"] %}
 {% endif %}
-{% if hero_image == nil or hero_image == blank %}
-  {% assign hero_image = page.teaser %}
-{% endif %}
 
 {% assign hero_src = nil %}
 {% if hero_image and hero_image != blank %}
