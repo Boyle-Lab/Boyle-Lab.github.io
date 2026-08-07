@@ -904,7 +904,12 @@ h3.title { margin-bottom: 0px; margin-top: 10px; }
 	max-width: 690px;
 }
 
-.site-page-header p,
+.site-page-header {
+	font-size: 14.5px;
+	line-height: 1.65;
+	color: #404040;
+}
+
 .publications-header p {
 	max-width: 730px;
 	font-size: 14.5px;
