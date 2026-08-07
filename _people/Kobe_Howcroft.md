@@ -8,6 +8,9 @@ umid: korb
 position: Doctoral Student
 title: Bioinformatics Ph.D. Student
 picture: Kobe_Howcroft.jpg
+previous_training:
+  - type: B.S.E. Computer Engineering (2025)
+    info: University of Michigan
 dates:
   start: 2026-01-07
 prior_lab_roles:
