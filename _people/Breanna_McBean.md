@@ -1,27 +1,29 @@
 ---
 layout: member
 publish: true
-status: current
+status:
+  - current
+  - phd_alumni
 name: Breanna McBean, Ph.D.
 umid: bmcbean
 position: Visiting Scientist
-title: Human Genetics Ph.D. Student (co-mentored with Corey Speers)
+title: Human Genetics Ph.D. (co-mentored with Corey Speers)
 picture: Breanna_McBean.jpg
 previous_training:
-  - type: 'B.A.'
-    info: 'California State University, Fullerton'
+  - type: B.A.
+    info: California State University, Fullerton
 dates:
   start: 2020-08-31
-  end: 
-  phd_start: 2020-08-31
-  phd_end: 2026-03-06
-social: 
-  google-scholar: cSoEvA8AAAAJ
-  linked-in: breanna-mcbean
+prior_lab_roles:
+  - position: Ph.D. student
+    start: 2020-08-31
+    end: 2026-03-06
+social:
   email: bmcbean@umich.edu
   github: B-McBean
+  google-scholar: cSoEvA8AAAAJ
   orcid: 0000-0002-3822-2085
-CV: 
+  linked-in: breanna-mcbean
 theme_areas:
   - Breast Cancer
 awards:

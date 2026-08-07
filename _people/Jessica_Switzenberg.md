@@ -1,31 +1,28 @@
 ---
 layout: member
 publish: true
-status: current
+status:
+  - current
 name: Jessica A. Switzenberg, Ph.D.
 umid: jswitzen
-position: Staff 
+position: Staff
 title: Lab Manager
 picture: Jess_pic.jpg
 previous_training:
-  - type: 'B.A.'
-    info: 'Biology, The College of Saint Rose (2006)'
-  - type: 'Ph.D.'
-    info: 'Genetics, Michigan State University (2013)'
-  - type: 'Postdoctoral'
-    info: 'Animal Science, Michigan State University (2013-2014)'
+  - type: B.A.
+    info: Biology, The College of Saint Rose (2006)
+  - type: Ph.D.
+    info: Genetics, Michigan State University (2013)
+  - type: Postdoctoral
+    info: Animal Science, Michigan State University (2013-2014)
 dates:
   start: 2014-10-20
-  end:
-social: 
-  google-scholar: 
-  linked-in: switzjess
+social:
   email: jswitzen@umich.edu
-  github:
   orcid: 0000-0003-4569-3720
-CV: 
-theme_areas: 
-  - Non-coding variation  
+  linked-in: switzjess
+theme_areas:
+  - Non-coding variation
   - Negative regulatory element assay development
 ---
 

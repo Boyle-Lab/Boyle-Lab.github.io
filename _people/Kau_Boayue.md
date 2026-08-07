@@ -1,7 +1,8 @@
 ---
 layout: member
 publish: true
-status: alumni
+status:
+  - alumni
 name: Kau Boayue
 umid: boayue
 position: Staff
@@ -10,14 +11,11 @@ picture: Kau_Boayue.jpg
 dates:
   start: 2025-06-19
   end: 2025-12-03
-social: 
-  google-scholar: 
-  linked-in: 
+prior_lab_roles:
+  - position: Lab Technician
+    start: 2025-06-19
+    end: 2025-12-03
+social:
   email: boayue@umich.edu
-  github:
-  orcid:
-CV: 
-theme_areas:
-awards:
 ---
 

@@ -1,29 +1,31 @@
 ---
 layout: member
 publish: true
-status: current
-name: Kinsey Van Deynze, PhD
+status:
+  - current
+  - phd_alumni
+name: Kinsey Van Deynze, Ph.D.
 umid: kvandeyn
 position: Postdoctoral Scholar
 title: Bioinformatics Ph.D.
 picture: Kinsey_Van_Deynze.png
 previous_training:
-  - type: 'B.S.'
-    info: 'University of California, San Diego'
-  - type: 'Ph.D.'
-    info: 'University of Michigan'
+  - type: B.S.
+    info: University of California, San Diego
+  - type: Ph.D.
+    info: University of Michigan
 dates:
   start: 2021-01-19
-  end: 
-  phd_start: 2021-01-19
-  phd_end: 2025-10-06
-social: 
-  google-scholar: XLCor0oAAAAJ
-  linked-in: kinsey-van-deynze
+prior_lab_roles:
+  - position: Ph.D. student
+    start: 2021-01-19
+    end: 2025-10-06
+social:
   email: kvandeyn@umich.edu
   github: kvandeynze
+  google-scholar: XLCor0oAAAAJ
   orcid: 0000-0002-9186-9881
-CV: 
+  linked-in: kinsey-van-deynze
 theme_areas:
   - 3D Chromatin Structure
   - Short tandem repeats

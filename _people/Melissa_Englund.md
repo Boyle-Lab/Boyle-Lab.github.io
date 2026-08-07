@@ -1,29 +1,34 @@
 ---
 layout: member
 publish: true
-status: phd_alumni
+status:
+  - phd_alumni
 name: Melissa Englund, Ph.D.
 umid: melyssae
 position: Postdoctoral Scholar
-title: Human Genetics PhD 
+title: Human Genetics Ph.D.
 picture: Melissa_pic.jpg
 previous_training:
-  - type: 'B.A. Molecular and Cell Biology'
-    info: 'University of California, Berkeley'
+  - type: B.A. Molecular and Cell Biology
+    info: University of California, Berkeley
 dates:
   start: 2017-07-17
   end: 2025-05-23
-  phd_start: 2017-07-17
-  phd_end: 2023-03-29
-  pd_start: 2023-05-01
-  pd_end: 2025-05-23
-social: 
-  google-scholar: 
-  linked-in: 
+prior_lab_roles:
+  - position: Ph.D. student
+    start: 2017-07-17
+    end: 2023-03-29
+  - position: Postdoctoral scholar
+    start: 2023-05-01
+    end: 2025-05-23
+current_position:
+  title: Scientist (AI/ML)
+  organization: CZ Biohub Chicago
+  url: https://biohub.org/blog/nurturing-sciences-next-generation/
+  as_of: 2026-08-07
+social:
   email: melyssae@umich.edu
-  github:
   orcid: 0000-0003-3551-2877
-CV: 
 theme_areas:
   - Non-coding Genome
   - Human Genetics

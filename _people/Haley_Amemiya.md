@@ -1,26 +1,23 @@
 ---
 layout: member
 publish: true
-status: alumni
-name: Haley Amemiya
+status:
+  - alumni
+name: Haley Amemiya, Ph.D.
 umid: hamemiya
 position: Doctoral Student
-title: Cellular & Molecular Biology Ph.D. Student
+title: Cellular & Molecular Biology Ph.D.
 picture: Haley_pic.png
 previous_training:
-  - type: 'B.S.'
-    info: 'University of Washington'
-current: 'Postdoctoral Researcher at the Broad Institute of MIT and Harvard'
+  - type: B.S.
+    info: University of Washington
 dates:
   start: 2016-09-06
   end: 2018-12-17
-social: 
-  google-scholar: 
-  linked-in: 
-  email: 
-  github:
-  orcid:
-CV: 
+prior_lab_roles:
+  - position: Ph.D. student
+    start: 2016-09-06
+    end: 2018-12-17
 theme_areas:
   - Gene Regulation
   - C. elegans Regulation

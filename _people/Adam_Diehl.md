@@ -1,27 +1,23 @@
 ---
 layout: member
 publish: true
-status: current
+status:
+  - current
 name: Adam Diehl
 umid: adadiehl
-position: Staff 
+position: Staff
 title: Bioinformatician
 picture: Adam_pic.jpg
 previous_training:
-  - type: 'B.S.'
-    info: 'Michigan State University'
-  - type: 'M.S.'
-    info: 'Cornell University'
+  - type: B.S.
+    info: Michigan State University
+  - type: M.S.
+    info: Cornell University
 dates:
   start: 2015-02-16
-  end:
-social: 
-  google-scholar: 
-  linked-in: 
-  email: 
+social:
   github: adadiehl
   orcid: 0000-0002-0915-4570
-CV: 
 theme_areas:
   - Gene Regulation
   - Bioinformatics

@@ -1,31 +1,38 @@
 ---
 layout: member
 publish: true
-status: phd_alumni
+status:
+  - phd_alumni
 name: Camille Mumm, Ph.D.
 umid: crmumm
 position: Staff
 title: Bioinformatician
 picture: Camille_Mumm.jpg
 previous_training:
-  - type: 'B.S.'
-    info: 'University of Iowa'
-  - type: 'M.S.'
-    info: 'University of Michigan'
-  - type: 'Ph.D.'
-    info: 'University of Michigan'
+  - type: B.S.
+    info: University of Iowa
+  - type: M.S.
+    info: University of Michigan
+  - type: Ph.D.
+    info: University of Michigan
 dates:
   start: 2020-01-08
   end: 2026-03-27
-  phd_start: 2020-01-08
-  phd_end: 2025-03-11
-social: 
-  google-scholar: 
-  linked-in: https://www.linkedin.com/in/camille-mumm/
-  email:
-  github:
+prior_lab_roles:
+  - position: Ph.D. student
+    start: 2020-01-08
+    end: 2025-03-11
+  - position: Bioinformatician
+    start: 2025-03-12
+    end: 2026-03-27
+current_position:
+  title: Genomics and Bioinformatics Scientist
+  organization: Oxford Nanopore Technologies
+  url: https://medschool.umich.edu/departments/human-genetics/about/alumni
+  as_of: 2026-08-07
+social:
   orcid: https://orcid.org/0000-0002-7585-9851
-CV: 
+  linked-in: https://www.linkedin.com/in/camille-mumm/
 theme_areas:
   - Nanopore Sequencing
 awards:

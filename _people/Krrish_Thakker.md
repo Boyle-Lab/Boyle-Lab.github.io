@@ -1,7 +1,8 @@
 ---
 layout: member
 publish: true
-status: alumni
+status:
+  - alumni
 name: Krrish Thakker
 umid: kthakker
 position: Undergraduate Research Assistant
@@ -10,15 +11,13 @@ picture: Krrish_Thakker.jpg
 dates:
   start: 2025-02-17
   end: 2026-04-29
-social: 
-  google-scholar: 
-  linked-in: 
+prior_lab_roles:
+  - position: Undergraduate Research Assistant
+    start: 2025-02-17
+    end: 2026-04-29
+social:
   email: kthakker@umich.edu
-  github:
-  orcid:
-CV: 
 theme_areas:
   - Lab automation for nanopore
-awards:
 ---
 

@@ -1,24 +1,24 @@
 ---
 layout: member
 publish: true
-status: alumni
+status:
+  - alumni
 name: Preston Parana
 umid: prparana
 position: Undergraduate Research Assistant
-title: University of Michigan Molecular, Cellular, and Developmental Biology 
+title: University of Michigan Molecular, Cellular, and Developmental Biology
 picture: Preston_Parana.jpg
-previous_training: 
-current: 'MD Student'
 dates:
   start: 2020-12-10
   end: 2023-12-31
-social: 
-  google-scholar: 
-  linked-in: 
+prior_lab_roles:
+  - position: Undergraduate Research Assistant
+    start: 2020-12-10
+    end: 2023-12-31
+current_position:
+  title: M.D. student
+social:
   email: prparana@umich.edu
-  github:
-  orcid:
-CV: 
 theme_areas:
   - Nanopore sequencing
 awards:
