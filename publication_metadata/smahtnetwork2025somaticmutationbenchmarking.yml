@@ -1,5 +1,15 @@
 bibkey: SMaHTNetwork2025SomaticMutationBenchmarking
 members:
 - apboyle
+- torrin
+- slosh
+- imf
+- crmumm
+- jswitzen
 member_roles:
   apboyle: consortium
+  torrin: consortium
+  slosh: consortium
+  imf: consortium
+  crmumm: consortium
+  jswitzen: consortium
