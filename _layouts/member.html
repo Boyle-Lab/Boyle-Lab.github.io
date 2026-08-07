@@ -1,176 +1,249 @@
 {% include header.html %}
 
 {% include nav.html %}
-	
+
 <div id="main-wrap">
-	<div class="container">
-		<div class="wsite-content">
+  <div class="container">
+    <div class="wsite-content">
+      <main class="site-page member-profile-page">
+        <nav class="member-profile-breadcrumb" aria-label="Breadcrumb">
+          <a href="/people/">People</a>
+          <span aria-hidden="true">/</span>
+          <span>{{ page.name | escape }}</span>
+        </nav>
 
-<h3 class="title">{{ page.name }}</h3>
-<p class="memberpage" style="float: right; margin: 10px 0px 10px 20px; width: 350px;">
-{% if page.picture %}
-      <img src="/assets/people/{{ page.picture }}" height="240px">
-{% else %}
-      <img src="/assets/people/placeholder.png" height="240px" width="190px"">
-{% endif %}
+        <header class="member-profile-hero">
+          <figure class="member-profile-portrait">
+            {% if page.picture %}
+              <img src="/assets/people/{{ page.picture }}" alt="{{ page.name | escape }}">
+            {% else %}
+              <img src="/assets/people/placeholder.png" alt="">
+            {% endif %}
+          </figure>
 
-<p>
-{% if page.dates.ms_start %}
-{% if page.dates.ms_start != "" and page.dates.ms_end == "" %}
-Master's student since {{ page.dates.ms_start | date: "%B %Y" }}
-{% endif %}
-{% if page.dates.ms_start != "" and page.dates.ms_end != "" %}
-Master's student from {{ page.dates.ms_start | date: "%B %Y" }} to {{ page.dates.ms_end | date: "%B %Y" }}
-{% endif %}
-<br>
-{% endif %}
+          <div class="member-profile-header-copy">
+            <p class="site-page-eyebrow">
+              {% if page.status == "current" %}
+                Current lab member
+              {% elsif page.status == "phd_alumni" %}
+                Boyle Lab Ph.D. alumnus
+              {% elsif page.status == "rotation" %}
+                Former rotation student
+              {% else %}
+                Boyle Lab alumnus
+              {% endif %}
+            </p>
 
-{% if page.dates.phd_start %}
-{% if page.dates.phd_start != "" and page.dates.phd_end == "" %}
-PhD student since {{ page.dates.phd_start | date: "%B %Y" }}
-{% endif %}
-{% if page.dates.phd_start != "" and page.dates.phd_end != "" %}
-PhD student from {{ page.dates.phd_start | date: "%B %Y" }} to {{ page.dates.phd_end | date: "%B %Y" }}
-{% endif %}
-<br>
-{% endif %}
+            <h1>{{ page.name | escape }}</h1>
 
-{% if page.dates.pd_start %}
-{% if page.dates.pd_start != "" and page.dates.pd_end == "" %}
-Postdoc since {{ page.dates.pd_start | date: "%B %Y" }}
-{% endif %}
-{% if page.dates.pd_start != "" and page.dates.pd_end != "" %}
-Postdoc from {{ page.dates.pd_start | date: "%B %Y" }} to {{ page.dates.pd_end | date: "%B %Y" }}
-{% endif %}
-<br>
-{% endif %}
+            {% assign member_title = page.title | default: page.position %}
+            {% if member_title %}
+              <p class="member-profile-title">{{ member_title | escape }}</p>
+            {% endif %}
+            {% if page.position and page.position != member_title %}
+              <p class="member-profile-position">{{ page.position | escape }}</p>
+            {% endif %}
 
-{% unless page.dates.ms_start or page.dates.phd_start or page.dates.pd_start %}
-  {% if page.status == "current" %}
-  {{ page.position }} since {{ page.dates.start | date: "%B %Y" }}
-  {% else %}
-  {{ page.position }} from {{ page.dates.start | date: "%B %Y" }} to {{ page.dates.end | date: "%B %Y" }}
-  {% endif %}
-<br>
-{% endunless %}
+            <div class="member-profile-history" aria-label="Boyle Lab history">
+              <ul>
+                {% if page.dates.ms_start %}
+                  <li>
+                    <strong>Master's student</strong>
+                    {% if page.dates.ms_end and page.dates.ms_end != "" %}
+                      {{ page.dates.ms_start | date: "%B %Y" }}–{{ page.dates.ms_end | date: "%B %Y" }}
+                    {% else %}
+                      since {{ page.dates.ms_start | date: "%B %Y" }}
+                    {% endif %}
+                  </li>
+                {% endif %}
 
-{{ page.title }}
+                {% if page.dates.phd_start %}
+                  <li>
+                    <strong>Ph.D. student</strong>
+                    {% if page.dates.phd_end and page.dates.phd_end != "" %}
+                      {{ page.dates.phd_start | date: "%B %Y" }}–{{ page.dates.phd_end | date: "%B %Y" }}
+                    {% else %}
+                      since {{ page.dates.phd_start | date: "%B %Y" }}
+                    {% endif %}
+                  </li>
+                {% endif %}
 
-{% if page.prior_lab_roles %}
-  {% for role in page.prior_lab_roles %}
-    <br>{{ role.position }} from {{ role.start | date: "%B %Y" }} to {{ role.end | date: "%B %Y" }}
-  {% endfor %}
-{% endif %}
+                {% if page.dates.pd_start %}
+                  <li>
+                    <strong>Postdoctoral fellow</strong>
+                    {% if page.dates.pd_end and page.dates.pd_end != "" %}
+                      {{ page.dates.pd_start | date: "%B %Y" }}–{{ page.dates.pd_end | date: "%B %Y" }}
+                    {% else %}
+                      since {{ page.dates.pd_start | date: "%B %Y" }}
+                    {% endif %}
+                  </li>
+                {% endif %}
 
-{% if page.current %}
-<br>
-Current: {{ page.current }}
-{% endif %}
-</p>
-<div class="social">
-	{% if page.social.email	%}
-		<a href="mailto:{{ page.social.email }}">
-		<i class="fas fa-envelope"></i>
-		</a>
-	{% endif			%}
-	{% if page.social.twitter	%}
-		<a href="https://twitter.com/{{ page.social.twitter }}">
-		<i class="fab fa-twitter"></i>
-		</a>
-	{% endif			%}
-	{% if page.social.github	%}
-		<a href="https://github.com/{{ page.social.github }}">
-		<i class="fab fa-github"></i>
-		</a>
-	{% endif			%}
-	{% if page.social.google-scholar	%}
-		<a href="https://scholar.google.com/citations?user={{page.social.google-scholar}}">
-		<i class="ai ai-google-scholar"></i>
-		</a>
-	{% endif			%}
-	{% if page.social.orcid	%}
-		<a href="http://orcid.org/{{page.social.orcid}}">
-		<i class="ai ai-orcid"></i>
-		</a>
-	{% endif			%}
-	{% if page.social.linked-in	%}
-		<a href="https://linkedin.com/in/{{ page.social.linked-in }}">
-		<i class="fab fa-linkedin"></i>
-		</a>
-	{% endif			%}
-	{% if page.social.website	%}
-		<a href="{{ page.social.website }}">
-		<i class="fas fa-globe"></i>
-		</a>
-	{% endif			%}
-	{% if page.CV	%}
-		<a href="http://boylelab.org/assets/{{ page.CV }}">
-		<i class="ai ai-cv"></i>
-		</a>
-	{% endif			%}
-</div>
+                {% unless page.dates.ms_start or page.dates.phd_start or page.dates.pd_start %}
+                  {% if page.dates.start %}
+                    <li>
+                      <strong>{{ page.position | default: "Lab member" | escape }}</strong>
+                      {% if page.status == "current" or page.dates.end == nil or page.dates.end == "" %}
+                        since {{ page.dates.start | date: "%B %Y" }}
+                      {% else %}
+                        {{ page.dates.start | date: "%B %Y" }}–{{ page.dates.end | date: "%B %Y" }}
+                      {% endif %}
+                    </li>
+                  {% endif %}
+                {% endunless %}
 
-<p>
-<h3 class="title">Research areas</h3>
-<ul>
-{% for theme in page.theme_areas %}
-<!--- Need to create links to these theme pages --->
-<li>{{ theme }}</li>
-{% endfor %}
-</ul>
-</p>
+                {% if page.prior_lab_roles %}
+                  {% for role in page.prior_lab_roles %}
+                    <li>
+                      <strong>{{ role.position | escape }}</strong>
+                      {% if role.start and role.end %}
+                        {{ role.start | date: "%B %Y" }}–{{ role.end | date: "%B %Y" }}
+                      {% elsif role.start %}
+                        since {{ role.start | date: "%B %Y" }}
+                      {% endif %}
+                    </li>
+                  {% endfor %}
+                {% endif %}
 
-<p>
-<h3 class="title">Education</h3>
-<ul>
-{% for degree in page.previous_training %}
-<li>{{ degree.type }}: {{ degree.info }}</li>
-{% endfor %}
-</ul>
-</p>
+                {% if page.current %}
+                  <li><strong>Current position</strong> {{ page.current | escape }}</li>
+                {% endif %}
+              </ul>
+            </div>
 
-{% assign award_count = page.awards | size %}
-{% if award_count > 0 %}
-<p>
-<h3 class="title">Honors and Awards</h3>
-<ul>
-{% for award in page.awards %}
-<li>{{ award }}</li>
-{% endfor %}
-</ul>
-</p>
-{% endif %}
+            {% if page.social.email or page.social.twitter or page.social.github or page.social.google-scholar or page.social.orcid or page.social.linked-in or page.social.website or page.CV %}
+              <div class="site-action-links member-profile-links" aria-label="Professional links for {{ page.name | escape }}">
+                {% if page.social.email %}
+                  <a href="mailto:{{ page.social.email | escape }}"><i class="fas fa-envelope" aria-hidden="true"></i><span>Email</span></a>
+                {% endif %}
 
+                {% if page.social.github %}
+                  {% assign github_url = page.social.github %}
+                  {% unless github_url contains "://" %}{% assign github_url = "https://github.com/" | append: github_url %}{% endunless %}
+                  <a href="{{ github_url | escape }}"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a>
+                {% endif %}
 
-{% assign cleancontent = content | strip_newlines %}
-{% if cleancontent != "" %}
-<div class="entry-content">
-<h3 class="title">Background</h3>
-{{ content }}
-</div>
-{% endif %}
+                {% if page.social.google-scholar %}
+                  {% assign scholar_url = page.social.google-scholar %}
+                  {% unless scholar_url contains "://" %}{% assign scholar_url = "https://scholar.google.com/citations?user=" | append: scholar_url %}{% endunless %}
+                  <a href="{{ scholar_url | escape }}"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a>
+                {% endif %}
 
-{% assign member = page.umid %}
-{% assign member_papers = site.array %}
-{% for paper in site.papers %}
-  {% if paper.members contains member %}
-    {% assign member_papers = member_papers | push: paper %}
-  {% endif %}
-{% endfor %}
+                {% if page.social.orcid %}
+                  {% assign orcid_url = page.social.orcid %}
+                  {% unless orcid_url contains "://" %}{% assign orcid_url = "https://orcid.org/" | append: orcid_url %}{% endunless %}
+                  <a href="{{ orcid_url | escape }}"><i class="ai ai-orcid" aria-hidden="true"></i><span>ORCID</span></a>
+                {% endif %}
 
-{% assign paper_count = member_papers | size %}
-{% if paper_count > 0 %}
-  {% assign sorted_papers = member_papers | sort: 'sort_date' | reverse %}
-  <h3 class="title">Boyle Lab publications <small>({{ paper_count }})</small></h3>
-  <div class="papers member-publication-list">
-    {% for paper in sorted_papers %}
-      {% include publication_citation.html paper=paper compact=true member_id=member %}
-    {% endfor %}
-  </div>
-{% endif %}
+                {% if page.social.linked-in %}
+                  {% assign linkedin_url = page.social.linked-in %}
+                  {% unless linkedin_url contains "://" %}{% assign linkedin_url = "https://www.linkedin.com/in/" | append: linkedin_url %}{% endunless %}
+                  <a href="{{ linkedin_url | escape }}"><i class="fab fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
+                {% endif %}
 
-		</div>
-	</div><!-- end container -->
+                {% if page.social.twitter %}
+                  {% assign twitter_url = page.social.twitter %}
+                  {% unless twitter_url contains "://" %}{% assign twitter_url = "https://twitter.com/" | append: twitter_url %}{% endunless %}
+                  <a href="{{ twitter_url | escape }}"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twitter</span></a>
+                {% endif %}
+
+                {% if page.social.website %}
+                  <a href="{{ page.social.website | escape }}"><i class="fas fa-globe" aria-hidden="true"></i><span>Website</span></a>
+                {% endif %}
+
+                {% if page.CV %}
+                  <a href="/assets/{{ page.CV | escape }}"><i class="ai ai-cv" aria-hidden="true"></i><span>CV</span></a>
+                {% endif %}
+              </div>
+            {% endif %}
+          </div>
+        </header>
+
+        {% assign theme_count = page.theme_areas | size %}
+        {% assign training_count = page.previous_training | size %}
+        {% assign award_count = page.awards | size %}
+        {% if theme_count > 0 or training_count > 0 or award_count > 0 %}
+          <div class="member-profile-detail-grid">
+            {% if theme_count > 0 %}
+              <section class="member-profile-detail-card" aria-labelledby="member-research-areas">
+                <p class="section-eyebrow">Research</p>
+                <h2 id="member-research-areas">Research areas</h2>
+                <ul>
+                  {% for theme in page.theme_areas %}
+                    <li>{{ theme | escape }}</li>
+                  {% endfor %}
+                </ul>
+              </section>
+            {% endif %}
+
+            {% if training_count > 0 %}
+              <section class="member-profile-detail-card" aria-labelledby="member-education">
+                <p class="section-eyebrow">Training</p>
+                <h2 id="member-education">Education</h2>
+                <ul>
+                  {% for degree in page.previous_training %}
+                    <li><strong>{{ degree.type | escape }}</strong>{% if degree.info %}<span>{{ degree.info | escape }}</span>{% endif %}</li>
+                  {% endfor %}
+                </ul>
+              </section>
+            {% endif %}
+
+            {% if award_count > 0 %}
+              <section class="member-profile-detail-card" aria-labelledby="member-awards">
+                <p class="section-eyebrow">Recognition</p>
+                <h2 id="member-awards">Honors and awards</h2>
+                <ul>
+                  {% for award in page.awards %}
+                    <li>{{ award | escape }}</li>
+                  {% endfor %}
+                </ul>
+              </section>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        {% assign cleancontent = content | strip %}
+        {% if cleancontent != "" %}
+          <section class="member-profile-section member-profile-background" aria-labelledby="member-background-heading">
+            <div class="section-heading section-heading--bordered">
+              <p class="section-eyebrow">Biography</p>
+              <h2 id="member-background-heading">Background</h2>
+            </div>
+            <div class="member-profile-prose">
+              {{ content }}
+            </div>
+          </section>
+        {% endif %}
+
+        {% assign member = page.umid %}
+        {% assign member_papers = site.array %}
+        {% for paper in site.papers %}
+          {% if paper.members contains member %}
+            {% assign member_papers = member_papers | push: paper %}
+          {% endif %}
+        {% endfor %}
+
+        {% assign paper_count = member_papers | size %}
+        {% if paper_count > 0 %}
+          {% assign sorted_papers = member_papers | sort: "sort_date" | reverse %}
+          <section class="member-profile-section member-profile-publications" aria-labelledby="member-publications-heading">
+            <div class="section-heading section-heading--bordered member-publications-heading">
+              <div>
+                <p class="section-eyebrow">Research output</p>
+                <h2 id="member-publications-heading">Boyle Lab publications</h2>
+              </div>
+              <span class="member-publication-count">{{ paper_count }} {% if paper_count == 1 %}publication{% else %}publications{% endif %}</span>
+            </div>
+            <div class="papers member-publication-list">
+              {% for paper in sorted_papers %}
+                {% include publication_citation.html paper=paper compact=true member_id=member %}
+              {% endfor %}
+            </div>
+          </section>
+        {% endif %}
+      </main>
+    </div>
+  </div><!-- end container -->
 </div><!-- end main-wrap -->
 
 {% include footer.html %}
