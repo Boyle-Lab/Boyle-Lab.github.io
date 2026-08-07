@@ -3,8 +3,8 @@ title: People
 layout: default
 ---
 
-{% assign (sorted_people = site.people | sort: "dates.start") %}
-{% assign (sorted_alumni = site.people | sort: "dates.end" | reverse) %}
+{% assign sorted_people = site.people | sort: "dates.start" %}
+{% assign sorted_alumni = site.people | sort: "dates.end" | reverse %}
 {% assign current_count = 0 %}
 {% for person in site.people %}
   {% if person.publish and person.status contains 'current' %}
