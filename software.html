@@ -2,116 +2,127 @@
 title: Software
 layout: default
 ---
-<br>
-For the full list of our labs software, see out <a href="https://github.com/Boyle-Lab">GitHub Account</a>. This page highlights databases, software packages, analysis tools, and reusable workflows
-  developed by Boyle Lab members and collaborators.
-<br><br>
-<div class="Nheader"><a href="https://regulomedb.org/">RegulomeDB</a>, SURF, TURF, and TLand</div>
-<p>
-  RegulomeDB annotates variants with functional genomics evidence and predictive models to help
-  interpret non-coding regulatory variation. RegulomeDB v2 added expanded functional genomics
-  data, improved scoring, tissue-aware prediction resources, and visualization support. TURF
-  extends the RegulomeDB framework to prioritize regulatory variants in generic and tissue- or
-  organ-specific contexts, while TLand provides machine-learning models for cell- and organ-specific
-  regulatory variant prioritization.
-</p>
-<ul>
-  <li><a href="https://regulomedb.org/">RegulomeDB web server</a></li>
-  <li><a href="https://github.com/Boyle-Lab/RegulomeDB">RegulomeDB code</a></li>
-  <li><a href="https://github.com/Boyle-Lab/RegulomeDB-TURF">TURF code and example data</a></li>
-  <li><a href="https://github.com/rnsherpa/TLand-predict">TLand-predict workflow</a></li>
-</ul>
-<p><strong>References:</strong> Boyle et al., <em>Genome Research</em>, 2012. Dong et al., <em>Nature Genetics</em>, 2023. Dong and Boyle, <em>Nucleic Acids Research</em>, 2021. Zhao, Dong, and Boyle, <em>bioRxiv</em>, 2023.</p>
 
-<br>
-<div class="Nheader"><a href="https://github.com/Boyle-Lab/Blacklist">ENCODE Blacklist</a></div>
-<p>
-  The ENCODE Blacklist identifies genomic regions that show anomalous signal across next-generation
-  sequencing experiments. Removing these regions is an important quality-control step for functional
-  genomics analyses, especially ChIP-seq, DNase-seq, ATAC-seq, and related assays.
-</p>
-<p><strong>Reference:</strong> Amemiya, Kundaje, and Boyle, <em>Scientific Reports</em>, 2019.</p>
+<div class="site-page software-page">
+  <header class="site-page-header">
+    <div class="site-page-header-copy">
+      <h1>Software</h1>
+      <p>Boyle Lab software spans regulatory-variant interpretation, peak calling, transcription-factor modeling, long-read analysis, sequencing workflows, and research databases.</p>
+    </div>
+    <div class="site-page-callout">
+      <span>Source code and releases</span>
+      <a href="https://github.com/Boyle-Lab">Boyle Lab on GitHub</a>
+    </div>
+  </header>
 
-<br>
-<div class="Nheader"><a href="https://github.com/Boyle-Lab/SOM-Browser">Human-Mouse SOM Browser</a> and comparative SOM tools</div>
-<p>
-  The Boyle Lab developed self-organizing map resources to organize and compare genome-wide regulatory
-  activity across human and mouse tissues and cell types. The SOM Browser provides an interactive
-  web resource for the human-mouse SOM project, and related repositories provide analysis code for the
-  manuscript.
-</p>
-<ul>
-  <li><a href="https://github.com/Boyle-Lab/SOM-Browser">SOM Browser</a></li>
-  <li><a href="https://github.com/Boyle-Lab/mouse-human-SOM">Mouse-human SOM analysis code</a></li>
-</ul>
-<p><strong>Reference:</strong> Diehl et al., <em>Nucleic Acids Research</em>, 2018.</p>
+  <section class="software-intro" aria-labelledby="software-tools-heading">
+    <div class="section-heading section-heading--bordered">
+      <p class="section-eyebrow">Tools and resources</p>
+      <h2 id="software-tools-heading">Lab-developed software</h2>
+      <p>This page highlights major databases, software packages, analysis tools, and reusable workflows developed by Boyle Lab members and collaborators.</p>
+    </div>
 
-<br>
-<div class="Nheader"><a href="http://fureylab.web.unc.edu/software/fseq/">F-Seq</a> and <a href="https://github.com/Boyle-Lab/F-Seq2">F-Seq2</a></div>
-<p>
-  F-Seq is a feature-density estimator for identifying biologically meaningful signal-enriched regions
-  from high-throughput sequencing data. F-Seq2 is a Python rewrite and extension that adds dynamic local
-  statistics, support for common regulatory genomics assays, and IDR-aware peak-calling workflows.
-</p>
-<p><strong>References:</strong> Boyle et al., <em>Bioinformatics</em>, 2008. Zhao and Boyle, <em>NAR Genomics and Bioinformatics</em>, 2021.</p>
+    <div class="software-grid">
+      <article class="software-card">
+        <p class="section-eyebrow">Variant interpretation</p>
+        <h2><a href="https://regulomedb.org/">RegulomeDB</a>, SURF, TURF, and TLand</h2>
+        <p>RegulomeDB annotates variants with functional-genomics evidence and predictive models to help interpret noncoding regulatory variation. RegulomeDB v2 added expanded functional-genomics data, improved scoring, tissue-aware prediction resources, and visualization support. TURF and TLand extend this framework to prioritize regulatory variants in tissue-, organ-, and cell-specific contexts.</p>
+        <div class="resource-links">
+          <a href="https://regulomedb.org/">Web server</a>
+          <a href="https://github.com/Boyle-Lab/RegulomeDB">RegulomeDB code</a>
+          <a href="https://github.com/Boyle-Lab/RegulomeDB-TURF">TURF</a>
+          <a href="https://github.com/rnsherpa/TLand-predict">TLand</a>
+        </div>
+        <p class="software-reference"><strong>References:</strong> Boyle et al., <em>Genome Research</em>, 2012; Dong et al., <em>Nature Genetics</em>, 2023; Dong and Boyle, <em>Nucleic Acids Research</em>, 2021; Zhao, Dong, and Boyle, <em>bioRxiv</em>, 2023.</p>
+      </article>
 
-<br>
-<div class="Nheader"><a href="https://github.com/Boyle-Lab/TRACE">TRACE</a> and <a href="https://github.com/Boyle-Lab/TRACE_GPU">TRACE_GPU</a></div>
-<p>
-  TRACE is a hidden Markov model for transcription factor footprinting and motif matching using
-  chromatin-accessibility data, including DNase-seq and ATAC-seq. TRACE_GPU accelerates core TRACE
-  computations, including emission-matrix calculation and Viterbi decoding, on GPUs.
-</p>
-<p><strong>Reference:</strong> Ouyang and Boyle, <em>Genome Research</em>, 2020.</p>
+      <article class="software-card">
+        <p class="section-eyebrow">Quality control</p>
+        <h2><a href="https://github.com/Boyle-Lab/Blacklist">ENCODE Blacklist</a></h2>
+        <p>The ENCODE Blacklist identifies genomic regions that show anomalous signal across next-generation sequencing experiments. Removing these regions is an important quality-control step for ChIP-seq, DNase-seq, ATAC-seq, and related functional-genomics assays.</p>
+        <div class="resource-links"><a href="https://github.com/Boyle-Lab/Blacklist">Code and regions</a></div>
+        <p class="software-reference"><strong>Reference:</strong> Amemiya, Kundaje, and Boyle, <em>Scientific Reports</em>, 2019.</p>
+      </article>
 
-<br>
-<div class="Nheader"><a href="https://github.com/Boyle-Lab/SEMpl">SEMpl</a>, <a href="https://github.com/Boyle-Lab/SEMplMe">SEMplMe</a>, and <a href="https://github.com/grkenney/SEMPLR">SEMPLR</a></div>
-<p>
-  SNP Effect Matrices model the effect of sequence variants on transcription factor binding affinity.
-  SEMpl is a command-line implementation of the SEM algorithm, SEMplMe incorporates DNA methylation,
-  and SEMPLR provides an R/Bioconductor interface for scoring genomic positions and variants using
-  SEMs.
-</p>
-<p><strong>References:</strong> Nishizaki, et al., <em>Bioinformatics</em>, 2019. Nishizaki and Boyle, <em>BMC Bioinformatics</em>, 2022. Kenney et al., <em>Bioinformatics</em>, 2026.</p>
+      <article class="software-card">
+        <p class="section-eyebrow">Comparative genomics</p>
+        <h2>Human–Mouse SOM Browser</h2>
+        <p>Self-organizing map resources organize and compare genome-wide regulatory activity across human and mouse tissues and cell types. The SOM Browser provides an interactive resource, while the companion repository contains the comparative analysis code.</p>
+        <div class="resource-links">
+          <a href="https://github.com/Boyle-Lab/SOM-Browser">SOM Browser</a>
+          <a href="https://github.com/Boyle-Lab/mouse-human-SOM">Analysis code</a>
+        </div>
+        <p class="software-reference"><strong>Reference:</strong> Diehl et al., <em>Nucleic Acids Research</em>, 2018.</p>
+      </article>
 
-<br>
-<div class="Nheader"><a href="https://github.com/Boyle-Lab/HMMSTR">HMMSTR</a></div>
-<p>
-  HMMSTR is a modified profile hidden Markov model for determining tandem-repeat copy number from raw
-  long-read sequencing data. It is optimized for targeted sequencing experiments.
-</p>
-<p><strong>Reference:</strong> Van Deynze et al., <em>Nucleic Acids Research</em>, 2025.</p>
+      <article class="software-card">
+        <p class="section-eyebrow">Peak calling</p>
+        <h2><a href="http://fureylab.web.unc.edu/software/fseq/">F-Seq</a> and <a href="https://github.com/Boyle-Lab/F-Seq2">F-Seq2</a></h2>
+        <p>F-Seq is a feature-density estimator for identifying biologically meaningful signal-enriched regions from high-throughput sequencing data. F-Seq2 is a Python rewrite and extension that adds dynamic local statistics, support for common regulatory-genomics assays, and IDR-aware peak-calling workflows.</p>
+        <div class="resource-links"><a href="https://github.com/Boyle-Lab/F-Seq2">F-Seq2 code</a></div>
+        <p class="software-reference"><strong>References:</strong> Boyle et al., <em>Bioinformatics</em>, 2008; Zhao and Boyle, <em>NAR Genomics and Bioinformatics</em>, 2021.</p>
+      </article>
 
-<br>
-<div class="Nheader"><a href="https://github.com/Boyle-Lab/OnRamp-Web-App">OnRamp</a></div>
-<p>
-  OnRamp is a bulk plasmid sequencing tool that streamlines pooled plasmid validation. The Boyle Lab
-  repository provides the web-enabled version, and the command-line workflow is available through the
-  associated bulkPlasmidSeq codebase.
-</p>
-<ul>
-  <li><a href="https://github.com/Boyle-Lab/OnRamp-Web-App">OnRamp web application</a></li>
-  <li><a href="https://github.com/Boyle-Lab/bulkPlasmidSeq">bulkPlasmidSeq workflow</a></li>
-</ul>
-<p><strong>Reference:</strong> Mumm et al., <em>Genome Research</em>, 2023.</p>
+      <article class="software-card">
+        <p class="section-eyebrow">Chromatin accessibility</p>
+        <h2><a href="https://github.com/Boyle-Lab/TRACE">TRACE</a> and <a href="https://github.com/Boyle-Lab/TRACE_GPU">TRACE_GPU</a></h2>
+        <p>TRACE is a hidden Markov model for transcription-factor footprinting and motif matching using chromatin-accessibility data, including DNase-seq and ATAC-seq. TRACE_GPU accelerates core calculations, including emission-matrix generation and Viterbi decoding, on GPUs.</p>
+        <div class="resource-links">
+          <a href="https://github.com/Boyle-Lab/TRACE">TRACE</a>
+          <a href="https://github.com/Boyle-Lab/TRACE_GPU">TRACE_GPU</a>
+        </div>
+        <p class="software-reference"><strong>Reference:</strong> Ouyang and Boyle, <em>Genome Research</em>, 2020.</p>
+      </article>
 
-<br>
-<div class="Nheader"><a href="https://github.com/Boyle-Lab/NanoPal-and-Cas9-targeted-enrichment-pipelines">NanoPal and Cas9 targeted enrichment pipelines</a></div>
-<p>
-  NanoPal and associated Cas9 targeted enrichment pipelines support long-read enrichment and analysis
-  of mobile-element insertions. The repository includes workflows for L1Hs, AluYb, AluYa, SVA_F, and
-  SVA_E mobile-element families, plus guide-RNA design, cleavage-site analysis, and methylation analysis
-  scripts.
-</p>
-<ul>
-  <li><a href="https://github.com/Boyle-Lab/NanoPal-Snakemake">NanoPal-Snakemake</a></li>
-  <li><a href="https://github.com/Boyle-Lab/NanoMEI">NanoMEI</a></li>
-</ul>
-<p><strong>Reference:</strong> McDonald et al., <em>Nature Communications</em>, 2021.</p>
+      <article class="software-card">
+        <p class="section-eyebrow">Sequence modeling</p>
+        <h2><a href="https://github.com/Boyle-Lab/SEMpl">SEMpl</a>, <a href="https://github.com/Boyle-Lab/SEMplMe">SEMplMe</a>, and <a href="https://github.com/grkenney/SEMPLR">SEMPLR</a></h2>
+        <p>SNP Effect Matrices model the effect of sequence variants on transcription-factor binding affinity. SEMpl is a command-line implementation, SEMplMe incorporates DNA methylation, and SEMPLR provides an R/Bioconductor interface for scoring genomic positions and variants.</p>
+        <div class="resource-links">
+          <a href="https://github.com/Boyle-Lab/SEMpl">SEMpl</a>
+          <a href="https://github.com/Boyle-Lab/SEMplMe">SEMplMe</a>
+          <a href="https://github.com/grkenney/SEMPLR">SEMPLR</a>
+        </div>
+        <p class="software-reference"><strong>References:</strong> Nishizaki et al., <em>Bioinformatics</em>, 2019; Nishizaki and Boyle, <em>BMC Bioinformatics</em>, 2022; Kenney et al., <em>Bioinformatics</em>, 2026.</p>
+      </article>
 
-<br>
-<div class="Nheader"><a href="https://github.com/Boyle-Lab/minimera">Minimera</a></div>
-<p>
-  Minimera detects foldback chimeras in Oxford Nanopore sequencing data using minimizers and is released
-  as command-line binaries and Singularity containers.
-</p>
+      <article class="software-card">
+        <p class="section-eyebrow">Tandem repeats</p>
+        <h2><a href="https://github.com/Boyle-Lab/HMMSTR">HMMSTR</a></h2>
+        <p>HMMSTR is a modified profile hidden Markov model for determining tandem-repeat copy number directly from raw long-read sequencing data. It is optimized for targeted sequencing experiments.</p>
+        <div class="resource-links"><a href="https://github.com/Boyle-Lab/HMMSTR">Code and documentation</a></div>
+        <p class="software-reference"><strong>Reference:</strong> Van Deynze et al., <em>Nucleic Acids Research</em>, 2025.</p>
+      </article>
+
+      <article class="software-card">
+        <p class="section-eyebrow">Plasmid sequencing</p>
+        <h2><a href="https://github.com/Boyle-Lab/OnRamp-Web-App">OnRamp</a></h2>
+        <p>OnRamp streamlines pooled plasmid validation using bulk plasmid sequencing. The Boyle Lab repository provides the web-enabled application, and the associated bulkPlasmidSeq repository contains the command-line workflow.</p>
+        <div class="resource-links">
+          <a href="https://github.com/Boyle-Lab/OnRamp-Web-App">Web application</a>
+          <a href="https://github.com/Boyle-Lab/bulkPlasmidSeq">Command-line workflow</a>
+        </div>
+        <p class="software-reference"><strong>Reference:</strong> Mumm et al., <em>Genome Research</em>, 2023.</p>
+      </article>
+
+      <article class="software-card">
+        <p class="section-eyebrow">Targeted long-read sequencing</p>
+        <h2><a href="https://github.com/Boyle-Lab/NanoPal-and-Cas9-targeted-enrichment-pipelines">NanoPal and Cas9 enrichment pipelines</a></h2>
+        <p>NanoPal and the associated Cas9 targeted-enrichment pipelines support long-read enrichment and analysis of mobile-element insertions. The workflows cover multiple L1HS, Alu, and SVA families and include guide-RNA design, cleavage-site analysis, and methylation-analysis scripts.</p>
+        <div class="resource-links">
+          <a href="https://github.com/Boyle-Lab/NanoPal-and-Cas9-targeted-enrichment-pipelines">Pipeline collection</a>
+          <a href="https://github.com/Boyle-Lab/NanoPal-Snakemake">NanoPal-Snakemake</a>
+          <a href="https://github.com/Boyle-Lab/NanoMEI">NanoMEI</a>
+        </div>
+        <p class="software-reference"><strong>Reference:</strong> McDonald et al., <em>Nature Communications</em>, 2021.</p>
+      </article>
+
+      <article class="software-card">
+        <p class="section-eyebrow">Nanopore analysis</p>
+        <h2><a href="https://github.com/Boyle-Lab/minimera">Minimera</a></h2>
+        <p>Minimera detects foldback chimeras in Oxford Nanopore sequencing data using minimizers. It is distributed as command-line binaries and Singularity containers.</p>
+        <div class="resource-links"><a href="https://github.com/Boyle-Lab/minimera">Code and releases</a></div>
+      </article>
+    </div>
+  </section>
+</div>

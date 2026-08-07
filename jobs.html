@@ -3,12 +3,49 @@ title: Jobs
 layout: default
 ---
 
-<br>
+<div class="site-page jobs-page">
+  <header class="site-page-header">
+    <div class="site-page-header-copy">
+      <h1>Join the Boyle Lab</h1>
+      <p>We are an interdisciplinary group working at the boundary of computational genomics, molecular biology, long-read sequencing, and functional genomics.</p>
+    </div>
+    <div class="site-page-callout">
+      <span>Questions about opportunities?</span>
+      <a href="mailto:apboyle@umich.edu">Contact Alan Boyle</a>
+    </div>
+  </header>
 
-{% for job in site.jobs reversed %}
-{% if job.publish == true %}
-<div class="Nheader">{{ job.title }} {% if job.pdf %} &nbsp;&nbsp;&nbsp;<a href="/assets/job_PDFs/{{ job.pdf }}">[PDF]</a> {% endif %}</div>
-	{{ job.output }}
-<br />
-{% endif %}
-{% endfor %}
+  <section class="jobs-intro" aria-labelledby="jobs-opportunities-heading">
+    <div class="section-heading section-heading--bordered">
+      <p class="section-eyebrow">Opportunities</p>
+      <h2 id="jobs-opportunities-heading">Open and ongoing recruitment</h2>
+      <p>Current opportunities are listed below. Prospective trainees should describe how their interests and experience connect with the lab’s research program.</p>
+    </div>
+
+    <div class="jobs-list">
+      {% assign published_job_count = 0 %}
+      {% for job in site.jobs reversed %}
+        {% if job.publish == true %}
+          {% assign published_job_count = published_job_count | plus: 1 %}
+          <article class="job-card">
+            <div class="job-card-header">
+              <div>
+                <p class="section-eyebrow">Boyle Lab opportunity</p>
+                <h2>{{ job.title }}</h2>
+              </div>
+              {% if job.pdf %}<a class="job-pdf-link" href="/assets/job_PDFs/{{ job.pdf }}">Position PDF</a>{% endif %}
+            </div>
+            <div class="job-card-body">{{ job.output }}</div>
+          </article>
+        {% endif %}
+      {% endfor %}
+
+      {% if published_job_count == 0 %}
+        <div class="empty-state">
+          <h2>No positions are currently posted</h2>
+          <p>General inquiries may be sent to <a href="mailto:apboyle@umich.edu">apboyle@umich.edu</a>.</p>
+        </div>
+      {% endif %}
+    </div>
+  </section>
+</div>
