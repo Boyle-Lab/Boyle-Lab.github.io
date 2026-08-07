@@ -1432,8 +1432,8 @@ h3.title { margin-bottom: 0px; margin-top: 10px; }
 /* News */
 .news-grid {
 	display: grid;
-	grid-template-columns: repeat(3, minmax(0, 1fr));
-	gap: 18px;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	gap: 9px;
 }
 
 .news-card {
