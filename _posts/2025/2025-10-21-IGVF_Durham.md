@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: IGVF Annual Meeting in Durham!
+title: The Lab Attends the IGVF Annual Meeting in Durham!
 date: '2025-10-21'
 external-url:
 teaser: 2025/alan_poster.jpg

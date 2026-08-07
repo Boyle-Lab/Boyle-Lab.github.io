@@ -1,10 +1,10 @@
 ---
 layout: post
 published: true
-title: Biology of Genomes 2026!
+title: The Lab Attends Biology of Genomes 2026!
 date: '2026-05-05'
 external-url:
-teaser: 2025/binoculars.jpg
+teaser: 2026/binoculars.jpg
 categories:
 - Events
 ---

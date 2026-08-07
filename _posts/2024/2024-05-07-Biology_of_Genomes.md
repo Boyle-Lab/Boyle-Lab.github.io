@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Biology of Genomes 2024!
+title: The Lab Attends Biology of Genomes 2024!
 date: '2024-05-07'
 external-url:
 teaser: 2024/kat_rintsen_bog.jpg
