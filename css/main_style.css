@@ -1674,10 +1674,10 @@ h3.title { margin-bottom: 0px; margin-top: 10px; }
 	max-width: 760px;
 	margin: 0;
 	padding: 0;
-	font-size: 32px;
+	font-size: 29px;
 	font-weight: 700;
 	letter-spacing: -.65px;
-	line-height: 1.2;
+	line-height: 1.18;
 	color: #00274C;
 }
 
@@ -1765,8 +1765,8 @@ h3.title { margin-bottom: 0px; margin-top: 10px; }
 
 .news-article-body p,
 .news-article-body li {
-	font-size: 16px;
-	line-height: 1.72;
+	font-size: 14.5px;
+	line-height: 1.65;
 }
 
 .news-article-body h2,
@@ -2139,7 +2139,7 @@ h3.title { margin-bottom: 0px; margin-top: 10px; }
 	.news-article-body,
 	.news-article-body p,
 	.news-article-body li {
-		font-size: 15px;
+		font-size: 14.5px;
 	}
 
 	.news-gallery-grid,
