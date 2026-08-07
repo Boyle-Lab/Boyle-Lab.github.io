@@ -55,7 +55,7 @@ layout: default
         <span class="home-card-rule" aria-hidden="true"></span>
         <p class="home-card-kicker">Latest updates</p>
         <div class="home-news-list">
-          {% for post in site.posts limit:2 offset:0 %}
+          {% for post in site.posts limit:3 offset:0 %}
             <article>
               <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
               <a href="{{ post.url }}">{{ post.title }}</a>
