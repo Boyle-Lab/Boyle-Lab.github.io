@@ -15,7 +15,7 @@ dates:
   start: 2023-02-08
   end: 2023-11-17
 prior_lab_roles:
-  - position: Master's student
+  - position: Bioinformatics Master's student
     start: 2023-02-08
     end: 2023-11-17
 theme_areas:

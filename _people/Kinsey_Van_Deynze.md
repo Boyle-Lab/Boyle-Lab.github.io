@@ -17,7 +17,7 @@ previous_training:
 dates:
   start: 2021-01-19
 prior_lab_roles:
-  - position: Ph.D. student
+  - position: Bioinformatics Ph.D. student
     start: 2021-01-19
     end: 2025-10-06
 social:

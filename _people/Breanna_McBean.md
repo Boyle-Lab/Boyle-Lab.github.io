@@ -7,7 +7,7 @@ status:
 name: Breanna McBean, Ph.D.
 umid: bmcbean
 position: Visiting Scientist
-title: Human Genetics Ph.D. (co-mentored with Corey Speers)
+title: Genetics and Genomics Ph.D. Student (co-mentored with Corey Speers)
 picture: Breanna_McBean.jpg
 previous_training:
   - type: B.A.
@@ -15,7 +15,7 @@ previous_training:
 dates:
   start: 2020-08-31
 prior_lab_roles:
-  - position: Ph.D. student
+  - position: Genetics and Genomics Ph.D. Student
     start: 2020-08-31
     end: 2026-03-06
 social:

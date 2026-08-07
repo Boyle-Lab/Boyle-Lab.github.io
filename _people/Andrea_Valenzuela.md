@@ -15,7 +15,7 @@ dates:
   start: 2020-10-19
   end: 2025-09-05
 prior_lab_roles:
-  - position: Ph.D. student
+  - position: Chemical Biology Ph.D. student
     start: 2020-10-19
     end: 2025-09-05
 current_position:

@@ -17,10 +17,10 @@ dates:
   start: 2015-10-23
   end: 2022-01-28
 prior_lab_roles:
-  - position: Master's student
+  - position: Bioinformatics Master's student
     start: 2015-10-23
     end: 2017-01-01
-  - position: Ph.D. student
+  - position: Bioinformatics Ph.D. student
     start: 2017-01-01
     end: 2022-01-28
 current_position:

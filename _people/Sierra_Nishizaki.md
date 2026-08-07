@@ -15,7 +15,7 @@ dates:
   start: 2015-01-06
   end: 2020-09-01
 prior_lab_roles:
-  - position: Ph.D. student
+  - position: Genetics and Genomics Ph.D. student
     start: 2015-01-06
     end: 2020-09-01
 current_position:

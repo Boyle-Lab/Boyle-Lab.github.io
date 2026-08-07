@@ -15,7 +15,7 @@ dates:
   start: 2023-05-01
   end: 2023-12-31
 prior_lab_roles:
-  - position: Master's student
+  - position: Chemical Engineering Master's student
     start: 2023-05-01
     end: 2023-12-31
 social:

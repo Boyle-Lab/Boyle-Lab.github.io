@@ -15,7 +15,7 @@ dates:
   start: 2022-10-24
   end: 2023-12-22
 prior_lab_roles:
-  - position: Master's student
+  - position: Genetics and Genomics Master's student
     start: 2022-10-24
     end: 2023-12-22
 social:

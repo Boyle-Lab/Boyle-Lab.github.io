@@ -15,7 +15,7 @@ dates:
   start: 2016-09-06
   end: 2018-12-17
 prior_lab_roles:
-  - position: Ph.D. student
+  - position: Cellular & Molecular Biology Ph.D. student
     start: 2016-09-06
     end: 2018-12-17
 theme_areas:

@@ -15,7 +15,7 @@ dates:
   start: 2016-08-29
   end: 2020-11-16
 prior_lab_roles:
-  - position: Ph.D. student
+  - position: Bioinformatics Ph.D. student
     start: 2016-08-29
     end: 2020-11-16
 current_position:

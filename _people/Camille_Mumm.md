@@ -19,7 +19,7 @@ dates:
   start: 2020-01-08
   end: 2026-03-27
 prior_lab_roles:
-  - position: Ph.D. student
+  - position: Genetics and Genomics Ph.D. student
     start: 2020-01-08
     end: 2025-03-11
   - position: Staff Bioinformatician

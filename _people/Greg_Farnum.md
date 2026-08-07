@@ -17,7 +17,7 @@ dates:
   start: 2015-01-01
   end: 2021-06-06
 prior_lab_roles:
-  - position: Ph.D. student
+  - position: Bioinformatics Ph.D. student
     start: '2015-07-01'
     end: '2017-07-01'
   - position: Volunteer Researcher

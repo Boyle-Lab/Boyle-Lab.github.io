@@ -15,7 +15,7 @@ dates:
   start: 2025-08-27
   end: 2025-12-31
 prior_lab_roles:
-  - position: Master's student
+  - position: Bioinformatics Master's student
     start: 2025-08-27
     end: 2025-12-31
 social:

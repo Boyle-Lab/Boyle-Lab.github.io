@@ -17,7 +17,7 @@ dates:
   start: 2015-09-08
   end: 2022-02-28
 prior_lab_roles:
-  - position: Ph.D. student
+  - position: Bioinformatics Ph.D. student
     start: 2015-09-08
     end: 2021-03-31
   - position: Postdoctoral scholar

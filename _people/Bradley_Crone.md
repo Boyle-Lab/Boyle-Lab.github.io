@@ -15,7 +15,7 @@ dates:
   start: 2018-09-04
   end: 2025-08-02
 prior_lab_roles:
-  - position: Ph.D. student
+  - position: Bioinformatics Ph.D. student
     start: 2018-09-04
     end: 2024-06-02
   - position: Staff Bioinformatician
