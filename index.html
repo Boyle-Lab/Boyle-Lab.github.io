@@ -3,55 +3,64 @@ title: Home
 layout: default
 ---
 
-<div class="row genomics">
-	<div class="column-narrow">
-	       	<h4><i>EXPLORING THE GENOME</i></h4>
-		<center><p class="yellow-bar"></p><center>
-		<p><i>
-		We use modern genomics techniques and high-throughput experiments to explore biological systems.
-		We can leverage computational tools to help answer biological problems that were previously intractable.
-		We aim to combine computational approaches with high-throughput biological assays to better understand the whole human transcriptional regulatory system.
-		</i></p>
-	</div>
-</div>
+<div class="site-page home-page">
+  <header class="site-page-header home-page-header">
+    <div class="site-page-header-copy">
+      <p class="site-page-eyebrow">Exploring the genome</p>
+      <h1>Computational and experimental genomics for understanding human variation</h1>
+      <p>We combine modern genomics, high-throughput experiments, and computational methods to study gene regulation, repetitive DNA, somatic variation, and the functional consequences of genetic variation.</p>
+    </div>
+    <div class="home-header-mark" aria-hidden="true">
+      <img src="/assets/images/DNA_Cloud_small.png" alt="">
+    </div>
+  </header>
 
-<div class="row PI">
-	<div class="column-narrow">
-	       	<h4><i>From Principal Investigator, Alan P. Boyle, Ph.D.</i></h4>
-		<center><p class="gray-bar"></p></center>
-		<p class="align-left">
-		Understanding gene regulation at the transcriptional level is critical to understanding complex biological systems and human disease. In virtually all organisms gene regulation is mediated by a “regulatory code” in which distinct combinations of specific transcription factors collaborate to regulate the expression of individual genes.
-		This code is complex and not readily obvious from sequences alone.
-		It likely involves many cis-regulatory modules that exist both upstream and within genes.
-		In addition, mounting evidence suggests that major differences between individuals and species lie at the level of gene regulation and that changes in cis-regulatory sequences are responsible for these effects.
-		<br><br>
-		Our research aims to explore this regulatory code by examining the cis-regulatory elements in the human genome.
-		</p>
-		<p class="right-link">
-		<font color="#FFCB05">|</font> <a href="research/"><i><b>Learn More</b></i></a>
-		</p>
-	</div>
-</div>
+  <section class="home-pi-section" aria-labelledby="home-pi-heading">
+    <div class="home-pi-heading">
+      <p class="section-eyebrow">From the principal investigator</p>
+      <h2 id="home-pi-heading">Alan P. Boyle, Ph.D.</h2>
+    </div>
+    <div class="home-pi-copy">
+      <p>Understanding gene regulation at the transcriptional level is critical to understanding complex biological systems and human disease. In virtually all organisms, distinct combinations of transcription factors collaborate through a regulatory code to control the expression of individual genes. This code is complex, distributed across cis-regulatory elements, and not readily apparent from sequence alone.</p>
+      <p>Our research aims to define this regulatory code, understand how regulatory and repetitive sequences vary among people and cells, and connect those differences to molecular function and disease.</p>
+      <p class="home-section-link"><a href="/research/">Explore our research</a></p>
+    </div>
+  </section>
 
-<div class="row">
-	<div class="column-center">
-        	<a href="publications/"><h4><i>Our Work</i></h4></a>
-		<center><p class="yellow-bar"></p><center>
-        	<p><img src="assets/images/Fseq.gif" width="200px"></p>
-    	</div>
-	<div class="column-left">
-		<a href="news/"><h4><i>News</i></h4></a>
-		<center><p class="yellow-bar"></p><center>
-		{% for post in site.posts limit:3 offset:0 %}
-        	<p class="align-left">
-		<i><font color="#888">{{ post.date | date: "%B %d, %Y" }} - </font></i> {{ post.title }}
-		</p>
-		{% endfor %}
-	</div>
-	<div class="column-right">
-        	<a href="contact/"><h4><i>Find Us</i></h4></a>
-		<center><p class="yellow-bar"></p><center>
-		<p class="align-left">Our computational offices are located in the B-Wing of Medical Science Unit I on the University of Michigan Medical Campus. The wet lab is located on the 4th floor of Medical Science Building II.</p>
-		<p><i><a href="contact/">View Map</a></i></p>
-	</div>
-</div><!-- end row -->
+  <section class="home-card-grid" aria-label="Explore the Boyle Lab website">
+    <article class="home-card home-card--work">
+      <div class="home-card-media"><img src="/assets/images/Fseq.gif" alt="F-Seq genomic signal visualization" loading="lazy"></div>
+      <div class="home-card-content">
+        <p class="section-eyebrow">Our work</p>
+        <h2><a href="/publications/">Publications</a></h2>
+        <p>Browse our work in regulatory genomics, long-read sequencing, repetitive variation, somatic mosaicism, and computational method development.</p>
+        <a class="text-link" href="/publications/">View publications</a>
+      </div>
+    </article>
+
+    <article class="home-card">
+      <div class="home-card-content">
+        <p class="section-eyebrow">Latest updates</p>
+        <h2><a href="/news/">News</a></h2>
+        <div class="home-news-list">
+          {% for post in site.posts limit:3 offset:0 %}
+            <article>
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </article>
+          {% endfor %}
+        </div>
+        <a class="text-link" href="/news/">See all news</a>
+      </div>
+    </article>
+
+    <article class="home-card">
+      <div class="home-card-content">
+        <p class="section-eyebrow">Ann Arbor, Michigan</p>
+        <h2><a href="/contact/">Find us</a></h2>
+        <p>Our computational offices are in Medical Science Unit I, and our wet laboratory is on the fourth floor of Medical Science Unit II on the University of Michigan Medical Campus.</p>
+        <a class="text-link" href="/contact/">Maps and contact information</a>
+      </div>
+    </article>
+  </section>
+</div>

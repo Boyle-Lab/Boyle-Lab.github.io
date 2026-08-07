@@ -3,104 +3,84 @@ title: People
 layout: default
 ---
 
-{% assign sorted_people = (site.people | sort: "dates.start") %}
-{% assign sorted_phd = (site.people | sort: "dates.phd_end" | reverse ) %}
-{% assign sorted_alumni = (site.people | sort: "dates.end" | reverse ) %}
-{% assign sorted_rotation = (site.people | sort: "dates.end" | reverse ) %}
-<br>
-
-<div class = "people">
-<ul class = "list">
-{% for person in sorted_people %}
-  {% if person.publish and person.status == 'current'%}
-    <li class="item">
-      <center>
-      {% if person.picture %}
-      <a href="{{person.url}}"><img class="image" src="/assets/people/{{ person.picture }}" height="240px"></a>
-      {% else %}
-      <img src="/assets/people/placeholder.png" height="240px" width="190px">
-      {% endif %}
-      <a href="{{person.url}}"><h3><u> {{ person.name }} </u></h3></a>
-      <p><b><i> {{ person.position }} </i></b>	  <br /></p>
-    </li>
-
-    {% cycle 'close rows': '', '', '', '</ul><br><ul class = "list">' %}
-
-  {% endif %}
+{% assign sorted_people = site.people | sort: "dates.start" %}
+{% assign sorted_phd = site.people | sort: "dates.phd_end" | reverse %}
+{% assign sorted_alumni = site.people | sort: "dates.end" | reverse %}
+{% assign sorted_rotation = site.people | sort: "dates.end" | reverse %}
+{% assign current_count = 0 %}
+{% for person in site.people %}
+  {% if person.publish and person.status == 'current' %}{% assign current_count = current_count | plus: 1 %}{% endif %}
 {% endfor %}
-</ul>
-</div>
-<br><br>
-<div class="Nheader">Lab Ph.D. Alumni</div><br>
 
-<div class = "people">
-<ul class = "list">
-{% for person in sorted_phd %}
-  {% if person.publish and person.status == 'phd_alumni' or person.status == 'current' and person.dates.phd_end %}
-    <li class="item">
-      <center>
-      {% if person.picture %}
-      <a href="{{person.url}}"><img class="image" src="/assets/people/{{ person.picture }}" height="240px"></a>
-      {% else %}
-      <img src="/assets/people/placeholder.png" height="240px" width="190px">
-      {% endif %}
-      <a href="{{person.url}}"><h3><u> {{ person.name }} </u></h3></a>
-      <p><b><i> Doctoral Student </i></b>	  <br /></p>
-    </li>
+<div class="site-page people-page">
+  <header class="site-page-header">
+    <div class="site-page-header-copy">
+      <h1>People</h1>
+      <p>Our lab brings together computational and experimental scientists working across regulatory genomics, long-read sequencing, human variation, and method development.</p>
+    </div>
+    <div class="site-page-stat" aria-label="Current lab membership">
+      <strong>{{ current_count }}</strong>
+      <span>current members</span>
+    </div>
+  </header>
 
-    {% cycle 'close phdalumni rows': '', '', '', '</ul><br><ul class = "list">' %}
+  <section class="people-section" aria-labelledby="current-members-heading">
+    <div class="section-heading section-heading--bordered">
+      <p class="section-eyebrow">The Boyle Lab</p>
+      <h2 id="current-members-heading">Current members</h2>
+    </div>
+    <div class="people-grid">
+      {% for person in sorted_people %}
+        {% if person.publish and person.status == 'current' %}
+          {% include person_card.html person=person %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
 
-  {% endif %}
-{% endfor %}
-</ul>
-</div>
+  <section class="people-section" aria-labelledby="phd-alumni-heading">
+    <div class="section-heading section-heading--bordered">
+      <p class="section-eyebrow">Alumni</p>
+      <h2 id="phd-alumni-heading">Lab Ph.D. alumni</h2>
+    </div>
+    <div class="people-grid people-grid--alumni">
+      {% for person in sorted_phd %}
+        {% if person.publish %}
+          {% if person.status == 'phd_alumni' %}
+            {% include person_card.html person=person role="Doctoral student" %}
+          {% elsif person.status == 'current' and person.dates.phd_end %}
+            {% include person_card.html person=person role="Doctoral student" %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
 
-<br><br>
-<div class="Nheader">Other Lab Alumni</div><br>
+  <section class="people-section" aria-labelledby="other-alumni-heading">
+    <div class="section-heading section-heading--bordered">
+      <p class="section-eyebrow">Alumni</p>
+      <h2 id="other-alumni-heading">Other lab alumni</h2>
+    </div>
+    <div class="people-grid people-grid--alumni">
+      {% for person in sorted_alumni %}
+        {% if person.publish and person.status == 'alumni' %}
+          {% include person_card.html person=person %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
 
-<div class = "people">
-<ul class = "list">
-{% for person in sorted_alumni %}
-  {% if person.publish and person.status == 'alumni'%}
-    <li class="item">
-      <center>
-      {% if person.picture %}
-      <a href="{{person.url}}"><img class="image" src="/assets/people/{{ person.picture }}" height="240px"></a>
-      {% else %}
-      <img src="/assets/people/placeholder.png" height="240px" width="190px">
-      {% endif %}
-      <a href="{{person.url}}"><h3><u> {{ person.name }} </u></h3></a>
-      <p><b><i> {{ person.position }} </i></b>	  <br /></p>
-    </li>
-
-    {% cycle 'close alumni rows': '', '', '', '</ul><br><ul class = "list">' %}
-
-  {% endif %}
-{% endfor %}
-</ul>
-</div>
-
-<br><br>
-<div class="Nheader">Past Rotation Students</div><br>
-
-<div class = "people">
-<ul class = "list">
-{% for person in sorted_rotation %}
-  {% if person.publish and person.status == 'rotation'%}
-    <li class="item">
-      <center>
-      {% if person.picture %}
-      <a href="{{person.url}}"><img class="image" src="/assets/people/{{ person.picture }}" height="240px"></a>
-      {% else %}
-      <img src="/assets/people/placeholder.png" height="240px" width="190px">
-      {% endif %}
-      <a href="{{person.url}}"><h3><u> {{ person.name }} </u></h3></a>
-      <p><b><i> {{ person.position }} </i></b>	  <br /></p>
-    </li>
-
-    {% cycle 'close rotation rows': '', '', '', '</ul><br><ul class = "list">' %}
-
-  {% endif %}
-{% endfor %}
-</ul>
+  <section class="people-section" aria-labelledby="rotation-students-heading">
+    <div class="section-heading section-heading--bordered">
+      <p class="section-eyebrow">Past trainees</p>
+      <h2 id="rotation-students-heading">Past rotation students</h2>
+    </div>
+    <div class="people-grid people-grid--alumni">
+      {% for person in sorted_rotation %}
+        {% if person.publish and person.status == 'rotation' %}
+          {% include person_card.html person=person %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
 </div>
