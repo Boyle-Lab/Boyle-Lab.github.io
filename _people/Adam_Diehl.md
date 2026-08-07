@@ -5,7 +5,7 @@ status:
   - current
 name: Adam Diehl
 umid: adadiehl
-position: Staff
+position: Staff Bioinformatician
 title: Staff Bioinformatician
 picture: Adam_pic.jpg
 previous_training:

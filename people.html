@@ -15,7 +15,7 @@ ISO-date/umid strings from each Ph.D. student role, then sort newest first.
     {%- if person.publish and person.status contains 'phd_alumni' -%}
       {%- assign phd_end_date = nil -%}
       {%- for role in person.prior_lab_roles -%}
-        {%- if role.position == 'Ph.D. student' and role.end -%}
+        {%- if role.position contains 'Ph.D. student' and role.end -%}
           {%- assign phd_end_date = role.end -%}
           {%- break -%}
         {%- endif -%}
