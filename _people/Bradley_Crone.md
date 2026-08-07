@@ -11,6 +11,8 @@ picture: Brad_pic.png
 previous_training:
   - type: B.S.
     info: University of Iowa
+  - type: Ph.D.
+    info: University of Michigan
 dates:
   start: 2018-09-04
   end: 2025-08-02

@@ -12,6 +12,8 @@ picture: Christopher_Castro_pic.jpg
 previous_training:
   - type: B.S.
     info: Northeastern Illinois University
+  - type: Ph.D.
+    info: University of Michigan
 dates:
   start: 2016-01-05
 prior_lab_roles:

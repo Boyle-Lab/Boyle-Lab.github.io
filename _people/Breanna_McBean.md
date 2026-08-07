@@ -12,6 +12,8 @@ picture: Breanna_McBean.jpg
 previous_training:
   - type: B.A.
     info: California State University, Fullerton
+  - type: Ph.D.
+    info: University of Michigan
 dates:
   start: 2020-08-31
 prior_lab_roles:
