@@ -1539,6 +1539,7 @@ h3.title { margin-bottom: 0px; margin-top: 10px; }
 
 .news-card-image {
 	display: block;
+	height: 137px;
 	background: #eef1f3;
 	overflow: hidden;
 }
