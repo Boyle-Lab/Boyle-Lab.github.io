@@ -1,46 +1,289 @@
 {% include header.html %}
 
 {% include nav.html %}
-	
-<!--<div id="banner-wrap">
-	<div class="container">
-		<div id="banner">
-			<div class="wsite-header"></div>
-			<div style="clear:both;"></div>
-		</div><!-- end banner -->
-	</div><!-- end container -->
-</div><!-- end banner-wrap -->
-	
+
+{% assign primary_category = page.categories | first | default: "News" %}
+{% assign external_url = page["external-url"] %}
+{% if external_url == nil or external_url == blank %}
+  {% assign external_url = page.external_url %}
+{% endif %}
+
+{% assign hero_image = page.hero_image %}
+{% if hero_image == nil or hero_image == blank %}
+  {% assign hero_image = page["hero-image"] %}
+{% endif %}
+{% if hero_image == nil or hero_image == blank %}
+  {% assign hero_image = page.teaser %}
+{% endif %}
+
+{% assign hero_src = nil %}
+{% if hero_image and hero_image != blank %}
+  {% assign hero_first_character = hero_image | slice: 0, 1 %}
+  {% if hero_image contains "://" or hero_first_character == "/" %}
+    {% assign hero_src = hero_image %}
+  {% else %}
+    {% assign hero_src = "/assets/news_graphics/" | append: hero_image %}
+  {% endif %}
+{% endif %}
+
+{% assign hide_hero = page.hide_hero %}
+{% if hide_hero == nil %}
+  {% assign hide_hero = page["hide-hero"] %}
+{% endif %}
+
+{% assign hero_fit = page.hero_fit %}
+{% if hero_fit == nil or hero_fit == blank %}
+  {% assign hero_fit = page["hero-fit"] %}
+{% endif %}
+{% if hero_fit != "cover" and hero_fit != "contain" %}
+  {% if primary_category == "Papers" or primary_category == "Grants" or primary_category == "Awards" %}
+    {% assign hero_fit = "contain" %}
+  {% else %}
+    {% assign hero_fit = "cover" %}
+  {% endif %}
+{% endif %}
+
+{% assign hero_alt = page.hero_alt %}
+{% if hero_alt == nil or hero_alt == blank %}
+  {% assign hero_alt = page["hero-alt"] %}
+{% endif %}
+{% if hero_alt == nil or hero_alt == blank %}
+  {% assign hero_alt = page.title %}
+{% endif %}
+
+{% assign hero_caption = page.hero_caption %}
+{% if hero_caption == nil or hero_caption == blank %}
+  {% assign hero_caption = page["hero-caption"] %}
+{% endif %}
+
+{% assign cta_label = page.cta_label %}
+{% if cta_label == nil or cta_label == blank %}
+  {% assign cta_label = page["cta-label"] %}
+{% endif %}
+{% if cta_label == nil or cta_label == blank %}
+  {% if primary_category == "Papers" %}
+    {% assign cta_label = "Read the paper" %}
+  {% elsif primary_category == "Grants" %}
+    {% assign cta_label = "View project information" %}
+  {% elsif primary_category == "Awards" %}
+    {% assign cta_label = "View award information" %}
+  {% else %}
+    {% assign cta_label = "Visit the external page" %}
+  {% endif %}
+{% endif %}
+
+{% assign related_publication_key = page.related_publication %}
+{% if related_publication_key == nil or related_publication_key == blank %}
+  {% assign related_publication_key = page["related-publication"] %}
+{% endif %}
+{% assign related_paper = nil %}
+{% if related_publication_key and related_publication_key != blank %}
+  {% assign related_paper_matches = site.papers | where: "bibkey", related_publication_key %}
+  {% assign related_paper = related_paper_matches | first %}
+{% endif %}
+
 <div id="main-wrap">
-	<div class="container">
-		<div class="wsite-content">
+  <div class="container">
+    <div class="wsite-content">
+      <main class="site-page news-article-page">
+        <nav class="news-article-breadcrumb" aria-label="Breadcrumb">
+          <a href="/news/">News</a>
+          <span aria-hidden="true">/</span>
+          <span>{{ primary_category | escape }}</span>
+        </nav>
 
-<center><h3 class="title">{{ page.title }}</h3></center>
-<h2 class="postdate">{{ page.date | date: "%B %d, %Y" }}</h2>
-<h2 class="categories">
-  {% for cat in page.categories %}
-    {{cat}}&nbsp;
-  {% endfor %}
-</h2>
+        <article class="news-article">
+          <header class="news-article-header">
+            <div class="news-article-meta">
+              <span class="news-article-category">{{ primary_category | escape }}</span>
+              <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+            </div>
+            <h1>{{ page.title | escape }}</h1>
+            <span class="news-article-title-rule" aria-hidden="true"></span>
+            {% if page.summary %}
+              <p class="news-article-deck">{{ page.summary | escape }}</p>
+            {% endif %}
+          </header>
 
-<div class="entry-content">
-  <center>
-    {{ content }}
+          {% if hero_src and hide_hero != true %}
+            <figure class="news-article-hero news-article-hero--{{ hero_fit }}">
+              <div class="news-article-hero-frame">
+                <img src="{{ hero_src | escape }}" alt="{{ hero_alt | escape }}">
+              </div>
+              {% if hero_caption %}<figcaption>{{ hero_caption | escape }}</figcaption>{% endif %}
+            </figure>
+          {% endif %}
 
-    {% assign external_url = page["external-url"] %}
-    {% if external_url and external_url != blank %}
-      <p style="margin-top: 20px;">
-        <a href="{{ external_url | escape }}" target="_blank" rel="noopener noreferrer">
-          Read this paper here.
-        </a>
-      </p>
-    {% endif %}
-  </center>
-</div>
+          <div class="news-article-body">
+            {{ content }}
+          </div>
 
+          {% assign external_cta_rendered = false %}
+          {% if page.award %}
+            <section class="news-information-panel" aria-labelledby="news-project-information-heading">
+              <p class="section-eyebrow">Award details</p>
+              <h2 id="news-project-information-heading">Project information</h2>
+              <dl>
+                {% if page.award.agency %}
+                  <div><dt>Agency</dt><dd>{{ page.award.agency | escape }}</dd></div>
+                {% endif %}
+                {% if page.award.mechanism %}
+                  <div><dt>Mechanism</dt><dd>{{ page.award.mechanism | escape }}</dd></div>
+                {% endif %}
+                {% if page.award.project %}
+                  <div><dt>Project</dt><dd>{{ page.award.project | escape }}</dd></div>
+                {% endif %}
+                {% if page.award.collaborators %}
+                  <div>
+                    <dt>Collaborators</dt>
+                    <dd>{{ page.award.collaborators | join: ", " | escape }}</dd>
+                  </div>
+                {% endif %}
+              </dl>
+              {% if external_url and external_url != blank %}
+                <div class="resource-links news-information-links">
+                  <a href="{{ external_url | escape }}" target="_blank" rel="noopener noreferrer">{{ cta_label | escape }}</a>
+                </div>
+                {% assign external_cta_rendered = true %}
+              {% endif %}
+            </section>
+          {% endif %}
 
-		</div>
-	</div><!-- end container -->
+          {% if page.gallery %}
+            <section class="news-article-section news-article-gallery" aria-labelledby="news-gallery-heading">
+              <div class="section-heading section-heading--bordered">
+                <p class="section-eyebrow">Images</p>
+                <h2 id="news-gallery-heading">Gallery</h2>
+              </div>
+              <div class="news-gallery-grid">
+                {% for gallery_item in page.gallery %}
+                  {% assign gallery_src = gallery_item.src | default: gallery_item %}
+                  {% assign gallery_first_character = gallery_src | slice: 0, 1 %}
+                  {% if gallery_src contains "://" or gallery_first_character == "/" %}
+                    {% assign resolved_gallery_src = gallery_src %}
+                  {% else %}
+                    {% assign resolved_gallery_src = "/assets/news_graphics/" | append: gallery_src %}
+                  {% endif %}
+                  {% assign gallery_alt = gallery_item.alt | default: page.title %}
+                  <figure class="news-gallery-item">
+                    <a href="{{ resolved_gallery_src | escape }}">
+                      <img src="{{ resolved_gallery_src | escape }}" alt="{{ gallery_alt | escape }}" loading="lazy">
+                    </a>
+                    {% if gallery_item.caption %}<figcaption>{{ gallery_item.caption | escape }}</figcaption>{% endif %}
+                  </figure>
+                {% endfor %}
+              </div>
+            </section>
+          {% endif %}
+
+          {% if related_paper %}
+            <section class="news-article-section news-related-publication" aria-labelledby="news-related-publication-heading">
+              <div class="section-heading section-heading--bordered">
+                <p class="section-eyebrow">Research output</p>
+                <h2 id="news-related-publication-heading">Related publication</h2>
+              </div>
+              {% include publication_citation.html paper=related_paper compact=true show_consortium=true %}
+            </section>
+          {% endif %}
+
+          {% assign related_people_count = page.people | size %}
+          {% if related_people_count > 0 %}
+            <section class="news-article-section news-related-people" aria-labelledby="news-related-people-heading">
+              <div class="section-heading section-heading--bordered">
+                <p class="section-eyebrow">People</p>
+                <h2 id="news-related-people-heading">Boyle Lab members</h2>
+              </div>
+              <div class="news-people-grid">
+                {% for person_id in page.people %}
+                  {% assign person_matches = site.people | where: "umid", person_id %}
+                  {% assign person = person_matches | first %}
+                  {% if person %}
+                    <a class="news-person-card" href="{{ person.url }}">
+                      {% if person.picture %}
+                        <img src="/assets/people/{{ person.picture | escape }}" alt="" loading="lazy">
+                      {% endif %}
+                      <span>
+                        <strong>{{ person.name | escape }}</strong>
+                        {% if person.title %}
+                          <small>{{ person.title | escape }}</small>
+                        {% elsif person.position %}
+                          <small>{{ person.position | escape }}</small>
+                        {% endif %}
+                      </span>
+                    </a>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </section>
+          {% endif %}
+
+          {% if external_url and external_url != blank and external_cta_rendered != true and related_paper == nil %}
+            <div class="news-article-cta">
+              <a href="{{ external_url | escape }}" target="_blank" rel="noopener noreferrer">{{ cta_label | escape }} <span aria-hidden="true">&rarr;</span></a>
+            </div>
+          {% endif %}
+
+          <nav class="news-post-navigation" aria-label="News story navigation">
+            <div class="news-post-navigation-item news-post-navigation-previous">
+              {% if page.previous %}
+                <a href="{{ page.previous.url }}">
+                  <span>Previous story</span>
+                  <strong>{{ page.previous.title | escape }}</strong>
+                </a>
+              {% endif %}
+            </div>
+            <a class="news-post-navigation-index" href="/news/">All News</a>
+            <div class="news-post-navigation-item news-post-navigation-next">
+              {% if page.next %}
+                <a href="{{ page.next.url }}">
+                  <span>Next story</span>
+                  <strong>{{ page.next.title | escape }}</strong>
+                </a>
+              {% endif %}
+            </div>
+          </nav>
+
+          {% capture related_news_cards %}
+            {% assign related_news_count = 0 %}
+            {% for related_post in site.posts %}
+              {% if related_post.url != page.url and related_post.categories contains primary_category %}
+                {% assign related_teaser = related_post.teaser | default: "default_teaser.png" %}
+                {% assign related_teaser_first_character = related_teaser | slice: 0, 1 %}
+                {% if related_teaser contains "://" or related_teaser_first_character == "/" %}
+                  {% assign related_teaser_src = related_teaser %}
+                {% else %}
+                  {% assign related_teaser_src = "/assets/news_graphics/" | append: related_teaser %}
+                {% endif %}
+                <article class="news-related-card">
+                  <a class="news-related-card-image" href="{{ related_post.url }}" aria-hidden="true" tabindex="-1">
+                    <img src="{{ related_teaser_src | escape }}" alt="" loading="lazy">
+                  </a>
+                  <div class="news-related-card-content">
+                    <time datetime="{{ related_post.date | date_to_xmlschema }}">{{ related_post.date | date: "%B %-d, %Y" }}</time>
+                    <h3><a href="{{ related_post.url }}">{{ related_post.title | escape }}</a></h3>
+                  </div>
+                </article>
+                {% assign related_news_count = related_news_count | plus: 1 %}
+                {% if related_news_count == 3 %}{% break %}{% endif %}
+              {% endif %}
+            {% endfor %}
+          {% endcapture %}
+
+          {% if related_news_cards contains "news-related-card" %}
+            <section class="news-article-section news-related-stories" aria-labelledby="news-related-stories-heading">
+              <div class="section-heading section-heading--bordered">
+                <p class="section-eyebrow">More from the lab</p>
+                <h2 id="news-related-stories-heading">Related news</h2>
+              </div>
+              <div class="news-related-grid">
+                {{ related_news_cards }}
+              </div>
+            </section>
+          {% endif %}
+        </article>
+      </main>
+    </div>
+  </div><!-- end container -->
 </div><!-- end main-wrap -->
 
 {% include footer.html %}
