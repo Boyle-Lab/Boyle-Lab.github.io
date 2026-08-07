@@ -6,7 +6,7 @@ status:
 name: Sowmya Srinivasan
 umid: sowsrin
 position: Doctoral Student
-title: Genetics & Genomics Ph.D. Student
+title: Genetics & Genomics Ph.D. Student (co-mentored with John Prensner)
 picture: Sowmya_Srinivasan.jpg
 previous_training:
   - type: B.S.

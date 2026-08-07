@@ -5,6 +5,29 @@ layout: default
 
 {% assign sorted_people = site.people | sort: "dates.start" %}
 {% assign sorted_alumni = site.people | sort: "dates.end" | reverse %}
+
+{% comment %}
+Liquid cannot sort directly by a value inside prior_lab_roles. Build sortable
+ISO-date/umid strings from each Ph.D. student role, then sort newest first.
+{% endcomment %}
+{%- capture phd_alumni_sort_index -%}
+  {%- for person in site.people -%}
+    {%- if person.publish and person.status contains 'phd_alumni' -%}
+      {%- assign phd_end_date = nil -%}
+      {%- for role in person.prior_lab_roles -%}
+        {%- if role.position == 'Ph.D. student' and role.end -%}
+          {%- assign phd_end_date = role.end -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if phd_end_date -%}
+        {{- phd_end_date | date: "%Y-%m-%d" -}}::{{- person.umid -}}||
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{% assign sorted_phd_alumni = phd_alumni_sort_index | split: "||" | sort | reverse %}
+
 {% assign current_count = 0 %}
 {% for person in site.people %}
   {% if person.publish and person.status contains 'current' %}
@@ -44,8 +67,11 @@ layout: default
       <h2 id="phd-alumni-heading">Ph.D. and postdoctoral alumni</h2>
     </div>
     <div class="people-grid people-grid--alumni">
-      {% for person in sorted_alumni %}
-        {% if person.publish and person.status contains 'phd_alumni' %}
+      {% for alumni_sort_key in sorted_phd_alumni %}
+        {% assign alumni_sort_parts = alumni_sort_key | split: "::" %}
+        {% assign alumni_umid = alumni_sort_parts[1] %}
+        {% assign person = site.people | where: "umid", alumni_umid | first %}
+        {% if person %}
           {% include person_card.html person=person role="Doctoral student" %}
         {% endif %}
       {% endfor %}

@@ -6,7 +6,7 @@ status:
 name: Torrin McDonald, Ph.D.
 umid: torrin
 position: Postdoctoral Scholar
-title: Human Genetics Ph.D.
+title: Genetics and Genomics Ph.D. Student
 picture: Torrin_McDonald_pic.jpg
 previous_training:
   - type: B.S.

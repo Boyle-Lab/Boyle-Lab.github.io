@@ -7,7 +7,7 @@ status:
 name: Kinsey Van Deynze, Ph.D.
 umid: kvandeyn
 position: Postdoctoral Scholar
-title: Bioinformatics Ph.D.
+title: Bioinformatics Ph.D. Student
 picture: Kinsey_Van_Deynze.png
 previous_training:
   - type: B.S.

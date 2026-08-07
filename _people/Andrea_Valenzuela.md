@@ -6,7 +6,7 @@ status:
 name: Andrea Valenzuela, Ph.D.
 umid: andreava
 position: Doctoral Student
-title: Chemical Biology Ph.D. (co-mentored with Sriram Chandrasekaran)
+title: Chemical Biology Ph.D. Student (co-mentored with Sriram Chandrasekaran)
 picture: Andrea_Valenzuela.jpg
 previous_training:
   - type: B.S.

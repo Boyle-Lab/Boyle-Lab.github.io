@@ -5,8 +5,8 @@ status:
   - phd_alumni
 name: Camille Mumm, Ph.D.
 umid: crmumm
-position: Staff
-title: Bioinformatician
+position: Staff Bioinformatician
+title: Genetics and Genomics Ph.D. Student
 picture: Camille_Mumm.jpg
 previous_training:
   - type: B.S.
@@ -22,7 +22,7 @@ prior_lab_roles:
   - position: Ph.D. student
     start: 2020-01-08
     end: 2025-03-11
-  - position: Bioinformatician
+  - position: Staff Bioinformatician
     start: 2025-03-12
     end: 2026-03-27
 current_position:

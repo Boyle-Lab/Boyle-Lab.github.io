@@ -6,8 +6,8 @@ status:
   - phd_alumni
 name: Christopher Castro, Ph.D.
 umid: castrocp
-position: Staff
-title: Bioinformatician
+position: Staff Bioinformatician
+title: Staff Bioinformatician
 picture: Christopher_Castro_pic.jpg
 previous_training:
   - type: B.S.

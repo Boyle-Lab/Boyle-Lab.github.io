@@ -6,7 +6,7 @@ status:
 name: Sierra Nishizaki, Ph.D.
 umid: ssnishi
 position: Doctoral Student
-title: Genetics and Genomics Ph.D.
+title: Genetics and Genomics Ph.D. Student
 picture: Sierra_Nishizaki_pic.jpg
 previous_training:
   - type: B.S.

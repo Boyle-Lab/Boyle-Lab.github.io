@@ -6,7 +6,7 @@ status:
 name: Adam Diehl
 umid: adadiehl
 position: Staff
-title: Bioinformatician
+title: Staff Bioinformatician
 picture: Adam_pic.jpg
 previous_training:
   - type: B.S.

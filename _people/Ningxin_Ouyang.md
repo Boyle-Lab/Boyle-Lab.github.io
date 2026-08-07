@@ -6,7 +6,7 @@ status:
 name: Ningxin Ouyang, Ph.D.
 umid: nouyang
 position: Doctoral Student
-title: Bioinformatics Ph.D.
+title: Bioinformatics Ph.D. Student
 picture: Ningxin_pic.jpg
 previous_training:
   - type: B.S.
