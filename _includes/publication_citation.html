@@ -1,4 +1,12 @@
 {% assign paper = include.paper | default: include.ref %}
+{% assign has_consortium_member_role = false %}
+{% if include.show_consortium and paper.member_roles %}
+  {% for member_role in paper.member_roles %}
+    {% if member_role[1] == "consortium" %}
+      {% assign has_consortium_member_role = true %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
 <article class="publication-citation{% if include.compact %} publication-citation--compact{% endif %}" id="publication-{{ paper.bibkey | escape }}">
   <div class="publication-title-row">
     <h3 class="publication-title">
@@ -8,6 +16,7 @@
     {% if paper.status == "in_press" %}<span class="publication-badge publication-badge--in-press">In press</span>{% endif %}
     {% if paper.publication_type == "chapter" %}<span class="publication-badge">Book chapter</span>{% endif %}
     {% if paper.publication_type == "conference" %}<span class="publication-badge">Conference</span>{% endif %}
+    {% if has_consortium_member_role %}<span class="publication-badge">Consortium</span>{% endif %}
     {% if include.member_id and paper.member_roles %}
       {% assign publication_member_role = paper.member_roles[include.member_id] %}
       {% if publication_member_role %}<span class="publication-badge">{{ publication_member_role | replace: "_", " " | capitalize }}</span>{% endif %}
@@ -22,7 +31,6 @@
     {% if paper.journal %}<span class="publication-journal">{{ paper.journal | escape }}</span>{% endif %}
     {% if paper.year %}<span>{{ paper.year }}</span>{% endif %}
     {% if paper.volume %}<span><strong>{{ paper.volume | escape }}</strong>{% if paper.number %}({{ paper.number | escape }}){% endif %}{% if paper.pages %}:{{ paper.pages | escape }}{% endif %}</span>{% elsif paper.pages %}<span>{{ paper.pages | escape }}</span>{% endif %}
-    {% if paper.consortium %}<span>{{ paper.consortium | escape }}</span>{% endif %}
   </div>
 
   {% if paper.summary and include.compact != true %}
