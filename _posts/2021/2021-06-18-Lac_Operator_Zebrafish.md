@@ -10,6 +10,10 @@ categories:
 people:
   - ssnishi
   - torrin
+  - gregfar
+  - mhholmes
+  - melyssae
+  - jswitzen
 related-publication: Nishizaki2021LacOperatorZebrafish
 ---
 

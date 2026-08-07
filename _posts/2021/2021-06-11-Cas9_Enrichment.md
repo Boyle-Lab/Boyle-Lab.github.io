@@ -9,6 +9,9 @@ categories:
 - Papers
 people:
   - torrin
+  - castrocp
+  - crmumm
+  - jswitzen
 related-publication: McDonald2021Cas9MobileElements
 ---
 

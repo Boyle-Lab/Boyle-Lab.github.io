@@ -9,6 +9,7 @@ categories:
 - Papers
 people:
   - ssnishi
+  - shengchd
 related-publication: Nishizaki2019SNPBindingAffinity
 ---
 

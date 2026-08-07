@@ -9,6 +9,7 @@ categories:
 - Papers
 people:
   - adadiehl
+  - nouyang
 related-publication: Diehl2020TransposableElementLoops
 ---
 

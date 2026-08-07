@@ -9,6 +9,9 @@ categories:
 - Papers
 people:
   - mhholmes
+  - castrocp
+  - gregfar
+  - adadiehl
 related-publication: Holmes2024HaplotagLR
 ---
 

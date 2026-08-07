@@ -9,6 +9,7 @@ categories:
 - Papers
 people:
   - prparana
+  - crmumm
 related-publication: Parana2025ScytonemaGenome
 ---
 
