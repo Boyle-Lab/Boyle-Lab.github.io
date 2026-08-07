@@ -4,12 +4,12 @@ layout: default
 ---
 
 {% assign sorted_people = site.people | sort: "dates.start" %}
-{% assign sorted_phd = site.people | sort: "dates.phd_end" | reverse %}
 {% assign sorted_alumni = site.people | sort: "dates.end" | reverse %}
-{% assign sorted_rotation = site.people | sort: "dates.end" | reverse %}
 {% assign current_count = 0 %}
 {% for person in site.people %}
-  {% if person.publish and person.status == 'current' %}{% assign current_count = current_count | plus: 1 %}{% endif %}
+  {% if person.publish and person.status contains 'current' %}
+    {% assign current_count = current_count | plus: 1 %}
+  {% endif %}
 {% endfor %}
 
 <div class="site-page people-page">
@@ -31,7 +31,7 @@ layout: default
     </div>
     <div class="people-grid">
       {% for person in sorted_people %}
-        {% if person.publish and person.status == 'current' %}
+        {% if person.publish and person.status contains 'current' %}
           {% include person_card.html person=person %}
         {% endif %}
       {% endfor %}
@@ -41,16 +41,12 @@ layout: default
   <section class="people-section" aria-labelledby="phd-alumni-heading">
     <div class="section-heading section-heading--bordered">
       <p class="section-eyebrow">Alumni</p>
-      <h2 id="phd-alumni-heading">Lab Ph.D. alumni</h2>
+      <h2 id="phd-alumni-heading">Ph.D. and postdoctoral alumni</h2>
     </div>
     <div class="people-grid people-grid--alumni">
-      {% for person in sorted_phd %}
-        {% if person.publish %}
-          {% if person.status == 'phd_alumni' %}
-            {% include person_card.html person=person role="Doctoral student" %}
-          {% elsif person.status == 'current' and person.dates.phd_end %}
-            {% include person_card.html person=person role="Doctoral student" %}
-          {% endif %}
+      {% for person in sorted_alumni %}
+        {% if person.publish and person.status contains 'phd_alumni' %}
+          {% include person_card.html person=person role="Doctoral student" %}
         {% endif %}
       {% endfor %}
     </div>
@@ -63,7 +59,7 @@ layout: default
     </div>
     <div class="people-grid people-grid--alumni">
       {% for person in sorted_alumni %}
-        {% if person.publish and person.status == 'alumni' %}
+        {% if person.publish and person.status contains 'alumni' %}
           {% include person_card.html person=person %}
         {% endif %}
       {% endfor %}
@@ -76,8 +72,8 @@ layout: default
       <h2 id="rotation-students-heading">Past rotation students</h2>
     </div>
     <div class="people-grid people-grid--alumni">
-      {% for person in sorted_rotation %}
-        {% if person.publish and person.status == 'rotation' %}
+      {% for person in sorted_alumni %}
+        {% if person.publish and person.status contains 'rotation' %}
           {% include person_card.html person=person %}
         {% endif %}
       {% endfor %}
