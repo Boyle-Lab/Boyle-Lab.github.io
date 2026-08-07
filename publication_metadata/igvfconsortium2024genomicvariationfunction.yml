@@ -1,5 +1,11 @@
 bibkey: IGVFConsortium2024GenomicVariationFunction
 members:
 - apboyle
+- rintsen
+- castrocp
+- samzhao
 member_roles:
   apboyle: consortium
+  rintsen: consortium
+  castrocp: consortium
+  samzhao: consortium
