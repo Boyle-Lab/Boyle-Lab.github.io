@@ -53,4 +53,13 @@ primary_url: https://doi.org/10.1093/nar/gkae1202
 pdf: http://boylelab.org/pubs/NAR_2024_VanDeynze.pdf
 abstract: |-
   Tandem repeat sequences comprise approximately 8% of the human genome and are linked to more than 50 neurodegenerative disorders. Accurate characterization of disease-associated repeat loci remains resource intensive and often lacks high resolution genotype calls. We introduce a multiplexed, targeted nanopore sequencing panel and HMMSTR, a sequence-based tandem repeat copy number caller which outperforms current signal- and sequence-based callers relative to two assemblies and we show it performs with high accuracy in heterozygous regions and at low read coverage. The flexible panel allows us to capture disease associated regions at an average coverage of \>150x. Using these tools, we successfully characterize known or suspected repeat expansions in patient derived samples. In these samples, we also identify unexpected expanded alleles at tandem repeat loci not previously associated with the underlying diagnosis. This genotyping approach for tandem repeat expansions is scalable, simple, flexible and accurate, offering significant potential for diagnostic applications and investigation of expansion co-occurrence in neurodegenerative disorders.
+featured: true
+topics:
+- Tandem repeats
+- Long-read sequencing
+- Neurogenetics
+- Computational methods
+summary: |-
+  HMMSTR combines targeted nanopore sequencing with a sequence-based hidden Markov model to genotype disease-associated tandem repeats, including long and interrupted alleles. The approach enables accurate, scalable analysis of repeat expansions in patient-derived samples.
+teaser: /assets/images/publications/VanDeynze2025HMMSTR.png
 ---

@@ -62,4 +62,13 @@ links:
   code: https://github.com/Boyle-Lab/NanoPal-and-Cas9-targeted-enrichment-pipelines
 abstract: |-
   Mobile element insertions (MEIs) are repetitive genomic sequences that contribute to genetic variation and can lead to genetic disorders. Targeted and whole-genome approaches using short-read sequencing have been developed to identify reference and non-reference MEIs; however, the read length hampers detection of these elements in complex genomic regions. Here, we pair Cas9-targeted nanopore sequencing with computational methodologies to capture active MEIs in human genomes. We demonstrate parallel enrichment for distinct classes of MEIs, averaging 44% of reads on-targeted signals and exhibiting a 13.4-54x enrichment over whole-genome approaches. We show an individual flow cell can recover most MEIs (97% L1Hs, 93% AluYb, 51% AluYa, 99% SVA_F, and 65% SVA_E). We identify seventeen non-reference MEIs in GM12878 overlooked by modern, long-read analysis pipelines, primarily in repetitive genomic regions. This work introduces the utility of nanopore sequencing for MEI enrichment and lays the foundation for rapid discovery of elusive, repetitive genetic elements.
+featured: true
+topics:
+- Long-read sequencing
+- Mobile elements
+- Method development
+- Structural variation
+summary: |-
+  Cas9 enrichment coupled with nanopore sequencing captures active mobile element insertions at high coverage and resolves their breakpoints and structure. The method detects insertions missed by standard whole-genome pipelines and establishes a flexible strategy for targeted analysis of repetitive variation.
+teaser: /assets/images/publications/McDonald2021Cas9MobileElements.png
 ---

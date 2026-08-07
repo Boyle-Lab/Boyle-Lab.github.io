@@ -6,3 +6,13 @@ members:
 - apboyle
 author_member_map:
   kvandeyn: Van Deynze, Kinsey
+featured: true
+topics:
+- Tandem repeats
+- Long-read sequencing
+- Neurogenetics
+- Computational methods
+summary: HMMSTR combines targeted nanopore sequencing with a sequence-based hidden Markov model to genotype
+  disease-associated tandem repeats, including long and interrupted alleles. The approach enables accurate,
+  scalable analysis of repeat expansions in patient-derived samples.
+teaser: /assets/images/publications/VanDeynze2025HMMSTR.png

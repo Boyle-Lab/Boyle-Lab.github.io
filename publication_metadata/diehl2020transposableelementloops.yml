@@ -9,3 +9,13 @@ links:
   - https://rna.umich.edu/transposable-elements/
 biorxiv: https://www.biorxiv.org/content/10.1101/679217v1
 PMID: 32286261
+featured: true
+topics:
+- 3D genome
+- Transposable elements
+- Gene regulation
+- Genome evolution
+summary: This study shows that transposable elements have rewired CTCF binding and chromatin loops during
+  mammalian evolution. TE-derived loops help explain cell- and species-specific gene regulation, connecting
+  repetitive DNA to the structure and evolution of the 3D genome.
+teaser: /assets/images/publications/Diehl2020TransposableElementLoops.png

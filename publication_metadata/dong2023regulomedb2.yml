@@ -5,3 +5,13 @@ members:
 - apboyle
 author_member_map:
   samzhao: Zhao, Nanxiang
+featured: true
+topics:
+- Noncoding variation
+- Functional genomics
+- Variant interpretation
+- Community resource
+summary: RegulomeDB v2 integrates thousands of functional genomics datasets with probabilistic scores
+  to prioritize noncoding variants in tissue-specific regulatory contexts. The updated resource helps
+  researchers move from association signals to testable hypotheses about variant function.
+teaser: /assets/images/publications/Dong2023RegulomeDB2.png

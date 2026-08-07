@@ -9,3 +9,14 @@ links:
   code: https://github.com/Boyle-Lab/NanoPal-and-Cas9-targeted-enrichment-pipelines
 biorxiv: https://www.biorxiv.org/content/10.1101/2021.02.10.430605v1
 PMID: 34117247
+featured: true
+topics:
+- Long-read sequencing
+- Mobile elements
+- Method development
+- Structural variation
+summary: Cas9 enrichment coupled with nanopore sequencing captures active mobile element insertions at
+  high coverage and resolves their breakpoints and structure. The method detects insertions missed by
+  standard whole-genome pipelines and establishes a flexible strategy for targeted analysis of repetitive
+  variation.
+teaser: /assets/images/publications/McDonald2021Cas9MobileElements.png

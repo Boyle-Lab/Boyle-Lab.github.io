@@ -57,4 +57,13 @@ primary_url: https://www.nature.com/articles/s41588-023-01365-3
 pdf: http://boylelab.org/pubs/Nature_Genetics_2023_Dong.pdf
 abstract: |-
   Nearly 90% of the disease risk-associated variants identified from genome-wide association studies (GWAS) are in non-coding regions of the genome. The annotations obtained from analyzing functional genomics assays can provide additional information to pinpoint causal variants, which are often not the lead variants identified from association studies. However, the lack of available annotation tools limits the use of such data. To address the challenge, we have previously built the RegulomeDB database for prioritizing and annotating variants in non-coding regions1, which has been a highly utilized resource for the research community (Supplementary Fig. 1). RegulomeDB annotates a variant by intersecting its position with genomic intervals identified from functional genomic assays and computational approaches. It also incorporates those hits of a variant into a heuristic ranking score, representing its potential to be functional in regulatory elements. Here we present a newer version of the RegulomeDB web server, RegulomeDB v2.1 (http://regulomedb.org). We improve and boost annotation power by incorporating thousands of newly processed data from functional genomic assays in GRCh38 assembly, and now include probabilistic scores from the SURF algorithm that was the top performing non-coding variant predictor in CAGI 52. We also provide interactive charts and genome browser views to allow users an easy way to perform exploratory analyses in different tissue contexts.Competing Interest StatementThe authors have declared no competing interest.
+featured: true
+topics:
+- Noncoding variation
+- Functional genomics
+- Variant interpretation
+- Community resource
+summary: |-
+  RegulomeDB v2 integrates thousands of functional genomics datasets with probabilistic scores to prioritize noncoding variants in tissue-specific regulatory contexts. The updated resource helps researchers move from association signals to testable hypotheses about variant function.
+teaser: /assets/images/publications/Dong2023RegulomeDB2.png
 ---

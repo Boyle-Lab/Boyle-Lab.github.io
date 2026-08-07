@@ -50,4 +50,13 @@ links:
   - https://rna.umich.edu/transposable-elements/
 abstract: |-
   Chromatin looping is important for gene regulation, and studies of 3D chromatin structure across species and cell types have improved our understanding of the principles governing chromatin looping. However, 3D genome evolution and its relationship with natural selection remains largely unexplored. In mammals, the CTCF protein defines the boundaries of most chromatin loops, and variations in CTCF occupancy are associated with looping divergence. While many CTCF binding sites fall within transposable elements (TEs), their contribution to 3D chromatin structural evolution is unknown. Here we report the relative contributions of TE-driven CTCF binding site expansions to conserved and divergent chromatin looping in human and mouse. We demonstrate that TE-derived CTCF binding divergence may explain a large fraction of variable loops. These variable loops contribute significantly to corresponding gene expression variability across cells and species, possibly by refining sub-TAD-scale loop contacts responsible for cell-type-specific enhancer-promoter interactions.
+featured: true
+topics:
+- 3D genome
+- Transposable elements
+- Gene regulation
+- Genome evolution
+summary: |-
+  This study shows that transposable elements have rewired CTCF binding and chromatin loops during mammalian evolution. TE-derived loops help explain cell- and species-specific gene regulation, connecting repetitive DNA to the structure and evolution of the 3D genome.
+teaser: /assets/images/publications/Diehl2020TransposableElementLoops.png
 ---
