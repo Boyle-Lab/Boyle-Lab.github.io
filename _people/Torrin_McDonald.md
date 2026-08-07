@@ -29,7 +29,10 @@ current_position:
   url: https://www.linkedin.com/in/torrinmcdonald
   as_of: 2026-08-07
 social:
+  email: torrin@umich.edu
   orcid: 0000-0002-0915-4570
+  google-scholar: eX0zLTMAAAAJ
+  linked-in: torrinmcdonald
 theme_areas:
   - Non-coding Genome
   - Human Genetics
