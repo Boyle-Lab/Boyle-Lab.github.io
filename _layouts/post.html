@@ -95,7 +95,7 @@
               <span class="news-article-category">{{ primary_category | escape }}</span>
               <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
             </div>
-            <h1>{{ page.title | escape }}</h1>
+            <h2>{{ page.title | escape }}</h2>
             <span class="news-article-title-rule" aria-hidden="true"></span>
             {% if page.summary %}
               <p class="news-article-deck">{{ page.summary | escape }}</p>
