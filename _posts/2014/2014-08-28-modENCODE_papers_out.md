@@ -7,6 +7,7 @@ external-url:
 teaser: 2014/modENCODE.jpg
 categories:
 - Papers
+related-publication: Boyle2014ComparativeRegulatoryCircuits
 ---
 
 After many years of work, our Nature paper on conservation of regulatory features between humans and <i>C. elegans</i> and <i>D. melanogaster</i> are released. Dr. Boyle ran the analysis of the regulatory features in the genome and orchestrated the publication. <a href="https://www.encodeproject.org/comparative/">Data and papers for this project are available here.</a>

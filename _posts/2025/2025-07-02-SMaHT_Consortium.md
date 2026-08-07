@@ -7,6 +7,12 @@ external-url: https://www.nature.com/articles/s41586-025-09096-7
 teaser: 2025/SMaHT_marker.png
 categories:
 - Papers
+people:
+  - torrin
+  - slosh
+  - imf
+  - crmumm
+  - jswitzen
 related-publication: Coorens2025SMaHTNetwork
 ---
 
