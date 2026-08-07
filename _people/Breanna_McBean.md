@@ -15,7 +15,7 @@ previous_training:
 dates:
   start: 2020-08-31
 prior_lab_roles:
-  - position: Genetics and Genomics Ph.D. Student
+  - position: Genetics and Genomics Ph.D. student
     start: 2020-08-31
     end: 2026-03-06
 social:
