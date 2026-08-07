@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: The Lab Attends Biology of Genomes 2026!
+title: The Lab attends Biology of Genomes 2026!
 date: '2026-05-05'
 external-url:
 teaser: 2026/binoculars.jpg
