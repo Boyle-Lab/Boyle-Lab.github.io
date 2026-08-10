@@ -9,7 +9,7 @@ layout: default
       <p class="home-intro-eyebrow">Computational and experimental genomics</p>
       <h1 id="home-intro-heading">Exploring the Genome</h1>
       <span class="home-heading-rule home-heading-rule--maize" aria-hidden="true"></span>
-      <p class="home-intro-copy">We combine computational genomics, long-read sequencing, and high-throughput experiments to understand how regulatory and repetitive variation shapes genome function and human disease. By developing new experimental and computational methods, we connect human genetic variation to molecular mechanism.</p>
+      <p class="home-intro-copy">We combine computational genomics, long-read sequencing, and high-throughput experiments to understand how regulatory and repetitive variation shapes genome function and human disease. By developing new experimental and computational methods, we connect human genetic variation to molecular mechanism and human disease.</p>
       <div class="home-intro-actions" aria-label="Learn more about the Boyle Lab">
         <a class="home-primary-link" href="/research/">Explore our research</a>
         <a class="home-secondary-link" href="/people/">Meet the lab</a>
@@ -46,15 +46,25 @@ layout: default
     </div>
   </section>
 
+  {% assign current_timestamp = site.time | date: "%s" | plus: 0 %}
+  {% assign one_year_ago_timestamp = current_timestamp | minus: 31536000 %}
   {% assign home_visual_posts = site.array %}
+
   {% for post in site.posts %}
     {% if post.teaser %}
       {% if post.categories contains "Events" or post.categories contains "Conferences" %}
-        {% assign home_visual_posts = home_visual_posts | push: post %}
+        {% assign post_timestamp = post.date | date: "%s" | plus: 0 %}
+
+        {% if post_timestamp >= one_year_ago_timestamp and post_timestamp <= current_timestamp %}
+          {% assign home_visual_posts = home_visual_posts | push: post %}
+        {% endif %}
       {% endif %}
     {% endif %}
   {% endfor %}
-  {% assign home_visual_post = home_visual_posts | sample %}
+
+  {% if home_visual_posts.size > 0 %}
+    {% assign home_visual_post = home_visual_posts | sample %}
+  {% endif %}
 
   <section class="home-wide-section home-news-section" aria-labelledby="home-news-heading">
     <header class="home-wide-section-header">
@@ -67,7 +77,7 @@ layout: default
 
     <div class="home-news-layout">
       <div class="home-news-updates" aria-label="Latest Boyle Lab news">
-        {% for post in site.posts limit:4 %}
+        {% for post in site.posts limit:5 %}
           <article class="home-news-item">
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
             <h3><a href="{{ post.url }}">{{ post.title | escape }}</a></h3>
