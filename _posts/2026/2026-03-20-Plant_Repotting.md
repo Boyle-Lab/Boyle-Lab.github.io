@@ -9,7 +9,7 @@ categories:
 - Events
 ---
 
-We spent some time outside getting our hands dirty, potting plants to add some greenery to our workspace!
+We spent some time outside getting some plants potted to add a little greenery to our workspace!
 
 <div>
 {% for image in site.static_files %}
