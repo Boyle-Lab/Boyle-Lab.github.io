@@ -6,7 +6,7 @@ date: '2016-12-02'
 external-url:
 teaser: 2016/Baby_Shower.jpg
 categories:
-- Fun
+- Events
 ---
 
 The Boyle lab celebrates Jessica's first little girl on her way in December!

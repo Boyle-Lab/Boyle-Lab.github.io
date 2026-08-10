@@ -6,6 +6,7 @@ date: '2018-12-12'
 external-url:
 teaser: 2018/gbhouse.jpg
 categories:
+- Events
 - Awards
 ---
 

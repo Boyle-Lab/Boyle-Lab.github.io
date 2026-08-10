@@ -6,6 +6,7 @@ date: '2019-05-09'
 external-url:
 teaser: 2019/GlobalExc.jpg
 categories:
+- Students
 - Awards
 ---
 

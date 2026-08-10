@@ -6,7 +6,7 @@ date: '2016-12-14'
 external-url:
 teaser: 2016/Christmas_Door.jpg
 categories:
-- Fun
+- Events
 ---
 
 The Boyle and Parker labs win the annual DCM&B door decorating contest for the 'Most Creative Door'!

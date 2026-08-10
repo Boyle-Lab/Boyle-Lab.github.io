@@ -6,6 +6,7 @@ date: '2017-06-15'
 external-url:
 teaser: congratulations.jpg
 categories:
+- Students
 - Awards
 ---
 Haley was awarded the PIBS Excellence in Service award for all of her amazing work as the president of UM's Association for Women in Science, coordinating (and speaking at) the Ann Arbor March For Science, and all of the other outreach events she has helped organize. Congrats Haley! 

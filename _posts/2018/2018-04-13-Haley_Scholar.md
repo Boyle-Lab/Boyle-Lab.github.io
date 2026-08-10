@@ -6,6 +6,7 @@ date: '2018-04-13'
 external-url:
 teaser: congratulations.jpg
 categories:
+- Students
 - Awards
 ---
 
