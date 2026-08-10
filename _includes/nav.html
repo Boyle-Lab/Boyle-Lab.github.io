@@ -8,19 +8,36 @@
       <a id="wsite-title" class="site-lab-brand" href="/" aria-label="Boyle Lab home">
         <img src="/assets/images/lab-logo.png" alt="The Boyle Lab" height="50">
       </a>
+
       <a id="wsite-university" class="site-university-brand" href="https://umich.edu/" aria-label="University of Michigan">
         <img src="/assets/images/U-M_2color-HorizontalReversed.30px.png" alt="University of Michigan" height="30">
       </a>
+
+      <button
+        class="site-nav-toggle"
+        type="button"
+        aria-controls="navigation"
+        aria-expanded="false"
+        aria-label="Open primary navigation"
+        hidden>
+        <span class="site-nav-toggle-bars" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <span class="site-nav-toggle-label">Menu</span>
+      </button>
+
       <nav id="navigation" aria-label="Primary navigation">
         <ul class="wsite-menu-default">
-          <li{% if current_path == '/' %} id="active"{% endif %}><a href="/">Home</a></li>
-          <li{% if current_path contains '/research/' %} id="active"{% endif %}><a href="/research/">Research</a></li>
-          <li{% if current_path contains '/people/' %} id="active"{% endif %}><a href="/people/">People</a></li>
-          <li{% if current_path contains '/software/' %} id="active"{% endif %}><a href="/software/">Software</a></li>
-          <li{% if current_path contains '/publications/' or current_path contains '/pub_bib/' %} id="active"{% endif %}><a href="/publications/">Publications</a></li>
-          <li{% if current_path contains '/jobs/' %} id="active"{% endif %}><a href="/jobs/">Jobs</a></li>
-          <li{% if current_path contains '/news/' %} id="active"{% endif %}><a href="/news/">News</a></li>
-          <li{% if current_path contains '/contact/' %} id="active"{% endif %}><a href="/contact/">Contact</a></li>
+          <li{% if current_path == '/' %} id="active"{% endif %}><a href="/"{% if current_path == '/' %} aria-current="page"{% endif %}>Home</a></li>
+          <li{% if current_path contains '/research/' %} id="active"{% endif %}><a href="/research/"{% if current_path contains '/research/' %} aria-current="page"{% endif %}>Research</a></li>
+          <li{% if current_path contains '/people/' %} id="active"{% endif %}><a href="/people/"{% if current_path contains '/people/' %} aria-current="page"{% endif %}>People</a></li>
+          <li{% if current_path contains '/software/' %} id="active"{% endif %}><a href="/software/"{% if current_path contains '/software/' %} aria-current="page"{% endif %}>Software</a></li>
+          <li{% if current_path contains '/publications/' or current_path contains '/pub_bib/' %} id="active"{% endif %}><a href="/publications/"{% if current_path contains '/publications/' or current_path contains '/pub_bib/' %} aria-current="page"{% endif %}>Publications</a></li>
+          <li{% if current_path contains '/jobs/' %} id="active"{% endif %}><a href="/jobs/"{% if current_path contains '/jobs/' %} aria-current="page"{% endif %}>Jobs</a></li>
+          <li{% if current_path contains '/news/' %} id="active"{% endif %}><a href="/news/"{% if current_path contains '/news/' %} aria-current="page"{% endif %}>News</a></li>
+          <li{% if current_path contains '/contact/' %} id="active"{% endif %}><a href="/contact/"{% if current_path contains '/contact/' %} aria-current="page"{% endif %}>Contact</a></li>
         </ul>
       </nav>
     </div>

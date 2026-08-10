@@ -1,0 +1,212 @@
+/* Responsive primary navigation
+   Loaded after main_style.css so these rules can refine the legacy header
+   without changing the desktop navigation. */
+
+.site-nav-toggle {
+	display: none;
+}
+
+.site-nav-toggle[hidden],
+#navigation[hidden] {
+	display: none !important;
+}
+
+@media (max-width: 720px) {
+	.site-nav .container {
+		padding: 10px 14px 9px;
+	}
+
+	.site-nav-shell {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) auto;
+		grid-template-rows: auto auto auto;
+		align-items: center;
+		gap: 7px 12px;
+	}
+
+	.site-lab-brand {
+		grid-column: 1;
+		grid-row: 1;
+		min-width: 0;
+		max-width: 215px;
+	}
+
+	#wsite-title img {
+		width: auto;
+		height: auto;
+		max-width: 100%;
+		max-height: 48px;
+	}
+
+	.site-university-brand {
+		grid-column: 1 / -1;
+		grid-row: 2;
+		justify-self: start;
+	}
+
+	#wsite-university img {
+		width: auto;
+		height: 24px;
+		max-width: 100%;
+	}
+
+	.site-nav-toggle {
+		grid-column: 2;
+		grid-row: 1;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		gap: 8px;
+		min-width: 88px;
+		min-height: 42px;
+		padding: 8px 11px;
+		border: 1px solid #00274c;
+		border-radius: 3px;
+		background: #00274c;
+		color: #fff;
+		font: 700 12px/1 'Open Sans', Arial, sans-serif;
+		letter-spacing: .04em;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+
+	.site-nav-toggle:hover {
+		border-color: #0d57aa;
+		background: #0d57aa;
+	}
+
+	.site-nav-toggle:focus-visible {
+		outline: 3px solid #ffcb05;
+		outline-offset: 3px;
+	}
+
+	.site-nav-toggle-bars {
+		display: inline-flex;
+		position: relative;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 18px;
+		height: 14px;
+	}
+
+	.site-nav-toggle-bars span {
+		display: block;
+		width: 18px;
+		height: 2px;
+		border-radius: 1px;
+		background: currentColor;
+		transition: transform .18s ease, opacity .18s ease;
+		transform-origin: center;
+	}
+
+	.site-nav-toggle[aria-expanded="true"] .site-nav-toggle-bars span:first-child {
+		transform: translateY(6px) rotate(45deg);
+	}
+
+	.site-nav-toggle[aria-expanded="true"] .site-nav-toggle-bars span:nth-child(2) {
+		opacity: 0;
+	}
+
+	.site-nav-toggle[aria-expanded="true"] .site-nav-toggle-bars span:last-child {
+		transform: translateY(-6px) rotate(-45deg);
+	}
+
+	#navigation {
+		grid-column: 1 / -1;
+		grid-row: 3;
+		justify-self: stretch;
+		width: 100%;
+		margin: 2px 0 0;
+	}
+
+	#navigation ul {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 6px;
+		width: 100%;
+		margin: 0;
+		padding: 10px 0 2px;
+		border-top: 1px solid #d9dfe5;
+		white-space: normal;
+	}
+
+	#navigation li {
+		display: block;
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+
+	#navigation ul li a,
+	#navigation ul li#active a {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		float: none;
+		width: 100%;
+		min-height: 46px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 10px 12px;
+		border: 1px solid #d9dfe5;
+		border-left: 4px solid transparent;
+		border-radius: 3px;
+		background: #f4f6f8;
+		color: #00274c;
+		font: 700 12px/1.25 'Open Sans', Arial, sans-serif;
+		letter-spacing: .035em;
+		text-transform: uppercase;
+	}
+
+	#navigation ul li a:hover,
+	#navigation ul li a:focus-visible {
+		padding: 10px 12px;
+		border: 1px solid #9eabb7;
+		border-left: 4px solid #ffcb05;
+		background: #fff;
+		color: #0d57aa;
+	}
+
+	#navigation ul li a:focus-visible {
+		outline: 3px solid rgba(255, 203, 5, .65);
+		outline-offset: 1px;
+	}
+
+	#navigation ul li#active a,
+	#navigation ul li#active a:hover,
+	#navigation ul li#active a:focus-visible {
+		padding: 10px 12px;
+		border: 1px solid #00274c;
+		border-left: 4px solid #ffcb05;
+		background: #00274c;
+		color: #fff;
+	}
+}
+
+@media (max-width: 380px) {
+	.site-nav .container {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	.site-lab-brand {
+		max-width: 185px;
+	}
+
+	.site-nav-toggle {
+		min-width: 80px;
+		padding-right: 9px;
+		padding-left: 9px;
+	}
+
+	#navigation ul li a,
+	#navigation ul li#active a,
+	#navigation ul li a:hover,
+	#navigation ul li a:focus-visible,
+	#navigation ul li#active a:hover,
+	#navigation ul li#active a:focus-visible {
+		padding-right: 9px;
+		padding-left: 9px;
+		font-size: 11px;
+	}
+}
