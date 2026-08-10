@@ -6,7 +6,7 @@ date: '2026-05-05'
 external-url:
 teaser: 2026/binoculars.jpg
 categories:
-- Events
+- Conferences
 ---
 
 Katarina, Ingrid, and Rintsen attended Biology of Genomes at the Cold Spring Harbor Laboratory campus in New York! They all got to present their research and Katarina was invited to give a talk! It was also a great opportunity to enjoy nature; walking along the beach, birdwatching, and spotting horseshoe crabs (some more alive than others).

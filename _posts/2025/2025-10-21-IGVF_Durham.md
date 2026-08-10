@@ -6,7 +6,7 @@ date: '2025-10-21'
 external-url:
 teaser: 2025/alan_poster.jpg
 categories:
-- Events
+- Conferences
 ---
 
 Alan, Rintsen, and Christopher attended the IGVF Annual Meeting in Durham, North Carolina. Alan presented some of our work during the PI-only poster session and Rintsen gave a talk on some of the exciting collaborative work being done across the consortium. Over the three days, it was great to catch up and share ideas in person with collaborators. There was also time for dinners, socializing, and fun at the Durham ballpark, where we got to take batting practice! 

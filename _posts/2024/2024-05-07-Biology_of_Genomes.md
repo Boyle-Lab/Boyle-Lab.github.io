@@ -6,7 +6,7 @@ date: '2024-05-07'
 external-url:
 teaser: 2024/kat_rintsen_bog.jpg
 categories:
-- Events
+- Conferences
 ---
 
 Katarina and Rintsen attended Biology of Genomes at the Cold Spring Harbor Laboratory campus in New York! They presented their work and got the chance to socialize and share ideas with other researchers. The weather was great for going on walks and enjoying nice views of the harbor!
