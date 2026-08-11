@@ -4,7 +4,7 @@ published: true
 title: Pumpkin Carving Party!
 date: '2022-10-22'
 external-url:
-teaser: 2022/pumpkins.png
+teaser: 2022/pumpkins.jpg
 categories:
 - Events
 ---
