@@ -4,7 +4,7 @@ published: true
 title: Congratulations Dr. Mumm!
 date: '2025-03-11'
 external-url:
-teaser: 2025/Camille_PhD.png
+teaser: 2025/Camille_PhD.jpg
 categories:
 - Students
 ---
