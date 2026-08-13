@@ -18,16 +18,16 @@ dates:
   end: 2021-06-06
 prior_lab_roles:
   - position: Bioinformatics Ph.D. student
-    start: '2015-07-01'
-    end: '2017-07-01'
+    start: 2015-07-01
+    end: 2017-07-01
   - position: Volunteer Researcher
-    start: '2019-04-10'
-    end: '2021-06-06'
+    start: 2019-04-10
+    end: 2021-06-06
 current_position:
   title: Research Lab Specialist Intermediate (Lab Manager)
   organization: Athey Lab, University of Michigan
   url: https://medschool.umich.edu/department-news/congratulations-aj-wing-phd-and-greg-farnum-receiving-ebs-award
-  as_of: '2026-08-07'
+  as_of: 2026-08-07
 social:
   orcid: 0000-0002-0915-4570
 theme_areas:

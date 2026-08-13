@@ -24,11 +24,9 @@ author_list:
   member_url: /people/Torrin_McDonald/
   member_name: Torrin McDonald, Ph.D.
 - citation_name: Bessell B
-  member_url: /people/Brandt_Bessell/
-  member_name: Brandt Bessell
 - citation_name: Van Deynze K
   member_url: /people/Kinsey_Van_Deynze/
-  member_name: Kinsey Van Deynze, PhD
+  member_name: Kinsey Van Deynze, Ph.D.
 - citation_name: McConnell MJ
   co_senior: true
 - citation_name: Boyle AP
@@ -44,7 +42,6 @@ members:
 - jswitzen
 - slosh
 - torrin
-- bbessell
 - kvandeyn
 - apboyle
 bibtex: |-
