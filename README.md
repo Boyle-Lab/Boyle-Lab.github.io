@@ -42,7 +42,6 @@ scripts/build_site.sh
 - [JOBS.md](JOBS.md): job-posting collection.
 - [DEVELOPMENT.md](DEVELOPMENT.md): local development, testing, and deployment.
 - [STYLES_AND_ASSETS.md](STYLES_AND_ASSETS.md): CSS and asset conventions.
-- [CLEANUP.md](CLEANUP.md): removed legacy files and retention decisions.
 
 ## Automated deployment
 
