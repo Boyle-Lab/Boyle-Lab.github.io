@@ -1,15 +1,28 @@
+\DocumentMetadata{
+    lang=en-US,
+    pdfstandard=UA-1,
+    testphase=phase-III
+}
 \documentclass[10pt]{article}
-\usepackage{array, color, fancyhdr, multirow, longtable, enumitem, needspace}
+\usepackage{array, fancyhdr, multirow, longtable, enumitem, needspace, lastpage, xcolor}
 \usepackage[top=0.5in, bottom=1in, left=0.75in, right=0.75in]{geometry}
+
+\definecolor{MichiganBlue}{HTML}{00274C}
+\definecolor{lightgray}{gray}{0.8}
+
 
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,
-    urlcolor=cyan,
+    allcolors=MichiganBlue,
     bookmarks=true,
     bookmarksopen=true,
+    bookmarksopenlevel=1,
+    pdfdisplaydoctitle=true,
+    pdftitle={Alan P. Boyle - Curriculum Vitae},
+    pdfauthor={Alan P. Boyle},
+    pdfsubject={Academic curriculum vitae},
+    pdfkeywords={genomics, bioinformatics, computational biology, gene regulation, noncoding variation, long-read sequencing, University of Michigan},
 }
 
 \urlstyle{same}
@@ -17,7 +30,6 @@
 \usepackage{fontspec}
 \setmainfont{Liberation Sans}[Scale=1]
 
-\definecolor{lightgray}{gray}{0.8}
 \newcolumntype{L}{>{\raggedleft\scriptsize}p{0.12\textwidth}}
 \newcolumntype{R}{p{0.84\textwidth}}
 \newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
@@ -29,23 +41,31 @@
 \renewcommand\section{\@startsection {section}{1}{\z@}%
                                    {-3.5ex \@plus -1ex \@minus -.2ex}%
                                    {1.0ex \@plus.2ex}%
-                                   {\normalfont\large\bfseries}}% from \Large
+                                   {\normalfont\large\bfseries\color{MichiganBlue}}}% from \Large
 \renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
                                      {-3.25ex\@plus -1ex \@minus -.2ex}%
                                      {0.5ex \@plus .2ex}%
                                      {\normalfont\normalsize\bfseries}}% from \large
 \makeatother
 
+% Major CV sections are unnumbered in print but included in the PDF outline.
+\newcommand{\cvsection}[1]{%
+    \phantomsection%
+    \section*{#1}%
+    \addcontentsline{toc}{section}{#1}%
+}
+
 \setlength{\headheight}{0.5in}
 \pagestyle{fancy}
 \fancyhf{}
 
-\rhead{Alan P. Boyle}
-\lhead{\today}
-\cfoot{\thepage}
+\lhead{\small Updated August 2026}
+\rhead{\small Alan P. Boyle \textbar{} Curriculum Vitae}
+\cfoot{\small Page \thepage{} of \pageref*{LastPage}}
 
 \begin{document}
-\thispagestyle{plain}
+\thispagestyle{fancy}
+\pdfbookmark[0]{Alan P. Boyle - Curriculum Vitae}{cv-title}
 
 \begin{tabular*}{.95\textwidth}{l@{\extracolsep{\fill}}r}
 & {\small 5B322 Medical Science I }\\
@@ -56,7 +76,7 @@
 \end{tabular*}
 \hrule
 
-\section*{Education}
+\cvsection{Education}
 \begin{tabular}{L!{\VRule}R}
 2005--2009&{\bf Doctor of Philosophy,} Computational Biology and Bioinformatics\\
 &{Duke University, Durham, NC}\\
@@ -66,7 +86,7 @@
 &{Mississippi State University, Starkville, MS}\\
 \end{tabular}
 
-\section*{Academic Appointments}
+\cvsection{Academic Appointments}
 \begin{tabular}{L!{\VRule}R}
 2025--present&{\bf Professor with tenure,} Department of Computational Medicine \& Bioinformatics\\
 &{\bf Professor,} Department of Human Genetics\\
@@ -87,7 +107,7 @@ Spring 2010&{\bf Postdoctoral Associate,} Computational Biology\\
 &{Duke University, Durham, NC; Advisor: Dr. Terrence S. Furey}\\
 \end{tabular}
 
-\section*{Institutional Affiliations}
+\cvsection{Institutional Affiliations}
 \begin{tabular}{L!{\VRule}R}
 2023--present&{\bf Core Member,} Rogel Cancer Center\\
 2021--present&{\bf Affiliate,} Michigan Neuroscience Institute\\
@@ -95,13 +115,13 @@ Spring 2010&{\bf Postdoctoral Associate,} Computational Biology\\
 2020--2023&{\bf Affiliate Member,} Rogel Cancer Center\\
 \end{tabular}
 
-\section*{Other Professional Experience}
+\cvsection{Other Professional Experience}
 \begin{tabular}{L!{\VRule}R}
 2013--2014&{\bf Consultant,} Color Genomics\\
 &{Personalized medicine and genomics startup}\\
 \end{tabular}
 
-\section*{Scholarships, Fellowships, and Honors}
+\cvsection{Scholarships, Fellowships, and Honors}
 \begin{longtable}{L!{\VRule}R}
 %2023&University of Michigan ‘Making a Difference’ Award from Office for Health Equity \& Inclusion\\
 2022&Valuing our Own Award, Michigan Medicine\\
@@ -123,7 +143,7 @@ Summer 2003&{The Institute for Genomic Research (TIGR) Summer Fellow}\\
 2001&National Merit Scholarship
 \end{longtable}
 
-\section*{Research Support}
+\cvsection{Research Support}
 \Needspace{8\baselineskip}
 \subsection*{Active: Principal Investigator and Multi-Principal Investigator}
 \begin{longtable}{L!{\VRule}R}
@@ -206,7 +226,7 @@ Summer 2003&{The Institute for Genomic Research (TIGR) Summer Fellow}\\
 &Large-scale human genetics to understand molecular mechanisms of atrial fibrillation and related traits\\
 \end{longtable}
 
-\section*{Professional Service}
+\cvsection{Professional Service}
 \subsection*{Institutional and Consortium Leadership}
 \begin{longtable}{L!{\VRule}R}
 2026--present&Michigan Neuroscience Institute Executive Committee\\
@@ -281,7 +301,7 @@ Summer 2003&{The Institute for Genomic Research (TIGR) Summer Fellow}\\
 2005--present&Gamma Sigma Delta Agricultural Honor Society\\
 \end{longtable}
 
-\section*{Teaching and Mentorship}
+\cvsection{Teaching and Mentorship}
 \subsection*{Training Programs}
 \begin{longtable}{L!{\VRule}R}
 2024--present&{\bf Member,} Systems \& Integrative Biology Training Grant (SIB)\\

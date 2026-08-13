@@ -30,8 +30,9 @@ class WorkflowTests(unittest.TestCase):
         self.assertIn("python scripts/build_publications.py --strict", self.text)
         self.assertIn("python scripts/build_cv.py --strict --compile", self.text)
         self.assertIn("python -m unittest discover -s tests -v", self.text)
-        for package in ("fonts-liberation2", "texlive-latex-extra", "texlive-xetex"):
+        for package in ("fonts-liberation2", "texlive-latex-extra", "texlive-luatex"):
             self.assertIn(package, self.text)
+        self.assertIn("Install LuaLaTeX for the tagged CV", self.text)
 
     def test_pull_requests_require_text_outputs_but_compile_the_pdf(self) -> None:
         self.assertIn("git status --porcelain -- _papers pub.bib cv/generated", self.text)

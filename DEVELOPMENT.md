@@ -6,7 +6,7 @@
 - Ruby compatible with the current `github-pages` gem.
 - Bundler.
 - Git.
-- XeLaTeX and Liberation Sans when compiling the CV locally.
+- LuaLaTeX, the standard LaTeX-extra packages, and Liberation Sans when compiling the tagged CV locally.
 
 Install dependencies:
 
@@ -14,7 +14,7 @@ Install dependencies:
 python3 -m pip install --requirement requirements-publications.txt
 bundle install
 # Debian/Ubuntu only, for CV compilation:
-sudo apt-get install fonts-liberation2 texlive-latex-extra texlive-xetex
+sudo apt-get install fonts-liberation2 texlive-latex-extra texlive-luatex
 ```
 
 The Python requirements support the publication generator and repository tests. The Gemfile uses the GitHub Pages dependency bundle so local Jekyll behavior remains close to production.
@@ -84,7 +84,8 @@ Runs the same generate-test-build sequence with shell error handling and is usef
 ## Test suite
 
 - `test_publication_tools.py`: BibTeX parsing, member matching, generated schema, stable filenames, featured records, citation metrics, and deterministic output.
-- `test_cv_tools.py`: CV source generation, member highlighting, legacy dependency removal, and PDF presence.
+- `test_cv_tools.py`: CV source generation, member highlighting, legacy dependency removal, and the LuaLaTeX build path.
+- `test_cv_pdf_features.py`: PDF metadata, bookmarks, running headers, total-page labels, and tagged-PDF structure.
 - `test_people_data.py`: unique `umid` values, list-valued statuses, YAML date types, role history, assets, alumni sorting, and current positions.
 - `test_news_data.py`: required front matter, teaser assets, member links, publication links, award metadata, and layout support.
 - `test_site_structure.py`: valid includes/layouts, current dependencies, CSS parsing and use, primary navigation, and required documentation.
@@ -99,11 +100,11 @@ Add a regression test whenever a content mistake causes a build failure. For exa
 The build job:
 
 1. Checks out full Git history.
-2. Installs Python dependencies and XeLaTeX.
+2. Installs Python dependencies and LuaLaTeX.
 3. Regenerates publication output in strict mode.
 4. Generates and compiles the CV from the same publication and people data.
 5. Runs all tests.
-6. On pull requests, fails if generated publication records or generated CV TeX differ from committed files; the PDF is still compiled so XeLaTeX errors are caught.
+6. On pull requests, fails if generated publication records or generated CV TeX differ from committed files; the PDF is still compiled so LuaLaTeX and tagging errors are caught.
 7. On direct pushes, commits changed publication records, generated CV TeX, and the canonical CV PDF with the GitHub Actions bot.
 8. Builds Jekyll and uploads the Pages artifact.
 
@@ -143,6 +144,6 @@ Confirm the `umid` in the sidecar, then add `author_member_map` for a historical
 
 Run through Bundler and confirm `_config.yml` contains `jekyll-paginate` under `plugins`.
 
-### XeLaTeX is unavailable
+### LuaLaTeX is unavailable
 
-Run `make cv-source` to generate the CV publication data without compiling. To create the PDF, install `fonts-liberation2`, `texlive-latex-extra`, and `texlive-xetex`, then run `make cv`.
+Run `make cv-source` to generate the CV publication data without compiling. To create the PDF, install `fonts-liberation2`, `texlive-latex-extra`, and `texlive-luatex`, then run `make cv`.

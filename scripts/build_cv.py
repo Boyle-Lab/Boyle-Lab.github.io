@@ -121,10 +121,10 @@ def _source_date_epoch(root: Path) -> str:
 
 
 def compile_cv(root: Path) -> Path:
-    xelatex = shutil.which("xelatex")
-    if not xelatex:
+    lualatex = shutil.which("lualatex")
+    if not lualatex:
         raise PublicationError(
-            "xelatex is required to compile the CV. Install TeX Live with XeLaTeX, "
+            "lualatex is required to compile the tagged CV. Install TeX Live with LuaLaTeX, "
             "or run scripts/build_cv.py without --compile to generate only the TeX inputs."
         )
 
@@ -136,29 +136,35 @@ def compile_cv(root: Path) -> Path:
     env.setdefault("FORCE_SOURCE_DATE", "1")
 
     command = [
-        xelatex,
+        lualatex,
         "-interaction=nonstopmode",
         "-halt-on-error",
         "-file-line-error",
         "-output-directory=build",
         "cv.tex",
     ]
-    for _ in range(2):
-        result = subprocess.run(
-            command,
-            cwd=cv_dir,
-            env=env,
-            capture_output=True,
-            text=True,
-        )
+    # Three passes resolve the LastPage total and the complete PDF outline.
+    # Write compiler output to disk rather than piping the very large tagging
+    # log through Python; this avoids blocked pipes on long, structured PDFs.
+    for pass_number in range(1, 4):
+        pass_log = build_dir / f"lualatex-pass-{pass_number}.log"
+        with pass_log.open("w", encoding="utf-8") as log_handle:
+            result = subprocess.run(
+                command,
+                cwd=cv_dir,
+                env=env,
+                stdout=log_handle,
+                stderr=subprocess.STDOUT,
+                text=True,
+            )
         if result.returncode:
-            log = (result.stdout + "\n" + result.stderr).strip()
+            log = pass_log.read_text(encoding="utf-8", errors="replace").strip()
             tail = "\n".join(log.splitlines()[-80:])
-            raise PublicationError(f"XeLaTeX failed while building the CV:\n{tail}")
+            raise PublicationError(f"LuaLaTeX failed while building the CV:\n{tail}")
 
     built_pdf = build_dir / "cv.pdf"
     if not built_pdf.exists():
-        raise PublicationError("XeLaTeX completed without producing cv/build/cv.pdf")
+        raise PublicationError("LuaLaTeX completed without producing cv/build/cv.pdf")
     destination = root / "assets" / "ABoyle_CV.pdf"
     destination.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy2(built_pdf, destination)

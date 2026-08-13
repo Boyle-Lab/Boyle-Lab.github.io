@@ -35,7 +35,7 @@ class CVGenerationTests(unittest.TestCase):
     def test_generated_cv_sources_are_current_and_complete(self) -> None:
         self.assertEqual(self.publication_count, 87)
         self.assertEqual(check_outputs(ROOT, self.outputs), [])
-        publication_labels = [
+        labels = [
             int(value)
             for value in re.findall(
                 r"^\\item\[\{\[(\d+)\]\}\] ",
@@ -43,11 +43,7 @@ class CVGenerationTests(unittest.TestCase):
                 flags=re.MULTILINE,
             )
         ]
-        self.assertEqual(len(publication_labels), self.publication_count)
-        self.assertEqual(
-            publication_labels,
-            list(range(self.publication_count, 0, -1)),
-        )
+        self.assertEqual(labels, list(range(self.publication_count, 0, -1)))
         self.assertIn(r"\input{generated/publications.tex}", (ROOT / "cv" / "cv.tex").read_text())
         self.assertIn(r"\input{generated/patents.tex}", (ROOT / "cv" / "cv.tex").read_text())
 
@@ -84,7 +80,7 @@ class CVGenerationTests(unittest.TestCase):
         )
 
     def test_patent_section_is_generated_and_pi_is_bold(self) -> None:
-        self.assertIn(r"\section*{Patents}", self.patents_tex)
+        self.assertIn(r"\cvsection{Patents}", self.patents_tex)
         self.assertIn(r"\textbf{Boyle A}", self.patents_tex)
         self.assertIn("US9946835B2", self.patents_tex)
 
@@ -172,6 +168,66 @@ class CVGenerationTests(unittest.TestCase):
                 env=later_env,
             )
             self.assertEqual(_source_date_epoch(root), source_epoch)
+
+    def test_cv_structure_is_streamlined_and_consistent(self) -> None:
+        source = (ROOT / "cv" / "cv.tex").read_text(encoding="utf-8")
+
+        expected_sections = [
+            r"\cvsection{Academic Appointments}",
+            r"\cvsection{Institutional Affiliations}",
+            r"\cvsection{Other Professional Experience}",
+            r"\cvsection{Research Support}",
+            r"\cvsection{Professional Service}",
+            r"\cvsection{Teaching and Mentorship}",
+        ]
+        positions = [source.index(section) for section in expected_sections]
+        self.assertEqual(positions, sorted(positions))
+
+        for heading in (
+            r"\subsection*{Active: Principal Investigator and Multi-Principal Investigator}",
+            r"\subsection*{Active: Co-Investigator and Consultant}",
+            r"\subsection*{Completed: Principal Investigator and Multi-Principal Investigator}",
+            r"\subsection*{Completed: Co-Investigator and Consultant}",
+            r"\subsection*{Institutional and Consortium Leadership}",
+            r"\subsection*{Editorial and Program Committee Service}",
+            r"\subsection*{Grant Review}",
+            r"\subsection*{Manuscript Review}",
+            r"\subsection*{Professional Memberships}",
+            r"\subsection*{Training Programs}",
+        ):
+            self.assertIn(heading, source)
+
+        for obsolete in (
+            r"\section*{Grant Support}",
+            r"\section*{Industry Experience}",
+            r"\section*{Training Programs}",
+            "This project seeks",
+            "The goal of this project",
+            "This proposal seeks",
+        ):
+            self.assertNotIn(obsolete, source)
+
+        self.assertNotRegex(source, r"\b\d{4}--current\b")
+        self.assertNotRegex(source, r"\b(\d{4})--\1\b")
+        self.assertNotRegex(source, r"\b(?:co-PI|co-I|co-Chair)\b")
+        for typo in (
+            "Retreat Planing",
+            "Trascription Factor",
+            "develop any assay",
+            "hexonucleotide",
+            "Training Progran",
+        ):
+            self.assertNotIn(typo, source)
+
+        for term_code in ("W19", "F15", "S17"):
+            self.assertIn(term_code, source)
+
+    def test_tagged_pdf_build_uses_lualatex_and_three_passes(self) -> None:
+        build_source = (ROOT / "scripts" / "build_cv.py").read_text(encoding="utf-8")
+        self.assertIn('shutil.which("lualatex")', build_source)
+        self.assertIn("for pass_number in range(1, 4)", build_source)
+        self.assertNotIn('shutil.which("xelatex")', build_source)
+        self.assertIn("lualatex-pass-{pass_number}.log", build_source)
 
     def test_command_line_check_succeeds(self) -> None:
         result = subprocess.run(
