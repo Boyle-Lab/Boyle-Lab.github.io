@@ -17,7 +17,7 @@ import hashlib
 import html
 import re
 import unicodedata
-from typing import Any, Iterable, Iterator, Mapping, Sequence
+from typing import Any, Mapping, Sequence
 
 import yaml
 
@@ -92,7 +92,6 @@ CORPORATE_AUTHOR_WORDS = {
 NON_BYLINE_MEMBER_ROLES = {"consortium", "contributor", "group_author", "non_byline"}
 VALID_STATUSES = {"published", "preprint", "in_press"}
 VALID_PUBLICATION_TYPES = {"article", "chapter", "conference"}
-VALID_LAB_ROLES = {"first", "senior", "corresponding"}
 SAFE_BIBKEY_PATTERN = re.compile(r"^[A-Za-z][A-Za-z0-9]*$")
 DEPRECATED_METADATA_FIELDS = {"slug", "legacy_bibkeys"}
 DEPRECATED_PERSON_FIELDS = {"publication_names", "author_aliases"}
@@ -768,54 +767,6 @@ def infer_publication_type(entry: BibEntry, metadata: Mapping[str, Any]) -> str:
     return "article"
 
 
-def infer_lab_roles(authors: Sequence[Mapping[str, Any]], members: Sequence[str]) -> dict[str, list[str]]:
-    member_set = set(members)
-    first: list[str] = []
-    senior: list[str] = []
-
-    if authors:
-        first_author = authors[0]
-        if first_author.get("member_id") in member_set:
-            first.append(str(first_author["member_id"]))
-
-        # Consecutive authors marked equal-contribution at the beginning are
-        # also treated as first/co-first authors.
-        for author in authors:
-            if not author.get("equal_contrib"):
-                break
-            member_id = author.get("member_id")
-            if member_id in member_set and member_id not in first:
-                first.append(str(member_id))
-
-        for author in authors:
-            member_id = author.get("member_id")
-            if author.get("co_senior") and member_id in member_set and member_id not in senior:
-                senior.append(str(member_id))
-
-        last_member = authors[-1].get("member_id")
-        if last_member in member_set and last_member not in senior:
-            senior.append(str(last_member))
-
-    return {"first": first, "senior": senior, "corresponding": []}
-
-
-def merge_lab_roles(
-    inferred: Mapping[str, Sequence[str]], override: Mapping[str, Any] | None
-) -> dict[str, list[str]]:
-    result = {key: list(values) for key, values in inferred.items()}
-    if not override:
-        return result
-    for role in ("first", "senior", "corresponding"):
-        if role in override:
-            values = override[role]
-            if isinstance(values, str):
-                values = [values]
-            if not isinstance(values, (list, tuple)):
-                raise PublicationError(f"lab_roles.{role} must be a string or list of member umids")
-            result[role] = list(dict.fromkeys(str(value).strip() for value in values if str(value).strip()))
-    return result
-
-
 def _metadata_links(metadata: Mapping[str, Any]) -> dict[str, Any]:
     links = metadata.get("links") or {}
     if not isinstance(links, dict):
@@ -833,11 +784,32 @@ def _safe_list(value: Any) -> list[Any]:
     return [value]
 
 
+def _publication_author_record(author: Mapping[str, Any]) -> dict[str, Any]:
+    """Return only the author fields consumed by the Liquid templates."""
+    record: dict[str, Any] = {"citation_name": str(author["citation_name"])}
+    for key in ("member_url", "member_name"):
+        value = author.get(key)
+        if value:
+            record[key] = str(value)
+    if author.get("equal_contrib"):
+        record["equal_contrib"] = True
+    if author.get("co_senior"):
+        record["co_senior"] = True
+    return record
+
+
 def build_publication_record(
     entry: BibEntry,
     metadata: Mapping[str, Any],
     people: Mapping[str, Person],
 ) -> tuple[dict[str, Any], list[BuildMessage]]:
+    """Join one BibTeX record, one sidecar, and the lab-member directory.
+
+    The returned mapping is intentionally narrow: it contains only fields used
+    by the current Jekyll templates, plus the complete BibTeX entry requested
+    for the browsable/downloadable bibliography. Matching fields used during
+    validation are never serialized into ``_papers``.
+    """
     messages: list[BuildMessage] = []
     fields = entry.fields
 
@@ -848,25 +820,32 @@ def build_publication_record(
             f"BibTeX entry '{entry.key}' is missing required field(s): {', '.join(missing)}"
         )
 
-    member_ids = [str(value).strip() for value in _safe_list(metadata.get("members")) if str(value).strip()]
+    member_ids = [
+        str(value).strip()
+        for value in _safe_list(metadata.get("members"))
+        if str(value).strip()
+    ]
     unknown = [umid for umid in member_ids if umid not in people]
     if unknown:
         raise PublicationError(
-            f"{metadata.get('_source')}: unknown member umid(s) for '{entry.key}': {', '.join(unknown)}"
+            f"{metadata.get('_source')}: unknown member umid(s) for '{entry.key}': "
+            f"{', '.join(unknown)}"
         )
     if len(member_ids) != len(set(member_ids)):
-        raise PublicationError(f"{metadata.get('_source')}: duplicate umid in members for '{entry.key}'")
+        raise PublicationError(
+            f"{metadata.get('_source')}: duplicate umid in members for '{entry.key}'"
+        )
 
     raw_authors = str(metadata.get("author") or fields.get("author") or "")
     authors = parse_authors(raw_authors)
-    overrides = metadata.get("author_member_map") or metadata.get("member_author_map") or {}
+    overrides = metadata.get("author_member_map") or {}
     if not isinstance(overrides, dict):
         raise PublicationError(f"{metadata.get('_source')}: author_member_map must be a mapping")
     invalid_override_members = [str(umid) for umid in overrides if str(umid) not in member_ids]
     if invalid_override_members:
         raise PublicationError(
-            f"{metadata.get('_source')}: author_member_map contains umid(s) not listed in members: "
-            f"{', '.join(invalid_override_members)}"
+            f"{metadata.get('_source')}: author_member_map contains umid(s) not listed in "
+            f"members: {', '.join(invalid_override_members)}"
         )
     invalid_override_values = [
         str(umid) for umid, target in overrides.items() if not isinstance(target, (int, str))
@@ -876,6 +855,7 @@ def build_publication_record(
             f"{metadata.get('_source')}: author_member_map values must be an author name or "
             f"zero-based index (invalid for: {', '.join(invalid_override_values)})"
         )
+
     member_roles_raw = metadata.get("member_roles") or {}
     if not isinstance(member_roles_raw, dict):
         raise PublicationError(f"{metadata.get('_source')}: member_roles must be a mapping")
@@ -890,7 +870,9 @@ def build_publication_record(
             f"{', '.join(invalid_role_members)}"
         )
     invalid_member_roles = [
-        f"{umid}={role}" for umid, role in member_roles.items() if role not in NON_BYLINE_MEMBER_ROLES
+        f"{umid}={role}"
+        for umid, role in member_roles.items()
+        if role not in NON_BYLINE_MEMBER_ROLES
     ]
     if invalid_member_roles:
         raise PublicationError(
@@ -899,7 +881,7 @@ def build_publication_record(
             f"{', '.join(sorted(NON_BYLINE_MEMBER_ROLES))}"
         )
 
-    authors, matched_members, unmatched_members = attach_members_to_authors(
+    authors, _matched_members, unmatched_members = attach_members_to_authors(
         authors, member_ids, people, overrides
     )
     for umid in unmatched_members:
@@ -909,17 +891,20 @@ def build_publication_record(
             BuildMessage(
                 "warning",
                 f"{metadata.get('_source')}: member '{umid}' is listed for '{entry.key}' "
-                "but did not match an author. Add author_member_map to this publication metadata "
-                "file or a non-byline member_roles value.",
+                "but did not match an author. Add author_member_map to this publication "
+                "metadata file or a non-byline member_roles value.",
             )
         )
 
     title = latex_to_text(metadata.get("title") or fields.get("title"))
-    journal = latex_to_text(metadata.get("journal") or fields.get("journal") or fields.get("booktitle"))
+    journal = latex_to_text(
+        metadata.get("journal") or fields.get("journal") or fields.get("booktitle")
+    )
     year_text = latex_to_text(metadata.get("year") or fields.get("year"))
     year_match = re.search(r"\d{4}", year_text)
     year = int(year_match.group()) if year_match else 0
     sort_date = publication_sort_date(fields, metadata)
+
     status = infer_status(entry, metadata)
     if status not in VALID_STATUSES:
         raise PublicationError(
@@ -932,149 +917,88 @@ def build_publication_record(
             f"{metadata.get('_source')}: invalid publication_type '{publication_type}' for "
             f"'{entry.key}'. Allowed values: {', '.join(sorted(VALID_PUBLICATION_TYPES))}"
         )
+
     doi = normalize_doi(metadata.get("doi") or fields.get("doi"))
     pmid = extract_pmid(fields, metadata)
-
-    links = _metadata_links(metadata)
-    url = latex_to_text(metadata.get("url") or fields.get("url") or links.get("article") or "")
-    pdf = latex_to_text(metadata.get("pdf") or fields.get("pdf") or links.get("pdf") or "")
+    metadata_links = _metadata_links(metadata)
+    url = latex_to_text(
+        metadata.get("url") or fields.get("url") or metadata_links.get("article") or ""
+    )
+    pdf = latex_to_text(
+        metadata.get("pdf") or fields.get("pdf") or metadata_links.get("pdf") or ""
+    )
     preprint = latex_to_text(
         metadata.get("biorxiv")
         or fields.get("biorxiv")
-        or links.get("preprint")
+        or metadata_links.get("preprint")
         or (url if status == "preprint" else "")
     )
+    primary_url = url or (f"https://doi.org/{doi}" if doi else pdf or preprint)
 
+    # Only site-specific supplemental links belong in the sidecar-derived
+    # mapping. Article/PDF/preprint links already have dedicated fields.
     normalized_links: dict[str, Any] = {}
-    for key, value in links.items():
-        if value in (None, "", []):
+    for key, value in metadata_links.items():
+        normalized_key = str(key).strip()
+        if normalized_key in {"article", "pdf", "preprint"} or value in (None, "", []):
             continue
-        normalized_key = str(key)
         if isinstance(value, list):
-            normalized_links[normalized_key] = [latex_to_text(item) for item in value if item]
+            normalized_value = [latex_to_text(item) for item in value if item]
         elif normalized_key == "news":
-            # Keep this field consistently list-shaped so Liquid's ``first``
-            # filter returns the first URL rather than the first character of
-            # a scalar string.
-            normalized_links[normalized_key] = [latex_to_text(value)]
+            normalized_value = [latex_to_text(value)]
         else:
-            normalized_links[normalized_key] = latex_to_text(value)
-    if url:
-        normalized_links.setdefault("article", url)
-    if pdf:
-        normalized_links.setdefault("pdf", pdf)
-    if preprint:
-        normalized_links.setdefault("preprint", preprint)
-
-    lab_roles_override = metadata.get("lab_roles")
-    if lab_roles_override is not None and not isinstance(lab_roles_override, dict):
-        raise PublicationError(f"{metadata.get('_source')}: lab_roles must be a mapping")
-    if lab_roles_override:
-        unknown_lab_roles = [str(role) for role in lab_roles_override if str(role) not in VALID_LAB_ROLES]
-        if unknown_lab_roles:
-            raise PublicationError(
-                f"{metadata.get('_source')}: invalid lab_roles key(s): "
-                f"{', '.join(unknown_lab_roles)}. Allowed keys: "
-                f"{', '.join(sorted(VALID_LAB_ROLES))}"
-            )
-
-    inferred_roles = infer_lab_roles(authors, matched_members)
-    roles = merge_lab_roles(inferred_roles, lab_roles_override)
-    for role, ids in roles.items():
-        invalid = [umid for umid in ids if umid not in member_ids]
-        if invalid:
-            raise PublicationError(
-                f"{metadata.get('_source')}: lab_roles.{role} contains member(s) not in members: "
-                f"{', '.join(invalid)}"
-            )
-
-    lab_led = metadata.get("lab_led")
-    if lab_led is None:
-        lab_led = bool(roles["first"] or roles["senior"])
-
-    citation_names = [str(author["citation_name"]) for author in authors]
-    if len(citation_names) > 9:
-        authors_short = ", ".join(citation_names[:6]) + ", …, " + citation_names[-1]
-    else:
-        authors_short = ", ".join(citation_names)
+            normalized_value = latex_to_text(value)
+        if normalized_value not in (None, "", []):
+            normalized_links[normalized_key] = normalized_value
 
     abstract = latex_to_text(metadata.get("abstract") or fields.get("abstract") or "")
     summary = str(metadata.get("summary") or "").strip()
-    topics = [str(topic).strip() for topic in _safe_list(metadata.get("topics")) if str(topic).strip()]
-    consortium = str(metadata.get("consortium") or "").strip()
-
-    primary_url = url or (f"https://doi.org/{doi}" if doi else pdf or preprint)
+    topics = [
+        str(topic).strip()
+        for topic in _safe_list(metadata.get("topics"))
+        if str(topic).strip()
+    ]
+    teaser = str(metadata.get("teaser") or "").strip()
 
     record: dict[str, Any] = {
         "generated": True,
         "bibkey": entry.key,
-        "entry_type": entry.entry_type,
-        "publication_type": publication_type,
-        "status": status,
         "title": title,
-        "authors": ", ".join(citation_names),
-        "authors_short": authors_short,
-        "author_count": len(authors),
-        "author_list": authors,
-        "journal": journal,
+        "author_list": [_publication_author_record(author) for author in authors],
         "year": year,
-        "month": parse_month(metadata.get("month") or fields.get("month")),
         "sort_date": sort_date,
-        "volume": latex_to_text(metadata.get("volume") or fields.get("volume") or ""),
-        "number": latex_to_text(metadata.get("number") or fields.get("number") or ""),
-        "pages": latex_to_text(metadata.get("pages") or fields.get("pages") or ""),
-        "publisher": latex_to_text(metadata.get("publisher") or fields.get("publisher") or ""),
-        "doi": doi,
-        "PMID": pmid,
-        "primary_url": primary_url,
-        "url": url,
-        "pdf": pdf,
-        "biorxiv": preprint,
-        "links": normalized_links,
         "members": member_ids,
-        "member_roles": member_roles,
-        "matched_members": matched_members,
-        "lab_roles": roles,
-        "lab_led": bool(lab_led),
-        "featured": bool(metadata.get("featured", False)),
-        "topics": topics,
-        "consortium": consortium,
-        "summary": summary,
-        "teaser": str(metadata.get("teaser") or "").strip(),
-        "abstract": abstract,
         "bibtex": entry.raw,
     }
 
-    # Compatibility fields used by the existing reference include and older
-    # sidecar files.
-    if publication_type == "chapter":
-        record["layout"] = "chapter"
-    for legacy_key in ("github", "data", "news", "google_scholar"):
-        if metadata.get(legacy_key):
-            record[legacy_key] = metadata[legacy_key]
+    # Defaults are omitted because Liquid already treats absent values as
+    # published journal articles. This keeps every generated file readable.
+    if status != "published":
+        record["status"] = status
+    if publication_type != "article":
+        record["publication_type"] = publication_type
 
-    # Avoid serializing empty optional fields.  Core booleans/lists remain so
-    # Liquid templates have predictable values.
-    optional_keys = (
-        "journal",
-        "volume",
-        "number",
-        "pages",
-        "publisher",
-        "doi",
-        "PMID",
-        "primary_url",
-        "url",
-        "pdf",
-        "biorxiv",
-        "consortium",
-        "summary",
-        "teaser",
-        "abstract",
+    optional_values: tuple[tuple[str, Any], ...] = (
+        ("journal", journal),
+        ("volume", latex_to_text(metadata.get("volume") or fields.get("volume") or "")),
+        ("number", latex_to_text(metadata.get("number") or fields.get("number") or "")),
+        ("pages", latex_to_text(metadata.get("pages") or fields.get("pages") or "")),
+        ("doi", doi),
+        ("PMID", pmid),
+        ("primary_url", primary_url),
+        ("pdf", pdf),
+        ("biorxiv", preprint),
+        ("links", normalized_links),
+        ("member_roles", member_roles),
+        ("abstract", abstract),
+        ("featured", True if metadata.get("featured") else None),
+        ("topics", topics),
+        ("summary", summary),
+        ("teaser", teaser),
     )
-    for key in optional_keys:
-        if record.get(key) in (None, "", []):
-            record.pop(key, None)
+    for key, value in optional_values:
+        if value not in (None, "", [], {}):
+            record[key] = value
 
     return record, messages
 

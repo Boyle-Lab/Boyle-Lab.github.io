@@ -18,8 +18,6 @@
       "aria-label",
       expanded ? "Close primary navigation" : "Open primary navigation"
     );
-    shell.classList.toggle("site-nav-is-open", expanded);
-
     if (label) {
       label.textContent = expanded ? "Close" : "Menu";
     }

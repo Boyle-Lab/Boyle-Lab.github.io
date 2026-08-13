@@ -1,6 +1,6 @@
-# Boyle Lab news-post layout
+# News posts
 
-The `_layouts/post.html` template provides the editorial layout for every item in `_posts`. Existing posts require no changes. The template continues to use the current `title`, `date`, `categories`, `teaser`, `external-url`, and Markdown body fields.
+The News index is generated from Markdown files in `_posts/`, and each story uses `_layouts/post.html`. The current repository contains year subdirectories only for organization; Jekyll still derives the public URL from the filename and front-matter date.
 
 ## Standard front matter
 
@@ -17,79 +17,92 @@ categories:
 ---
 ```
 
-The teaser is displayed as the lead image. `Papers`, `Grants`, and `Awards` default to `contain`; other categories default to `cover`.
+Required fields are `layout`, `published`, `title`, `date`, `external-url`, `teaser`, and `categories`. Use `published: false` to retain a draft in the repository without placing it on the site.
 
-## Optional editorial fields
+`teaser` is resolved beneath `/assets/news_graphics/` unless it is already an absolute path or external URL. The same image becomes the default story hero.
+
+## Editorial hero fields
 
 ```yaml
 summary: >-
-  A one- or two-sentence standfirst that appears below the title.
+  A one- or two-sentence standfirst displayed below the title.
 
-hero-image: /assets/news_graphics/2026/high-resolution-image.png
+hero-image: 2026/high-resolution-image.png
 hero-fit: contain        # contain or cover
 hero-alt: Description of the lead image
 hero-caption: Optional image credit or caption
 hide-hero: false
-
 cta-label: View project in NIH RePORTER
 ```
 
-`hero-image` can point to a higher-resolution file while `teaser` remains the smaller News-index image. A relative `hero-image` or gallery path is resolved under `/assets/news_graphics/`.
+`Papers`, `Grants`, and `Awards` default to `contain`; other categories default to `cover`. A relative hero path is resolved under `/assets/news_graphics/`.
+
+The layout also accepts underscore spellings (`hero_image`, `hero_fit`, and so forth) for compatibility, but new records should use the hyphenated forms shown above.
 
 ## Related publication
 
-Use the permanent BibTeX key from `_papers`:
+Use the permanent BibTeX key:
 
 ```yaml
 related-publication: McDonald2021Cas9MobileElements
 ```
 
-The post will display the structured publication citation and its Article, DOI, PDF, PubMed, Code, Data, and BibTeX links when available. The separate external call-to-action is omitted because the publication card supplies the article link.
+The story then displays the generated citation, full author list, and available article, DOI, PDF, PubMed, code, data, news, and BibTeX links. The key must exist in `_papers`.
 
-## Related lab members
+All paper announcements should include `related-publication` when the matching paper exists in the bibliography.
 
-Use Michigan `umid` values from `_people`:
+## Related Boyle Lab members
+
+Use Michigan `umid` values:
 
 ```yaml
 people:
-  - apboyle
-  - bmcbean
+  - kvandeyn
+  - crmumm
 ```
 
-Each person is shown in a compact profile card linked to the member page.
+The story renders linked profile cards. Include lab members explicitly named or central to the announcement; do not use this field for external collaborators.
 
 ## Grant or award information
 
 ```yaml
 award:
   agency: National Institute of Neurological Disorders and Stroke
-  mechanism: R01
+  mechanism: R01 NS145291
   project: Characterization and functional impact of somatic numtogenesis in the human cortex
   collaborators:
     - Ryan Mills
 ```
 
-When `external-url` is also present, its action appears inside this information panel.
+`agency`, `mechanism`, and `project` are required when `award` is present. `collaborators` is optional and should contain external collaborators as display names. When `external-url` is present, the action link appears inside the award panel.
 
-## Curated image gallery
+## Curated gallery
 
 ```yaml
 gallery:
   - src: 2026/event/photo-01.jpg
-    alt: Lab members at the event
+    alt: Lab members attending the event
     caption: Optional caption
   - src: 2026/event/photo-02.jpg
     alt: Poster presentation
 ```
 
-Older posts that generate image galleries in their Markdown remain supported. Their direct child `<div>` image collections receive the same responsive two-column treatment.
+Relative gallery paths resolve under `/assets/news_graphics/`. Existing posts that generate galleries through Markdown or HTML remain supported; direct child image collections in the article body receive a responsive grid and images are centered with a maximum height.
 
-## Automatic elements
+## Automatic story elements
 
-Every post receives:
+Every story receives:
 
-- A breadcrumb and category/date header.
-- An optional lead image based on `hero-image` or `teaser`.
-- Previous-story, All News, and next-story navigation.
-- Up to three recent stories from the same primary category.
-- Responsive typography, image treatment, and mobile layouts.
+- A News/category breadcrumb.
+- Category and publication date.
+- Left-aligned title and maize divider.
+- Optional hero image and caption.
+- Structured award, publication, people, and gallery sections when supplied.
+- Previous story, All News, and next story navigation.
+- Up to three recent posts from the same primary category.
+
+The first value in `categories` is the primary category used in the breadcrumb, hero default, and related-story selection.
+
+## News index and homepage
+
+`news/index.html` uses `jekyll-paginate` with eight posts per page. The homepage lists the five newest posts and samples one image-bearing Events or Conferences post from the prior year at build time.

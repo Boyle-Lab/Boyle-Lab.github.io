@@ -36,7 +36,6 @@ from publication_tools import (
 )
 
 
-GENERATED_NOTICE = "# This directory is generated from bibliography/ and publication_metadata/.\n"
 DEPRECATED_GENERATED_PATHS = (
     Path("assets/data/publications.json"),
     Path("assets/js/publications.js"),

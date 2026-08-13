@@ -1,3 +1,8 @@
+title: The Boyle Lab
+url: https://boylelab.org
+timezone: America/Detroit
+strict_front_matter: true
+
 collections:
   jobs:
   papers:
@@ -5,15 +10,19 @@ collections:
   people:
     output: true
     permalink: /people/:path/
+
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "people"
     values:
-      layout: "member"
+      layout: member
+
+plugins:
+  - jekyll-paginate
+
 paginate: 8
-paginate_path: "/news/page:num"
+paginate_path: /news/page:num
 permalink: pretty
 array: []
 
@@ -22,7 +31,18 @@ exclude:
   - publication_metadata
   - scripts
   - tests
-  - requirements-publications.txt
+  - vendor
+  - Gemfile
+  - Gemfile.lock
   - Makefile
+  - requirements-publications.txt
+  - README.md
+  - SITE_STRUCTURE.md
+  - PAGES.md
+  - PEOPLE.md
   - PUBLICATIONS.md
   - NEWS_POSTS.md
+  - JOBS.md
+  - DEVELOPMENT.md
+  - STYLES_AND_ASSETS.md
+  - CLEANUP.md
