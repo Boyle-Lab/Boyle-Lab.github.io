@@ -267,10 +267,19 @@ def render_publications_tex(publications: Sequence[CVPublication]) -> str:
         r"\scriptsize * co-first authorship; \(\dagger\) co-senior authorship; "
         r"\underline{underline} indicates Boyle Lab members",
         r"\end{flushright}",
-        r"\begin{enumerate}[label={[\arabic*]},leftmargin=2.7em,labelsep=0.55em,itemsep=0.65em,parsep=0pt,topsep=0.25em]",
+        r"\begin{enumerate}[leftmargin=2.7em,labelsep=0.55em,itemsep=0.65em,parsep=0pt,topsep=0.25em]",
     ]
-    for publication in publications:
-        lines.append(r"\item " + format_cv_publication(publication))
+    publication_count = len(publications)
+    for index, publication in enumerate(publications):
+        # Publications are sorted newest first, but the CV uses cumulative
+        # publication numbering: the newest item receives the highest number
+        # and the oldest item remains publication 1.  Explicit item labels
+        # avoid coupling the display number to LaTeX's ascending counter.
+        publication_number = publication_count - index
+        lines.append(
+            rf"\item[{{[{publication_number}]}}] "
+            + format_cv_publication(publication)
+        )
     lines.extend([r"\end{enumerate}", ""])
     return "\n".join(lines)
 

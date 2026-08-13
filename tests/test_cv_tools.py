@@ -35,9 +35,18 @@ class CVGenerationTests(unittest.TestCase):
     def test_generated_cv_sources_are_current_and_complete(self) -> None:
         self.assertEqual(self.publication_count, 87)
         self.assertEqual(check_outputs(ROOT, self.outputs), [])
+        publication_labels = [
+            int(value)
+            for value in re.findall(
+                r"^\\item\[\{\[(\d+)\]\}\] ",
+                self.publications_tex,
+                flags=re.MULTILINE,
+            )
+        ]
+        self.assertEqual(len(publication_labels), self.publication_count)
         self.assertEqual(
-            len(re.findall(r"^\\item ", self.publications_tex, flags=re.MULTILINE)),
-            self.publication_count,
+            publication_labels,
+            list(range(self.publication_count, 0, -1)),
         )
         self.assertIn(r"\input{generated/publications.tex}", (ROOT / "cv" / "cv.tex").read_text())
         self.assertIn(r"\input{generated/patents.tex}", (ROOT / "cv" / "cv.tex").read_text())

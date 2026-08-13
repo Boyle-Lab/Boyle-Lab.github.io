@@ -37,6 +37,8 @@ scripts/build_cv.py
 - `cv/generated/patents.tex`: numbered patent list included by `cv/cv.tex`.
 - `assets/ABoyle_CV.pdf`: PDF linked from Alan Boyle's profile and deployed with the website.
 
+The publication list is ordered in reverse chronological order. Its labels use cumulative publication numbering: the newest item is assigned the current total publication count, and the oldest item remains publication 1.
+
 Do not edit files under `cv/generated/` by hand. They are replaced by the Python generator.
 
 The PDF build uses `SOURCE_DATE_EPOCH`. In a clean Git checkout, the default timestamp is the most recent commit that changed an authored CV input (`cv/cv.tex`, the publication bibliography and sidecars, `_people`, or `cv/patents.bib`). A bot commit that changes only generated files therefore does not alter the CV date or binary output on the next run.
