@@ -9,7 +9,7 @@ categories:
 - Conferences
 ---
 
-Kinsey and Camille attended a conference in Costa Rica!
+Kinsey and Camille attended the Unstable Microsatellites in Human Disease conference in Libera Costa Rica where they enjoyed an array of talks, enjoyed the local hot springs, and spotted many coati and crocodiles on their river tour!! 
 
 <div>
 {% for image in site.static_files %}
