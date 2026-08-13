@@ -70,7 +70,7 @@ Keys must match `^[A-Za-z][A-Za-z0-9]*$`, be unique without regard to filename c
 
 6. Commit the BibTeX, sidecar, generated `_papers` record, and `pub.bib`.
 
-The GitHub Actions workflow performs the same generation and will commit changed generated files after a direct push.
+When `bibliography/publications.bib` changes, the GitHub Actions workflow performs the same generation and commits changed generated files after a direct push. The workflow can also be started manually.
 
 ## Minimal sidecar
 

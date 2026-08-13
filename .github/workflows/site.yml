@@ -5,10 +5,14 @@ on:
     branches:
       - main
       - master
+    paths:
+      - "bibliography/publications.bib"
   pull_request:
     branches:
       - main
       - master
+    paths:
+      - "bibliography/publications.bib"
   workflow_dispatch:
 
 concurrency:

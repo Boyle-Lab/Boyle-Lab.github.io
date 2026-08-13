@@ -20,6 +20,12 @@ class WorkflowTests(unittest.TestCase):
         self.assertIn("pull_request", triggers)
         self.assertIn("workflow_dispatch", triggers)
 
+    def test_automatic_runs_are_limited_to_the_bibliography_file(self) -> None:
+        triggers = self.workflow["on"]
+        expected_paths = ["bibliography/publications.bib"]
+        self.assertEqual(triggers["push"]["paths"], expected_paths)
+        self.assertEqual(triggers["pull_request"]["paths"], expected_paths)
+
     def test_workflow_regenerates_and_checks_publications(self) -> None:
         self.assertIn("python scripts/build_publications.py --strict", self.text)
         self.assertIn("python -m unittest discover -s tests -v", self.text)

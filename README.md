@@ -46,4 +46,4 @@ scripts/build_site.sh
 
 ## Automated deployment
 
-`.github/workflows/site.yml` regenerates publications, runs the test suite, builds the Jekyll site, and deploys it to GitHub Pages. On a direct push, it commits changes to `_papers/` and `pub.bib` when the BibTeX or sidecar sources produce new output. Pull requests must include current generated files.
+`.github/workflows/site.yml` runs automatically only when `bibliography/publications.bib` changes, then regenerates publications, runs the test suite, builds the Jekyll site, and deploys it to GitHub Pages. On a direct push, it commits changes to `_papers/` and `pub.bib`. The workflow remains available through manual dispatch for other site deployments.

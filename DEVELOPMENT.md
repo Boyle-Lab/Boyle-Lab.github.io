@@ -72,7 +72,7 @@ Add a regression test whenever a content mistake causes a build failure. For exa
 
 ## GitHub Actions workflow
 
-`.github/workflows/site.yml` runs on pushes and pull requests targeting `main` or `master`, and can be started manually.
+`.github/workflows/site.yml` runs automatically only when `bibliography/publications.bib` changes in a push or pull request targeting `main` or `master`. It can also be started manually with **Run workflow** in GitHub Actions.
 
 The build job:
 
@@ -87,6 +87,8 @@ The build job:
 The deploy job runs only outside pull requests and publishes the artifact to the `github-pages` environment.
 
 In repository **Settings → Pages**, set the publishing source to **GitHub Actions**. The workflow supports either `main` or `master` as the default branch.
+
+Because the workflow is path-limited, changes that do not modify `bibliography/publications.bib` do not start an automatic Pages deployment. After a news, people, CSS, layout, or other site-only update, start this workflow manually unless a separate general site-deployment workflow is configured.
 
 A commit created by `GITHUB_TOKEN` does not need a second workflow run: the active run builds and deploys from the regenerated working tree after committing it.
 
