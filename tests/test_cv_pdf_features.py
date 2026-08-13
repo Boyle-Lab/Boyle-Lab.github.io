@@ -73,14 +73,23 @@ class CVPdfFeatureTests(unittest.TestCase):
         self.assertIn("pdfstandard=UA-1", self.source)
         self.assertIn("testphase=phase-III", self.source)
 
-    def test_page_labels_include_current_and_total_page_counts(self) -> None:
+    def test_page_labels_and_running_header_placement(self) -> None:
         page_count = len(self.reader.pages)
         self.assertGreater(page_count, 10)
-        for page_number in (1, 4, page_count):
+
+        first_page_text = self.reader.pages[0].extract_text()
+        self.assertIn(f"Page 1 of {page_count}", first_page_text)
+        self.assertNotIn("Updated August 2026", first_page_text)
+        self.assertNotIn("Alan P. Boyle | Curriculum Vitae", first_page_text)
+
+        for page_number in (4, page_count):
             text = self.reader.pages[page_number - 1].extract_text()
             self.assertIn(f"Page {page_number} of {page_count}", text)
             self.assertIn("Updated August 2026", text)
             self.assertIn("Alan P. Boyle | Curriculum Vitae", text)
+
+        self.assertIn(r"\fancypagestyle{firstpage}", self.source)
+        self.assertIn(r"\thispagestyle{firstpage}", self.source)
 
 
 if __name__ == "__main__":

@@ -63,8 +63,16 @@
 \rhead{\small Alan P. Boyle \textbar{} Curriculum Vitae}
 \cfoot{\small Page \thepage{} of \pageref*{LastPage}}
 
+% The title page keeps page numbering but omits the running header.
+\fancypagestyle{firstpage}{%
+    \fancyhf{}%
+    \cfoot{\small Page \thepage{} of \pageref*{LastPage}}%
+    \renewcommand{\headrulewidth}{0pt}%
+    \renewcommand{\footrulewidth}{0pt}%
+}
+
 \begin{document}
-\thispagestyle{fancy}
+\thispagestyle{firstpage}
 \pdfbookmark[0]{Alan P. Boyle - Curriculum Vitae}{cv-title}
 
 \begin{tabular*}{.95\textwidth}{l@{\extracolsep{\fill}}r}
