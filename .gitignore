@@ -6,3 +6,10 @@ _site/
 vendor/
 __pycache__/
 *.py[cod]
+# Jekyll and CV build products
+cv/build/
+*.aux
+*.log
+*.out
+*.toc
+*.xdv

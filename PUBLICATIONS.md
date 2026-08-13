@@ -16,6 +16,10 @@ scripts/build_publications.py
         |
         +--> _papers/<BibTeXKey>.yml
         +--> pub.bib
+        |
+        +--> scripts/build_cv.py
+                 +--> cv/generated/publications.tex
+                 +--> assets/ABoyle_CV.pdf
 ```
 
 ### Authoritative files
@@ -27,9 +31,11 @@ scripts/build_publications.py
 ### Generated files
 
 - `_papers/*.yml`: records consumed by Jekyll.
-- `pub.bib`: combined bibliography used for download and CV workflows.
+- `pub.bib`: combined bibliography offered as a website download.
+- `cv/generated/publications.tex`: CV publication list generated from the same records.
+- `assets/ABoyle_CV.pdf`: compiled CV deployed with the site.
 
-Never edit a generated paper file or `pub.bib` directly.
+Never edit a generated paper file, `pub.bib`, or `cv/generated/publications.tex` directly.
 
 ## Citation keys
 
@@ -65,12 +71,13 @@ Keys must match `^[A-Za-z][A-Za-z0-9]*$`, be unique without regard to filename c
 
    ```bash
    make publications
+   make cv
    make check
    ```
 
-6. Commit the BibTeX, sidecar, generated `_papers` record, and `pub.bib`.
+6. Commit the BibTeX, sidecar, generated `_papers` record, `pub.bib`, generated CV TeX, and updated CV PDF.
 
-When `bibliography/publications.bib` changes, the GitHub Actions workflow performs the same generation and commits changed generated files after a direct push. The workflow can also be started manually.
+When `bibliography/publications.bib` changes, the GitHub Actions workflow performs the same website and CV generation and commits changed generated files after a direct push. The workflow can also be started manually.
 
 ## Minimal sidecar
 
@@ -206,3 +213,7 @@ Run strict validation with:
 ```bash
 python3 scripts/build_publications.py --check --strict
 ```
+
+## CV integration
+
+The CV does not parse a separate bibliography or maintain its own author-name list. `scripts/build_cv.py` uses the validated publication records and the sidecar member mappings. Alan Boyle is bolded by `umid: apboyle`; other byline members are underlined. Non-byline consortium roles remain associated with member pages but are not inserted into the CV author list. See [CV.md](CV.md).

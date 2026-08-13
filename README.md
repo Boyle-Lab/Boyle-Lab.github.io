@@ -6,7 +6,8 @@ This repository contains the source for [boylelab.org](https://boylelab.org), a 
 
 | Content | Authoritative source | Generated or rendered output |
 |---|---|---|
-| Publications | `bibliography/*.bib` and `publication_metadata/*.yml` | `_papers/*.yml` and `pub.bib` |
+| Publications | `bibliography/publications.bib` and `publication_metadata/*.yml` | `_papers/*.yml` and `pub.bib` |
+| Curriculum vitae | `cv/cv.tex`, website publication sources, and `cv/patents.bib` | `cv/generated/*.tex` and `assets/ABoyle_CV.pdf` |
 | People | `_people/*.md` | `/people/` and individual profiles |
 | News | `_posts/<year>/*.md` | `/news/` and individual stories |
 | Jobs | `_jobs/*.md` | `/jobs/` |
@@ -21,6 +22,7 @@ Do not edit files in `_papers/` or the root `pub.bib` by hand. They are generate
 python3 -m pip install -r requirements-publications.txt
 bundle install
 make publications       # regenerate _papers and pub.bib
+make cv                 # regenerate and compile the CV
 make check              # verify generated files and run all tests
 make build              # regenerate, test, and build _site
 make serve              # local Jekyll server with live reload
@@ -40,9 +42,11 @@ scripts/build_site.sh
 - [PUBLICATIONS.md](PUBLICATIONS.md): BibTeX pipeline and publication sidecars.
 - [NEWS_POSTS.md](NEWS_POSTS.md): news-post front matter and editorial components.
 - [JOBS.md](JOBS.md): job-posting collection.
+- [CV.md](CV.md): shared publication data, author highlighting, and CV deployment.
 - [DEVELOPMENT.md](DEVELOPMENT.md): local development, testing, and deployment.
 - [STYLES_AND_ASSETS.md](STYLES_AND_ASSETS.md): CSS and asset conventions.
+- [CLEANUP.md](CLEANUP.md): removed legacy files and retention decisions.
 
 ## Automated deployment
 
-`.github/workflows/site.yml` runs automatically only when `bibliography/publications.bib` changes, then regenerates publications, runs the test suite, builds the Jekyll site, and deploys it to GitHub Pages. On a direct push, it commits changes to `_papers/` and `pub.bib`. The workflow remains available through manual dispatch for other site deployments.
+`.github/workflows/site.yml` runs automatically only when `bibliography/publications.bib` changes, then regenerates publications and the CV, runs the test suite, builds the Jekyll site, and deploys it to GitHub Pages. On a direct push, it commits `_papers/`, `pub.bib`, `cv/generated/`, and `assets/ABoyle_CV.pdf`. The workflow remains available through manual dispatch for other site deployments.

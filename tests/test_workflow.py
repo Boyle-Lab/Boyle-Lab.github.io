@@ -26,13 +26,30 @@ class WorkflowTests(unittest.TestCase):
         self.assertEqual(triggers["push"]["paths"], expected_paths)
         self.assertEqual(triggers["pull_request"]["paths"], expected_paths)
 
-    def test_workflow_regenerates_and_checks_publications(self) -> None:
+    def test_workflow_regenerates_publications_and_cv(self) -> None:
         self.assertIn("python scripts/build_publications.py --strict", self.text)
+        self.assertIn("python scripts/build_cv.py --strict --compile", self.text)
         self.assertIn("python -m unittest discover -s tests -v", self.text)
-        self.assertIn("git status --porcelain -- _papers pub.bib", self.text)
-        self.assertIn("git add --all -- _papers pub.bib", self.text)
+        for package in ("fonts-liberation2", "texlive-latex-extra", "texlive-xetex"):
+            self.assertIn(package, self.text)
 
-    def test_workflow_builds_and_deploys_pages(self) -> None:
+    def test_pull_requests_require_text_outputs_but_compile_the_pdf(self) -> None:
+        self.assertIn("git status --porcelain -- _papers pub.bib cv/generated", self.text)
+        status_line = next(
+            line for line in self.text.splitlines() if "git status --porcelain" in line
+        )
+        self.assertNotIn("ABoyle_CV.pdf", status_line)
+        self.assertIn("python scripts/build_cv.py --strict --compile", self.text)
+
+    def test_direct_push_commits_publication_and_cv_outputs(self) -> None:
+        self.assertIn(
+            "git add --all -- _papers pub.bib cv/generated assets/ABoyle_CV.pdf",
+            self.text,
+        )
+        self.assertIn("github-actions[bot]", self.text)
+        self.assertIn("[skip ci]", self.text)
+
+    def test_workflow_builds_and_deploys_pages_with_current_actions(self) -> None:
         for action in (
             "actions/checkout@v7",
             "actions/setup-python@v7",

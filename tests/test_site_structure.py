@@ -36,6 +36,7 @@ REQUIRED_DOCUMENTATION = {
     "DEVELOPMENT.md",
     "STYLES_AND_ASSETS.md",
     "CLEANUP.md",
+    "CV.md",
 }
 
 
@@ -154,6 +155,13 @@ class SiteStructureTests(unittest.TestCase):
             "Makefile",
             "requirements-publications.txt",
             "scripts/build_site.sh",
+            "scripts/build_cv.py",
+            "scripts/cv_tools.py",
+            "cv/cv.tex",
+            "cv/patents.bib",
+            "cv/generated/publications.tex",
+            "cv/generated/patents.tex",
+            "assets/ABoyle_CV.pdf",
             ".github/workflows/site.yml",
         }:
             self.assertTrue((ROOT / path).is_file(), path)

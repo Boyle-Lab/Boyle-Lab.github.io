@@ -14,7 +14,8 @@ This document identifies the role and ownership of each major file group. “Aut
 | `pub_bib.html` | Authored template | Human-readable BibTeX page generated from `site.papers`. |
 | `jobs.html` | Authored template | Reads the `_jobs` collection. |
 | `contact.html` | Authored | Locations, maps, and contact information. |
-| `pub.bib` | Generated | Combined CV/download bibliography. |
+| `pub.bib` | Generated | Combined downloadable bibliography. |
+| `CV.md` | Documentation | CV source, generation, and deployment guide. |
 | `_config.yml` | Configuration | Jekyll collections, pagination, defaults, and build exclusions. |
 | `CNAME` | Deployment | Custom domain for GitHub Pages. |
 | `Gemfile` | Build | GitHub Pages-compatible Ruby dependencies. |
@@ -48,6 +49,20 @@ Generated publication records. Each filename is the stable BibTeX key, for examp
 | `scripts/publication_tools.py` | Code | BibTeX parser, validation, person matching, and record construction. |
 | `scripts/build_publications.py` | Code | Generates `_papers/*.yml` and `pub.bib`; validates stale or obsolete output. |
 | `scripts/scaffold_publication_metadata.py` | Code | Creates a new sidecar template for an existing BibTeX key. |
+
+## Curriculum vitae
+
+| Path | Ownership | Purpose |
+|---|---|---|
+| `cv/cv.tex` | Authored | CV sections other than the generated publication and patent lists. |
+| `cv/patents.bib` | Authored | Patent records not represented in the website publication bibliography. |
+| `cv/generated/publications.tex` | Generated | Full publication list with website-derived author highlighting. |
+| `cv/generated/patents.tex` | Generated | Patent list included by `cv/cv.tex`. |
+| `scripts/cv_tools.py` | Code | CV citation formatting and member highlighting built on the publication pipeline. |
+| `scripts/build_cv.py` | Code | Generates CV TeX inputs and optionally compiles `assets/ABoyle_CV.pdf`. |
+| `assets/ABoyle_CV.pdf` | Generated | Public CV linked from the People section. |
+
+See [CV.md](CV.md).
 
 ## Presentation files
 
@@ -95,8 +110,9 @@ Large news and publication archives are retained when a post, public URL, or dow
 ## Tests and automation
 
 - `tests/test_publication_tools.py`: parser, metadata, generated schema, and reproducibility.
+- `tests/test_cv_tools.py`: CV generation, author highlighting, TeX source, PDF output, and legacy-build removal.
 - `tests/test_people_data.py`: profile identities, dates, roles, and assets.
 - `tests/test_news_data.py`: news metadata and linked records.
 - `tests/test_site_structure.py`: layouts, includes, CSS, dependencies, and repository shape.
 - `tests/test_workflow.py`: GitHub Actions generation and deployment contract.
-- `.github/workflows/site.yml`: publication regeneration, validation, Jekyll build, and Pages deployment.
+- `.github/workflows/site.yml`: publication and CV regeneration, validation, Jekyll build, and Pages deployment.

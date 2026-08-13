@@ -1,4 +1,4 @@
-name: Build publications and deploy site
+name: Build publications, CV, and deploy site
 
 on:
   push:
@@ -40,11 +40,22 @@ jobs:
           cache: pip
           cache-dependency-path: requirements-publications.txt
 
-      - name: Install publication-build dependencies
+      - name: Install Python dependencies
         run: python -m pip install --requirement requirements-publications.txt
+
+      - name: Install XeLaTeX for the CV
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends \
+            fonts-liberation2 \
+            texlive-latex-extra \
+            texlive-xetex
 
       - name: Generate publication records
         run: python scripts/build_publications.py --strict
+
+      - name: Generate and compile the CV
+        run: python scripts/build_cv.py --strict --compile
 
       - name: Run repository tests
         run: python -m unittest discover -s tests -v
@@ -53,24 +64,24 @@ jobs:
         if: github.event_name == 'pull_request'
         shell: bash
         run: |
-          if [[ -n "$(git status --porcelain -- _papers pub.bib)" ]]; then
-            git status --short -- _papers pub.bib
-            echo "Generated publication files are not current. Run make publications and commit the result."
+          if [[ -n "$(git status --porcelain -- _papers pub.bib cv/generated)" ]]; then
+            git status --short -- _papers pub.bib cv/generated
+            echo "Generated publication or CV source files are not current. Run make publications and make cv-source, then commit the result."
             exit 1
           fi
 
-      - name: Commit regenerated publication files
+      - name: Commit regenerated publication and CV files
         if: github.event_name == 'push'
         shell: bash
         run: |
-          git add --all -- _papers pub.bib
+          git add --all -- _papers pub.bib cv/generated assets/ABoyle_CV.pdf
           if git diff --cached --quiet; then
-            echo "Publication files are already current."
+            echo "Publication and CV files are already current."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update generated publication records [skip ci]"
+          git commit -m "Update generated publications and CV [skip ci]"
           git push origin "HEAD:${GITHUB_REF_NAME}"
 
       - name: Configure GitHub Pages

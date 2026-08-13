@@ -1,0 +1,720 @@
+\documentclass[10pt]{article}
+\usepackage{array, color, fancyhdr, multirow, longtable, enumitem}
+\usepackage[top=0.5in, bottom=1in, left=0.75in, right=0.75in]{geometry}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    bookmarks=true,
+    bookmarksopen=true,
+}
+ 
+\urlstyle{same}
+
+\usepackage{fontspec}
+\setmainfont{Liberation Sans}[Scale=1]
+
+\definecolor{lightgray}{gray}{0.8}
+\newcolumntype{L}{>{\raggedleft\scriptsize}p{0.12\textwidth}}
+\newcolumntype{R}{p{0.84\textwidth}}
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+
+\setlength{\LTpre}{0pt}
+%\setlength{\LTpost}{0pt}
+
+\makeatletter
+\renewcommand\section{\@startsection {section}{1}{\z@}%
+                                   {-3.5ex \@plus -1ex \@minus -.2ex}%
+                                   {1.0ex \@plus.2ex}%
+                                   {\normalfont\large\bfseries}}% from \Large
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+                                     {-3.25ex\@plus -1ex \@minus -.2ex}%
+                                     {0.5ex \@plus .2ex}%
+                                     {\normalfont\normalsize\bfseries}}% from \large
+\makeatother
+
+\setlength{\headheight}{0.5in}
+\pagestyle{fancy}
+\fancyhf{}
+
+\rhead{Alan P. Boyle}
+\lhead{\today}
+\cfoot{\thepage}
+
+\begin{document}
+\thispagestyle{plain}
+
+\begin{tabular*}{.95\textwidth}{l@{\extracolsep{\fill}}r}
+& {\small 5B322 Medical Science I }\\
+& {\small 1301 Catherine St. }\\
+& {\small Ann Arbor, MI 48109-2218 }\\
+\multirow{2}{*}{\textbf{\LARGE Alan P. Boyle}} & {\small apboyle@umich.edu }\\
+& {\small \href{https://boylelab.org}{boylelab.org} }\\
+\end{tabular*}
+\hrule
+
+\section*{Education}
+\begin{tabular}{L!{\VRule}R}
+2005--2009&{\bf Doctor of Philosophy,} Computational Biology and Bioinformatics\\
+&{Duke University, Durham, NC}\\
+\noalign{\medskip}
+2001--2005&{\bf Bachelor of Science,} {\sl summa cum laude,} Biochemistry and Molecular Biology\\
+&{\bf Bachelor of Science,} {\sl summa cum laude,} Computer Science\\
+&{Mississippi State University, Starkville, MS}\\
+\end{tabular}
+
+\section*{Academic Appointments}
+\begin{tabular}{L!{\VRule}R}
+2025--present&{\bf Professor with tenure,} Department of Computational Medicine \& Bioinformatics\\
+&{\bf Professor,} Department of Human Genetics\\
+2023--present&{\bf Core Member,} Rogel Cancer Center\\
+2020--2023&{\bf Affiliate Member,} Rogel Cancer Center\\
+2021--present&{\bf Affiliate,} Michigan Neuroscience Institute\\
+2016--present&{\bf Member,} Center for RNA Biomedicine\\
+\noalign{\medskip}
+2020--2025&{\bf Associate Professor with tenure,} Department of Computational Medicine \& Bioinformatics\\
+&{\bf Associate Professor,} Department of Human Genetics\\
+\noalign{\medskip}
+2015--2020&{\bf Assistant Professor,} Department of Human Genetics\\
+2014--2020&{\bf Assistant Professor,} Department of Computational Medicine \& Bioinformatics\\
+&{University of Michigan, Ann Arbor, MI}\\
+\noalign{\medskip}
+2010--2014&{\bf Postdoctoral Scholar,} Genetics\\
+&{Stanford University, Stanford, CA; Advisor: Dr. Michael Snyder}\\
+\noalign{\medskip}
+Spring 2010&{\bf Postdoctoral Associate,} Computational Biology\\
+&{Duke University, Durham, NC; Advisor: Dr. Terrence S. Furey}\\
+\end{tabular}
+
+\section*{Scholarships, Fellowships, and Honors}
+\begin{longtable}{L!{\VRule}R}
+%2023&University of Michigan ‘Making a Difference’ Award from Office for Health Equity \& Inclusion\\
+2022&Valuing our Own Award, Michigan Medicine\\
+2019&Endowment for the Basic Sciences Teaching Award\\
+2018&First Place in CAGI5 Regulation Saturation Challenge\\
+2017&NSF CAREER Award\\
+2016&Institutional nominee for W.M. Keck Foundation Medical Science Research Program\\
+2016&Institutional nominee for Searle Scholar Award\\
+2015--2017&Alfred P. Sloan Foundation Fellowship in Computational \& Evolutionary Molecular Biology\\
+2013--2014&NIH Pathway to Independence Award (K99/R00) [1K99HG007356-01]\\
+2012&AAAS/Science Program for Excellence in Science\\
+2005--2008&NSF Graduate Research Fellowship\\
+2005--2009&James B. Duke Fellowship\\
+Summer 2004&{Mayo Clinic Summer Undergraduate Research Fellow}\\
+2003&Barry M. Goldwater Memorial Scholarship\\
+Summer 2003&{The Institute for Genomic Research (TIGR) Summer Fellow}\\
+2001&Robert C. Byrd Honors Scholarship\\
+2001&Mississippi State University Presidential Scholarship\\
+2001&National Merit Scholarship
+\end{longtable}
+
+\section*{Grant Support}
+\subsection*{Active}
+\begin{longtable}{L!{\VRule}R}
+2021--2026&U01 HG011952\hfill (PI: Boyle)\\
+&NIH/NHGRI \hfill \\ %Total Costs: \textdollar3,829,187\\
+&Predicting the impact of genomic variation on cellular states\\
+&This project seeks to develop tools for interpretation of genomic variation on cellular state through modeling single cell data as part of the IGVF consortium.\\
+\noalign{\medskip}
+2022--2026&R01 GM144484 \hfill (PI: Boyle)\\
+&NIH/NIGMS \hfill \\ %Total Costs: \textdollar1,560,000\\
+&Mobile element derived chromatin looping variability in human populations\\
+&This project seeks to study the impact of polymorphic LTR13 integrations on 3D chromatin conformation.\\
+\noalign{\medskip}
+2023--2028&UG3/UH3 NS132084 \hfill (Multi-PI: Mills, Boyle)\\
+&NIH/OD \hfill \\ %Total Costs: \textdollar1,560,000\\
+&Molecular and Computational Tools for Identifying Somatic Mosaicism in Human Tissues\\
+&As part of the SMaHT consortium this project seeks to develop long-read methods to study somatic mosaicism in normal human tissues.\\
+\noalign{\medskip}
+2021--2026&K08 HL153799\hfill (PI: Denstaedt; Consultant)\\
+&NIH/NHLBI \hfill \\ %Total Costs: \textdollar847,800\\
+&Predisposition for Lung Injury in Sepsis Survival\\
+&The goal of this project is to understand the biological mechanisms predisposing to these complications in order to prevent and treat them.\\
+\noalign{\medskip}
+2021--2026&R01 NS122165\hfill (PI: Castro; Co-I with Effort)\\
+&NIH/NINDS \hfill \\ %Total Costs: \textdollar3,228,160\\
+&Uncover the role of H3.3-G343R mutation in shaping the DNA damage response, anti-tumor immunity and mechanisms of resistance in glioma\\
+&This project seeks to study pediatric high-grade gliomas with H3.3-G343R, ATRX, and TP53 inactivating mutations to understand the impact of H3.3-G343R on the tumor immune microenvironment.\\
+\noalign{\medskip}
+2022--2026&R01 CA260677\hfill (PI: Malek; Co-I with Effort)\\
+&NIH/NCI \hfill \\ %Total Costs: \textdollar3,228,160\\
+&The Biology of Mutant STAT6 in Follicular Lymphoma\\
+&This project seeks to study STAT6 gene regulation in the context of B cell lymphoma.\\
+\noalign{\medskip}
+2023--2028&R01 NS099280\hfill (PI: Todd; Consultant)\\
+&NIH/NINDS \hfill \\ %Total Costs: \textdollar3,228,160\\
+&Hexanucleotide repeat translation in ALS and Frontotemporal Dementia\\
+&This project seeks to study RAN translation in ALS and FTD at a hexonucleotide expansion in C9orf72.\\
+\noalign{\medskip}
+2024--2029&R01 DE032699 \hfill (PI: Brenner, Mills, Spector; Co-I with Effort)\\
+&NIH/NIDCR \hfill \\ % Total Costs: \textdollar3,820,341\\
+&Defining the Role of HPV Integration Structures in HNSCC Molecular Heterogeneity\\
+&This proposal seeks to determine how the structure of HPV integration events influences chromatin accessibility and adjacent gene expression in HPV-positive oropharyngeal squamous cell carcinoma, with the goal of identifying pivotal driver integrations that can predict treatment outcomes and guide therapy decisions to improve patient survival and reduce morbidity.\\
+\noalign{\medskip}
+2026--2027&National Ataxia Foundation \hfill (PI: Burmeister, Boyle)\\
+%&NIH/NIDCR \hfill \\ % Total Costs: \textdollar3,820,341\\
+&FGF14 intronic GAA repeats in vestibular problems beyond SCA27B\\
+&This project seeks to identify genetic properties of the SCA27B repeat that may represent subclinical expansions.\\
+\end{longtable}
+
+%\subsection*{Submitted}
+%\begin{longtable}{L!{\VRule}R}
+%2023--2028&R01 AG000000 \hfill (PI: McConnell; Co-I with Effort)\\
+%&NIH/NIA \hfill \\ %Total Costs: \textdollar3,981,609\\
+%&Somatic mutations and AD resilience\\
+%\noalign{\medskip}
+%2023--2028&R01 CA000000 \hfill (PI: Malek; Co-I with Effort)\\
+%&NIH/NCI \hfill \\ %Total Costs: \textdollar1,950,000\\
+%&The Biology of Mutant STAT6 in Follicular Lumphoma\\
+%\noalign{\medskip}
+%2022--2024&R21 CA261641 \hfill (PI: Boyle)\\
+%&NIH/NCI \hfill \\ %Total Costs: \textdollar599,846\\
+%&Direct capture of complete HPV integration sites using long-read sequencing\\
+%\noalign{\medskip}
+%2022--2024&R21 HG012849 \hfill (PI: Zhou; Co-I with Effort)\\
+%&NIH/NHGRI \hfill \\ %Total Costs: \textdollar416,696\\
+%&A multi-omics framework for detection and functional analysis of germline and somatic transposable elements in human tissues\\
+%\end{longtable}
+
+\subsection*{Completed}
+\begin{longtable}{L!{\VRule}R}
+2013--2017&R00 HG007356 Pathway to Independence Award (K99/R00) \hfill (PI: Boyle)\\
+&NIH/NHGRI \hfill \\ %Total Costs: \textdollar987,771\\
+&Global Discovery and Validation of Functional Regulatory Elements\\
+&This project seeks to extend current assays demonstrating function of genomic regions into an equivalent genome-wide assay.\\
+\noalign{\medskip}
+2015--2017&FG-2015-65465 \hfill (PI: Boyle)\\
+&Alfred P. Sloan Foundation \hfill \\ %Total Costs: \textdollar50,000\\
+&Fellowship in Computational \& Evolutionary Molecular Biology\\
+\noalign{\medskip}
+2016--2020&R01 HL130705 \hfill (PI: Willer; Co-I with Effort)\\
+&NIH/NHLBI \hfill \\ %Total Costs: \textdollar2,784,005\\
+&Large-scale human genetics to understand molecular mechanisms of atrial fibrillation and related traits\\
+&This project seeks to provide new insights into atrial fibrillation mechanisms through whole-genome screening.\\
+\noalign{\medskip}
+2017--2018&Eleanor and Larry Jackier U-M/Technion and Weizmann Collaborative Research Grant \\
+& \hfill (co-PI: Boyle, Mandel-Gutfreund)\\
+&Michigan - Israel Partnership for Research \& Education \hfill \\ %Total Costs: \textdollar50,000\\
+&Identifying novel disease related mutations in the genomic environments around Trascription Factor binding sites \\
+&The goal of this project is to identify variants in the proximity of TF binding sites that have an indirect effect on their binding.\\
+\noalign{\medskip}
+2017--2024&R35 HL135824 \hfill (PI: Willer; Co-I with Effort)\\
+&NIH/NHLBI \hfill \\ %Total Costs: \textdollar4,650,000\\
+&Using Genetics to Inform Mechanism of Cardiovascular Disease\\
+&The goal of this project is to uncover novel genetic discoveries and biological mechanisms underlying association with devastating cardiovascular diseases.\\
+\noalign{\medskip}
+2019&NVIDIA GPU Grant  \hfill (PI: Boyle)\\
+&NVIDIA Corporation\hfill \\ %In-Kind Value: \textdollar3,600\\
+\noalign{\medskip}
+2017--2022&DBI-1651614 \hfill (PI: Boyle)\\
+&NSF/BIO/DBI \hfill \\ %Total Costs: \textdollar979,984\\
+&CAREER: Conservation of cohesin-containing cis regulatory modules in the human and mouse lineages\\
+&The goal of this project is the study of the turnover of cohesin binding sites in the human and mouse genomes.\\
+\noalign{\medskip}
+2022--2022&R21 HG011493 S1\hfill (Multi-PI: Boyle, Mills)\\
+&NIH/NIA \hfill \\ %Total Costs: \textdollar412,928\\
+&New technologies for accurate capture and sequencing of repeat-associated regions (Supplement)\\
+&This project seeks to map mobile elements in a set of Alzheimer's samples.\\
+\noalign{\medskip}
+2019--2022&Precision Health Investigators Award\hfill (co-PI: Todd, Boyle, Mills)\\
+&University of Michigan \hfill \\ %Total Costs: \textdollar300,000\\
+&Short Tandem repeats in precision health and human disease\\
+&The goal of this project is to develop any assay to measure STRs in human genomes and develop bioinformatic tools to predict STR expansions from genotypes.\\
+\noalign{\medskip}
+2022&NVIDIA GPU Grant  \hfill (PI: Boyle)\\
+&NVIDIA Corporation\hfill \\ %In-Kind Value: \textdollar30,000\\
+\noalign{\medskip}
+2021--2022&Cancer Center Discovery\hfill (PI: Boyle)\\
+&University of Michigan \hfill \\ %Total Costs: \textdollar75,000\\
+&Direct capture of complete HPV integration sites using long-read sequencing\\
+&This project seeks to develop methods to capture of complete HPV integration events in the human genome.\\
+\noalign{\medskip}
+2020--2023&W81XWH2010336 \hfill (PI: Aguilar; Co-I with Effort)\\
+&DoD/Army \hfill \\ %Total Costs: \textdollar1,081,608\\
+&Understanding \& Enhancing the Regenerative Capacity of Skeletal Muscle to Trauma by Targeting Muscle-Nerve Synergy\\
+&This project seeks to study the single cell chromatin and RNA landscape in skeletal muscle repair.\\
+\noalign{\medskip}
+2020--2023&R21 HG011493\hfill (Multi-PI: Boyle, Mills)\\
+&NIH/NHGRI \hfill \\ %Total Costs: \textdollar412,928\\
+&New technologies for accurate capture and sequencing of repeat-associated regions\\
+&This project seeks to map mobile elements in a trio of cell lines and develop technologies for improving this mapping.\\
+\noalign{\medskip}
+2018--2024&R01 HD093570 \hfill (PI: Bielas; Co-I with Effort)\\
+&NIH/NICHD \hfill \\ %Total Costs: \textdollar2,304,265\\
+&Genetic Diagnosis of Neurodevelopmental Disorders in India\\
+&This study will establish whole-exome sequencing to study mendelian genetic disorders at the All India Institute of Medical Sciences.\\
+\noalign{\medskip}
+2022--2024&Michigan Alzheimer's Disease Center Developmental Project\hfill (PI: Zhou; Consultant)\\
+&University of Michigan \hfill \\ %Total Costs: \textdollar50,000\\
+&Explore the functional impact of transposable elements in Alzheimer’s disease and related dementias\\
+&This project seeks to explore the connection between the somatic transposable elements in the human genome and Alzheimer’s disease and related dementias. \\
+\noalign{\medskip}
+2022--2025&R21 CA2578964\hfill (PI: Boyle)\\
+&NIH/NCI \hfill \\ %Total Costs: \textdollar561,860\\
+&High-throughput inverted reporter assay for characterization of silencers and enhancer blockers\\
+&This project seeks to develop tools for the study of negative regulatory elements in cancer development.\\
+\noalign{\medskip}
+2021--2025&R01 HD104680\hfill (PI: Hammoud; Co-I with Effort)\\
+&NIH/NICHD \hfill \\ %Total Costs: \textdollar1,663,876\\
+&Sperm Chromatin: Implications on organismal development and fertility\\
+&This project seeks to explore protamine chromatin structure in mouse sperm.\\
+\noalign{\medskip}
+2017--2025&U24 HG009293 \hfill (Multi-PI: Boyle, Cherry)\\
+&NIH/NHGRI \hfill \\ %Total Costs: \textdollar2,171,753\\
+&RegulomeDB: A Resource for the Human Regulome\\
+&This project seeks to expand and support a RegulomeDB, a database for prioritizing and predicting functional variants in the human genome.\\
+\noalign{\medskip}
+2022--2025&Taubman Institute Innovation Projects\hfill (co-PI: Todd, Boyle, Mills)\\
+&University of Michigan \hfill \\ %Total Costs: \textdollar300,000\\
+&Short Tandem repeats in precision health and human disease\\
+&The goal of this project is to develop any assay to measure STRs in human genomes and develop bioinformatic tools to predict STR expansions from genotypes.\\
+\end{longtable}
+
+
+\section*{Professional Service}
+\subsection*{Service}
+\begin{longtable}{L!{\VRule}R}
+2022--current&University of Michigan Biomedical Research Council (BMRC) [Standing Member; co-Chair 2026--current]\\
+2026--current&Michigan Neuroscience Institute (MNI) Executive Committee\\
+2014--2018, 2025--current&DCM\&B Admissions Committee [Chair 2025--current]\\
+2024--current&DHG Faculty Development Committee\\
+2023--current&R01 Bootcamp Medical School Cohort Coach\\
+2023--current&Somatic Mosaicism across Human Tissues (SMaHT) Consortium Steering Committee\\
+2021--current&Impact of Genomic Variation on Function (IGVF) Consortium Steering Committee\\
+2018--current&Lab Safety Liaison for DCM\&B\\
+2015, 2016, 2025, 2026&DCM\&B Retreat Planing Committee Chair (including 1st annual)\\
+2020--2022&DHG M.S. Admissions Committee\\
+%2018--current&DCM\&B Diversity, Equity, \& Inclusion Committee [Ally/Chair 2018--2020]\\
+2017--2024&DCM\&B Preliminary Exam Abstract Review Committee (PARC) [Chair 2018--2022]\\
+2019--2020&DHG Ph.D. Admissions Committee\\
+2017--2020&DHG Faculty Recruitment and Promotions Committee\\
+2016--2020&DCM\&B Seminar Series Committee [Chair]\\
+2018--2019&Cellular and Molecular Biology Admissions Committee\\
+2017--2019&EBS Faculty IT Committee\\
+2016--2019&DCM\&B Faculty Recruitment Committee\\
+2015--2017&DHG Computational Support Committee\\ 
+2008--2009&Duke Computational Biology \& Bioinformatics student committee\\ 
+\end{longtable}
+
+\subsection*{Memberships}
+\begin{longtable}{L!{\VRule}R}
+2018--current&Member, American Society of Human Genetics (ASHG)\\
+2013--current&Member, International Society for Computational Biology (ISCB)\\
+2012--current&Member, American Association for the Advancement of Science (AAAS)\\
+2005--current&Member, Gamma Sigma Delta Agricultural Honor Society\\
+\end{longtable}
+
+\subsection*{Manuscript Reviewing Activity}
+\begin{longtable}{L!{\VRule}R}
+Since 2009&{\sl Ad hoc} reviewer \href{https://publons.com/researcher/1152609/alan-boyle/}{(>100 verified reviews)} for the journals: {\sl Science}, {\sl Nature Biotechnology}, {\sl Nature Genetics}, {\sl Genome Research}, {\sl Genome Biology}, {\sl Nature Neuroscience}, {\sl Nature Communications}, {\sl Nature Protocols}, {\sl Bioinformatics}, {\sl Nucleic Acids Research}, {\sl BMC Biology}, {\sl BMC Bioinformatics}, {\sl PLOS Computational Biology}, {\sl Oncotarget}, {\sl Scientific Reports}, {\sl Atherosclerosis}, {\sl BioEssays}, {\sl Gene}\\
+2026&Academic Editor, PLOS One\\
+2026&Program Committee, Proceedings, ISMB/ECCB\\
+2023&Program Committee, Genome Sequence Analysis, ISMB/ECCB\\
+2023&Program Committee, Biomedical Informatics, ISMB/ECCB\\
+2018, 2020&Program Committee, Comparative and Functional Genomics, ISMB/ECCB\\
+2018, 2019&Program Committee, Studies of Phenotypes and Clinical Applications, ISMB/ECCB\\
+2019&Program Committee, General Computational Biology, ISMB/ECCB\\
+2017&Program Committee, Regulatory Genomics Special Interest Group Meeting (RegGenSIG), ISMB/ECCB\\
+2015--2018&Program Committee, Great Lakes Bioinformatics and Canadian Computational Biology Conference (GLBIO/CCBC)\\
+2015--2016&Program Committee, Algorithms for Computational Biology (ALCOB)\\
+2013--2016&Program Committee, Gene Regulation and Transcriptomics, ISMB/ECCB\\
+2012--2015&DNA Day Essay Contest Detailed Review Judge for ASHG\\
+2012&Distinguished contributor as a leading reviewer for the journal {\sl Bioinformatics}\\
+\end{longtable}
+
+\subsection*{Grant Reviewing Activity}
+\begin{longtable}{L!{\VRule}R}
+2026&NIH Study Section BDMA - Biodata Management and Analysis Study Section (Ad Hoc)\\
+2026&NIH Study Section ZRG1 IIDB Z (70) - Stage I New Innovator Award Program (Mail-in)\\
+2026&NIH Study Section ZRG1 MGG-F (90) S - Special Topics in Genomics, Genetic Evolution, and Technology Development (Ad Hoc)\\
+2025&NIH Study Section BDMA - Biodata Management and Analysis Study Section (Ad Hoc)\\
+2024&NIH Study Section ZRG1 BBBT-D (50) - PAR Panel: Biodata Management and Common Fund Data Sets (Ad Hoc and co-Chair)\\
+2024&NIH Study Section BDMA - Biodata Management and Analysis Study Section (Ad Hoc)\\
+2023&NSF Review Panel - Molecular and Cellular Biosciences (MCB) - Genetic Mechanisms (Ad Hoc)\\
+2023&NIH Study Section - Multi-Omics of Health and Disease – Data Analysis and Coordination Center\\
+2023&NIH Study Section GVE - Genetic Variation and Evolution Study Section (Ad Hoc)\\
+2022&NIH Study Section ZRG1 ISB-S (57) - Academic-Industrial Partnerships for Translation of Technologies for Diagnosis and Treatment\\
+2022&NASA Study Section E.11 Space Biology: Animal Studies - Omics Systems [21SBAS-OmisSys] (Ad Hoc)\\
+2020&NIH/NIMH Study Section ZMH1 ERB-C (08) - Fine-Mapping Genome-Wide Associated Loci to Identify Proximate Causal Mechanisms of Serious Mental Illness\\
+2019&NIH/NIMH Study Section ZMH1 ERB-C (01) - PsychENCODE: Non-Coding Functional Elements in the Human Brain and Their Role in the Development of Psychiatric Disorders\\
+2018--2019&University of Michigan internal review for Searle Scholars Program\\
+2015&UK Medical Research Council (RCUK MRC) - Methodology Research Panel (Ad Hoc)\\
+2015&UK Biotechnology and Biological Sciences Research Council (RCUK BBSRC) (Ad Hoc)\\
+2015&Michigan Institute for Clinical \& Health Research (MICHR) Postdoctoral Translational Scholars Program (Ad Hoc)\\
+\end{longtable}
+
+\section*{Teaching and Mentorship}
+\section*{Training Programs}
+\begin{longtable}{L!{\VRule}R}
+2024--present&{\bf Member,} Systems \& Integrative Biology Training Grant (SIB)\\
+2021--present&{\bf Member,} Biomedical Informatics and Data Science Training Program (BIDS-TP)\\
+2017--present&{\bf Member,} Cellular and Molecular Biology Program\\
+2015--present&{\bf Member,} Genome Science Training Program (GSTP)\\
+2015--present&{\bf Member,} Michigan Predoctoral Training Program in Genetics (GTP)\\
+2014--present&{\bf Member,} Program in Biomedical Sciences\\
+2014--present&{\bf Member,} Bioinformatics Training Program\\
+\end{longtable}
+
+\subsection*{Teaching \textmd{\scriptsize(F = Fall Term, W = Winter Term, S = Summer Term)}}
+\begin{longtable}{L!{\VRule}R}
+W19, W20, W21, W22, W23, W24, W25, W26&Bioinformatics Concepts and Algorithms (BIOINF 529) [Course Director]\\
+F15, F16, F17, F18, F19, F20, F21&Gene Structure and Regulation (HUMGEN 541) [3 lectures + 2 discussions / yr.]\\
+F19, F22&Research Responsibility and Ethics (PIBS 503) [1 discussion / yr.]\\
+F21, W22, F24, W25&Genetics Student Seminar (HUMGEN 821/822) [Mentor]\\
+F17, F18&Experimental Genetics Systems (HUMGEN 632) [Course Director]\\
+F15, W16, F16, W17, F17, W18, F18&Bioinformatics Journal Club (BIOINF 602/603) [Course Director F18]\\ 
+S17, S18&Introduction to Biocomputing Bootcamp (BIOSTAT/BIOINF/HUMGEN 606) [2 full days / yr.]\\
+F15, F16, F17&Introduction to Bioinformatics \& Computational Biology (BIOINF 527) [2 lectures + 3 labs / yr.]\\
+S15, S16, S17&Basic Biology for Graduate Students with Quantitative Training (BIOINF 523) [2 lectures / yr.]\\
+F03&{Lab TA for Isotopes Tech I (MS. State, BCH 4414)}\\
+\end{longtable}
+
+\subsection*{Guest Lectures / Panels}
+\begin{longtable}{L!{\VRule}R}
+2018--2019&Lecturer, REU Site: Mathematical and Theoretical Biology Institute (MTBI), Arizona State University (NSF1757968) [2 days]\\
+2017&Panel member, U. Michigan ``New Faculty Orientation to Corporate \& Foundation Relations" [~70 attendees]\\
+2016&Experimental Genetics Systems (HUMGEN 632) [1 discussion]\\
+2014&Panel member, BIOINF 527 ``Challenges in Biology, Biomedicine, Data \& Analysis"\\
+2010&Co-taught Cold Spring Harbor Systems Biology Pre-meeting Workshop\\
+2009&Duke student panelist for ``How to prepare for and get into graduate school"\\
+2008&Taught Duke mini-course on Genome Browsers \& Databases\\
+\end{longtable}
+
+\subsection*{Mentorship} 
+\subsubsection*{Ph.D. Students (n=21)} 
+\begin{longtable}{L!{\VRule}R} 
+2026--&Kobe Howcroft (Ph.D. Student, Bioinformatics, University of Michigan)\\
+\noalign{\medskip}
+2024--current&Ingrid Flaspohler (Ph.D. Student, Bioinformatics, University of Michigan)\\
+	&{\sl NIH Biomedical Informatics and Data Science Training Program (T32)}\\ 
+	&{\sl Rackham Graduate Student Research Grant (pre-candidate)}\\ 
+	&{\sl Rackham Graduate Student Research Grant (candidate)}\\ 
+\noalign{\medskip}
+2024--current&Steve Losh (Ph.D. Student, Bioinformatics, University of Michigan)\\
+\noalign{\medskip}
+2024--current&Sowmya Srinivasan (Ph.D. Student, Genetics and Genomics, University of Michigan)\\
+\noalign{\medskip}
+2022--current&Katarina Pavlovic (Ph.D. Student, Bioinformatics, University of Michigan)\\
+	&{\sl Rackham Graduate Student Research Grant (pre-candidate)}\\ 
+	&{\sl Rackham Graduate Student Research Grant (candidate)}\\ 
+\noalign{\medskip}
+2022--current&Rintsen Sherpa (Ph.D. Student, Bioinformatics, University of Michigan)\\
+	&{\sl Rackham Graduate Student Research Grant (candidate)}\\ 
+\noalign{\medskip}
+2021--2025&Kinsey Van Deynze (Ph.D. Student, Bioinformatics, University of Michigan)\\
+	&{\sl NIH Genome Science Training Program (T32)}\\ 
+	&{\sl Rackham Graduate Student Research Grant (pre-candidate)}\\ 
+	&{\sl Rackham Graduate Student Research Grant (candidate)}\\ 
+\noalign{\medskip}
+2020--2025&Andrea Valenzuela (Ph.D. Student, Chemical Biology, University of Michigan)\\
+	&{\sl NIH Cellular Biotechnology Training Program (T32)}\\ 
+\noalign{\medskip}
+2020--2026&Breanna McBean (Ph.D. Student, Genetics and Genomics, University of Michigan)\\
+	&{\sl Joint M.S. in Bioinformatics, University of Michigan}\\
+	&{\sl NIH Genome Science Training Program (T32)}\\ 
+	&{\sl Rackham Graduate Student Research Grant (pre-candidate)}\\ 
+	&{\sl Rackham Graduate Student Research Grant (candidate)}\\ 
+\noalign{\medskip}
+2020--2025&Camille Mumm (Ph.D. Student, Genetics and Genomics, University of Michigan)\\
+	&{\sl Joint M.S. in Bioinformatics, University of Michigan}\\
+	&{\sl NIH Genome Science Training Program (T32)}\\ 
+	&{\sl Rackham Graduate Student Research Grant (pre-candidate)}\\ 
+	&{\sl Rackham Graduate Student Research Grant (candidate)}\\ 
+	&{\sl Rackham Pre-doctoral Fellowship}\\ 
+\noalign{\medskip}
+2018--2024&Bradley Crone (Ph.D. Student, Bioinformatics, University of Michigan)\\
+	&{\sl Rackham Graduate Student Research Grant (candidate)}\\ 
+\noalign{\medskip}
+2017--2023&Melissa Englund (Ph.D. Student, Genetics and Genomics, University of Michigan)\\ 
+	&{\sl NIH Human Genetics Training Program (T32)}\\ 
+	&{\sl Rackham Graduate Student Research Grant (candidate)}\\ 
+\noalign{\medskip}
+2018--2023&Nanxiang (Samuel) Zhao (Ph.D. Student, Bioinformatics, University of Michigan)\\ 
+	&{\sl Rackham Graduate Student Research Grant (pre-candidate)}\\ 
+	&{\sl Rackham Graduate Student Research Grant (candidate)}\\ 
+\noalign{\medskip}
+2016--2018&Haley Amemiya (Ph.D. Student, Cellular and Molecular Biology, University of Michigan)\\ 
+	&{\sl Joint M.S. in Bioinformatics, University of Michigan}\\
+	&{\sl NIH Cellular \& Molecular Biology Training Program (T32)}\\ 
+	&{\sl NIH Cellular Biotechnology Training Program (T32) (Declined)}\\ 
+	&{\sl PIBS Excellence in Service Award}\\ 
+	&{\sl Rackham Graduate Student Research Grant (pre-candidate)}\\ 
+	&{\sl Rackham Graduate Student Research Grant (candidate)}\\ 
+	&{\sl Maas Professional Development Award}\\ 
+	&{\sl Rackham Graduate School Scholar-Activist Award}\\
+\noalign{\medskip}
+2016--2020&Shriya Sethuraman (Ph.D. Student, Bioinformatics, University of Michigan)\\ 
+\noalign{\medskip}
+2016--2023&Christopher Castro (Ph.D. Student, Bioinformatics, University of Michigan)\\ 
+	&{\sl NIH Bioinformatics Training Program (T32)}\\ 
+	&{\sl Rackham Merit Fellow}\\ 
+	&{\sl Rackham Graduate Student Research Grant (pre-candidate)}\\
+	&{\sl Rackham Graduate Student Research Grant (candidate)}\\ 
+	&{\sl Global Research Engagement Opportunity Fellowship}\\ 
+\noalign{\medskip}
+2017--2022&Ningxin Ouyang (Ph.D. Student, Bioinformatics, University of Michigan)\\ 
+	&{\sl Rackham Graduate Student Research Grant (candidate)}\\ 
+\noalign{\medskip}
+2016--2021&Shengcheng Dong (Ph.D. Student, Bioinformatics, University of Michigan)\\ 
+	&{\sl Rackham Graduate Student Research Grant (candidate)}\\ 
+\noalign{\medskip}
+2015--2021&Torrin McDonald (Ph.D. Student, Genetics and Genomics, University of Michigan)\\ 
+	&{\sl NIH Human Genetics Training Program (T32)}\\ 
+	&{\sl Rackham Graduate Student Research Grant (pre-candidate)}\\ 
+	&{\sl Rackham Graduate Student Research Grant (candidate)}\\ 
+\noalign{\medskip}
+2015--2017&Greg Farnum (Ph.D. Student, Cellular and Molecular Biology, University of Michigan)\\ 
+\noalign{\medskip}
+2015--2020&Sierra Nishizaki (Ph.D. Student, Genetics and Genomics, University of Michigan)\\ 
+	&{\sl Joint M.S. in Bioinformatics, University of Michigan}\\
+	&{\sl NIH Genome Science Training Program (T32)}\\ 
+	&{\sl Rackham Merit Fellow}\\ 
+	&{\sl Rackham Summer Award}\\ 
+	&{\sl Rackham Graduate Student Research Grant (candidate)}\\ 
+\end{longtable}
+
+\subsubsection*{M.S. Students (n=7)} 
+\begin{longtable}{L!{\VRule}R} 
+2025--2025&Christine Geng (M.S. Student, Bioinformatics, University of Michigan)\\
+2023--2023&Hawra Aljawad (M.S. Student, Chemical Engineering, University of Michigan)\\
+2023--2023&Xinyi Liu (M.S. Student, Bioinformatics, University of Michigan)\\
+2022--2023&Emily Pogson (M.S. Student, Genetics and Genomics, University of Michigan)\\
+2019--2020&Monica Holmes (M.S. Student, Bioinformatics, University of Michigan)\\
+2017--2018&Nanxiang (Samuel) Zhao (M.S. Student, Bioinformatics, University of Michigan)\\ 
+2015--2017&Ningxin Ouyang (M.S. Student, Bioinformatics, University of Michigan)\\ 
+\end{longtable}
+
+\subsubsection*{Additional Graduate Rotation Students (n=17)}
+\begin{longtable}{L!{\VRule}R}
+2024&Karan Smith (Rotation Student, Cellular and Molecular Biology, University of Michigan)\\
+2024&Jun Sik Yun (Rotation Student, Genetics and Genomics, University of Michigan)\\
+2024&Jeremy Chen (Rotation Student, Bioinformatics, University of Michigan)\\
+2023&Rosina Carr (Rotation Student, Bioinformatics, University of Michigan)\\
+2023&Connor Ward (Rotation Student, Medical Science Training Progran, University of Michigan)\\
+2022&Brandt Bessell (Rotation Student, Bioinformatics, University of Michigan)\\
+2022&Xiaomeng Du (Rotation Student, Bioinformatics, University of Michigan)\\
+2022&Mahnoor Gondal (Rotation Student, Bioinformatics, University of Michigan)\\
+2022&Xin Li (Rotation Student, Biological Chemistry, University of Michigan)\\
+2022&Bohan Chen (Rotation Student, Cell and Developmental Biology, University of Michigan)\\
+2021&Amelia Lauth (Rotation Student, Cellular and Molecular Biology, University of Michigan)\\
+2019&Margarita Brovkina (Rotation Student, Cellular and Molecular Biology, University of Michigan)\\
+2018&Steve Ho (Rotation Student, Human Genetics, University of Michigan)\\
+2018&Matthew Pun (Rotation Student, Medical Science Training Progran, University of Michigan)\\
+2017&Amanda Moccia (Rotation Student, Human Genetics, University of Michigan)\\
+2017&Stephen Carney (Rotation Student, Human Genetics, University of Michigan)\\
+2016&Tingyang Li (Rotation Student, Bioinformatics, University of Michigan)\\
+\end{longtable}
+
+\subsubsection*{Postdoctoral Fellows (n=4)}
+\begin{longtable}{L!{\VRule}R}
+2026--current&Kinsey Van Deynze (University of Michigan)\\
+2023--2025&Melissa Englund (University of Michigan)\\
+2022--2025&Torrin McDonald (University of Michigan)\\
+2021--2022&Shengcheng Dong (University of Michigan)\\
+\end{longtable}
+
+\subsubsection*{Non-student Lab Volunteers (n=2)}
+\begin{longtable}{L!{\VRule}R}
+2019--2021&Greg Farnum (University of Michigan)\\
+2018--2019&Monica Holmes (Postbac, University of Michigan)\\
+\end{longtable}
+
+
+\subsubsection*{Undergraduate and High School Students (n=27)}
+\begin{longtable}{L!{\VRule}R}
+2026--current&Pria Chandarana (Undergraduate, Neuroscience, University of Michigan)\\
+2026--current&Cecelia Crandall (Undergraduate, Cognitive Science, University of Michigan)\\
+2026--current&Boutheine Teyeb (Undergraduate, Computer Science, University of Michigan)\\
+2026--2026&Aanshi Agrawal (Undergraduate, Molecular, Cellular, and Developmental Biology, University of Michigan)\\
+2025--2026&Krrish Thakker (Undergraduate, Biochemistry, University of Michigan)\\
+2023--2024&Kateri Darr (Undergraduate, Computer Science, University of Michigan)\\
+2023--2023&Mason Miller (Undergraduate, Computer Science, University of Michigan)\\
+2022--2024&Summer Ann (Undergraduate, Neuroscience, University of Michigan)\\
+2022--2025&Kobe Howcroft (Undergraduate, Computer Science, University of Michigan)\\
+2021--2024&Preston Parana (Undergraduate, UROP Molecular, Cellular, and Developmental Biology, University of Michigan)\\
+	&{\sl UROP Blue Ribbon Award}\\ 
+2021--2022&Julia Tweadey (Undergraduate, LSA Honors Program, Life Science Informatics, University of Michigan)\\
+2021&Aryn Booker (Undergraduate, UROP Molecular, Cellular, and Developmental Biology, University of Michigan)\\
+	&{\sl UROP Blue Ribbon Award}\\ 
+2020&Marcela Alcaide Aligio (Undergraduate, SROP, Hunter College CUNY)\\
+2019--2020&David Wang (Undergraduate, UROP Computer Science, University of Michigan)\\
+2019--2020&Jack Lu (Undergraduate, UROP Computer Science, University of Michigan)\\
+2019--2020&Diana Davis (Undergraduate, Neuroscience and German, University of Michigan)\\
+2019&Sheila Rasouli (Undergraduate, Neuroscience, University of Toronto)\\
+2019&Vibhasri Davuluri (High School, Girls Who Code Summer Intern)\\
+2016--2019&Cody Morterud (Undergraduate, UROP Computer Science / Honors Capstone, University of Michigan)\\
+2016--2017&Colten Williams (Undergraduate, UROP Computer Science, University of Michigan)\\
+2016--2017&Courtney Asman (Undergraduate, Neuroscience, University of Michigan)\\
+2014--2017&Maxwell Spadafore (Undergraduate, LS\&A Honors Informatics, University of Michigan)\\
+2013--2014&Natalie Ng (High School, Stanford Institutes of Medicine Summer Research)\\
+2013--2014&Dana Wyman (Undergraduate, Biology, Stanford University)\\
+2013&Justin Young (High School, Stanford Institutes of Medicine Summer Research)\\
+2012&Melanie Connick (Undergraduate, Biology, University of New Mexico)\\
+2012&Edward Dai (Undergraduate, Computer Science, Stanford University)\\
+\end{longtable}
+
+\subsubsection*{Doctoral Thesis Committees (n=53)}
+\begin{longtable}{L!{\VRule}R}
+2026--current&Connor Davison (Genetics and Genomics, University of Michigan, Committee Member)\\
+2026--current&Kobe Howcroft (Bioinformatics, University of Michigan, Chair)\\
+2025--current&Brandt Bessell (Bioinformatics, University of Michigan, Committee Member)\\
+2024--current&Weizhou Qian (Bioinformatics, University of Michigan, Committee Member)\\
+2024--current&Jinhao Wang (Bioinformatics, University of Michigan, Committee Member)\\
+2024--current&Brandon Klein (Medicinal Chemistry, University of Michigan, Committee Member)\\
+2024--current&Bohan Chen (Bioinformatics, University of Michigan, Committee Member)\\
+2024--current&Sowmya Srinivasan (Genetics and Genomics, University of Michigan, co-Chair)\\
+2024--current&Ingrid Flaspohler (Bioinformatics, University of Michigan, Chair)\\
+2024--current&Steve Losh (Bioinformatics, University of Michigan, Chair)\\
+2024--current&Lu Lu (Bioinformatics, University of Michigan, Committee Member)\\
+2023--current&Linghua Jiang (Bioinformatics, University of Michigan, Committee Member)\\
+2023--current&Elysia Chou (Bioinformatics, University of Michigan, Committee Member)\\
+2023--current&Rebecca McAvoy (Molecular, Cellular, and Developmental Biology, University of Michigan, Committee Member)\\
+2023--current&Chinmay Raut (Bioinformatics, University of Michigan, Committee Member)\\
+2022--current&Katarina Pavlovic (Bioinformatics, University of Michigan, Chair)\\
+2022--current&Rintsen Sherpa (Bioinformatics, University of Michigan, Chair)\\
+2022--current&Emily Peirent (Neuroscience, University of Michigan, Committee Member)\\
+2025--current&Monica Holmes (Bioinformatics, University of Michigan, Committee Member)\\
+&{\sl Single-Molecule Long-read Sequencing for Resolution of Structurally Complex Genomic Loci and Accurate Phenotype Prediction}\\
+2024--2026&Matthew Hodgman (Bioinformatics, University of Michigan, Committee Member)\\
+&{\sl Raising the Standard of Machine Learning Transparency and Utility in Cardiovascular Medicine}\\
+2020--2026&Breanna McBean (Genetics and Genomics, University of Michigan, co-Chair)\\
+&{\sl Targeting Resistance and Metastasis: Advancing Local and Systemic Therapeutic Strategies for Aggressive Breast Cancers}\\
+2021--2026&Mashiat Rabbani (Genetics and Genomics, University of Michigan, Committee Member)\\
+&{\sl A Genome-scale Program for Building the Sperm Epigenome}\\
+2024--2025&Lingrui Cai (Bioinformatics, University of Michigan, Committee Member)\\
+&{\sl Advancing Medical Image and Report Analysis with Artificial Intelligence: Applications in Inflammatory Bowel Disease and Traumatic Brain Injury}\\
+2021--2025&Kinsey Van Deynze (Bioinformatics, University of Michigan, Chair)\\
+&{\sl Sequence Analysis of Tandem Repeats Utilizing 3rd Generation Sequencing Technologies}\\
+2020--2025&Andrea Valenzuela (Chemical Biology, University of Michigan, co-Chair)\\
+&{\sl AI-Driven Workflows Integrating Strain Diversity and Host Metabolic-Genetic Variation for Tuberculosis Treatment Prioritization}\\
+2021--2025&Zhenhao Zhang (Bioinformatics, University of Michigan, Committee Member)\\
+&{\sl Decoding Genome Regulation through Deep Learning Models}\\
+2020--2025&Steve Ho (Genetics and Genomics, University of Michigan, Committee Member)\\
+&{\sl Applied Machine Learning for Big Data Genomics}\\
+2020--2025&Camille Mumm (Genetics and Genomics, University of Michigan, Chair)\\
+&{\sl Exploring Repetitive Elements in Neurodegenerative Disease Using Targeted Long-Read Sequencing}\\
+2022--2025&Kaiwen Deng (Bioinformatics, University of Michigan, Committee Member)\\
+&{\sl Advancing Computational Models and Algorithms for the Analysis of Single-Cell and Neural Data}\\
+2022--2024&Franco Tavella (Biophysics, University of Michigan, Committee Member)\\
+&{\sl Robustness and Tunability of Biological Oscillations}\\
+2018--2024&Bradley Crone (Bioinformatics, University of Michigan, Chair)\\
+&{\sl Computational Methods in Functional Prioritization of Polygenic Risk Score Models}\\
+2021--2024&Wenjin Gu (Bioinformatics, University of Michigan, Committee Member)\\
+&{\sl Development of Viral Integration Analysis Technologies for Virus-Associated Cancer Research}\\
+2018--2023&Rucheng Diao (Bioinformatics, University of Michigan, Committee Member)\\
+&{\sl Local Chromatin Environments Shape Transcription and Adaptive Immunity in Bacteria}\\
+2021--2023&Zijun Gao (Bioinformatics, University of Michigan, Committee Member)\\
+&{\sl Advance Machine Learning and Image Analysis Methods for Clinical Decision Support in Cardiovascular and Pulmonary Diseases}\\
+2018--2023&Nanxiang (Samuel) Zhao (Bioinformatics, University of Michigan, Chair)\\ 
+&{\sl Decoding Regulatory Variants with Computational Methods in Non-coding Regions of the Human Genome}\\
+2020--2023&Ashley Melnick (Cellular and Molecular Biology, University of Michigan, Committee Member)\\
+&{\sl Cdc73 Protects Notch-Induced Leukemia Cells From DNA Damage and Mitochondrial Stress}\\
+2016--2023&Christopher Castro (Bioinformatics, University of Michigan, Chair)\\ 
+&{\sl Investigating the Role of Noncoding De Novo Single-Nucleotide Variants in Autism Spectrum Disorder}\\
+2017--2023&Melissa Englund (Genetics and Genomics, University of Michigan, Chair)\\ 
+&{\sl Identification and Characterization of Cis-Regulatory Elements in the Human Genome}\\
+2018--2023&Stephen Carney (Cancer Biology, University of Michigan, Committee Member)\\
+&{\sl Epigenetic reprogramming in mutant IDH1 glioma influences radioresistance and neural lineage differentiation}\\
+2019--2023&Benjamin Yang (Biomedical Engineering, University of Michigan, Committee Member)\\
+&{\sl Towards Defining Principles of Cell Fate Plasticity}\\
+2018--2022&Marcus Sherman (Bioinformatics, University of Michigan, Committee Member)\\
+&{\sl Cultivation of enhanced bioinformatic-specific pedagogical manipulatives, interventions, and professional development}\\
+2021--2022&Kuan-Han Hank Wu (Bioinformatics, University of Michigan, Committee Member)\\
+&{\sl Integrating Electronic Health Records with Genetic Information to Advance Precision Medicine Approaches in Cardiovascular Disease}\\
+2017--2022&Amanda Moccia (Genetics and Genomics, University of Michigan, Committee Member)\\
+&{\sl Investigation of Developmental Disorders: Genetic Discovery and Functional Validation}\\
+2017--2022&Ningxin Ouyang (Bioinformatics, University of Michigan, Chair)\\ 
+&{\sl Deciphering Transcriptional Regulatory Circuits: Transcription Factor Binding and Regulatory Variants Identification}\\
+2015--2021&Torrin McDonald (Genetics and Genomics, University of Michigan, Chair)\\ 
+&{\sl Leveraging New Technologies to Explore Regulatory and Structural Elements of the Human Genome}\\
+2018--2021&Heming Yao (Bioinformatics, University of Michigan, Committee Member)\\
+&{\sl Machine Learning and Image Processing for Clinical Outcome Prediction: Applications in Medical Data from Patients with Traumatic Brain Injury, Ulcerative Colitis, and Heart Failure}\\
+2016--2021&Mohd Hafiz Bin Mohd Rothi (Molecular, Cellular, and Developmental Biology, University of Michigan, Committee Member)\\
+&{\sl Control of Chromatin by RNA-mediated Transcriptional Silencing}\\
+2016--2021&Shengcheng Dong (Bioinformatics, University of Michigan, Chair)\\ 
+&{\sl Computational Methods to Identify Regulatory Variants in the Non-coding Regions of the Human Genome}\\
+2017--2021&Steven Romanelli (Molecular \& Integrative Physiology, University of Michigan, Committee Member)\\
+&{\sl Viral CRISPR/Cas9 Gene Transfer for Somatic Knockout in Brown Adipose Tissue}\\
+2018--2021&Negar Farzaneh (Bioinformatics, University of Michigan, Committee Member)\\
+&{\sl Automated Decision Support System for Traumatic Injuries}\\
+2016--2020&Shriya Sethuraman (Bioinformatics, University of Michigan, co-Chair)\\ 
+&{\sl Genome-wide Identification of Non-coding Transcription by RNA Polymerase V and Its Involvement in Transcriptional Gene Silencing}\\
+2015--2020&Sierra Nishizaki (Genetics and Genomics, University of Michigan, Chair)\\ 
+&{\sl Decoding the Non-coding Genome: Novel Technologies for the Characterization of Non-coding Elements and Variation}\\
+2017--2020&Christopher Lee (Biostatistics, University of Michigan, Committee Member)\\
+&{\sl Improvements and Developments in Gene Regulation and Single-Cell Gene Expression Data Analysis}\\
+2018--2019&Christine Ziegler (Biological Chemistry, University of Michigan, Committee Member)\\
+2015--2018&Ari Allyn-Feuer (Bioinformatics, University of Michigan, Committee Member)\\
+&{\sl The Pharmacoepigenomics Informatics Pipeline and H-GREEN Hi-C Compiler: Discovering Pharmacogenomic Variants and Pathways with the Epigenome and Spatial Genome}\\
+2015--2017&Raymond Cavalcante (Bioinformatics, University of Michigan, Committee Member)\\
+&{\sl Beyond the Transcriptome: Facilitating Interpretation of Epigenomics and Metabolomics Data}\\
+2015--2017&Zhengting Zou (Bioinformatics, University of Michigan, Committee Member)\\
+&{\sl Model-based genomic studies of protein sequence evolution: convergence, epistasis, and amino acid acceptance rates}\\
+\end{longtable}
+
+\subsubsection*{Preliminary Exam Committees (n=46)}
+\begin{longtable}{L!{\VRule}R}
+2026&James George (Cellular and Molecular Biology, University of Michigan)\\
+2025&Xinyi Deng (Bioinformatics, University of Michigan)\\
+2025&Mitchell Witt (Bioinformatics, University of Michigan)\\
+2024&Luke Gohmann (Cellular and Molecular Biology, University of Michigan)\\
+2024&Benjamin Li (Bioinformatics, University of Michigan)\\
+2024&Tiffany Wan (Bioinformatics, University of Michigan)\\
+2024&Zhiyuan Yu (Bioinformatics, University of Michigan)\\
+2024&Rebecca McAvoy (Molecular, Cellular, and Developmental Biology, University of Michigan)\\
+2024&Bonje Obua (Cellular and Molecular Biology, University of Michigan)\\
+2024&Abigail Vallie (Cellular and Molecular Biology, University of Michigan)\\
+2023&Jinhao Wang (Bioinformatics, University of Michigan)\\
+2023&Lishi Yin (Bioinformatics, University of Michigan)\\
+2023&Matthew Hodgman (Bioinformatics, University of Michigan)\\
+2023&Ilakkiya Venkatachalam (Genetics and Genomics, University of Michigan)\\
+2023&Jianhui Gong (Bioinformatics, University of Michigan)\\
+2023&Mahnoor Gondal (Bioinformatics, University of Michigan)\\
+2023&Elysia Chou (Bioinformatics, University of Michigan)\\
+2022&Sean Moran (Bioinformatics, University of Michigan)\\
+2022&Lu Lu (Bioinformatics, University of Michigan)\\
+2022&Linghua Jiang (Bioinformatics, University of Michigan)\\
+2022&Kaiwen Deng (Bioinformatics, University of Michigan)\\
+2022&Yufeng Zhang (Bioinformatics, University of Michigan)\\
+2021&Anthony Nguyen (Human Genetics, University of Michigan)\\
+2021&Hanbyul Cho (Bioinformatics, University of Michigan)\\
+2021&Charles Ryan (Cellular and Molecular Biology, University of Michigan)\\
+2021&Kuan-Han Wu (Bioinformatics, University of Michigan)\\
+2021&Wenjin Gu (Bioinformatics, University of Michigan)\\
+2020&Jie Cao (Bioinformatics, University of Michigan)\\
+2020&Zijun Gao (Bioinformatics, University of Michigan)\\
+2020&Ashley Melnick (Cellular and Molecular Biology, University of Michigan)\\
+2019&Benjamin Yang (Biomedical Engineering, University of Michigan)\\
+2019&Maria Virgilio (Cellular and Molecular Biology, University of Michigan)\\
+2018&Zhi Carrie Li (Bioinformatics, University of Michigan)\\
+2018&Kevin Hu (Bioinformatics, University of Michigan)\\
+2018&Siyu Liu (Bioinformatics, University of Michigan)\\
+2018&Alexandra Weber (Bioinformatics, University of Michigan)\\
+2018&Mitch Fernandez (Bioinformatics, University of Michigan)\\
+2017&Tingyang Li (Bioinformatics, University of Michigan)\\
+2017&Marcus Sherman (Bioinformatics, University of Michigan)\\
+2017&Adrienne Shami (Human Genetics, University of Michigan)\\
+2017&Trenton Frisbie (Human Genetics, University of Michigan)\\
+2017&Melissa Englund (Human Genetics, University of Michigan)\\
+2017&Peter Orchard (Bioinformatics, University of Michigan)\\
+2017&Li Guan (Bioinformatics, University of Michigan)\\
+2016&Shriya Sethuraman (Bioinformatics, University of Michigan)\\
+2016&Jed Carlson (Bioinformatics, University of Michigan)\\
+\end{longtable}
+
+\section*{Industry Experience}
+\begin{longtable}{L!{\VRule}R}
+2013--2014&Consultant, Color Genomics\\
+&Personalized medicine / genomics startup\\
+\end{longtable}
+
+% Publications and patents are generated from the canonical website data.
+\input{generated/publications.tex}
+
+\input{generated/patents.tex}
+
+\end{document}
+

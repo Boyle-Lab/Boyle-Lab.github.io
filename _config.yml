@@ -27,6 +27,7 @@ permalink: pretty
 array: []
 
 exclude:
+  - cv
   - bibliography
   - publication_metadata
   - scripts
@@ -46,3 +47,4 @@ exclude:
   - DEVELOPMENT.md
   - STYLES_AND_ASSETS.md
   - CLEANUP.md
+  - CV.md
