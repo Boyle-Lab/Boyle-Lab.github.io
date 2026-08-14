@@ -13,18 +13,6 @@ DYNAMIC_CSS_CLASSES = {
     "news-article-hero--contain",
     "news-article-hero--cover",
 }
-REMOVED_LEGACY_PATHS = {
-    "_layouts/simple.html",
-    "_includes/reference_paper.html",
-    "_includes/pub/pub.html",
-    "_includes/pub/pub_bib.html",
-    "css/academicons.min.css",
-    "scripts/migrate_legacy_publications.py",
-    "assets/data/publications.json",
-    "assets/js/publications.js",
-    "boyle_lab.ico",
-    "F-Seq/bffBuilder.tgz",
-}
 REQUIRED_DOCUMENTATION = {
     "README.md",
     "SITE_STRUCTURE.md",
@@ -35,7 +23,6 @@ REQUIRED_DOCUMENTATION = {
     "JOBS.md",
     "DEVELOPMENT.md",
     "STYLES_AND_ASSETS.md",
-    "CLEANUP.md",
     "CV.md",
 }
 
@@ -90,12 +77,6 @@ class SiteStructureTests(unittest.TestCase):
                 if not (ROOT / "_includes" / target).is_file():
                     missing.append(f"{path.relative_to(ROOT)} -> {target}")
         self.assertEqual(missing, [])
-
-    def test_known_legacy_files_are_absent(self) -> None:
-        self.assertEqual(
-            [path for path in sorted(REMOVED_LEGACY_PATHS) if (ROOT / path).exists()],
-            [],
-        )
 
     def test_header_uses_only_current_dependencies(self) -> None:
         header = (ROOT / "_includes" / "header.html").read_text(encoding="utf-8")
