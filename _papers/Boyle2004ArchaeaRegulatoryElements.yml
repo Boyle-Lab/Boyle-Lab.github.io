@@ -16,18 +16,20 @@ bibtex: |-
   @inproceedings{Boyle2004ArchaeaRegulatoryElements,
     author = {Alan P Boyle and John A Boyle and Susan M Bridges},
     title = {Identification of Regulatory Elements in Archaea using Self-Organizing Maps},
-    booktitle = {Currents in Computational Molecular Biology 2004},
-    editor = {Gramada, Apostol and Bourne, Philip E.},
+    journal = {Proceedings of the Conference on Research in Computational Molecular Biology},
     pages = {455--456},
     year = {2004},
     month = {Mar},
+    abstract = {An explosion in the amount of available genomic data has changed the ways in which these data are analyzed. It has become possible to locate transcription and translation regulatory regions based on large scale comparisons of regions upstream of Open Reading Frames (ORFs). The use of selforganizing maps (SOMs) can aid in this search for cis regulatory elements in an organism by segregating similar patterns in different parts of the map.},
     url = {https://compbio.berkeley.edu/people/dek/recomb2004/abstracts.pdf},
     pdf = {https://boylelab.org/pubs/RECOMB_2004_Boyle.pdf},
     keywords = {self-organizing maps; regulatory elements; archaea; operon; Sulfolobus solfataricus},
   }
 publication_type: conference
-journal: Currents in Computational Molecular Biology 2004
+journal: Proceedings of the Conference on Research in Computational Molecular Biology
 pages: 455--456
 primary_url: https://compbio.berkeley.edu/people/dek/recomb2004/abstracts.pdf
 pdf: https://boylelab.org/pubs/RECOMB_2004_Boyle.pdf
+abstract: |-
+  An explosion in the amount of available genomic data has changed the ways in which these data are analyzed. It has become possible to locate transcription and translation regulatory regions based on large scale comparisons of regions upstream of Open Reading Frames (ORFs). The use of selforganizing maps (SOMs) can aid in this search for cis regulatory elements in an organism by segregating similar patterns in different parts of the map.
 ---
