@@ -22,18 +22,18 @@ bibtex: |-
   @article{Castro2023DeNovoNoncodingVariants,
     author = {Castro, Christopher P. and Diehl, Adam G. and Boyle, Alan P.},
     title = {Challenges in screening for de novo noncoding variants contributing to genetically complex phenotypes},
-    year = {2023},
-    month = {may},
-    day = {20},
+    journal = {Human Genetics and Genomics Advances},
     volume = {4},
     number = {3},
     pages = {100210},
-    doi = {10.1016/j.xhgg.2023.100210},
+    year = {2023},
+    month = {May},
+    day = {20},
     abstract = {{Understanding the genetic basis for complex, heterogeneous disorders, such as autism spectrum disorder (ASD), is a persistent challenge in human medicine. Owing to their phenotypic complexity, the genetic mechanisms underlying these disorders may be highly variable across individual patients. Furthermore, much of their heritability is unexplained by known regulatory or coding variants. Indeed, there is evidence that much of the causal genetic variation stems from rare and de novo variants arising from ongoing mutation. These variants occur mostly in noncoding regions, likely affecting regulatory processes for genes linked to the phenotype of interest. However, because there is no uniform code for assessing regulatory function, it is difficult to separate these mutations into likely functional and nonfunctional subsets. This makes finding associations between complex diseases and potentially causal de novo single-nucleotide variants (dnSNVs) a difficult task. To date, most published studies have struggled to find any significant associations between dnSNVs from ASD patients and any class of known regulatory elements. We sought to identify the underlying reasons for this and present strategies for overcoming these challenges. We show that, contrary to previous claims, the main reason for failure to find robust statistical enrichments is not only the number of families sampled, but also the quality and relevance to ASD of the annotations used to prioritize dnSNVs, and the reliability of the set of dnSNVs itself. We present a list of recommendations for designing future studies of this sort that will help researchers avoid common pitfalls.}},
+    doi = {10.1016/j.xhgg.2023.100210},
     url = {https://www.sciencedirect.com/science/article/pii/S2666247723000428},
-    pdf = {http://boylelab.org/pubs/HGG_Advances_2023_Castro.pdf},
-    journal = {Human Genetics and Genomics Advances},
-    note = {{PMID:} 37305558}
+    pdf = {https://boylelab.org/pubs/HGG_Advances_2023_Castro.pdf},
+    note = {{PMID:} 37305558},
   }
 journal: Human Genetics and Genomics Advances
 volume: '4'
@@ -42,7 +42,7 @@ pages: '100210'
 doi: 10.1016/j.xhgg.2023.100210
 PMID: '37305558'
 primary_url: https://www.sciencedirect.com/science/article/pii/S2666247723000428
-pdf: http://boylelab.org/pubs/HGG_Advances_2023_Castro.pdf
+pdf: https://boylelab.org/pubs/HGG_Advances_2023_Castro.pdf
 abstract: |-
   Understanding the genetic basis for complex, heterogeneous disorders, such as autism spectrum disorder (ASD), is a persistent challenge in human medicine. Owing to their phenotypic complexity, the genetic mechanisms underlying these disorders may be highly variable across individual patients. Furthermore, much of their heritability is unexplained by known regulatory or coding variants. Indeed, there is evidence that much of the causal genetic variation stems from rare and de novo variants arising from ongoing mutation. These variants occur mostly in noncoding regions, likely affecting regulatory processes for genes linked to the phenotype of interest. However, because there is no uniform code for assessing regulatory function, it is difficult to separate these mutations into likely functional and nonfunctional subsets. This makes finding associations between complex diseases and potentially causal de novo single-nucleotide variants (dnSNVs) a difficult task. To date, most published studies have struggled to find any significant associations between dnSNVs from ASD patients and any class of known regulatory elements. We sought to identify the underlying reasons for this and present strategies for overcoming these challenges. We show that, contrary to previous claims, the main reason for failure to find robust statistical enrichments is not only the number of families sampled, but also the quality and relevance to ASD of the annotations used to prioritize dnSNVs, and the reliability of the set of dnSNVs itself. We present a list of recommendations for designing future studies of this sort that will help researchers avoid common pitfalls.
 ---

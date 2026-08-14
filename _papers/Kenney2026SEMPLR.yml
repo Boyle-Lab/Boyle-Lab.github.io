@@ -26,12 +26,13 @@ bibtex: |-
     number = {6},
     pages = {btag383},
     year = {2026},
-    month = {06},
-    abstract = {{SEMPLR is an R package that predicts transcription factor binding and variant effects using SNP Effect Matrices (SEMs), providing efficient, genome-wide scoring, enrichment testing, and visualization tools for comprehensive analysis of regulatory sequences.Available on GitHub at https://github.com/grkenney/SEMPLR and on Bioconductor at https://bioconductor.org/packages/release/bioc/html/SEMPLR.html.}},
+    month = {Jun},
+    day = {12},
+    abstract = {{SEMPLR is an R package that predicts transcription factor binding and variant effects using SNP Effect Matrices (SEMs), providing efficient, genome-wide scoring, enrichment testing, and visualization tools for comprehensive analysis of regulatory sequences. Available on GitHub at https://github.com/grkenney/SEMPLR and on Bioconductor at https://bioconductor.org/packages/release/bioc/html/SEMPLR.html.}},
     doi = {10.1093/bioinformatics/btag383},
     url = {https://doi.org/10.1093/bioinformatics/btag383},
     pdf = {https://academic.oup.com/bioinformatics/article-pdf/42/6/btag383/68520077/btag383.pdf},
-    note = {{PMID:} 42286344}
+    note = {{PMID:} 42286344},
   }
 journal: Bioinformatics
 volume: '42'
@@ -42,5 +43,5 @@ PMID: '42286344'
 primary_url: https://doi.org/10.1093/bioinformatics/btag383
 pdf: https://academic.oup.com/bioinformatics/article-pdf/42/6/btag383/68520077/btag383.pdf
 abstract: |-
-  SEMPLR is an R package that predicts transcription factor binding and variant effects using SNP Effect Matrices (SEMs), providing efficient, genome-wide scoring, enrichment testing, and visualization tools for comprehensive analysis of regulatory sequences.Available on GitHub at https://github.com/grkenney/SEMPLR and on Bioconductor at https://bioconductor.org/packages/release/bioc/html/SEMPLR.html.
+  SEMPLR is an R package that predicts transcription factor binding and variant effects using SNP Effect Matrices (SEMs), providing efficient, genome-wide scoring, enrichment testing, and visualization tools for comprehensive analysis of regulatory sequences. Available on GitHub at https://github.com/grkenney/SEMPLR and on Bioconductor at https://bioconductor.org/packages/release/bioc/html/SEMPLR.html.
 ---

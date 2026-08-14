@@ -8,33 +8,30 @@ year: 2011
 sort_date: '2011-04-01'
 members:
 - apboyle
-bibtex: "@article{ENCODEConsortium2011UsersGuide,\n  title = {A User's Guide to the Encyclopedia of {DNA}\
-  \ Elements {(ENCODE)}},\n  volume = {9},\n  url = {http://www.ncbi.nlm.nih.gov/pubmed/21526222},\n \
-  \ pdf = {http://boylelab.org/pubs/PLoS_Biol_2011_ENCODE_Project_Consortium.pdf},\n  doi = {10.1371/journal.pbio.1001046},\n\
-  \  abstract = {The Encyclopedia of {DNA} Elements {(ENCODE)} Project was created to enable the scientific\
-  \ and medical communities to interpret the human genome sequence and to use it to understand human biology\
-  \ and improve health. The {ENCODE} Consortium, a \nlarge group of scientists from around the world,\
-  \ uses a variety of experimental methods to identify and describe the regions of the 3 billion base-pair\
-  \ human genome that are important for function. Using experimental, computational, and statistical analyses,\
-  \ we \naimed to discover and describe genes, transcripts, and transcriptional regulatory regions, as\
-  \ well as {DNA} binding proteins that interact with regulatory regions in the genome, including transcription\
-  \ factors, different versions of histones and other markers, \nand {DNA} methylation patterns that define\
-  \ states of the genome in various cell types. The {ENCODE} Project has developed standards for each\
-  \ experiment type to ensure high-quality, reproducible data and novel algorithms to facilitate analysis.\
-  \ All data and \nderived results are made available through a freely accessible database. This article\
-  \ provides an overview of the complete project and the resources it is generating, as well as examples\
-  \ to illustrate the application of {ENCODE} data as a user's guide to \nfacilitate the interpretation\
-  \ of the human genome.},\n  number = {4},\n  journal = {{PLoS} Biology},\n  author = {{The ENCODE Project\
-  \ Consortium}},\n  month = apr,\n  year = {2011},\n  pages = {e1001046},\n  note = {{PMID:} 21526222}\n\
-  }"
+bibtex: |-
+  @article{ENCODEConsortium2011UsersGuide,
+    author = {{The ENCODE Project Consortium}},
+    title = {A User's Guide to the Encyclopedia of {DNA} Elements {(ENCODE)}},
+    journal = {{PLoS} Biology},
+    volume = {9},
+    number = {4},
+    pages = {e1001046},
+    year = {2011},
+    month = {Apr},
+    abstract = {The Encyclopedia of {DNA} Elements {(ENCODE)} Project was created to enable the scientific and medical communities to interpret the human genome sequence and to use it to understand human biology and improve health. The {ENCODE} Consortium, a large group of scientists from around the world, uses a variety of experimental methods to identify and describe the regions of the 3 billion base-pair human genome that are important for function. Using experimental, computational, and statistical analyses, we aimed to discover and describe genes, transcripts, and transcriptional regulatory regions, as well as {DNA} binding proteins that interact with regulatory regions in the genome, including transcription factors, different versions of histones and other markers, and {DNA} methylation patterns that define states of the genome in various cell types. The {ENCODE} Project has developed standards for each experiment type to ensure high-quality, reproducible data and novel algorithms to facilitate analysis. All data and derived results are made available through a freely accessible database. This article provides an overview of the complete project and the resources it is generating, as well as examples to illustrate the application of {ENCODE} data as a user's guide to facilitate the interpretation of the human genome.},
+    doi = {10.1371/journal.pbio.1001046},
+    url = {https://pubmed.ncbi.nlm.nih.gov/21526222},
+    pdf = {https://boylelab.org/pubs/PLoS_Biol_2011_ENCODE_Project_Consortium.pdf},
+    note = {{PMID:} 21526222},
+  }
 journal: PLoS Biology
 volume: '9'
 number: '4'
 pages: e1001046
 doi: 10.1371/journal.pbio.1001046
 PMID: '21526222'
-primary_url: http://www.ncbi.nlm.nih.gov/pubmed/21526222
-pdf: http://boylelab.org/pubs/PLoS_Biol_2011_ENCODE_Project_Consortium.pdf
+primary_url: https://pubmed.ncbi.nlm.nih.gov/21526222
+pdf: https://boylelab.org/pubs/PLoS_Biol_2011_ENCODE_Project_Consortium.pdf
 member_roles:
   apboyle: consortium
 abstract: |-

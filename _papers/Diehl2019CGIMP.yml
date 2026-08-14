@@ -19,22 +19,26 @@ bibtex: |-
     author = {Diehl, Adam G and Boyle, Alan P},
     title = {{CGIMP: Real-time exploration and covariate projection for self-organizing map datasets}},
     journal = {Journal of Open Source Software},
-    year = {2019},
     volume = {4},
     number = {39},
     pages = {1520},
-    month = jul,
+    year = {2019},
+    month = {Jul},
+    day = {10},
+    abstract = {Dimensionality-reduction methods are widely used to break down complex datasets into more manageable subunits. Self-organizing maps can project high-dimensional data onto a two-dimensional grid in which nearby nodes represent modules with similar properties, but existing tools do not support real-time exploration or projection of covariate data. CGIMP is a web application for real-time analysis of self-organizing maps for genomic datasets. It renders interactive maps from JSON inputs, provides data-driven search facets, and intersects underlying genomic intervals with uploaded BED files through a Python adapter to BEDTools.},
     doi = {10.21105/joss.01520},
-    url = {http://joss.theoj.org/papers/10.21105/joss.01520},
-    pdf = {http://boylelab.org/pubs/JOSS_2019_Diehl.pdf}
+    url = {https://joss.theoj.org/papers/10.21105/joss.01520},
+    pdf = {https://boylelab.org/pubs/JOSS_2019_Diehl.pdf},
+    note = {{PMID:} 32500114},
   }
 journal: Journal of Open Source Software
 volume: '4'
 number: '39'
 pages: '1520'
 doi: 10.21105/joss.01520
-primary_url: http://joss.theoj.org/papers/10.21105/joss.01520
-pdf: http://boylelab.org/pubs/JOSS_2019_Diehl.pdf
+PMID: '32500114'
+primary_url: https://joss.theoj.org/papers/10.21105/joss.01520
+pdf: https://boylelab.org/pubs/JOSS_2019_Diehl.pdf
 links:
   code: https://github.com/Boyle-Lab/CGIMP
 abstract: |-

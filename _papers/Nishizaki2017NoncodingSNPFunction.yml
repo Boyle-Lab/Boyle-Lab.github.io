@@ -19,16 +19,16 @@ bibtex: |-
     author = {Nishizaki, Sierra S and Boyle, Alan P},
     title = {{Mining the Unknown: Assigning Function to Noncoding Single Nucleotide Polymorphisms.}},
     journal = {Trends in Genetics},
-    year = {2017},
     volume = {33},
     number = {1},
     pages = {34--45},
-    month = jan,
-    doi = {10.1016/j.tig.2016.10.008},
+    year = {2017},
+    month = {Jan},
     abstract = {One of the formative goals of genetics research is to understand how genetic variation leads to phenotypic differences and human disease. Genome-wide association studies (GWASs) bring us closer to this goal by linking variation with disease faster than ever before. Despite this, GWASs alone are unable to pinpoint disease-causing single nucleotide polymorphisms (SNPs). Noncoding SNPs, which represent the majority of GWAS SNPs, present a particular challenge. To address this challenge, an array of computational tools designed to prioritize and predict the function of noncoding GWAS SNPs have been developed. However, fewer than 40% of GWAS publications from 2015 utilized these tools. We discuss several leading methods for annotating noncoding variants and how they can be integrated into research pipelines in hopes that they will be broadly applied in future GWAS analyses.},
-    url = {http://www.ncbi.nlm.nih.gov/pubmed/27939749},
-    pdf = {http://boylelab.org/pubs/Trends_Genet_2017_Nishizaki.pdf},
-    note = {{PMID:} 27939749}
+    doi = {10.1016/j.tig.2016.10.008},
+    url = {https://pubmed.ncbi.nlm.nih.gov/27939749},
+    pdf = {https://boylelab.org/pubs/Trends_Genet_2017_Nishizaki.pdf},
+    note = {{PMID:} 27939749},
   }
 journal: Trends in Genetics
 volume: '33'
@@ -36,8 +36,8 @@ number: '1'
 pages: 34--45
 doi: 10.1016/j.tig.2016.10.008
 PMID: '27939749'
-primary_url: http://www.ncbi.nlm.nih.gov/pubmed/27939749
-pdf: http://boylelab.org/pubs/Trends_Genet_2017_Nishizaki.pdf
+primary_url: https://pubmed.ncbi.nlm.nih.gov/27939749
+pdf: https://boylelab.org/pubs/Trends_Genet_2017_Nishizaki.pdf
 abstract: |-
   One of the formative goals of genetics research is to understand how genetic variation leads to phenotypic differences and human disease. Genome-wide association studies (GWASs) bring us closer to this goal by linking variation with disease faster than ever before. Despite this, GWASs alone are unable to pinpoint disease-causing single nucleotide polymorphisms (SNPs). Noncoding SNPs, which represent the majority of GWAS SNPs, present a particular challenge. To address this challenge, an array of computational tools designed to prioritize and predict the function of noncoding GWAS SNPs have been developed. However, fewer than 40% of GWAS publications from 2015 utilized these tools. We discuss several leading methods for annotating noncoding variants and how they can be integrated into research pipelines in hopes that they will be broadly applied in future GWAS analyses.
 ---

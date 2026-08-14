@@ -8,24 +8,26 @@ author_list:
   member_name: Alan P. Boyle, Ph.D.
 - citation_name: Furey TS
 year: 2009
-sort_date: '2009-01-01'
+sort_date: '2009-12-01'
 members:
 - apboyle
 bibtex: |-
   @article{Boyle2009ChromatinMapping,
-    title = {High-resolution mapping studies of chromatin and gene regulatory elements},
-    volume = {1},
-    issn = {1750-1911},
-    url = {http://www.ncbi.nlm.nih.gov/pubmed/20514362},
-    pdf = {http://boylelab.org/pubs/Epigenomics_2009_Boyle.pdf},
-    doi = {10.2217/epi.09.29},
-    abstract = {Microarray and high-throughput sequencing technologies have enabled the development of comprehensive assays to identify locations of particular chromatin structures and regulatory elements. It is now possible to create genome-wide maps of {DNA} methylation, trans-factor binding sites, histone variants and histone tail modifications, nucleosome positions, regions of open chromatin, and chromosome locations and interactions. This review provides a summary of these new assays that are changing the way in which molecular biology research is being performed. While the generation of large amounts of data from these experiments is becoming increasingly easier, the development of corresponding analysis methods has progressed more slowly. It will likely be years before the full extent of the information contained in these data is fully appreciated.},
-    number = {2},
-    journal = {Epigenomics},
     author = {Alan P Boyle and Terrence S Furey},
+    title = {High-resolution mapping studies of chromatin and gene regulatory elements},
+    journal = {Epigenomics},
+    volume = {1},
+    number = {2},
+    pages = {319--329},
     year = {2009},
+    month = {Dec},
+    day = {1},
+    issn = {1750-1911},
+    abstract = {Microarray and high-throughput sequencing technologies have enabled the development of comprehensive assays to identify locations of particular chromatin structures and regulatory elements. It is now possible to create genome-wide maps of {DNA} methylation, trans-factor binding sites, histone variants and histone tail modifications, nucleosome positions, regions of open chromatin, and chromosome locations and interactions. This review provides a summary of these new assays that are changing the way in which molecular biology research is being performed. While the generation of large amounts of data from these experiments is becoming increasingly easier, the development of corresponding analysis methods has progressed more slowly. It will likely be years before the full extent of the information contained in these data is fully appreciated.},
+    doi = {10.2217/epi.09.29},
+    url = {https://pubmed.ncbi.nlm.nih.gov/20514362},
+    pdf = {https://boylelab.org/pubs/Epigenomics_2009_Boyle.pdf},
     note = {{PMID:} 20514362},
-    pages = {319--329}
   }
 journal: Epigenomics
 volume: '1'
@@ -33,8 +35,8 @@ number: '2'
 pages: 319--329
 doi: 10.2217/epi.09.29
 PMID: '20514362'
-primary_url: http://www.ncbi.nlm.nih.gov/pubmed/20514362
-pdf: http://boylelab.org/pubs/Epigenomics_2009_Boyle.pdf
+primary_url: https://pubmed.ncbi.nlm.nih.gov/20514362
+pdf: https://boylelab.org/pubs/Epigenomics_2009_Boyle.pdf
 abstract: |-
   Microarray and high-throughput sequencing technologies have enabled the development of comprehensive assays to identify locations of particular chromatin structures and regulatory elements. It is now possible to create genome-wide maps of DNA methylation, trans-factor binding sites, histone variants and histone tail modifications, nucleosome positions, regions of open chromatin, and chromosome locations and interactions. This review provides a summary of these new assays that are changing the way in which molecular biology research is being performed. While the generation of large amounts of data from these experiments is becoming increasingly easier, the development of corresponding analysis methods has progressed more slowly. It will likely be years before the full extent of the information contained in these data is fully appreciated.
 ---

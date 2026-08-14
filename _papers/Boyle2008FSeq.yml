@@ -15,19 +15,19 @@ members:
 - apboyle
 bibtex: |-
   @article{Boyle2008FSeq,
-    title = {{F-Seq:} a feature density estimator for high-throughput sequence tags.},
-    volume = {24},
-    url = {http://www.ncbi.nlm.nih.gov/pubmed/18784119},
-    pdf = {http://boylelab.org/pubs/Bioinformatics_2008_Boyle.pdf},
-    doi = {10.1093/bioinformatics/btn480},
-    abstract = {Tag sequencing using high-throughput sequencing technologies are now regularly employed to identify specific sequence features, such as transcription factor binding sites {(ChIP-seq)} or regions of open chromatin {(DNase-seq).} To intuitively summarize and display individual sequence data as an accurate and interpretable signal, we developed {F-Seq,} a software package that generates a continuous tag sequence density estimation allowing identification of biologically meaningful sites whose output can be displayed directly in the {UCSC} Genome Browser. {AVAILABILITY:} The software is written in the Java language and is available on all major computing platforms for download at http://www.genome.duke.edu/labs/furey/software/fseq.},
-    number = {21},
-    journal = {Bioinformatics},
     author = {Alan P Boyle and Justin Guinney and Gregory E Crawford and Terrence S Furey},
-    month = nov,
+    title = {{F-Seq:} a feature density estimator for high-throughput sequence tags.},
+    journal = {Bioinformatics},
+    volume = {24},
+    number = {21},
+    pages = {2537--2538},
     year = {2008},
+    month = {Nov},
+    abstract = {Tag sequencing using high-throughput sequencing technologies are now regularly employed to identify specific sequence features, such as transcription factor binding sites {(ChIP-seq)} or regions of open chromatin {(DNase-seq).} To intuitively summarize and display individual sequence data as an accurate and interpretable signal, we developed {F-Seq,} a software package that generates a continuous tag sequence density estimation allowing identification of biologically meaningful sites whose output can be displayed directly in the {UCSC} Genome Browser. {AVAILABILITY:} The software is written in the Java language and is available on all major computing platforms for download at http://www.genome.duke.edu/labs/furey/software/fseq.},
+    doi = {10.1093/bioinformatics/btn480},
+    url = {https://pubmed.ncbi.nlm.nih.gov/18784119},
+    pdf = {https://boylelab.org/pubs/Bioinformatics_2008_Boyle.pdf},
     note = {{PMID:} 18784119},
-    pages = {2537--2538}
   }
 journal: Bioinformatics
 volume: '24'
@@ -35,8 +35,8 @@ number: '21'
 pages: 2537--2538
 doi: 10.1093/bioinformatics/btn480
 PMID: '18784119'
-primary_url: http://www.ncbi.nlm.nih.gov/pubmed/18784119
-pdf: http://boylelab.org/pubs/Bioinformatics_2008_Boyle.pdf
+primary_url: https://pubmed.ncbi.nlm.nih.gov/18784119
+pdf: https://boylelab.org/pubs/Bioinformatics_2008_Boyle.pdf
 abstract: |-
   Tag sequencing using high-throughput sequencing technologies are now regularly employed to identify specific sequence features, such as transcription factor binding sites (ChIP-seq) or regions of open chromatin (DNase-seq). To intuitively summarize and display individual sequence data as an accurate and interpretable signal, we developed F-Seq, a software package that generates a continuous tag sequence density estimation allowing identification of biologically meaningful sites whose output can be displayed directly in the UCSC Genome Browser. AVAILABILITY: The software is written in the Java language and is available on all major computing platforms for download at http://www.genome.duke.edu/labs/furey/software/fseq.
 ---

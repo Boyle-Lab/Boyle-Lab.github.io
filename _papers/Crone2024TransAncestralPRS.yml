@@ -19,18 +19,18 @@ bibtex: |-
   @article{Crone2024TransAncestralPRS,
     author = {Crone, Bradley and Boyle, Alan P},
     title = {Enhancing Portability of Trans-Ancestral Polygenic Risk Scores through Tissue-Specific Functional Genomic Data Integration},
-    year = {2024},
-    month = {aug},
-    day = {7},
+    journal = {PLoS Genetics},
     volume = {20},
     number = {8},
     pages = {e1011356},
-    doi = {10.1371/journal.pgen.1011356},
+    year = {2024},
+    month = {Aug},
+    day = {7},
     abstract = {Portability of trans-ancestral polygenic risk scores is often confounded by differences in linkage disequilibrium and genetic architecture between ancestries. Recent literature has shown that prioritizing GWAS SNPs with functional genomic evidence over strong association signals can improve model portability. We leveraged three RegulomeDB-derived functional regulatory annotations-SURF, TURF, and TLand-to construct polygenic risk models across a set of quantitative and binary traits highlighting functional mutations tagged by trait-associated tissue annotations. Tissue-specific prioritization by TURF and TLand provide a significant improvement in model accuracy over standard polygenic risk score (PRS) models across all traits. We developed the Trans-ancestral Iterative Tissue Refinement (TITR) algorithm to construct PRS models that prioritize functional mutations across multiple trait-implicated tissues. TITR-constructed PRS models show increased predictive accuracy over single tissue prioritization. This indicates our TITR approach captures a more comprehensive view of regulatory systems across implicated tissues that contribute to variance in trait expression.},
+    doi = {10.1371/journal.pgen.1011356},
     url = {https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011356},
-    pdf = {http://boylelab.org/pubs/PLoS_Genetics_2024_Crone.pdf},
-    journal = {PLoS Genetics},
-    note = {{PMID:} 39110742}
+    pdf = {https://boylelab.org/pubs/PLoS_Genetics_2024_Crone.pdf},
+    note = {{PMID:} 39110742},
   }
 journal: PLoS Genetics
 volume: '20'
@@ -39,7 +39,7 @@ pages: e1011356
 doi: 10.1371/journal.pgen.1011356
 PMID: '39110742'
 primary_url: https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011356
-pdf: http://boylelab.org/pubs/PLoS_Genetics_2024_Crone.pdf
+pdf: https://boylelab.org/pubs/PLoS_Genetics_2024_Crone.pdf
 abstract: |-
   Portability of trans-ancestral polygenic risk scores is often confounded by differences in linkage disequilibrium and genetic architecture between ancestries. Recent literature has shown that prioritizing GWAS SNPs with functional genomic evidence over strong association signals can improve model portability. We leveraged three RegulomeDB-derived functional regulatory annotations-SURF, TURF, and TLand-to construct polygenic risk models across a set of quantitative and binary traits highlighting functional mutations tagged by trait-associated tissue annotations. Tissue-specific prioritization by TURF and TLand provide a significant improvement in model accuracy over standard polygenic risk score (PRS) models across all traits. We developed the Trans-ancestral Iterative Tissue Refinement (TITR) algorithm to construct PRS models that prioritize functional mutations across multiple trait-implicated tissues. TITR-constructed PRS models show increased predictive accuracy over single tissue prioritization. This indicates our TITR approach captures a more comprehensive view of regulatory systems across implicated tissues that contribute to variance in trait expression.
 ---

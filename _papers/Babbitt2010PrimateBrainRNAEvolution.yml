@@ -16,38 +16,30 @@ year: 2010
 sort_date: '2010-01-01'
 members:
 - apboyle
-bibtex: "@article{Babbitt2010PrimateBrainRNAEvolution,\n  title = {Both noncoding and protein-coding {RNAs}\
-  \ contribute to \ngene expression evolution in the primate brain},\n  volume = {2},\n  issn = {1759-6653},\n\
-  \  url = {http://www.ncbi.nlm.nih.gov/pubmed/20333225},\n  pdf = {http://boylelab.org/pubs/Genome_Biol_Evol_2010_Babbitt.pdf},\n\
-  \  doi = {10.1093/gbe/evq002},\n  abstract = {Despite striking differences in cognition and \nbehavior\
-  \ between humans and our closest primate relatives, several \nstudies have found little evidence for\
-  \ adaptive change in protein-coding \nregions of genes expressed primarily in the brain. Instead, changes\
-  \ in \ngene expression may underlie many cognitive and behavioral differences. \nHere, we used digital\
-  \ gene expression: tag profiling (here called \n{Tag-Seq,} also called {DGE:tag} profiling) to assess\
-  \ changes in global \ntranscript abundance in the frontal cortex of the brains of 3 humans, 3 \nchimpanzees,\
-  \ and 3 rhesus macaques. A substantial fraction of \ntranscripts we identified as differentially transcribed\
-  \ among species \nwere not assayed in previous studies based on microarrays. \nDifferentially expressed\
-  \ tags within coding regions are enriched for \ngene functions involved in synaptic transmission, transport,\
-  \ oxidative \nphosphorylation, and lipid metabolism. Importantly, because {Tag-Seq} \ntechnology provides\
-  \ strand-specific information about all polyadenlyated \ntranscripts, we were able to assay expression\
-  \ in noncoding intragenic \nregions, including both sense and antisense noncoding transcripts \n(relative\
-  \ to nearby genes). We find that many noncoding transcripts are \nconserved in both location and expression\
-  \ level between species, \nsuggesting a possible functional role. Lastly, we examined the overlap \n\
-  between differential gene expression and signatures of positive \nselection within putative promoter\
-  \ regions, a sign that these \ndifferences represent adaptations during human evolution. Comparative\
-  \ \napproaches may provide important insights into genes responsible for \ndifferences in cognitive\
-  \ functions between humans and nonhuman primates, \nas well as highlighting new candidate genes for\
-  \ studies investigating \nneurological disorders.},\n  journal = {Genome Biology and Evolution},\n \
-  \ author = {Courtney C Babbitt and Olivier Fedrigo and Adam D \nPfefferle and Alan P Boyle and Julie\
-  \ E Horvath and Terrence S Furey and \nGregory A Wray},\n  year = {2010},\n  note = {{PMID:} 20333225},\n\
-  \  pages = {67--79}\n}"
+bibtex: |-
+  @article{Babbitt2010PrimateBrainRNAEvolution,
+    author = {Courtney C Babbitt and Olivier Fedrigo and Adam D Pfefferle and Alan P Boyle and Julie E Horvath and Terrence S Furey and Gregory A Wray},
+    title = {Both noncoding and protein-coding {RNAs} contribute to gene expression evolution in the primate brain},
+    journal = {Genome Biology and Evolution},
+    volume = {2},
+    pages = {67--79},
+    year = {2010},
+    month = {Jan},
+    day = {18},
+    issn = {1759-6653},
+    abstract = {Despite striking differences in cognition and behavior between humans and our closest primate relatives, several studies have found little evidence for adaptive change in protein-coding regions of genes expressed primarily in the brain. Instead, changes in gene expression may underlie many cognitive and behavioral differences. Here, we used digital gene expression: tag profiling (here called {Tag-Seq,} also called {DGE:tag} profiling) to assess changes in global transcript abundance in the frontal cortex of the brains of 3 humans, 3 chimpanzees, and 3 rhesus macaques. A substantial fraction of transcripts we identified as differentially transcribed among species were not assayed in previous studies based on microarrays. Differentially expressed tags within coding regions are enriched for gene functions involved in synaptic transmission, transport, oxidative phosphorylation, and lipid metabolism. Importantly, because {Tag-Seq} technology provides strand-specific information about all polyadenlyated transcripts, we were able to assay expression in noncoding intragenic regions, including both sense and antisense noncoding transcripts (relative to nearby genes). We find that many noncoding transcripts are conserved in both location and expression level between species, suggesting a possible functional role. Lastly, we examined the overlap between differential gene expression and signatures of positive selection within putative promoter regions, a sign that these differences represent adaptations during human evolution. Comparative approaches may provide important insights into genes responsible for differences in cognitive functions between humans and nonhuman primates, as well as highlighting new candidate genes for studies investigating neurological disorders.},
+    doi = {10.1093/gbe/evq002},
+    url = {https://pubmed.ncbi.nlm.nih.gov/20333225},
+    pdf = {https://boylelab.org/pubs/Genome_Biol_Evol_2010_Babbitt.pdf},
+    note = {{PMID:} 20333225},
+  }
 journal: Genome Biology and Evolution
 volume: '2'
 pages: 67--79
 doi: 10.1093/gbe/evq002
 PMID: '20333225'
-primary_url: http://www.ncbi.nlm.nih.gov/pubmed/20333225
-pdf: http://boylelab.org/pubs/Genome_Biol_Evol_2010_Babbitt.pdf
+primary_url: https://pubmed.ncbi.nlm.nih.gov/20333225
+pdf: https://boylelab.org/pubs/Genome_Biol_Evol_2010_Babbitt.pdf
 abstract: |-
   Despite striking differences in cognition and behavior between humans and our closest primate relatives, several studies have found little evidence for adaptive change in protein-coding regions of genes expressed primarily in the brain. Instead, changes in gene expression may underlie many cognitive and behavioral differences. Here, we used digital gene expression: tag profiling (here called Tag-Seq, also called DGE:tag profiling) to assess changes in global transcript abundance in the frontal cortex of the brains of 3 humans, 3 chimpanzees, and 3 rhesus macaques. A substantial fraction of transcripts we identified as differentially transcribed among species were not assayed in previous studies based on microarrays. Differentially expressed tags within coding regions are enriched for gene functions involved in synaptic transmission, transport, oxidative phosphorylation, and lipid metabolism. Importantly, because Tag-Seq technology provides strand-specific information about all polyadenlyated transcripts, we were able to assay expression in noncoding intragenic regions, including both sense and antisense noncoding transcripts (relative to nearby genes). We find that many noncoding transcripts are conserved in both location and expression level between species, suggesting a possible functional role. Lastly, we examined the overlap between differential gene expression and signatures of positive selection within putative promoter regions, a sign that these differences represent adaptations during human evolution. Comparative approaches may provide important insights into genes responsible for differences in cognitive functions between humans and nonhuman primates, as well as highlighting new candidate genes for studies investigating neurological disorders.
 ---

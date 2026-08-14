@@ -19,25 +19,27 @@ bibtex: |-
   @article{Diehl2020MapGL,
     author = {Diehl, Adam G and Boyle, Alan P},
     title = {{MapGL: Inferring evolutionary gain and loss of short genomic sequence features by phylogenetic maximum parsimony}},
+    journal = {BMC Bioinformatics},
+    volume = {21},
+    number = {1},
+    pages = {416},
     year = {2020},
     month = {Sep},
     day = {22},
-    volume = {21},
-    pages = {416},
-    doi = {10.1186/s12859-020-03742-9},
     abstract = {Comparative genomics studies are growing in number partly because of their unique ability to provide insight into shared and divergent biology between species. Of particular interest is the use of phylogenetic methods to infer the evolutionary history of cis-regulatory sequence features, which contribute strongly to phenotypic divergence and are frequently gained and lost in eutherian genomes. Understanding the mechanisms by which cis-regulatory element turnover generate emergent phenotypes is crucial to our understanding of adaptive evolution. Ancestral reconstruction methods can place species-specific cis-regulatory features in their evolutionary context, thus increasing our understanding of the process of regulatory sequence turnover. However, applying these methods to gain and loss of cis-regulatory features currently requires complex workflows which represent a potential barrier to widespread adoption by a broad scientific community. MapGL simplifies phylogenetic inference of the evolutionary history of short genomic sequence features by combining the necessary steps into a single piece of software with a simple set of inputs and outputs.},
+    doi = {10.1186/s12859-020-03742-9},
     url = {https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03742-9},
-    pdf = {http://boylelab.org/pubs/BMC_Bioinformatics_2020_Diehl.pdf},
-    journal = {BMC Bioinformatics},
-    note = {{PMID:} 32962625}
+    pdf = {https://boylelab.org/pubs/BMC_Bioinformatics_2020_Diehl.pdf},
+    note = {{PMID:} 32962625},
   }
 journal: BMC Bioinformatics
 volume: '21'
+number: '1'
 pages: '416'
 doi: 10.1186/s12859-020-03742-9
 PMID: '32962625'
 primary_url: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03742-9
-pdf: http://boylelab.org/pubs/BMC_Bioinformatics_2020_Diehl.pdf
+pdf: https://boylelab.org/pubs/BMC_Bioinformatics_2020_Diehl.pdf
 links:
   code: https://github.com/adadiehl/mapGL
 abstract: |-

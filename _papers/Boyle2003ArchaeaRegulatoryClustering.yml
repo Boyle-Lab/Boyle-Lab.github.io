@@ -12,19 +12,18 @@ sort_date: '2003-03-01'
 members:
 - apboyle
 bibtex: |-
-  @inproceedings{Boyle2003ArchaeaRegulatoryClustering,
+  @article{Boyle2003ArchaeaRegulatoryClustering,
+    author = {Alan P Boyle and Susan Bridges},
     title = {Clustering of archael gene regulatory regions},
+    journal = {FASEB Journal},
     volume = {17},
     number = {5},
-    pages = {A985-A985},
-    booktitle = {FASEB Journal},
-    author = {Alan P Boyle and Susan Bridges},
-    month = mar,
-    year = {2003}
+    pages = {A985},
+    year = {2003},
+    month = {Mar},
   }
-publication_type: conference
 journal: FASEB Journal
 volume: '17'
 number: '5'
-pages: A985-A985
+pages: A985
 ---

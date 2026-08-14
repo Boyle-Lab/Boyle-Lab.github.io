@@ -16,23 +16,24 @@ author_list:
   co_senior: true
 - citation_name: Parker SC
 year: 2019
-sort_date: '2019-01-01'
+sort_date: '2019-02-01'
 members:
 - apboyle
 bibtex: |-
   @article{Varshney2019CellSpecificAnnotations,
-    title = {Cell specificity of regulatory annotations and their genetic effects on gene expression},
     author = {Varshney, Arushi and VanRenterghem, Hadley and Orchard, Peter and {\dag}Boyle, Alan P and {\dag}Stitzel, Michael L and {\dag}Ucar, Duygu and Parker, Stephen CJ},
-    year = {2019},
-    doi = {10.1534/genetics.118.301525},
+    title = {Cell specificity of regulatory annotations and their genetic effects on gene expression},
     journal = {Genetics},
     volume = {211},
     number = {2},
     pages = {549--562},
+    year = {2019},
+    month = {Feb},
     abstract = {Epigenomic signatures from histone marks and transcription factor (TF)-binding sites have been used to annotate putative gene regulatory regions. However, a direct comparison of these diverse annotations is missing, and it is unclear how genetic variation within these annotations affects gene expression. Here, we compare five widely used annotations of active regulatory elements that represent high densities of one or more relevant epigenomic marks-"super" and "typical" (nonsuper) enhancers, stretch enhancers, high-occupancy target (HOT) regions, and broad domains-across the four matched human cell types for which they are available. We observe that stretch and super enhancers cover cell type-specific enhancer "chromatin states," whereas HOT regions and broad domains comprise more ubiquitous promoter states. Expression quantitative trait loci (eQTL) in stretch enhancers have significantly smaller effect sizes compared to those in HOT regions. Strikingly, chromatin accessibility QTL in stretch enhancers have significantly larger effect sizes compared to those in HOT regions. These observations suggest that stretch enhancers could harbor genetically primed chromatin to enable changes in TF binding, possibly to drive cell type-specific responses to environmental stimuli. Our results suggest that current eQTL studies are relatively underpowered or could lack the appropriate environmental context to detect genetic effects in the most cell type-specific "regulatory annotations," which likely contributes to infrequent colocalization of eQTL with genome-wide association study signals.},
-    url = {http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&id=30593493&retmode=ref&cmd=prlinks},
-    pdf = {http://boylelab.org/pubs/Genetics_2019_Varshney.pdf},
-    note = {{PMID:} 30593493}
+    doi = {10.1534/genetics.118.301525},
+    url = {https://pubmed.ncbi.nlm.nih.gov/30593493/},
+    pdf = {https://boylelab.org/pubs/Genetics_2019_Varshney.pdf},
+    note = {{PMID:} 30593493},
   }
 journal: Genetics
 volume: '211'
@@ -40,8 +41,8 @@ number: '2'
 pages: 549--562
 doi: 10.1534/genetics.118.301525
 PMID: '30593493'
-primary_url: http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&id=30593493&retmode=ref&cmd=prlinks
-pdf: http://boylelab.org/pubs/Genetics_2019_Varshney.pdf
+primary_url: https://pubmed.ncbi.nlm.nih.gov/30593493/
+pdf: https://boylelab.org/pubs/Genetics_2019_Varshney.pdf
 abstract: |-
   Epigenomic signatures from histone marks and transcription factor (TF)-binding sites have been used to annotate putative gene regulatory regions. However, a direct comparison of these diverse annotations is missing, and it is unclear how genetic variation within these annotations affects gene expression. Here, we compare five widely used annotations of active regulatory elements that represent high densities of one or more relevant epigenomic marks-"super" and "typical" (nonsuper) enhancers, stretch enhancers, high-occupancy target (HOT) regions, and broad domains-across the four matched human cell types for which they are available. We observe that stretch and super enhancers cover cell type-specific enhancer "chromatin states," whereas HOT regions and broad domains comprise more ubiquitous promoter states. Expression quantitative trait loci (eQTL) in stretch enhancers have significantly smaller effect sizes compared to those in HOT regions. Strikingly, chromatin accessibility QTL in stretch enhancers have significantly larger effect sizes compared to those in HOT regions. These observations suggest that stretch enhancers could harbor genetically primed chromatin to enable changes in TF binding, possibly to drive cell type-specific responses to environmental stimuli. Our results suggest that current eQTL studies are relatively underpowered or could lack the appropriate environmental context to detect genetic effects in the most cell type-specific "regulatory annotations," which likely contributes to infrequent colocalization of eQTL with genome-wide association study signals.
 ---

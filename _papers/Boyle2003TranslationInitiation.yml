@@ -12,26 +12,26 @@ sort_date: '2003-07-01'
 members:
 - apboyle
 bibtex: |-
-  @inproceedings{Boyle2003TranslationInitiation,
+  @article{Boyle2003TranslationInitiation,
+    author = {Alan P Boyle and John A Boyle},
     title = {Global analysis of microbial translation initiation regions},
-    url = {http://www.thefreelibrary.com/Global+analysis+of+microbial+translation+initiation+regions-a0105160258},
-    pdf = {http://boylelab.org/pubs/MAS_2003_Boyle.pdf},
-    abstract = {The availability of genomic sequences from multiple bacteria has allowed global comparisons of patterns. Here we present a graphical comparison of normalized base frequencies in the vicinity of translation  starts for both eubacteria and archae. The results show that most eubacterial Open Reading Frames (ORFs) are preceded by a distinctly recognizable Shine-Dalgarno (SD) sequence pattern. However, some eubacteria deviate from this arrangement and have diminished SD patterns or completely lack this sequence. On the other hand, some archae seem to use both SD sequences and leaderless transcripts in their translation initiation  process. This is dependent on the position of a gene within an operon. Most archae seem to have other regular sequences located upstream from the typical SD location. Both eubacteria and archae have a surprising repetitive pattern seen within the averaged ORFs. The eubacterial and archaeal averaged patterns are slightly different from each other, and individual organisms within each domain vary from the averages. Nevertheless, the existence of such a periodicity within ORFs may allow the development of new techniques to identify actual genes from ORFs.},
+    journal = {Journal of the Mississippi Academy of Sciences},
     volume = {48},
     number = {3},
     pages = {138--150},
-    booktitle = {Journal of the Mississippi Academy of Sciences},
-    author = {Alan P Boyle and John A Boyle},
-    month = jul,
-    year = {2003}
+    year = {2003},
+    month = {Jul},
+    issn = {0076-9436},
+    abstract = {The availability of genomic sequences from multiple bacteria has allowed global comparisons of patterns. Here we present a graphical comparison of normalized base frequencies in the vicinity of translation  starts for both eubacteria and archae. The results show that most eubacterial Open Reading Frames (ORFs) are preceded by a distinctly recognizable Shine-Dalgarno (SD) sequence pattern. However, some eubacteria deviate from this arrangement and have diminished SD patterns or completely lack this sequence. On the other hand, some archae seem to use both SD sequences and leaderless transcripts in their translation initiation  process. This is dependent on the position of a gene within an operon. Most archae seem to have other regular sequences located upstream from the typical SD location. Both eubacteria and archae have a surprising repetitive pattern seen within the averaged ORFs. The eubacterial and archaeal averaged patterns are slightly different from each other, and individual organisms within each domain vary from the averages. Nevertheless, the existence of such a periodicity within ORFs may allow the development of new techniques to identify actual genes from ORFs.},
+    url = {https://msacad.org/journal/july03journal/july.pdf},
+    pdf = {https://boylelab.org/pubs/MAS_2003_Boyle.pdf},
   }
-publication_type: conference
 journal: Journal of the Mississippi Academy of Sciences
 volume: '48'
 number: '3'
 pages: 138--150
-primary_url: http://www.thefreelibrary.com/Global+analysis+of+microbial+translation+initiation+regions-a0105160258
-pdf: http://boylelab.org/pubs/MAS_2003_Boyle.pdf
+primary_url: https://msacad.org/journal/july03journal/july.pdf
+pdf: https://boylelab.org/pubs/MAS_2003_Boyle.pdf
 abstract: |-
   The availability of genomic sequences from multiple bacteria has allowed global comparisons of patterns. Here we present a graphical comparison of normalized base frequencies in the vicinity of translation starts for both eubacteria and archae. The results show that most eubacterial Open Reading Frames (ORFs) are preceded by a distinctly recognizable Shine-Dalgarno (SD) sequence pattern. However, some eubacteria deviate from this arrangement and have diminished SD patterns or completely lack this sequence. On the other hand, some archae seem to use both SD sequences and leaderless transcripts in their translation initiation process. This is dependent on the position of a gene within an operon. Most archae seem to have other regular sequences located upstream from the typical SD location. Both eubacteria and archae have a surprising repetitive pattern seen within the averaged ORFs. The eubacterial and archaeal averaged patterns are slightly different from each other, and individual organisms within each domain vary from the averages. Nevertheless, the existence of such a periodicity within ORFs may allow the development of new techniques to identify actual genes from ORFs.
 ---

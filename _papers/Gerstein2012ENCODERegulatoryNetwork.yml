@@ -79,20 +79,20 @@ members:
 - apboyle
 bibtex: |-
   @article{Gerstein2012ENCODERegulatoryNetwork,
-    title = {Architecture of the human regulatory network derived from {ENCODE} data},
-    volume = {489},
-    issn = {1476-4687},
-    url = {http://www.ncbi.nlm.nih.gov/pubmed/22955619},
-    pdf = {http://boylelab.org/pubs/Nature_2012_Gerstein.pdf},
-    doi = {10.1038/nature11245},
-    abstract = {Transcription factors bind in a combinatorial fashion to specify the on-and-off states of genes; the ensemble of these binding events forms a regulatory network, constituting the wiring diagram for a cell. To examine the principles of the human transcriptional regulatory network, we determined the genomic binding information of 119 transcription-related factors in over 450 distinct experiments. We found the combinatorial, co-association of transcription factors to be highly context specific: distinct combinations of factors bind at specific genomic locations. In particular, there are significant differences in the binding proximal and distal to genes. We organized all the transcription factor binding into a hierarchy and integrated it with other genomic information (for example, {microRNA} regulation), forming a dense meta-network. Factors at different levels have different properties; for instance, top-level transcription factors more strongly influence expression and middle-level ones co-regulate targets to mitigate information-flow bottlenecks. Moreover, these co-regulations give rise to many enriched network motifs (for example, noise-buffering feed-forward loops). Finally, more connected network components are under stronger selection and exhibit a greater degree of allele-specific activity (that is, differential binding to the two parental alleles). The regulatory information obtained in this study will be crucial for interpreting personal genome sequences and understanding basic principles of human biology and disease.},
-    number = {7414},
-    journal = {Nature},
     author = {*Gerstein, Mark B and *Kundaje, Anshul and *Hariharan, Manoj and *Landt, Stephen G and *Yan, Koon-Kiu and *Cheng, Chao and *Mu, Xinmeng Jasmine and *Khurana, Ekta and *Rozowsky, Joel and *Alexander, Roger and *Min, Renqiang and *Alves, Pedro and Abyzov, Alexej and Addleman, Nick and Bhardwaj, Nitin and Boyle, Alan P and Cayting, Philip and Charos, Alexandra and Chen, David Z and Cheng, Yong and Clarke, Declan and Eastman, Catharine and Euskirchen, Ghia and Frietze, Seth and Fu, Yao and Gertz, Jason and Grubert, Fabian and Harmanci, Arif and Jain, Preti and Kasowski, Maya and Lacroute, Phil and Leng, Jing and Lian, Jin and Monahan, Hannah and {O'Geen}, Henriette and Ouyang, Zhengqing and Partridge, E Christopher and Patacsil, Dorrelyn and Pauli, Florencia and Raha, Debasish and Ramirez, Lucia and Reddy, Timothy E and Reed, Brian and Shi, Minyi and Slifer, Teri and Wang, Jing and Wu, Linfeng and Yang, Xinqiong and Yip, Kevin Y and Zilberman-Schapira, Gili and Batzoglou, Serafim and Sidow, Arend and Farnham, Peggy J and Myers, Richard M and Weissman, Sherman M and Snyder, Michael},
-    month = sep,
+    title = {Architecture of the human regulatory network derived from {ENCODE} data},
+    journal = {Nature},
+    volume = {489},
+    number = {7414},
+    pages = {91--100},
     year = {2012},
+    month = {Sep},
+    issn = {1476-4687},
+    abstract = {Transcription factors bind in a combinatorial fashion to specify the on-and-off states of genes; the ensemble of these binding events forms a regulatory network, constituting the wiring diagram for a cell. To examine the principles of the human transcriptional regulatory network, we determined the genomic binding information of 119 transcription-related factors in over 450 distinct experiments. We found the combinatorial, co-association of transcription factors to be highly context specific: distinct combinations of factors bind at specific genomic locations. In particular, there are significant differences in the binding proximal and distal to genes. We organized all the transcription factor binding into a hierarchy and integrated it with other genomic information (for example, {microRNA} regulation), forming a dense meta-network. Factors at different levels have different properties; for instance, top-level transcription factors more strongly influence expression and middle-level ones co-regulate targets to mitigate information-flow bottlenecks. Moreover, these co-regulations give rise to many enriched network motifs (for example, noise-buffering feed-forward loops). Finally, more connected network components are under stronger selection and exhibit a greater degree of allele-specific activity (that is, differential binding to the two parental alleles). The regulatory information obtained in this study will be crucial for interpreting personal genome sequences and understanding basic principles of human biology and disease.},
+    doi = {10.1038/nature11245},
+    url = {https://pubmed.ncbi.nlm.nih.gov/22955619},
+    pdf = {https://boylelab.org/pubs/Nature_2012_Gerstein.pdf},
     note = {{PMID:} 22955619},
-    pages = {91--100}
   }
 journal: Nature
 volume: '489'
@@ -100,8 +100,8 @@ number: '7414'
 pages: 91--100
 doi: 10.1038/nature11245
 PMID: '22955619'
-primary_url: http://www.ncbi.nlm.nih.gov/pubmed/22955619
-pdf: http://boylelab.org/pubs/Nature_2012_Gerstein.pdf
+primary_url: https://pubmed.ncbi.nlm.nih.gov/22955619
+pdf: https://boylelab.org/pubs/Nature_2012_Gerstein.pdf
 abstract: |-
   Transcription factors bind in a combinatorial fashion to specify the on-and-off states of genes; the ensemble of these binding events forms a regulatory network, constituting the wiring diagram for a cell. To examine the principles of the human transcriptional regulatory network, we determined the genomic binding information of 119 transcription-related factors in over 450 distinct experiments. We found the combinatorial, co-association of transcription factors to be highly context specific: distinct combinations of factors bind at specific genomic locations. In particular, there are significant differences in the binding proximal and distal to genes. We organized all the transcription factor binding into a hierarchy and integrated it with other genomic information (for example, microRNA regulation), forming a dense meta-network. Factors at different levels have different properties; for instance, top-level transcription factors more strongly influence expression and middle-level ones co-regulate targets to mitigate information-flow bottlenecks. Moreover, these co-regulations give rise to many enriched network motifs (for example, noise-buffering feed-forward loops). Finally, more connected network components are under stronger selection and exhibit a greater degree of allele-specific activity (that is, differential binding to the two parental alleles). The regulatory information obtained in this study will be crucial for interpreting personal genome sequences and understanding basic principles of human biology and disease.
 ---

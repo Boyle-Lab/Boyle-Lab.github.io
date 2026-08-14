@@ -4,8 +4,9 @@ bibkey: SMaHTNetwork2025SomaticMutationBenchmarking
 title: Comprehensive benchmarking of somatic mutation detection by the SMaHT Network
 author_list:
 - citation_name: The Somatic Mosaicism across Human Tissues Network (SMaHT)
-year: 2025
-sort_date: '2025-10-10'
+- citation_name: Abyzov A
+year: 2026
+sort_date: '2026-07-01'
 members:
 - apboyle
 - torrin
@@ -15,22 +16,26 @@ members:
 - jswitzen
 bibtex: |-
   @article{SMaHTNetwork2025SomaticMutationBenchmarking,
-    author = {{The Somatic Mosaicism across Human Tissues Network (SMaHT)}},
+    author = {{The Somatic Mosaicism across Human Tissues Network (SMaHT)} and Abyzov, Alexej},
     title = {{Comprehensive benchmarking of somatic mutation detection by the SMaHT Network}},
-    year = {2025},
-    doi = {10.1101/2025.10.09.678885},
+    journal = {bioRxiv},
+    year = {2026},
+    month = {Jul},
+    day = {11},
     publisher = {Cold Spring Harbor Laboratory},
-    abstract = {Somatic mosaicism is increasingly recognized as a fundamental feature of human biology, yet the detection of somatic mutations remains challenging. The SMaHT Network conducted four large-scale benchmarking experiments to evaluate sequencing technologies, experimental approaches, and computational methods for detecting diverse somatic mutations. Cumulative sequencing coverage exceeded 1,000{\texttimes} with short reads and 100-400{\texttimes} with long reads for each of nine analyzed samples. We defined optimal strategies for integrating bulk short- and long-read sequencing for mutation detection and demonstrated that using donor-specific assemblies and human pangenome improved variant calling and extended mutation catalogs to challenging genomic regions. We benchmarked six duplex-seq technologies and showed that single-cell sequencing resolves cell type-specific mutational patterns and heterogeneity. Our results indicate that bulk, single-cell, and duplex analyses are complementary {\textendash} and leveraging all three provides comprehensive characterization of mosaicism within a tissue. Together, these findings provide a roadmap for accurate, genome-wide somatic mutation discovery and analysis.Competing Interest StatementCOINIH Common Fund, https://ror.org/001d55x84},
-    url = {https://www.biorxiv.org/content/early/2025/10/10/2025.10.09.678885},
-    pdf = {https://www.biorxiv.org/content/early/2025/10/10/2025.10.09.678885.full.pdf},
-    journal = {bioRxiv}
+    abstract = {Somatic mosaicism is increasingly recognized as a fundamental feature of human biology, yet the detection of somatic mutations remains challenging. The SMaHT Network conducted four large-scale benchmarking experiments to evaluate sequencing technologies, experimental approaches, and computational methods for detecting diverse somatic mutations. Cumulative sequencing coverage exceeded 1,000{\texttimes} with short reads and 100-400{\texttimes} with long reads for each of nine analyzed samples. We defined optimal strategies for integrating bulk short- and long-read sequencing for mutation detection and demonstrated that using donor-specific assemblies and human pangenome improved variant calling and extended mutation catalogs to challenging genomic regions. We benchmarked six duplex-seq technologies and showed that single-cell sequencing resolves cell type-specific mutational patterns and heterogeneity. Our results indicate that bulk, single-cell, and duplex analyses are complementary {\textendash} and leveraging all three provides comprehensive characterization of mosaicism within a tissue. Together, these findings provide a roadmap for accurate, genome-wide somatic mutation discovery and analysis.},
+    doi = {10.1101/2025.10.09.678885},
+    url = {https://www.biorxiv.org/content/10.1101/2025.10.09.678885},
+    pdf = {https://www.biorxiv.org/content/10.1101/2025.10.09.678885.full.pdf},
+    note = {{PMID:} 41279200},
   }
 status: preprint
 journal: bioRxiv
 doi: 10.1101/2025.10.09.678885
-primary_url: https://www.biorxiv.org/content/early/2025/10/10/2025.10.09.678885
-pdf: https://www.biorxiv.org/content/early/2025/10/10/2025.10.09.678885.full.pdf
-biorxiv: https://www.biorxiv.org/content/early/2025/10/10/2025.10.09.678885
+PMID: '41279200'
+primary_url: https://www.biorxiv.org/content/10.1101/2025.10.09.678885
+pdf: https://www.biorxiv.org/content/10.1101/2025.10.09.678885.full.pdf
+biorxiv: https://www.biorxiv.org/content/10.1101/2025.10.09.678885
 member_roles:
   apboyle: consortium
   torrin: consortium
@@ -39,5 +44,5 @@ member_roles:
   crmumm: consortium
   jswitzen: consortium
 abstract: |-
-  Somatic mosaicism is increasingly recognized as a fundamental feature of human biology, yet the detection of somatic mutations remains challenging. The SMaHT Network conducted four large-scale benchmarking experiments to evaluate sequencing technologies, experimental approaches, and computational methods for detecting diverse somatic mutations. Cumulative sequencing coverage exceeded 1,000× with short reads and 100-400× with long reads for each of nine analyzed samples. We defined optimal strategies for integrating bulk short- and long-read sequencing for mutation detection and demonstrated that using donor-specific assemblies and human pangenome improved variant calling and extended mutation catalogs to challenging genomic regions. We benchmarked six duplex-seq technologies and showed that single-cell sequencing resolves cell type-specific mutational patterns and heterogeneity. Our results indicate that bulk, single-cell, and duplex analyses are complementary – and leveraging all three provides comprehensive characterization of mosaicism within a tissue. Together, these findings provide a roadmap for accurate, genome-wide somatic mutation discovery and analysis.Competing Interest StatementCOINIH Common Fund, https://ror.org/001d55x84
+  Somatic mosaicism is increasingly recognized as a fundamental feature of human biology, yet the detection of somatic mutations remains challenging. The SMaHT Network conducted four large-scale benchmarking experiments to evaluate sequencing technologies, experimental approaches, and computational methods for detecting diverse somatic mutations. Cumulative sequencing coverage exceeded 1,000× with short reads and 100-400× with long reads for each of nine analyzed samples. We defined optimal strategies for integrating bulk short- and long-read sequencing for mutation detection and demonstrated that using donor-specific assemblies and human pangenome improved variant calling and extended mutation catalogs to challenging genomic regions. We benchmarked six duplex-seq technologies and showed that single-cell sequencing resolves cell type-specific mutational patterns and heterogeneity. Our results indicate that bulk, single-cell, and duplex analyses are complementary – and leveraging all three provides comprehensive characterization of mosaicism within a tissue. Together, these findings provide a roadmap for accurate, genome-wide somatic mutation discovery and analysis.
 ---

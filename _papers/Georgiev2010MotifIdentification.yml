@@ -7,32 +7,38 @@ author_list:
 - citation_name: Boyle AP
   member_url: /people/Alan_Boyle/
   member_name: Alan P. Boyle, Ph.D.
-- citation_name: Mukherjee KJAS
+- citation_name: Jayasurya K
+- citation_name: Mukherjee S
 - citation_name: Ohler U
 year: 2010
 sort_date: '2010-11-02'
 members:
 - apboyle
-bibtex: "@article{Georgiev2010MotifIdentification,\n  title = {Evidence-ranked motif identification},\n\
-  \  volume = {11},\n  issn = {1465-6914},\n  url = {http://www.ncbi.nlm.nih.gov/pubmed/20156354},\n \
-  \ pdf = {http://boylelab.org/pubs/Genome_Biol._2010_Georgiev.pdf},\n  doi = {10.1186/gb-2010-11-2-r19},\n\
-  \  abstract = {{ABSTRACT:} {cERMIT} is a computationally efficient \nmotif discovery tool based on analyzing\
-  \ genome-wide quantitative \nregulatory evidence. Instead of pre-selecting promising candidate \nsequences,\
-  \ it utilizes information across all sequence regions to search \nfor high-scoring motifs. We apply\
-  \ {cERMIT} on a range of direct binding \nand overexpression data sets; it substantially outperforms\
-  \ \nstate-of-the-art approaches on curated {ChIP-chip} datasets, and easily \nscales to current mammalian\
-  \ {ChIP-seq} experiments with data on \nthousands of non-coding regions.},\n  number = {2},\n  journal\
-  \ = {Genome Biology},\n  author = {Stoyan Georgiev and Alan P Boyle and Karthik Jayasurya \nand Sayan\
-  \ Mukherjee and Uwe Ohler},\n  month = feb,\n  year = {2010},\n  note = {{PMID:} 20156354},\n  pages\
-  \ = {R19}\n}"
+bibtex: |-
+  @article{Georgiev2010MotifIdentification,
+    author = {Stoyan Georgiev and Alan P Boyle and Karthik Jayasurya and Sayan Mukherjee and Uwe Ohler},
+    title = {Evidence-ranked motif identification},
+    journal = {Genome Biology},
+    volume = {11},
+    number = {2},
+    pages = {R19},
+    year = {2010},
+    month = {Feb},
+    issn = {1465-6914},
+    abstract = {{ABSTRACT:} {cERMIT} is a computationally efficient motif discovery tool based on analyzing genome-wide quantitative regulatory evidence. Instead of pre-selecting promising candidate sequences, it utilizes information across all sequence regions to search for high-scoring motifs. We apply {cERMIT} on a range of direct binding and overexpression data sets; it substantially outperforms state-of-the-art approaches on curated {ChIP-chip} datasets, and easily scales to current mammalian {ChIP-seq} experiments with data on thousands of non-coding regions.},
+    doi = {10.1186/gb-2010-11-2-r19},
+    url = {https://pubmed.ncbi.nlm.nih.gov/20156354},
+    pdf = {https://boylelab.org/pubs/Genome_Biol._2010_Georgiev.pdf},
+    note = {{PMID:} 20156354},
+  }
 journal: Genome Biology
 volume: '11'
 number: '2'
 pages: R19
 doi: 10.1186/gb-2010-11-2-r19
 PMID: '20156354'
-primary_url: http://www.ncbi.nlm.nih.gov/pubmed/20156354
-pdf: http://boylelab.org/pubs/Genome_Biol._2010_Georgiev.pdf
+primary_url: https://pubmed.ncbi.nlm.nih.gov/20156354
+pdf: https://boylelab.org/pubs/Genome_Biol._2010_Georgiev.pdf
 abstract: |-
   ABSTRACT: cERMIT is a computationally efficient motif discovery tool based on analyzing genome-wide quantitative regulatory evidence. Instead of pre-selecting promising candidate sequences, it utilizes information across all sequence regions to search for high-scoring motifs. We apply cERMIT on a range of direct binding and overexpression data sets; it substantially outperforms state-of-the-art approaches on curated ChIP-chip datasets, and easily scales to current mammalian ChIP-seq experiments with data on thousands of non-coding regions.
 ---

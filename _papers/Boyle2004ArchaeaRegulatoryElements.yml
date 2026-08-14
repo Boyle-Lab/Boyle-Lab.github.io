@@ -14,15 +14,20 @@ members:
 - apboyle
 bibtex: |-
   @inproceedings{Boyle2004ArchaeaRegulatoryElements,
-    title = {Identification of Regulatory Elements in Archaea using Self-Organizing Maps},
-    pdf = {http://boylelab.org/pubs/RECOMB_2004_Boyle.pdf},
-    booktitle = {Proc RECOMB},
     author = {Alan P Boyle and John A Boyle and Susan M Bridges},
-    month = mar,
-    year = {2004}
+    title = {Identification of Regulatory Elements in Archaea using Self-Organizing Maps},
+    booktitle = {Currents in Computational Molecular Biology 2004},
+    editor = {Gramada, Apostol and Bourne, Philip E.},
+    pages = {455--456},
+    year = {2004},
+    month = {Mar},
+    url = {https://compbio.berkeley.edu/people/dek/recomb2004/abstracts.pdf},
+    pdf = {https://boylelab.org/pubs/RECOMB_2004_Boyle.pdf},
+    keywords = {self-organizing maps; regulatory elements; archaea; operon; Sulfolobus solfataricus},
   }
 publication_type: conference
-journal: Proc RECOMB
-primary_url: http://boylelab.org/pubs/RECOMB_2004_Boyle.pdf
-pdf: http://boylelab.org/pubs/RECOMB_2004_Boyle.pdf
+journal: Currents in Computational Molecular Biology 2004
+pages: 455--456
+primary_url: https://compbio.berkeley.edu/people/dek/recomb2004/abstracts.pdf
+pdf: https://boylelab.org/pubs/RECOMB_2004_Boyle.pdf
 ---
