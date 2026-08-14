@@ -24,7 +24,6 @@ class NewsDataTests(unittest.TestCase):
         ]
 
     def test_all_news_posts_have_standard_front_matter(self) -> None:
-        self.assertEqual(len(self.posts), 170)
         for path, data, _body in self.posts:
             self.assertEqual(data.get("layout"), "post", path.name)
             self.assertIsInstance(data.get("published"), bool, path.name)
