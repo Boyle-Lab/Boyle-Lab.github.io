@@ -15,7 +15,7 @@ author_list:
   member_url: /people/Alan_Boyle/
   member_name: Alan P. Boyle, Ph.D.
 year: 2025
-sort_date: '2025-01-01'
+sort_date: '2025-07-01'
 members:
 - prparana
 - crmumm
@@ -25,20 +25,26 @@ bibtex: |-
     author = {Preston Parana and Camille Mumm and Michael J. McConnell and Alan P. Boyle},
     title = {{Draft de novo genome construction of Scytonema sp. PRP1: identified from single-cell sequencing library preparation}},
     journal = {Microbiology Resource Announcements},
+    volume = {14},
+    number = {9},
     pages = {e00029-25},
     year = {2025},
+    month = {Jul},
+    day = {31},
+    abstract = {We present the genome sequence of Scytonema sp. PRP1, a cyanobacterium identified during single-cell sequencing library preparation of de-identified human brain samples associated with the Brain Somatic Mosaicism Network. Our 8,266,022 bp genome comprises 140 contigs, containing 6,765 protein-coding sequences, 37 tRNA genes, and 11 rRNA genes.},
     doi = {10.1128/mra.00029-25},
     url = {https://journals.asm.org/doi/abs/10.1128/mra.00029-25},
-    pdf = {http://boylelab.org/pubs/MRA_2025_Parana.pdf},
-    abstract = {We present the genome sequence of Scytonema sp. PRP1, a cyanobacterium identified during single-cell sequencing library preparation of de-identified human brain samples associated with the Brain Somatic Mosaicism Network. Our 8,266,022 bp genome comprises 140 contigs, containing 6,765 protein-coding sequences, 37 tRNA genes, and 11 rRNA genes. },
-    note = {{PMID:} 40744872}
+    pdf = {https://boylelab.org/pubs/MRA_2025_Parana.pdf},
+    note = {{PMID:} 40744872},
   }
 journal: Microbiology Resource Announcements
+volume: '14'
+number: '9'
 pages: e00029-25
 doi: 10.1128/mra.00029-25
 PMID: '40744872'
 primary_url: https://journals.asm.org/doi/abs/10.1128/mra.00029-25
-pdf: http://boylelab.org/pubs/MRA_2025_Parana.pdf
+pdf: https://boylelab.org/pubs/MRA_2025_Parana.pdf
 abstract: |-
   We present the genome sequence of Scytonema sp. PRP1, a cyanobacterium identified during single-cell sequencing library preparation of de-identified human brain samples associated with the Brain Somatic Mosaicism Network. Our 8,266,022 bp genome comprises 140 contigs, containing 6,765 protein-coding sequences, 37 tRNA genes, and 11 rRNA genes.
 ---

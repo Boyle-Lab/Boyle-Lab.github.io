@@ -19,18 +19,18 @@ bibtex: |-
   @article{Nishizaki2022SEMplMe,
     author = {Nishizaki, Sierra S and Boyle, Alan P},
     title = {{SEMplMe: A tool for integrating DNA methylation effects in transcription factor binding affinity predictions}},
-    year = {2022},
-    month = {aug},
-    day = {4},
+    journal = {BMC Bioinformatics},
     volume = {23},
     number = {1},
     pages = {317},
+    year = {2022},
+    month = {Aug},
+    day = {4},
+    abstract = {Aberrant DNA methylation in transcription factor binding sites has been shown to lead to anomalous gene regulation that is strongly associated with human disease. However, the majority of methylation-sensitive positions within transcription factor binding sites remain unknown. Here we introduce SEMplMe, a computational tool to generate predictions of the effect of methylation on transcription factor binding strength in every position within a transcription factor’s motif.},
     doi = {10.1186/s12859-022-04865-x},
     url = {https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04865-x},
-    pdf = {http://boylelab.org/pubs/BMC_Bioinformatics_2022_Nishizaki.pdf},
-    abstract = {Aberrant DNA methylation in transcription factor binding sites has been shown to lead to anomalous gene regulation that is strongly associated with human disease. However, the majority of methylation-sensitive positions within transcription factor binding sites remain unknown. Here we introduce SEMplMe, a computational tool to generate predictions of the effect of methylation on transcription factor binding strength in every position within a transcription factor’s motif.},
-    journal = {BMC Bioinformatics},
-    note = {{PMID:} 35927613}
+    pdf = {https://boylelab.org/pubs/BMC_Bioinformatics_2022_Nishizaki.pdf},
+    note = {{PMID:} 35927613},
   }
 journal: BMC Bioinformatics
 volume: '23'
@@ -39,7 +39,7 @@ pages: '317'
 doi: 10.1186/s12859-022-04865-x
 PMID: '35927613'
 primary_url: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04865-x
-pdf: http://boylelab.org/pubs/BMC_Bioinformatics_2022_Nishizaki.pdf
+pdf: https://boylelab.org/pubs/BMC_Bioinformatics_2022_Nishizaki.pdf
 biorxiv: https://www.biorxiv.org/content/10.1101/2020.08.13.250118v2
 abstract: |-
   Aberrant DNA methylation in transcription factor binding sites has been shown to lead to anomalous gene regulation that is strongly associated with human disease. However, the majority of methylation-sensitive positions within transcription factor binding sites remain unknown. Here we introduce SEMplMe, a computational tool to generate predictions of the effect of methylation on transcription factor binding strength in every position within a transcription factor’s motif.

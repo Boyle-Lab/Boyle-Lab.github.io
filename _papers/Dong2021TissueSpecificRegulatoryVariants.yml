@@ -10,8 +10,8 @@ author_list:
 - citation_name: Boyle AP
   member_url: /people/Alan_Boyle/
   member_name: Alan P. Boyle, Ph.D.
-year: 2021
-sort_date: '2021-10-01'
+year: 2022
+sort_date: '2022-01-01'
 members:
 - shengchd
 - apboyle
@@ -20,26 +20,26 @@ bibtex: |-
     author = {Dong, Shengcheng and Boyle, Alan P},
     title = {Prioritization of regulatory variants with tissue-specific function in the non-coding regions of human genome},
     journal = {Nucleic Acids Research},
-    year = {2021},
-    month = {10},
     volume = {50},
     number = {1},
-    pages = {e6-e6},
+    pages = {e6},
+    year = {2022},
+    month = {Jan},
+    day = {11},
     abstract = {Understanding the functional consequences of genetic variation in the non-coding regions of the human genome remains a challenge. We introduce h ere a computational tool, TURF, to prioritize regulatory variants with tissue-specific function by leveraging evidence from functional genomics experiments, including over 3000 functional genomics datasets from the ENCODE project provided in the RegulomeDB database. TURF is able to generate prediction scores at both organism and tissue/organ-specific levels for any non-coding variant on the genome. We present that TURF has an overall top performance in prediction by using validated variants from MPRA experiments. We also demonstrate how TURF can pick out the regulatory variants with tissue-specific function over a candidate list from associate studies. Furthermore, we found that various GWAS traits showed the enrichment of regulatory variants predicted by TURF scores in the trait-relevant organs, which indicates that these variants can be a valuable source for future studies.},
     doi = {10.1093/nar/gkab924},
     url = {https://doi.org/10.1093/nar/gkab924},
-    pdf = {http://boylelab.org/pubs/NAR_2021_Dong.pdf},
-    journal = {Nucleic Acids Research},
-    note = {{PMID:} 34648033}
+    pdf = {https://boylelab.org/pubs/NAR_2021_Dong.pdf},
+    note = {{PMID:} 34648033},
   }
 journal: Nucleic Acids Research
 volume: '50'
 number: '1'
-pages: e6-e6
+pages: e6
 doi: 10.1093/nar/gkab924
 PMID: '34648033'
 primary_url: https://doi.org/10.1093/nar/gkab924
-pdf: http://boylelab.org/pubs/NAR_2021_Dong.pdf
+pdf: https://boylelab.org/pubs/NAR_2021_Dong.pdf
 abstract: |-
   Understanding the functional consequences of genetic variation in the non-coding regions of the human genome remains a challenge. We introduce h ere a computational tool, TURF, to prioritize regulatory variants with tissue-specific function by leveraging evidence from functional genomics experiments, including over 3000 functional genomics datasets from the ENCODE project provided in the RegulomeDB database. TURF is able to generate prediction scores at both organism and tissue/organ-specific levels for any non-coding variant on the genome. We present that TURF has an overall top performance in prediction by using validated variants from MPRA experiments. We also demonstrate how TURF can pick out the regulatory variants with tissue-specific function over a candidate list from associate studies. Furthermore, we found that various GWAS traits showed the enrichment of regulatory variants predicted by TURF scores in the trait-relevant organs, which indicates that these variants can be a valuable source for future studies.
 ---

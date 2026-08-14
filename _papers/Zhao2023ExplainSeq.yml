@@ -16,7 +16,7 @@ author_list:
   member_url: /people/Alan_Boyle/
   member_name: Alan P. Boyle, Ph.D.
 year: 2023
-sort_date: '2023-01-23'
+sort_date: '2023-01-02'
 members:
 - samzhao
 - shengchd
@@ -25,16 +25,18 @@ bibtex: |-
   @article{Zhao2023ExplainSeq,
     author = {Zhao, Nanxiang and Wang, S and Huang, Q and Dong, Shengcheng and Boyle, Alan P.},
     title = {{Explain-seq: an end-to-end pipeline from training to interpretation of sequence-based deep learning models}},
+    journal = {bioRxiv},
     year = {2023},
+    month = {Jan},
+    day = {23},
     doi = {10.1101/2023.01.23.525250},
-    url = {https://www.biorxiv.org/content/early/2023/01/23/2023.01.23.525250},
-    pdf = {https://www.biorxiv.org/content/early/2023/01/23/2023.01.23.525250.full.pdf},
-    journal = {bioRxiv}
+    url = {https://www.biorxiv.org/content/10.1101/2023.01.23.525250},
+    pdf = {https://www.biorxiv.org/content/10.1101/2023.01.23.525250.full.pdf},
   }
 status: preprint
 journal: bioRxiv
 doi: 10.1101/2023.01.23.525250
-primary_url: https://www.biorxiv.org/content/early/2023/01/23/2023.01.23.525250
-pdf: https://www.biorxiv.org/content/early/2023/01/23/2023.01.23.525250.full.pdf
-biorxiv: https://www.biorxiv.org/content/early/2023/01/23/2023.01.23.525250
+primary_url: https://www.biorxiv.org/content/10.1101/2023.01.23.525250
+pdf: https://www.biorxiv.org/content/10.1101/2023.01.23.525250.full.pdf
+biorxiv: https://www.biorxiv.org/content/10.1101/2023.01.23.525250
 ---

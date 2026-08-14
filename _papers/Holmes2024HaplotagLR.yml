@@ -31,26 +31,26 @@ bibtex: |-
   @article{Holmes2024HaplotagLR,
     author = {Holmes, Monica J. and Mahjour, Babak and Castro, Christopher P. and Farnum, Gregory A. and Diehl, Adam G. and Boyle, Alan P.},
     title = {{HaplotagLR: an efficient and configurable utility for haplotagging long reads}},
-    year = {2024},
-    month = {03},
-    volume = {19},
-    pages = {1-15},
-    number = {3},
-    doi = {10.1371/journal.pone.0298688},
-    abstract = {Understanding the functional effects of sequence variation is crucial in genomics. Individual human genomes contain millions of variants that contribute to phenotypic variability and disease risks at the population level. Because variants rarely act in isolation, we must consider potential interactions of neighboring variants to accurately predict functional effects. We can accomplish this using haplotagging, which matches sequencing reads to their parental haplotypes using alleles observed at known heterozygous variants. However, few published tools for haplotagging exist and these share several technical and usability-related shortcomings that limit applicability, in particular a lack of insight or control over error rates, and lack of key metrics on the underlying sources of haplotagging error. Here we present HaplotagLR: a user-friendly tool that haplotags long sequencing reads based on a multinomial model and existing phased variant lists. HaplotagLR is user-configurable and includes a basic error model to control the empirical FDR in its output. We show that HaplotagLR outperforms the leading haplotagging method in simulated datasets, especially at high levels of specificity, and displays 7% greater sensitivity in haplotagging real data. HaplotagLR advances both the immediate utility of haplotagging and paves the way for further improvements to this important method.},
-    url = {https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298688},
-    pdf = {http://boylelab.org/pubs/PLoS_One_2024_Holmes.pdf},
     journal = {{PLoS ONE}},
-    note = {{PMID:} 38478504}
+    volume = {19},
+    number = {3},
+    pages = {e0298688},
+    year = {2024},
+    month = {Mar},
+    abstract = {Understanding the functional effects of sequence variation is crucial in genomics. Individual human genomes contain millions of variants that contribute to phenotypic variability and disease risks at the population level. Because variants rarely act in isolation, we must consider potential interactions of neighboring variants to accurately predict functional effects. We can accomplish this using haplotagging, which matches sequencing reads to their parental haplotypes using alleles observed at known heterozygous variants. However, few published tools for haplotagging exist and these share several technical and usability-related shortcomings that limit applicability, in particular a lack of insight or control over error rates, and lack of key metrics on the underlying sources of haplotagging error. Here we present HaplotagLR: a user-friendly tool that haplotags long sequencing reads based on a multinomial model and existing phased variant lists. HaplotagLR is user-configurable and includes a basic error model to control the empirical FDR in its output. We show that HaplotagLR outperforms the leading haplotagging method in simulated datasets, especially at high levels of specificity, and displays 7% greater sensitivity in haplotagging real data. HaplotagLR advances both the immediate utility of haplotagging and paves the way for further improvements to this important method.},
+    doi = {10.1371/journal.pone.0298688},
+    url = {https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298688},
+    pdf = {https://boylelab.org/pubs/PLoS_One_2024_Holmes.pdf},
+    note = {{PMID:} 38478504},
   }
 journal: PLoS ONE
 volume: '19'
 number: '3'
-pages: 1-15
+pages: e0298688
 doi: 10.1371/journal.pone.0298688
 PMID: '38478504'
 primary_url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298688
-pdf: http://boylelab.org/pubs/PLoS_One_2024_Holmes.pdf
+pdf: https://boylelab.org/pubs/PLoS_One_2024_Holmes.pdf
 abstract: |-
   Understanding the functional effects of sequence variation is crucial in genomics. Individual human genomes contain millions of variants that contribute to phenotypic variability and disease risks at the population level. Because variants rarely act in isolation, we must consider potential interactions of neighboring variants to accurately predict functional effects. We can accomplish this using haplotagging, which matches sequencing reads to their parental haplotypes using alleles observed at known heterozygous variants. However, few published tools for haplotagging exist and these share several technical and usability-related shortcomings that limit applicability, in particular a lack of insight or control over error rates, and lack of key metrics on the underlying sources of haplotagging error. Here we present HaplotagLR: a user-friendly tool that haplotags long sequencing reads based on a multinomial model and existing phased variant lists. HaplotagLR is user-configurable and includes a basic error model to control the empirical FDR in its output. We show that HaplotagLR outperforms the leading haplotagging method in simulated datasets, especially at high levels of specificity, and displays 7% greater sensitivity in haplotagging real data. HaplotagLR advances both the immediate utility of haplotagging and paves the way for further improvements to this important method.
 ---

@@ -13,28 +13,29 @@ members:
 - samzhao
 bibtex: |-
   @article{IGVFConsortium2024GenomicVariationFunction,
-    title = {{Deciphering the impact of genomic variation on function}},
     author = {{IGVF Consortium}},
+    title = {{Deciphering the impact of genomic variation on function}},
+    journal = {Nature},
+    volume = {633},
+    number = {8028},
+    pages = {47--57},
     year = {2024},
     month = {Sep},
     day = {4},
-    volume = {633},
-    issue = {8028},
-    pages = {47--57},
-    doi = {10.1038/s41586-024-07510-0},
     abstract = {Our genomes influence nearly every aspect of human biology—from molecular and cellular functions to phenotypes in health and disease. Studying the differences in DNA sequence between individuals (genomic variation) could reveal previously unknown mechanisms of human biology, uncover the basis of genetic predispositions to diseases, and guide the development of new diagnostic tools and therapeutic agents. Yet, understanding how genomic variation alters genome function to influence phenotype has proved challenging. To unlock these insights, we need a systematic and comprehensive catalogue of genome function and the molecular and cellular effects of genomic variants. Towards this goal, the Impact of Genomic Variation on Function (IGVF) Consortium will combine approaches in single-cell mapping, genomic perturbations and predictive modelling to investigate the relationships among genomic variation, genome function and phenotypes. IGVF will create maps across hundreds of cell types and states describing how coding variants alter protein activity, how noncoding variants change the regulation of gene expression, and how such effects connect through gene-regulatory and protein-interaction networks. These experimental data, computational predictions and accompanying standards and pipelines will be integrated into an open resource that will catalyse community efforts to explore how our genomes influence biology and disease across populations.},
+    doi = {10.1038/s41586-024-07510-0},
     url = {https://www.nature.com/articles/s41586-024-07510-0},
-    pdf = {http://boylelab.org/pubs/Nature_2024_IGVF.pdf},
-    journal = {Nature},
-    note = {{PMID:} 39232149}
+    pdf = {https://boylelab.org/pubs/Nature_2024_IGVF.pdf},
+    note = {{PMID:} 39232149},
   }
 journal: Nature
 volume: '633'
+number: '8028'
 pages: 47--57
 doi: 10.1038/s41586-024-07510-0
 PMID: '39232149'
 primary_url: https://www.nature.com/articles/s41586-024-07510-0
-pdf: http://boylelab.org/pubs/Nature_2024_IGVF.pdf
+pdf: https://boylelab.org/pubs/Nature_2024_IGVF.pdf
 member_roles:
   apboyle: consortium
   rintsen: consortium

@@ -33,18 +33,19 @@ members:
 - apboyle
 bibtex: |-
   @article{Kasowski2013ChromatinStateVariation,
-    title = {Extensive variation in chromatin states across humans},
     author = {*Kasowski, Maya and *Kyriazopoulou-Panagiotopoulou, Sofia and *Grubert, Fabian and *Zaugg, Judith B and *Kundaje, Anshul and Liu, Yuling and Boyle, Alan P and Zhang, Qiangfeng Cliff and Zakharia, Fouad and Spacek, Damek V and Li, Jingjing and Xie, Dan and Steinmetz, Lars M and Hogenesch, John B and Kellis, Manolis and Batzoglou, Serafim and Snyder, Michael},
+    title = {Extensive variation in chromatin states across humans},
     journal = {Science},
-    year = {2013},
-    month = {Nov},
     volume = {342},
     number = {6159},
-    url = {http://www.ncbi.nlm.nih.gov/pubmed/24136358},
-    pdf = {http://boylelab.org/pubs/Science_2013_Kasowski.pdf},
-    doi = {10.1126/science.1242510},
     pages = {750--752},
-    note = {{PMID:} 24136358}
+    year = {2013},
+    month = {Nov},
+    abstract = {The majority of disease-associated variants lie outside protein-coding regions, suggesting a link between variation in regulatory regions and disease predisposition. We studied differences in chromatin states using five histone modifications, cohesin, and CTCF in lymphoblastoid lines from 19 individuals of diverse ancestry. We found extensive signal variation in regulatory regions, which often switch between active and repressed states across individuals. Enhancer activity is particularly diverse among individuals, whereas gene expression remains relatively stable. Chromatin variability shows genetic inheritance in trios, correlates with genetic variation and population divergence, and is associated with disruptions of transcription factor binding motifs. Overall, our results provide insights into chromatin variation among humans.},
+    doi = {10.1126/science.1242510},
+    url = {https://pubmed.ncbi.nlm.nih.gov/24136358},
+    pdf = {https://boylelab.org/pubs/Science_2013_Kasowski.pdf},
+    note = {{PMID:} 24136358},
   }
 journal: Science
 volume: '342'
@@ -52,6 +53,8 @@ number: '6159'
 pages: 750--752
 doi: 10.1126/science.1242510
 PMID: '24136358'
-primary_url: http://www.ncbi.nlm.nih.gov/pubmed/24136358
-pdf: http://boylelab.org/pubs/Science_2013_Kasowski.pdf
+primary_url: https://pubmed.ncbi.nlm.nih.gov/24136358
+pdf: https://boylelab.org/pubs/Science_2013_Kasowski.pdf
+abstract: |-
+  The majority of disease-associated variants lie outside protein-coding regions, suggesting a link between variation in regulatory regions and disease predisposition. We studied differences in chromatin states using five histone modifications, cohesin, and CTCF in lymphoblastoid lines from 19 individuals of diverse ancestry. We found extensive signal variation in regulatory regions, which often switch between active and repressed states across individuals. Enhancer activity is particularly diverse among individuals, whereas gene expression remains relatively stable. Chromatin variability shows genetic inheritance in trios, correlates with genetic variation and population divergence, and is associated with disruptions of transcription factor binding motifs. Overall, our results provide insights into chromatin variation among humans.
 ---

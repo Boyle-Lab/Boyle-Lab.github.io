@@ -23,20 +23,20 @@ members:
 - apboyle
 bibtex: |-
   @article{Boyle2012RegulomeDB,
-    title = {Annotation of functional variation in personal genomes using {RegulomeDB}},
-    volume = {22},
-    issn = {1549-5469},
-    url = {http://www.ncbi.nlm.nih.gov/pubmed/22955989},
-    pdf = {http://boylelab.org/pubs/Genome_Res._2012_Boyle.pdf},
-    doi = {10.1101/gr.137323.112},
-    abstract = {As the sequencing of healthy and disease genomes becomes more commonplace, detailed annotation provides interpretation for individual variation responsible for normal and disease phenotypes. Current approaches focus on direct changes in protein coding genes, particularly nonsynonymous mutations that directly affect the gene product. However, most individual variation occurs outside of genes and, indeed, most markers generated from genome-wide association studies {(GWAS)} identify variants outside of coding segments. Identification of potential regulatory changes that perturb these sites will lead to a better localization of truly functional variants and interpretation of their effects. We have developed a novel approach and database, {RegulomeDB}, which guides interpretation of regulatory variants in the human genome. {RegulomeDB} includes high-throughput, experimental data sets from {ENCODE} and other sources, as well as computational predictions and manual annotations to identify putative regulatory potential and identify functional variants. These data sources are combined into a powerful tool that scores variants to help separate functional variants from a large pool and provides a small set of putative sites with testable hypotheses as to their function. We demonstrate the applicability of this tool to the annotation of noncoding variants from 69 full sequenced genomes as well as that of a personal genome, where thousands of functionally associated variants were identified. Moreover, we demonstrate a {GWAS} where the database is able to quickly identify the known associated functional variant and provide a hypothesis as to its function. Overall, we expect this approach and resource to be valuable for the annotation of human genome sequences.},
-    number = {9},
-    journal = {Genome Research},
     author = {Boyle, Alan P and Hong, Eurie L and Hariharan, Manoj and Cheng, Yong and Schaub, Marc A and Kasowski, Maya and Karczewski, Konrad J and Park, Julie and Hitz, Benjamin C and Weng, Shuai and Cherry, J Michael and Snyder, Michael},
-    month = sep,
+    title = {Annotation of functional variation in personal genomes using {RegulomeDB}},
+    journal = {Genome Research},
+    volume = {22},
+    number = {9},
+    pages = {1790--1797},
     year = {2012},
+    month = {Sep},
+    issn = {1549-5469},
+    abstract = {As the sequencing of healthy and disease genomes becomes more commonplace, detailed annotation provides interpretation for individual variation responsible for normal and disease phenotypes. Current approaches focus on direct changes in protein coding genes, particularly nonsynonymous mutations that directly affect the gene product. However, most individual variation occurs outside of genes and, indeed, most markers generated from genome-wide association studies {(GWAS)} identify variants outside of coding segments. Identification of potential regulatory changes that perturb these sites will lead to a better localization of truly functional variants and interpretation of their effects. We have developed a novel approach and database, {RegulomeDB}, which guides interpretation of regulatory variants in the human genome. {RegulomeDB} includes high-throughput, experimental data sets from {ENCODE} and other sources, as well as computational predictions and manual annotations to identify putative regulatory potential and identify functional variants. These data sources are combined into a powerful tool that scores variants to help separate functional variants from a large pool and provides a small set of putative sites with testable hypotheses as to their function. We demonstrate the applicability of this tool to the annotation of noncoding variants from 69 full sequenced genomes as well as that of a personal genome, where thousands of functionally associated variants were identified. Moreover, we demonstrate a {GWAS} where the database is able to quickly identify the known associated functional variant and provide a hypothesis as to its function. Overall, we expect this approach and resource to be valuable for the annotation of human genome sequences.},
+    doi = {10.1101/gr.137323.112},
+    url = {https://pubmed.ncbi.nlm.nih.gov/22955989},
+    pdf = {https://boylelab.org/pubs/Genome_Res._2012_Boyle.pdf},
     note = {{PMID:} 22955989},
-    pages = {1790--1797}
   }
 journal: Genome Research
 volume: '22'
@@ -44,8 +44,8 @@ number: '9'
 pages: 1790--1797
 doi: 10.1101/gr.137323.112
 PMID: '22955989'
-primary_url: http://www.ncbi.nlm.nih.gov/pubmed/22955989
-pdf: http://boylelab.org/pubs/Genome_Res._2012_Boyle.pdf
+primary_url: https://pubmed.ncbi.nlm.nih.gov/22955989
+pdf: https://boylelab.org/pubs/Genome_Res._2012_Boyle.pdf
 abstract: |-
   As the sequencing of healthy and disease genomes becomes more commonplace, detailed annotation provides interpretation for individual variation responsible for normal and disease phenotypes. Current approaches focus on direct changes in protein coding genes, particularly nonsynonymous mutations that directly affect the gene product. However, most individual variation occurs outside of genes and, indeed, most markers generated from genome-wide association studies (GWAS) identify variants outside of coding segments. Identification of potential regulatory changes that perturb these sites will lead to a better localization of truly functional variants and interpretation of their effects. We have developed a novel approach and database, RegulomeDB, which guides interpretation of regulatory variants in the human genome. RegulomeDB includes high-throughput, experimental data sets from ENCODE and other sources, as well as computational predictions and manual annotations to identify putative regulatory potential and identify functional variants. These data sources are combined into a powerful tool that scores variants to help separate functional variants from a large pool and provides a small set of putative sites with testable hypotheses as to their function. We demonstrate the applicability of this tool to the annotation of noncoding variants from 69 full sequenced genomes as well as that of a personal genome, where thousands of functionally associated variants were identified. Moreover, we demonstrate a GWAS where the database is able to quickly identify the known associated functional variant and provide a hypothesis as to its function. Overall, we expect this approach and resource to be valuable for the annotation of human genome sequences.
 ---

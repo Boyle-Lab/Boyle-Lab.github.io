@@ -20,19 +20,19 @@ members:
 - apboyle
 bibtex: |-
   @article{Xie2013FactorColocalization,
-    title = {Dynamic trans-acting factor colocalization in human cells},
     author = {*Xie, Dan and *Boyle, Alan P and *Wu, Linfeng and Kawli, Trupti and Zhai, Jie and Snyder, Michael},
+    title = {Dynamic trans-acting factor colocalization in human cells},
     journal = {Cell},
-    pages = {713--724},
     volume = {155},
     number = {3},
+    pages = {713--724},
     year = {2013},
-    month = oct,
-    url = {http://www.ncbi.nlm.nih.gov/pubmed/24243024},
-    pdf = {http://boylelab.org/pubs/Cell_2013_Xie.pdf},
-    doi = {10.1016/j.cell.2013.09.043},
+    month = {Oct},
     abstract = {Different trans-acting factors (TFs) collaborate and act in concert at distinct loci to perform accurate regulation of their target genes. To date, the cobinding of TF pairs has been investigated in a limited context both in terms of the number of factors within a cell type and across cell types and the extent of combinatorial colocalizations. Here, we use an approach to analyze TF colocalization within a cell type and across multiple cell lines at an unprecedented level. We extend this approach with large-scale mass spectrometry analysis of immunoprecipitations of 50 TFs. Our combined approach reveals large numbers of interesting TF-TF associations. We observe extensive change in TF colocalizations both within a cell type exposed to different conditions and across multiple cell types. We show distinct functional annotations and properties of different TF cobinding patterns and provide insights into the complex regulatory landscape of the cell.},
-    note = {{PMID:} 24243024}
+    doi = {10.1016/j.cell.2013.09.043},
+    url = {https://pubmed.ncbi.nlm.nih.gov/24243024},
+    pdf = {https://boylelab.org/pubs/Cell_2013_Xie.pdf},
+    note = {{PMID:} 24243024},
   }
 journal: Cell
 volume: '155'
@@ -40,8 +40,8 @@ number: '3'
 pages: 713--724
 doi: 10.1016/j.cell.2013.09.043
 PMID: '24243024'
-primary_url: http://www.ncbi.nlm.nih.gov/pubmed/24243024
-pdf: http://boylelab.org/pubs/Cell_2013_Xie.pdf
+primary_url: https://pubmed.ncbi.nlm.nih.gov/24243024
+pdf: https://boylelab.org/pubs/Cell_2013_Xie.pdf
 abstract: |-
   Different trans-acting factors (TFs) collaborate and act in concert at distinct loci to perform accurate regulation of their target genes. To date, the cobinding of TF pairs has been investigated in a limited context both in terms of the number of factors within a cell type and across cell types and the extent of combinatorial colocalizations. Here, we use an approach to analyze TF colocalization within a cell type and across multiple cell lines at an unprecedented level. We extend this approach with large-scale mass spectrometry analysis of immunoprecipitations of 50 TFs. Our combined approach reveals large numbers of interesting TF-TF associations. We observe extensive change in TF colocalizations both within a cell type exposed to different conditions and across multiple cell types. We show distinct functional annotations and properties of different TF cobinding patterns and provide insights into the complex regulatory landscape of the cell.
 ---

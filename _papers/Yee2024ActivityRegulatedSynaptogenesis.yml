@@ -25,26 +25,26 @@ bibtex: |-
   @article{Yee2024ActivityRegulatedSynaptogenesis,
     author = {Yee, C and Xiao, Y and Chen, H and Reddy, AR and Xu, B and Medwig-Kinney, TN and Zhang, W and Boyle, Alan P. and Herbst, WA and Xiang, YK and Matus, DQ and Shen, K},
     title = {{An activity-regulated transcriptional program directly drives synaptogenesis}},
-    year = {2024},
-    month = {Aug},
+    journal = {Nature Neuroscience},
     volume = {27},
     number = {9},
-    pages = {1695-1707},
-    doi = {10.1038/s41593-024-01728-x},
+    pages = {1695--1707},
+    year = {2024},
+    month = {Aug},
     abstract = {Although the molecular composition and architecture of synapses have been widely explored, much less is known about what genetic programs directly activate synaptic gene expression and how they are modulated. Here, using Caenorhabditis elegans dopaminergic neurons, we reveal that EGL-43/MECOM and FOS-1/FOS control an activity-dependent synaptogenesis program. Loss of either factor severely reduces presynaptic protein expression. Both factors bind directly to promoters of synaptic genes and act together with CUT homeobox transcription factors to activate transcription. egl-43 and fos-1 mutually promote each other's expression, and increasing the binding affinity of FOS-1 to the egl-43 locus results in increased presynaptic protein expression and synaptic function. EGL-43 regulates the expression of multiple transcription factors, including activity-regulated factors and developmental factors that define multiple aspects of dopaminergic identity. Together, we describe a robust genetic program underlying activity-regulated synapse formation during development.},
+    doi = {10.1038/s41593-024-01728-x},
     url = {https://www.nature.com/articles/s41593-024-01728-x},
-    pdf = {http://boylelab.org/pubs/Nat_Neuroscience_2024_Yee.pdf},
-    journal = {Nature Neuroscience},
-    note = {{PMID:} 39103556}
+    pdf = {https://boylelab.org/pubs/Nat_Neuroscience_2024_Yee.pdf},
+    note = {{PMID:} 39103556},
   }
 journal: Nature Neuroscience
 volume: '27'
 number: '9'
-pages: 1695-1707
+pages: 1695--1707
 doi: 10.1038/s41593-024-01728-x
 PMID: '39103556'
 primary_url: https://www.nature.com/articles/s41593-024-01728-x
-pdf: http://boylelab.org/pubs/Nat_Neuroscience_2024_Yee.pdf
+pdf: https://boylelab.org/pubs/Nat_Neuroscience_2024_Yee.pdf
 abstract: |-
   Although the molecular composition and architecture of synapses have been widely explored, much less is known about what genetic programs directly activate synaptic gene expression and how they are modulated. Here, using Caenorhabditis elegans dopaminergic neurons, we reveal that EGL-43/MECOM and FOS-1/FOS control an activity-dependent synaptogenesis program. Loss of either factor severely reduces presynaptic protein expression. Both factors bind directly to promoters of synaptic genes and act together with CUT homeobox transcription factors to activate transcription. egl-43 and fos-1 mutually promote each other's expression, and increasing the binding affinity of FOS-1 to the egl-43 locus results in increased presynaptic protein expression and synaptic function. EGL-43 regulates the expression of multiple transcription factors, including activity-regulated factors and developmental factors that define multiple aspects of dopaminergic identity. Together, we describe a robust genetic program underlying activity-regulated synapse formation during development.
 ---

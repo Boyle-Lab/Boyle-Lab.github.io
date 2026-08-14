@@ -25,21 +25,23 @@ bibtex: |-
     journal = {NAR Genomics and Bioinformatics},
     volume = {2},
     number = {1},
+    pages = {lqaa006},
     year = {2020},
-    month = feb,
+    month = {Feb},
     abstract = {{Gene set enrichment (GSE) testing enhances the biological interpretation of ChIP-seq data and other large sets of genomic regions. Our group has previously introduced two GSE methods for genomic regions: ChIP-Enrich for narrow regions and Broad-Enrich for broad regions. Here, we introduce Poly-Enrich, which has wider applicability, additional capabilities and models the number of peaks assigned to a gene using a generalized additive model with a negative binomial family to determine gene set enrichment, while adjusting for gene locus length. As opposed to ChIP-Enrich, Poly-Enrich works well even when nearly all genes have a peak, illustrated by using Poly-Enrich to characterize pathways and types of genic regions enriched with different families of repetitive elements. By comparing Poly-Enrich and ChIP-Enrich results with ENCODE ChIP-seq data, we found that the optimal test depends more on the pathway being regulated than on properties of the transcription factors. Using known transcription factor functions, we discovered clusters of related biological processes consistently better modeled with Poly-Enrich. This suggests that the regulation of certain processes may be modified by multiple binding events, better modeled by a count-based method. Our new hybrid method automatically uses the optimal method for each gene set, with correct FDR-adjustment.}},
     doi = {10.1093/nargab/lqaa006},
     url = {https://doi.org/10.1093/nargab/lqaa006},
+    pdf = {https://boylelab.org/pubs/NAR_Genomics_and_Bioinformatics_2020_Lee.pdf},
     note = {{PMID:} 32051932},
-    pdf = {http://boylelab.org/pubs/NAR_Genomics_and_Bioinformatics_2020_Lee.pdf}
   }
 journal: NAR Genomics and Bioinformatics
 volume: '2'
 number: '1'
+pages: lqaa006
 doi: 10.1093/nargab/lqaa006
 PMID: '32051932'
 primary_url: https://doi.org/10.1093/nargab/lqaa006
-pdf: http://boylelab.org/pubs/NAR_Genomics_and_Bioinformatics_2020_Lee.pdf
+pdf: https://boylelab.org/pubs/NAR_Genomics_and_Bioinformatics_2020_Lee.pdf
 biorxiv: http://dx.doi.org/10.1101/488734
 links:
   code: https://github.com/sartorlab/polyenrich
