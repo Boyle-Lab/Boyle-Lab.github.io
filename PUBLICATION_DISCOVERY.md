@@ -62,6 +62,40 @@ Initials alone are not sufficient. Records that cannot be confirmed with high co
 
 Lab-member relationships are inferred from `_people/*.md` and historical publication-specific aliases already present in `publication_metadata/*.yml`. The pull request checklist still requires review of every inferred member relationship.
 
+## Ignoring known false matches
+
+PubMed can occasionally return a different researcher with the same indexed name. Add a permanent exact exclusion under `ignored_records` in `publication_discovery.yml`:
+
+```yaml
+ignored_records:
+  - pmid: "26517547"
+    reason: "Different researcher with the same name"
+```
+
+Each exclusion must define exactly one selector:
+
+```yaml
+ignored_records:
+  - pmid: "26517547"
+    reason: "Namesake in another field"
+
+  - doi: "10.1234/example"
+    reason: "Not an Alan P. Boyle publication"
+
+  - source_id: "external-record-id"
+    source: bioRxiv
+    reason: "Incorrect author match"
+
+  - title: "Exact title of a record without a stable identifier"
+    reason: "Known false positive"
+```
+
+Use PMID or DOI whenever possible. Title exclusions use exact normalized-title matching and should be reserved for records that lack stable identifiers. The optional `source` field restricts a rule to a named service such as `PubMed` or `bioRxiv`.
+
+Configured exclusions are applied before author matching and before any bibliography changes. When an excluded record appears in a search, the workflow lists it under **Configured exclusions applied** in the run summary. It is also recorded in `.publication-discovery/result.json` through `ignored_count` and `ignored`.
+
+If a false-positive discovery pull request is already open, remove the false record from that pull request, add the exclusion to the default branch, and close or merge the corrected pull request. Future scheduled runs will then skip the record.
+
 ## Duplicate and preprint handling
 
 Before a record is added, the script compares it with the master bibliography using:

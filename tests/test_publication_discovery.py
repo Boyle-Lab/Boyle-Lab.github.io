@@ -16,14 +16,17 @@ from publication_discovery import (  # noqa: E402
     BibliographyIndex,
     BibFileEditor,
     CandidatePublication,
+    DiscoveryError,
     DiscoveryAuthor,
     ExistingPublication,
     ProposedChange,
     apply_changes,
     discover_publications,
+    filter_ignored_candidates,
     format_candidate_bibtex,
     infer_candidate_members,
     load_discovery_config,
+    load_ignored_records,
     make_citation_key,
     parse_biorxiv_record,
     parse_pubmed_xml,
@@ -195,6 +198,61 @@ class PublicationParsingTests(unittest.TestCase):
         collision = make_citation_key(candidate, {key})
         self.assertNotEqual(collision, key)
         self.assertTrue(collision.startswith(key))
+
+
+class IgnoredRecordTests(unittest.TestCase):
+    def test_repository_config_ignores_known_namesake_pmid(self) -> None:
+        config = load_discovery_config(ROOT / "publication_discovery.yml")
+        rules = load_ignored_records(config)
+        self.assertTrue(
+            any(rule.selector == "pmid" and rule.value == "26517547" for rule in rules)
+        )
+
+    def test_known_false_pmid_is_removed_before_author_matching(self) -> None:
+        candidate = parse_pubmed_xml(PUBMED_XML.replace(b"99900001", b"26517547"))[0]
+        rules = load_ignored_records(
+            {
+                "ignored_records": [
+                    {
+                        "pmid": "26517547",
+                        "reason": "Different researcher with the same name",
+                    }
+                ]
+            }
+        )
+        accepted, skipped = filter_ignored_candidates([candidate], rules)
+        self.assertEqual(accepted, [])
+        self.assertEqual(len(skipped), 1)
+        self.assertIn("Different researcher with the same name", skipped[0].reason)
+
+    def test_doi_exclusion_is_normalized(self) -> None:
+        candidate = parse_pubmed_xml(PUBMED_XML)[0]
+        rules = load_ignored_records(
+            {
+                "ignored_records": [
+                    {
+                        "doi": "https://doi.org/10.1234/EXAMPLE.2026.1",
+                        "reason": "Known false match",
+                    }
+                ]
+            }
+        )
+        accepted, skipped = filter_ignored_candidates([candidate], rules)
+        self.assertEqual(accepted, [])
+        self.assertEqual(len(skipped), 1)
+
+    def test_ignore_rule_requires_exactly_one_selector(self) -> None:
+        with self.assertRaisesRegex(DiscoveryError, "exactly one"):
+            load_ignored_records(
+                {
+                    "ignored_records": [
+                        {
+                            "pmid": "26517547",
+                            "doi": "10.1234/example",
+                        }
+                    ]
+                }
+            )
 
 
 class PublicationPlanningTests(unittest.TestCase):
@@ -380,6 +438,64 @@ class EndToEndDiscoveryTests(unittest.TestCase):
             generated, warnings = build_publication_record(entries[0], metadata[key], people)
             self.assertEqual(warnings, [])
             self.assertEqual(generated["members"], ["katrinp", "apboyle"])
+
+    def test_discovery_does_not_add_configured_false_match(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "bibliography").mkdir()
+            (root / "publication_metadata").mkdir()
+            (root / "_people").mkdir()
+            (root / "_papers").mkdir()
+            original_bib = (
+                "% Authoritative bibliography.\n\n"
+                "@article{Existing2025Paper,\n"
+                "  author = {Doe, Jane and Boyle, Alan P},\n"
+                "  title = {{An existing paper}},\n"
+                "  journal = {Example Journal},\n"
+                "  year = {2025},\n"
+                "  doi = {10.1000/existing}\n"
+                "}\n"
+            )
+            bibliography = root / "bibliography" / "publications.bib"
+            bibliography.write_text(original_bib, encoding="utf-8")
+            (root / "publication_metadata" / "existing2025paper.yml").write_text(
+                "bibkey: Existing2025Paper\nmembers:\n- apboyle\n",
+                encoding="utf-8",
+            )
+            (root / "_people" / "Alan_Boyle.md").write_text(
+                "---\n"
+                "layout: member\n"
+                "publish: true\n"
+                "name: Alan P. Boyle, Ph.D.\n"
+                "umid: apboyle\n"
+                "social:\n"
+                "  email: apboyle@umich.edu\n"
+                "  orcid: 0000-0002-2081-1105\n"
+                "---\n",
+                encoding="utf-8",
+            )
+
+            config = load_discovery_config(root / "missing-config.yml")
+            config["ignored_records"] = [
+                {
+                    "pmid": "26517547",
+                    "reason": "Different researcher with the same name",
+                }
+            ]
+            false_match_xml = PUBMED_XML.replace(b"99900001", b"26517547")
+            result = discover_publications(
+                root,
+                config,
+                sources="pubmed",
+                today=date(2026, 8, 14),
+                http=FakeHttp(pubmed_xml=false_match_xml),
+            )
+
+            self.assertFalse(result.changed)
+            self.assertEqual(bibliography.read_text(encoding="utf-8"), original_bib)
+            self.assertEqual(len(result.skipped), 1)
+            self.assertTrue(result.skipped[0].reason.startswith("ignored by configuration:"))
+            self.assertEqual(result.as_dict()["ignored_count"], 1)
 
     def test_bib_editor_keeps_header_separate_from_first_entry(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

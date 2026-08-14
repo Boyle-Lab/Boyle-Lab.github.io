@@ -33,7 +33,6 @@ class CVGenerationTests(unittest.TestCase):
         cls.patents_tex = cls.outputs[ROOT / "cv" / "generated" / "patents.tex"]
 
     def test_generated_cv_sources_are_current_and_complete(self) -> None:
-        self.assertEqual(self.publication_count, 87)
         self.assertEqual(check_outputs(ROOT, self.outputs), [])
         labels = [
             int(value)

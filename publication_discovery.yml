@@ -3,6 +3,16 @@
 version: 1
 target_umid: apboyle
 
+# Exact exclusions for records known to belong to a namesake or to be otherwise
+# unrelated. Prefer PMID or DOI over title. Each item must define exactly one
+# selector: pmid, doi, source_id, or title. The optional source field narrows a
+# rule to PubMed or bioRxiv.
+ignored_records:
+  - pmid: "26517547"
+    reason: "Different researcher with the same name"
+  - pmid: "36712073"
+    reason: "Unmatched biorxiv paper"
+
 pubmed:
   enabled: true
   max_results: 1000

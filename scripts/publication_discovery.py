@@ -158,6 +158,16 @@ class SkippedCandidate:
     matching_key: str = ""
 
 
+@dataclass(slots=True, frozen=True)
+class IgnoredRecord:
+    """One exact, user-maintained exclusion for a known false match."""
+
+    selector: str
+    value: str
+    reason: str = "known false match"
+    source: str = ""
+
+
 @dataclass(slots=True)
 class DiscoveryResult:
     additions: list[ProposedChange] = field(default_factory=list)
@@ -181,11 +191,17 @@ class DiscoveryResult:
                 "date": candidate.publication_date,
             }
 
+        ignored = [
+            item
+            for item in self.skipped
+            if item.reason.startswith("ignored by configuration:")
+        ]
         return {
             "changed": self.changed,
             "addition_count": len(self.additions),
             "upgrade_count": len(self.upgrades),
             "skipped_count": len(self.skipped),
+            "ignored_count": len(ignored),
             "additions": [
                 {
                     "bibkey": item.bibkey,
@@ -210,6 +226,13 @@ class DiscoveryResult:
                 }
                 for item in self.skipped
             ],
+            "ignored": [
+                {
+                    "reason": item.reason,
+                    **candidate_dict(item.candidate),
+                }
+                for item in ignored
+            ],
             "warnings": self.warnings,
             "changed_files": self.changed_files,
         }
@@ -223,6 +246,7 @@ class DiscoveryResult:
 DEFAULT_CONFIG: dict[str, Any] = {
     "version": 1,
     "target_umid": "apboyle",
+    "ignored_records": [],
     "pubmed": {
         "enabled": True,
         "max_results": 1000,
@@ -270,7 +294,124 @@ def load_discovery_config(path: Path) -> dict[str, Any]:
         deep_merge(config, loaded)
     if int(config.get("version", 0)) != 1:
         raise DiscoveryError(f"{path}: unsupported publication-discovery configuration version")
+    # Validate known-false-match exclusions when the configuration is loaded so
+    # a malformed rule fails before any external requests are made.
+    load_ignored_records(config, source=path)
     return config
+
+
+_IGNORE_SELECTORS = ("pmid", "doi", "source_id", "title")
+
+
+def load_ignored_records(
+    config: Mapping[str, Any],
+    *,
+    source: Path | str = "publication_discovery.yml",
+) -> list[IgnoredRecord]:
+    """Parse exact exclusions for records known to belong to a namesake.
+
+    Each rule must provide exactly one selector. Stable identifiers are
+    preferred; normalized-title matching is available only for records that
+    lack a PMID or DOI.
+    """
+
+    raw_rules = config.get("ignored_records") or []
+    if not isinstance(raw_rules, list):
+        raise DiscoveryError(f"{source}: ignored_records must be a YAML list")
+
+    rules: list[IgnoredRecord] = []
+    seen: set[tuple[str, str, str]] = set()
+    for index, raw_rule in enumerate(raw_rules, start=1):
+        location = f"{source}: ignored_records[{index}]"
+        if not isinstance(raw_rule, Mapping):
+            raise DiscoveryError(f"{location} must be a YAML mapping")
+
+        populated = [
+            selector
+            for selector in _IGNORE_SELECTORS
+            if str(raw_rule.get(selector) or "").strip()
+        ]
+        if len(populated) != 1:
+            raise DiscoveryError(
+                f"{location} must define exactly one of: "
+                + ", ".join(_IGNORE_SELECTORS)
+            )
+
+        selector = populated[0]
+        value = str(raw_rule.get(selector) or "").strip()
+        if selector == "doi":
+            value = normalize_doi(value)
+            if not value:
+                raise DiscoveryError(f"{location}: invalid DOI")
+        elif selector == "pmid":
+            if not value.isdigit():
+                raise DiscoveryError(f"{location}: PMID must contain digits only")
+        elif selector == "title":
+            value = normalize_title(value)
+            if not value:
+                raise DiscoveryError(f"{location}: title cannot be empty after normalization")
+
+        source_name = str(raw_rule.get("source") or "").strip()
+        reason = str(raw_rule.get("reason") or "known false match").strip()
+        dedupe_key = (selector, value.casefold(), source_name.casefold())
+        if dedupe_key in seen:
+            raise DiscoveryError(f"{location}: duplicate ignored-record rule")
+        seen.add(dedupe_key)
+        rules.append(
+            IgnoredRecord(
+                selector=selector,
+                value=value,
+                reason=reason or "known false match",
+                source=source_name,
+            )
+        )
+    return rules
+
+
+def ignored_record_match(
+    candidate: CandidatePublication,
+    rules: Sequence[IgnoredRecord],
+) -> IgnoredRecord | None:
+    """Return the first exact exclusion matching ``candidate``."""
+
+    for rule in rules:
+        if rule.source and normalize_for_match(candidate.source) != normalize_for_match(rule.source):
+            continue
+        if rule.selector == "pmid" and candidate.pmid == rule.value:
+            return rule
+        if rule.selector == "doi":
+            candidate_dois = {
+                normalize_doi(candidate.doi).casefold(),
+                normalize_doi(candidate.published_doi).casefold(),
+            } - {""}
+            if rule.value.casefold() in candidate_dois:
+                return rule
+        if rule.selector == "source_id" and candidate.source_id.casefold() == rule.value.casefold():
+            return rule
+        if rule.selector == "title" and candidate.normalized_title == rule.value:
+            return rule
+    return None
+
+
+def filter_ignored_candidates(
+    candidates: Sequence[CandidatePublication],
+    rules: Sequence[IgnoredRecord],
+) -> tuple[list[CandidatePublication], list[SkippedCandidate]]:
+    """Remove configured false positives before author and duplicate matching."""
+
+    if not rules:
+        return list(candidates), []
+
+    accepted: list[CandidatePublication] = []
+    skipped: list[SkippedCandidate] = []
+    for candidate in candidates:
+        rule = ignored_record_match(candidate, rules)
+        if rule is None:
+            accepted.append(candidate)
+            continue
+        label = f"ignored by configuration: {rule.reason}"
+        skipped.append(candidate_skip(candidate, label))
+    return accepted, skipped
 
 
 class HttpClient:
@@ -1506,6 +1647,7 @@ def discover_publications(
     ambiguous_threshold = float(matching_config.get("ambiguous_title_threshold", 0.90))
     if not 0 <= ambiguous_threshold <= duplicate_threshold <= 1:
         raise DiscoveryError("Title matching thresholds must satisfy 0 <= ambiguous <= duplicate <= 1")
+    ignored_records = load_ignored_records(config)
 
     http = http or HttpClient(
         user_agent=f"BoyleLabPublicationDiscovery/1.0 ({contact_email or 'apboyle@umich.edu'})"
@@ -1520,6 +1662,8 @@ def discover_publications(
         pubmed = PubMedClient(http, email=contact_email, api_key=api_key)
         query = str(pubmed_config.get("query") or build_pubmed_query(target, target_orcid))
         raw_pubmed = pubmed.discover(query, int(pubmed_config.get("max_results", 1000)))
+        raw_pubmed, ignored = filter_ignored_candidates(raw_pubmed, ignored_records)
+        initial_skips.extend(ignored)
         accepted, skipped = filter_pubmed_candidates(
             raw_pubmed,
             target,
@@ -1538,6 +1682,8 @@ def discover_publications(
         window = int(lookback_days or biorxiv_config.get("lookback_days", 21))
         start = biorxiv_start_date or (today - timedelta(days=max(1, window)))
         raw_biorxiv = biorxiv_client.discover(start, today)
+        raw_biorxiv, ignored = filter_ignored_candidates(raw_biorxiv, ignored_records)
+        initial_skips.extend(ignored)
         accepted, skipped = filter_biorxiv_candidates(
             raw_biorxiv,
             target,
@@ -1684,6 +1830,39 @@ def render_report(
             )
         lines.append("")
 
+    ignored_skips = [
+        item
+        for item in result.skipped
+        if item.reason.startswith("ignored by configuration:")
+    ]
+    if ignored_skips:
+        lines.extend(
+            [
+                "## Configured exclusions applied",
+                "",
+                "These known false matches were intentionally excluded before author matching.",
+                "",
+                "| Source | Publication | Identifier | Reason |",
+                "|---|---|---|---|",
+            ]
+        )
+        for item in ignored_skips:
+            lines.append(
+                "| "
+                + " | ".join(
+                    [
+                        item.candidate.source,
+                        markdown_escape_table(item.candidate.title),
+                        markdown_escape_table(identifier_text(item.candidate)),
+                        markdown_escape_table(
+                            item.reason.removeprefix("ignored by configuration:").strip()
+                        ),
+                    ]
+                )
+                + " |"
+            )
+        lines.append("")
+
     if not result.changed:
         lines.extend(["## Result", "", "No new high-confidence publications were found.", ""])
 
@@ -1702,6 +1881,7 @@ def render_report(
             "- [ ] Confirm inferred `members` and any `author_member_map` entries in the sidecar.",
             "- [ ] Confirm journal, publication date, volume, issue, pages, DOI, PMID, and abstract.",
             "- [ ] For an updated preprint, confirm that the journal article is the same work.",
+            "- [ ] Add any namesake or other false-positive record to `ignored_records` in `publication_discovery.yml`.",
             "- [ ] Add website-only fields such as `summary`, `topics`, `links`, or `featured` when appropriate.",
             "",
             "The workflow regenerates `_papers/*.yml`, `pub.bib`, the CV publication source, and `assets/ABoyle_CV.pdf`, then runs the repository test suite before opening the draft pull request.",

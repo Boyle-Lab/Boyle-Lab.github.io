@@ -1,14 +1,21 @@
 PYTHON ?= python3
 BUNDLE ?= bundle
 JEKYLL_ENV ?= development
+DISCOVERY_ARGS ?=
 
-.PHONY: publications publications-check cv-source cv cv-check test check build serve clean
+.PHONY: publications publications-check discover-publications discover-publications-dry-run cv-source cv cv-check test check build serve clean
 
 publications:
 	$(PYTHON) scripts/build_publications.py --strict
 
 publications-check:
 	$(PYTHON) scripts/build_publications.py --check --strict
+
+discover-publications:
+	$(PYTHON) scripts/discover_publications.py $(DISCOVERY_ARGS)
+
+discover-publications-dry-run:
+	$(PYTHON) scripts/discover_publications.py --dry-run $(DISCOVERY_ARGS)
 
 cv-source: publications
 	$(PYTHON) scripts/build_cv.py --strict

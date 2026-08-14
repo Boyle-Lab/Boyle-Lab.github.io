@@ -39,6 +39,7 @@ exclude:
   - requirements-publications.txt
   - README.md
   - SITE_STRUCTURE.md
+  - PUBLICATION_DISCOVERY.md
   - PAGES.md
   - PEOPLE.md
   - PUBLICATIONS.md
