@@ -1,0 +1,34 @@
+# Automated discovery of Alan P. Boyle publications.
+# The target person's name, email, and ORCID are read from _people using umid.
+version: 1
+target_umid: apboyle
+
+pubmed:
+  enabled: true
+  max_results: 1000
+  # The script builds the default query from Alan's ORCID and author name.
+  # Set query here only if PubMed author indexing later requires an override.
+  excluded_publication_types:
+    - Published Erratum
+    - Retracted Publication
+    - Retraction of Publication
+    - Editorial
+    - Comment
+    - News
+
+biorxiv:
+  enabled: true
+  server: biorxiv
+  # The workflow runs weekly. A three-week overlap protects against delayed
+  # indexing and occasional missed workflow runs without scanning all bioRxiv.
+  lookback_days: 21
+
+matching:
+  # Exact DOI, PMID, and normalized-title matches are always treated as present.
+  # High title similarity is used only to prevent duplicate automatic additions.
+  duplicate_title_threshold: 0.97
+  ambiguous_title_threshold: 0.90
+  affiliation_terms:
+    - University of Michigan
+    - Michigan Medicine
+    - Ann Arbor
