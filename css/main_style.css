@@ -761,6 +761,13 @@ blockquote {
 	color: #5f6872 !important;
 }
 
+.site-page-stats {
+	flex: 0 0 auto;
+	display: flex;
+	align-items: stretch;
+	gap: 8px;
+}
+
 .site-page-stat {
 	flex: 0 0 auto;
 	min-width: 118px;
@@ -790,6 +797,24 @@ blockquote {
 	letter-spacing: .055em;
 	text-transform: uppercase;
 	color: #555;
+}
+
+.site-page-stat--secondary {
+	min-width: 96px;
+	padding: 11px 14px;
+	background: #fafafa;
+	border-left-width: 3px;
+}
+
+.site-page-stat--secondary strong {
+	font-size: 20px;
+}
+
+.site-page-stat--secondary span {
+	margin-top: 4px;
+	font-size: 9.5px;
+	letter-spacing: .045em;
+	color: #606060;
 }
 
 .site-page-callout {
@@ -2395,12 +2420,22 @@ blockquote {
 		gap: 18px;
 	}
 
+	.site-page-stats {
+		width: 100%;
+		max-width: 360px;
+	}
+
 	.site-page-stat {
 		display: flex;
 		align-items: baseline;
 		gap: 7px;
 		min-width: 0;
 		text-align: left;
+	}
+
+	.site-page-stats .site-page-stat {
+		flex: 1 1 0;
+		justify-content: center;
 	}
 
 	.site-page-stat strong,

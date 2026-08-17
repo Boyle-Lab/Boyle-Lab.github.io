@@ -29,9 +29,14 @@ ISO-date/umid strings from each Ph.D. student role, then sort newest first.
 {% assign sorted_phd_alumni = phd_alumni_sort_index | split: "||" | sort | reverse %}
 
 {% assign current_count = 0 %}
+{% assign alumni_count = 0 %}
 {% for person in site.people %}
-  {% if person.publish and person.status contains 'current' %}
-    {% assign current_count = current_count | plus: 1 %}
+  {% if person.publish %}
+    {% if person.status contains 'current' %}
+      {% assign current_count = current_count | plus: 1 %}
+    {% else %}
+      {% assign alumni_count = alumni_count | plus: 1 %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 
@@ -41,9 +46,15 @@ ISO-date/umid strings from each Ph.D. student role, then sort newest first.
       <h1>People</h1>
       <p>Our lab brings together computational and experimental scientists working across regulatory genomics, long-read sequencing, human variation, and method development.</p>
     </div>
-    <div class="site-page-stat" aria-label="Current lab membership">
-      <strong>{{ current_count }}</strong>
-      <span>current members</span>
+    <div class="site-page-stats" role="group" aria-label="Lab membership totals">
+      <div class="site-page-stat">
+        <strong>{{ current_count }}</strong>
+        <span>current members</span>
+      </div>
+      <div class="site-page-stat site-page-stat--secondary">
+        <strong>{{ alumni_count }}</strong>
+        <span>lab alumni</span>
+      </div>
     </div>
   </header>
 

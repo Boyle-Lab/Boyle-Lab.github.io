@@ -94,6 +94,8 @@ Supported values are:
 
 For example, a former Boyle Lab Ph.D. student who remains as a postdoctoral scholar should use both `current` and `phd_alumni`.
 
+The People page header counts each published profile once. Profiles whose status includes `current` contribute to the current-member total; every other published profile contributes to the smaller lab-alumni total. Thus, a person with both `current` and `phd_alumni` remains part of the current-member count until `current` is removed.
+
 ## Lab role history
 
 Use only `prior_lab_roles` for completed appointments:

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from datetime import date
 from pathlib import Path
+import re
 import unittest
 
 from site_test_utils import ROOT, load_front_matter
@@ -104,6 +105,41 @@ class PeopleDataTests(unittest.TestCase):
         self.assertIn("role.end", template)
         self.assertIn('split: "||" | sort | reverse', template)
         self.assertNotIn('sort: "dates.phd_end"', template)
+
+    def test_people_page_counts_published_noncurrent_profiles_as_alumni(self) -> None:
+        template = (ROOT / "people.html").read_text(encoding="utf-8")
+        count_logic = re.compile(
+            r"{% assign current_count = 0 %}.*?"
+            r"{% assign alumni_count = 0 %}.*?"
+            r"{% for person in site.people %}.*?"
+            r"{% if person.publish %}.*?"
+            r"{% if person.status contains 'current' %}.*?"
+            r"{% assign current_count = current_count \| plus: 1 %}.*?"
+            r"{% else %}.*?"
+            r"{% assign alumni_count = alumni_count \| plus: 1 %}.*?"
+            r"{% endif %}.*?{% endif %}.*?{% endfor %}",
+            re.DOTALL,
+        )
+        self.assertRegex(template, count_logic)
+        self.assertIn("{{ current_count }}", template)
+        self.assertIn("{{ alumni_count }}", template)
+        self.assertIn("current members", template)
+        self.assertIn("lab alumni", template)
+
+        css = (ROOT / "css" / "main_style.css").read_text(encoding="utf-8")
+        primary_size = re.search(
+            r"\.site-page-stat strong\s*{[^}]*font-size:\s*([0-9.]+)px;",
+            css,
+            re.DOTALL,
+        )
+        alumni_size = re.search(
+            r"\.site-page-stat--secondary strong\s*{[^}]*font-size:\s*([0-9.]+)px;",
+            css,
+            re.DOTALL,
+        )
+        self.assertIsNotNone(primary_size)
+        self.assertIsNotNone(alumni_size)
+        self.assertLess(float(alumni_size.group(1)), float(primary_size.group(1)))
 
     def test_member_layout_displays_current_position_and_prior_roles(self) -> None:
         template = (ROOT / "_layouts" / "member.html").read_text(encoding="utf-8")
