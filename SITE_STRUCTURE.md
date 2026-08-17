@@ -6,7 +6,7 @@ This document identifies the role and ownership of each major file group. “Aut
 
 | Path | Type | Purpose |
 |---|---|---|
-| `index.html` | Authored | Homepage with lab introduction, recent publications, and recent news. |
+| `index.html` | Authored | Homepage with lab introduction, recent publications, and recent Lab Life posts. |
 | `research.html` | Authored | Research overview and program areas. |
 | `people.html` | Authored template | People index. Reads the `_people` collection. |
 | `software.html` | Authored | Software and resource cards. |
@@ -30,7 +30,7 @@ One Markdown file per current or former lab member. The front matter is the sour
 
 ### `_posts/`
 
-News posts, grouped in year directories for maintainability. Jekyll uses the filename and front-matter date to create the public URL. See [NEWS_POSTS.md](NEWS_POSTS.md).
+Lab Life posts, grouped in year directories for maintainability. Jekyll uses the filename and front-matter date to create the public URL. See [NEWS_POSTS.md](NEWS_POSTS.md).
 
 ### `_jobs/`
 
@@ -70,7 +70,7 @@ See [CV.md](CV.md).
 
 - `default.html`: shared shell for normal pages.
 - `member.html`: individual people profile.
-- `post.html`: individual news story.
+- `post.html`: individual Lab Life story.
 
 ### `_includes/`
 
@@ -100,19 +100,19 @@ See [CV.md](CV.md).
 |---|---|
 | `assets/images/` | Primary-page graphics, logos, and featured paper screenshots. |
 | `assets/people/` | Profile photographs and placeholder image. |
-| `assets/news_graphics/` | News teasers, event photographs, and legacy post galleries. |
+| `assets/news_graphics/` | Lab Life teasers, event photographs, and legacy post galleries. |
 | `assets/job_PDFs/` | PDFs linked by active job records. |
 | `pubs/` | Local publication PDFs linked from BibTeX or metadata. |
 | `fonts/` | Local Academic Icons WOFF font. |
 
-Large news and publication archives are retained when a post, public URL, or download may still refer to them. Do not remove media solely because a literal path is not present in a template; some older news galleries discover files dynamically.
+Large Lab Life and publication archives are retained when a post, public URL, or download may still refer to them. Do not remove media solely because a literal path is not present in a template; some older Lab Life galleries discover files dynamically.
 
 ## Tests and automation
 
 - `tests/test_publication_tools.py`: parser, metadata, generated schema, and reproducibility.
 - `tests/test_cv_tools.py`: CV generation, author highlighting, TeX source, PDF output, and legacy-build removal.
 - `tests/test_people_data.py`: profile identities, dates, roles, and assets.
-- `tests/test_news_data.py`: news metadata and linked records.
+- `tests/test_news_data.py`: Lab Life metadata and linked records.
 - `tests/test_site_structure.py`: layouts, includes, CSS, dependencies, and repository shape.
 - `tests/test_workflow.py`: GitHub Actions generation and deployment contract.
 - `.github/workflows/site.yml`: publication and CV regeneration, validation, Jekyll build, and Pages deployment.

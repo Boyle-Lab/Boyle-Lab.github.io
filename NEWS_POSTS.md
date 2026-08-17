@@ -1,6 +1,6 @@
-# News posts
+# Lab Life posts
 
-The News index is generated from Markdown files in `_posts/`, and each story uses `_layouts/post.html`. The current repository contains year subdirectories only for organization; Jekyll still derives the public URL from the filename and front-matter date.
+The Lab Life index is generated from Markdown files in `_posts/`, and each story uses `_layouts/post.html`. The current repository contains year subdirectories only for organization; Jekyll still derives the public URL from the filename and front-matter date.
 
 ## Standard front matter
 
@@ -93,16 +93,16 @@ Relative gallery paths resolve under `/assets/news_graphics/`. Existing posts th
 
 Every story receives:
 
-- A News/category breadcrumb.
+- A Lab Life breadcrumb followed by the primary category.
 - Category and publication date.
 - Left-aligned title and maize divider.
 - Optional hero image and caption.
 - Structured award, publication, people, and gallery sections when supplied.
-- Previous story, All News, and next story navigation.
+- Previous story, Back to Lab Life, and next story navigation.
 - Up to three recent posts from the same primary category.
 
 The first value in `categories` is the primary category used in the breadcrumb, hero default, and related-story selection.
 
-## News index and homepage
+## Lab Life index and homepage
 
 `news/index.html` uses `jekyll-paginate` with eight posts per page. The homepage lists the five newest posts and samples one image-bearing Events or Conferences post from the prior year at build time.

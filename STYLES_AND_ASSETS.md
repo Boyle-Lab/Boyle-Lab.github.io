@@ -9,7 +9,7 @@ This is the primary stylesheet. It contains:
 - Base type, links, containers, and shared page headers.
 - Desktop navigation and footer appearance.
 - Homepage sections.
-- Research, People, member-profile, Software, Publications, Jobs, News, and Contact components.
+- Research, People, member-profile, Software, Publications, Jobs, Lab Life, and Contact components.
 - Pagination and responsive component rules.
 
 Add new component styles here using a page or component prefix such as `.research-`, `.member-`, `.publication-`, or `.news-`. Avoid generic selectors that could change unrelated pages.
@@ -52,7 +52,7 @@ Use semantic HTML and existing classes before adding a new pattern. Do not add i
 - The main container is fluid with a maximum width.
 - Card grids collapse from three or four columns to two and then one.
 - Images use `max-width: 100%` and preserve their aspect ratio.
-- News-body and gallery images are centered and constrained by maximum height.
+- Images in Lab Life story bodies and galleries are centered and constrained by maximum height.
 - Featured-paper screenshots use `object-fit: contain`, no interior padding, and a tight crop around the original page.
 - Touch targets in mobile navigation have a minimum practical height.
 
@@ -70,14 +70,14 @@ Use for member photographs. The filename is stored in the person front matter. K
 
 ### `assets/news_graphics/`
 
-Use year subdirectories for news teasers and galleries:
+Use year subdirectories for Lab Life teasers and galleries:
 
 ```text
 assets/news_graphics/2026/example.png
 assets/news_graphics/2026/2026-08-10-event/photo-01.jpg
 ```
 
-News `teaser`, `hero-image`, and `gallery` relative paths resolve beneath this directory.
+Lab Life `teaser`, `hero-image`, and `gallery` relative paths resolve beneath this directory.
 
 ### `assets/job_PDFs/`
 
@@ -93,7 +93,7 @@ Use for local publication PDFs. Keep filename URLs stable because external pages
 - Provide useful `alt` text when an image conveys content; use empty `alt` text for purely decorative or duplicated linked thumbnails.
 - Prefer PNG for diagrams or screenshots with text and JPEG/WebP for photographs.
 - Do not create large square canvases around portrait paper pages. Crop to the page boundary and let CSS scale the full page.
-- Keep news teaser dimensions consistent where practical, but the layout supports mixed source sizes.
+- Keep Lab Life teaser dimensions consistent where practical, but the layout supports mixed source sizes.
 
 ## Removing styles or assets
 
@@ -101,7 +101,7 @@ Before deleting a selector or file:
 
 1. Search root pages, `_layouts`, `_includes`, `_people`, `_posts`, `_jobs`, CSS, and JavaScript.
 2. Check for Liquid-generated class names and dynamic gallery paths.
-3. Check public download URLs and old news posts.
+3. Check public download URLs and old Lab Life posts.
 4. Run `make check`.
 5. Build and review representative desktop and mobile pages.
 

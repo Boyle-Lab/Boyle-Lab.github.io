@@ -132,7 +132,7 @@ blockquote {
 	line-height: 1.5;
 }
 
-/* News pagination */
+/* Lab Life pagination */
 .pagination {
 	clear: both;
 	width: 100%;
@@ -1529,7 +1529,7 @@ blockquote {
 	color: #666;
 }
 
-/* News */
+/* Lab Life */
 .news-grid {
 	display: grid;
 	grid-template-columns: repeat(4, minmax(0, 1fr));

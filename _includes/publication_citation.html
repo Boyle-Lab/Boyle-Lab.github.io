@@ -49,7 +49,7 @@
       {% if paper.links and paper.links.protocol %}<a href="{{ paper.links.protocol | escape }}">Protocol</a>{% endif %}
       {% if paper.links and paper.links.news %}
         {% assign publication_news_link = paper.links.news | first %}
-        <a href="{{ publication_news_link | escape }}">News</a>
+        <a href="{{ publication_news_link | escape }}">Lab Life</a>
       {% endif %}
       <a href="/pub_bib/#{{ paper.bibkey | escape }}">BibTeX</a>
     </div>

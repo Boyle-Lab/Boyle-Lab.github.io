@@ -1,17 +1,17 @@
 ---
-title: News
+title: Lab Life
 layout: default
 ---
 
 <div class="site-page news-page">
   <header class="site-page-header">
     <div class="site-page-header-copy">
-      <h1>News</h1>
+      <h1>Lab Life</h1>
       <p>Updates from the Boyle Lab, including publications, grants, awards, new lab members, and other milestones.</p>
     </div>
   </header>
 
-  <section class="news-index" aria-label="Boyle Lab news">
+  <section class="news-index" aria-label="Lab Life posts from the Boyle Lab">
     <div class="news-grid">
       {% for post in paginator.posts %}
         {% if post.title != nil %}
@@ -36,7 +36,7 @@ layout: default
   </section>
 
   {% if paginator.total_pages > 1 %}
-    <nav class="pagination" aria-label="News pagination">
+    <nav class="pagination" aria-label="Lab Life pagination">
       {% if paginator.previous_page %}
         <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Previous</a>
       {% else %}

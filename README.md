@@ -9,7 +9,7 @@ This repository contains the source for [boylelab.org](https://boylelab.org), a 
 | Publications | `bibliography/publications.bib` and `publication_metadata/*.yml` | `_papers/*.yml` and `pub.bib` |
 | Curriculum vitae | `cv/cv.tex`, website publication sources, and `cv/patents.bib` | `cv/generated/*.tex` and `assets/ABoyle_CV.pdf` |
 | People | `_people/*.md` | `/people/` and individual profiles |
-| News | `_posts/<year>/*.md` | `/news/` and individual stories |
+| Lab Life | `_posts/<year>/*.md` | `/news/` and individual stories |
 | Jobs | `_jobs/*.md` | `/jobs/` |
 | Primary pages | Root HTML files and `news/index.html` | Public site pages |
 | Shared presentation | `_layouts/`, `_includes/`, and `css/` | All rendered pages |
@@ -40,7 +40,7 @@ scripts/build_site.sh
 - [PAGES.md](PAGES.md): primary pages, layouts, includes, navigation, and footer.
 - [PEOPLE.md](PEOPLE.md): member-profile schema and role history.
 - [PUBLICATIONS.md](PUBLICATIONS.md): BibTeX pipeline and publication sidecars.
-- [NEWS_POSTS.md](NEWS_POSTS.md): news-post front matter and editorial components.
+- [NEWS_POSTS.md](NEWS_POSTS.md): Lab Life post front matter and editorial components.
 - [JOBS.md](JOBS.md): job-posting collection.
 - [CV.md](CV.md): shared publication data, author highlighting, and CV deployment.
 - [DEVELOPMENT.md](DEVELOPMENT.md): local development, testing, and deployment.

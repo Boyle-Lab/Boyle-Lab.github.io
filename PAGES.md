@@ -18,7 +18,7 @@ layout: default
 3. Page content inside `#main-wrap .container`
 4. `_includes/footer.html`
 
-Individual people records use `_layouts/member.html`. News posts use `_layouts/post.html`. Both layouts include the same header, navigation, and footer directly.
+Individual people records use `_layouts/member.html`. Lab Life posts use `_layouts/post.html`. Both layouts include the same header, navigation, and footer directly.
 
 ## Primary pages
 
@@ -28,7 +28,7 @@ The homepage contains three sections:
 
 - A concise “Exploring the Genome” introduction.
 - “Our Work,” generated from the three newest records in `site.papers`.
-- “News,” containing the five newest posts and one randomly sampled event or conference teaser from the preceding year.
+- “Lab Life,” containing the five newest posts and one randomly sampled event or conference teaser from the preceding year.
 
 The event image is selected at Jekyll build time. No browser JavaScript is used.
 
@@ -48,9 +48,9 @@ Software is maintained directly as card markup. Each card may contain a purpose 
 
 This file intentionally remains a small wrapper around `_includes/publications_page.html`. The page uses generated `_papers` records, shows four curated featured papers, groups the full list by year, displays complete author lists, and loads live citation counts. See [PUBLICATIONS.md](PUBLICATIONS.md).
 
-### News: `news/index.html`
+### Lab Life: `news/index.html`
 
-The News index uses `jekyll-paginate` and displays eight posts per page. Individual stories use `_layouts/post.html`. See [NEWS_POSTS.md](NEWS_POSTS.md).
+The Lab Life index uses `jekyll-paginate` and displays eight posts per page. Individual stories use `_layouts/post.html`. See [NEWS_POSTS.md](NEWS_POSTS.md).
 
 ### Jobs: `jobs.html`
 
@@ -66,7 +66,7 @@ This page lists the embedded `bibtex` field from every generated paper and links
 
 ## Header and navigation
 
-`_includes/header.html` owns document metadata and dependencies. `nav.html` owns the visible site header. The current navigation links are Home, Research, People, Software, Publications, Jobs, News, and Contact.
+`_includes/header.html` owns document metadata and dependencies. `nav.html` owns the visible site header. The current navigation links are Home, Research, People, Software, Publications, Jobs, Lab Life, and Contact.
 
 At widths of 720 px or less, `mobile_navigation.css` and `assets/js/site-navigation.js` replace the horizontal menu with an accessible Menu button and two-column link panel. Keep the `aria-controls`, `aria-expanded`, and `hidden` attributes when changing the button.
 
@@ -87,7 +87,7 @@ Use the existing includes rather than copying their markup:
 The publication citation accepts these principal parameters:
 
 - `paper`: required generated publication record.
-- `compact=true`: tighter member/news presentation.
+- `compact=true`: tighter member/post presentation.
 - `member_id`: shows that member’s non-byline role, when present.
 - `show_abstract=true`: allows an expandable abstract.
 - `show_metrics=true`: renders a live citation badge when DOI or PMID exists.

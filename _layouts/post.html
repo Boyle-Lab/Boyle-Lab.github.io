@@ -2,7 +2,7 @@
 
 {% include nav.html %}
 
-{% assign primary_category = page.categories | first | default: "News" %}
+{% assign primary_category = page.categories | first | default: "Lab Life" %}
 {% assign external_url = page["external-url"] %}
 {% if external_url == nil or external_url == blank %}
   {% assign external_url = page.external_url %}
@@ -84,7 +84,7 @@
     <div class="wsite-content">
       <main class="site-page news-article-page">
         <nav class="news-article-breadcrumb" aria-label="Breadcrumb">
-          <a href="/news/">News</a>
+          <a href="/news/">Lab Life</a>
           <span aria-hidden="true">/</span>
           <span>{{ primary_category | escape }}</span>
         </nav>
@@ -220,7 +220,7 @@
             </div>
           {% endif %}
 
-          <nav class="news-post-navigation" aria-label="News story navigation">
+          <nav class="news-post-navigation" aria-label="Lab Life story navigation">
             <div class="news-post-navigation-item news-post-navigation-previous">
               {% if page.previous %}
                 <a href="{{ page.previous.url }}">
@@ -229,7 +229,7 @@
                 </a>
               {% endif %}
             </div>
-            <a class="news-post-navigation-index" href="/news/">All News</a>
+            <a class="news-post-navigation-index" href="/news/">Back to Lab Life</a>
             <div class="news-post-navigation-item news-post-navigation-next">
               {% if page.next %}
                 <a href="{{ page.next.url }}">
@@ -270,7 +270,7 @@
             <section class="news-article-section news-related-stories" aria-labelledby="news-related-stories-heading">
               <div class="section-heading section-heading--bordered">
                 <p class="section-eyebrow">More from the lab</p>
-                <h2 id="news-related-stories-heading">Related news</h2>
+                <h2 id="news-related-stories-heading">More Lab Life</h2>
               </div>
               <div class="news-related-grid">
                 {{ related_news_cards }}

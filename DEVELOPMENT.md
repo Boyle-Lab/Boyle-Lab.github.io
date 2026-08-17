@@ -112,7 +112,7 @@ The deploy job runs only outside pull requests and publishes the artifact to the
 
 In repository **Settings → Pages**, set the publishing source to **GitHub Actions**. The workflow supports either `main` or `master` as the default branch.
 
-Because the workflow is path-limited, changes that do not modify `bibliography/publications.bib` do not start an automatic Pages deployment. After a news, people, CSS, layout, or other site-only update, start this workflow manually unless a separate general site-deployment workflow is configured.
+Because the workflow is path-limited, changes that do not modify `bibliography/publications.bib` do not start an automatic Pages deployment. After a Lab Life post, people, CSS, layout, or other site-only update, start this workflow manually unless a separate general site-deployment workflow is configured.
 
 A commit created by `GITHUB_TOKEN` does not need a second workflow run: the active run builds and deploys from the regenerated working tree after committing it.
 
