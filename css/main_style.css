@@ -801,12 +801,14 @@ blockquote {
 
 .site-page-stat--secondary {
 	min-width: 96px;
-	padding: 11px 14px;
+	padding: 14px;
 	background: #fafafa;
 	border-left-width: 3px;
 }
 
 .site-page-stat--secondary strong {
+	/* Keep the smaller alumni value on the same baseline as the primary count. */
+	padding-top: calc(28px - 20px);
 	font-size: 20px;
 }
 

@@ -141,6 +141,24 @@ class PeopleDataTests(unittest.TestCase):
         self.assertIsNotNone(alumni_size)
         self.assertLess(float(alumni_size.group(1)), float(primary_size.group(1)))
 
+        secondary_card = re.search(
+            r"\.site-page-stat--secondary\s*{([^}]*)}",
+            css,
+            re.DOTALL,
+        )
+        secondary_value = re.search(
+            r"\.site-page-stat--secondary strong\s*{([^}]*)}",
+            css,
+            re.DOTALL,
+        )
+        self.assertIsNotNone(secondary_card)
+        self.assertIsNotNone(secondary_value)
+        self.assertRegex(secondary_card.group(1), r"padding:\s*14px;")
+        self.assertRegex(
+            secondary_value.group(1),
+            r"padding-top:\s*calc\(28px\s*-\s*20px\);",
+        )
+
     def test_member_layout_displays_current_position_and_prior_roles(self) -> None:
         template = (ROOT / "_layouts" / "member.html").read_text(encoding="utf-8")
         self.assertIn("page.prior_lab_roles", template)
