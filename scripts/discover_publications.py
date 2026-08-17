@@ -15,7 +15,6 @@ Run a manual bioRxiv backfill from a specific date::
 
     python scripts/discover_publications.py --sources biorxiv --biorxiv-start-date 2025-01-01
 """
-
 from __future__ import annotations
 
 import argparse
@@ -24,7 +23,13 @@ import json
 from pathlib import Path
 import sys
 
-from publication_discovery import (
+from biorxiv_api_compat import install_biorxiv_api_fix
+
+# Install the API compatibility layer before the discovery function constructs
+# its HttpClient and BioRxivClient instances.
+install_biorxiv_api_fix()
+
+from publication_discovery import (  # noqa: E402
     DiscoveryError,
     discover_publications,
     load_discovery_config,
@@ -144,7 +149,8 @@ def main() -> int:
         print(report)
         print(
             f"Discovery complete: {len(result.additions)} addition(s), "
-            f"{len(result.upgrades)} upgrade(s), {len(result.skipped)} skipped candidate(s)."
+            f"{len(result.upgrades)} upgrade(s), "
+            f"{len(result.skipped)} skipped candidate(s)."
         )
         if args.dry_run and result.changed:
             print("Dry run: no repository files were changed.")
