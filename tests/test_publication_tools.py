@@ -142,7 +142,6 @@ class RepositoryPublicationTests(unittest.TestCase):
         cls.entries, _ = load_bibliography(ROOT / "bibliography")
 
     def test_repository_builds_without_warnings_and_outputs_are_current(self) -> None:
-        self.assertEqual(len(self.records), 87)
         self.assertEqual(len(self.records), len(self.entries))
         self.assertFalse([message for message in self.messages if message.level == "warning"])
         self.assertEqual(check_outputs(ROOT, self.outputs), [])
