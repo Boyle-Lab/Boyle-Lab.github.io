@@ -159,6 +159,47 @@ class PeopleDataTests(unittest.TestCase):
             r"padding-top:\s*calc\(28px\s*-\s*20px\);",
         )
 
+    def test_member_layout_highlights_current_position_above_lab_history(self) -> None:
+        template = (ROOT / "_layouts" / "member.html").read_text(encoding="utf-8")
+        current_panel = 'class="member-profile-summary member-profile-current-position"'
+        history_panel = 'class="member-profile-summary member-profile-history"'
+        self.assertIn(current_panel, template)
+        self.assertIn(history_panel, template)
+        self.assertLess(template.index(current_panel), template.index(history_panel))
+        self.assertIn(
+            'class="member-profile-summary-label">Current position</h2>',
+            template,
+        )
+        self.assertIn(
+            'class="member-profile-summary-label">Boyle Lab history</h2>',
+            template,
+        )
+        self.assertIn("member-profile-current-position-title", template)
+        self.assertIn("member-profile-current-position-organization", template)
+
+        css = (ROOT / "css" / "main_style.css").read_text(encoding="utf-8")
+        shared_panel = re.search(
+            r"\.member-profile-summary\s*{([^}]*)}",
+            css,
+            re.DOTALL,
+        )
+        current_position = re.search(
+            r"\.member-profile-current-position\s*{([^}]*)}",
+            css,
+            re.DOTALL,
+        )
+        current_title = re.search(
+            r"\.member-profile-current-position-title\s*{([^}]*)}",
+            css,
+            re.DOTALL,
+        )
+        self.assertIsNotNone(shared_panel)
+        self.assertIsNotNone(current_position)
+        self.assertIsNotNone(current_title)
+        self.assertRegex(shared_panel.group(1), r"border-left:\s*4px solid #00274C;")
+        self.assertRegex(current_position.group(1), r"border-left-color:\s*#FFCB05;")
+        self.assertRegex(current_title.group(1), r"font-weight:\s*700;")
+
     def test_member_layout_displays_current_position_and_prior_roles(self) -> None:
         template = (ROOT / "_layouts" / "member.html").read_text(encoding="utf-8")
         self.assertIn("page.prior_lab_roles", template)

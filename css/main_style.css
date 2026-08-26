@@ -2662,13 +2662,62 @@ blockquote {
 	color: #68717a !important;
 }
 
-.member-profile-history {
+.member-profile-summary {
 	max-width: 660px;
 	margin-top: 17px;
-	padding: 8px 14px;
+	padding: 10px 14px 11px;
 	box-sizing: border-box;
 	border-left: 4px solid #00274C;
 	background: #f4f4f4;
+}
+
+.member-profile-summary + .member-profile-summary {
+	margin-top: 10px;
+}
+
+.member-profile-summary-label {
+	margin: 0 0 4px;
+	padding: 0;
+	font-size: 10.5px;
+	font-weight: 700;
+	line-height: 1.4;
+	letter-spacing: .075em;
+	text-transform: uppercase;
+	color: #5f6871;
+}
+
+.member-profile-current-position {
+	border-left-color: #FFCB05;
+	background: #f4f8fc;
+}
+
+.member-profile-current-position-entry {
+	margin: 0 !important;
+	line-height: 1.5 !important;
+}
+
+.member-profile-current-position-title {
+	display: block;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1.45;
+	color: #00274C;
+}
+
+.member-profile-current-position-title a {
+	color: #00274C;
+}
+
+.member-profile-current-position-title a:hover {
+	color: #0D57AA;
+}
+
+.member-profile-current-position-organization {
+	display: block;
+	margin-top: 1px;
+	font-size: 12.5px;
+	line-height: 1.5;
+	color: #3f454b;
 }
 
 .member-profile-history ul {

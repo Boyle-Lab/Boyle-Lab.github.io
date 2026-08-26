@@ -58,25 +58,27 @@
             {% endif %}
 
             {% if page.current_position %}
-              <aside class="member-current-position" aria-label="Current position">
-                <p class="member-current-position-label">Current position</p>
-                <p class="member-current-position-title">
-                  {% if page.current_position.url %}
-                    <a href="{{ page.current_position.url | escape }}">{{ page.current_position.title | escape }}</a>
-                  {% else %}
-                    {{ page.current_position.title | escape }}
+              <section class="member-profile-summary member-profile-current-position" aria-labelledby="member-current-position-heading">
+                <h2 id="member-current-position-heading" class="member-profile-summary-label">Current position</h2>
+                <p class="member-profile-current-position-entry">
+                  <strong class="member-profile-current-position-title">
+                    {% if page.current_position.url %}
+                      <a href="{{ page.current_position.url | escape }}">{{ page.current_position.title | escape }}</a>
+                    {% else %}
+                      {{ page.current_position.title | escape }}
+                    {% endif %}
+                  </strong>
+                  {% if page.current_position.organization %}
+                    <span class="member-profile-current-position-organization">{{ page.current_position.organization | escape }}</span>
                   {% endif %}
                 </p>
-                {% if page.current_position.organization %}
-                  <p class="member-current-position-organization">{{ page.current_position.organization | escape }}</p>
-                {% endif %}
-              </aside>
+              </section>
             {% endif %}
 
             {% assign prior_role_count = page.prior_lab_roles | size %}
             {% if prior_role_count > 0 or is_current or page.dates.start %}
-              <div class="member-profile-history" aria-label="Boyle Lab history">
-                <p class="member-profile-history-label">Boyle Lab history</p>
+              <section class="member-profile-summary member-profile-history" aria-labelledby="member-profile-history-heading">
+                <h2 id="member-profile-history-heading" class="member-profile-summary-label">Boyle Lab history</h2>
                 <ul>
                   {% if page.prior_lab_roles %}
                     {% for role in page.prior_lab_roles %}
@@ -119,7 +121,7 @@
                     </li>
                   {% endif %}
                 </ul>
-              </div>
+              </section>
             {% endif %}
 
             {% if page.social.email or page.social.twitter or page.social.github or page.social.google-scholar or page.social.orcid or page.social.linked-in or page.social.website or page.CV %}

@@ -126,7 +126,7 @@ current_position:
   as_of: 2026-08-10
 ```
 
-`title` is required when the block is present. `organization`, `url`, and `as_of` are optional. The member profile and alumni card display this information.
+`title` is required when the block is present. `organization`, `url`, and `as_of` are optional. The member profile displays this information in a highlighted **Current position** panel immediately above **Boyle Lab history**.
 
 ## Images and links
 
