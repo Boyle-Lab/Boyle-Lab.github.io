@@ -18,6 +18,11 @@ prior_lab_roles:
   - position: Cellular & Molecular Biology Ph.D. student
     start: 2016-09-06
     end: 2018-12-17
+current_position:
+  title: Senior Scientist, Bioinformatics and Data Science
+  organization: Remix Therapeutics
+  url: https://www.linkedin.com/in/haley-amemiya-phd-8067aa117
+  as_of: 2026-08-25
 theme_areas:
   - Gene Regulation
   - C. elegans Regulation

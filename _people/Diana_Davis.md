@@ -19,8 +19,10 @@ prior_lab_roles:
     start: 2019-06-26
     end: 2020-04-22
 current_position:
-  title: Research Lab Technician
-  organization: University of Massachusetts
+  title: Research Laboratory Technician
+  organization: UMass Chan Medical School
+  url: https://www.linkedin.com/in/diana-davis-33580015a
+  as_of: 2026-08-25
 social:
   email: dianald@umich.edu
 theme_areas:

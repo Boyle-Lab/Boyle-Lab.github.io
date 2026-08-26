@@ -14,6 +14,11 @@ prior_lab_roles:
   - position: High School Research Assistant
     start: 2019-06-24
     end: 2019-08-21
+current_position:
+  title: Graduate student
+  organization: University of Michigan
+  url: https://www.linkedin.com/in/vibhasri-davuluri
+  as_of: 2026-08-25
 theme_areas:
   - F-seq
 ---

@@ -21,8 +21,10 @@ prior_lab_roles:
     start: 2017-03-06
     end: 2017-05-02
 current_position:
-  title: Ph.D. student
-  organization: Stephanie Bielas Lab
+  title: Laboratory Director
+  organization: Myriad Women's Health
+  url: https://www.linkedin.com/pub/dir/Amanda/Moccia
+  as_of: 2026-08-25
 theme_areas:
   - Gene Regulation
 ---

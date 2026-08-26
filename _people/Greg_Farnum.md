@@ -27,7 +27,7 @@ current_position:
   title: Research Lab Specialist Intermediate (Lab Manager)
   organization: Athey Lab, University of Michigan
   url: https://medschool.umich.edu/department-news/congratulations-aj-wing-phd-and-greg-farnum-receiving-ebs-award
-  as_of: 2026-08-07
+  as_of: 2026-08-25
 social:
   orcid: 0000-0002-0915-4570
 theme_areas:

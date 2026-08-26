@@ -22,7 +22,7 @@ current_position:
   title: Senior Bioinformatics Scientist
   organization: DNA Electronics (DNAe)
   url: https://www.linkedin.com/in/shriya-sethuraman-bioinfo
-  as_of: 2026-08-07
+  as_of: 2026-08-25
 theme_areas:
   - Nucleosome Positioning
   - Arabidopsis gene regulation

@@ -19,8 +19,10 @@ prior_lab_roles:
     start: 2017-01-03
     end: 2017-03-01
 current_position:
-  title: Ph.D. student
-  organization: Castro and Lowenstein Labs
+  title: Postdoctoral Scholar (Invent at Seattle Children's)
+  organization: Evans Lab, Seattle Children's Research Institute
+  url: https://www.seattlechildrens.org/research/research-institute/careers/invent-at-seattle-childrens/invent-postdoc/scholars/
+  as_of: 2026-08-25
 theme_areas:
   - Gene Regulation
   - 3D structure of the genome

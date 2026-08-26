@@ -20,6 +20,11 @@ prior_lab_roles:
   - position: PIBS Rotation Student
     start: 2022-08-29
     end: 2022-10-19
+current_position:
+  title: Bioinformatics Ph.D. candidate
+  organization: Mills Lab, University of Michigan
+  url: https://medschool.umich.edu/profile/xiaomeng-du
+  as_of: 2026-08-25
 social:
   email: xmdu@umich.edu
 theme_areas:

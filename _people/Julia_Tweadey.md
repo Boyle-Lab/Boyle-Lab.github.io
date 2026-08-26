@@ -15,6 +15,11 @@ prior_lab_roles:
   - position: Undergraduate Research Assistant
     start: 2021-08-30
     end: 2022-04-12
+current_position:
+  title: M.D. student
+  organization: Wayne State University School of Medicine
+  url: https://www.kassotislab.org/people.html
+  as_of: 2026-08-25
 social:
   email: jtweadey@umich.edu
 theme_areas:

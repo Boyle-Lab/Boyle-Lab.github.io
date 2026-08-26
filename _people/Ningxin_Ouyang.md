@@ -27,7 +27,7 @@ current_position:
   title: Bioinformatics Scientist
   organization: Illumina
   url: https://www.linkedin.com/in/n-ouyang
-  as_of: 2026-08-07
+  as_of: 2026-08-25
 social:
   github: OuyangNX
   orcid: 0000-0002-1182-8861

@@ -18,6 +18,11 @@ prior_lab_roles:
   - position: PIBS Rotation Student
     start: 2021-08-30
     end: 2021-10-20
+current_position:
+  title: Software Engineer I
+  organization: IGEN
+  url: https://www.linkedin.com/in/alauth22
+  as_of: 2026-08-25
 theme_areas:
   - Nanopore Sequencing
 ---

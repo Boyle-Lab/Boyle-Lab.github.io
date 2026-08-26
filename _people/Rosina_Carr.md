@@ -18,6 +18,11 @@ prior_lab_roles:
   - position: PIBS Rotation Student
     start: 2023-10-23
     end: 2023-12-15
+current_position:
+  title: Bioinformatics Ph.D. student
+  organization: Pasca di Magliano Lab, University of Michigan
+  url: https://public.websites.umich.edu/~girlswc/
+  as_of: 2026-08-25
 social:
   email: raacarr@umich.edu
 theme_areas:

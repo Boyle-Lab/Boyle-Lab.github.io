@@ -26,10 +26,10 @@ prior_lab_roles:
     start: 2025-03-12
     end: 2026-03-27
 current_position:
-  title: Genomics and Bioinformatics Scientist
+  title: Field Application Scientist, Bioinformatics
   organization: Oxford Nanopore Technologies
-  url: https://medschool.umich.edu/departments/human-genetics/about/alumni
-  as_of: 2026-08-07
+  url: https://www.linkedin.com/in/camille-mumm
+  as_of: 2026-08-25
 social:
   orcid: https://orcid.org/0000-0002-7585-9851
   linked-in: https://www.linkedin.com/in/camille-mumm/

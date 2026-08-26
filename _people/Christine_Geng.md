@@ -18,6 +18,11 @@ prior_lab_roles:
   - position: Bioinformatics Master's student
     start: 2025-08-27
     end: 2025-12-31
+current_position:
+  title: Data Science and Statistics student
+  organization: University of Michigan
+  url: https://www.linkedin.com/in/cgeng
+  as_of: 2026-08-25
 social:
   email: cgeng@umich.edu
 theme_areas:

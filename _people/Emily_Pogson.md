@@ -18,6 +18,11 @@ prior_lab_roles:
   - position: Genetics and Genomics Master's student
     start: 2022-10-24
     end: 2023-12-22
+current_position:
+  title: Regulatory Affairs Associate I
+  organization: LSI SOLUTIONS
+  url: https://medschool.umich.edu/departments/human-genetics/about/alumni
+  as_of: 2026-08-25
 social:
   email: epogson@umich.edu
 theme_areas:

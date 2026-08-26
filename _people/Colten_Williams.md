@@ -20,7 +20,9 @@ prior_lab_roles:
     end: 2017-05-01
 current_position:
   title: Software Engineer
-  organization: Amazon
+  organization: Duo Security (Cisco)
+  url: https://www.linkedin.com/in/colten-williams
+  as_of: 2026-08-25
 social:
   email: coltenw@umich.edu
 theme_areas:

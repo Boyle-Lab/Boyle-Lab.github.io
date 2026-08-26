@@ -18,6 +18,11 @@ prior_lab_roles:
   - position: MSTP Rotation Student
     start: 2018-07-30
     end: 2018-08-24
+current_position:
+  title: Pediatrics resident
+  organization: Duke University Medical Center
+  url: https://pediatrics.duke.edu/personnel/matthew-pun
+  as_of: 2026-08-25
 theme_areas:
   - Gene Regulation
   - Single Cell Analysis

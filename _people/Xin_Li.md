@@ -20,6 +20,11 @@ prior_lab_roles:
   - position: PIBS Rotation Student
     start: 2022-01-05
     end: 2022-02-25
+current_position:
+  title: Biological Chemistry Ph.D. student
+  organization: Yan Zhang Lab, University of Michigan
+  url: https://yanzhanglab.med.umich.edu/people
+  as_of: 2026-08-25
 social:
   email: xinleee@umich.edu
 theme_areas:

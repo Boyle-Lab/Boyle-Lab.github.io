@@ -15,6 +15,11 @@ prior_lab_roles:
   - position: Undergraduate Research Assistant
     start: 2023-05-16
     end: 2023-09-12
+current_position:
+  title: Software Engineering Intern
+  organization: Citadel
+  url: https://www.linkedin.com/in/masonmil
+  as_of: 2026-08-25
 social:
   email: masonmil@umich.edu
 theme_areas:

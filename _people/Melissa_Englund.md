@@ -24,8 +24,8 @@ prior_lab_roles:
 current_position:
   title: Scientist (AI/ML)
   organization: CZ Biohub Chicago
-  url: https://biohub.org/blog/nurturing-sciences-next-generation/
-  as_of: 2026-08-07
+  url: https://www.linkedin.com/in/mel-englund
+  as_of: 2026-08-25
 social:
   email: melyssae@umich.edu
   orcid: 0000-0003-3551-2877

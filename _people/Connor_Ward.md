@@ -18,6 +18,11 @@ prior_lab_roles:
   - position: MSTP Rotation Student
     start: 2023-07-17
     end: 2023-07-21
+current_position:
+  title: M.D./Ph.D. student
+  organization: Kitzman Lab, University of Michigan
+  url: https://medschool.umich.edu/profile/connor-ward
+  as_of: 2026-08-25
 social:
   email: conbward@umich.edu
 theme_areas:

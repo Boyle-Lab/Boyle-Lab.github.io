@@ -21,8 +21,10 @@ prior_lab_roles:
     start: 2016-05-27
     end: 2017-05-03
 current_position:
-  title: Prenatal Genetic Counselor
-  organization: ProMedica
+  title: Genetic Counselor
+  organization: Quest Diagnostics
+  url: https://www.linkedin.com/in/courtney-asman
+  as_of: 2026-08-25
 social:
   email: casman@umich.edu
 theme_areas:

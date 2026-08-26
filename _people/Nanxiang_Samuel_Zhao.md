@@ -27,7 +27,7 @@ current_position:
   title: Associate Director, Precision Genetics
   organization: Merck
   url: https://www.linkedin.com/in/nanxiang-zhao
-  as_of: 2026-08-07
+  as_of: 2026-08-25
 social:
   email: samzhao@umich.edu
   github: nsamzhao

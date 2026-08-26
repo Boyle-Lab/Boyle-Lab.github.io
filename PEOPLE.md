@@ -126,7 +126,9 @@ current_position:
   as_of: 2026-08-10
 ```
 
-`title` is required when the block is present. `organization`, `url`, and `as_of` are optional. The member profile displays this information in a highlighted **Current position** panel immediately above **Boyle Lab history**.
+`title` is required when the block is present. `organization` is optional. For every published profile that is not marked `current`, include both a source `url` and an `as_of` date whenever a current position is listed. Prefer an official employer, university, hospital, or laboratory page; use a self-maintained professional page or LinkedIn only when no suitable institutional source exists. Do not add a position when a common name or conflicting evidence prevents a reliable identity match.
+
+The member profile displays this information in a highlighted **Current position** panel immediately above **Boyle Lab history**. The source-by-source review completed on August 25, 2026 is recorded in [`ALUMNI_POSITION_AUDIT.md`](ALUMNI_POSITION_AUDIT.md); use that report as the baseline for later checks.
 
 ## Images and links
 

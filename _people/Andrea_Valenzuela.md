@@ -22,7 +22,7 @@ current_position:
   title: AI Domain Expert
   organization: University of Michigan
   url: https://www.linkedin.com/in/andrea-valenzuela-ph-d-73a483173
-  as_of: 2026-08-07
+  as_of: 2026-08-25
 theme_areas:
   - Nanopore Sequencing
   - TE evolution

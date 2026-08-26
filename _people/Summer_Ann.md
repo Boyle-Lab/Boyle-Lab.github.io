@@ -16,8 +16,10 @@ prior_lab_roles:
     start: 2022-09-10
     end: 2024-05-21
 current_position:
-  title: Ph.D. student
+  title: Computer Science Ph.D. student
   organization: University of Chicago
+  url: https://www.computerscience.uchicago.edu/people/eunhyung-summer-ann/
+  as_of: 2026-08-25
 social:
   email: anneun@umich.edu
 theme_areas:

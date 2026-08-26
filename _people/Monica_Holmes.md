@@ -18,6 +18,11 @@ prior_lab_roles:
   - position: Bioinformatics Master's student
     start: 2019-01-02
     end: 2021-01-01
+current_position:
+  title: Bioinformatics Ph.D. student and Research Specialist
+  organization: Athey Lab, University of Michigan
+  url: https://athey.lab.medicine.umich.edu/
+  as_of: 2026-08-25
 social:
   orcid: 0000-0002-0915-4570
 theme_areas:

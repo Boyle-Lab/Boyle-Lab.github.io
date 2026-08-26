@@ -26,8 +26,8 @@ prior_lab_roles:
 current_position:
   title: Data Wrangler
   organization: Cherry Lab, Stanford University
-  url: https://cherrylab.stanford.edu/people/cherry-lab-staff/cherry-lab-staff
-  as_of: 2026-08-07
+  url: https://cherrylab.stanford.edu/people/regulomedb-staff
+  as_of: 2026-08-25
 social:
   email: shengchd@umich.edu
   orcid: 0000-0001-5728-8090

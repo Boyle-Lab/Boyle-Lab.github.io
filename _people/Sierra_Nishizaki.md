@@ -22,7 +22,7 @@ current_position:
   title: Assistant Bioinformatic Scientist
   organization: Emory Integrated Computational Core
   url: https://www.cores.emory.edu/eicc/about/
-  as_of: 2026-08-07
+  as_of: 2026-08-25
 social:
   orcid: 0000-0002-4288-4567
 theme_areas:

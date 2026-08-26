@@ -20,6 +20,11 @@ prior_lab_roles:
   - position: PIBS Rotation Student
     start: 2022-01-05
     end: 2022-02-25
+current_position:
+  title: Bioinformatics Ph.D. candidate
+  organization: Heemskerk Lab, University of Michigan
+  url: https://medschool.umich.edu/profile/bohan-chen
+  as_of: 2026-08-25
 social:
   email: chbohan@umich.edu
 theme_areas:

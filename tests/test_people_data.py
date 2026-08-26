@@ -98,6 +98,35 @@ class PeopleDataTests(unittest.TestCase):
                 if current_position.get("as_of") is not None:
                     self.assertIsInstance(current_position["as_of"], date, path.name)
 
+                statuses = data.get("status") or []
+                is_published_alumnus = data.get("publish", True) and "current" not in statuses
+                if is_published_alumnus:
+                    source_url = str(current_position.get("url") or "").strip()
+                    self.assertTrue(source_url.startswith("https://"), path.name)
+                    self.assertIsInstance(current_position.get("as_of"), date, path.name)
+
+    def test_alumni_position_audit_covers_every_published_noncurrent_profile(self) -> None:
+        audit_path = ROOT / "ALUMNI_POSITION_AUDIT.md"
+        self.assertTrue(audit_path.is_file())
+        audit = audit_path.read_text(encoding="utf-8")
+
+        alumni_names = []
+        for path, data, _body in self.people:
+            statuses = data.get("status") or []
+            if data.get("publish", True) and "current" not in statuses:
+                alumni_names.append(str(data.get("name") or "").strip())
+
+        self.assertEqual(len(alumni_names), 51)
+        for name in alumni_names:
+            self.assertTrue(name, "Published non-current profile has no name")
+            self.assertIn(f"| {name} |", audit, name)
+
+        self.assertIn("**51** non-current profiles reviewed", audit)
+        self.assertIn("**22** previously missing current positions added", audit)
+        self.assertIn("**11** existing positions corrected or made more specific", audit)
+        self.assertIn("**10** existing positions verified without a substantive change", audit)
+        self.assertIn("**8** profiles left without a current position", audit)
+
     def test_people_page_sorts_phd_alumni_by_prior_role_end_date(self) -> None:
         template = (ROOT / "people.html").read_text(encoding="utf-8")
         self.assertIn("person.prior_lab_roles", template)

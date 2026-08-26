@@ -19,8 +19,10 @@ prior_lab_roles:
     start: 2018-09-04
     end: 2018-12-11
 current_position:
-  title: Ph.D. student
-  organization: Ryan Mills Lab
+  title: Genomics and Machine Learning
+  organization: University of Michigan
+  url: https://www.linkedin.com/in/sciencesteveho
+  as_of: 2026-08-25
 theme_areas:
   - Gene Regulation
   - 3D Structure of the genome

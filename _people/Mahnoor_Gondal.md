@@ -18,6 +18,11 @@ prior_lab_roles:
   - position: Bioinformatics Rotation Student
     start: 2022-03-01
     end: 2022-04-25
+current_position:
+  title: Bioinformatics Ph.D. student
+  organization: Chinnaiyan and Cieslik Labs, University of Michigan
+  url: https://medschool.umich.edu/profile/mahnoor-gondal
+  as_of: 2026-08-25
 social:
   email: gondal@umich.edu
 theme_areas:

@@ -19,8 +19,10 @@ prior_lab_roles:
     start: 2016-10-11
     end: 2019-04-24
 current_position:
-  title: Software Engineer
+  title: Senior Software Engineer
   organization: Microsoft
+  url: https://codymorterud.com/about/
+  as_of: 2026-08-25
 social:
   email: cmorteru@umich.edu
 theme_areas:

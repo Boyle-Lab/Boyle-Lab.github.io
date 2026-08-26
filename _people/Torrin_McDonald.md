@@ -27,7 +27,7 @@ current_position:
   title: Field Applications Scientist
   organization: Oxford Nanopore Technologies
   url: https://www.linkedin.com/in/torrinmcdonald
-  as_of: 2026-08-07
+  as_of: 2026-08-25
 social:
   email: torrin@umich.edu
   orcid: 0000-0002-0915-4570
