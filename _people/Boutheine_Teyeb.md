@@ -2,7 +2,7 @@
 layout: member
 publish: true
 status:
-  - current
+  - alumni
 name: Boutheine Teyeb
 umid: teyeb
 position: Undergraduate Research Assistant
@@ -10,6 +10,7 @@ title: Undergraduate Research Assistant
 picture: Boutheine_Teyeb.jpg
 dates:
   start: 2026-01-19
+  end: 2026-08-27
 social:
   email: teyeb@umich.edu
 theme_areas:
