@@ -12,6 +12,8 @@ ignored_records:
     reason: "Different researcher with the same name"
   - pmid: "36712073"
     reason: "Unmatched biorxiv paper"
+  - pmid: "42539040"
+    reason: "repeat of existing paper on a different preprint server"
 
 pubmed:
   enabled: true
