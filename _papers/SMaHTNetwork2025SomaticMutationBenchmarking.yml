@@ -4,7 +4,6 @@ bibkey: SMaHTNetwork2025SomaticMutationBenchmarking
 title: Comprehensive benchmarking of somatic mutation detection by the SMaHT Network
 author_list:
 - citation_name: The Somatic Mosaicism across Human Tissues Network (SMaHT)
-- citation_name: Abyzov A
 year: 2026
 sort_date: '2026-07-01'
 members:
@@ -16,9 +15,9 @@ members:
 - jswitzen
 bibtex: |-
   @article{SMaHTNetwork2025SomaticMutationBenchmarking,
-    author = {{The Somatic Mosaicism across Human Tissues Network (SMaHT)} and Abyzov, Alexej},
+    author = {{The Somatic Mosaicism across Human Tissues Network (SMaHT)}},
     title = {{Comprehensive benchmarking of somatic mutation detection by the SMaHT Network}},
-    journal = {bioRxiv},
+    journal = {bioRxiv,
     year = {2026},
     month = {Jul},
     day = {11},
@@ -29,8 +28,8 @@ bibtex: |-
     pdf = {https://www.biorxiv.org/content/10.1101/2025.10.09.678885.full.pdf},
     note = {{PMID:} 41279200},
   }
-status: preprint
-journal: bioRxiv
+status: in_press
+journal: Cell
 doi: 10.1101/2025.10.09.678885
 PMID: '41279200'
 primary_url: https://www.biorxiv.org/content/10.1101/2025.10.09.678885
