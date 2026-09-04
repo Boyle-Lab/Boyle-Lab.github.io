@@ -1,0 +1,49 @@
+---
+generated: true
+bibkey: SMaHTNetwork2026SomaticMutationP25
+title: Integrated map of somatic mosaicism across human tissues in 25 individuals
+author_list:
+- citation_name: The Somatic Mosaicism across Human Tissues Network
+year: 2026
+sort_date: '2026-09-03'
+members:
+- apboyle
+- slosh
+- imf
+- crmumm
+- jswitzen
+bibtex: "@article {SMaHTNetwork2026SomaticMutationP25,\n\tauthor = {{The Somatic Mosaicism across Human\
+  \ Tissues Network}},\n\ttitle = {Integrated map of somatic mosaicism across human tissues in 25 individuals},\n\
+  \tjournal = {bioRxiv}\n\tyear = {2026},\n    month = {Sep},\n    day = {1},\n\tabstract = {Although\
+  \ all cells in the body descend from one genome, they accumulate distinct genetic and epigenetic changes\
+  \ over a lifetime, producing a mosaic of somatic variation that can shape development, aging, and disease.\
+  \ This mosaicism is often studied in isolation, leaving unclear how these forms relate within and between\
+  \ individuals. Here, we present the first integrated analysis of the Somatic Mosaicism across Human\
+  \ Tissues (SMaHT) Network{\\textquoteright}s production resource, profiling up to 20 tissues from 25\
+  \ donors using short- and long-read, duplex, single-cell, transcriptomic, and epigenomic sequencing,\
+  \ alongside donor-specific near-telomere-to-telomere assemblies. Somatic mutation burden cannot be captured\
+  \ by a single data type or metric, as tissues accumulate distinct variant classes largely independently\
+  \ of one another. Long-read and single-cell data resolved cell-type-specific mutational processes, traced\
+  \ mobile element insertions to source loci, and revealed the developmental timing and functional consequences\
+  \ of individual mutations. Donor-specific assemblies uncovered elevated mutation rates within centromeres\
+  \ and segmental duplications inaccessible to standard reference genomes, while haplotype-resolved chromatin\
+  \ and methylation data showed that nongenetically-deterministic epigenetic states are pervasive across\
+  \ tissues. Together, these findings provide an integrated, multi-scale portrait of somatic mosaicism\
+  \ across the human body, establishing a baseline against which its contributions to aging and disease\
+  \ can be measured.},\n\tdoi = {10.64898/2026.09.01.748636},\n\turl = {https://www.biorxiv.org/content/early/2026/09/03/2026.09.01.748636},\n\
+  \tpdf = {https://www.biorxiv.org/content/early/2026/09/03/2026.09.01.748636.full.pdf},\n}"
+status: preprint
+journal: bioRxiv
+doi: 10.64898/2026.09.01.748636
+primary_url: https://www.biorxiv.org/content/early/2026/09/03/2026.09.01.748636
+pdf: https://www.biorxiv.org/content/early/2026/09/03/2026.09.01.748636.full.pdf
+biorxiv: https://www.biorxiv.org/content/early/2026/09/03/2026.09.01.748636
+member_roles:
+  apboyle: consortium
+  slosh: consortium
+  imf: consortium
+  crmumm: consortium
+  jswitzen: consortium
+abstract: |-
+  Although all cells in the body descend from one genome, they accumulate distinct genetic and epigenetic changes over a lifetime, producing a mosaic of somatic variation that can shape development, aging, and disease. This mosaicism is often studied in isolation, leaving unclear how these forms relate within and between individuals. Here, we present the first integrated analysis of the Somatic Mosaicism across Human Tissues (SMaHT) Network’s production resource, profiling up to 20 tissues from 25 donors using short- and long-read, duplex, single-cell, transcriptomic, and epigenomic sequencing, alongside donor-specific near-telomere-to-telomere assemblies. Somatic mutation burden cannot be captured by a single data type or metric, as tissues accumulate distinct variant classes largely independently of one another. Long-read and single-cell data resolved cell-type-specific mutational processes, traced mobile element insertions to source loci, and revealed the developmental timing and functional consequences of individual mutations. Donor-specific assemblies uncovered elevated mutation rates within centromeres and segmental duplications inaccessible to standard reference genomes, while haplotype-resolved chromatin and methylation data showed that nongenetically-deterministic epigenetic states are pervasive across tissues. Together, these findings provide an integrated, multi-scale portrait of somatic mosaicism across the human body, establishing a baseline against which its contributions to aging and disease can be measured.
+---
