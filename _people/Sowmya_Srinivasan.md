@@ -17,5 +17,8 @@ social:
   email: sowsrin@umich.edu
 theme_areas:
   - Protamines in sperm
+  - RNA modifications in glioblastoma
+awards:
+  - Career Training in Reproductive Biology (T32)
 ---
 
