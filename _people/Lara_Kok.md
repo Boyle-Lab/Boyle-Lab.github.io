@@ -1,7 +1,8 @@
 ---
 layout: member
 publish: true
-status: current
+status:
+  - current
 name: Lara Kok
 umid: larakok
 position: Master's Student
