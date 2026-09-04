@@ -7,12 +7,14 @@ on:
       - master
     paths:
       - "bibliography/publications.bib"
+      - "publication_metadata/**"
   pull_request:
     branches:
       - main
       - master
     paths:
       - "bibliography/publications.bib"
+      - "publication_metadata/**"
   workflow_dispatch:
 
 concurrency:
