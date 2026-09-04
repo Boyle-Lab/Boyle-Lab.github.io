@@ -1,14 +1,12 @@
-bibkey: SMaHTNetwork2025SomaticMutationP25
+bibkey: SMaHTNetwork2026SomaticMutationP25
 members:
 - apboyle
-- torrin
 - slosh
 - imf
 - crmumm
 - jswitzen
 member_roles:
   apboyle: consortium
-  torrin: consortium
   slosh: consortium
   imf: consortium
   crmumm: consortium
