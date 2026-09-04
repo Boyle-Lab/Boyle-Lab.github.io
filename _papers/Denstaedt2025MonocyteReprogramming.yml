@@ -41,8 +41,8 @@ bibtex: |-
     pdf = {https://www.biorxiv.org/content/10.1101/2025.05.16.654442.full.pdf},
     note = {{PMID:} 40475424},
   }
-status: preprint
-journal: bioRxiv
+status: in_press
+journal: JCI Insight
 doi: 10.1101/2025.05.16.654442
 PMID: '40475424'
 primary_url: https://www.biorxiv.org/content/10.1101/2025.05.16.654442
