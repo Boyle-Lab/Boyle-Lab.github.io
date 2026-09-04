@@ -20,9 +20,12 @@ class WorkflowTests(unittest.TestCase):
         self.assertIn("pull_request", triggers)
         self.assertIn("workflow_dispatch", triggers)
 
-    def test_automatic_runs_are_limited_to_the_bibliography_file(self) -> None:
+    def test_automatic_runs_include_publication_sources(self) -> None:
         triggers = self.workflow["on"]
-        expected_paths = ["bibliography/publications.bib"]
+        expected_paths = [
+            "bibliography/publications.bib",
+            "publication_metadata/**",
+        ]
         self.assertEqual(triggers["push"]["paths"], expected_paths)
         self.assertEqual(triggers["pull_request"]["paths"], expected_paths)
 
