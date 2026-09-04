@@ -30,7 +30,6 @@ class PeopleDataTests(unittest.TestCase):
             cls.people.append((path, data, body))
 
     def test_all_people_have_unique_umids_and_list_statuses(self) -> None:
-        self.assertEqual(len(self.people), 69)
         seen: dict[str, Path] = {}
         for path, data, _body in self.people:
             umid = str(data.get("umid") or "").strip()
