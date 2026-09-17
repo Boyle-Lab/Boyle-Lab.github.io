@@ -13,7 +13,7 @@ This year's IGVF annual meeting was hosted in St. Louis, where we had the opport
 
 <div>
 {% for image in site.static_files %}
-    {% if image.path contains '2026-09-16-IGVF_StLouis' %}
+    {% if image.path contains '2026-09-16-IGVF_StLouis_26' %}
         <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
     {% endif %}
 {% endfor %}
