@@ -1,0 +1,20 @@
+---
+layout: post
+published: true
+title: Rintsen, Alan, and Christopher attend the IGVF Annual Meeting!
+date: '2026-09-16'
+external-url:
+teaser: 2026/rintsen_talk.jpg
+categories:
+- Conferences
+---
+
+This year's IGVF annual meeting was hosted in St. Louis, where we had the opportunity to catch up with collaborators and Rintsen gave two presentations on some of the great work he's doing. Rintsen was also recognized with an award for the work he and others within the consortium are doing. Congrats!
+
+<div>
+{% for image in site.static_files %}
+    {% if image.path contains '2026-09-16-IGVF_StLouis' %}
+        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+    {% endif %}
+{% endfor %}
+</div>
