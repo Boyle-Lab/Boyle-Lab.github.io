@@ -6,7 +6,9 @@ author_list:
 - citation_name: Zhao N
   member_url: /people/Nanxiang_Samuel_Zhao/
   member_name: Nanxiang (Samuel) Zhao, Ph.D.
+  equal_contrib: true
 - citation_name: Sherpa RN
+  equal_contrib: true
 - citation_name: Dong S
   member_url: /people/Shengcheng_Dong/
   member_name: Shengcheng Dong, Ph.D.
@@ -22,7 +24,7 @@ members:
 - apboyle
 bibtex: |-
   @article{Zhao2023OrganSpecificRegulatoryVariants,
-    author = {Zhao, Nanxiang and Sherpa, Rintsen N. and Dong, Shengcheng and Howcroft, Kobe B. and Boyle, Alan P.},
+    author = {*Zhao, Nanxiang and *Sherpa, Rintsen N. and Dong, Shengcheng and Howcroft, Kobe B. and Boyle, Alan P.},
     title = {Organ-specific prioritization and annotation of non-coding regulatory variants in the human genome},
     journal = {bioRxiv},
     year = {2026},

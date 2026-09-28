@@ -7,8 +7,11 @@ author_list:
 - citation_name: McBean B
   member_url: /people/Breanna_McBean/
   member_name: Breanna McBean, Ph.D.
+  equal_contrib: true
 - citation_name: Hauk B
+  equal_contrib: true
 - citation_name: Michmerhuizen AR
+  equal_contrib: true
 - citation_name: Chandler BC
 - citation_name: Pesch AM
 - citation_name: Lerner LM
@@ -35,7 +38,7 @@ members:
 - apboyle
 bibtex: |-
   @article{McBean2026RadiosensitizationARPositiveTNBC,
-    author = {McBean, Breanna and Hauk, Benjamin and Michmerhuizen, Anna R and Chandler, Benjamin C and Pesch, Andrea M and Lerner, Lynn M and Gurdak, Douglas and Ward, Connor and Rana, Priyanka and Zeidane, Reine Abou and Mercer, Vesna and Tao, Mingfang and Hochmuth, Ethan and Jungles, Kassidy M and The, Stephanie and Liu, Meilan and Spratt, Daniel E and Boyle, Alan P and Pierce, Lori J and Speers, Corey W},
+    author = {*McBean, Breanna and *Hauk, Benjamin and *Michmerhuizen, Anna R and Chandler, Benjamin C and Pesch, Andrea M and Lerner, Lynn M and Gurdak, Douglas and Ward, Connor and Rana, Priyanka and Zeidane, Reine Abou and Mercer, Vesna and Tao, Mingfang and Hochmuth, Ethan and Jungles, Kassidy M and The, Stephanie and Liu, Meilan and Spratt, Daniel E and Boyle, Alan P and Pierce, Lori J and Speers, Corey W},
     title = {{Transcriptomic analysis to uncover the mechanism of radiosensitization of {AR-positive} triple-negative breast cancers with AR inhibition}},
     journal = {npj Breast Cancer},
     volume = {12},
