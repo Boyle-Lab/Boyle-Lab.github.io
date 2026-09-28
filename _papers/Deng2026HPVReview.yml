@@ -1,0 +1,59 @@
+---
+generated: true
+bibkey: Deng2026HPVReview
+title: Challenges in the detection and assembly of virus integration structures in human genomes
+author_list:
+- citation_name: Deng X
+- citation_name: Du X
+- citation_name: Gensterblum-Miller E
+- citation_name: Currie J
+- citation_name: Majchrowski BK
+- citation_name: Lialios P
+- citation_name: Bhangale A
+- citation_name: Spector ME
+- citation_name: Boyle AP
+  member_url: /people/Alan_Boyle/
+  member_name: Alan P. Boyle, Ph.D.
+- citation_name: Brenner JC
+  co_senior: true
+- citation_name: Mills RE
+  co_senior: true
+year: 2026
+sort_date: '2026-09-01'
+members:
+- apboyle
+bibtex: "@article {Deng2026HPVReview,\n\tauthor = {Deng, Xinyi and Du, Xiaomeng and Gensterblum-Miller,\
+  \ Elizabeth and Currie, Jordan and Majchrowski, Behirda Karaj and Lialios, Penelope and Bhangale, Apurva\
+  \ and Spector, Matthew E. and Boyle, Alan P. and {\\dag}Brenner, J. Chad and {\\dag}Mills, Ryan E.},\n\
+  \ttitle = {Challenges in the detection and assembly of virus integration structures in human genomes},\n\
+  \tjournal = {Frontiers in Oncology},\n\tvolume = {16},\n\tyear = {2026},\n    month = {Sep},\n    day\
+  \ = {13},\n\tabstract = {Oncogenic viral infections are major contributors to cancer development worldwide.\
+  \ Tumor-associated viruses such as human papillomavirus (HPV), hepatitis B virus (HBV), Epstein–Barr\
+  \ virus (EBV), and Merkel cell polyomavirus (MCPyV) can promote malignant transformation through diverse\
+  \ mechanisms, including persistent viral gene expression, chronic inflammation, and, in some cases,\
+  \ integration of viral DNA into the host genome. Among these, HPV is one of the most clinically important\
+  \ DNA tumor viruses and is a major driver of cancers of the cervix, anus, penis, vagina, vulva, and\
+  \ oropharynx, collectively accounting for over 400,000 deaths annually (1). In infected cells, HPV can\
+  \ persist as episomal DNA or integrate into the host genome. Importantly, HPV integration plays an important\
+  \ role in tumorigenesis and often generates complex viral–host genomic rearrangements that are difficult\
+  \ to resolve using conventional short-read sequencing approaches. Long-read sequencing technologies\
+  \ offer new opportunities to reconstruct these intricate integration structures, but the performance\
+  \ of existing assembly strategies remains incompletely evaluated. In this study, we systematically review\
+  \ sequencing platforms and their application for detecting structural variants and evaluate long-read\
+  \ assembly tools for reconstructing HPV integration structures. Using three synthetic Oxford Nanopore\
+  \ DNA sequencing datasets representing different levels of integration complexity together with the\
+  \ UMSCC47 cell line as an authentic long-read sequencing dataset, we assess whether structural-variant\
+  \ detection methods and genome assembly can accurately identify complex integration structures, particularly\
+  \ under conditions of high copy number and structural rearrangement. Our results provide practical guidance\
+  \ for selecting sequencing technologies and computational approaches for viral integration detection\
+  \ and structural resolution, enabling a more comprehensive understanding of virus-driven genome remodeling\
+  \ in cancer.},\n\tdoi = {10.3389/fonc.2026.1925720},\n\turl = {https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2026.1925720},\n\
+  \tpdf = {https://boylelab.org/pubs/Frontiers_in_Oncology_2026_Deng.pdf},\n}"
+journal: Frontiers in Oncology
+volume: '16'
+doi: 10.3389/fonc.2026.1925720
+primary_url: https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2026.1925720
+pdf: https://boylelab.org/pubs/Frontiers_in_Oncology_2026_Deng.pdf
+abstract: |-
+  Oncogenic viral infections are major contributors to cancer development worldwide. Tumor-associated viruses such as human papillomavirus (HPV), hepatitis B virus (HBV), Epstein–Barr virus (EBV), and Merkel cell polyomavirus (MCPyV) can promote malignant transformation through diverse mechanisms, including persistent viral gene expression, chronic inflammation, and, in some cases, integration of viral DNA into the host genome. Among these, HPV is one of the most clinically important DNA tumor viruses and is a major driver of cancers of the cervix, anus, penis, vagina, vulva, and oropharynx, collectively accounting for over 400,000 deaths annually (1). In infected cells, HPV can persist as episomal DNA or integrate into the host genome. Importantly, HPV integration plays an important role in tumorigenesis and often generates complex viral–host genomic rearrangements that are difficult to resolve using conventional short-read sequencing approaches. Long-read sequencing technologies offer new opportunities to reconstruct these intricate integration structures, but the performance of existing assembly strategies remains incompletely evaluated. In this study, we systematically review sequencing platforms and their application for detecting structural variants and evaluate long-read assembly tools for reconstructing HPV integration structures. Using three synthetic Oxford Nanopore DNA sequencing datasets representing different levels of integration complexity together with the UMSCC47 cell line as an authentic long-read sequencing dataset, we assess whether structural-variant detection methods and genome assembly can accurately identify complex integration structures, particularly under conditions of high copy number and structural rearrangement. Our results provide practical guidance for selecting sequencing technologies and computational approaches for viral integration detection and structural resolution, enabling a more comprehensive understanding of virus-driven genome remodeling in cancer.
+---

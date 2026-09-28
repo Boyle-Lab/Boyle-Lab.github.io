@@ -14,7 +14,7 @@ members:
 - jswitzen
 bibtex: "@article {SMaHTNetwork2026SomaticMutationP25,\n\tauthor = {{The Somatic Mosaicism across Human\
   \ Tissues Network}},\n\ttitle = {Integrated map of somatic mosaicism across human tissues in 25 individuals},\n\
-  \tjournal = {bioRxiv}\n\tyear = {2026},\n    month = {Sep},\n    day = {1},\n\tabstract = {Although\
+  \tjournal = {bioRxiv},\n\tyear = {2026},\n    month = {Sep},\n    day = {1},\n\tabstract = {Although\
   \ all cells in the body descend from one genome, they accumulate distinct genetic and epigenetic changes\
   \ over a lifetime, producing a mosaic of somatic variation that can shape development, aging, and disease.\
   \ This mosaicism is often studied in isolation, leaving unclear how these forms relate within and between\
