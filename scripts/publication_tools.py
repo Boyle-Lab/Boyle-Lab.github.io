@@ -9,7 +9,6 @@ bibliography, including nested braces, quoted values, and ``#`` concatenation.
 """
 
 from __future__ import annotations
-
 from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
@@ -34,7 +33,6 @@ class BibEntry:
     raw: str
     source: Path | None = None
 
-
 @dataclass(slots=True)
 class Person:
     umid: str
@@ -48,7 +46,6 @@ class Person:
 class BuildMessage:
     level: str
     message: str
-
 
 MONTHS: dict[str, int] = {
     "jan": 1,
@@ -76,7 +73,6 @@ MONTHS: dict[str, int] = {
     "dec": 12,
     "december": 12,
 }
-
 CORPORATE_AUTHOR_WORDS = {
     "consortium",
     "group",
@@ -88,19 +84,15 @@ CORPORATE_AUTHOR_WORDS = {
     "committee",
     "working group",
 }
-
 NON_BYLINE_MEMBER_ROLES = {"consortium", "contributor", "group_author", "non_byline"}
 VALID_STATUSES = {"published", "preprint", "in_press"}
 VALID_PUBLICATION_TYPES = {"article", "chapter", "conference"}
 SAFE_BIBKEY_PATTERN = re.compile(r"^[A-Za-z][A-Za-z0-9]*$")
 DEPRECATED_METADATA_FIELDS = {"slug", "legacy_bibkeys"}
 DEPRECATED_PERSON_FIELDS = {"publication_names", "author_aliases"}
-
-
 # ---------------------------------------------------------------------------
 # YAML/front-matter utilities
 # ---------------------------------------------------------------------------
-
 
 def load_yaml_file(path: Path) -> dict[str, Any]:
     """Load either plain YAML or a Jekyll front-matter document."""
@@ -118,11 +110,9 @@ def load_yaml_file(path: Path) -> dict[str, Any]:
         raise PublicationError(f"Expected a YAML mapping in {path}")
     return data
 
-
 def load_people(people_dir: Path) -> tuple[dict[str, Person], list[BuildMessage]]:
     people: dict[str, Person] = {}
     messages: list[BuildMessage] = []
-
     for path in sorted(people_dir.glob("*.md")):
         data = load_yaml_file(path)
         deprecated = sorted(DEPRECATED_PERSON_FIELDS.intersection(data))
@@ -136,7 +126,6 @@ def load_people(people_dir: Path) -> tuple[dict[str, Person], list[BuildMessage]
         if not umid:
             messages.append(BuildMessage("warning", f"{path}: missing umid; ignored for publication matching"))
             continue
-
         name = str(data.get("name") or path.stem.replace("_", " ")).strip()
         publish = bool(data.get("publish", True))
         configured_url = str(data.get("permalink") or "").strip()
@@ -147,7 +136,6 @@ def load_people(people_dir: Path) -> tuple[dict[str, Person], list[BuildMessage]
                 f"Duplicate umid '{umid}' in {other.source} and {path}. "
                 "Each Michigan umid must identify one canonical _people record."
             )
-
         people[umid] = Person(
             umid=umid,
             name=name,
@@ -164,7 +152,6 @@ def load_metadata(metadata_dir: Path) -> tuple[dict[str, dict[str, Any]], list[B
     messages: list[BuildMessage] = []
     if not metadata_dir.exists():
         return metadata, messages
-
     for path in sorted(metadata_dir.glob("*.yml")) + sorted(metadata_dir.glob("*.yaml")):
         data = load_yaml_file(path)
         deprecated = sorted(DEPRECATED_METADATA_FIELDS.intersection(data))
@@ -184,8 +171,6 @@ def load_metadata(metadata_dir: Path) -> tuple[dict[str, dict[str, Any]], list[B
         data["_source"] = path
         metadata[key] = data
     return metadata, messages
-
-
 # ---------------------------------------------------------------------------
 # BibTeX parser
 # ---------------------------------------------------------------------------
@@ -198,7 +183,6 @@ def _is_escaped(text: str, index: int) -> bool:
         backslashes += 1
         index -= 1
     return bool(backslashes % 2)
-
 
 def _scan_balanced(text: str, start: int, opener: str, closer: str) -> int:
     """Return the index just after the balanced region beginning at start."""
@@ -221,7 +205,6 @@ def _scan_balanced(text: str, start: int, opener: str, closer: str) -> int:
         i += 1
     raise PublicationError(f"Unclosed BibTeX entry beginning near character {start}")
 
-
 def _split_first_top_level_comma(content: str) -> tuple[str, str]:
     brace_depth = 0
     in_quote = False
@@ -237,11 +220,9 @@ def _split_first_top_level_comma(content: str) -> tuple[str, str]:
                 return content[:i], content[i + 1 :]
     raise PublicationError("BibTeX entry is missing the comma after its citation key")
 
-
 def _parse_braced_value(text: str, start: int) -> tuple[str, int]:
     end = _scan_balanced(text, start, "{", "}")
     return text[start + 1 : end - 1], end
-
 
 def _parse_quoted_value(text: str, start: int) -> tuple[str, int]:
     i = start + 1
@@ -258,7 +239,6 @@ def _parse_quoted_value(text: str, start: int) -> tuple[str, int]:
         value.append(ch)
         i += 1
     raise PublicationError("Unclosed quoted BibTeX value")
-
 
 def _parse_bare_value(text: str, start: int) -> tuple[str, int]:
     i = start
@@ -277,7 +257,6 @@ def _parse_fields(body: str) -> dict[str, str]:
             i += 1
         if i >= length:
             break
-
         name_start = i
         while i < length and (body[i].isalnum() or body[i] in "_-:"):
             i += 1
@@ -285,13 +264,11 @@ def _parse_fields(body: str) -> dict[str, str]:
         if not field_name:
             snippet = body[i : i + 80].replace("\n", " ")
             raise PublicationError(f"Could not parse BibTeX field near: {snippet}")
-
         while i < length and body[i].isspace():
             i += 1
         if i >= length or body[i] != "=":
             raise PublicationError(f"BibTeX field '{field_name}' is missing '='")
         i += 1
-
         chunks: list[str] = []
         while True:
             while i < length and body[i].isspace():
@@ -305,7 +282,6 @@ def _parse_fields(body: str) -> dict[str, str]:
             else:
                 chunk, i = _parse_bare_value(body, i)
             chunks.append(chunk)
-
             while i < length and body[i].isspace():
                 i += 1
             if i < length and body[i] == "#":
@@ -320,7 +296,6 @@ def _parse_fields(body: str) -> dict[str, str]:
             i += 1
 
     return fields
-
 
 def parse_bibtex(text: str, source: Path | None = None) -> list[BibEntry]:
     entries: list[BibEntry] = []
@@ -338,7 +313,6 @@ def parse_bibtex(text: str, source: Path | None = None) -> list[BibEntry]:
         raw = text[entry_start:end].strip()
         content = text[open_index + 1 : end - 1].strip()
         i = end
-
         if entry_type in {"comment", "preamble", "string"}:
             continue
         key_text, body = _split_first_top_level_comma(content)
@@ -356,12 +330,10 @@ def parse_bibtex(text: str, source: Path | None = None) -> list[BibEntry]:
         )
     return entries
 
-
 def load_bibliography(bibliography_dir: Path) -> tuple[list[BibEntry], list[Path]]:
     paths = sorted(bibliography_dir.glob("*.bib"))
     if not paths:
         raise PublicationError(f"No .bib files found in {bibliography_dir}")
-
     entries: list[BibEntry] = []
     seen: dict[str, Path | None] = {}
     for path in paths:
@@ -381,12 +353,9 @@ def load_bibliography(bibliography_dir: Path) -> tuple[list[BibEntry], list[Path
             seen[entry.key] = path
             entries.append(entry)
     return entries, paths
-
-
 # ---------------------------------------------------------------------------
 # Text and author normalization
 # ---------------------------------------------------------------------------
-
 
 _LATEX_SIMPLE_REPLACEMENTS: tuple[tuple[str, str], ...] = (
     (r"{\textquoteright}", "’"),
@@ -414,7 +383,6 @@ _LATEX_SIMPLE_REPLACEMENTS: tuple[tuple[str, str], ...] = (
     (r"\texttimes", "×"),
     (r"\ ", " "),
 )
-
 _ACCENTS: dict[str, str] = {
     "'": "\u0301",
     "`": "\u0300",
@@ -431,7 +399,6 @@ _ACCENTS: dict[str, str] = {
     "r": "\u030A",
 }
 
-
 def latex_to_text(value: Any) -> str:
     """Convert common BibTeX/LaTeX text markup to readable Unicode."""
     if value is None:
@@ -439,7 +406,6 @@ def latex_to_text(value: Any) -> str:
     text = html.unescape(str(value)).replace("\u00a0", " ")
     for source, replacement in _LATEX_SIMPLE_REPLACEMENTS:
         text = text.replace(source, replacement)
-
     # Commands whose braces are only presentational.
     wrapper_pattern = re.compile(
         r"\\(?:textit|textbf|emph|mathrm|mathbf|operatorname|textrm|texttt|textsuperscript|textsubscript)\s*\{([^{}]*)\}"
@@ -451,13 +417,11 @@ def latex_to_text(value: Any) -> str:
 
     # TeX accents, with or without braces: \'{e}, \'e, \c{c}, etc.
     accent_pattern = re.compile(r"\\([\'`\"\^~=\.uvHckr])\s*\{?([A-Za-z])\}?")
-
     def replace_accent(match: re.Match[str]) -> str:
         mark = _ACCENTS.get(match.group(1))
         if not mark:
             return match.group(2)
         return unicodedata.normalize("NFC", match.group(2) + mark)
-
     text = accent_pattern.sub(replace_accent, text)
     text = re.sub(r"\\(?:url|href)\{([^{}]*)\}", r"\1", text)
     text = re.sub(r"\\[A-Za-z]+\*?", "", text)
@@ -465,7 +429,6 @@ def latex_to_text(value: Any) -> str:
     text = text.replace("~", " ")
     text = re.sub(r"\s+", " ", text).strip()
     return text
-
 
 def normalize_for_match(value: str) -> str:
     text = latex_to_text(value)
@@ -476,12 +439,10 @@ def normalize_for_match(value: str) -> str:
     text = text.casefold()
     return re.sub(r"[^a-z0-9]+", " ", text).strip()
 
-
 def slugify(value: str) -> str:
     value = normalize_for_match(value).replace(" ", "-")
     value = re.sub(r"-+", "-", value).strip("-")
     return value or hashlib.sha1(str(value).encode("utf-8")).hexdigest()[:12]
-
 
 def split_authors(raw: str) -> list[str]:
     authors: list[str] = []
@@ -503,14 +464,12 @@ def split_authors(raw: str) -> list[str]:
     authors.append(raw[start:].strip())
     return [author for author in authors if author]
 
-
 def _strip_contribution_markers(raw_name: str) -> tuple[str, bool, bool]:
     equal = bool(re.search(r"(^|\s)\*", raw_name))
     senior = bool(re.search(r"\{?\\dag\}?", raw_name))
     cleaned = re.sub(r"\{?\\dag\}?", "", raw_name)
     cleaned = cleaned.replace("*", "")
     return cleaned.strip(), equal, senior
-
 
 def _is_corporate_author(cleaned: str) -> bool:
     normalized = normalize_for_match(cleaned)
@@ -523,7 +482,6 @@ def parse_author(raw_name: str) -> dict[str, Any]:
     cleaned, equal, senior = _strip_contribution_markers(raw_name)
     cleaned_text = latex_to_text(cleaned)
     corporate = _is_corporate_author(cleaned)
-
     family = ""
     given = ""
     if corporate:
@@ -537,7 +495,6 @@ def parse_author(raw_name: str) -> dict[str, Any]:
         elif len(parts) > 1:
             family = parts[-1]
             given = " ".join(parts[:-1])
-
     initials = "".join(
         part[0].upper()
         for part in re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ]+", given)
@@ -545,7 +502,6 @@ def parse_author(raw_name: str) -> dict[str, Any]:
     )
     citation_name = family if corporate else f"{family} {initials}".strip()
     full_name = family if corporate else f"{given} {family}".strip()
-
     return {
         "raw": raw_name,
         "family": family,
@@ -562,7 +518,6 @@ def parse_author(raw_name: str) -> dict[str, Any]:
 def parse_authors(raw: str) -> list[dict[str, Any]]:
     return [parse_author(name) for name in split_authors(raw)]
 
-
 def _name_signature(name: str) -> tuple[str, str, str]:
     parsed = parse_author(name)
     family = normalize_for_match(parsed["family"]).replace(" ", "")
@@ -571,7 +526,6 @@ def _name_signature(name: str) -> tuple[str, str, str]:
     first = given_tokens[0] if given_tokens else ""
     initials = "".join(token[0] for token in given_tokens if token)
     return family, first, initials
-
 
 def person_name_signatures(person: Person) -> list[tuple[str, str, str]]:
     names = [person.name]
@@ -589,14 +543,12 @@ def person_name_signatures(person: Person) -> list[tuple[str, str, str]]:
     # Preserve order while deduplicating.
     return list(dict.fromkeys(signatures))
 
-
 def author_matches_person(author: Mapping[str, Any], person: Person) -> bool:
     author_family = normalize_for_match(str(author.get("family", ""))).replace(" ", "")
     author_given = normalize_for_match(str(author.get("given", "")))
     author_given_tokens = author_given.split()
     author_first = author_given_tokens[0] if author_given_tokens else ""
     author_initials = "".join(token[0] for token in author_given_tokens if token)
-
     for family, first, initials in person_name_signatures(person):
         if not family or family != author_family:
             continue
@@ -609,7 +561,6 @@ def author_matches_person(author: Mapping[str, Any], person: Person) -> bool:
             return True
     return False
 
-
 def attach_members_to_authors(
     authors: list[dict[str, Any]],
     member_ids: Sequence[str],
@@ -617,7 +568,6 @@ def attach_members_to_authors(
     overrides: Mapping[str, Any] | None = None,
 ) -> tuple[list[dict[str, Any]], list[str], list[str]]:
     """Attach member IDs and profile URLs to author records.
-
     Returns ``(authors, matched_member_ids, unmatched_member_ids)``.
     ``overrides`` may map a umid to either a zero-based author index or an
     author-name string.
@@ -630,7 +580,6 @@ def attach_members_to_authors(
         person = people[umid]
         override = overrides.get(umid)
         candidate_indices: list[int] = []
-
         if isinstance(override, int):
             if 0 <= override < len(authors):
                 candidate_indices = [override]
@@ -652,7 +601,6 @@ def attach_members_to_authors(
                 for index, author in enumerate(authors)
                 if author_matches_person(author, person)
             ]
-
         candidate_indices = [index for index in candidate_indices if index not in assigned_indices]
         if len(candidate_indices) == 1:
             index = candidate_indices[0]
@@ -664,10 +612,8 @@ def attach_members_to_authors(
 
     return authors, sorted(matched), [umid for umid in member_ids if umid not in matched]
 
-
 def infer_member_ids(authors: Sequence[Mapping[str, Any]], people: Mapping[str, Person]) -> list[str]:
     """Conservatively infer lab-member authors from current profile names.
-
     This helper is used by the one-time migration and metadata scaffolding.
     The normal build still treats the sidecar ``members`` list as authoritative.
     """
@@ -677,8 +623,6 @@ def infer_member_ids(authors: Sequence[Mapping[str, Any]], people: Mapping[str, 
         if len(matches) == 1:
             inferred.append(umid)
     return inferred
-
-
 # ---------------------------------------------------------------------------
 # Publication record construction
 # ---------------------------------------------------------------------------
@@ -688,7 +632,6 @@ def normalize_doi(value: Any) -> str:
     doi = latex_to_text(value).strip()
     doi = re.sub(r"^https?://(?:dx\.)?doi\.org/", "", doi, flags=re.I)
     return doi.strip().rstrip(".")
-
 
 def extract_pmid(fields: Mapping[str, str], metadata: Mapping[str, Any]) -> str:
     for key in ("pmid", "PMID"):
@@ -700,7 +643,6 @@ def extract_pmid(fields: Mapping[str, str], metadata: Mapping[str, Any]) -> str:
     match = re.search(r"PMID\s*:?\s*(\d+)", note, flags=re.I)
     return match.group(1) if match else ""
 
-
 def parse_month(value: Any) -> int:
     text = latex_to_text(value).strip().casefold()
     if not text:
@@ -709,7 +651,6 @@ def parse_month(value: Any) -> int:
         month = int(text)
         return month if 1 <= month <= 12 else 1
     return MONTHS.get(text, MONTHS.get(text[:3], 1))
-
 
 def publication_sort_date(fields: Mapping[str, str], metadata: Mapping[str, Any]) -> str:
     explicit = metadata.get("date") or fields.get("date")
@@ -721,7 +662,6 @@ def publication_sort_date(fields: Mapping[str, str], metadata: Mapping[str, Any]
     year_text = latex_to_text(metadata.get("year") or fields.get("year") or "0")
     match = re.search(r"\d{4}", year_text)
     year = int(match.group()) if match else 0
-
     # Preprint URLs usually expose the posting/version date even when the
     # BibTeX record has no month. Prefer that over a DOI whose embedded date
     # may refer to an earlier manuscript version.
@@ -730,20 +670,27 @@ def publication_sort_date(fields: Mapping[str, str], metadata: Mapping[str, Any]
         url_match = re.search(r"/(20\d{2})/(0?[1-9]|1[0-2])/(0?[1-9]|[12]\d|3[01])(?:/|$)", url_text)
         if url_match:
             return date(int(url_match.group(1)), int(url_match.group(2)), int(url_match.group(3))).isoformat()
-
     # bioRxiv-style DOIs and keys often contain YYYY.MM.DD. Use the date only
     # when it agrees with the bibliographic year.
     for candidate in (metadata.get("doi"), fields.get("doi")):
         candidate_text = latex_to_text(candidate or "")
-        doi_match = re.search(r"(20\d{2})[.-](0?[1-9]|1[0-2])[.-](0?[1-9]|[12]\d|3[01])", candidate_text)
+        doi_match = re.search(r"(20\d{2})[.-](0?[1-9]|1[0-2])[.-](0?[1-9]|[12]\d|3[01])(?!\d)", candidate_text)
         if doi_match and (year <= 0 or int(doi_match.group(1)) == year):
             return date(int(doi_match.group(1)), int(doi_match.group(2)), int(doi_match.group(3))).isoformat()
-
     month = parse_month(metadata.get("month") or fields.get("month"))
     if year <= 0:
         return "0000-01-01"
-    return date(year, month, 1).isoformat()
-
+    # Preserve a supplied day; default to the first only when no day is given.
+    day_text = latex_to_text(metadata.get("day"))
+    if not day_text:
+        day_text = latex_to_text(fields.get("day"))
+    try:
+        day = int(day_text) if day_text else 1
+        return date(year, month, day).isoformat()
+    except ValueError as exc:
+        raise PublicationError(
+            f"Invalid publication date: year={year}, month={month}, day={day_text!r}"
+        ) from exc
 
 def infer_status(entry: BibEntry, metadata: Mapping[str, Any]) -> str:
     if metadata.get("status"):
@@ -756,7 +703,6 @@ def infer_status(entry: BibEntry, metadata: Mapping[str, Any]) -> str:
         return "preprint"
     return "published"
 
-
 def infer_publication_type(entry: BibEntry, metadata: Mapping[str, Any]) -> str:
     if metadata.get("publication_type"):
         return re.sub(r"[\s-]+", "_", str(metadata["publication_type"]).strip().lower())
@@ -765,7 +711,6 @@ def infer_publication_type(entry: BibEntry, metadata: Mapping[str, Any]) -> str:
     if entry.entry_type in {"inproceedings", "conference", "proceedings"}:
         return "conference"
     return "article"
-
 
 def _metadata_links(metadata: Mapping[str, Any]) -> dict[str, Any]:
     links = metadata.get("links") or {}
@@ -783,7 +728,6 @@ def _safe_list(value: Any) -> list[Any]:
         return list(value)
     return [value]
 
-
 def _publication_author_record(author: Mapping[str, Any]) -> dict[str, Any]:
     """Return only the author fields consumed by the Liquid templates."""
     record: dict[str, Any] = {"citation_name": str(author["citation_name"])}
@@ -797,14 +741,12 @@ def _publication_author_record(author: Mapping[str, Any]) -> dict[str, Any]:
         record["co_senior"] = True
     return record
 
-
 def build_publication_record(
     entry: BibEntry,
     metadata: Mapping[str, Any],
     people: Mapping[str, Person],
 ) -> tuple[dict[str, Any], list[BuildMessage]]:
     """Join one BibTeX record, one sidecar, and the lab-member directory.
-
     The returned mapping is intentionally narrow: it contains only fields used
     by the current Jekyll templates, plus the complete BibTeX entry requested
     for the browsable/downloadable bibliography. Matching fields used during
@@ -812,14 +754,12 @@ def build_publication_record(
     """
     messages: list[BuildMessage] = []
     fields = entry.fields
-
     required = ("author", "title", "year")
     missing = [field for field in required if not fields.get(field) and not metadata.get(field)]
     if missing:
         raise PublicationError(
             f"BibTeX entry '{entry.key}' is missing required field(s): {', '.join(missing)}"
         )
-
     member_ids = [
         str(value).strip()
         for value in _safe_list(metadata.get("members"))
@@ -835,7 +775,6 @@ def build_publication_record(
         raise PublicationError(
             f"{metadata.get('_source')}: duplicate umid in members for '{entry.key}'"
         )
-
     raw_authors = str(metadata.get("author") or fields.get("author") or "")
     authors = parse_authors(raw_authors)
     overrides = metadata.get("author_member_map") or {}
@@ -855,7 +794,6 @@ def build_publication_record(
             f"{metadata.get('_source')}: author_member_map values must be an author name or "
             f"zero-based index (invalid for: {', '.join(invalid_override_values)})"
         )
-
     member_roles_raw = metadata.get("member_roles") or {}
     if not isinstance(member_roles_raw, dict):
         raise PublicationError(f"{metadata.get('_source')}: member_roles must be a mapping")
@@ -880,7 +818,6 @@ def build_publication_record(
             f"{', '.join(invalid_member_roles)}. Allowed values: "
             f"{', '.join(sorted(NON_BYLINE_MEMBER_ROLES))}"
         )
-
     authors, _matched_members, unmatched_members = attach_members_to_authors(
         authors, member_ids, people, overrides
     )
@@ -895,7 +832,6 @@ def build_publication_record(
                 "metadata file or a non-byline member_roles value.",
             )
         )
-
     title = latex_to_text(metadata.get("title") or fields.get("title"))
     journal = latex_to_text(
         metadata.get("journal") or fields.get("journal") or fields.get("booktitle")
@@ -904,7 +840,6 @@ def build_publication_record(
     year_match = re.search(r"\d{4}", year_text)
     year = int(year_match.group()) if year_match else 0
     sort_date = publication_sort_date(fields, metadata)
-
     status = infer_status(entry, metadata)
     if status not in VALID_STATUSES:
         raise PublicationError(
@@ -917,7 +852,6 @@ def build_publication_record(
             f"{metadata.get('_source')}: invalid publication_type '{publication_type}' for "
             f"'{entry.key}'. Allowed values: {', '.join(sorted(VALID_PUBLICATION_TYPES))}"
         )
-
     doi = normalize_doi(metadata.get("doi") or fields.get("doi"))
     pmid = extract_pmid(fields, metadata)
     metadata_links = _metadata_links(metadata)
@@ -934,7 +868,6 @@ def build_publication_record(
         or (url if status == "preprint" else "")
     )
     primary_url = url or (f"https://doi.org/{doi}" if doi else pdf or preprint)
-
     # Only site-specific supplemental links belong in the sidecar-derived
     # mapping. Article/PDF/preprint links already have dedicated fields.
     normalized_links: dict[str, Any] = {}
@@ -950,7 +883,6 @@ def build_publication_record(
             normalized_value = latex_to_text(value)
         if normalized_value not in (None, "", []):
             normalized_links[normalized_key] = normalized_value
-
     abstract = latex_to_text(metadata.get("abstract") or fields.get("abstract") or "")
     summary = str(metadata.get("summary") or "").strip()
     topics = [
@@ -959,7 +891,6 @@ def build_publication_record(
         if str(topic).strip()
     ]
     teaser = str(metadata.get("teaser") or "").strip()
-
     record: dict[str, Any] = {
         "generated": True,
         "bibkey": entry.key,
@@ -970,14 +901,12 @@ def build_publication_record(
         "members": member_ids,
         "bibtex": entry.raw,
     }
-
     # Defaults are omitted because Liquid already treats absent values as
     # published journal articles. This keeps every generated file readable.
     if status != "published":
         record["status"] = status
     if publication_type != "article":
         record["publication_type"] = publication_type
-
     optional_values: tuple[tuple[str, Any], ...] = (
         ("journal", journal),
         ("volume", latex_to_text(metadata.get("volume") or fields.get("volume") or "")),
@@ -999,10 +928,7 @@ def build_publication_record(
     for key, value in optional_values:
         if value not in (None, "", [], {}):
             record[key] = value
-
     return record, messages
-
-
 # ---------------------------------------------------------------------------
 # Serialization
 # ---------------------------------------------------------------------------
@@ -1022,7 +948,6 @@ def _literal_presenter(dumper: yaml.Dumper, data: LiteralString) -> yaml.ScalarN
 
 FrontMatterDumper.add_representer(LiteralString, _literal_presenter)
 
-
 def prepare_for_yaml(value: Any) -> Any:
     if isinstance(value, dict):
         return {key: prepare_for_yaml(item) for key, item in value.items()}
@@ -1031,7 +956,6 @@ def prepare_for_yaml(value: Any) -> Any:
     if isinstance(value, str) and ("\n" in value or len(value) > 260):
         return LiteralString(value)
     return value
-
 
 def dump_front_matter(record: Mapping[str, Any]) -> str:
     yaml_text = yaml.dump(
@@ -1044,7 +968,6 @@ def dump_front_matter(record: Mapping[str, Any]) -> str:
     ).rstrip()
     return f"---\n{yaml_text}\n---\n"
 
-
 def dump_plain_yaml(data: Mapping[str, Any]) -> str:
     return yaml.safe_dump(
         data,
@@ -1053,7 +976,6 @@ def dump_plain_yaml(data: Mapping[str, Any]) -> str:
         width=100,
         default_flow_style=False,
     )
-
 
 def combined_bibtex(entries: Sequence[BibEntry]) -> str:
     header = (
