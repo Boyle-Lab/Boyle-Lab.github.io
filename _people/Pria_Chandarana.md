@@ -10,7 +10,7 @@ title: Undergraduate Research Assistant
 picture: Pria_Chandarana.jpg
 dates:
   start: 2026-01-19
-  endL 2025-05-15
+  end: 2026-05-15
 social:
   email: priac@umich.edu
 theme_areas:
