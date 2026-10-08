@@ -6,6 +6,7 @@ status:
 name: Vibhasri Davuluri
 umid: vibhasri
 position: High School Research Assistant
+title: High School Research Assistant
 picture: Vibha_pic.jpg
 dates:
   start: 2019-06-24
