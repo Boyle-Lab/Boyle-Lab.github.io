@@ -1,7 +1,6 @@
 {% include header.html %}
 
 {% include nav.html %}
-
 {% assign is_current = false %}
 {% assign is_phd_alumni = false %}
 {% assign is_alumni = false %}
@@ -10,7 +9,6 @@
 {% if page.status contains "phd_alumni" %}{% assign is_phd_alumni = true %}{% endif %}
 {% if page.status contains "alumni" %}{% assign is_alumni = true %}{% endif %}
 {% if page.status contains "rotation" %}{% assign is_rotation = true %}{% endif %}
-
 <div id="main-wrap">
   <div class="container">
     <div class="wsite-content">
@@ -20,7 +18,6 @@
           <span aria-hidden="true">/</span>
           <span>{{ page.name | escape }}</span>
         </nav>
-
         <header class="member-profile-hero">
           <figure class="member-profile-portrait">
             {% if page.picture %}
@@ -29,7 +26,6 @@
               <img src="/assets/people/placeholder.png" alt="">
             {% endif %}
           </figure>
-
           <div class="member-profile-header-copy">
             <p class="site-page-eyebrow">
               {% if is_current and is_phd_alumni %}
@@ -46,7 +42,6 @@
                 Boyle Lab member
               {% endif %}
             </p>
-
             <h1>{{ page.name | escape }}</h1>
 
             {% assign member_title = page.title | default: page.position %}
@@ -56,7 +51,6 @@
             {% if is_current and page.position and page.position != member_title and page.position != "Staff" %}
               <p class="member-profile-position">{{ page.position | escape }}</p>
             {% endif %}
-
             {% if page.current_position %}
               <section class="member-profile-summary member-profile-current-position" aria-labelledby="member-current-position-heading">
                 <h2 id="member-current-position-heading" class="member-profile-summary-label">Current position</h2>
@@ -74,7 +68,6 @@
                 </p>
               </section>
             {% endif %}
-
             {% assign prior_role_count = page.prior_lab_roles | size %}
             {% if prior_role_count > 0 or is_current or page.dates.start %}
               <section class="member-profile-summary member-profile-history" aria-labelledby="member-profile-history-heading">
@@ -96,7 +89,6 @@
                       </li>
                     {% endfor %}
                   {% endif %}
-
                   {% if is_current %}
                     {% assign current_lab_role = page.position | default: page.title | default: "Lab member" %}
                     {% if page.position == "Staff" and page.title %}
@@ -104,8 +96,30 @@
                     {% endif %}
                     <li class="member-profile-history-current">
                       <strong>{{ current_lab_role | escape }}</strong>
-                      {% if prior_role_count == 0 and page.dates.start %}
-                        since {{ page.dates.start | date: "%B %Y" }}
+                      {% comment %}
+                      Prefer an explicit start date for the current role. Otherwise,
+                      use the latest completed role's end date, independent of list
+                      order. dates.start is the first date in the lab, so use it
+                      only when there are no prior roles.
+                      {% endcomment %}
+                      {% assign current_role_start = page.dates.current_role_start | default: "" | append: "" | strip %}
+                      {% if current_role_start == "" %}
+                        {% if prior_role_count > 0 %}
+                          {% for prior_role in page.prior_lab_roles %}
+                            {% assign prior_role_end = prior_role.end | default: "" | append: "" | strip %}
+                            {% if prior_role_end != "" %}
+                              {% assign prior_role_end = prior_role_end | date: "%Y-%m-%d" %}
+                              {% if current_role_start == "" or prior_role_end > current_role_start %}
+                                {% assign current_role_start = prior_role_end %}
+                              {% endif %}
+                            {% endif %}
+                          {% endfor %}
+                        {% else %}
+                          {% assign current_role_start = page.dates.start | default: "" | append: "" | strip %}
+                        {% endif %}
+                      {% endif %}
+                      {% if current_role_start != "" %}
+                        Since {{ current_role_start | date: "%B %Y" }}
                       {% else %}
                         <span class="member-role-status">Current</span>
                       {% endif %}
@@ -123,43 +137,36 @@
                 </ul>
               </section>
             {% endif %}
-
             {% if page.social.email or page.social.twitter or page.social.github or page.social.google-scholar or page.social.orcid or page.social.linked-in or page.social.website or page.CV %}
               <div class="site-action-links member-profile-links" aria-label="Professional links for {{ page.name | escape }}">
                 {% if page.social.email %}
                   <a href="mailto:{{ page.social.email | escape }}"><i class="fas fa-envelope" aria-hidden="true"></i><span>Email</span></a>
                 {% endif %}
-
                 {% if page.social.github %}
                   {% assign github_url = page.social.github %}
                   {% unless github_url contains "://" %}{% assign github_url = "https://github.com/" | append: github_url %}{% endunless %}
                   <a href="{{ github_url | escape }}"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a>
                 {% endif %}
-
                 {% if page.social.google-scholar %}
                   {% assign scholar_url = page.social.google-scholar %}
                   {% unless scholar_url contains "://" %}{% assign scholar_url = "https://scholar.google.com/citations?user=" | append: scholar_url %}{% endunless %}
                   <a href="{{ scholar_url | escape }}"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a>
                 {% endif %}
-
                 {% if page.social.orcid %}
                   {% assign orcid_url = page.social.orcid %}
                   {% unless orcid_url contains "://" %}{% assign orcid_url = "https://orcid.org/" | append: orcid_url %}{% endunless %}
                   <a href="{{ orcid_url | escape }}"><i class="ai ai-orcid" aria-hidden="true"></i><span>ORCID</span></a>
                 {% endif %}
-
                 {% if page.social.linked-in %}
                   {% assign linkedin_url = page.social.linked-in %}
-                  {% unless linkedin_url contains "://" %}{% assign linkedin_url = "https://www.linkedin.com/in/" | append: linkedin_url %}{% endunless %}
+                  {% unless linkedin_url contains "://" %}{% assign linkedin_url = "https://linkedin.com/in/" | append: linkedin_url %}{% endunless %}
                   <a href="{{ linkedin_url | escape }}"><i class="fab fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
                 {% endif %}
-
                 {% if page.social.twitter %}
                   {% assign twitter_url = page.social.twitter %}
                   {% unless twitter_url contains "://" %}{% assign twitter_url = "https://twitter.com/" | append: twitter_url %}{% endunless %}
                   <a href="{{ twitter_url | escape }}"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twitter</span></a>
                 {% endif %}
-
                 {% if page.social.website %}
                   <a href="{{ page.social.website | escape }}"><i class="fas fa-globe" aria-hidden="true"></i><span>Website</span></a>
                 {% endif %}
@@ -171,7 +178,6 @@
             {% endif %}
           </div>
         </header>
-
         {% assign theme_count = page.theme_areas | size %}
         {% assign training_count = page.previous_training | size %}
         {% assign award_count = page.awards | size %}
@@ -188,7 +194,6 @@
                 </ul>
               </section>
             {% endif %}
-
             {% if training_count > 0 %}
               <section class="member-profile-detail-card" aria-labelledby="member-education">
                 <p class="section-eyebrow">Training</p>
@@ -200,7 +205,6 @@
                 </ul>
               </section>
             {% endif %}
-
             {% if award_count > 0 %}
               <section class="member-profile-detail-card" aria-labelledby="member-awards">
                 <p class="section-eyebrow">Recognition</p>
@@ -214,7 +218,6 @@
             {% endif %}
           </div>
         {% endif %}
-
         {% assign cleancontent = content | strip %}
         {% if cleancontent != "" %}
           <section class="member-profile-section member-profile-background" aria-labelledby="member-background-heading">
@@ -227,7 +230,6 @@
             </div>
           </section>
         {% endif %}
-
         {% assign member = page.umid %}
         {% assign member_papers = site.array %}
         {% for paper in site.papers %}
@@ -235,7 +237,6 @@
             {% assign member_papers = member_papers | push: paper %}
           {% endif %}
         {% endfor %}
-
         {% assign paper_count = member_papers | size %}
         {% if paper_count > 0 %}
           {% assign sorted_papers = member_papers | sort: "sort_date" | reverse %}
@@ -258,5 +259,4 @@
     </div>
   </div><!-- end container -->
 </div><!-- end main-wrap -->
-
 {% include footer.html %}
