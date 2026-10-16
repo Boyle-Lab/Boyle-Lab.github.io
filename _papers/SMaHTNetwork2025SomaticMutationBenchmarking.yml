@@ -27,12 +27,13 @@ bibtex: |-
     pdf = {https://www.biorxiv.org/content/10.1101/2025.10.09.678885.full.pdf},
     note = {{PMID:} 41279200},
   }
-status: in_press
-journal: Cell
+status: preprint
+journal: bioRxiv
 doi: 10.1101/2025.10.09.678885
 PMID: '41279200'
 primary_url: https://www.biorxiv.org/content/10.1101/2025.10.09.678885
 pdf: https://www.biorxiv.org/content/10.1101/2025.10.09.678885.full.pdf
+biorxiv: https://www.biorxiv.org/content/10.1101/2025.10.09.678885
 member_roles:
   apboyle: consortium
   torrin: consortium
