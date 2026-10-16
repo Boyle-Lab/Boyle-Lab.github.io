@@ -26,8 +26,8 @@ bibtex: "@article {Deng2026HPVReview,\n\tauthor = {Deng, Xinyi and Du, Xiaomeng 
   \ Elizabeth and Currie, Jordan and Majchrowski, Behirda Karaj and Lialios, Penelope and Bhangale, Apurva\
   \ and Spector, Matthew E. and Boyle, Alan P. and {\\dag}Brenner, J. Chad and {\\dag}Mills, Ryan E.},\n\
   \ttitle = {Challenges in the detection and assembly of virus integration structures in human genomes},\n\
-  \tjournal = {Frontiers in Oncology},\n\tvolume = {16},\n  pages = {1925720},\n\tyear = {2026},\n  month\
-  \ = {Sep},\n  day = {13},\n\tabstract = {Oncogenic viral infections are major contributors to cancer\
+  \tjournal = {Frontiers in Oncology},\n\tvolume = {16},\n\tpages = {1925720},\n\tyear = {2026},\n\tmonth\
+  \ = {Sep},\n\tday = {13},\n\tabstract = {Oncogenic viral infections are major contributors to cancer\
   \ development worldwide. Tumor-associated viruses such as human papillomavirus (HPV), hepatitis B virus\
   \ (HBV), Epstein–Barr virus (EBV), and Merkel cell polyomavirus (MCPyV) can promote malignant transformation\
   \ through diverse mechanisms, including persistent viral gene expression, chronic inflammation, and,\
@@ -48,7 +48,7 @@ bibtex: "@article {Deng2026HPVReview,\n\tauthor = {Deng, Xinyi and Du, Xiaomeng 
   \ for selecting sequencing technologies and computational approaches for viral integration detection\
   \ and structural resolution, enabling a more comprehensive understanding of virus-driven genome remodeling\
   \ in cancer.},\n\tdoi = {10.3389/fonc.2026.1925720},\n\turl = {https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2026.1925720},\n\
-  \tpdf = {https://boylelab.org/pubs/Frontiers_in_Oncology_2026_Deng.pdf},\n  note = {{PMID:} 42807781},\n\
+  \tpdf = {https://boylelab.org/pubs/Frontiers_in_Oncology_2026_Deng.pdf},\n\tnote = {{PMID:} 42807781},\n\
   }"
 journal: Frontiers in Oncology
 volume: '16'
