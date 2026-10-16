@@ -8,7 +8,6 @@ year: 2026
 sort_date: '2026-10-16'
 members:
 - apboyle
-- torrin
 - slosh
 - imf
 - crmumm
@@ -39,7 +38,6 @@ primary_url: https://www.cell.com/cell/fulltext/S0092-8674(26)01135-9
 pdf: https://boylelab.org/pubs/Cell_2026_SMaHT.pdf
 member_roles:
   apboyle: consortium
-  torrin: consortium
   slosh: consortium
   imf: consortium
   crmumm: consortium
