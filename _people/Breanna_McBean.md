@@ -21,7 +21,7 @@ prior_lab_roles:
     start: 2020-08-31
     end: 2026-03-06
   - position: Visiting Scientist
-    start: 202603-07
+    start: 2026-03-07
     end: 2026-10-31
 current_position:
   title: Bioinformatics Research Assistant
