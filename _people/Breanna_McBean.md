@@ -2,7 +2,6 @@
 layout: member
 publish: true
 status:
-  - current
   - phd_alumni
 name: Breanna McBean, Ph.D.
 umid: bmcbean
@@ -16,10 +15,18 @@ previous_training:
     info: University of Michigan
 dates:
   start: 2020-08-31
+  end: 2026-10-31
 prior_lab_roles:
   - position: Genetics and Genomics Ph.D. student
     start: 2020-08-31
     end: 2026-03-06
+  - position: Visiting Scientist
+    start: 202603-07
+    end: 2026-10-31
+current_position:
+  title: Bioinformatics Research Assistant
+  organization: Circular Genomics
+  as_of: 2026-11-02
 social:
   email: bmcbean@umich.edu
   github: B-McBean
