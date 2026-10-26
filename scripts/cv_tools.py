@@ -38,6 +38,24 @@ from publication_tools import (
 
 PRINCIPAL_INVESTIGATOR_UMID = "apboyle"
 
+# Use LaTeX's standard list interface: enumitem's enumerate options conflict
+# with the tagged-PDF block implementation. Both bibliographies share the same
+# spacing, and explicit item labels retain their existing publication numbers.
+CV_LIST_BEGIN = r"""\begin{list}{}{%
+    \usecounter{enumi}%
+    \setlength{\leftmargin}{2.7em}%
+    \setlength{\rightmargin}{0pt}%
+    \setlength{\labelsep}{0.55em}%
+    \setlength{\labelwidth}{\dimexpr\leftmargin-\labelsep\relax}%
+    \setlength{\itemindent}{0pt}%
+    \setlength{\listparindent}{0pt}%
+    \setlength{\itemsep}{0.65em}%
+    \setlength{\parsep}{0pt}%
+    \setlength{\topsep}{0.25em}%
+    \setlength{\partopsep}{0pt}%
+}"""
+CV_LIST_END = r"\end{list}"
+
 
 @dataclass(slots=True)
 class CVPublication:
@@ -267,7 +285,7 @@ def render_publications_tex(publications: Sequence[CVPublication]) -> str:
         r"\scriptsize * co-first authorship; \(\dagger\) co-senior authorship; "
         r"\underline{underline} indicates Boyle Lab members",
         r"\end{flushright}",
-        r"\begin{enumerate}[leftmargin=2.7em,labelsep=0.55em,itemsep=0.65em,parsep=0pt,topsep=0.25em]",
+        CV_LIST_BEGIN,
     ]
     publication_count = len(publications)
     for index, publication in enumerate(publications):
@@ -280,7 +298,7 @@ def render_publications_tex(publications: Sequence[CVPublication]) -> str:
             rf"\item[{{[{publication_number}]}}] "
             + format_cv_publication(publication)
         )
-    lines.extend([r"\end{enumerate}", ""])
+    lines.extend([CV_LIST_END, ""])
     return "\n".join(lines)
 
 
@@ -342,12 +360,12 @@ def render_patents_tex(entries: Sequence[BibEntry], people: Mapping[str, Person]
     lines.extend(
         [
             r"\cvsection{Patents}",
-            r"\begin{enumerate}[leftmargin=2.7em,labelsep=0.55em,itemsep=0.65em,parsep=0pt,topsep=0.25em]",
+            CV_LIST_BEGIN,
         ]
     )
     for index, entry in enumerate(entries, start=1):
         lines.append(rf"\item[{{[{index}]}}] " + format_patent(entry, principal))
-    lines.extend([r"\end{enumerate}", ""])
+    lines.extend([CV_LIST_END, ""])
     return "\n".join(lines)
 
 

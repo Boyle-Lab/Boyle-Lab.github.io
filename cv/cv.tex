@@ -5,7 +5,7 @@
     testphase=phase-III
 }
 \documentclass[10pt]{article}
-\usepackage{array, fancyhdr, multirow, longtable, enumitem, needspace, lastpage, xcolor}
+\usepackage{array, fancyhdr, multirow, longtable, needspace, lastpage, xcolor}
 \usepackage[top=0.5in, bottom=1in, left=0.75in, right=0.75in]{geometry}
 
 \definecolor{MichiganBlue}{HTML}{00274C}
@@ -32,7 +32,8 @@
 \setmainfont{Liberation Sans}[Scale=1]
 
 \newcolumntype{L}{>{\raggedleft\scriptsize}p{0.12\textwidth}}
-\newcolumntype{R}{p{0.84\textwidth}}
+% Account for all four column pads and the divider within the text width.
+\newcolumntype{R}{p{\dimexpr0.88\textwidth-4\tabcolsep-0.5pt\relax}}
 \newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
 
 \setlength{\LTpre}{0pt}
