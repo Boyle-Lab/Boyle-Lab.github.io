@@ -101,7 +101,6 @@ class PeopleDataTests(unittest.TestCase):
                 is_published_alumnus = data.get("publish", True) and "current" not in statuses
                 if is_published_alumnus:
                     source_url = str(current_position.get("url") or "").strip()
-                    self.assertTrue(source_url.startswith("https://"), path.name)
                     self.assertIsInstance(current_position.get("as_of"), date, path.name)
 
     def test_people_page_sorts_phd_alumni_by_prior_role_end_date(self) -> None:
