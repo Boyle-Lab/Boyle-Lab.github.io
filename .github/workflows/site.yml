@@ -73,7 +73,6 @@ jobs:
           fi
 
       - name: Commit regenerated publication and CV files
-        if: github.event_name == 'push'
         shell: bash
         run: |
           git add --all -- _papers pub.bib cv/generated assets/ABoyle_CV.pdf
