@@ -141,6 +141,7 @@ class SiteStructureTests(unittest.TestCase):
             "cv/cv.tex",
             "cv/patents.bib",
             "cv/generated/publications.tex",
+            "cv/generated/conference_proceedings.tex",
             "cv/generated/patents.tex",
             "assets/ABoyle_CV.pdf",
             ".github/workflows/site.yml",

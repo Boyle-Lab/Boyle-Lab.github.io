@@ -54,9 +54,10 @@ Generated publication records. Each filename is the stable BibTeX key, for examp
 
 | Path | Ownership | Purpose |
 |---|---|---|
-| `cv/cv.tex` | Authored | CV sections other than the generated publication and patent lists. |
+| `cv/cv.tex` | Authored | CV sections other than the generated publication, conference proceedings, and patent lists. |
 | `cv/patents.bib` | Authored | Patent records not represented in the website publication bibliography. |
-| `cv/generated/publications.tex` | Generated | Full publication list with website-derived author highlighting. |
+| `cv/generated/publications.tex` | Generated | Publication list excluding conference proceedings, with website-derived author highlighting. |
+| `cv/generated/conference_proceedings.tex` | Generated | Conference proceedings with independent numbering, included between Publications and Patents. |
 | `cv/generated/patents.tex` | Generated | Patent list included by `cv/cv.tex`. |
 | `scripts/cv_tools.py` | Code | CV citation formatting and member highlighting built on the publication pipeline. |
 | `scripts/build_cv.py` | Code | Generates CV TeX inputs and optionally compiles `assets/ABoyle_CV.pdf`. |

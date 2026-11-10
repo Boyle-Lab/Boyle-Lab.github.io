@@ -40,6 +40,7 @@ class CVPdfFeatureTests(unittest.TestCase):
             "Professional Service",
             "Teaching and Mentorship",
             "Publications",
+            "Conference Proceedings",
             "Patents",
         ]
 

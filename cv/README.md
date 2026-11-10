@@ -2,6 +2,8 @@
 
 Edit `cv.tex` for CV content and `patents.bib` for patent records. Use `GRANT_AUDIT.md` to maintain the verified dates, titles, and investigator roles for Research Support. Follow the section, research-support, date, and role conventions documented in the repository-level `CV.md`. The publication bibliography and lab-member highlighting are supplied by the website repository.
 
+The generated lists are `generated/publications.tex`, `generated/conference_proceedings.tex`, and `generated/patents.tex`. Conference proceedings appear between Publications and Patents with their own numbering. They remain in the shared publication bibliography and retain their existing website display.
+
 Generated files under `generated/` are created by:
 
 ```bash

@@ -19,6 +19,7 @@ scripts/build_publications.py
         |
         +--> scripts/build_cv.py
                  +--> cv/generated/publications.tex
+                 +--> cv/generated/conference_proceedings.tex
                  +--> assets/ABoyle_CV.pdf
 ```
 
@@ -32,10 +33,11 @@ scripts/build_publications.py
 
 - `_papers/*.yml`: records consumed by Jekyll.
 - `pub.bib`: combined bibliography offered as a website download.
-- `cv/generated/publications.tex`: CV publication list generated from the same records.
+- `cv/generated/publications.tex`: CV publication list generated from the same records, excluding conference proceedings.
+- `cv/generated/conference_proceedings.tex`: independently numbered CV conference proceedings generated from the same records.
 - `assets/ABoyle_CV.pdf`: compiled CV deployed with the site.
 
-Never edit a generated paper file, `pub.bib`, or `cv/generated/publications.tex` directly.
+Never edit a generated paper file, `pub.bib`, or files under `cv/generated/` directly.
 
 ## Citation keys
 
@@ -217,3 +219,5 @@ python3 scripts/build_publications.py --check --strict
 ## CV integration
 
 The CV does not parse a separate bibliography or maintain its own author-name list. `scripts/build_cv.py` uses the validated publication records and the sidecar member mappings. Alan Boyle is bolded by `umid: apboyle`; other byline members are underlined. Non-byline consortium roles remain associated with member pages but are not inserted into the CV author list. See [CV.md](CV.md).
+
+Records classified as `publication_type: conference` appear in a separate Conference Proceedings section in the CV. The main publication list and proceedings each retain newest-first order and count down independently to 1. This CV grouping does not change the website publication records, ordering, or display.

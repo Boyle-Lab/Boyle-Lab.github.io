@@ -15,12 +15,15 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from build_cv import _source_date_epoch, check_outputs  # noqa: E402
 from cv_tools import (  # noqa: E402
+    CVPublication,
     PRINCIPAL_INVESTIGATOR_UMID,
     expected_cv_outputs,
     format_cv_publication,
     load_cv_publications,
+    render_publications_tex,
     tex_escape,
 )
+from publication_tools import build_publication_record, parse_bibtex  # noqa: E402
 
 
 class CVGenerationTests(unittest.TestCase):
@@ -30,21 +33,125 @@ class CVGenerationTests(unittest.TestCase):
         cls.publications, _messages, cls.people = load_cv_publications(ROOT)
         cls.by_key = {publication.entry.key: publication for publication in cls.publications}
         cls.publications_tex = cls.outputs[ROOT / "cv" / "generated" / "publications.tex"]
+        cls.conference_proceedings_tex = cls.outputs[
+            ROOT / "cv" / "generated" / "conference_proceedings.tex"
+        ]
         cls.patents_tex = cls.outputs[ROOT / "cv" / "generated" / "patents.tex"]
 
     def test_generated_cv_sources_are_current_and_complete(self) -> None:
         self.assertEqual(check_outputs(ROOT, self.outputs), [])
-        labels = [
-            int(value)
-            for value in re.findall(
-                r"^\\item\[\{\[(\d+)\]\}\] ",
-                self.publications_tex,
-                flags=re.MULTILINE,
-            )
+        self.assertEqual(self.publication_count, len(self.publications))
+        source = (ROOT / "cv" / "cv.tex").read_text(encoding="utf-8")
+        inputs = [
+            r"\input{generated/publications.tex}",
+            r"\input{generated/conference_proceedings.tex}",
+            r"\input{generated/patents.tex}",
         ]
-        self.assertEqual(labels, list(range(self.publication_count, 0, -1)))
-        self.assertIn(r"\input{generated/publications.tex}", (ROOT / "cv" / "cv.tex").read_text())
-        self.assertIn(r"\input{generated/patents.tex}", (ROOT / "cv" / "cv.tex").read_text())
+        positions = [source.index(value) for value in inputs]
+        self.assertEqual(positions, sorted(positions))
+
+    def test_publication_sections_are_complete_ordered_and_numbered_separately(self) -> None:
+        sections = (
+            (
+                "Publications",
+                self.publications_tex,
+                [p for p in self.publications if p.record.get("publication_type") != "conference"],
+            ),
+            (
+                "Conference Proceedings",
+                self.conference_proceedings_tex,
+                [p for p in self.publications if p.record.get("publication_type") == "conference"],
+            ),
+        )
+        all_citations: list[str] = []
+        for title, source, expected in sections:
+            with self.subTest(section=title):
+                self.assertIn(rf"\cvsection{{{title}}}", source)
+                items = re.findall(
+                    r"^\\item\[\{\[(\d+)\]\}\] (.+)$", source, flags=re.MULTILINE
+                )
+                self.assertEqual(
+                    [int(label) for label, _citation in items],
+                    list(range(len(expected), 0, -1)),
+                )
+                citations = [citation for _label, citation in items]
+                self.assertEqual(citations, [format_cv_publication(p) for p in expected])
+                all_citations.extend(citations)
+        self.assertEqual(len(all_citations), self.publication_count)
+        self.assertCountEqual(
+            all_citations, [format_cv_publication(p) for p in self.publications]
+        )
+        self.assertEqual(len(all_citations), len(set(all_citations)))
+
+    def test_known_proceedings_appear_only_in_their_cv_section(self) -> None:
+        for key in (
+            "Boyle2004ArchaeaRegulatoryElements",
+            "Boyle2003ArchaeaRegulatoryClustering",
+            "Wan2002InteractiveGenomicClustering",
+        ):
+            with self.subTest(bibkey=key):
+                citation = format_cv_publication(self.by_key[key])
+                self.assertIn(citation, self.conference_proceedings_tex)
+                self.assertNotIn(citation, self.publications_tex)
+                self.assertIn(r"\textbf{Boyle AP}", citation)
+
+    def test_pnas_journal_articles_remain_in_the_main_publication_list(self) -> None:
+        pnas = [
+            publication
+            for publication in self.publications
+            if publication.record.get("journal")
+            == "Proceedings of the National Academy of Sciences"
+        ]
+        self.assertTrue(pnas)
+        for publication in pnas:
+            with self.subTest(bibkey=publication.entry.key):
+                citation = format_cv_publication(publication)
+                self.assertIn(citation, self.publications_tex)
+                self.assertNotIn(citation, self.conference_proceedings_tex)
+
+    def test_cv_partition_uses_normalized_types_and_metadata_overrides(self) -> None:
+        for entry_type, override, is_conference in (
+            ("inproceedings", None, True),
+            ("conference", None, True),
+            ("proceedings", None, True),
+            ("article", None, False),
+            ("incollection", None, False),
+            ("article", "conference", True),
+            ("inproceedings", "article", False),
+            ("proceedings", "chapter", False),
+        ):
+            with self.subTest(entry_type=entry_type, override=override):
+                entry = parse_bibtex(
+                    f"@{entry_type}{{Example, author = {{Example, A}}, "
+                    "title = {Example publication}, year = {2026}}"
+                )[0]
+                metadata = {"publication_type": override} if override else {}
+                record, messages = build_publication_record(entry, metadata, {})
+                self.assertEqual(messages, [])
+                publication = CVPublication(entry, record, record["author_list"])
+                with mock.patch(
+                    "cv_tools.load_cv_publications", return_value=([publication], [], {})
+                ), mock.patch("cv_tools.load_patent_entries", return_value=[]):
+                    outputs, _messages, total = expected_cv_outputs(ROOT)
+                self.assertEqual(total, 1)
+                citation = format_cv_publication(publication)
+                main = outputs[ROOT / "cv" / "generated" / "publications.tex"]
+                conference = outputs[
+                    ROOT / "cv" / "generated" / "conference_proceedings.tex"
+                ]
+                selected, empty = (conference, main) if is_conference else (main, conference)
+                self.assertIn(citation, selected)
+                self.assertNotIn(citation, empty)
+                self.assertNotIn(r"\cvsection", empty)
+                self.assertNotIn(r"\begin{list}", empty)
+
+    def test_empty_publication_sections_do_not_render_headings_or_lists(self) -> None:
+        for title in ("Publications", "Conference Proceedings"):
+            with self.subTest(section=title):
+                source = render_publications_tex([], section_title=title)
+                self.assertNotIn(r"\cvsection", source)
+                self.assertNotIn(r"\begin{list}", source)
+                self.assertNotIn(r"\item", source)
 
     def test_author_highlighting_comes_from_website_member_records(self) -> None:
         hmmstr = format_cv_publication(self.by_key["VanDeynze2025HMMSTR"])

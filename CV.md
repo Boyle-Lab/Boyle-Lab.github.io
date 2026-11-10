@@ -1,6 +1,6 @@
 # Curriculum vitae build
 
-Alan Boyle's CV is built inside the website repository so its publication list cannot drift from the Publications page.
+Alan Boyle's CV is built inside the website repository so its citation data cannot drift from the Publications page. The CV groups conference proceedings separately; the website keeps its existing combined publication display.
 
 ## Sources and outputs
 
@@ -19,13 +19,14 @@ cv/patents.bib
 scripts/build_cv.py
         |
         +--> cv/generated/publications.tex
+        +--> cv/generated/conference_proceedings.tex
         +--> cv/generated/patents.tex
         +--> assets/ABoyle_CV.pdf
 ```
 
 ### Authored files
 
-- `cv/cv.tex`: all CV sections except publications and patents.
+- `cv/cv.tex`: all CV sections except the generated publications, conference proceedings, and patents.
 - `cv/patents.bib`: patent citation data, which are not part of the website publication bibliography.
 - `bibliography/publications.bib`: definitive publication citation data shared with the website.
 - `publication_metadata/*.yml`: publication-to-member relationships and publication-specific author mappings.
@@ -33,11 +34,14 @@ scripts/build_cv.py
 
 ### Generated files
 
-- `cv/generated/publications.tex`: reverse-chronological publication list included by `cv/cv.tex`; labels count down from the total number of publications so the oldest publication remains number 1.
+- `cv/generated/publications.tex`: reverse-chronological publication list excluding conference proceedings; labels count down from the number of entries in this section so its oldest publication remains number 1.
+- `cv/generated/conference_proceedings.tex`: reverse-chronological conference proceedings, with a separate count down to 1, included between Publications and Patents.
 - `cv/generated/patents.tex`: numbered patent list included by `cv/cv.tex`.
 - `assets/ABoyle_CV.pdf`: PDF linked from Alan Boyle's profile and deployed with the website.
 
 Do not edit files under `cv/generated/` by hand. They are replaced by the Python generator.
+
+The generator places records with `publication_type: conference` in Conference Proceedings. This type is inferred from BibTeX `@inproceedings`, `@conference`, or `@proceedings` entries, or supplied through the existing `publication_type` sidecar override. Proceedings remain in `bibliography/publications.bib`; no separate bibliography is needed. Both CV publication sections retain the same citation formatting and author highlighting. The proceedings heading is omitted when there are no conference records. Patent numbering is unchanged.
 
 ## CV organization and formatting conventions
 
@@ -68,7 +72,7 @@ The source uses the `needspace` package and nonbreaking long-table rows to keep 
 
 The compiled CV uses Michigan blue (`#00274C`) for major section headings and hyperlinks while retaining black body text. The blue is intentionally dark so links remain legible when the PDF is printed in grayscale.
 
-Every page uses the running header `Updated August 2026` and `Alan P. Boyle | Curriculum Vitae`, with a dynamic `Page N of M` footer. Major sections are generated with `\cvsection`, which keeps headings unnumbered in the printed CV while adding them to the PDF outline. Publications and patents use the same command through `scripts/cv_tools.py`.
+Every page uses the running header `Updated August 2026` and `Alan P. Boyle | Curriculum Vitae`, with a dynamic `Page N of M` footer. Major sections are generated with `\cvsection`, which keeps headings unnumbered in the printed CV while adding them to the PDF outline. Publications, conference proceedings, and patents use the same command through `scripts/cv_tools.py`.
 
 The source also supplies PDF title, author, subject, and keyword metadata. LuaLaTeX enables the current LaTeX tagging layer and declares English (`en-US`) and PDF/UA-1 metadata. The resulting PDF contains a structure tree and is reported as tagged by standard PDF inspection tools. This automated tagging improves screen-reader navigation, but it should not be described as independently certified PDF/UA conformance without a dedicated accessibility audit.
 
@@ -100,7 +104,7 @@ The same mapping then controls both the website link and CV underline.
 
 ## Commands
 
-Generate the two included TeX files without compiling the PDF:
+Generate the three included TeX files without compiling the PDF:
 
 ```bash
 make cv-source
@@ -146,9 +150,9 @@ The GitHub Actions workflow installs these packages automatically.
 
 ## GitHub deployment
 
-The site workflow runs automatically when `bibliography/publications.bib` changes and can also be started manually. It regenerates the website publication records, generates and compiles the CV, runs all tests, commits generated publication/CV outputs after a direct push, builds Jekyll, and deploys the site. Pull requests compare the deterministic YAML, BibTeX, and generated TeX outputs; they still compile the PDF to detect LuaLaTeX or tagging failures without requiring the binary PDF to match local build-date metadata.
+The site workflow runs automatically when `bibliography/publications.bib` or files under `publication_metadata/` change and can also be started manually. It regenerates the website publication records, generates and compiles the CV, runs all tests, commits generated publication/CV outputs after a direct push, builds Jekyll, and deploys the site. Pull requests compare the deterministic YAML, BibTeX, and generated TeX outputs; they still compile the PDF to detect LuaLaTeX or tagging failures without requiring the binary PDF to match local build-date metadata.
 
-Because the automatic trigger is intentionally limited to `bibliography/publications.bib`, use **Run workflow** after changing only `cv/cv.tex`, `cv/patents.bib`, `_people`, or `publication_metadata` if an immediate CV rebuild and deployment is needed.
+Because the automatic trigger is limited to those publication sources, use **Run workflow** after changing only `cv/cv.tex`, `cv/patents.bib`, `_people`, or the CV generation scripts if an immediate CV rebuild and deployment is needed.
 
 ## Legacy CV repository
 
