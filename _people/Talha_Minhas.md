@@ -9,7 +9,7 @@ title: University of Michigan Neuroscience
 picture: Talha_Minhas.jpg
 previous_training:
 dates:
-  start: 10/30/26
+  start: 2026-10-30
   end:
 social:
   google-scholar:
